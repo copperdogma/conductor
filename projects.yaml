@@ -1,0 +1,47 @@
+version: 1
+projects:
+  - key: dossier
+    name: Dossier
+    path: /Users/cam/Documents/Projects/dossier
+    role: primary innovation lane for harness and document workflows
+    comparison_surfaces:
+      - AGENTS.md
+      - docs/ideal.md
+      - docs/spec.md
+      - .agents/skills
+      - docs/stories
+      - docs/decisions
+  - key: storybook
+    name: Storybook
+    path: /Users/cam/Documents/Projects/Storybook
+    role: product-specific storytelling and lifecycle workflow
+    comparison_surfaces:
+      - AGENTS.md
+      - docs/ideal.md
+      - docs/spec.md
+      - .agents/skills
+      - docs/stories
+      - docs/decisions
+  - key: doc-web
+    name: Doc Web
+    path: /Users/cam/Documents/Projects/doc-web
+    role: document-to-html and intake pipeline project
+    comparison_surfaces:
+      - AGENTS.md
+      - docs/ideal.md
+      - docs/spec.md
+      - .agents/skills
+      - docs/stories
+      - docs/decisions
+  - key: cine-forge
+    name: CineForge
+    path: /Users/cam/Documents/Projects/cine-forge
+    role: film pipeline and previz product
+    comparison_surfaces:
+      - AGENTS.md
+      - docs/ideal.md
+      - docs/spec.md
+      - .agents/skills
+      - docs/stories
+      - docs/decisions
+

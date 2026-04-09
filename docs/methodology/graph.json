@@ -1,0 +1,115 @@
+{
+  "categories": [
+    {
+      "key": "registry-routing",
+      "phase": "climb",
+      "spec_ref": "spec:1",
+      "substrate": "exists",
+      "summary": "project registry and inbox surfaces are bootstrapped"
+    },
+    {
+      "key": "alignment",
+      "phase": "climb",
+      "spec_ref": "spec:2",
+      "substrate": "partial",
+      "summary": "first-pass alignment surface exists, but no comparison history yet"
+    },
+    {
+      "key": "scouting",
+      "phase": "climb",
+      "spec_ref": "spec:3",
+      "substrate": "partial",
+      "summary": "scout logs exist, but no detailed missions have been recorded yet"
+    },
+    {
+      "key": "story-prep",
+      "phase": "climb",
+      "spec_ref": "spec:4",
+      "substrate": "partial",
+      "summary": "core story loop is scaffolded for supervisor work"
+    },
+    {
+      "key": "memory",
+      "phase": "hold",
+      "spec_ref": "spec:5",
+      "substrate": "exists",
+      "summary": "inbox, scout index, and alignment index are present and lightweight"
+    }
+  ],
+  "logs": {
+    "align_projects": "docs/align-projects.md",
+    "scout": "docs/scout.md"
+  },
+  "project": {
+    "name": "Conductor",
+    "registry": "projects.yaml",
+    "root": "/Users/cam/Documents/Projects/conductor",
+    "state": "docs/methodology/state.yaml"
+  },
+  "stories": [],
+  "story_counts": {
+    "Blocked": 0,
+    "Done": 0,
+    "Draft": 0,
+    "In Progress": 0,
+    "Pending": 0
+  },
+  "tracked_projects": [
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        ".agents/skills",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "dossier",
+      "name": "Dossier",
+      "path": "/Users/cam/Documents/Projects/dossier",
+      "role": "primary innovation lane for harness and document workflows"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        ".agents/skills",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "storybook",
+      "name": "Storybook",
+      "path": "/Users/cam/Documents/Projects/Storybook",
+      "role": "product-specific storytelling and lifecycle workflow"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        ".agents/skills",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "doc-web",
+      "name": "Doc Web",
+      "path": "/Users/cam/Documents/Projects/doc-web",
+      "role": "document-to-html and intake pipeline project"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        ".agents/skills",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "cine-forge",
+      "name": "CineForge",
+      "path": "/Users/cam/Documents/Projects/cine-forge",
+      "role": "film pipeline and previz product"
+    }
+  ]
+}

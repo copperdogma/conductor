@@ -1,0 +1,56 @@
+---
+name: build-story
+description: Execute a Conductor story with explicit planning and evidence
+user-invocable: true
+---
+
+# /build-story [story-number]
+
+Use this to take a Conductor story from story text to implemented supervisor artifact.
+
+## Phase 1 — Explore
+
+1. Read the story.
+2. Read:
+   - `docs/ideal.md`
+   - `docs/spec.md`
+   - `docs/methodology/state.yaml`
+   - `docs/methodology/graph.json`
+   - relevant decision refs
+3. Verify that the work really belongs in Conductor and is not better executed directly in a target project first.
+4. Add a work-log entry describing:
+   - files to change
+   - tracked projects affected
+   - risks
+   - expected evidence
+
+## Phase 2 — Plan
+
+Write `## Plan` in the story with:
+
+- the concrete file changes
+- the expected outputs
+- what should be inspected manually
+- which checks need to run
+
+Pause for user approval before implementation.
+
+## Phase 3 — Implement
+
+1. Set the story to `In Progress`.
+2. Implement the planned changes.
+3. Run the narrowest honest checks:
+   - `make methodology-compile`
+   - `make methodology-check`
+   - `make lint`
+   - `make skills-check` if skill files changed
+   - `make test` if scripts or repo checks changed
+4. Update the work log with concrete evidence.
+5. Leave the story `In Progress` with `Build complete` checked and recommend `/validate`.
+
+## Guardrails
+
+- Do not implement before the human gate.
+- Supervisor outputs must be inspectable artifacts, not just chat summaries.
+- Do not call cross-project sync complete until the affected projects have their own applied work or explicit queued follow-up.
+

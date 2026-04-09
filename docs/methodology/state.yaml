@@ -1,0 +1,36 @@
+last_updated: 2026-04-09
+project:
+  name: Conductor
+  mission: supervisor project for cross-project alignment, scouting, and work preparation
+categories:
+  registry-routing:
+    spec_ref: spec:1
+    substrate: exists
+    phase: climb
+    summary: project registry and inbox surfaces are bootstrapped
+  alignment:
+    spec_ref: spec:2
+    substrate: partial
+    phase: climb
+    summary: first-pass alignment surface exists, but no comparison history yet
+  scouting:
+    spec_ref: spec:3
+    substrate: partial
+    phase: climb
+    summary: scout logs exist, but no detailed missions have been recorded yet
+  story-prep:
+    spec_ref: spec:4
+    substrate: partial
+    phase: climb
+    summary: core story loop is scaffolded for supervisor work
+  memory:
+    spec_ref: spec:5
+    substrate: exists
+    phase: hold
+    summary: inbox, scout index, and alignment index are present and lightweight
+tracked_projects:
+  source: projects.yaml
+notes:
+  - Conductor is intentionally recommendation-first.
+  - Distributed methodology drift is expected; only unexplained drift is suspicious.
+
