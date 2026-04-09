@@ -8,17 +8,33 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - docs/methodology-ideal-spec-compromise.md
+      - docs/methodology/state.yaml
+      - docs/methodology/graph.json
+      - docs/build-map.md
+      - docs/setup-checklist.md
+      - docs/runbooks/setup-methodology.md
+      - docs/scout.md
+      - docs/scout
       - .agents/skills
       - docs/stories
       - docs/decisions
   - key: storybook
     name: Storybook
-    path: /Users/cam/Documents/Projects/Storybook
+    path: /Users/cam/Documents/Projects/Storybook/storybook
     role: product-specific storytelling and lifecycle workflow
     comparison_surfaces:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - docs/methodology-ideal-spec-compromise.md
+      - docs/methodology/state.yaml
+      - docs/methodology/graph.json
+      - docs/build-map.md
+      - docs/setup-checklist.md
+      - docs/runbooks/setup-methodology.md
+      - docs/scout.md
+      - docs/scout
       - .agents/skills
       - docs/stories
       - docs/decisions
@@ -30,6 +46,14 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - docs/methodology-ideal-spec-compromise.md
+      - docs/methodology/state.yaml
+      - docs/methodology/graph.json
+      - docs/build-map.md
+      - docs/setup-checklist.md
+      - docs/runbooks/setup-methodology.md
+      - docs/scout.md
+      - docs/scout
       - .agents/skills
       - docs/stories
       - docs/decisions
@@ -41,7 +65,14 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - docs/methodology-ideal-spec-compromise.md
+      - docs/methodology/state.yaml
+      - docs/methodology/graph.json
+      - docs/build-map.md
+      - docs/setup-checklist.md
+      - docs/runbooks/setup-methodology.md
+      - docs/scout.md
+      - docs/scout
       - .agents/skills
       - docs/stories
       - docs/decisions
-

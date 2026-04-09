@@ -42,7 +42,7 @@ Path: `/Users/cam/Documents/Projects/dossier`
 
 ## Storybook
 
-Path: `/Users/cam/Documents/Projects/Storybook`
+Path: `/Users/cam/Documents/Projects/Storybook/storybook`
 
 - [ ] Check Storybook lifecycle and story-template changes for reusable supervisor recommendations.
 
@@ -57,4 +57,3 @@ Path: `/Users/cam/Documents/Projects/doc-web`
 Path: `/Users/cam/Documents/Projects/cine-forge`
 
 - [ ] Track project-specific scouting and infrastructure drift that may need cross-project review.
-

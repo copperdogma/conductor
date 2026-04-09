@@ -13,6 +13,14 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
 - `AGENTS.md`
 - `docs/ideal.md`
 - `docs/spec.md`
+- `docs/methodology-ideal-spec-compromise.md`
+- `docs/methodology/state.yaml`
+- `docs/methodology/graph.json`
+- `docs/build-map.md`
+- `docs/setup-checklist.md`
+- `docs/runbooks/setup-methodology.md`
+- `docs/scout.md`
+- `docs/scout/`
 - `docs/decisions/`
 - `.agents/skills/`
 - story templates
@@ -51,4 +59,3 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
 - Do not force exact textual identity.
 - Do not treat local product-specific adaptation as accidental drift by default.
 - When methodology intent truly conflicts, surface it clearly and ask whether it should converge.
-
