@@ -1,5 +1,19 @@
 # Changelog
 
+## [2026-04-10-05] - Align repo-entry routing guidance
+
+### Added
+- Alignment 003 documenting how repo-entry routing guidance should port across
+  Conductor, Dossier, Storybook, doc-web, and CineForge.
+
+### Changed
+- Routed the earlier CineForge quick-route note out of `inbox.md` into the new
+  alignment record while preserving newer inbox capture added during the same
+  supervisor window.
+- Landed the linked Dossier, Storybook, and doc-web AGENTS quick-route
+  follow-ups onto their respective `main` branches as part of the same
+  supervisor line.
+
 ## [2026-04-10-03] - Scout Codex App Server
 
 ### Changed
