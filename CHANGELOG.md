@@ -1,5 +1,17 @@
 # Changelog
 
+## [2026-04-10-08] - Land triage actionability sync
+
+### Added
+- Alignment 005 documenting the triage-actionability sync from Dossier into
+  Storybook, doc-web, and CineForge, including the follow-up audit findings and
+  the added regression coverage used before landing.
+
+### Changed
+- Marked the consumed inbox note complete and updated supervisor memory to
+  record the validated Storybook, doc-web, and CineForge `main`-branch landings
+  for the triage-actionability sync.
+
 ## [2026-04-10-07] - Route inbox backlog into scout memory
 
 ### Added
