@@ -43,7 +43,10 @@ Use this index to track external sources investigated for cross-project value.
 - `2026-04-10` — [Scout 019 — Evaluate Research Automation Leads for Review and Literature Work](./scout/scout-019-research-automation-review-bundle.md) — `Defer`
   Interesting, but there is no concrete project-side research-review pressure
   attached yet.
-- `2026-04-10` — [Scout 020 — Evaluate Storybook Realtime Agent Platform Bundle](./scout/scout-020-storybook-realtime-platform-bundle.md) — `Spike`
+- `2026-04-10` — [Scout 020 — Evaluate Storybook Realtime Agent Platform Bundle](./scout/scout-020-storybook-realtime-platform-bundle.md) — `Defer`
+  OpenAI's realtime stack is materially more mature than Storybook's old
+  ADR-005 framing, but there is still no concrete product pressure justifying a
+  voice-substrate switch now.
 - `2026-04-10` — [Scout 021 — Evaluate Operator Workflow Notes for Portable Methodology Additions](./scout/scout-021-operator-workflow-notes-bundle.md) — `Defer`
   This closes the broad workflow-note pile without pretending it is one live
   execution line.
