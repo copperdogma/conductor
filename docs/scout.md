@@ -30,12 +30,16 @@ Use this index to track external sources investigated for cross-project value.
   or mobile product channel, but it may be worth revisiting for Storybook if a
   native macOS or iOS build workflow later needs reusable Codex packaging; the
   future-idea handoff is now recorded in Storybook's inbox.
-- `2026-04-10` — [Scout 013 — Evaluate Omni-SimpleMem for Long-Lived Agent Memory](./scout/scout-013-omni-simplemem.md) — `Spike`
+- `2026-04-10` — [Scout 013 — Evaluate Omni-SimpleMem for Long-Lived Agent Memory](./scout/scout-013-omni-simplemem.md) — `Defer`
+  Storybook should treat this as a design-reference bundle, not as a direct
+  architecture pivot away from its accepted thin fast-lane memory model.
 - `2026-04-10` — [Scout 014 — Evaluate Agent-Skills Additions for Test Consolidation and Hard Cuts](./scout/scout-014-agent-skills-test-consolidation-hard-cut.md) — `Spike`
 - `2026-04-10` — [Scout 015 — Evaluate OpenClaw Operator Surfaces for Portable Agent Access Patterns](./scout/scout-015-openclaw-operator-surfaces.md) — `Spike`
 - `2026-04-10` — [Scout 016 — Evaluate Long-Running Agent Platform Notes for Portable Infrastructure Ideas](./scout/scout-016-long-running-agent-platform-notes.md) — `Spike`
 - `2026-04-10` — [Scout 017 — Evaluate AI Media Automation Leads for CineForge and Storybook](./scout/scout-017-ai-media-automation-leads.md) — `Spike`
-- `2026-04-10` — [Scout 018 — Evaluate GLM-OCR 0.9B for OCR and Intake Workflows](./scout/scout-018-glm-ocr-doc-web-cine-forge.md) — `Spike`
+- `2026-04-10` — [Scout 018 — Evaluate GLM-OCR 0.9B for OCR and Intake Workflows](./scout/scout-018-glm-ocr-doc-web-cine-forge.md) — `Defer`
+  Primary sources make this a credible OCR candidate, but the current value is a
+  repo-specific future note for `doc-web`, not an active cross-project work line.
 - `2026-04-10` — [Scout 019 — Evaluate Research Automation Leads for Review and Literature Work](./scout/scout-019-research-automation-review-bundle.md) — `Defer`
   Interesting, but there is no concrete project-side research-review pressure
   attached yet.
