@@ -12,7 +12,7 @@
       "phase": "climb",
       "spec_ref": "spec:2",
       "substrate": "partial",
-      "summary": "first-pass alignment surface exists, but no comparison history yet"
+      "summary": "comparison history now exists for methodology baseline and close-out guardrails, but broader cross-project drift coverage is still sparse"
     },
     {
       "key": "scouting",
@@ -72,16 +72,16 @@
         "spec:4.2",
         "spec:5.1"
       ],
-      "status": "Pending",
+      "status": "Done",
       "title": "Prepare Dossier State/Graph Methodology Migration"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 0,
+    "Done": 1,
     "Draft": 0,
     "In Progress": 0,
-    "Pending": 1
+    "Pending": 0
   },
   "tracked_projects": [
     {

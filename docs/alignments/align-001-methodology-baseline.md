@@ -39,10 +39,15 @@
 
 ## Human Decision Needed
 
-- Should Dossier adopt the same state/graph-first methodology package used in Storybook, doc-web, and CineForge, or should Conductor record Dossier as an intentional build-map-first exception?
+- Resolved on 2026-04-09: pursue the migration path toward the
+  state/graph-first package. The remaining design question is how much of
+  Dossier's current build-map-first package survives as a generated or
+  supporting surface after migration.
 - Do you want Conductor to report the intake project as `doc-web`, `Doc-forge`, or both (`doc-web` repo / `Doc-forge` product)?
 
 ## Follow-Up
 
-- Story 001 now tracks the Dossier migration follow-up:
+- Conductor Story 001 now tracks the supervisor-side migration preparation:
   `docs/stories/story-001-dossier-state-graph-methodology-migration.md`
+- Dossier Story 095 now queues the target-project execution work:
+  `/Users/cam/Documents/Projects/dossier/docs/stories/story-095-dossier-state-graph-methodology-migration.md`

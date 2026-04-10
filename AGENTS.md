@@ -77,5 +77,10 @@ Specialized loops:
 - Do not create a heavyweight canonical core unless the user explicitly wants one.
 - Do not describe sync work as complete until the target projects have their own
   stories, patches, or applied changes.
+- When Conductor needs to modify a tracked project repo directly, do that work
+  in a dedicated git worktree/branch for that repo, not in the project's
+  primary checkout, unless the user explicitly asks to work in place.
+- Treat an active target-project checkout as shared workspace: supervisor
+  upgrades should be quiet, isolated, and easy to land or discard without
+  polluting the project's live work environment.
 - No implicit commits or pushes.
-

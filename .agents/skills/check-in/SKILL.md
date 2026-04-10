@@ -54,6 +54,9 @@ missing context instead of guessing.
      stated recommendation or decision surface
    - general repo work: the user's high-level goal, the realized diff, and any
      obvious generated surfaces that should have changed
+   - treat `inbox.md` edits as expected user capture, not as unrelated drift;
+     if `inbox.md` changed while the work was in flight, include it in the
+     intended landing set unless the user explicitly says to leave it out
    - flag:
      - missing outputs
      - stale generated files
@@ -76,7 +79,8 @@ missing context instead of guessing.
      - unmet acceptance criteria or unchecked substantive tasks
      - missing story, alignment, or scout memory updates required by scope
      - failing tests or lint with unclear root cause or broad blast radius
-     - unrelated, risky, or suspicious git changes in the landing set
+     - unrelated, risky, or suspicious git changes in the landing set, except
+       for `inbox.md` edits that reflect normal user capture
      - secrets, credentials, large artifacts, or accidental generated output
      - integration conflicts that are not purely mechanical
      - anything that requires a methodology decision, scope renegotiation, or
@@ -110,6 +114,9 @@ missing context instead of guessing.
 
 7. Commit and push safely:
    - stage only the intended files
+   - when `inbox.md` is modified, treat it as intended by default and stage it
+     with the rest of the validated supervisor work unless the user explicitly
+     excluded it
    - draft a commit message that matches the completed work
    - if the current branch is not `main`, commit there, push the branch, sync it
      with `origin/main` if needed, validate again if integration changed files,
@@ -137,6 +144,9 @@ missing context instead of guessing.
 - Never treat passing repo checks alone as sufficient validation when the actual
   changed artifacts still do not satisfy the intended outcome.
 - Never stage unrelated files or use `git add .`.
+- Never treat `inbox.md` user-capture edits as dirty-worktree blockers unless
+  the user explicitly says those inbox changes should stay out of the landing
+  set.
 - Never push `main` before fresh validation on the exact tip being landed.
 - Never resolve integration conflicts directly on `main`.
 - After every inline fix, rerun the minimum required validation before

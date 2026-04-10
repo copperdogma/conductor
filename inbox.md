@@ -32,7 +32,9 @@ Periodic optimization prompts:
 - MyFamilyTree software (windows) from Dwayne: https://chronoplexsoftware.com/myfamilytree/updates/index.php
   - But it has GEDCOM support which we may want to build an adapter for because it's a standard genealogy format.
   - This is for.. Where would we put this? Storybook-native? Dossier?
-
+- Codex macOS app plugin: https://x.com/dimillian/status/2041948910512652313?s=46&t=uFZE-MuhgWdh1YErEZzLtQ
+  - We should see if a plugin exists for iOS/Android, too. Storybook in particular would benefit from this.
+- Omni-SimpleMem: Autoresearch-Guided Discovery of Lifelong Multimodal Agent Memory https://arxiv.org/abs/2604.01007 -- might be good for Storybook if we can poach some ideas from it!
 
 ## Dossier
 

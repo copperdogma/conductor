@@ -12,7 +12,7 @@ categories:
     spec_ref: spec:2
     substrate: partial
     phase: climb
-    summary: first-pass alignment surface exists, but no comparison history yet
+    summary: comparison history now exists for methodology baseline and close-out guardrails, but broader cross-project drift coverage is still sparse
   scouting:
     spec_ref: spec:3
     substrate: partial
@@ -33,4 +33,3 @@ tracked_projects:
 notes:
   - Conductor is intentionally recommendation-first.
   - Distributed methodology drift is expected; only unexplained drift is suspicious.
-

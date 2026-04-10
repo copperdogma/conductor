@@ -18,7 +18,11 @@ Use this to take a Conductor story from story text to implemented supervisor art
    - `docs/methodology/graph.json`
    - relevant decision refs
 3. Verify that the work really belongs in Conductor and is not better executed directly in a target project first.
-4. Add a work-log entry describing:
+4. If the implementation will touch a tracked project repo, inspect that repo's
+   git/worktree state first and choose an isolated execution worktree/branch.
+   Do not edit the target project's primary checkout unless the user explicitly
+   asked for in-place work.
+5. Add a work-log entry describing:
    - files to change
    - tracked projects affected
    - risks
@@ -53,4 +57,5 @@ Pause for user approval before implementation.
 - Do not implement before the human gate.
 - Supervisor outputs must be inspectable artifacts, not just chat summaries.
 - Do not call cross-project sync complete until the affected projects have their own applied work or explicit queued follow-up.
-
+- If target-project edits are required, isolate them in a dedicated worktree so
+  supervisor upgrades do not pollute the project's live working environment.
