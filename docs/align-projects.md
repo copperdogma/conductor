@@ -23,3 +23,5 @@ Use this index to track internal cross-project alignment work.
   Focused on porting Dossier's compiled triage-actionability model into Storybook, doc-web, and CineForge.
 - `2026-04-10` — [Alignment 006 — UI Scout Setup Surface](./alignments/align-006-ui-scout-setup-surface.md)
   Focused on whether Storybook and CineForge's internal `ui-scout` lane should be documented as an optional `setup-methodology` package module.
+- `2026-04-10` — [Alignment 007 — Triage Phase Pressure Defaults](./alignments/align-007-triage-phase-pressure-defaults.md)
+  Focused on porting doc-web's phase-driven triage follow-up into Dossier, Storybook, and CineForge without flattening their local triage lanes.
