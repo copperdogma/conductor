@@ -22,9 +22,18 @@ Use this index to track external sources investigated for cross-project value.
 - `2026-04-10` — [Scout 008 — Evaluate Codex App Server as a Foundation App Layer](./scout/scout-008-codex-app-server-foundation-layer.md) — `Reject`
   Official docs showed this is a rich embedded Codex workspace surface, and the
   current projects do not need that integration shape.
-- `2026-04-10` — [Scout 009 — Evaluate RepoProver for Textbook Intake and Verification](./scout/scout-009-repoprover-textbook-intake.md) — `Spike`
-- `2026-04-10` — [Scout 010 — Evaluate Axi for Better Browser Agent Tooling](./scout/scout-010-axi-browser-agent-tools.md) — `Spike`
-- `2026-04-10` — [Scout 011 — Evaluate MyFamilyTree and GEDCOM Adapter Opportunities](./scout/scout-011-myfamilytree-gedcom.md) — `Spike`
+- `2026-04-10` — [Scout 009 — Evaluate RepoProver for Textbook Intake and Verification](./scout/scout-009-repoprover-textbook-intake.md) — `Reject`
+  RepoProver is a Lean formalization workflow for already-curated LaTeX
+  textbooks, not a reusable upstream intake or verification surface for Doc Web
+  or Dossier.
+- `2026-04-10` — [Scout 010 — Evaluate Axi for Better Browser Agent Tooling](./scout/scout-010-axi-browser-agent-tools.md) — `Defer`
+  Axi is a strong design-reference bundle for agent-facing browser CLIs, but
+  the tracked repos do not currently share the benchmarked `chrome-devtools-mcp`
+  substrate or enough browser-tool pressure to justify adopting another layer.
+- `2026-04-10` — [Scout 011 — Evaluate MyFamilyTree and GEDCOM Adapter Opportunities](./scout/scout-011-myfamilytree-gedcom.md) — `Defer`
+  My Family Tree is a useful interoperability reference, but the honest future
+  lane is a Storybook-owned GEDCOM 7 / GEDZIP adapter if real import demand
+  appears, not a new shared genealogy-parser project.
 - `2026-04-10` — [Scout 012 — Evaluate Codex App Plugin Surface Across Desktop and Mobile](./scout/scout-012-codex-app-plugin-surface.md) — `Defer`
   This is a Codex workflow-distribution mechanism, not a tracked-project plugin
   or mobile product channel, but it may be worth revisiting for Storybook if a
@@ -33,8 +42,10 @@ Use this index to track external sources investigated for cross-project value.
 - `2026-04-10` — [Scout 013 — Evaluate Omni-SimpleMem for Long-Lived Agent Memory](./scout/scout-013-omni-simplemem.md) — `Defer`
   Storybook should treat this as a design-reference bundle, not as a direct
   architecture pivot away from its accepted thin fast-lane memory model.
-- `2026-04-10` — [Scout 014 — Evaluate Agent-Skills Additions for Test Consolidation and Hard Cuts](./scout/scout-014-agent-skills-test-consolidation-hard-cut.md) — `Spike`
-- `2026-04-10` — [Scout 015 — Evaluate OpenClaw Operator Surfaces for Portable Agent Access Patterns](./scout/scout-015-openclaw-operator-surfaces.md) — `Spike`
+- `2026-04-10` — [Scout 014 — Evaluate Agent-Skills Additions for Test Consolidation and Hard Cuts](./scout/scout-014-agent-skills-test-consolidation-hard-cut.md) — `Reject`
+  The useful ideas are either already absorbed locally in stronger forms
+  (`hard-cut`) or too generic to outrank the repos' existing validation
+  contracts (`consolidate-test-suites`).
 - `2026-04-10` — [Scout 016 — Evaluate Long-Running Agent Platform Notes for Portable Infrastructure Ideas](./scout/scout-016-long-running-agent-platform-notes.md) — `Spike`
 - `2026-04-10` — [Scout 017 — Evaluate AI Media Automation Leads for CineForge and Storybook](./scout/scout-017-ai-media-automation-leads.md) — `Spike`
 - `2026-04-10` — [Scout 018 — Evaluate GLM-OCR 0.9B for OCR and Intake Workflows](./scout/scout-018-glm-ocr-doc-web-cine-forge.md) — `Defer`
