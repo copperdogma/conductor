@@ -53,6 +53,21 @@ defines whether the work is alignment, scouting, routing, or memory upkeep.
 - `docs/stories/` — supervisor stories
 - `docs/decisions/` — hard-to-reverse workflow or architecture choices
 
+## Content connectors
+
+For Conductor-only scouting and routing work, prefer the available content MCPs
+over generic browsing when the source matches them:
+
+- `Twitter Scraper` — use for X/Twitter URLs, tweet IDs, tweet replies, and
+  account lookups
+- `YouTube Transcripts` — use for YouTube URLs when you need transcript or
+  video metadata
+- `Project Agent` — use for Obsidian project documents or notes when the
+  source likely lives in Cam's project vault
+
+Use the source-specific connector first, then fall back only if it fails or the
+request clearly needs something else.
+
 ## Workflow
 
 Default loop:

@@ -1,5 +1,46 @@
 # Changelog
 
+## [2026-04-10-03] - Scout Codex App Server
+
+### Changed
+- Completed Scout 008 using the new X connector plus official OpenAI App
+  Server docs, then closed it as `Reject` after confirming the current
+  projects do not need an embedded Codex workspace surface
+- Updated scout memory and scouting state to reflect the first detailed source
+  evaluation in the current scout backlog
+
+## [2026-04-10-04] - Scout Codex plugins
+
+### Changed
+- Completed Scout 012 using the X connector plus official OpenAI help and
+  release notes, and marked it `Defer` after confirming plugins are a Codex
+  workflow-distribution mechanism rather than a tracked-project plugin or
+  mobile product surface
+- Added scout-handoff guidance so repo-specific future ideas now move to the
+  owning repo's `docs/inbox.md` by default instead of lingering only in
+  Conductor
+- Refined Scout 012 so Storybook keeps the relevant future native-workflow
+  angle without treating plugins as a present product feature
+- Recorded the Scout 012 handoff into Storybook's `docs/inbox.md`
+
+## [2026-04-10-02] - Triage inbox into scout memory
+
+### Added
+- Scout 001 through Scout 013 so each captured source now has its own scout
+  mission instead of one combined backlog artifact
+
+### Changed
+- Trimmed `inbox.md` so only the remaining alignment candidate and the blocked
+  `202602 Project Notes.md` dependency stay live there
+- Updated the scout index and methodology state to reflect that Conductor now
+  has individual queued scout missions instead of an empty scout lane
+- Clarified `/triage inbox` so future scout routing defaults to one source per
+  scout mission unless a small grouped investigation is clearly the more honest
+  shape
+- Documented Conductor's preferred content connectors so future scouting and
+  routing work uses `Twitter Scraper`, `YouTube Transcripts`, and `Project
+  Agent` before generic browsing when applicable
+
 ## [2026-04-10-01] - Close Story 001 and land inbox capture guardrails
 
 ### Added

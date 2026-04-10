@@ -1,4 +1,4 @@
-last_updated: 2026-04-09
+last_updated: 2026-04-10
 project:
   name: Conductor
   mission: supervisor project for cross-project alignment, scouting, and work preparation
@@ -17,7 +17,7 @@ categories:
     spec_ref: spec:3
     substrate: partial
     phase: climb
-    summary: scout logs exist, but no detailed missions have been recorded yet
+    summary: individual scout missions now exist for the current external-source backlog, and the first detailed source evaluation is recorded, but adoption decisions remain sparse
   story-prep:
     spec_ref: spec:4
     substrate: partial

@@ -67,6 +67,9 @@ route raw capture in `inbox.md`.
    - `docs/scout/`
    - `docs/alignments/`
    - `docs/decisions/`
+   - and, when the item is an X/Twitter link, YouTube link, or Obsidian
+     project-note reference, use the matching connector to understand the item
+     before routing it
 3. Classify the item:
    - stale
    - live
@@ -78,6 +81,12 @@ route raw capture in `inbox.md`.
    - alignment pass
    - ADR
    - reject / defer
+5. For scout candidates, choose mission granularity deliberately:
+   - default to one distinct source or idea per scout mission
+   - only group multiple inbox items into one scout mission when they are
+     obviously the same investigation or a tight bundle that is easier to
+     evaluate together than separately
+   - if grouping is not clearly justified, split the items
 
 ### `scan` mode
 
@@ -92,6 +101,11 @@ After user confirmation:
 - keep `inbox.md` short, current, and truly raw
 - avoid creating a story when a scout or alignment pass is the more honest
   first move
+- when routing scout items, create separate scout missions by default rather
+  than one combined backlog artifact unless the items are clearly one shared
+  investigation
+- when the inbox item is an X/Twitter link, YouTube link, or Obsidian project
+  note, prefer the matching connector over generic browsing during routing
 
 ## Full-sweep mode
 
@@ -216,3 +230,8 @@ When invoked with no scope, run a supervisor-first orchestration pass.
   just to empty the inbox.
 - Prefer continuing a coherent active line when leverage is comparable, but do
   not let continuity override a clearly higher-leverage supervisor move.
+- In inbox routing, treat each distinct scout source as its own mission by
+  default. Only group a few items when that grouping is logically tighter and
+  more honest than separate scout entries.
+- In inbox routing, prefer `Twitter Scraper`, `YouTube Transcripts`, and
+  `Project Agent` whenever the item matches those source types.

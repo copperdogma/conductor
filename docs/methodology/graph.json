@@ -19,7 +19,7 @@
       "phase": "climb",
       "spec_ref": "spec:3",
       "substrate": "partial",
-      "summary": "scout logs exist, but no detailed missions have been recorded yet"
+      "summary": "individual scout missions now exist for the current external-source backlog, and the first detailed source evaluation is recorded, but adoption decisions remain sparse"
     },
     {
       "key": "story-prep",
