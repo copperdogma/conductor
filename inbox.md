@@ -6,7 +6,6 @@ explicit rejections.
 
 ## General
 
-- [ ] Next alignment candidate: compare the remaining shared infrastructure skill surface across all tracked projects now that Alignment 001 (methodology baseline), Alignment 002 (inbox check-in landing), and Alignment 003 (repo-entry routing guidance) are recorded.
 - [ ] Blocked: locate `202602 Project Notes.md`, then extract any net-new scout candidates that are still worth promoting after Scout 001.
 
 ## Gmail Capture

@@ -1,5 +1,20 @@
 # Changelog
 
+## [2026-04-10-06] - Align shared skill sync hardening
+
+### Added
+- Alignment 004 documenting which parts of the remaining shared
+  `.agents/skills` surface should stay local and which `sync-agent-skills`
+  hardening should port across tracked projects.
+
+### Changed
+- Replaced the consumed inbox alignment candidate with the concrete
+  post-alignment follow-up to port Storybook's stricter wrapper-drift checks to
+  Dossier, doc-web, and CineForge.
+- Landed that follow-up onto Dossier, doc-web, and CineForge `main` branches
+  from dedicated `codex/skill-sync-hardening` worktrees without forcing bulk
+  text sync across the shared skill files.
+
 ## [2026-04-10-05] - Align repo-entry routing guidance
 
 ### Added
