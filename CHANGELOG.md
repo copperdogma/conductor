@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-04-10-07] - Route inbox backlog into scout memory
+
+### Added
+- Scout 014 through Scout 022 to convert the remaining routed inbox backlog
+  into explicit scout memory, including tighter bundled investigations for
+  agent skills, OpenClaw operator surfaces, long-running agent platform notes,
+  media automation, OCR, realtime platform notes, and two explicit `Defer` /
+  `Reject` dispositions.
+
+### Changed
+- Cleared `inbox.md` down to the one still-blocked `202602 Project Notes.md`
+  recovery item instead of keeping routed notes as raw capture.
+- Expanded the relevant existing scout entries with related inbox evidence so
+  the memory line for security review prompts, prompt evolution, front-end
+  guidance, browser tooling, and memory approaches stays coherent.
+
 ## [2026-04-10-06] - Align shared skill sync hardening
 
 ### Added

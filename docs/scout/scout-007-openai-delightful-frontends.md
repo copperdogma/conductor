@@ -8,7 +8,9 @@
 
 Queued from the inbox with an explicit question about improving the local UI
 skill. The likely value is updated design guidance that can sharpen front-end
-execution patterns across the portfolio.
+execution patterns across the portfolio. The inbox now also carries a Codex
+front-end workflow note that points at the same question from a more
+operator-facing angle.
 
 ## Project Relevance
 
@@ -28,9 +30,12 @@ execution patterns across the portfolio.
 
 - `https://developers.openai.com/blog/designing-delightful-frontends-with-gpt-5-4`
 - Inbox note: `enhance our ui skill?`
+- Inbox note: `Codex Cloud as a front-end design partner`
 
 ## Open Questions
 
 - Does this source provide materially new guidance beyond the current front-end
   instructions?
 - Should any follow-up land as a skill update, story, or design checklist?
+- Should the next artifact be shared skill guidance or a narrower Storybook
+  execution note?
