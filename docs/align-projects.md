@@ -21,3 +21,5 @@ Use this index to track internal cross-project alignment work.
   Focused on the remaining shared `.agents/skills` surface and the portable hardening gap in `scripts/sync-agent-skills.sh`.
 - `2026-04-10` — [Alignment 005 — Triage Actionability Sync](./alignments/align-005-triage-actionability-sync.md)
   Focused on porting Dossier's compiled triage-actionability model into Storybook, doc-web, and CineForge.
+- `2026-04-10` — [Alignment 006 — UI Scout Setup Surface](./alignments/align-006-ui-scout-setup-surface.md)
+  Focused on whether Storybook and CineForge's internal `ui-scout` lane should be documented as an optional `setup-methodology` package module.
