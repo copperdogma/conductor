@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 import re
+import subprocess
 import sys
 from collections import Counter
 from pathlib import Path
@@ -15,6 +16,33 @@ STORIES_INDEX_PATH = ROOT / "docs/stories.md"
 STORIES_DIR = ROOT / "docs/stories"
 PROJECTS_PATH = ROOT / "projects.yaml"
 STATE_PATH = ROOT / "docs/methodology/state.yaml"
+
+
+def canonical_project_root() -> Path:
+    """Prefer the repo's primary checkout root over an ephemeral worktree path."""
+    try:
+        result = subprocess.run(
+            ["git", "rev-parse", "--git-common-dir"],
+            cwd=ROOT,
+            check=True,
+            capture_output=True,
+            text=True,
+        )
+    except (OSError, subprocess.CalledProcessError):
+        return ROOT
+
+    common_dir = result.stdout.strip()
+    if not common_dir:
+        return ROOT
+
+    common_path = Path(common_dir)
+    if not common_path.is_absolute():
+        common_path = (ROOT / common_path).resolve()
+
+    return common_path.parent
+
+
+PROJECT_ROOT = canonical_project_root()
 
 
 def strip_quotes(value: str) -> str:
@@ -188,7 +216,7 @@ def build_graph() -> dict[str, object]:
     return {
         "project": {
             "name": "Conductor",
-            "root": str(ROOT),
+            "root": str(PROJECT_ROOT),
             "registry": str(PROJECTS_PATH.relative_to(ROOT)),
             "state": str(STATE_PATH.relative_to(ROOT)),
         },
@@ -303,4 +331,3 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
-

@@ -7,8 +7,11 @@
 ## Summary
 
 Queued from a broad bundle of generic agent-building, CLI, Cursor, Codex, and
-workflow notes. As raw inbox capture this bundle is too broad to stay live, and
-there is no single current pressure that justifies a focused follow-up yet.
+workflow notes. A follow-up review of `202602 Project Notes.md` added more
+workflow-shaped prompts around Gmail inbox routing, AI-first "ideal vs SOTA"
+review, and whole-history commit auditing. As raw supervisor capture this
+bundle is still too broad to stay live, and there is no single current
+pressure that justifies a focused follow-up yet.
 
 ## Project Relevance
 
@@ -36,6 +39,10 @@ there is no single current pressure that justifies a focused follow-up yet.
   rollout`, `Codex CLI upgrade`, `ChatGPT Agent launch`, `Odyssey-style agent
   mode`, `memoization / record-mode`, `cursor-tools AI team`, and
   `local AI agent on Raspberry Pi`
+- Follow-up note review from `202602 Project Notes.md`: `get SOMETHING to go
+  through my gmail inbox`, `deep research: my ideal system vs SOTA approaches
+  for AI first`, and `Get an AI to go back through all commits, checking them
+  for issues`
 
 ## Open Questions
 

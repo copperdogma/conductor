@@ -25,3 +25,7 @@ Use this index to track internal cross-project alignment work.
   Focused on whether Storybook and CineForge's internal `ui-scout` lane should be documented as an optional `setup-methodology` package module.
 - `2026-04-10` — [Alignment 007 — Triage Phase Pressure Defaults](./alignments/align-007-triage-phase-pressure-defaults.md)
   Focused on porting doc-web's phase-driven triage follow-up into Dossier, Storybook, and CineForge without flattening their local triage lanes.
+- `2026-04-10` — [Alignment 008 — UI Guidance Art Direction Sync](./alignments/align-008-ui-guidance-art-direction-sync.md)
+  Focused on selectively carrying Scout 007's front-end prompting and
+  composition guidance into Storybook and CineForge without forcing a
+  portfolio-wide UI methodology sync.

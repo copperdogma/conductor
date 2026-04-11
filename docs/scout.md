@@ -12,13 +12,22 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
-- `2026-04-10` — [Scout 001 — Evaluate Superpowers for Dossier-First Research Automation](./scout/scout-001-superpowers-dossier-research-automation.md) — `Spike`
+- `2026-04-10` — [Scout 001 — Evaluate Superpowers for Dossier-First Research Automation](./scout/scout-001-superpowers-dossier-research-automation.md) — `Defer`
+  Superpowers is a credible coding-agent workflow bundle, but its current value
+  here is narrow Codex workflow reference material rather than a research
+  automation or cross-project sync candidate.
 - `2026-04-10` — [Scout 002 — Evaluate PI AutoResearch for Reusable Research Components](./scout/scout-002-pi-autoresearch-components.md) — `Spike`
 - `2026-04-10` — [Scout 003 — Evaluate Cursor Security Agents for Autonomous Codebase Safety](./scout/scout-003-cursor-security-agents.md) — `Spike`
-- `2026-04-10` — [Scout 004 — Evaluate Adaline Evals and Observability for a Bounded Spike](./scout/scout-004-adaline-evals-observability.md) — `Spike`
+- `2026-04-10` — [Scout 004 — Evaluate Adaline Evals and Observability for a Bounded Spike](./scout/scout-004-adaline-evals-observability.md) — `Defer`
+  Strong conceptual reference for prompt governance and trace-driven eval
+  loops, but the actual Adaline product is a heavier hosted platform than the
+  tracked repos currently need.
 - `2026-04-10` — [Scout 005 — Evaluate Imbue Prompt Evolver for Prompt Optimization](./scout/scout-005-imbue-prompt-evolver.md) — `Spike`
 - `2026-04-10` — [Scout 006 — Evaluate the Large Skills List for Portable Additions](./scout/scout-006-large-skills-list.md) — `Spike`
-- `2026-04-10` — [Scout 007 — Evaluate OpenAI Frontend Guidance for UI Skill Upgrades](./scout/scout-007-openai-delightful-frontends.md) — `Spike`
+- `2026-04-10` — [Scout 007 — Evaluate OpenAI Frontend Guidance for UI Skill Upgrades](./scout/scout-007-openai-delightful-frontends.md) — `Adapt`
+  Strong selective fit for Storybook and CineForge: adapt the composition,
+  reference, and prompting discipline, but do not treat it as a portfolio-wide
+  front-end sync.
 - `2026-04-10` — [Scout 008 — Evaluate Codex App Server as a Foundation App Layer](./scout/scout-008-codex-app-server-foundation-layer.md) — `Reject`
   Official docs showed this is a rich embedded Codex workspace surface, and the
   current projects do not need that integration shape.
