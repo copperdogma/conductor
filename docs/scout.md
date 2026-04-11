@@ -16,7 +16,10 @@ Use this index to track external sources investigated for cross-project value.
   Superpowers is a credible coding-agent workflow bundle, but its current value
   here is narrow Codex workflow reference material rather than a research
   automation or cross-project sync candidate.
-- `2026-04-10` — [Scout 002 — Evaluate PI AutoResearch for Reusable Research Components](./scout/scout-002-pi-autoresearch-components.md) — `Spike`
+- `2026-04-11` — [Scout 002 — Evaluate PI AutoResearch for Reusable Research Components](./scout/scout-002-pi-autoresearch-components.md) — `Defer`
+  pi-autoresearch is a credible autonomous benchmark-loop package, but its
+  current value here is a narrow Dossier-side design reference for bounded
+  optimization loops rather than a shared research or methodology substrate.
 - `2026-04-10` — [Scout 003 — Evaluate Cursor Security Agents for Autonomous Codebase Safety](./scout/scout-003-cursor-security-agents.md) — `Defer`
   Useful security-workflow reference, but the actual Cursor substrate is too
   heavy and too hosted for the tracked repos' current local-first workflow.
@@ -24,8 +27,15 @@ Use this index to track external sources investigated for cross-project value.
   Strong conceptual reference for prompt governance and trace-driven eval
   loops, but the actual Adaline product is a heavier hosted platform than the
   tracked repos currently need.
-- `2026-04-10` — [Scout 005 — Evaluate Imbue Prompt Evolver for Prompt Optimization](./scout/scout-005-imbue-prompt-evolver.md) — `Spike`
-- `2026-04-10` — [Scout 006 — Evaluate the Large Skills List for Portable Additions](./scout/scout-006-large-skills-list.md) — `Spike`
+- `2026-04-11` — [Scout 005 — Evaluate Imbue Prompt Evolver for Prompt Optimization](./scout/scout-005-imbue-prompt-evolver.md) — `Defer`
+  Imbue's evolver is a credible failure-case-driven prompt-optimization
+  reference, but the tracked repos already have the prompt/eval discipline it
+  assumes, so the only honest future lane is a narrow Dossier-side helper if
+  manual iteration ever becomes the bottleneck.
+- `2026-04-11` — [Scout 006 — Evaluate the Large Skills List for Portable Additions](./scout/scout-006-large-skills-list.md) — `Reject`
+  The list mostly re-packages capability areas already covered locally
+  (`frontend-design`, browser automation, security review, eval/cleanup
+  discipline) and does not justify another shared skill-import line.
 - `2026-04-10` — [Scout 007 — Evaluate OpenAI Frontend Guidance for UI Skill Upgrades](./scout/scout-007-openai-delightful-frontends.md) — `Adapt`
   Strong selective fit for Storybook and CineForge: adapt the composition,
   reference, and prompting discipline, but do not treat it as a portfolio-wide
@@ -57,8 +67,14 @@ Use this index to track external sources investigated for cross-project value.
   The useful ideas are either already absorbed locally in stronger forms
   (`hard-cut`) or too generic to outrank the repos' existing validation
   contracts (`consolidate-test-suites`).
-- `2026-04-10` — [Scout 016 — Evaluate Long-Running Agent Platform Notes for Portable Infrastructure Ideas](./scout/scout-016-long-running-agent-platform-notes.md) — `Spike`
-- `2026-04-10` — [Scout 017 — Evaluate AI Media Automation Leads for CineForge and Storybook](./scout/scout-017-ai-media-automation-leads.md) — `Spike`
+- `2026-04-11` — [Scout 016 — Evaluate Long-Running Agent Platform Notes for Portable Infrastructure Ideas](./scout/scout-016-long-running-agent-platform-notes.md) — `Defer`
+  The bundle mostly confirms architecture patterns already carried locally
+  (durable run state, simple-first orchestration, eval-backed escalation) and
+  does not justify a new shared managed-agent substrate.
+- `2026-04-11` — [Scout 017 — Evaluate AI Media Automation Leads for CineForge and Storybook](./scout/scout-017-ai-media-automation-leads.md) — `Defer`
+  The bundle contains plausible future references for CineForge-side media
+  editing and orchestration, but it does not change the current truth that
+  AI-previz quality/runtime is still the real bottleneck.
 - `2026-04-10` — [Scout 018 — Evaluate GLM-OCR 0.9B for OCR and Intake Workflows](./scout/scout-018-glm-ocr-doc-web-cine-forge.md) — `Defer`
   Primary sources make this a credible OCR candidate, but the current value is a
   repo-specific future note for `doc-web`, not an active cross-project work line.
