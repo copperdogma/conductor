@@ -108,14 +108,34 @@ package
 ## Human Decision Needed
 
 - None for the classification pass itself.
-- If execution is desired, the narrow scope is to update Storybook and
-  CineForge `setup-methodology` surfaces so `ui-scout` is documented as an
-  optional installed lane when present, not as a required baseline for all
-  repos.
+- The executed scope was to update Storybook and CineForge
+  `setup-methodology` surfaces so `ui-scout` is documented as an optional
+  installed lane when present, not as a required baseline for all repos.
+
+## Result
+
+- Verified on 2026-04-11 that both target repos already carry the optional
+  `ui-scout` setup-surface update on their current `main` branches.
+- Storybook landed commit `b4b9774` (`Document optional ui-scout setup lane`),
+  updating:
+  - `.agents/skills/setup-methodology/SKILL.md`
+  - `.agents/skills/setup-methodology/templates/setup-checklist.md`
+  - `docs/runbooks/setup-methodology.md`
+  - `docs/setup-checklist.md`
+- CineForge landed commit `bfcf275` (`Document optional ui-scout setup lane`),
+  updating:
+  - `.agents/skills/setup-methodology/SKILL.md`
+  - `.agents/skills/setup-methodology/templates/setup-checklist.md`
+  - `docs/runbooks/setup-methodology.md`
+  - `docs/setup-checklist.md`
+- Current target-repo state now matches the recommendation above:
+  `setup-methodology` in Storybook and CineForge explicitly preserves the
+  optional `ui-scout` lane when `state.ui_scout` is part of the package,
+  while Dossier and doc-web remain intentionally local.
 
 ## Follow-Up
 
 - No new Conductor story was created. The honest supervisor artifact for this
-  question is the alignment record.
+  question remains the alignment record plus the landed target-repo updates.
 - Conductor itself is not a sync target for this pass; `ui-scout` is a
   tracked-project product-methodology lane rather than a supervisor workflow.
