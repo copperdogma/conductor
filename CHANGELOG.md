@@ -1,5 +1,16 @@
 # Changelog
 
+## [2026-04-11-01] - Roll out loop-verify skill
+
+### Added
+- Added the shared `/loop-verify` coordination skill to Conductor and recorded
+  Alignment 011 for the portfolio-wide rollout decision and execution details.
+
+### Changed
+- Updated `docs/align-projects.md` and Alignment 009 to record the validated
+  Dossier, Storybook, doc-web, and CineForge `main`-branch landings for the
+  shared skill rollout.
+
 ## [2026-04-10-08] - Land triage actionability sync
 
 ### Added

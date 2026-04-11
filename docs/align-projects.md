@@ -37,3 +37,6 @@ Use this index to track internal cross-project alignment work.
   Focused on making task handoffs explain practical impact in plain language
   and end with a next step the user can approve with a simple `yes`, while
   preserving repo-local report shapes.
+- `2026-04-11` — [Alignment 011 — Loop Verify Skill Rollout](./alignments/align-011-loop-verify-skill-rollout.md)
+  Focused on rolling the new shared `loop-verify` coordination skill into all
+  tracked projects.
