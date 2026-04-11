@@ -17,7 +17,9 @@ Use this index to track external sources investigated for cross-project value.
   here is narrow Codex workflow reference material rather than a research
   automation or cross-project sync candidate.
 - `2026-04-10` — [Scout 002 — Evaluate PI AutoResearch for Reusable Research Components](./scout/scout-002-pi-autoresearch-components.md) — `Spike`
-- `2026-04-10` — [Scout 003 — Evaluate Cursor Security Agents for Autonomous Codebase Safety](./scout/scout-003-cursor-security-agents.md) — `Spike`
+- `2026-04-10` — [Scout 003 — Evaluate Cursor Security Agents for Autonomous Codebase Safety](./scout/scout-003-cursor-security-agents.md) — `Defer`
+  Useful security-workflow reference, but the actual Cursor substrate is too
+  heavy and too hosted for the tracked repos' current local-first workflow.
 - `2026-04-10` — [Scout 004 — Evaluate Adaline Evals and Observability for a Bounded Spike](./scout/scout-004-adaline-evals-observability.md) — `Defer`
   Strong conceptual reference for prompt governance and trace-driven eval
   loops, but the actual Adaline product is a heavier hosted platform than the

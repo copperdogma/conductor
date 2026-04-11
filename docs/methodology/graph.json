@@ -74,11 +74,41 @@
       ],
       "status": "Done",
       "title": "Prepare Dossier State/Graph Methodology Migration"
+    },
+    {
+      "category_refs": [
+        "scouting",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-002-security-audit-lane.md",
+      "id": 2,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:2.2",
+        "spec:3.2",
+        "spec:4.2",
+        "spec:5.3"
+      ],
+      "status": "Done",
+      "title": "Build Portable Security Audit Lane"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 1,
+    "Done": 2,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

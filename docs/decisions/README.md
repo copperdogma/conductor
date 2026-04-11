@@ -7,3 +7,7 @@ Conductor uses ADRs for hard-to-reverse choices about:
 - whether automation should prepare or directly apply cross-project changes
 - how much structure the supervisor project is allowed to add
 
+ADR files live directly under `docs/decisions/` as `adr-NNN-<name>.md`.
+In-flight research notes can live under `docs/decisions/research/`.
+
+Use `/create-adr` to scaffold a new decision plus lightweight research notes.
