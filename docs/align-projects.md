@@ -29,3 +29,11 @@ Use this index to track internal cross-project alignment work.
   Focused on selectively carrying Scout 007's front-end prompting and
   composition guidance into Storybook and CineForge without forcing a
   portfolio-wide UI methodology sync.
+- `2026-04-11` — [Alignment 009 — Setup Navigation Build-Map Semantics](./alignments/align-009-setup-navigation-build-map-semantics.md)
+  Focused on the post-migration meaning of `docs/build-map.md` across the
+  tracked repos and whether the setup/navigation surface teaches that role
+  clearly enough for operators.
+- `2026-04-11` — [Alignment 010 — Yes-Ready Handoff and Impact Reporting](./alignments/align-010-yes-ready-handoff-and-impact-reporting.md)
+  Focused on making task handoffs explain practical impact in plain language
+  and end with a next step the user can approve with a simple `yes`, while
+  preserving repo-local report shapes.

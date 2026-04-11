@@ -31,7 +31,10 @@ Validate Conductor work with fresh current-pass evidence.
 5. Produce a report with:
    - Met / Partial / Unmet
    - concrete remaining gaps
+   - a short plain-language impact note: what improved for Cam or the target
+     projects, or what practical risk got smaller
    - one clear closure recommendation
+   - one recommended next step phrased so a bare `yes` can approve it
 
 ## Closure recommendations
 
@@ -44,5 +47,5 @@ Validate Conductor work with fresh current-pass evidence.
 
 - Fresh evidence only.
 - Do not count close-out bookkeeping as an implementation failure by itself.
-- End with one recommended disposition.
-
+- End with one recommended disposition and a yes-ready next step when an honest
+  next move exists.

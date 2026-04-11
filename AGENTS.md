@@ -85,6 +85,16 @@ Specialized loops:
 - `/scout` for external sources and adoption analysis
 - `/setup-methodology` for refreshing this project's own methodology package
 
+## Working norms
+
+- When reporting technical work, include 1-2 plain-language lines on what
+  improved for Cam or the target projects, what practical risk or annoyance
+  got smaller, or what they should notice next.
+- End most completed-task handoffs with one recommended next step phrased so
+  Cam can approve it with a simple `yes`. Prefer the explicit form: Reply
+  `yes` to proceed with: ... when there is one clear next move. If there is no
+  honest next step, say so explicitly.
+
 ## Guardrails
 
 - Do not assume the newest project change should propagate everywhere.

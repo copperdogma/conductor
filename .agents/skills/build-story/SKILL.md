@@ -50,7 +50,9 @@ Pause for user approval before implementation.
    - `make skills-check` if skill files changed
    - `make test` if scripts or repo checks changed
 4. Update the work log with concrete evidence.
-5. Leave the story `In Progress` with `Build complete` checked and recommend `/validate`.
+5. Leave the story `In Progress` with `Build complete` checked, give a short
+   plain-language note about what improved for Cam or the target projects, and
+   recommend `/validate` as a yes-ready next step.
 
 ## Guardrails
 
