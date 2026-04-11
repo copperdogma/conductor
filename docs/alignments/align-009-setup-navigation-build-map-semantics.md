@@ -118,9 +118,28 @@ the tracked repos
   supervisor artifact is the alignment record because the current pressure is
   documentation clarity around an already-set methodology boundary, not a new
   cross-project migration.
+- 2026-04-11 execution follow-up: prepared dedicated target-repo worktrees on
+  branch `codex/build-map-setup-clarity`:
+  - Dossier: `/Users/cam/.codex/worktrees/build-map-setup-clarity/dossier`
+  - Storybook: `/Users/cam/.codex/worktrees/build-map-setup-clarity/storybook`
+  - doc-web: `/Users/cam/.codex/worktrees/build-map-setup-clarity/doc-web`
+- Applied the narrow doc-clarification landing only:
+  - Dossier: refreshed `docs/setup-checklist.md` so the state/graph migration
+    boxes reflect the already-shipped package
+  - Storybook: added explicit archived-`docs/build-map.md` guidance to
+    `AGENTS.md` and `docs/runbooks/setup-methodology.md`
+  - doc-web: added explicit archived-`docs/build-map.md` guidance to
+    `AGENTS.md` and `docs/runbooks/setup-methodology.md`
+- Verified the target worktrees with repo-local checks:
+  - Dossier: `make methodology-check PYTHON=/Users/cam/Documents/Projects/dossier/.venv/bin/python`
+  - Storybook: `pnpm methodology:check`
+  - doc-web: `make methodology-check`
+- No target `main` branches were updated in this pass. The clarified patches
+  remain isolated in their dedicated worktrees.
 
 ## Follow-Up
 
 - No new Conductor story was created.
-- If the user wants execution next, run a narrow follow-up alignment landing
-  for Storybook, doc-web, and Dossier only.
+- The classification follow-up is now executed.
+- If the user wants these clarifications landed, the honest next step is
+  repo-by-repo check-in from the prepared isolated worktrees.
