@@ -134,12 +134,22 @@ the tracked repos
   - Dossier: `make methodology-check PYTHON=/Users/cam/Documents/Projects/dossier/.venv/bin/python`
   - Storybook: `pnpm methodology:check`
   - doc-web: `make methodology-check`
-- No target `main` branches were updated in this pass. The clarified patches
-  remain isolated in their dedicated worktrees.
+- 2026-04-16 verification follow-up: checked the dedicated worktree tip commits
+  against the corresponding target `main` branches and confirmed the landing is
+  already complete:
+  - Dossier: `c3e7c0f` is an ancestor of `main`
+  - Storybook: `23d7637` is an ancestor of `main`
+  - doc-web: `9b2c55a` is an ancestor of `main`
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/build-map-setup-clarity` worktrees after verification. The local
+  worktree cleanup for this line is complete.
 
 ## Follow-Up
 
 - No new Conductor story was created.
-- The classification follow-up is now executed.
-- If the user wants these clarifications landed, the honest next step is
-  repo-by-repo check-in from the prepared isolated worktrees.
+- The classification follow-up is executed and verified as landed.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/build-map-setup-clarity` branches after confirming no remaining
+  worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

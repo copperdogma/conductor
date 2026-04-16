@@ -140,10 +140,20 @@ other tracked product repos
 - CineForge's existing UI-scout freshness warning remained present during the
   final `node scripts/methodology-graph.js check` pass, but it is pre-existing
   planning state rather than a regression from this sync.
+- 2026-04-16 verification follow-up: checked those landing commits against the
+  current target `main` branches and confirmed they remain ancestors of `main`.
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/triage-actionability-sync` worktrees after verification. The local
+  worktree cleanup for this line is complete.
 
 ## Follow-Up
 
 - No new Conductor story was created. The honest supervisor artifact for this
-  line is the alignment record plus the prepared target-repo patches.
+  line is the alignment record plus the landed target-repo updates.
 - Conductor itself was not a sync target for this pass. The change belongs to
   the tracked product repos' methodology packages, not to the supervisor loop.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/triage-actionability-sync` branches after confirming no remaining
+  worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

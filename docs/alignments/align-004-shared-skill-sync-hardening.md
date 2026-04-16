@@ -115,3 +115,14 @@ skill-sync tooling across tracked projects
   the stricter `sync-agent-skills` enforcement, plus the narrow missing
   `user-invocable` declarations required for honest wrapper parity in doc-web
   and CineForge.
+- 2026-04-16 verification follow-up: checked the dedicated
+  `codex/skill-sync-hardening` worktree tip commits against target `main`
+  branches and confirmed they are already merged.
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/skill-sync-hardening` worktrees after verification. The local
+  worktree cleanup for this line is complete.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/skill-sync-hardening` branches after confirming no remaining
+  worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

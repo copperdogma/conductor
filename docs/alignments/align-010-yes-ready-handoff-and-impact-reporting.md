@@ -119,11 +119,23 @@ plain language and end with a next step the user can approve with a simple
     `make methodology-check`
   - CineForge: `./scripts/sync-agent-skills.sh --check`,
     `pnpm methodology:check`
-- No target `main` branches were updated in this pass. The changes are prepared
-  and validated in their isolated worktrees only.
+- 2026-04-16 verification follow-up: checked the dedicated worktree tip commits
+  against the corresponding target `main` branches and confirmed the landing is
+  already complete:
+  - Dossier: `dbe98ac` is an ancestor of `main`
+  - Storybook: `c53c659` is an ancestor of `main`
+  - doc-web: `8519bf3` is an ancestor of `main`
+  - CineForge: `5d5a5ed` is an ancestor of `main`
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/handoff-reporting-sync` worktrees after verification. The local
+  worktree cleanup for this line is complete.
 
 ## Follow-Up
 
 - No new Conductor story was created.
-- If the user wants these changes landed, the honest next step is repo-by-repo
-  check-in from the prepared worktrees.
+- The rollout is already landed across the target repos.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/handoff-reporting-sync` branches after confirming no remaining
+  worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

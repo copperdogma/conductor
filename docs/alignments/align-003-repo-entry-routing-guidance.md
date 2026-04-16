@@ -99,3 +99,14 @@
   - doc-web: `d0839bd`
 - Those landings kept the README placement repo-specific and left Conductor on
   its supervisor-specific routing model, matching the recommendation above.
+- 2026-04-16 verification follow-up: checked the dedicated
+  `codex/routing-guidance-sync` worktree tip commits against target `main`
+  branches and confirmed they are already merged.
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/routing-guidance-sync` worktrees after verification. The local
+  worktree cleanup for this line is complete.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/routing-guidance-sync` branches after confirming no remaining
+  worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

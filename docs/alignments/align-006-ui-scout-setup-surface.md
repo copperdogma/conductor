@@ -132,6 +132,12 @@ package
   `setup-methodology` in Storybook and CineForge explicitly preserves the
   optional `ui-scout` lane when `state.ui_scout` is part of the package,
   while Dossier and doc-web remain intentionally local.
+- 2026-04-16 verification follow-up: checked the dedicated
+  `codex/ui-scout-setup-surface` worktree tip commits against target `main`
+  branches and confirmed they are already merged.
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/ui-scout-setup-surface` worktrees after verification. The local
+  worktree cleanup for this line is complete.
 
 ## Follow-Up
 
@@ -139,3 +145,8 @@ package
   question remains the alignment record plus the landed target-repo updates.
 - Conductor itself is not a sync target for this pass; `ui-scout` is a
   tracked-project product-methodology lane rather than a supervisor workflow.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/ui-scout-setup-surface` branches after confirming no remaining
+  worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

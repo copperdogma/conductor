@@ -70,5 +70,19 @@
 
 ## Follow-Up
 
-- No cleanup was requested, so the dedicated task worktrees and branches remain
-  available for inspection or later removal.
+- 2026-04-16 verification follow-up: checked the current dedicated
+  `codex/inbox-checkin-landing` worktree tip commits against target `main`
+  branches and confirmed they are already merged:
+  - Dossier: `f7f82d7`
+  - Storybook: `9241441`
+  - doc-web: current worktree tip `daaf848` is an ancestor of `main`; the
+    original alignment landing commit remains `218ae08`
+  - CineForge: `ff82e9d`
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/inbox-checkin-landing` worktrees after verification. The local
+  worktree cleanup for this line is complete.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/inbox-checkin-landing` branches after confirming no remaining
+  worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

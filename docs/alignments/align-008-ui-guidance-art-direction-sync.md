@@ -122,6 +122,13 @@ sync
 - Landed the validated target branches onto remote `main`:
   - Storybook: `54b837f` (`Refine UI art direction guidance`)
   - CineForge: `11a1bf0` (`Refine UI art direction guidance`)
+- 2026-04-16 verification follow-up: checked the dedicated
+  `codex/ui-guidance-art-direction-sync-*` worktree tip commits against target
+  `main` branches and confirmed they are already merged.
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/ui-guidance-art-direction-sync-storybook` and
+  `codex/ui-guidance-art-direction-sync-cine-forge` worktrees after
+  verification. The local worktree cleanup for this line is complete.
 
 ## Follow-Up
 
@@ -129,3 +136,9 @@ sync
   line is the alignment record plus the landed target-repo updates.
 - Dossier and doc-web remain intentionally local for this slice unless future
   UI methodology pressure appears there.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/ui-guidance-art-direction-sync-storybook` and
+  `codex/ui-guidance-art-direction-sync-cine-forge` branches after confirming
+  no remaining worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

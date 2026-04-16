@@ -94,10 +94,19 @@ project skill surfaces and decide whether it should roll out portfolio-wide
   - Storybook: `f74df2e` (`Add loop-verify skill`)
   - doc-web: `7a3b721` (`Add loop-verify skill`)
   - CineForge: `3ffe492` (`Add loop-verify skill`)
-- The target rollout worktrees remain in place on `codex/loop-verify-rollout`
-  because cleanup was not requested.
+- 2026-04-16 verification follow-up: checked the dedicated
+  `codex/loop-verify-rollout` worktree tip commits against target `main`
+  branches and confirmed they are already merged.
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/loop-verify-rollout` worktrees after verification. The local worktree
+  cleanup for this line is complete.
 
 ## Follow-Up
 
 - No new Conductor story was created. The honest supervisor artifact for this
-  line is the alignment record plus the target-repo patches.
+  line is the alignment record plus the landed target-repo updates.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/loop-verify-rollout` branches after confirming no remaining worktree
+  still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.

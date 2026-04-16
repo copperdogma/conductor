@@ -118,10 +118,24 @@ recommendations
   - CineForge's final post-rebase methodology check reported no new warnings;
     the earlier pre-landing `ui_scout` freshness warning did not persist on the
     landed tip
+- 2026-04-16 verification follow-up: checked the dedicated worktree tip commits
+  against the current target `main` branches and confirmed the landing is
+  already complete:
+  - Dossier: `e2f3e1c` is an ancestor of `main`
+  - Storybook: `52a86ac` is an ancestor of `main`
+  - CineForge: `96afaa6` is an ancestor of `main`
+- 2026-04-16 cleanup follow-up: removed the dedicated local
+  `codex/triage-phase-pressure-defaults` worktrees after verification. The
+  local worktree cleanup for this line is complete.
 
 ## Follow-Up
 
 - No new Conductor story was created. The honest supervisor artifact for this
-  line is the alignment record plus the prepared target-repo patches.
+  line is the alignment record plus the landed target-repo updates.
 - Conductor itself was not a sync target for this pass. The change belongs to
   the tracked product repos' methodology package, not to the supervisor loop.
+- 2026-04-16 branch cleanup follow-up: deleted the merged local
+  `codex/triage-phase-pressure-defaults` branches after confirming no
+  remaining worktree still had them checked out.
+- Supervisor memory for this line is current; no further local worktree or
+  merged-branch cleanup is pending.
