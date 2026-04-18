@@ -40,3 +40,9 @@ Use this index to track internal cross-project alignment work.
 - `2026-04-11` — [Alignment 011 — Loop Verify Skill Rollout](./alignments/align-011-loop-verify-skill-rollout.md)
   Focused on rolling the new shared `loop-verify` coordination skill into all
   tracked projects.
+- `2026-04-17` — [Alignment 012 — Triage Story Fragmentation Guardrail](./alignments/align-012-triage-story-fragmentation-guardrail.md)
+  Focused on whether doc-web's newer anti-fragmentation triage rule should sync
+  into Dossier, Storybook, and CineForge.
+- `2026-04-17` — [Alignment 013 — Triage Vs-Ideal Current-Tech Calibration](./alignments/align-013-triage-vs-ideal-current-tech.md)
+  Focused on whether Dossier's newer "north-star versus current-tech" triage
+  framing should sync into doc-web, Storybook, and CineForge.
