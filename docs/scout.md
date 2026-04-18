@@ -91,3 +91,10 @@ Use this index to track external sources investigated for cross-project value.
 - `2026-04-10` — [Scout 022 — Evaluate Axios Compromise Note for Cross-Project Dependency Risk](./scout/scout-022-axios-compromise-risk.md) — `Reject`
   No `axios` dependency surface was found across the tracked repos on
   2026-04-10.
+- `2026-04-17` — [Scout 023 — Evaluate OpenAI Codex Use Cases for Cross-Project Workflow Ideas](./scout/scout-023-openai-codex-use-cases.md) — `Adapt`
+  Official Codex use-case docs are a strong selective reference bundle for
+  future repo-local workflow upgrades, but not a reason to import a whole new
+  shared methodology line.
+- `2026-04-17` — [Scout 024 — Evaluate Solve Everything's "Replication Pack" Concept](./scout/scout-024-replication-pack-reproducibility.md) — `Defer`
+  The underlying reproducibility-package idea is real, but Solve Everything's
+  branded proof-heavy version is too heavy for the current tracked projects.
