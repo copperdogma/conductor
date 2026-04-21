@@ -46,3 +46,7 @@ Use this index to track internal cross-project alignment work.
 - `2026-04-17` — [Alignment 013 — Triage Vs-Ideal Current-Tech Calibration](./alignments/align-013-triage-vs-ideal-current-tech.md)
   Focused on whether Dossier's newer "north-star versus current-tech" triage
   framing should sync into doc-web, Storybook, and CineForge.
+- `2026-04-20` — [Alignment 014 — Browser Testing Tool Choice Sync](./alignments/align-014-browser-testing-tool-choice-sync.md)
+  Focused on making the Playwright-versus-Computer-Use decision rule explicit
+  in Storybook and CineForge without creating fake browser-methodology drift in
+  Dossier or doc-web.
