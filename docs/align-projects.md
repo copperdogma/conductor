@@ -40,3 +40,7 @@ Use this index to track internal cross-project alignment work.
 - `2026-04-11` — [Alignment 011 — Loop Verify Skill Rollout](./alignments/align-011-loop-verify-skill-rollout.md)
   Focused on rolling the new shared `loop-verify` coordination skill into all
   tracked projects.
+- `2026-04-20` — [Alignment 014 — Provider Dependency Health Surface](./alignments/align-014-provider-dependency-health-surface.md)
+  Focused on whether CineForge's new split between app liveness and provider
+  dependency readiness should carry into Storybook or stay local to the repos
+  that already own runtime/package preflight instead.
