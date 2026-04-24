@@ -58,7 +58,8 @@ that Codex's Run action can invoke from whatever worktree is active.
   frontend `5173` and backend `3001`.
 - Implementing a full shared Conductor daemon or global port broker.
 - Giving Robo Rally a UI before the project is ready for one.
-- Committing or pushing target-project changes.
+- Changing target apps beyond the narrow launcher/config surfaces needed for
+  the port contract.
 
 ## Tasks
 
@@ -193,3 +194,11 @@ contract is recorded, Storybook's Google-auth exception is preserved, CineForge
 and Echo Forge have checked worktree-safe launchers, and the run-action
 commands are explicit. Marked Story 004 done and regenerated methodology
 surfaces for final check-in.
+
+20260424-1754 — target landing: after Conductor close-out, landed the narrow
+target repo patches from isolated worktrees. CineForge commit `e0c5c41` added
+the local dev launcher on `main`; Echo Forge commit `fb8501b` added the same
+port-contract launcher/config on `main`. Echo Forge's primary checkout still
+has unrelated active Story 003 documentation changes, so the target commit was
+made from `/Users/cam/.codex/worktrees/local-dev-port-contract/echo-forge`
+instead of staging the dirty primary checkout.

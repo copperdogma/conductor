@@ -9,7 +9,7 @@
 
 ### Changed
 - Closed Story 004 after validating the Conductor registry/alignment surfaces
-  and the target launcher checks for CineForge and Echo Forge.
+  and landing the target launcher commits for CineForge and Echo Forge.
 
 ## [2026-04-11-01] - Roll out loop-verify skill
 

@@ -82,10 +82,11 @@ runtime becomes common.
 Story 004 implemented the first rollout slice:
 
 - Storybook remains unchanged; its Run action command is `pnpm dev:gauth`.
-- CineForge has an isolated-worktree patch adding `./scripts/dev-local`, root
-  `npm run dev:local`, and env-driven Vite UI/API port config.
-- Echo Forge has `./scripts/dev-local`, `npm run dev:local`, and strict Vite
-  defaults on `5175` so it no longer competes with Storybook's `5173`.
+- CineForge landed commit `e0c5c41` on `main`, adding `./scripts/dev-local`,
+  root `npm run dev:local`, and env-driven Vite UI/API port config.
+- Echo Forge landed commit `fb8501b` on `main`, adding `./scripts/dev-local`,
+  `npm run dev:local`, and strict Vite defaults on `5175` so it no longer
+  competes with Storybook's `5173`.
 - Robo Rally and Board Game Ingester are reserved in the contract only because
   they do not currently have active UI/server runtime surfaces needing patches.
 
