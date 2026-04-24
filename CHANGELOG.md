@@ -1,5 +1,16 @@
 # Changelog
 
+## [2026-04-24-01] - Record local dev port contract
+
+### Added
+- Added Robo Rally to the tracked project registry.
+- Added Alignment 016 and Story 004 to record stable local server/UI port
+  assignments and Codex Run action commands for the active UI apps.
+
+### Changed
+- Closed Story 004 after validating the Conductor registry/alignment surfaces
+  and the target launcher checks for CineForge and Echo Forge.
+
 ## [2026-04-11-01] - Roll out loop-verify skill
 
 ### Added

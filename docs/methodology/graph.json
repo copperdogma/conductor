@@ -134,11 +134,40 @@
       ],
       "status": "Done",
       "title": "Roll Out Storybook Skill Surface Alignment"
+    },
+    {
+      "category_refs": [
+        "registry-routing",
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-004-local-dev-port-contract.md",
+      "id": 4,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.1",
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1"
+      ],
+      "status": "Done",
+      "title": "Local Dev Port Contract"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 3,
+    "Done": 4,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0
@@ -253,6 +282,28 @@
       "name": "Board Game Ingester",
       "path": "/Users/cam/Documents/Projects/boardgame-ingester",
       "role": "board-game rulebook and component ingestion pipeline"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        "docs/methodology-ideal-spec-compromise.md",
+        "docs/methodology/state.yaml",
+        "docs/methodology/graph.json",
+        "docs/build-map.md",
+        "docs/setup-checklist.md",
+        "docs/runbooks/setup-methodology.md",
+        "docs/scout.md",
+        "docs/scout",
+        ".agents/skills",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "roborally",
+      "name": "Robo Rally",
+      "path": "/Users/cam/Documents/Projects/roborally",
+      "role": "private RoboRally digital clone and AI-built game framework proof"
     },
     {
       "comparison_surfaces": [

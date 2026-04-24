@@ -54,3 +54,6 @@ Use this index to track internal cross-project alignment work.
   Focused on adding Board Game Ingester and Echo Forge to the tracked-project
   registry, then comparing all six tracked apps against Storybook's recent
   greenfield bootstrap, completion-sanity triage, and eval-ladder changes.
+- `2026-04-24` — [Alignment 016 — Local Dev Port Contract](./alignments/align-016-local-dev-port-contract.md)
+  Focused on assigning stable local server/UI ports to active UI apps and
+  giving Codex Run actions relative, worktree-safe launcher commands.
