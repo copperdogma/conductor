@@ -104,11 +104,41 @@
       ],
       "status": "Done",
       "title": "Build Portable Security Audit Lane"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-003-storybook-skill-surface-rollout.md",
+      "id": 3,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.1",
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1"
+      ],
+      "status": "Done",
+      "title": "Roll Out Storybook Skill Surface Alignment"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 2,
+    "Done": 3,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0
@@ -201,6 +231,50 @@
       "name": "CineForge",
       "path": "/Users/cam/Documents/Projects/cine-forge",
       "role": "film pipeline and previz product"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        "docs/methodology-ideal-spec-compromise.md",
+        "docs/methodology/state.yaml",
+        "docs/methodology/graph.json",
+        "docs/build-map.md",
+        "docs/setup-checklist.md",
+        "docs/runbooks/setup-methodology.md",
+        "docs/scout.md",
+        "docs/scout",
+        ".agents/skills",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "boardgame-ingester",
+      "name": "Board Game Ingester",
+      "path": "/Users/cam/Documents/Projects/boardgame-ingester",
+      "role": "board-game rulebook and component ingestion pipeline"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        "docs/methodology-ideal-spec-compromise.md",
+        "docs/methodology/state.yaml",
+        "docs/methodology/graph.json",
+        "docs/build-map.md",
+        "docs/setup-checklist.md",
+        "docs/runbooks/setup-methodology.md",
+        "docs/scout.md",
+        "docs/scout",
+        ".agents/skills",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "echo-forge",
+      "name": "Echo Forge",
+      "path": "/Users/cam/Documents/Projects/echo-forge",
+      "role": "RPG soundscape generation and table-audio workflow"
     }
   ]
 }

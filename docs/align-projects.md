@@ -50,3 +50,7 @@ Use this index to track internal cross-project alignment work.
   Focused on whether CineForge's new split between app liveness and provider
   dependency readiness should carry into Storybook or stay local to the repos
   that already own runtime/package preflight instead.
+- `2026-04-24` — [Alignment 015 — Storybook Skill Surface Across Tracked Apps](./alignments/align-015-storybook-skill-surface-all-projects.md)
+  Focused on adding Board Game Ingester and Echo Forge to the tracked-project
+  registry, then comparing all six tracked apps against Storybook's recent
+  greenfield bootstrap, completion-sanity triage, and eval-ladder changes.

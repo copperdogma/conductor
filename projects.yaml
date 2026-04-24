@@ -76,3 +76,41 @@ projects:
       - .agents/skills
       - docs/stories
       - docs/decisions
+  - key: boardgame-ingester
+    name: Board Game Ingester
+    path: /Users/cam/Documents/Projects/boardgame-ingester
+    role: board-game rulebook and component ingestion pipeline
+    comparison_surfaces:
+      - AGENTS.md
+      - docs/ideal.md
+      - docs/spec.md
+      - docs/methodology-ideal-spec-compromise.md
+      - docs/methodology/state.yaml
+      - docs/methodology/graph.json
+      - docs/build-map.md
+      - docs/setup-checklist.md
+      - docs/runbooks/setup-methodology.md
+      - docs/scout.md
+      - docs/scout
+      - .agents/skills
+      - docs/stories
+      - docs/decisions
+  - key: echo-forge
+    name: Echo Forge
+    path: /Users/cam/Documents/Projects/echo-forge
+    role: RPG soundscape generation and table-audio workflow
+    comparison_surfaces:
+      - AGENTS.md
+      - docs/ideal.md
+      - docs/spec.md
+      - docs/methodology-ideal-spec-compromise.md
+      - docs/methodology/state.yaml
+      - docs/methodology/graph.json
+      - docs/build-map.md
+      - docs/setup-checklist.md
+      - docs/runbooks/setup-methodology.md
+      - docs/scout.md
+      - docs/scout
+      - .agents/skills
+      - docs/stories
+      - docs/decisions
