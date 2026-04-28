@@ -61,3 +61,7 @@ Use this index to track internal cross-project alignment work.
   Focused on inventorying current triage leaf skills across tracked repos,
   preserving battle-tested local guidance, and planning the Storybook-first
   orchestration pilot plus adapted rollout.
+- `2026-04-28` — [Alignment 018 — Triage Subagent Contract](./alignments/align-018-triage-subagent-contract.md)
+  Focused on strengthening unscoped `/triage` so it explicitly authorizes
+  contracted subagent lane fan-out when the runtime exposes delegation, while
+  preserving the main thread as the Ideal/spec arbiter.

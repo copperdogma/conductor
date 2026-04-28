@@ -111,6 +111,18 @@ After user confirmation:
 
 When invoked with no scope, run a supervisor-first orchestration pass.
 
+Unscoped `/triage` is a contracted fan-out command. Treat the user's invocation
+of unscoped `/triage` as explicit authorization to use the runtime's
+subagent/delegation tool for neutral lane packets when it is available and safe
+for the current checkout. The main thread keeps the supervisor north star:
+Ideal/spec/state synthesis, direct fact/script reads, top-three ranking, and the
+final recommendation. Subagents gather evidence; they do not decide the
+repo-wide answer.
+
+If subagents/delegation are unavailable, unsafe for the current checkout, or the
+user explicitly asks not to use them, run the same lane-packet contracts
+sequentially and state that fallback in the response.
+
 1. **Read the shared frame**
    - `docs/ideal.md`
    - `docs/methodology-ideal-spec-compromise.md`
@@ -150,8 +162,12 @@ When invoked with no scope, run a supervisor-first orchestration pass.
      history is missing
    - Scout memory: inspect the relevant entry or confirm that source memory is
      missing
+   - Ask each lane for a compact neutral packet: up to three candidates, the
+     supervisor pressure each one reduces, evidence, why now, action shape,
+     validation or stop condition, blockers, and reasons not now.
    - Interpret each source through one question:
-     - what already exists that advances this exact pressure?
+     - what already exists that advances this exact pressure, or shows that a
+       different supervisor pressure is stronger?
    - Do not let a convenient story shell or a novel inbox item outrank the
      chosen pressure just because it is easier to start
 
@@ -217,6 +233,10 @@ When invoked with no scope, run a supervisor-first orchestration pass.
 - Scoped invocations delegate. Do not duplicate leaf logic here.
 - `inbox` is the one scoped mode owned directly by this skill.
 - Unscoped `/triage` is read-only.
+- Unscoped `/triage` explicitly authorizes subagent lane fan-out when the
+  runtime exposes it and the checkout is safe for read-only delegation;
+  otherwise keep the same lane-packet contracts sequentially and state the
+  fallback.
 - Recommend one next action, not a grab bag.
 - Prefer the smallest honest artifact that reduces repeated work.
 - Do not optimize Conductor's internal tidiness over leverage for the tracked
