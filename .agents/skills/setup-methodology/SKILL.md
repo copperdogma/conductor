@@ -21,6 +21,25 @@ Use this to bootstrap or refresh Conductor's own supervisor methodology.
 - `docs/scout.md`
 - `docs/align-projects.md`
 
+## Product-repo setup surface
+
+Conductor's own setup surface is supervisor-specific, but the tracked product
+repos should keep their `/setup-methodology` skill text identical. When a
+triage, loop-verify, or bootstrap improvement affects new product repos:
+
+- upgrade the shared product `/setup-methodology` skill in one product worktree
+- run a local propagation sweep against the no-code/greenfield case before
+  copying
+- copy the exact skill file into the other product repos
+- regenerate/check wrappers in every target repo
+- avoid per-repo rewrites unless a repo has a documented local exception
+
+The shared product skill must handle repos with no code yet. It should require
+real `docs/ideal.md` and `docs/spec.md` from `/init-project` or equivalent
+intake, install upgraded triage/triage-health/loop-verify surfaces, mark
+code-dependent lanes as absent or deferred, and run cheap checks instead of
+long subagent loops over evidence that cannot exist yet.
+
 ## Steps
 
 1. Read `AGENTS.md`, `docs/ideal.md`, `docs/spec.md`, `projects.yaml`, and `docs/methodology/state.yaml`.
@@ -41,4 +60,3 @@ Use this to bootstrap or refresh Conductor's own supervisor methodology.
 - Keep Conductor lightweight.
 - Do not import pipeline-specific methodology baggage from the tracked projects.
 - Do not add structure that does not remove recurring work.
-

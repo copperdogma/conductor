@@ -57,3 +57,7 @@ Use this index to track internal cross-project alignment work.
 - `2026-04-24` — [Alignment 016 — Local Dev Port Contract](./alignments/align-016-local-dev-port-contract.md)
   Focused on assigning stable local server/UI ports to active UI apps and
   giving Codex Run actions relative, worktree-safe launcher commands.
+- `2026-04-25` — [Alignment 017 — Triage Orchestration Leaf-Skill Inventory](./alignments/align-017-triage-orchestration-leaf-skill-inventory.md)
+  Focused on inventorying current triage leaf skills across tracked repos,
+  preserving battle-tested local guidance, and planning the Storybook-first
+  orchestration pilot plus adapted rollout.

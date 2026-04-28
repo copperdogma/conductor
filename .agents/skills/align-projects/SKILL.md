@@ -46,6 +46,34 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
 7. Update `docs/align-projects.md`.
 8. If warranted, create follow-up stories.
 
+## Target-repo edit isolation
+
+Alignment comparison may read from each project's primary checkout, but
+alignment execution should not edit a tracked project's active checkout by
+default. Assume each primary checkout may be serving current product work,
+local validation, or another agent.
+
+When an approved alignment pass needs target-project edits:
+
+- inspect each target repo's current branch and `git status --short --branch`
+  before deciding where to work
+- create a dedicated worktree per target repo under
+  `/Users/cam/.codex/worktrees/<task>/<project-key>` unless Cam explicitly asks
+  to work in place
+- create a task branch with the `codex/` prefix from `origin/main` unless the
+  user names a different base branch
+- keep one branch/worktree per target repo for cross-repo rollouts
+- do not modify dirty primary checkouts, switch their branches, or clean their
+  untracked files as part of supervisor work
+- record the target worktree path, branch, base, and validation commands in the
+  alignment entry when execution follows the recommendation
+- still require explicit approval before committing, pushing, or landing target
+  repo changes
+
+Work in a primary checkout only when the user explicitly asks to continue that
+checkout's current branch/work, and first confirm the local branch, status, and
+which existing changes are in scope.
+
 ## Output shape
 
 - surfaces compared
@@ -59,3 +87,5 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
 - Do not force exact textual identity.
 - Do not treat local product-specific adaptation as accidental drift by default.
 - When methodology intent truly conflicts, surface it clearly and ask whether it should converge.
+- Do not step on tracked project workspaces. Use isolated task worktrees for
+  target-repo edits unless Cam explicitly requests in-place work.

@@ -163,11 +163,41 @@
       ],
       "status": "Done",
       "title": "Local Dev Port Contract"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-005-triage-orchestration-pilot-and-rollout.md",
+      "id": 5,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.1",
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1"
+      ],
+      "status": "Done",
+      "title": "Triage Orchestration Pilot and Rollout"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 4,
+    "Done": 5,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0
