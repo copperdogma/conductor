@@ -39,6 +39,25 @@ Write `## Plan` in the story with:
 
 Pause for user approval before implementation.
 
+## Optional Delegation After the Plan Gate
+
+After the user approves the Phase 2 plan, the main thread may use
+subagents/sidecars for non-trivial work when delegation reduces risk or protects
+context. Keep routine small stories single-threaded.
+
+- The main thread owns the approved plan, Ideal/spec fit, target-repo worktree
+  isolation, integration, final implementation judgment, and handoff.
+- Useful post-gate sidecars include bounded exploration that no longer blocks
+  approval, disjoint implementation slices, test or eval writing, artifact
+  inspection, and review of already-written changes.
+- Before delegated code edits, assign explicit, disjoint file or module
+  ownership. Do not let multiple agents edit overlapping files or settle shared
+  design questions independently.
+- Subagents do not reopen scope, choose the final design, mark workflow gates,
+  or decide whether the story is ready for `/validate`.
+- If delegation is unavailable, unsafe for the checkout, or explicitly disabled,
+  run the same work sequentially and note the fallback.
+
 ## Phase 3 — Implement
 
 1. Set the story to `In Progress`.

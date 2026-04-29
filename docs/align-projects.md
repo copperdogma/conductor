@@ -65,3 +65,7 @@ Use this index to track internal cross-project alignment work.
   Focused on strengthening unscoped `/triage` so it explicitly authorizes
   contracted subagent lane fan-out when the runtime exposes delegation, while
   preserving the main thread as the Ideal/spec arbiter.
+- `2026-04-28` — [Alignment 019 — Core Story Loop Subagent Contracts](./alignments/align-019-core-story-loop-subagent-contracts.md)
+  Focused on applying the Story 005 subagent lessons to `/create-story`,
+  `/build-story`, `/validate`, and shared `/setup-methodology` across tracked
+  repos, with loop verification and repo-local adaptation.

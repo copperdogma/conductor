@@ -24,6 +24,25 @@ Validate Conductor work with fresh current-pass evidence.
    - `make lint`
    - `make skills-check` if skill files changed
    - `make test` if scripts or repo checks changed
+
+3b. Optional parallel validation:
+   - Use bounded validation packets only when they will materially improve
+     confidence, such as changed-file review, story acceptance review,
+     check/test execution, or holistic Ideal/spec/architecture review.
+   - Scope each packet to explicit files, commands, or criteria. Each packet
+     must return fresh evidence from the current diff and must not decide the
+     final disposition.
+   - The main thread keeps Conductor's final synthesis: acceptance status,
+     Ideal/spec fit, closure recommendation, impact note, and yes-ready next
+     step.
+   - Do not use subagents for routine small validations where direct review is
+     cheaper and equally trustworthy.
+   - If subagents are unavailable, unsafe for the checkout, or explicitly
+     disabled by the user, run the same validation sequentially and note the
+     fallback in the report.
+   - Escalate to `/loop-verify` when the diff is broad or high-risk, material
+     fixes keep appearing during validation, the work is a cross-repo rollout,
+     or one complete clean parallel round is important before closure.
 4. Inspect the actual outputs:
    - updated story
    - updated log entry

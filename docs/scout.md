@@ -98,3 +98,7 @@ Use this index to track external sources investigated for cross-project value.
 - `2026-04-17` — [Scout 024 — Evaluate Solve Everything's "Replication Pack" Concept](./scout/scout-024-replication-pack-reproducibility.md) — `Defer`
   The underlying reproducibility-package idea is real, but Solve Everything's
   branded proof-heavy version is too heavy for the current tracked projects.
+- `2026-04-29` — [Scout 025 — Evaluate OpenAI Symphony for Conductor Orchestration](./scout/scout-025-openai-symphony-orchestration.md) — `Adapt`
+  Symphony is a strong reference for Conductor-side work-item orchestration,
+  isolated workspaces, retry/reconciliation, and proof-of-work packets, but it
+  does not justify adopting Linear or an always-on daemon yet.

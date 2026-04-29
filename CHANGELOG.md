@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-04-28-01] - Upgrade core story loop contracts
+
+### Added
+- Added Scout 025 for the OpenAI Symphony orchestration reference and
+  Alignment 019 for the cross-repo core story-loop subagent contract rollout.
+- Added Story 006 to record the review, loop-verification evidence, validation,
+  target repo commits, and close-out path.
+
+### Changed
+- Upgraded Conductor's `/create-story`, `/build-story`, and `/validate`
+  guidance with optional bounded sidecar/parallel validation contracts while
+  keeping the main thread responsible for final judgment.
+- Replaced the shared `/setup-methodology` skill with the identity-preserving
+  version that refreshes the accepted core-loop guidance across tracked repos.
+- Routed the completed Symphony and story-loop notes out of `inbox.md`.
+
 ## [2026-04-24-01] - Record local dev port contract
 
 ### Added
