@@ -69,3 +69,7 @@ Use this index to track internal cross-project alignment work.
   Focused on applying the Story 005 subagent lessons to `/create-story`,
   `/build-story`, `/validate`, and shared `/setup-methodology` across tracked
   repos, with loop verification and repo-local adaptation.
+- `2026-04-29` — [Alignment 020 — Visual Inspect Loop Skill Rollout](./alignments/align-020-visual-inspect-loop-skill-rollout.md)
+  Focused on selectively rolling doc-web's `/visual-inspect-loop` skill into
+  tracked repos that own visual, rendered, image, screenshot, crop, UI, or
+  image-golden quality surfaces.

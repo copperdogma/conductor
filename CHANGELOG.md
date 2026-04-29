@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-04-29-01] - Roll out visual inspect loop skill
+
+### Added
+- Added Alignment 020 and Story 007 for the selective
+  `/visual-inspect-loop` rollout from doc-web into the visual-surface tracked
+  repos.
+- Prepared isolated target-repo worktree landings for Storybook, CineForge,
+  Board Game Ingester, Robo Rally, and Echo Forge.
+
+### Changed
+- Updated Storybook and Echo Forge `/ui-scout` guidance so UI Scout invokes
+  `/visual-inspect-loop` when a finding or inline fix depends on
+  visual/rendered correctness.
+- Recorded Dossier as deferred for this skill until it owns a concrete visual
+  or rendered-artifact lane.
+
 ## [2026-04-28-01] - Upgrade core story loop contracts
 
 ### Added
