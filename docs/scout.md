@@ -100,5 +100,6 @@ Use this index to track external sources investigated for cross-project value.
   branded proof-heavy version is too heavy for the current tracked projects.
 - `2026-04-29` — [Scout 025 — Evaluate OpenAI Symphony for Conductor Orchestration](./scout/scout-025-openai-symphony-orchestration.md) — `Adapt`
   Symphony is a strong reference for Conductor-side work-item orchestration,
-  isolated workspaces, retry/reconciliation, and proof-of-work packets, but it
-  does not justify adopting Linear or an always-on daemon yet.
+  isolated workspaces, retry/reconciliation, and proof-of-work packets, but the
+  current adoption gate is task shape: use longer automation only for objective
+  golden-backed hillclimbs, not high-taste UI or manual-verifier work.
