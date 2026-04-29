@@ -170,6 +170,12 @@ sequentially and state that fallback in the response.
        different supervisor pressure is stronger?
    - Do not let a convenient story shell or a novel inbox item outrank the
      chosen pressure just because it is easier to start
+   - When the honest vehicle is a new story, size it as a coherent work
+     package, not the smallest commandable step. Use roughly one focused AI
+     hour of implementation plus validation as a calibration floor when
+     adjacent work can be bundled honestly; let larger milestones stay larger,
+     and keep a tiny story only when it isolates a real risk, unblock, or
+     indivisible proof boundary. Do not pad scope just to hit a clock.
 
 5. **Choose one next action**
    Prefer this order:

@@ -73,3 +73,7 @@ Use this index to track internal cross-project alignment work.
   Focused on selectively rolling doc-web's `/visual-inspect-loop` skill into
   tracked repos that own visual, rendered, image, screenshot, crop, UI, or
   image-golden quality surfaces.
+- `2026-04-29` — [Alignment 021 — Triage Story Sizing Calibration](./alignments/align-021-triage-story-sizing-calibration.md)
+  Focused on carrying Robo Rally's anti-micro-story triage lesson into tracked
+  triage skills as an "about an hour of AI work" sizing heuristic, while
+  preserving exceptions for genuinely tiny indivisible stories.
