@@ -77,3 +77,7 @@ Use this index to track internal cross-project alignment work.
   Focused on carrying Robo Rally's anti-micro-story triage lesson into tracked
   triage skills as an "about an hour of AI work" sizing heuristic, while
   preserving exceptions for genuinely tiny indivisible stories.
+- `2026-04-29` — [Alignment 022 — Review vs Validate](./alignments/align-022-review-vs-validate.md)
+  Focused on comparing Codex's findings-first review stance with tracked
+  `/validate` skills and recommending a findings-first review pass inside
+  `/validate`, not replacing `/validate`.

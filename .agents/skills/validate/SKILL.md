@@ -15,6 +15,14 @@ Validate Conductor work with fresh current-pass evidence.
    - `git diff --stat`
    - `git diff`
    - `git ls-files --others --exclude-standard`
+1b. Run a findings-first review pass before scoring closure:
+   - Review the current diff for concrete bugs, behavioral regressions, missing
+     tests, security/trust-boundary risks, and operational hazards.
+   - Report material findings first, ordered by severity and grounded in
+     file/line references when possible.
+   - If no material findings are found, say so explicitly and name any residual
+     verification limits.
+   - Do not let green checks or tidy story bookkeeping hide a real defect.
 2. If a story is in scope, validate against:
    - acceptance criteria
    - tasks
@@ -27,8 +35,9 @@ Validate Conductor work with fresh current-pass evidence.
 
 3b. Optional parallel validation:
    - Use bounded validation packets only when they will materially improve
-     confidence, such as changed-file review, story acceptance review,
-     check/test execution, or holistic Ideal/spec/architecture review.
+     confidence, such as findings-first defect review, changed-file review,
+     story acceptance review, check/test execution, or holistic
+     Ideal/spec/architecture review.
    - Scope each packet to explicit files, commands, or criteria. Each packet
      must return fresh evidence from the current diff and must not decide the
      final disposition.
@@ -48,6 +57,8 @@ Validate Conductor work with fresh current-pass evidence.
    - updated log entry
    - updated generated graph/index when relevant
 5. Produce a report with:
+   - findings first: concrete bugs, regressions, missing tests, or "no material
+     findings found" with residual risks
    - Met / Partial / Unmet
    - concrete remaining gaps
    - a short plain-language impact note: what improved for Cam or the target
