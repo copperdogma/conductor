@@ -79,7 +79,7 @@ Branch:
 | Repo | Worktree | Base | Result |
 | --- | --- | --- | --- |
 | Dossier | `/Users/cam/.codex/worktrees/triage-story-sizing-calibration/dossier` | `f5bf1c3` | Added few-minute-story calibration and explicit tiny-story exceptions. |
-| Storybook | `/Users/cam/.codex/worktrees/triage-story-sizing-calibration/storybook` | `0fa1940` | Added the same sizing heuristic next to story-shell packaging guidance. |
+| Storybook | `/Users/cam/.codex/worktrees/triage-story-sizing-calibration/storybook` | `f8938b9` | Added the same sizing heuristic next to story-shell packaging guidance. |
 | doc-web | `/Users/cam/.codex/worktrees/triage-story-sizing-calibration/doc-web` | `e224844` | Added artifact-chain sizing calibration after anti-fragmentation review. |
 | CineForge | `/Users/cam/.codex/worktrees/triage-story-sizing-calibration/cine-forge` | `61c13d4` | Added runtime/media milestone sizing calibration. |
 | Board Game Ingester | `/Users/cam/.codex/worktrees/triage-story-sizing-calibration/boardgame-ingester` | `866e524` | Added fixture/eval/artifact sizing calibration and guardrail reminder. |
@@ -123,8 +123,10 @@ Validation notes:
 - CineForge `npm run methodology:check` still reports existing architecture
   audit and UI-scout freshness warnings, exits successfully, and the warnings
   are unrelated to this triage wording change.
-- Storybook was rebased onto the current `origin/main` tip before commit and
-  the listed Storybook checks were rerun after the rebase.
+- Storybook was rebased onto the current `origin/main` tip before commit. Its
+  first push was rejected because `main` moved again; the branch was rebased
+  onto `f8938b9` and the listed Storybook checks were rerun after the final
+  rebase.
 
 ## Follow-Up
 
