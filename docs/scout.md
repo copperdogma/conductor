@@ -103,3 +103,7 @@ Use this index to track external sources investigated for cross-project value.
   isolated workspaces, retry/reconciliation, and proof-of-work packets, but the
   current adoption gate is task shape: use longer automation only for objective
   golden-backed hillclimbs, not high-taste UI or manual-verifier work.
+- `2026-04-29` — [Scout 026 — Evaluate Build Web Apps Plugin for Tracked App Workflows](./scout/scout-026-build-web-apps-plugin.md) — `Adapt`
+  Build Web Apps should be enabled once at the Codex user level for greenfield
+  or visually led frontend work, but it should augment rather than replace
+  repo-local frontend, UI-scout, browser, and visual-inspection skills.

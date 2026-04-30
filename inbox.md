@@ -5,3 +5,5 @@ Triage is responsible for turning them into stories, scout missions, ADRs, or
 explicit rejections.
 
 ## General
+
+No live items.
