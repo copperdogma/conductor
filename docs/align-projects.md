@@ -81,3 +81,8 @@ Use this index to track internal cross-project alignment work.
   Focused on comparing Codex's findings-first review stance with tracked
   `/validate` skills and recommending a findings-first review pass inside
   `/validate`, not replacing `/validate`.
+- `2026-04-29` — [Alignment 023 — Legacy Skill Retirement](./alignments/align-023-legacy-skill-retirement.md)
+  Focused on inventorying custom repo skills before removing the obsolete
+  `/advice-for-past-self` context-reset helper and identifying other stale
+  custom skills now superseded by context compression and current methodology
+  surfaces.
