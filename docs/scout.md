@@ -107,3 +107,8 @@ Use this index to track external sources investigated for cross-project value.
   Build Web Apps should be enabled once at the Codex user level for greenfield
   or visually led frontend work, but it should augment rather than replace
   repo-local frontend, UI-scout, browser, and visual-inspection skills.
+- `2026-04-30` — [Scout 027 — Evaluate Gemini SDK v1 Default Shift Across Tracked Repos](./scout/scout-027-gemini-sdk-v1-default-shift.md) — `Adapt`
+  The February 2027 official Gemini SDK default shift is not an emergency, but
+  `doc-web` directly uses `google-genai` without an explicit API version and
+  should get a small hardening story; Storybook, CineForge, and Dossier should
+  separately document or centralize intentional `v1beta` REST usage.
