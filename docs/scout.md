@@ -112,3 +112,7 @@ Use this index to track external sources investigated for cross-project value.
   `doc-web` directly uses `google-genai` without an explicit API version and
   should get a small hardening story; Storybook, CineForge, and Dossier should
   separately document or centralize intentional `v1beta` REST usage.
+- `2026-05-01` — [Scout 028 — Evaluate Grok 4.3 API Eval Opportunities](./scout/scout-028-grok-4-3-api-eval-opportunities.md) — `Spike`
+  Grok 4.3 is now a real API eval trigger rather than dead backlog pressure.
+  Storybook and CineForge are the first-order targets, with bounded follow-up
+  notes also routed to Dossier, doc-web, Echo Forge, and Board Game Ingester.
