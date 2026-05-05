@@ -56,7 +56,20 @@ Validate Conductor work with fresh current-pass evidence.
    - updated story
    - updated log entry
    - updated generated graph/index when relevant
-5. Produce a report with:
+5. Run `/learning-review` when the validation episode contains a useful
+   trigger:
+   - material findings or fixes
+   - repeated validation friction
+   - a surprising pass/fail result
+   - an explicit user correction
+   - a missing guardrail exposed by the current diff or closeout
+
+   If none of those triggers exist, skip this step silently. A clean validation
+   does not need a learning artifact. If the detector returns
+   `candidate-warranted`, report or draft the candidate only; do not promote
+   any candidate as part of validation unless Cam separately approves that
+   promotion after reviewing the candidate evidence.
+6. Produce a report with:
    - findings first: concrete bugs, regressions, missing tests, or "no material
      findings found" with residual risks
    - Met / Partial / Unmet

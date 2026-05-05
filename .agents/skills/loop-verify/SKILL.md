@@ -196,6 +196,11 @@ and finish without another full pass.
 - materiality decision for any `RESULT: fixed`
 - final state: converged, blocked, or non-convergent
 - checks run
+- learning-review result when the loop exposed material repeated issues,
+  blockers, non-convergence, explicit user correction, missing guardrail, or a
+  reusable verification procedure; omit this for ordinary clean or minor-only
+  loops. If the detector returns `candidate-warranted`, report or draft through
+  `/learning-candidate` only.
 
 ## Guardrails
 
@@ -214,3 +219,9 @@ and finish without another full pass.
   the point.
 - Do not continue indefinitely when the loop is oscillating or widening; say it
   did not converge cleanly.
+- Do not draft learning candidates from loop novelty alone. Use
+  `/learning-review` only when the loop shows a durable workflow correction,
+  repeated same-class issue, explicit user correction, missing guardrail,
+  high-risk miss, or reusable verification pattern.
+- Do not promote candidates as part of ordinary loop closeout. Promotion
+  requires separate Cam approval after the candidate evidence has been reviewed.

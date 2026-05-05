@@ -101,7 +101,24 @@ appears.
    - stop on major check-in or integration issues instead of forcing the
      landing
 
-8. Report the outcome:
+8. Run `/learning-review` when the finish-and-push episode contains a useful
+   trigger:
+   - a full landing exposed repeated closeout friction
+   - the run stopped on a process gap that is likely to recur
+   - a linked target-project handoff was confusing
+   - a user correction changed the workflow rule
+   - repeated minor fixes indicate missing closeout guidance
+
+   Skip this silently after ordinary successful landings. If the detector
+   returns `candidate-warranted`, report it or draft through
+   `/learning-candidate` only before the landing completes and only when the
+   draft can be validated and included in the intended landing set. Do not
+   create a post-landing dirty diff just to draft a learning candidate; report
+   the candidate-warranted result and recommend a separate drafting pass
+   instead. Do not promote as part of the landing unless Cam separately approves
+   that promotion after reviewing the candidate evidence.
+
+9. Report the outcome:
    - if successful: summarize story closure, commit/landing path, validation
      results, which target repos were landed, and whether `main` was pushed and
      cleanup was performed

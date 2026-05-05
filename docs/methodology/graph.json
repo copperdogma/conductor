@@ -258,11 +258,41 @@
       ],
       "status": "Done",
       "title": "Visual Inspect Loop Skill Rollout"
+    },
+    {
+      "category_refs": [
+        "scouting",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-008-reviewed-learning-candidates.md",
+      "id": 8,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:3.2",
+        "spec:4.1",
+        "spec:4.2",
+        "spec:5.2",
+        "spec:5.3"
+      ],
+      "status": "Done",
+      "title": "Add Reviewed Learning Candidate Workflow"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 7,
+    "Done": 8,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

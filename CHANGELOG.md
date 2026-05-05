@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-05-05-01] - Add reviewed learning workflow
+
+### Added
+- Added Story 008, Scout 029, and Alignment 024 for the reviewed
+  learning-candidate workflow inspired by holaOS without adopting its heavier
+  runtime.
+- Added `/learning-review` and `/learning-candidate` plus lightweight
+  `docs/learning-candidates/` templates and examples.
+
+### Changed
+- Hooked reviewed-learning checks into selected Conductor closeout skills and
+  rolled the workflow into Dossier, Storybook, doc-web, CineForge, Board Game
+  Ingester, Robo Rally, and Echo Forge from isolated worktrees.
+- Landed the target repo rollout commits onto each target `main` branch after
+  repo-local validation and a clean fourth `/loop-verify` round.
+
 ## [2026-04-29-01] - Roll out visual inspect loop skill
 
 ### Added

@@ -69,7 +69,14 @@ context. Keep routine small stories single-threaded.
    - `make skills-check` if skill files changed
    - `make test` if scripts or repo checks changed
 4. Update the work log with concrete evidence.
-5. Leave the story `In Progress` with `Build complete` checked, give a short
+5. Run `/learning-review` only if the build was noisy, failed, widened
+   unexpectedly, required repeated process correction, received an explicit
+   user correction that changes the workflow rule, or exposed a missing
+   build-story guardrail. Skip it silently for ordinary clean builds. If the
+   detector returns `candidate-warranted`, report or draft the candidate only;
+   do not promote any candidate as part of build closeout unless Cam separately
+   approves that promotion after reviewing the candidate evidence.
+6. Leave the story `In Progress` with `Build complete` checked, give a short
    plain-language note about what improved for Cam or the target projects, and
    recommend `/validate` as a yes-ready next step.
 

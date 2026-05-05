@@ -116,3 +116,7 @@ Use this index to track external sources investigated for cross-project value.
   Grok 4.3 is now a real API eval trigger rather than dead backlog pressure.
   Storybook and CineForge are the first-order targets, with bounded follow-up
   notes also routed to Dossier, doc-web, Echo Forge, and Board Game Ingester.
+- `2026-05-05` — [Scout 029 — Evaluate holaOS Environment Engineering for Workflow Learning](./scout/scout-029-holaos-environment-engineering.md) — `Adapt`
+  holaOS is a strong reference for environment contracts, reviewed learning,
+  per-run capability projection, durable outputs, and workspace isolation, but
+  it is too coupled and early-stage to replace Cam's distributed workflow.

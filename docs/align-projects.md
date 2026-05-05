@@ -86,3 +86,7 @@ Use this index to track internal cross-project alignment work.
   `/advice-for-past-self` context-reset helper and identifying other stale
   custom skills now superseded by context compression and current methodology
   surfaces.
+- `2026-05-05` — [Alignment 024 — Reviewed Learning Rollout](./alignments/align-024-reviewed-learning-rollout.md)
+  Focused on rolling Story 008's reviewed learning-candidate workflow into the
+  tracked repos with isolated worktrees, local adaptation, and loop
+  verification.
