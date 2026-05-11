@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026-05-11-01] - Roll out loop-verify upstream guardrails
+
+### Added
+- Added Alignment 025 and Story 009 for upstream-owned blocker handling and
+  risk-sized worker model guidance in broad verification loops.
+
+### Changed
+- Updated Conductor's `/loop-verify` seed guidance and rolled the same
+  behavior into Dossier, Storybook, doc-web, CineForge, Board Game Ingester,
+  Robo Rally, and Echo Forge from isolated worktrees.
+- Removed blanket strongest-model defaults from target `golden-verify` skills
+  while preserving high-capability defaults for semantic golden review.
+
 ## [2026-05-05-01] - Add reviewed learning workflow
 
 ### Added

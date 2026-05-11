@@ -90,3 +90,7 @@ Use this index to track internal cross-project alignment work.
   Focused on rolling Story 008's reviewed learning-candidate workflow into the
   tracked repos with isolated worktrees, local adaptation, and loop
   verification.
+- `2026-05-11` — [Alignment 025 — Loop Verify Upstream and Model-Sizing Guardrails](./alignments/align-025-loop-verify-upstream-model-guardrails.md)
+  Focused on routing the expensive Storybook `/loop-verify` failure mode into
+  an upstream-boundary rule and risk-sized worker model guidance, then
+  recording the Story 009 target-project rollout evidence.
