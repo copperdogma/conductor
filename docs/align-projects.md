@@ -98,3 +98,7 @@ Use this index to track internal cross-project alignment work.
   Focused on shrinking the aspirational-eval and PromptFoo inbox pressure into
   a small setup-methodology clarification instead of a redundant cross-repo
   audit.
+- `2026-05-11` — [Alignment 027 — Browser Tool Workflow Selection](./alignments/align-027-browser-tool-workflow-selection.md)
+  Focused on routing the Chrome/browser-tool inbox pressure into a practical
+  task-shape matrix for Browser, Chrome, Computer Use, and repo-local
+  Playwright/runbook validation.
