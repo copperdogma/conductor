@@ -319,11 +319,43 @@
       ],
       "status": "Done",
       "title": "Roll Out Loop Verify Upstream and Model-Sizing Guardrails"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-010-aspirational-eval-promptfoo-setup-methodology.md",
+      "id": 10,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.1",
+        "spec:1.2",
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1",
+        "spec:5.3"
+      ],
+      "status": "Done",
+      "title": "Clarify PromptFoo and Deletion-Eval Setup Guidance"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 9,
+    "Done": 10,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

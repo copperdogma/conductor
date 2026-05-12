@@ -94,3 +94,7 @@ Use this index to track internal cross-project alignment work.
   Focused on routing the expensive Storybook `/loop-verify` failure mode into
   an upstream-boundary rule and risk-sized worker model guidance, then
   recording the Story 009 target-project rollout evidence.
+- `2026-05-11` — [Alignment 026 — PromptFoo and Deletion-Eval Setup Guidance](./alignments/align-026-promptfoo-deletion-eval-setup-guidance.md)
+  Focused on shrinking the aspirational-eval and PromptFoo inbox pressure into
+  a small setup-methodology clarification instead of a redundant cross-repo
+  audit.

@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-05-12-01] - Clarify setup eval substrate guidance
+
+### Added
+- Added Alignment 026 and Story 010 for the PromptFoo/deletion-eval setup
+  clarification.
+
+### Changed
+- Clarified the shared `/setup-methodology` guidance so new AI compromises get
+  an owning compromise/deletion eval or explicit deferral trigger.
+- Clarified that PromptFoo is the default for prompt/model/rubric proof, while
+  custom runners remain preferred for structural, runtime, browser, and
+  artifact truth.
+- Rolled the exact setup-methodology wording into Dossier, Storybook, doc-web,
+  CineForge, Board Game Ingester, Robo Rally, and Echo Forge from isolated
+  worktrees.
+
 ## [2026-05-11-01] - Roll out loop-verify upstream guardrails
 
 ### Added
