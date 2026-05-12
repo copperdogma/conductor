@@ -18,6 +18,13 @@ Validate Conductor work with fresh current-pass evidence.
 1b. Run a findings-first review pass before scoring closure:
    - Review the current diff for concrete bugs, behavioral regressions, missing
      tests, security/trust-boundary risks, and operational hazards.
+   - If the diff touches a drift-prone external surface, verify that current
+     upstream evidence was consulted or that the story explicitly explains why
+     local docs/tests are sufficient. Drift-prone surfaces include API
+     providers, SDKs, model/provider slugs, browser/tooling plugins,
+     UI/component libraries, auth/payment/storage providers, and framework
+     APIs. Upstream docs establish current interface facts; repo-local
+     Ideal/spec/compromise/evals remain the acceptance contract.
    - Report material findings first, ordered by severity and grounded in
      file/line references when possible.
    - If no material findings are found, say so explicitly and name any residual

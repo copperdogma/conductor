@@ -120,3 +120,9 @@ Use this index to track external sources investigated for cross-project value.
   holaOS is a strong reference for environment contracts, reviewed learning,
   per-run capability projection, durable outputs, and workspace isolation, but
   it is too coupled and early-stage to replace Cam's distributed workflow.
+- `2026-05-12` — [Scout 030 — Evaluate OpenAI Docs and Prompting Bundle for Tracked Workflows](./scout/scout-030-openai-docs-prompting-bundle.md) — `Adapt`
+  Official OpenAI docs, Docs MCP, Codex prompting, GPT-5.5 prompt guidance, and
+  the `openai-docs` skill are a strong reference bundle for future
+  model/prompt upgrades and OpenAI lookup workflows, but should be applied
+  narrowly through repo-local evals rather than rolled out as blanket prompt
+  changes.

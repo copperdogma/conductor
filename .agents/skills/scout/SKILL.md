@@ -21,6 +21,13 @@ the source:
 - X/Twitter URL, tweet ID, or account: use `Twitter Scraper`
 - YouTube URL: use `YouTube Transcripts` for transcript and video info
 - Obsidian project-doc or note reference: use `Project Agent`
+- OpenAI API, Codex, Apps SDK, Agents SDK, model, or prompt-upgrade source:
+  use the OpenAI developer docs MCP when available, then official OpenAI docs
+  or repositories
+- API provider, SDK, model/provider, browser/tooling plugin, UI/component
+  library, auth/payment/storage provider, or framework source: prefer
+  first-party docs, release notes, changelogs, or official repositories over
+  commentary, mirrors, or stale local memory
 - everything else: use the normal web/document-reading path
 
 ## Steps
@@ -65,6 +72,10 @@ the source:
 - Record a decision, not just notes.
 - Prefer source-specific connectors over generic browsing when they exist for
   the source type.
+- Do not classify provider/component/model pressure from memory alone when
+  official docs are easy to check and likely to drift. Upstream docs answer
+  current interface facts; repo-local Ideal/spec/compromise/evals decide
+  whether adoption is valuable and safe.
 - If a connector fails, say so explicitly and use the next honest fallback.
 - Do not let Conductor accumulate repo-specific "maybe later" pressure forever.
   If a future idea clearly belongs to one tracked repo, hand it off to that

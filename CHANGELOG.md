@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-05-12-02] - Add fresh-doc dependency guidance
+
+### Added
+- Added Scout 030, Alignment 028, and Story 011 for making current upstream
+  docs an active dependency when work touches drift-prone providers,
+  components, SDKs, model/provider slugs, tooling plugins, framework APIs, or
+  auth/payment/storage surfaces.
+
+### Changed
+- Updated `/scout`, `/triage`, `/build-story`, `/validate`, and
+  `/setup-methodology` so fresh upstream docs establish current external facts
+  while repo-local Ideal/spec/compromise/evals remain the acceptance contract.
+- Added outcome-first prompt-contract guidance to `/setup-methodology`, while
+  preserving failure-proven local guardrails and avoiding blanket prompt
+  rewrites or unscoped target-repo churn.
+
 ## [2026-05-12-01] - Clarify setup eval substrate guidance
 
 ### Added

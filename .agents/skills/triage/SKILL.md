@@ -70,6 +70,14 @@ route raw capture in `inbox.md`.
    - and, when the item is an X/Twitter link, YouTube link, or Obsidian
      project-note reference, use the matching connector to understand the item
      before routing it
+   - and, when routing depends on a current version-sensitive fact about an
+     API provider, SDK, model/provider, browser/tooling plugin, UI/component
+     library, auth/payment/storage provider, or framework API, prefer current
+     first-party docs, release notes, changelogs, official repositories, or
+     source-specific docs connectors over stale local memory or commentary.
+     Upstream docs establish current external facts; local
+     Ideal/spec/compromise/evals still decide whether the item is valuable and
+     safe to route.
 3. Classify the item:
    - stale
    - live
@@ -176,6 +184,11 @@ sequentially and state that fallback in the response.
      adjacent work can be bundled honestly; let larger milestones stay larger,
      and keep a tiny story only when it isolates a real risk, unblock, or
      indivisible proof boundary. Do not pad scope just to hit a clock.
+   - When a candidate depends on a drift-prone external provider/component
+     fact, distinguish current upstream truth from repo-local value. Official
+     docs can prove what is callable or supported now; local
+     Ideal/spec/compromise/evals still decide whether the project should adopt
+     it.
 
 5. **Choose one next action**
    Prefer this order:

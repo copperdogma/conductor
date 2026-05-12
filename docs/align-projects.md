@@ -102,3 +102,7 @@ Use this index to track internal cross-project alignment work.
   Focused on routing the Chrome/browser-tool inbox pressure into a practical
   task-shape matrix for Browser, Chrome, Computer Use, and repo-local
   Playwright/runbook validation.
+- `2026-05-12` — [Alignment 028 — Fresh Docs Dependency and Prompt Contract Cleanup](./alignments/align-028-fresh-docs-dependency-and-prompt-contract-cleanup.md)
+  Focused on making current upstream docs an active dependency for
+  drift-prone provider/component work while preserving repo-local
+  Ideal/spec/eval truth as the adoption gate.

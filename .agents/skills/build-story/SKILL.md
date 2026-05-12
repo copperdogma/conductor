@@ -22,11 +22,19 @@ Use this to take a Conductor story from story text to implemented supervisor art
    git/worktree state first and choose an isolated execution worktree/branch.
    Do not edit the target project's primary checkout unless the user explicitly
    asked for in-place work.
-5. Add a work-log entry describing:
+5. If the story touches a drift-prone external surface, identify the current
+   upstream evidence before planning implementation. This includes API
+   providers, SDKs, model/provider slugs, browser/tooling plugins, UI/component
+   libraries, auth/payment/storage providers, and framework APIs. Use
+   source-specific official docs/connectors first when available; otherwise use
+   first-party docs, release notes, or changelogs. Local
+   Ideal/spec/compromise/evals still define the acceptance contract.
+6. Add a work-log entry describing:
    - files to change
    - tracked projects affected
    - risks
    - expected evidence
+   - any fresh upstream docs or explicit reason none are needed
 
 ## Phase 2 — Plan
 
@@ -36,6 +44,9 @@ Write `## Plan` in the story with:
 - the expected outputs
 - what should be inspected manually
 - which checks need to run
+- any current upstream docs/provider evidence needed before touching
+  drift-prone components, and which repo-local eval/check proves the change is
+  safe
 
 Pause for user approval before implementation.
 
