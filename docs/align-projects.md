@@ -106,3 +106,7 @@ Use this index to track internal cross-project alignment work.
   Focused on making current upstream docs an active dependency for
   drift-prone provider/component work while preserving repo-local
   Ideal/spec/eval truth as the adoption gate.
+- `2026-05-12` — [Alignment 029 — npm Supply-Chain Hardening](./alignments/align-029-npm-supply-chain-hardening.md)
+  Focused on converting the Mini Shai-Hulud/TanStack npm incident into a small
+  Conductor-owned scanner and GitHub Actions trust-boundary checklist, while
+  leaving target-project remediation with the target projects.

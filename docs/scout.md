@@ -126,3 +126,8 @@ Use this index to track external sources investigated for cross-project value.
   model/prompt upgrades and OpenAI lookup workflows, but should be applied
   narrowly through repo-local evals rather than rolled out as blanket prompt
   changes.
+- `2026-05-12` — [Scout 031 — Evaluate Mini Shai-Hulud npm Supply-Chain Risk](./scout/scout-031-mini-shai-hulud-npm-supply-chain.md) — `Adapt`
+  Initial primary-checkout evidence does not show direct exposure to the
+  compromised TanStack router/start packages, but the install-time credential
+  theft and GitHub Actions cache/OIDC chain warrant a small Conductor story for
+  reusable npm supply-chain guardrails.

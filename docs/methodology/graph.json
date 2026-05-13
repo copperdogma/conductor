@@ -385,13 +385,42 @@
       ],
       "status": "Done",
       "title": "Fresh Docs Dependency and Prompt Contract Cleanup"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "scouting",
+        "story-prep"
+      ],
+      "decision_refs": [],
+      "depends_on": [],
+      "file": "docs/stories/story-012-npm-supply-chain-hardening.md",
+      "id": 12,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.1",
+        "spec:2.2",
+        "spec:3.2",
+        "spec:4.2",
+        "spec:5.1",
+        "spec:5.2",
+        "spec:5.3"
+      ],
+      "status": "In Progress",
+      "title": "npm Supply-Chain Hardening"
     }
   ],
   "story_counts": {
     "Blocked": 0,
     "Done": 11,
     "Draft": 0,
-    "In Progress": 0,
+    "In Progress": 1,
     "Pending": 0
   },
   "tracked_projects": [
