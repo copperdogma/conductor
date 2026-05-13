@@ -43,10 +43,15 @@ missing context instead of guessing.
 1. Inspect git context:
    - `git branch --show-current`
    - `git status --short`
+   - `git status --short -- inbox.md docs/inbox.md`
    - `git diff --stat`
    - `git diff`
    - `git diff --staged`
    - `git fetch origin main`
+   - if this is an isolated worktree and `git worktree list` shows a primary
+     checkout for the same repo, inspect that checkout's `inbox.md` or
+     `docs/inbox.md` too; user-authored inbox changes there are normal landing
+     content, not background noise
 
 2. Read the intent surface and audit completion:
    - story work: acceptance criteria, tasks, workflow gates
@@ -54,12 +59,22 @@ missing context instead of guessing.
      stated recommendation or decision surface
    - general repo work: the user's high-level goal, the realized diff, and any
      obvious generated surfaces that should have changed
-   - treat `inbox.md` edits as expected user capture, not as unrelated drift;
-     if `inbox.md` changed while the work was in flight, include it in the
-     intended landing set unless the user explicitly says to leave it out
+   - read the repo's inbox surface (`inbox.md` or `docs/inbox.md`) before
+     declaring the work complete
+   - if the completed work routed, fixed, answered, or otherwise finished an
+     inbox item, remove that item from the inbox or mark it handled in the
+     repo's established inbox style before validation and landing
+   - treat inbox edits as expected user capture, not as unrelated drift; include
+     current inbox additions, removals, and cleanups in the intended landing set
+     unless the user explicitly says to leave inbox changes out
+   - when landing from an isolated worktree, fold in inbox-only edits from the
+     primary checkout before validation; if both worktrees changed the same
+     inbox in ways that cannot be reconciled mechanically, stop and report the
+     conflict instead of dropping either version
    - flag:
      - missing outputs
      - stale generated files
+     - handled inbox items still left in the inbox
      - unrelated changes
      - secrets or build artifacts
      - anything not freshly verified
@@ -71,6 +86,8 @@ missing context instead of guessing.
      - missing workflow-gate checkbox or stale story status row
      - stale generated planning surfaces fixed by `make methodology-compile`
      - missing or incomplete `CHANGELOG.md` entry
+     - handled inbox item still present when the mapping to completed work is
+       clear
      - generated skill wrapper drift fixed by `scripts/sync-agent-skills.sh`
      - small doc or metadata mismatch caused by the current work
      - narrow lint/test failure with an obvious, low-risk local fix
@@ -81,6 +98,8 @@ missing context instead of guessing.
      - failing tests or lint with unclear root cause or broad blast radius
      - unrelated, risky, or suspicious git changes in the landing set, except
        for `inbox.md` edits that reflect normal user capture
+     - ambiguity about whether an inbox note was actually finished or still
+       needs durable routing
      - secrets, credentials, large artifacts, or accidental generated output
      - integration conflicts that are not purely mechanical
      - anything that requires a methodology decision, scope renegotiation, or
@@ -101,12 +120,19 @@ missing context instead of guessing.
    - if story, alignment, scout, or registry changes should affect generated
      backlog surfaces, run `make methodology-compile` before the final
      `make methodology-check`
+   - if an inbox file changed, inspect its final diff directly and confirm it
+     either preserves live capture or removes only items now represented by a
+     durable story, alignment, scout, spec, ADR, commit, or explicit user
+     instruction
    - inspect the actual changed artifacts and verify they satisfy the resolved
      intent surface, not just the repo checks
 
 6. Decide whether the work is closeable:
    - if any required artifact, validation step, quality bar, or high-level goal
      is still partial, stop and report exactly what blocks check-in
+   - if the work finished an inbox item and that item is still present, remove
+     it or mark it handled before committing; do not call the work closeable
+     while the stale raw note remains
    - if a story is in scope and is fully complete, close it with
      `/mark-story-done` before committing
    - if the user asked for audit only, stop here with one clear closure
@@ -114,9 +140,10 @@ missing context instead of guessing.
 
 7. Commit and push safely:
    - stage only the intended files
-   - when `inbox.md` is modified, treat it as intended by default and stage it
-     with the rest of the validated supervisor work unless the user explicitly
-     excluded it
+   - always stage modified inbox files (`inbox.md` or `docs/inbox.md`) with the
+     rest of the validated work, whether the edit came from Cam during the run,
+     from the current task's cleanup, or from a primary-checkout inbox merge;
+     only exclude inbox changes when Cam explicitly says to leave them out
    - draft a commit message that matches the completed work
    - if the current branch is not `main`, commit there, push the branch, sync it
      with `origin/main` if needed, validate again if integration changed files,
@@ -147,6 +174,11 @@ missing context instead of guessing.
 - Never treat `inbox.md` user-capture edits as dirty-worktree blockers unless
   the user explicitly says those inbox changes should stay out of the landing
   set.
+- Never leave modified inbox files unstaged merely because they predated the
+  current task; Cam uses inbox files as live capture and wants additions and
+  removals checked in.
+- Never leave a completed inbox item in place after its durable story,
+  alignment, scout, spec, ADR, commit, or explicit answer has landed.
 - Never push `main` before fresh validation on the exact tip being landed.
 - Never resolve integration conflicts directly on `main`.
 - After every inline fix, rerun the minimum required validation before

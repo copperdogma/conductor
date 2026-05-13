@@ -1,5 +1,14 @@
 # Changelog
 
+## [2026-05-13-01] - Tighten check-in inbox handling
+
+### Changed
+- Updated `/check-in` so completed inbox items are removed or marked handled
+  before closeout, and modified inbox files are always included in the landing
+  set unless Cam explicitly excludes them.
+- Added explicit isolated-worktree guidance to inspect and fold in inbox-only
+  edits from the primary checkout before validation.
+
 ## [2026-05-12-03] - Harden loop-verify runaway controls
 
 ### Added
