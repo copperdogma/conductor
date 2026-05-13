@@ -130,7 +130,7 @@ fixes through local stories/worktrees instead of blanket edits.
 ## Workflow Gates
 
 - [x] Build complete
-- [ ] Validation complete or explicitly skipped by user
+- [x] Validation complete or explicitly skipped by user
 - [ ] Story marked done via `/mark-story-done`
 
 ## Files to Modify
@@ -318,3 +318,28 @@ Validation evidence before push:
 - repo-native methodology and skill checks passed in all seven target
   worktrees, with only existing/generated freshness warnings in the repos that
   already expose those checks.
+
+20260513-0425 — `/validate 012` current-pass evidence: reviewed the branch diff
+against `origin/main...HEAD`, inspected the scanner/runbook/security-audit skill
+changes, and rechecked the linked target rollout branches. Validation found one
+minor Conductor skill-formatting issue where the new security-audit dependency
+guidance was not indented under the intended Markdown bullets; fixed it before
+closing validation.
+
+Validation commands:
+
+- `python3 -m py_compile scripts/npm_supply_chain_scan.py`
+- `make supply-chain-scan`
+- `python3 scripts/npm_supply_chain_scan.py --json` parsed with
+  `python3 -m json.tool`
+- `make methodology-check`
+- `make lint`
+- `make skills-check`
+- `make test`
+- `git diff --check`
+- target worktree strict JSON scans for Dossier, Storybook, Doc Web, CineForge,
+  Board Game Ingester, Robo Rally, and Echo Forge
+
+Validation result: Met. Conductor scan summary remained affected hits `0`,
+dependency leads `0`, IOC hits `0`, and risky workflow combinations `0`.
+Target rollout branch heads still matched their remote branch heads.

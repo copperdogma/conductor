@@ -63,13 +63,13 @@ dependency surface.
    - Use `rg` to find hotspots before opening files.
    - For broad passes or when you need search starters, read
      `references/checklist.md` or run `scripts/hotspot-grep.sh`.
-- For repo or dependency scans, prefer `scripts/run-local-audit.sh` over
-  ad hoc command strings so availability and skip behavior stay honest.
-  If the repo has `scripts/npm_supply_chain_scan.py`, run it for npm incident
-  exposure whenever the audit touches package manifests, lockfiles,
-  package-manager scripts, install scripts, GitHub Actions workflows,
-  publish/deploy jobs, cache behavior, OIDC/token permissions, or a
-  supply-chain incident report.
+   - For repo or dependency scans, prefer `scripts/run-local-audit.sh` over
+     ad hoc command strings so availability and skip behavior stay honest.
+     If the repo has `scripts/npm_supply_chain_scan.py`, run it for npm
+     incident exposure whenever the audit touches package manifests, lockfiles,
+     package-manager scripts, install scripts, GitHub Actions workflows,
+     publish/deploy jobs, cache behavior, OIDC/token permissions, or a
+     supply-chain incident report.
 5. Look for concrete risks, not generic category matches.
    - Secrets checked into code or written to logs/artifacts
    - Missing or weak authorization checks on real paths
@@ -122,11 +122,11 @@ dependency surface.
     surfaced hotspots and findings
 - `dependency`
   - prefer package-manager or ecosystem-native tooling
-- inspect install/update scripts and lockfile behavior, not just advisory
-  counts
-- run `python3 scripts/npm_supply_chain_scan.py` when present and the audit
-  involves npm incident exposure, dependency upgrades, lockfile changes, or
-  workflow/publish/deploy trust boundaries
+  - inspect install/update scripts and lockfile behavior, not just advisory
+    counts
+  - run `python3 scripts/npm_supply_chain_scan.py` when present and the audit
+    involves npm incident exposure, dependency upgrades, lockfile changes, or
+    workflow/publish/deploy trust boundaries
 - secret sweep
   - use `scripts/run-local-audit.sh <repo-root> --include-gitleaks` only when
     the question is specifically about leaked credentials or working-tree
