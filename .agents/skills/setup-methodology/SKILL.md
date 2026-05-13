@@ -37,8 +37,8 @@ folder with no real Ideal/spec, stop and route to `/init-project new-idea`.
   UI/component libraries, auth/payment/storage providers, and framework APIs
 - upgraded triage bootstrap: `/triage`, lane-packet leaf skills,
   `/triage-health`, sparse-safe triage facts, and wrapper sync
-- upgraded verification bootstrap: `/loop-verify` materiality/no-hard-cap
-  guidance with a minor-only stop rule
+- upgraded verification bootstrap: `/loop-verify` mode selection, budgeted
+  defaults, docs/ADR inspect-only behavior, and strict clean-round escalation
 - optional recurring methodology lanes already encoded in the package, such as
   `architecture_audits` / `/triage-architecture` and `ui_scout` /
   `docs/ui-scout*`
@@ -208,7 +208,9 @@ without spending many rounds proving absent evidence. Do this:
      `/loop-verify` only when a complete material clean round matters
    - triage leaf skills in packet mode where their lanes are present
    - `/triage-health` for sparse health/freshness packets
-   - `/loop-verify` with material-vs-minor stop rules and no hard round cap
+   - `/loop-verify` with budgeted default mode, docs/ADR inspect-only mode,
+     strict clean-round mode for approved objective proof, and
+     material-vs-minor stop rules
 4. Add a sparse-safe triage fact collector when the repo has enough tooling to
    support one. It should report absent/deferred/empty statuses directly rather
    than treating missing reports, missing codebase scans, missing UI scouts, or
@@ -342,10 +344,12 @@ without spending many rounds proving absent evidence. Do this:
    - Install or refresh a sparse-safe triage fact collector when repo tooling
      exists. It must be cheap, read-only, deterministic, and parseable through
      the direct script command.
-   - Install or refresh `/loop-verify` with materiality guidance: material
-     semantic/executable/contract/generated changes reset a full fresh pass;
-     minor typo/formatting/non-contract wording fixes only need targeted
-     checks; no hard round cap.
+   - Install or refresh `/loop-verify` with mode and materiality guidance:
+     ordinary loops use a budgeted default, docs/ADR alignment uses find-only
+     workers plus main-agent fixes, strict clean-round loops are reserved for
+     explicit or objective contract-critical proof, material executable or
+     contract fixes reset strict loops, and minor typo/formatting/non-contract
+     wording fixes only need targeted checks.
    - Install or refresh source-routing guidance so provider/component/model
      work checks current official upstream docs first when those facts are
      likely to drift, then ties any adoption back to local Ideal/spec/evals.

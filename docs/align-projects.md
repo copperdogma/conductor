@@ -106,3 +106,6 @@ Use this index to track internal cross-project alignment work.
   Focused on making current upstream docs an active dependency for
   drift-prone provider/component work while preserving repo-local
   Ideal/spec/eval truth as the adoption gate.
+- `2026-05-12` — [Alignment 029 — Loop Verify Runaway Controls](./alignments/align-029-loop-verify-runaway-controls.md)
+  Focused on hardening `/loop-verify` after Echo Forge exposed recursive worker,
+  uncapped-doc-loop, and docs/ADR scope-expansion failure modes.

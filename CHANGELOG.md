@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026-05-12-03] - Harden loop-verify runaway controls
+
+### Added
+- Added Alignment 029 and Story 012 for the Echo Forge runaway-loop report and
+  the portable `/loop-verify` fix.
+
+### Changed
+- Updated `/loop-verify` with budgeted, docs/ADR alignment, and
+  strict-until-clean modes so workers do not recursively invoke the skill,
+  spawn subagents, or widen shard scope.
+- Rolled the loop-control guidance into Dossier, Storybook, doc-web, CineForge,
+  Board Game Ingester, Robo Rally, and Echo Forge from isolated worktrees.
+
 ## [2026-05-12-02] - Add fresh-doc dependency guidance
 
 ### Added
