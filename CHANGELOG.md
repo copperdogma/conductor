@@ -1,5 +1,23 @@
 # Changelog
 
+## [2026-05-13-01] - Add distributed npm supply-chain guardrails
+
+### Added
+- Added Scout 031, Alignment 029, Story 012, and a local npm
+  supply-chain scanner with incident data for the Mini Shai-Hulud/TanStack
+  compromise.
+- Added a runbook for npm incident response and GitHub Actions
+  trust-boundary checks.
+
+### Changed
+- Wired Conductor's security-audit skill and each tracked repo's
+  triage/build-story/validate guidance to run repo-local npm incident scans
+  when dependency, lockfile, workflow, publish, cache, or OIDC/token surfaces
+  are in scope.
+- Rolled the self-contained scanner, incident data, runbook, and local command
+  hook into Dossier, Storybook, doc-web, CineForge, Board Game Ingester,
+  Robo Rally, and Echo Forge from isolated worktrees.
+
 ## [2026-05-12-02] - Add fresh-doc dependency guidance
 
 ### Added

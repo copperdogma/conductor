@@ -412,15 +412,15 @@
         "spec:5.2",
         "spec:5.3"
       ],
-      "status": "In Progress",
+      "status": "Done",
       "title": "npm Supply-Chain Hardening"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 11,
+    "Done": 12,
     "Draft": 0,
-    "In Progress": 1,
+    "In Progress": 0,
     "Pending": 0
   },
   "tracked_projects": [

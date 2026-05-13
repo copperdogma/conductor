@@ -1,6 +1,6 @@
 ---
 title: "npm Supply-Chain Hardening"
-status: "In Progress"
+status: "Done"
 priority: "High"
 ideal_refs:
   - "I1"
@@ -35,7 +35,7 @@ tracked_projects:
 # Story 012 — npm Supply-Chain Hardening
 
 **Priority**: High
-**Status**: In Progress
+**Status**: Done
 **Decision Refs**: None yet
 **Depends On**: None
 
@@ -131,7 +131,7 @@ fixes through local stories/worktrees instead of blanket edits.
 
 - [x] Build complete
 - [x] Validation complete or explicitly skipped by user
-- [ ] Story marked done via `/mark-story-done`
+- [x] Story marked done via `/mark-story-done`
 
 ## Files to Modify
 
@@ -343,3 +343,8 @@ Validation commands:
 Validation result: Met. Conductor scan summary remained affected hits `0`,
 dependency leads `0`, IOC hits `0`, and risky workflow combinations `0`.
 Target rollout branch heads still matched their remote branch heads.
+
+20260513-0447 — `/mark-story-done 012`: closed the story after confirming the
+build and validation gates were complete and the remaining work was only
+close-out bookkeeping. Updated status to `Done`, checked the mark-done gate,
+added the changelog entry, and regenerated methodology outputs.
