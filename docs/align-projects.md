@@ -109,3 +109,7 @@ Use this index to track internal cross-project alignment work.
 - `2026-05-12` — [Alignment 029 — Loop Verify Runaway Controls](./alignments/align-029-loop-verify-runaway-controls.md)
   Focused on hardening `/loop-verify` after Echo Forge exposed recursive worker,
   uncapped-doc-loop, and docs/ADR scope-expansion failure modes.
+- `2026-05-15` — [Alignment 030 — Validate Codex Review Closeout Signal](./alignments/align-030-validate-codex-review-closeout-signal.md)
+  Focused on adapting Codex CLI review as an extra `/validate` signal for
+  non-trivial code diffs while keeping `/loop-verify` task-shaped and useful
+  beyond story closure.

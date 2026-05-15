@@ -30,6 +30,37 @@ Validate Conductor work with fresh current-pass evidence.
    - If no material findings are found, say so explicitly and name any residual
      verification limits.
    - Do not let green checks or tidy story bookkeeping hide a real defect.
+
+1c. For non-trivial code diffs, add `codex review` as an extra review signal
+    when it can materially improve closeout confidence:
+   - Run it when the user asks for a second-model/code review, the diff is broad
+     or high-risk, behavior/security/API/tooling code changed, test coverage is
+     uncertain, or the work is nearing commit/ship and a review signal is worth
+     the token cost.
+   - Skip it for docs-only scout/alignment/inbox routing, generated index
+     refreshes, tiny obvious patches, and product/taste decisions. If skipped
+     for a code diff, name the reason briefly.
+   - Choose the target deliberately:
+     - dirty local work: `codex review --uncommitted`
+     - branch or PR work: `git fetch origin`, then `codex review --base`
+       against the PR base or `origin/main`
+     - single committed change: `codex review --commit HEAD`
+   - Do not use a clean `--uncommitted` review on a clean checkout as evidence
+     that committed branch work is clean; it only proves there is no local
+     patch.
+   - Treat review output as advisory. Verify each finding against the real code
+     path and relevant docs/types before accepting it, reject speculative or
+     over-broad findings, and prefer small fixes at the right ownership
+     boundary.
+   - Keep a terse accepted/rejected finding ledger. For rejected findings, give
+     the concrete reason; add an inline code comment only when it documents a
+     real invariant or ownership decision future reviewers need.
+   - If an accepted review finding changes code, rerun the focused affected
+     tests/checks and rerun the review signal for the changed scope. Stop when
+     the final review run is clean or when any remaining finding is consciously
+     rejected.
+   - Do not replace the rest of `/validate` with `codex review`. It is one
+     evidence source; `/validate` remains the closure authority.
 2. If a story is in scope, validate against:
    - acceptance criteria
    - tasks

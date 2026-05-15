@@ -126,3 +126,14 @@ Use this index to track external sources investigated for cross-project value.
   model/prompt upgrades and OpenAI lookup workflows, but should be applied
   narrowly through repo-local evals rather than rolled out as blanket prompt
   changes.
+- `2026-05-15` — [Scout 031 — Evaluate OpenClaw fs-safe for TypeScript Filesystem Hardening](./scout/scout-031-openclaw-fs-safe-filesystem-primitives.md) — `Reject`
+  `@openclaw/fs-safe` is a credible capability-root filesystem library for
+  Node, but the tracked repos do not currently have a TypeScript path-ingestion
+  surface worth hardening with a new dependency. Echo Forge is the closest fit,
+  and its relevant intake tooling is intentionally personal/local.
+- `2026-05-15` — [Scout 032 — Evaluate Codex Review Loop for Validate and Loop-Verify Enhancements](./scout/scout-032-codex-review-loop-verify-enhancements.md) — `Adapt`
+  Peter Steinberger's `codex-review` skill should not replace `/validate` or
+  `/loop-verify`, but its review-target selection, advisory finding filter,
+  focused test/review rerun discipline, and accepted/rejected finding report
+  are worth adapting into `/validate`, with only task-agnostic ledger and
+  clean-stop guidance added to `/loop-verify`.

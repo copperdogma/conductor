@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026-05-15-01] - Add Codex review validation signal
+
+### Added
+- Added Scout 031 documenting the declined OpenClaw `fs-safe` opportunity for
+  the current tracked repos.
+- Added Scout 032, Alignment 030, and Story 013 for adopting Codex CLI review
+  as an optional `/validate` signal for non-trivial code diffs.
+
+### Changed
+- Updated `/validate` so `codex review` can provide an advisory extra review
+  signal while `/validate` remains the closure authority.
+- Updated `/loop-verify` with a task-agnostic accepted/rejected/follow-up
+  finding ledger and clean-stop guidance, without narrowing it to story closure.
+- Rolled the validate and loop-verify guidance into Dossier, Storybook,
+  doc-web, CineForge, Board Game Ingester, Robo Rally, and Echo Forge from
+  isolated worktrees, then landed each target repo on `main`.
+
 ## [2026-05-13-01] - Tighten check-in inbox handling
 
 ### Changed
