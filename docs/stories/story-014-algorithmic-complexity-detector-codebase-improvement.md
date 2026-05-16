@@ -356,3 +356,9 @@ Post-closeout extension:
   `PYTHONDONTWRITEBYTECODE=1 make lint`,
   `PYTHONDONTWRITEBYTECODE=1 make skills-check`,
   `PYTHONDONTWRITEBYTECODE=1 make test`, and `git diff --check`.
+- 20260516-1355 — primary inbox fold-in: after pushing the Conductor branch and
+  `main`, checked the primary checkout at
+  `/Users/cam/Documents/Projects/conductor` and found one additional
+  user-capture line in `inbox.md` about broad per-project port blocks. Folded
+  that line into this landing set so primary-checkout inbox capture is not
+  dropped.

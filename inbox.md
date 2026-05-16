@@ -65,4 +65,5 @@ Current fixed contract to preserve as canonical primary checkout:
 
 Recommendation:
 - Allocate broad, non-overlapping blocks per project rather than picking random free ports.
+- Example: each app gets a UI block of 100 ports and a service block of 100 ports.
 - Do not let individual repos invent their own ranges.
