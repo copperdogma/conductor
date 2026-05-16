@@ -1,5 +1,5 @@
 ---
-title: "Add Algorithmic Complexity Detector Guidance to Codebase Improvement"
+title: "Add Optional Detector Guidance to Codebase Improvement"
 status: "Done"
 priority: "Medium"
 ideal_refs:
@@ -37,7 +37,7 @@ tracked_projects:
   - "echo-forge"
 ---
 
-# Story 014 — Add Algorithmic Complexity Detector Guidance to Codebase Improvement
+# Story 014 - Add Optional Detector Guidance to Codebase Improvement
 
 **Priority**: Medium
 **Status**: Done
@@ -48,19 +48,25 @@ tracked_projects:
 
 Adapt Scout 033's useful complexity-hotspot workflow into Cam's existing
 codebase-improvement lane without importing a brand-new global Codex skill or
-turning heuristic scanner output into automatic refactor pressure.
+turning heuristic scanner output into automatic refactor pressure. After Scout
+034, the same lane also owns occasional report-only semantic review tools such
+as Clawpatch, which look for latent bugs outside the current diff.
 
 The intended behavior is:
 
 - `/codebase-improvement-scout` remains report-first and story-oriented.
 - Algorithmic complexity signals become one optional detector category alongside
   churn, size, known risk, user impact, maintenance drag, and drift pressure.
+- Periodic AI semantic review becomes a separate optional detector category for
+  stale, high-churn, thinly-tested, or pre-cleanup code areas.
 - Reports consistently ask for current pattern, estimated current complexity,
   recommended change, estimated complexity after, risk level, and tests or
   measurements needed.
 - Any helper script is reviewed, vendored, or recreated locally before it is
   trusted in live workflows; `npx codex-complexity-optimizer` is not a default
   operating step.
+- External semantic review tools are pinned, run in isolated worktrees, kept
+  report-only, and never allowed to run fix paths during scout-mode use.
 - Target repos receive wording only through explicit rollout work, with each
   repo preserving its own proof surface.
 
@@ -77,6 +83,10 @@ The intended behavior is:
       before they become stories or patches.
 - [x] The guidance requires tests, benchmarks, profiler/browser evidence, or
       manual measurements before claiming a performance improvement.
+- [x] Scout 034's Clawpatch recommendation is folded into this story's owning
+      lane: periodic report-only semantic review belongs in
+      `/codebase-improvement-scout`, not `/validate`, CI, or always-on story
+      closeout.
 - [x] The story decides whether instruction-level guidance is enough or whether
       a reviewed local helper script should be vendored/recreated.
 - [x] If target-project rollout is warranted, it is done in isolated worktrees
@@ -91,8 +101,11 @@ The intended behavior is:
 - Installing `codex-complexity-optimizer` globally in Cam's Codex environment.
 - Adding `npx codex-complexity-optimizer` as a required validation,
   codebase-improvement, or CI step.
+- Installing Clawpatch globally, running it as a required validation/CI step, or
+  using `clawpatch fix` as part of a codebase-improvement scout.
 - Creating a new parallel `complexity-optimizer` lane beside
   `/codebase-improvement-scout`.
+- Creating a parallel Clawpatch lane beside `/codebase-improvement-scout`.
 - Running broad auto-refactors from scanner output.
 - Treating performance tuning as higher priority than current product,
   artifact, provider, or UI-taste work without repo-local triage evidence.
@@ -138,6 +151,8 @@ The intended behavior is:
 
 - `docs/scout/scout-033-codex-complexity-optimizer-codebase-improvement.md` -
   source scout and adoption boundary.
+- `docs/scout/scout-034-clawpatch-automated-code-review.md` - source scout and
+  periodic report-only semantic review boundary.
 - `docs/alignments/` and `docs/align-projects.md` - portable alignment record if
   the build confirms cross-project guidance.
 - `.agents/skills/setup-methodology/SKILL.md` - likely shared Conductor surface
@@ -154,6 +169,14 @@ report-first detector discipline, but not a tool to install globally or trust as
 a standalone optimizer. The npm package is very new, has one release, and uses
 a heuristic scanner. That makes it a good reference and a poor default runtime
 dependency.
+
+Scout 034 classified Clawpatch as `Spike`: useful as an occasional report-only
+semantic review pass for latent bugs, but too expensive and noisy for normal
+validation, CI, or every-story closeout. Optional target-repo guidance should
+land now; first natural use in each repo is the pilot. Runs still need isolated
+worktrees, pinned tool versions or source commits, generated state kept outside
+the repo where possible, and no `clawpatch fix` execution during scout-mode
+use.
 
 Conductor does not currently own a live local
 `.agents/skills/codebase-improvement-scout/SKILL.md`; the lane lives in tracked
@@ -229,6 +252,14 @@ Upstream evidence:
   build changes methodology wording only; it does not run, vendor, install, or
   depend on `codex-complexity-optimizer`.
 
+Post-closeout extension:
+
+- Scout 034 adds a second optional detector family to the same story boundary:
+  periodic AI semantic review. The target-repo guidance should be rolled out
+  now as optional wording rather than waiting for a separate RoboRally-only
+  pilot. Natural use supplies the evidence; repo-local fixes can later be
+  propagated through `/align-projects` when they generalize.
+
 ## Work Log
 
 - 20260516-1040 — story creation: created Story 014 from Scout 033 follow-up
@@ -291,3 +322,37 @@ Upstream evidence:
   `744d0e1`.
 - 20260516-1150 — closeout: marked Story 014 `Done` via `/mark-story-done`
   after target landing and loop-verify validation.
+- 20260516-1225 — post-main Clawpatch fold-in: pulled `origin/main` first,
+  confirmed this checkout was already at `e4572ea`, broadened Story 014 from
+  algorithmic-complexity-only detector guidance to optional detector guidance,
+  and recorded Scout 034 as the same `/codebase-improvement-scout` family:
+  occasional report-only semantic review, not `/validate`, CI, or normal story
+  closeout.
+- 20260516-1240 — rollout correction: accepted Cam's correction that a separate
+  pre-rollout pilot is unnecessary. Updated the rule so optional target-repo
+  guidance lands now and first natural use in each repo is the pilot; noisy or
+  awkward repo-local behavior should be fixed locally first, then generalized
+  through `/align-projects`.
+- 20260516-1255 — target worktree rollout prep: created isolated target
+  worktrees under `/Users/cam/.codex/worktrees/story014-clawpatch/` from each
+  repo's current `origin/main` and updated only
+  `.agents/skills/codebase-improvement-scout/SKILL.md` in Dossier, Storybook,
+  doc-web, CineForge, Board Game Ingester, RoboRally, and Echo Forge.
+- 20260516-1305 — target validation: all seven target worktrees passed their
+  repo-native skill-wrapper checks plus `git diff --check`. No product/runtime
+  tests were run because the target changes are skill wording only.
+- 20260516-1310 — landing boundary: no commits or pushes were made in Conductor
+  or target repos during this post-closeout extension; the prepared target
+  patches remain in isolated worktrees pending an explicit check-in/push step.
+- 20260516-1335 — target landing: committed and pushed the Scout 034 optional
+  semantic-review guidance to each target repo `main`: Dossier `c67ae6b`,
+  Storybook `63da5ca`, doc-web `5beca37`, CineForge `48cb9fa`, Board Game
+  Ingester `59cd4e5`, RoboRally `d4776f8`, and Echo Forge `5eac351`. All seven
+  target task branches remain available as
+  `codex/story014-clawpatch-detector-20260516`, and each target worktree is
+  clean with `HEAD == origin/main`.
+- 20260516-1345 — finish validation: refreshed Conductor generated surfaces and
+  passed `PYTHONDONTWRITEBYTECODE=1 make methodology-check`,
+  `PYTHONDONTWRITEBYTECODE=1 make lint`,
+  `PYTHONDONTWRITEBYTECODE=1 make skills-check`,
+  `PYTHONDONTWRITEBYTECODE=1 make test`, and `git diff --check`.

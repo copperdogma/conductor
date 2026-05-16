@@ -39,7 +39,8 @@ folder with no real Ideal/spec, stop and route to `/init-project new-idea`.
   `/triage-health`, sparse-safe triage facts, and wrapper sync
 - codebase-improvement lane setup when the repo has enough code for a scan:
   report-first discovery, optional algorithmic-complexity detector guidance,
-  local proof requirements, and guarded story/auto-fix routing
+  optional periodic semantic-review detector guidance, local proof
+  requirements, and guarded story/auto-fix routing
 - upgraded verification bootstrap: `/loop-verify` mode selection, budgeted
   defaults, docs/ADR inspect-only behavior, and strict clean-round escalation
 - optional recurring methodology lanes already encoded in the package, such as
@@ -179,6 +180,11 @@ silently forking the setup contract.
    codex-complexity-optimizer` in normal workflows; use instruction-level
    guidance first, and only add reviewed local helpers if repeated scans prove
    they are worth maintaining.
+   Periodic AI semantic review, such as a bounded Clawpatch run, is another
+   optional detector category for stale, high-churn, thinly-tested, pre-release,
+   or pre-cleanup code areas. Keep it isolated, version-pinned, report-only,
+   and manually verified. Do not put it in CI, normal `/validate`, or every
+   story closeout, and do not run tool-managed fix paths during scout-mode use.
 10. **Core story-loop setup is part of refresh.** Install or refresh
    `/create-story`, `/build-story`, and `/validate` with the accepted
    core-loop guidance: the main thread owns Ideal/spec judgment, story

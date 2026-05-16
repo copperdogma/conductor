@@ -6,12 +6,6 @@ explicit rejections.
 
 ## General
 
-- Follow-up from Scout 034: run a bounded report-only Clawpatch pilot in an
-  isolated RoboRally worktree before deciding whether to add Clawpatch to any
-  validation or runbook guidance. Do not run `clawpatch fix` in the pilot;
-  compare any findings against repo-native tests and existing `/validate` /
-  `codex review` practice first.
-
 - Idea: add state machine specs (if it makes sense) to story planning. Apparnetly this very much helps vibe coded app quality. Let's research and discuss.
 
 - 20260506: Scout this: https://claude.com/blog/new-in-claude-managed-agents

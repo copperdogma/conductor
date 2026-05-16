@@ -145,5 +145,6 @@ Use this index to track external sources investigated for cross-project value.
 - `2026-05-16` — [Scout 034 — Evaluate Clawpatch for Automated Repo Review](./scout/scout-034-clawpatch-automated-code-review.md) — `Spike`
   Clawpatch is a credible early repo-wide AI review CLI, distinct from
   `codex-review` because it looks for latent bugs outside the current diff, but
-  it should be tested only through one report-only isolated RoboRally pilot
-  before any runbook, validation, or target-repo adoption.
+  it belongs as an occasional report-only `/codebase-improvement-scout`
+  detector. Roll out optional guidance now; first natural repo use is the
+  pilot.

@@ -22,29 +22,31 @@ makes it interesting, but also riskier operationally: it can produce a backlog
 of speculative findings, create `.clawpatch/` state, and eventually apply code
 changes if the `fix` path is used.
 
-The right move is a bounded spike, not adoption. Run one report-only pilot in
-an isolated target-project worktree, preferably against RoboRally first because
-it is a compact JavaScript repo with deterministic scenario behavior and tests.
-Do not run `clawpatch fix` during the pilot. The useful question is whether
-Clawpatch finds concrete, verified bugs that Cam's existing `/validate`,
-`/loop-verify`, and optional `codex review` closeout signals would not have
-surfaced cheaply.
+The right move is optional detector guidance inside
+`/codebase-improvement-scout`, not always-on adoption. Roll the report-only rule
+into repos that already have that lane and let first natural use be the pilot.
+Do not run `clawpatch fix` during scout-mode use. The useful question is
+whether Clawpatch finds concrete, verified bugs that Cam's existing
+`/validate`, `/loop-verify`, and optional `codex review` closeout signals would
+not have surfaced cheaply.
 
 ## Recommendation
 
-- Create or triage a small Conductor-owned spike for one report-only Clawpatch
-  pilot.
-- Use an isolated RoboRally worktree as the first target.
+- Treat Clawpatch as an optional periodic `/codebase-improvement-scout`
+  detector for stale, high-churn, thinly-tested, pre-release, or pre-cleanup
+  code areas.
+- Roll optional guidance into the existing target-repo
+  `codebase-improvement-scout` skills now; the first natural use in each repo
+  is the pilot.
 - Pin the tool version, record the exact package/source used, and keep generated
   state outside the repo when possible with `--state-dir`.
 - Run only the read/report path: `init`, `map`, a small `review --limit`, and
   `report`.
 - Manually verify any findings against source and repo-native tests before
   treating them as real work.
-- Decide after the pilot whether Clawpatch deserves:
-  - no further action
-  - a runbook-only "optional scanner" note
-  - a second pilot on a larger TypeScript repo such as Echo Forge or Storybook
+- If a repo's natural use exposes noisy findings, poor framework coverage, or a
+  better local rule, fix that repo first and distribute the improved wording via
+  Conductor alignment when it generalizes.
 
 Do not add Clawpatch to normal validation, CI, or target-project stories yet.
 Do not route repo-local inbox items from unverified findings.
@@ -52,27 +54,23 @@ Do not route repo-local inbox items from unverified findings.
 ## Project Relevance
 
 - **conductor**: `Spike`. Conductor should own the pilot decision and the
-  adoption rule. This is a cross-project evaluation problem, not a product
-  feature.
-- **dossier**: `Defer`. Dossier is Python. Latest Clawpatch main has Python
-  mapping work after the v0.1.0 package release, but the published package is
-  not yet the right first test target.
-- **storybook**: `Defer`. Storybook is a strong eventual stress test because it
-  is a large TypeScript monorepo, but it is too expensive and broad for the
-  first proof.
-- **doc-web**: `Defer`. Same Python caveat as Dossier. Revisit after Python
-  mapping is in a published release and after a smaller JavaScript pilot proves
-  signal quality.
-- **cine-forge**: `Defer`. Mixed Python/JavaScript surface with real product
-  pressure. Useful later only if the pilot shows high-confidence findings
-  without creating noisy backlog.
-- **boardgame-ingester**: `Reject for now`. No supported top-level package
-  surface was identified in the quick fit pass.
-- **roborally**: `Spike`. Best first pilot: small JavaScript repo, deterministic
-  scenarios, meaningful tests, and lower operational cost.
-- **echo-forge**: `Defer`. Plausible later target because it is an active
-  TypeScript/Vite app with tooling scripts, but it should not absorb scanner
-  noise before the tool proves itself elsewhere.
+  adoption rule inside `/codebase-improvement-scout`. This is a cross-project
+  detector-guidance problem, not a product feature.
+- **dossier**: `Spike`. Roll optional guidance into the lane, but record
+  unsupported tool coverage if the pinned package lacks Python mapping.
+- **storybook**: `Spike`. Strong natural-use candidate because it is a large
+  TypeScript monorepo; keep findings manually verified and story-bounded.
+- **doc-web**: `Spike`. Same Python caveat as Dossier; artifact/driver truth
+  remains the proof surface.
+- **cine-forge**: `Spike`. Mixed Python/JavaScript surface with real product
+  pressure; provider/runtime/artifact-flow truth outranks generic scanner
+  claims.
+- **boardgame-ingester**: `Spike`. Roll optional guidance into the lane, but
+  record unsupported tool coverage if there is no compatible package surface.
+- **roborally**: `Spike`. Compact JavaScript repo with deterministic scenario
+  behavior and tests, so it remains a good first natural-use target.
+- **echo-forge**: `Spike`. Active TypeScript/Vite app with tooling scripts;
+  browser/live-scene and audio behavior remain the proof surface.
 
 ## Spike Shape
 
@@ -86,7 +84,7 @@ npx clawpatch@0.1.0 --root /path/to/isolated/roborally --state-dir /tmp/clawpatc
 npx clawpatch@0.1.0 --root /path/to/isolated/roborally --state-dir /tmp/clawpatch-roborally report
 ```
 
-The pilot should capture:
+Natural-use runs should capture:
 
 - the exact Clawpatch version/source and install path
 - feature count and sample feature quality
@@ -120,8 +118,8 @@ The pilot should capture:
 ## Confidence
 
 Medium-high. The public docs and repo are clear enough to classify the tool and
-choose a conservative pilot. Confidence is not high until one real report-only
-run proves finding quality and noise level on Cam's repos.
+choose an optional report-only detector role. Confidence in finding quality
+will come from normal repo use rather than a separate pre-rollout pilot.
 
 ## Open Questions
 
@@ -131,5 +129,5 @@ run proves finding quality and noise level on Cam's repos.
   no-pollution scouting?
 - Is the current npm package enough, or should a later pilot wait for the next
   release that includes Python mapping?
-- Should any future adoption be a manual runbook step only, or an optional
-  `/validate` escalation for stale/risky code areas?
+- Should repeated useful runs justify a small reviewed local helper around
+  `/codebase-improvement-scout`?
