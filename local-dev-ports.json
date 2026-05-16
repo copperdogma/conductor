@@ -1,0 +1,124 @@
+{
+  "version": 1,
+  "slotStateFile": "~/.codex/local-dev-ports.json",
+  "slotStride": 10,
+  "rules": {
+    "primaryCheckoutUsesPrimaryPorts": true,
+    "worktreePortsDeriveFromReservedRanges": true,
+    "strictPortsRequired": true,
+    "launcherMustRefuseMissingAllocation": true,
+    "stopDefaultsToSameCheckoutOnly": true
+  },
+  "projects": {
+    "storybook": {
+      "name": "Storybook",
+      "primaryCheckout": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "primaryPorts": {
+        "ui": 5173,
+        "api": 3001
+      },
+      "ranges": {
+        "ui": { "start": 5200, "end": 5299 },
+        "service": { "start": 3200, "end": 3299 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0, "primaryPort": 5173 },
+        "api": { "kind": "service", "offset": 0, "primaryPort": 3001 }
+      }
+    },
+    "cine-forge": {
+      "name": "CineForge",
+      "primaryCheckout": "/Users/cam/Documents/Projects/cine-forge",
+      "primaryPorts": {
+        "ui": 5174,
+        "api": 8000
+      },
+      "ranges": {
+        "ui": { "start": 5300, "end": 5399 },
+        "service": { "start": 3300, "end": 3399 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0, "primaryPort": 5174 },
+        "api": { "kind": "service", "offset": 0, "primaryPort": 8000 }
+      }
+    },
+    "echo-forge": {
+      "name": "Echo Forge",
+      "primaryCheckout": "/Users/cam/Documents/Projects/echo-forge",
+      "primaryPorts": {
+        "ui": 5175,
+        "catalog": 3002,
+        "registry_qa": 4177,
+        "studio": 4178
+      },
+      "ranges": {
+        "ui": { "start": 5400, "end": 5499 },
+        "service": { "start": 3400, "end": 3499 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0, "primaryPort": 5175 },
+        "catalog": { "kind": "service", "offset": 0, "primaryPort": 3002 },
+        "registry_qa": { "kind": "service", "offset": 1, "primaryPort": 4177 },
+        "studio": { "kind": "service", "offset": 2, "primaryPort": 4178 }
+      }
+    },
+    "roborally": {
+      "name": "Robo Rally",
+      "primaryCheckout": "/Users/cam/Documents/Projects/roborally",
+      "primaryPorts": {
+        "ui": 5176,
+        "api": 3003
+      },
+      "ranges": {
+        "ui": { "start": 5500, "end": 5599 },
+        "service": { "start": 3500, "end": 3599 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0, "primaryPort": 5176 },
+        "api": { "kind": "service", "offset": 0, "primaryPort": 3003 }
+      }
+    },
+    "boardgame-ingester": {
+      "name": "Board Game Ingester",
+      "primaryCheckout": "/Users/cam/Documents/Projects/boardgame-ingester",
+      "primaryPorts": {
+        "ui": 5177,
+        "api": 3004
+      },
+      "ranges": {
+        "ui": { "start": 5600, "end": 5699 },
+        "service": { "start": 3600, "end": 3699 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0, "primaryPort": 5177 },
+        "api": { "kind": "service", "offset": 0, "primaryPort": 3004 }
+      }
+    },
+    "dossier": {
+      "name": "Dossier",
+      "primaryCheckout": "/Users/cam/Documents/Projects/dossier",
+      "primaryPorts": {},
+      "ranges": {
+        "ui": { "start": 5700, "end": 5799 },
+        "service": { "start": 3700, "end": 3799 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0 },
+        "api": { "kind": "service", "offset": 0 }
+      }
+    },
+    "doc-web": {
+      "name": "Doc Web",
+      "primaryCheckout": "/Users/cam/Documents/Projects/doc-web",
+      "primaryPorts": {},
+      "ranges": {
+        "ui": { "start": 5800, "end": 5899 },
+        "service": { "start": 3800, "end": 3899 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0 },
+        "api": { "kind": "service", "offset": 0 }
+      }
+    }
+  }
+}

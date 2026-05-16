@@ -44,3 +44,23 @@ The product setup skill must be sparse-safe for repos with no code yet:
   UI scouts, eval attempts, architecture audits, or codebase reports as broken
 - run cheap validation and wrapper checks rather than long subagent loops over
   evidence that cannot exist yet
+
+## Local Runtime Allocation
+
+When a tracked repo has a local browser UI, API, internal authoring server, or
+other human/AI runtime, setup should install a repo-local launcher that reads
+Conductor's `local-dev-ports.json` allocation. Repos should not invent their
+own port ranges.
+
+Runtime launchers should:
+
+- keep primary-checkout ports stable for human bookmarks and OAuth-style flows
+- assign worktree slots by absolute path in `~/.codex/local-dev-ports.json`
+- derive all worktree ports inside the project's assigned Conductor ranges
+- use strict port binding so collisions fail loudly
+- report status with project, checkout root, slot, ports, owning PIDs, and
+  health
+- stop only same-checkout services by default
+
+Repos without a local runtime should still mention their reserved range in the
+README and defer launcher implementation until a real service exists.

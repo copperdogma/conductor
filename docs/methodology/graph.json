@@ -492,11 +492,38 @@
       ],
       "status": "Done",
       "title": "Add Optional Detector Guidance to Codebase Improvement"
+    },
+    {
+      "category_refs": [
+        "registry-routing",
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [],
+      "depends_on": [],
+      "file": "docs/stories/story-015-portfolio-local-runtime-allocation.md",
+      "id": 15,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.1",
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1"
+      ],
+      "status": "Done",
+      "title": "Portfolio Local Runtime Allocation"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 14,
+    "Done": 15,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0
@@ -507,6 +534,7 @@
         "AGENTS.md",
         "docs/ideal.md",
         "docs/spec.md",
+        "README.md",
         "docs/methodology-ideal-spec-compromise.md",
         "docs/methodology/state.yaml",
         "docs/methodology/graph.json",
@@ -516,6 +544,10 @@
         "docs/scout.md",
         "docs/scout",
         ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
         "docs/stories",
         "docs/decisions"
       ],
@@ -529,6 +561,7 @@
         "AGENTS.md",
         "docs/ideal.md",
         "docs/spec.md",
+        "README.md",
         "docs/methodology-ideal-spec-compromise.md",
         "docs/methodology/state.yaml",
         "docs/methodology/graph.json",
@@ -538,6 +571,10 @@
         "docs/scout.md",
         "docs/scout",
         ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
         "docs/stories",
         "docs/decisions"
       ],
@@ -551,6 +588,7 @@
         "AGENTS.md",
         "docs/ideal.md",
         "docs/spec.md",
+        "README.md",
         "docs/methodology-ideal-spec-compromise.md",
         "docs/methodology/state.yaml",
         "docs/methodology/graph.json",
@@ -560,6 +598,10 @@
         "docs/scout.md",
         "docs/scout",
         ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
         "docs/stories",
         "docs/decisions"
       ],
@@ -573,6 +615,7 @@
         "AGENTS.md",
         "docs/ideal.md",
         "docs/spec.md",
+        "README.md",
         "docs/methodology-ideal-spec-compromise.md",
         "docs/methodology/state.yaml",
         "docs/methodology/graph.json",
@@ -582,6 +625,10 @@
         "docs/scout.md",
         "docs/scout",
         ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
         "docs/stories",
         "docs/decisions"
       ],
@@ -595,6 +642,7 @@
         "AGENTS.md",
         "docs/ideal.md",
         "docs/spec.md",
+        "README.md",
         "docs/methodology-ideal-spec-compromise.md",
         "docs/methodology/state.yaml",
         "docs/methodology/graph.json",
@@ -604,6 +652,10 @@
         "docs/scout.md",
         "docs/scout",
         ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
         "docs/stories",
         "docs/decisions"
       ],
@@ -617,6 +669,7 @@
         "AGENTS.md",
         "docs/ideal.md",
         "docs/spec.md",
+        "README.md",
         "docs/methodology-ideal-spec-compromise.md",
         "docs/methodology/state.yaml",
         "docs/methodology/graph.json",
@@ -626,6 +679,10 @@
         "docs/scout.md",
         "docs/scout",
         ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
         "docs/stories",
         "docs/decisions"
       ],
@@ -639,6 +696,7 @@
         "AGENTS.md",
         "docs/ideal.md",
         "docs/spec.md",
+        "README.md",
         "docs/methodology-ideal-spec-compromise.md",
         "docs/methodology/state.yaml",
         "docs/methodology/graph.json",
@@ -648,6 +706,10 @@
         "docs/scout.md",
         "docs/scout",
         ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
         "docs/stories",
         "docs/decisions"
       ],

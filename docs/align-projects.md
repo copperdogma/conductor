@@ -117,3 +117,7 @@ Use this index to track internal cross-project alignment work.
   Focused on adapting Scout 033's complexity-hotspot idea into the existing
   `/codebase-improvement-scout` lane as optional detector guidance, without
   installing a new global Codex skill or treating scanner output as proof.
+- `2026-05-15` — [Alignment 032 — Portfolio Local Runtime Allocation](./alignments/align-032-portfolio-local-runtime-allocation.md)
+  Focused on turning Echo Forge's local service launcher pilot into a
+  Conductor-owned port allocation contract plus repo-local launcher guidance for
+  multi-agent, multi-worktree development.

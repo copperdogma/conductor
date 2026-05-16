@@ -8,6 +8,7 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - README.md
       - docs/methodology-ideal-spec-compromise.md
       - docs/methodology/state.yaml
       - docs/methodology/graph.json
@@ -17,6 +18,10 @@ projects:
       - docs/scout.md
       - docs/scout
       - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
       - docs/stories
       - docs/decisions
   - key: storybook
@@ -27,6 +32,7 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - README.md
       - docs/methodology-ideal-spec-compromise.md
       - docs/methodology/state.yaml
       - docs/methodology/graph.json
@@ -36,6 +42,10 @@ projects:
       - docs/scout.md
       - docs/scout
       - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
       - docs/stories
       - docs/decisions
   - key: doc-web
@@ -46,6 +56,7 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - README.md
       - docs/methodology-ideal-spec-compromise.md
       - docs/methodology/state.yaml
       - docs/methodology/graph.json
@@ -55,6 +66,10 @@ projects:
       - docs/scout.md
       - docs/scout
       - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
       - docs/stories
       - docs/decisions
   - key: cine-forge
@@ -65,6 +80,7 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - README.md
       - docs/methodology-ideal-spec-compromise.md
       - docs/methodology/state.yaml
       - docs/methodology/graph.json
@@ -74,6 +90,10 @@ projects:
       - docs/scout.md
       - docs/scout
       - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
       - docs/stories
       - docs/decisions
   - key: boardgame-ingester
@@ -84,6 +104,7 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - README.md
       - docs/methodology-ideal-spec-compromise.md
       - docs/methodology/state.yaml
       - docs/methodology/graph.json
@@ -93,6 +114,10 @@ projects:
       - docs/scout.md
       - docs/scout
       - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
       - docs/stories
       - docs/decisions
   - key: roborally
@@ -103,6 +128,7 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - README.md
       - docs/methodology-ideal-spec-compromise.md
       - docs/methodology/state.yaml
       - docs/methodology/graph.json
@@ -112,6 +138,10 @@ projects:
       - docs/scout.md
       - docs/scout
       - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
       - docs/stories
       - docs/decisions
   - key: echo-forge
@@ -122,6 +152,7 @@ projects:
       - AGENTS.md
       - docs/ideal.md
       - docs/spec.md
+      - README.md
       - docs/methodology-ideal-spec-compromise.md
       - docs/methodology/state.yaml
       - docs/methodology/graph.json
@@ -131,5 +162,9 @@ projects:
       - docs/scout.md
       - docs/scout
       - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
       - docs/stories
       - docs/decisions

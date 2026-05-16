@@ -43,6 +43,9 @@ folder with no real Ideal/spec, stop and route to `/init-project new-idea`.
   requirements, and guarded story/auto-fix routing
 - upgraded verification bootstrap: `/loop-verify` mode selection, budgeted
   defaults, docs/ADR inspect-only behavior, and strict clean-round escalation
+- local runtime allocation bootstrap for repos that expose a local web/API
+  surface: Conductor-owned port allocation, repo-local launch/status/stop
+  scripts, strict binding, health identity, and README/Codex action guidance
 - optional recurring methodology lanes already encoded in the package, such as
   `architecture_audits` / `/triage-architecture` and `ui_scout` /
   `docs/ui-scout*`
@@ -208,6 +211,18 @@ silently forking the setup contract.
    explicit safe execution path, copy exact shared files there, and run that
    repo's wrapper checks before claiming the target repo is updated. Do not
    independently rewrite the same skill in each repo.
+13. **Local runtime setup uses Conductor allocation.** When a repo has a local
+    browser UI, API, internal authoring server, catalog review server, or other
+    human/AI runtime, add a repo-local launcher that reads Conductor's
+    `local-dev-ports.json` allocation instead of inventing ports. Primary
+    checkouts use the canonical primary ports. Worktrees persist a stable slot
+    by absolute path in `~/.codex/local-dev-ports.json` and derive ports only
+    inside the repo's assigned range. Launchers must use strict binding, report
+    status with project/check-out/slot/port/PID/health details, reuse healthy
+    same-checkout services, refuse ports owned by another checkout unless
+    explicitly forced, and stop only same-checkout processes by default. Repos
+    with no local runtime should record reserved ranges in README/setup docs
+    and defer the launcher until a real runtime exists.
 
 ## Greenfield / No-Code Fast Path
 
@@ -251,6 +266,11 @@ without spending many rounds proving absent evidence. Do this:
    health runbook, fact script, tests, and wrappers. This prevents Echo-style
    long loops where the same fact meaning is rediscovered one adjacent surface
    at a time.
+8. If the repo already exposes, or this setup creates, a local browser/API
+   runtime, install the local runtime launcher pattern. Use the Conductor
+   allocation file for primary ports, worktree ranges, and service offsets;
+   document the command in README and Codex actions. If no runtime exists,
+   document the reserved range and defer launcher implementation.
 
 ## Steps
 
@@ -297,6 +317,10 @@ without spending many rounds proving absent evidence. Do this:
    - for Conductor, preserve supervisor surfaces instead of product-only lanes:
      `projects.yaml`, `inbox.md`, `docs/scout.md`, `docs/scout/`,
      `docs/align-projects.md`, and `docs/alignments/`
+   - for repos with a local runtime, preserve or install the Conductor-backed
+     local launcher surface: allocation-file lookup, stable worktree slot
+     derivation, strict ports, health identity, status/start/stop commands,
+     README guidance, and Codex action wiring
 
 6. **Bootstrap baseline evidence infrastructure**:
    - For Conductor or another non-product supervisor package, preserve local
@@ -385,6 +409,10 @@ without spending many rounds proving absent evidence. Do this:
      so package-manager banners cannot corrupt JSON proof.
    - Confirm wrapper facts distinguish `absent`, `ok`, and `drift`; UI/eval
      facts distinguish empty paths, deferred evidence, and broken pointers.
+   - Confirm local runtime docs and launchers agree on Conductor-owned port
+     allocation. Runtime-heavy repos should expose launch/status/stop commands;
+     headless or no-code repos should explicitly defer launchers while keeping
+     their reserved ranges visible.
 
 10. **Normalize the public skill surface**:
    - `init-project` is the greenfield idea-intake seed skill
@@ -423,6 +451,8 @@ without spending many rounds proving absent evidence. Do this:
 - Upgraded triage, triage-health, sparse facts, and loop-verify surfaces
   installed or explicitly deferred by lane
 - Cross-CLI wrappers regenerated and checked
+- Local runtime launcher installed or explicitly deferred according to whether
+  the repo has a real browser/API/runtime surface
 
 ## Guardrails
 
