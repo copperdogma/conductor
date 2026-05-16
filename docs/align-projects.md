@@ -113,3 +113,7 @@ Use this index to track internal cross-project alignment work.
   Focused on adapting Codex CLI review as an extra `/validate` signal for
   non-trivial code diffs while keeping `/loop-verify` task-shaped and useful
   beyond story closure.
+- `2026-05-16` — [Alignment 031 — Algorithmic Complexity Detector Guidance for Codebase Improvement](./alignments/align-031-algorithmic-complexity-detector-codebase-improvement.md)
+  Focused on adapting Scout 033's complexity-hotspot idea into the existing
+  `/codebase-improvement-scout` lane as optional detector guidance, without
+  installing a new global Codex skill or treating scanner output as proof.

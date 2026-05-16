@@ -37,6 +37,9 @@ folder with no real Ideal/spec, stop and route to `/init-project new-idea`.
   UI/component libraries, auth/payment/storage providers, and framework APIs
 - upgraded triage bootstrap: `/triage`, lane-packet leaf skills,
   `/triage-health`, sparse-safe triage facts, and wrapper sync
+- codebase-improvement lane setup when the repo has enough code for a scan:
+  report-first discovery, optional algorithmic-complexity detector guidance,
+  local proof requirements, and guarded story/auto-fix routing
 - upgraded verification bootstrap: `/loop-verify` mode selection, budgeted
   defaults, docs/ADR inspect-only behavior, and strict clean-round escalation
 - optional recurring methodology lanes already encoded in the package, such as
@@ -164,7 +167,19 @@ silently forking the setup contract.
    exists, story/build skills, and normal ADR/story workflows. Conductor
    supervisor work uses `/align-projects`, `/scout`, `/triage-stories`, the
    core story loop, and normal ADR/story workflows.
-9. **Core story-loop setup is part of refresh.** Install or refresh
+9. **Keep codebase-improvement report-first.** When a repo has enough code for
+   `/codebase-improvement-scout`, algorithmic complexity scanning is one
+   optional deterministic detector category, not a standalone optimizer. It may
+   look for nested scans, membership/search inside loops, sort-in-loop behavior,
+   render-derived collection work, N+1-shaped IO/query/API loops, and repeated
+   expensive derivations. Treat these as leads until local code reads confirm
+   the data shape, hot path, expected complexity before and after, risk level,
+   and the tests, benchmarks, profiler/browser evidence, or manual measurements
+   needed. Do not require remote npm helpers such as `npx
+   codex-complexity-optimizer` in normal workflows; use instruction-level
+   guidance first, and only add reviewed local helpers if repeated scans prove
+   they are worth maintaining.
+10. **Core story-loop setup is part of refresh.** Install or refresh
    `/create-story`, `/build-story`, and `/validate` with the accepted
    core-loop guidance: the main thread owns Ideal/spec judgment, story
    boundaries, build plans, and final validation disposition; subagents gather
@@ -173,14 +188,14 @@ silently forking the setup contract.
    is reserved for repeated material review/fix rounds. Do not make subagents
    mandatory for ordinary setup, no-code repos, routine story creation, or
    small validation passes.
-10. **Canonical public surface only.** AGENTS/docs should advertise
+11. **Canonical public surface only.** AGENTS/docs should advertise
    `/init-project` for greenfield idea intake and `/setup-methodology` for
    full package setup. Do not reintroduce the old phased setup skills.
-11. **No-code repos get a sparse package, not a long forensic loop.** When a
+12. **No-code repos get a sparse package, not a long forensic loop.** When a
    repo has little or no code, install the methodology surfaces quickly around
    the authored Ideal/spec, mark unavailable lanes as absent or deferred, and
    avoid asking agents to infer runtime truth that cannot exist yet.
-12. **Shared skill surfaces should be copied exactly.** When this setup skill or
+13. **Shared skill surfaces should be copied exactly.** When this setup skill or
    the shared triage/core story-loop/loop-verify package changes, upgrade one
    source copy and perform a local propagation sweep. Cross-repo propagation is
    separate repo-local adoption work: use dedicated target-repo worktrees or an

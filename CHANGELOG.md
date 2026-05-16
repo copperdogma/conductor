@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026-05-16-01] - Add complexity detector scout guidance
+
+### Added
+- Added Scout 033, Alignment 031, and Story 014 for adapting
+  `codex-complexity-optimizer` as optional algorithmic-complexity detector
+  guidance inside `/codebase-improvement-scout`, without installing the npm
+  package globally or treating scanner output as proof.
+- Added Scout 034 for a bounded report-only Clawpatch spike, with a RoboRally
+  pilot note in `inbox.md`.
+
+### Changed
+- Updated `/setup-methodology` so codebase-improvement lane setup keeps
+  algorithmic complexity scanning report-first, local-proof-based, and optional.
+- Rolled the detector guidance into Dossier, Storybook, doc-web, CineForge,
+  Board Game Ingester, RoboRally, and Echo Forge from isolated worktrees, then
+  landed each target repo on `main`.
+
 ## [2026-05-15-01] - Add Codex review validation signal
 
 ### Added

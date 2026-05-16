@@ -137,3 +137,13 @@ Use this index to track external sources investigated for cross-project value.
   focused test/review rerun discipline, and accepted/rejected finding report
   are worth adapting into `/validate`, with only task-agnostic ledger and
   clean-stop guidance added to `/loop-verify`.
+- `2026-05-16` — [Scout 033 — Evaluate Codex Complexity Optimizer for Codebase-Improvement Scans](./scout/scout-033-codex-complexity-optimizer-codebase-improvement.md) — `Adapt`
+  Kappaemme's `codex-complexity-optimizer` is a useful report-first
+  complexity-hotspot reference, but it should be adapted into the existing
+  `/codebase-improvement-scout` lane as optional detector guidance rather than
+  installed globally or treated as a standalone optimizer.
+- `2026-05-16` — [Scout 034 — Evaluate Clawpatch for Automated Repo Review](./scout/scout-034-clawpatch-automated-code-review.md) — `Spike`
+  Clawpatch is a credible early repo-wide AI review CLI, distinct from
+  `codex-review` because it looks for latent bugs outside the current diff, but
+  it should be tested only through one report-only isolated RoboRally pilot
+  before any runbook, validation, or target-repo adoption.
