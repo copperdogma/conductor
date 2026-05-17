@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026-05-16-02] - Add loop-verify discovery phases
+
+### Added
+- Added Alignment 033 and Story 016 for the `/loop-verify`
+  discovery/candidate-close split prompted by doc-web's expensive Story 229
+  verification loop.
+
+### Changed
+- Updated `/loop-verify` so strict cross-cutting contract work starts with
+  find-only discovery, groups findings by defect class, switches to systemic
+  repair for repeated classes, and reserves generated proof/docs/full-suite
+  closeout for candidate-close.
+
 ## [2026-05-16-01] - Add complexity detector scout guidance
 
 ### Added

@@ -121,3 +121,7 @@ Use this index to track internal cross-project alignment work.
   Focused on turning Echo Forge's local service launcher pilot into a
   Conductor-owned port allocation contract plus repo-local launcher guidance for
   multi-agent, multi-worktree development.
+- `2026-05-16` — [Alignment 033 — Loop Verify Discovery and Candidate-Close Phases](./alignments/align-033-loop-verify-discovery-candidate-close.md)
+  Focused on making strict `/loop-verify` phase-based so cross-cutting defect
+  classes are discovered and fixed systemically before expensive candidate-close
+  validation, proof generation, or closeout ceremony runs.
