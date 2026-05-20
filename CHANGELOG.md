@@ -1,5 +1,19 @@
 # Changelog
 
+## [2026-05-20-04] - Add harness navigation context-debt review
+
+### Added
+- Added Scout 039, Story 020, and Alignment 038 for evaluating Claude Code
+  large-codebase guidance against the current distributed harness.
+
+### Changed
+- Recorded a Conductor-owned expected-value and overhead gate for external
+  coding-agent practice scouts: inventory existing repo surfaces first, then
+  reject or defer low-confidence additions by default.
+- Preserved CineForge's existing Story 103 AGENTS extraction as the only
+  clearly high-value target action found by the inventory, without creating
+  new target repo work.
+
 ## [2026-05-20-03] - Add ADR triage loop
 
 ### Added

@@ -168,3 +168,9 @@ Use this index to track external sources investigated for cross-project value.
   doc-web, CineForge, and Dossier. Use direct Moonshot API as the baseline
   provider, then compare Fireworks or pinned OpenRouter routes only after the
   canonical behavior is known.
+- `2026-05-20` — [Scout 039 — Evaluate Claude Code Large-Codebase Practices for Harness Navigation](./scout/scout-039-claude-code-large-codebase-practices.md) — `Adapt`
+  Anthropic's large-codebase Claude Code guidance strongly validates the local
+  distributed-harness approach. The new value is a Conductor-owned
+  context-debt and navigation review: keep root instructions lean, make
+  path-specific commands discoverable, exclude generated noise, and review
+  stale model-compensation rules after major tool or model upgrades.

@@ -140,3 +140,7 @@ Use this index to track internal cross-project alignment work.
 - `2026-05-20` — [Alignment 037 — ADR Triage Loop](./alignments/align-037-adr-triage-loop.md)
   Focused on turning rambling mid-ADR conversations into a compact decision
   inventory, maturity read, and next-route recommendation across tracked repos.
+- `2026-05-20` — [Alignment 038 — Harness Navigation and Context-Debt Review](./alignments/align-038-harness-navigation-context-debt-review.md)
+  Focused on applying Scout 039's Claude large-codebase guidance only after a
+  per-repo inventory, with high expected value and low overhead as the adoption
+  gate.
