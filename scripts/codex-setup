@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+cd "$ROOT"
+
+echo "Conductor Codex setup"
+echo "Checking local Python entrypoints without installing dependencies..."
+
+python3 --version
+python3 - scripts/methodology_graph.py scripts/repo_checks.py <<'PY'
+from pathlib import Path
+import sys
+
+for raw_path in sys.argv[1:]:
+    path = Path(raw_path)
+    compile(path.read_text(), str(path), "exec")
+PY
+
+echo "Conductor Codex setup complete"

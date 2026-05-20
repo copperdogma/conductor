@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-05-20-02] - Add Codex worktree setup hooks
+
+### Added
+- Added Alignment 036 and Story 018 for the Codex worktree dependency
+  bootstrap contract.
+- Added Conductor's own `.codex/environments/environment.toml` and
+  `scripts/codex-setup` check-only setup hook.
+
+### Changed
+- Updated setup-methodology and the setup runbook so Codex worktree setup is
+  repo-owned, lockfile-respecting dependency bootstrap, separate from local
+  runtime actions.
+- Rolled setup hooks into Dossier, Storybook, Doc Web, CineForge, Board Game
+  Ingester, Robo Rally, and Echo Forge from isolated worktrees, then landed
+  each target repo on `main`.
+
 ## [2026-05-20-01] - Retire required provider-specific skill wrappers
 
 ### Added

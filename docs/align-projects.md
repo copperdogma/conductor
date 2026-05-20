@@ -133,3 +133,7 @@ Use this index to track internal cross-project alignment work.
   Focused on making `.agents/skills/<name>/SKILL.md` the canonical skill
   package across tracked repos now that Google Antigravity and Gemini CLI
   support it directly, with provider-specific command aliases kept optional.
+- `2026-05-20` — [Alignment 036 — Codex Worktree Environment Bootstrap](./alignments/align-036-codex-worktree-environment-bootstrap.md)
+  Focused on explaining why fresh Codex worktrees still hit missing dependency
+  binaries, then recommending explicit repo-owned setup hooks in
+  `.codex/environments/environment.toml` instead of per-agent install guesses.

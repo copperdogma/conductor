@@ -65,3 +65,26 @@ Runtime launchers should:
 
 Repos without a local runtime should still mention their reserved range in the
 README and defer launcher implementation until a real service exists.
+
+## Codex Worktree Bootstrap
+
+Codex environment setup is a dependency bootstrap, not a server launcher. When a
+tracked repo needs local packages before validation or Run actions work,
+`.codex/environments/environment.toml` should point `[setup].script` at one
+repo-owned command such as `./scripts/codex-setup`.
+
+Setup hooks should:
+
+- keep package-manager logic in the repo script rather than long TOML commands
+- use lockfile-respecting installs such as `npm ci`, `pnpm install
+  --frozen-lockfile`, or `uv sync --locked`
+- restore ignored dependency artifacts such as `node_modules`, `.venv`, or
+  `.runtime`
+- avoid changing source files, lockfiles, generated methodology outputs, or
+  user data
+- avoid starting local servers; Run/status actions own runtime launch
+- verify `.codex/environments/environment.toml` is visible to git, or add a
+  narrow unignore rule when the repo ignores `.codex/`
+
+Repos without local dependency needs can keep setup check-only or explicitly
+defer the hook until a real validation/runtime surface exists.
