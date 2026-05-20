@@ -31,6 +31,9 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
 
 1. Read `projects.yaml` to identify the projects and comparison surfaces.
 2. Choose the relevant surface area for this pass.
+   - If the requested alignment is driven by an ADR whose remaining decisions
+     are unclear, run `/triage-adr` first so the comparison does not propagate
+     an unsettled or stale decision.
 3. Compare the source and target projects.
 4. Classify each important difference:
    - intentional adaptation

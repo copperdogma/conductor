@@ -20,6 +20,13 @@ stronger divergent option set. If the user has explicitly authorized
 delegation, a bounded ideation subagent is a good fit for generating the option
 packet. `/create-adr` still owns the decision, ADR text, and follow-up route.
 
+Use `/triage-adr` on an existing ADR when the conversation has become unclear,
+when it is not obvious what decisions remain, or when the ADR appears mature
+but the next route is uncertain. `/triage-adr` inventories remaining
+Cam-owned decisions, technical recommendations, evidence gaps, and alignment
+work before `/create-adr` creates more decision surface or `/align-projects`
+propagates the result.
+
 ## Example
 
 ```text
@@ -56,6 +63,7 @@ packet. `/create-adr` still owns the decision, ADR text, and follow-up route.
 
 5. Recommend the next honest follow-up.
    - keep local if the ADR is Conductor-only
+   - `/triage-adr` if an existing ADR is ambiguous, stale, or nearly decided
    - `/align-projects` if the decision likely affects tracked repos
    - a story if the decision now needs implementation work
 

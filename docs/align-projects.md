@@ -137,3 +137,6 @@ Use this index to track internal cross-project alignment work.
   Focused on explaining why fresh Codex worktrees still hit missing dependency
   binaries, then recommending explicit repo-owned setup hooks in
   `.codex/environments/environment.toml` instead of per-agent install guesses.
+- `2026-05-20` — [Alignment 037 — ADR Triage Loop](./alignments/align-037-adr-triage-loop.md)
+  Focused on turning rambling mid-ADR conversations into a compact decision
+  inventory, maturity read, and next-route recommendation across tracked repos.

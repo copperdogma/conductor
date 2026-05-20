@@ -25,7 +25,8 @@
 
 ## Skill and check surface
 
-- [x] Local skill folders exist for triage, story flow, scouting, alignment, and setup
+- [x] Local skill folders exist for triage, ADR triage, story flow, scouting,
+      alignment, and setup
 - [x] `scripts/sync-agent-skills.sh` exists
 - [x] `.agents/skills` is the canonical skill surface; provider-specific command aliases are optional compatibility only
 - [x] `scripts/methodology_graph.py` exists

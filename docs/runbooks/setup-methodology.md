@@ -41,6 +41,8 @@ The product setup skill must be sparse-safe for repos with no code yet:
   equivalent intake before setup fabricates package surfaces
 - install upgraded `/triage`, packet-mode triage leaves, `/triage-health`, and
   `/loop-verify`
+- install `/triage-adr` as the lightweight helper for existing ADRs whose
+  remaining decisions, maturity, or next route are unclear
 - mark code-dependent lanes as absent or deferred instead of treating missing
   UI scouts, eval attempts, architecture audits, or codebase reports as broken
 - run cheap validation and skill-surface checks rather than long subagent loops

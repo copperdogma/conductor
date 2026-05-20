@@ -1,5 +1,22 @@
 # Changelog
 
+## [2026-05-20-03] - Add ADR triage loop
+
+### Added
+- Added Alignment 037 and Story 019 for the ADR triage loop prompted by
+  mid-ADR decision ambiguity.
+- Added `/triage-adr` as a lightweight advisory skill that inventories ADR
+  maturity, settled decisions, Cam-owned choices, technical recommendations,
+  evidence gaps, integration gaps, and one next route.
+
+### Changed
+- Updated Conductor's ADR, alignment, and setup guidance so ambiguous existing
+  ADRs route through `/triage-adr` before creating more decision surface or
+  propagating unsettled work.
+- Rolled adapted `/triage-adr` guidance into Dossier, Storybook, Doc Web,
+  CineForge, Board Game Ingester, Robo Rally, and Echo Forge from isolated
+  worktrees, then landed each target repo on `main`.
+
 ## [2026-05-20-02] - Add Codex worktree setup hooks
 
 ### Added
