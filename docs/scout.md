@@ -158,3 +158,8 @@ Use this index to track external sources investigated for cross-project value.
   `/ideation` helper guidance for `ideal.md` drafting, story brainstorming,
   and ADR option generation; do not make the full tool or novelty scoring a
   default decision authority yet.
+- `2026-05-20` — [Scout 037 — Evaluate Google Antigravity Skills and CLI for Skill Wrapper Retirement](./scout/scout-037-google-antigravity-skills-and-cli.md) — `Adapt`
+  Google's current Antigravity and Gemini CLI docs support standard
+  `SKILL.md` skills in `.agents/skills`, so the old Google-specific
+  `.gemini/commands` wrapper generation should become optional slash-command
+  aliasing rather than required skill sync.

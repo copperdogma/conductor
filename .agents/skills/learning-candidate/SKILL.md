@@ -202,8 +202,10 @@ underspecified candidate.
 Promotion means applying the approved change to the target surface through the
 smallest honest workflow:
 
-- skill patch: edit the named `.agents/skills/<name>/SKILL.md`, sync generated
-  wrappers if needed, and run `make skills-check`.
+- skill patch: edit the named `.agents/skills/<name>/SKILL.md`, refresh
+  canonical skill compatibility links with `make skills-sync` when needed, and
+  run `make skills-check`. Generate provider-specific command aliases only when
+  the target repo explicitly keeps them as a separate compatibility surface.
 - runbook or methodology doc: patch the named doc and run the relevant repo
   checks.
 - memory guidance: update only through the approved memory-maintenance path;

@@ -88,7 +88,7 @@ missing context instead of guessing.
      - missing or incomplete `CHANGELOG.md` entry
      - handled inbox item still present when the mapping to completed work is
        clear
-     - generated skill wrapper drift fixed by `scripts/sync-agent-skills.sh`
+     - skill-surface link or optional-alias drift fixed by `scripts/sync-agent-skills.sh`
      - small doc or metadata mismatch caused by the current work
      - narrow lint/test failure with an obvious, low-risk local fix
      - missing re-run of a required check after a small patch

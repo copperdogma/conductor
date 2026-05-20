@@ -1,5 +1,19 @@
 # Changelog
 
+## [2026-05-20-01] - Retire required provider-specific skill wrappers
+
+### Added
+- Added Scout 037, Alignment 035, and Story 017 for the Google
+  Antigravity/Gemini CLI skill-surface update.
+
+### Changed
+- Made `.agents/skills/<name>/SKILL.md` the canonical repo skill surface, with
+  compatibility links checked by default and provider-specific command aliases
+  treated as optional UX shims.
+- Updated Conductor setup, skill-creation, validation, and target-rollout
+  guidance so future repos no longer need generated Google-specific skill
+  variants when standard `SKILL.md` discovery is sufficient.
+
 ## [2026-05-16-02] - Add loop-verify discovery phases
 
 ### Added

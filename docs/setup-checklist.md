@@ -27,6 +27,7 @@
 
 - [x] Local skill folders exist for triage, story flow, scouting, alignment, and setup
 - [x] `scripts/sync-agent-skills.sh` exists
+- [x] `.agents/skills` is the canonical skill surface; provider-specific command aliases are optional compatibility only
 - [x] `scripts/methodology_graph.py` exists
 - [x] `Makefile` exposes `methodology-compile`, `methodology-check`, `skills-sync`, and `skills-check`
 

@@ -32,7 +32,8 @@ Use `/setup-methodology` when the project structure or public surfaces drift.
 Conductor is not the canonical copy of every product skill, but the tracked
 product repos should keep the portable `/setup-methodology` skill identical.
 When the product setup package changes, upgrade one product worktree, then copy
-the exact skill file into the other product repos and regenerate wrappers.
+the exact skill file into the other product repos and refresh canonical
+`.agents/skills` compatibility links.
 
 The product setup skill must be sparse-safe for repos with no code yet:
 
@@ -42,8 +43,8 @@ The product setup skill must be sparse-safe for repos with no code yet:
   `/loop-verify`
 - mark code-dependent lanes as absent or deferred instead of treating missing
   UI scouts, eval attempts, architecture audits, or codebase reports as broken
-- run cheap validation and wrapper checks rather than long subagent loops over
-  evidence that cannot exist yet
+- run cheap validation and skill-surface checks rather than long subagent loops
+  over evidence that cannot exist yet
 
 ## Local Runtime Allocation
 

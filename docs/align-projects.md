@@ -129,3 +129,7 @@ Use this index to track internal cross-project alignment work.
   Focused on adapting Scout 036's Open Collider lesson into a standalone
   optional `/ideation` helper that improves option generation for Ideal/spec,
   story, build-plan, and ADR work while leaving final decisions with the caller.
+- `2026-05-19` — [Alignment 035 — Provider-Specific Skill Wrapper Retirement](./alignments/align-035-provider-specific-skill-wrapper-retirement.md)
+  Focused on making `.agents/skills/<name>/SKILL.md` the canonical skill
+  package across tracked repos now that Google Antigravity and Gemini CLI
+  support it directly, with provider-specific command aliases kept optional.
