@@ -148,3 +148,7 @@ Use this index to track external sources investigated for cross-project value.
   it belongs as an occasional report-only `/codebase-improvement-scout`
   detector. Roll out optional guidance now; first natural repo use is the
   pilot.
+- `2026-05-19` — [Scout 035 — Evaluate Gemini 3.5 Flash API Eval Opportunities](./scout/scout-035-google-gemini-35-flash-api-eval-opportunities.md) — `Spike`
+  Gemini 3.5 Flash is a real Google API eval trigger for Dossier, doc-web,
+  CineForge, Storybook, Echo Forge, and Board Game Ingester, but promotion
+  belongs inside repo-local eval ladders rather than a blanket model switch.
