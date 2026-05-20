@@ -137,3 +137,7 @@ Use this index to track internal cross-project alignment work.
   Focused on explaining why fresh Codex worktrees still hit missing dependency
   binaries, then recommending explicit repo-owned setup hooks in
   `.codex/environments/environment.toml` instead of per-agent install guesses.
+- `2026-05-20` — [Alignment 037 — GPT-5.5 Responses Effort Eval Readiness](./alignments/align-037-gpt55-responses-effort-eval-readiness.md)
+  Focused on adapting Dossier's eval-only OpenAI Responses
+  reasoning-effort sweep pattern into target repo eval guidance and existing
+  Responses provider metadata without implying runtime default changes.
