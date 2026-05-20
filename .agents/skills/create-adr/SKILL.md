@@ -14,6 +14,12 @@ user-invocable: true
 Create a new Conductor ADR with flat-file scaffolding plus lightweight research
 notes.
 
+Use `/ideation` before decision closure when the ADR's considered options are
+thin, all options are same-neighborhood variants, or the sticky choice needs a
+stronger divergent option set. If the user has explicitly authorized
+delegation, a bounded ideation subagent is a good fit for generating the option
+packet. `/create-adr` still owns the decision, ADR text, and follow-up route.
+
 ## Example
 
 ```text

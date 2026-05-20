@@ -13,11 +13,16 @@ Create a new story in `docs/stories/` when a new story is honestly warranted.
 For non-trivial or cross-project story creation, the main thread may use
 subagents or sidecar agents to gather bounded evidence before deciding whether
 to bootstrap. Useful packets include codebase impact scans, recent story or
-alignment lookup, source-specific research, and edge-case completeness checks.
+alignment lookup, source-specific research, edge-case completeness checks, and
+`/ideation` when the possible story boundaries are too same-shaped or vague to
+score honestly.
 
 - Sidecars are optional and evidence-only. They do not decide whether a story is
   warranted, choose the story boundary, set the initial status, or write the
   final story artifact.
+- `/ideation` may expand candidate boundaries or solution approaches, but
+  `/create-story` still owns whether a story is warranted and which boundary is
+  durable.
 - Do not default story creation to `/loop-verify`; reserve repeated verify
   loops for later validation or unusually broad/high-risk planning surfaces.
 - If subagents are unavailable, unsafe for the checkout, or explicitly disabled
@@ -39,6 +44,7 @@ alignment lookup, source-specific research, and edge-case completeness checks.
 3. Fill in:
    - goal
    - acceptance criteria
+   - a short alternatives / rejected-boundaries note when relevant
    - tasks
    - tracked projects
    - spec refs

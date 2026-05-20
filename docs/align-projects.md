@@ -125,3 +125,7 @@ Use this index to track internal cross-project alignment work.
   Focused on making strict `/loop-verify` phase-based so cross-cutting defect
   classes are discovered and fixed systemically before expensive candidate-close
   validation, proof generation, or closeout ceremony runs.
+- `2026-05-19` — [Alignment 034 — Ideation Helper Skill](./alignments/align-034-ideation-helper-skill.md)
+  Focused on adapting Scout 036's Open Collider lesson into a standalone
+  optional `/ideation` helper that improves option generation for Ideal/spec,
+  story, build-plan, and ADR work while leaving final decisions with the caller.

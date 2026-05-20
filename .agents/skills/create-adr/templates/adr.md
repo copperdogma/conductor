@@ -13,6 +13,12 @@ and why the choice is hard to reverse or likely to shape future work.}
 
 TBD — pending research and review.
 
+## Options Considered
+
+- {Option A}: {why it was plausible, key tradeoff, disposition}
+- {Option B}: {why it was plausible, key tradeoff, disposition}
+- {Rejected pattern}: {why not}
+
 ## Consequences
 
 - Positive:

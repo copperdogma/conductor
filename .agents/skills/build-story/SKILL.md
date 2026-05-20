@@ -38,6 +38,14 @@ Use this to take a Conductor story from story text to implemented supervisor art
 
 ## Phase 2 — Plan
 
+If the implementation approach is genuinely unclear because the solution space
+is weak, use `/ideation` before writing the plan. Keep this optional and
+bounded: the ideation packet can improve alternatives and tradeoffs. If the
+user has explicitly authorized delegation and the option search is not blocking
+the immediate next local step, a bounded ideation subagent is a good fit. The
+main `/build-story` thread still owns the plan, approval gate, and final
+implementation judgment.
+
 Write `## Plan` in the story with:
 
 - the concrete file changes

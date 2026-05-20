@@ -83,6 +83,8 @@ Specialized loops:
 
 - `/align-projects` for cross-project infrastructure drift
 - `/scout` for external sources and adoption analysis
+- `/ideation` for optional divergent option generation before Ideal/spec,
+  story, or ADR decisions when option quality is the blocker
 - `/setup-methodology` for refreshing this project's own methodology package
 
 ## Working norms

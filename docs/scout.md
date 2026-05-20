@@ -152,3 +152,9 @@ Use this index to track external sources investigated for cross-project value.
   Gemini 3.5 Flash is a real Google API eval trigger for Dossier, doc-web,
   CineForge, Storybook, Echo Forge, and Board Game Ingester, but promotion
   belongs inside repo-local eval ladders rather than a blanket model switch.
+- `2026-05-19` — [Scout 036 — Evaluate Open Collider for Ideation Quality](./scout/scout-036-open-collider-ideation-quality.md) — `Adapt`
+  Open Collider is a credible reference for improving divergent LLM ideation
+  with distant-domain collision passes. Adapt the pattern as optional
+  `/ideation` helper guidance for `ideal.md` drafting, story brainstorming,
+  and ADR option generation; do not make the full tool or novelty scoring a
+  default decision authority yet.
