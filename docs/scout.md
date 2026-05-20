@@ -163,3 +163,8 @@ Use this index to track external sources investigated for cross-project value.
   `SKILL.md` skills in `.agents/skills`, so the old Google-specific
   `.gemini/commands` wrapper generation should become optional slash-command
   aliasing rather than required skill sync.
+- `2026-05-20` — [Scout 038 — Evaluate Kimi K2.6 API Eval Opportunities](./scout/scout-038-kimi-k26-api-eval-opportunities.md) — `Spike`
+  Kimi K2.6 is credible enough for bounded repo-local evals, especially
+  doc-web, CineForge, and Dossier. Use direct Moonshot API as the baseline
+  provider, then compare Fireworks or pinned OpenRouter routes only after the
+  canonical behavior is known.
