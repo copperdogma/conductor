@@ -746,11 +746,40 @@
       ],
       "status": "Done",
       "title": "Build Skill Surface Budget Audit"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-023-skill-authoring-budget-guidance.md",
+      "id": 23,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:2.1",
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1"
+      ],
+      "status": "Done",
+      "title": "Roll Out Skill Authoring Budget Guidance"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 22,
+    "Done": 23,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

@@ -148,3 +148,7 @@ Use this index to track internal cross-project alignment work.
   Focused on adapting Scout 040's `skill-cleaner` idea into a Conductor-owned,
   report-only audit helper that separates active skill roots from portfolio
   inventory and treats cleanup findings as candidates, not automatic edits.
+- `2026-05-25` — [Alignment 040 — Skill Authoring Budget Guidance](./alignments/align-040-skill-authoring-budget-guidance.md)
+  Focused on carrying the skill-budget lesson into target repos'
+  `create-cross-cli-skill` and existing `improve-skill` surfaces so new skills
+  are shaped token-efficiently before Conductor needs to audit them.
