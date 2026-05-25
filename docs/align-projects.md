@@ -144,3 +144,7 @@ Use this index to track internal cross-project alignment work.
   Focused on applying Scout 039's Claude large-codebase guidance only after a
   per-repo inventory, with high expected value and low overhead as the adoption
   gate.
+- `2026-05-25` — [Alignment 039 — Skill Surface Budget Audit](./alignments/align-039-skill-surface-budget-audit.md)
+  Focused on adapting Scout 040's `skill-cleaner` idea into a Conductor-owned,
+  report-only audit helper that separates active skill roots from portfolio
+  inventory and treats cleanup findings as candidates, not automatic edits.

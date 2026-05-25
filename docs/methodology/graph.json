@@ -711,11 +711,46 @@
       ],
       "status": "Done",
       "title": "Add Autonomy Boundary to Triage and Build Story"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "scouting",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-022-skill-surface-budget-audit.md",
+      "id": 22,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.1",
+        "spec:2.1",
+        "spec:2.2",
+        "spec:3.2",
+        "spec:4.2",
+        "spec:5.1",
+        "spec:5.2",
+        "spec:5.3"
+      ],
+      "status": "Done",
+      "title": "Build Skill Surface Budget Audit"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 21,
+    "Done": 22,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

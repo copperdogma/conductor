@@ -1,5 +1,20 @@
 # Changelog
 
+## [2026-05-25-02] - Add skill surface budget audit
+
+### Added
+- Added Scout 041, Story 022, and Alignment 039 for adapting Peter
+  Steinberger's `skill-cleaner` into a Conductor-owned skill-surface audit.
+- Added `/skill-surface-audit` and `scripts/skill_surface_audit.py` for
+  report-only active-root and portfolio skill inventory checks.
+
+### Changed
+- Classified plugin-cache copies, repeated repo-local skills, long
+  descriptions, and low-usage evidence as review candidates rather than
+  automatic cleanup actions.
+- Removed tracked Python bytecode from the repo and ignored future
+  `__pycache__` / `.pyc` outputs.
+
 ## [2026-05-25-01] - Add autonomy boundary methodology wording
 
 ### Added

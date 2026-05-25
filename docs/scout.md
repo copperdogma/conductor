@@ -179,3 +179,9 @@ Use this index to track external sources investigated for cross-project value.
   Ideal/spec/triage/work loop. The useful adoption is an explicit autonomous
   promotion boundary: project fit plus high-confidence code evidence, bounded
   scope, checkout safety, and live or repo-native verification.
+- `2026-05-25` — [Scout 041 — Evaluate Skill Cleaner for Skill-Surface Budget Audits](./scout/scout-041-skill-cleaner-skill-budget-audit.md) — `Adapt`
+  Peter Steinberger's `skill-cleaner` has real local value as a
+  Conductor-owned, report-first skill-surface audit for prompt-budget pressure,
+  duplicate plugin-cache copies, repeated repo-local skills, and long
+  descriptions, but it should be wrapped around `projects.yaml` and real loaded
+  roots rather than imported unchanged or used for automatic deletion.
