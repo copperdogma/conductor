@@ -7,7 +7,7 @@ user-invocable: true
 # /learning-candidate [draft|review|accept|dismiss|promote] [finding]
 
 Use this after `/learning-review` returns `RESULT: candidate-warranted`, or
-when Cam explicitly asks to draft, review, accept, dismiss, or promote a
+when the operator explicitly asks to draft, review, accept, dismiss, or promote a
 workflow-learning candidate.
 
 This skill manages candidate artifacts. It does not silently mutate live
@@ -33,16 +33,16 @@ Use `docs/learning-candidates/template.md` as the file shape.
 
 - `Draft`: written because evidence may warrant a change, but not yet proposed
   as ready to accept.
-- `Proposed`: evidence and target are clear enough to ask Cam to accept or
+- `Proposed`: evidence and target are clear enough to ask the operator to accept or
   dismiss the change.
-- `Accepted`: Cam accepted the candidate as worth promoting into the target
+- `Accepted`: the operator accepted the candidate as worth promoting into the target
   surface.
-- `Dismissed`: Cam or validation rejected the candidate.
+- `Dismissed`: the operator or validation rejected the candidate.
 - `Promoted`: the accepted change was actually applied to the target surface
   through the appropriate repo-native workflow, with evidence linked.
 
-Only Cam's explicit approval, or a direct user instruction in the current turn,
-can move a candidate to `Accepted` or authorize promotion.
+Only the operator's explicit approval, or a direct user instruction in the
+current turn, can move a candidate to `Accepted` or authorize promotion.
 `Dismissed` is terminal unless fresh evidence reopens the candidate; reopening
 must move it back through `Draft` or `Proposed` before it can be accepted or
 promoted.
@@ -50,12 +50,12 @@ promoted.
 Allowed transitions:
 
 - `Draft -> Proposed` after review finds the evidence and target clear enough.
-- `Proposed -> Accepted` only after Cam explicitly accepts it.
-- `Proposed -> Dismissed` after Cam or validation rejects it.
+- `Proposed -> Accepted` only after the operator explicitly accepts it.
+- `Proposed -> Dismissed` after the operator or validation rejects it.
 - `Accepted -> Promoted` only through promote mode with target, action, and
   validation fields present.
-- `Accepted -> Dismissed` only before promotion when Cam explicitly reverses
-  acceptance.
+- `Accepted -> Dismissed` only before promotion when the operator explicitly
+  reverses acceptance.
 - `Dismissed -> Draft` or `Dismissed -> Proposed` only when fresh evidence is
   recorded; stop before acceptance or promotion.
 - `Promoted` is terminal for this workflow. Do not reapply live changes from an
@@ -96,9 +96,9 @@ or promote the candidate.
 When drafting:
 
 1. Read the detector output and the smallest evidence set needed to support it.
-   If Cam explicitly asked for a draft without a detector output, first apply
-   `/learning-review` evidence thresholds, rejection rules, and snapshot-bias
-   checks to the available evidence. If the evidence would return
+   If the operator explicitly asked for a draft without a detector output, first
+   apply `/learning-review` evidence thresholds, rejection rules, and
+   snapshot-bias checks to the available evidence. If the evidence would return
    `RESULT: no-candidate`, do not create a file; report why the draft was not
    warranted.
 2. Check whether an existing candidate already covers the same target and
@@ -140,7 +140,7 @@ When reviewing an existing candidate:
    depending on whether the file changed.
 8. Decide one of:
    - keep as `Draft` and name the missing evidence
-   - move to `Proposed` and ask Cam to accept or dismiss it
+   - move to `Proposed` and ask the operator to accept or dismiss it
    - move an already `Proposed` candidate to `Dismissed` with a short reason
 9. Update the candidate's decision history.
 
@@ -148,13 +148,13 @@ Review does not promote.
 
 ## Accept Or Dismiss Mode
 
-When Cam explicitly accepts or dismisses a specific candidate:
+When the operator explicitly accepts or dismisses a specific candidate:
 
 1. Re-read the candidate and record its current status before choosing a
    lifecycle branch.
 2. If the candidate is `Draft`, review it first. For either an accept or
    dismiss request, move it to `Proposed` only when the evidence supports
-   proposal, then stop and ask Cam to accept or dismiss that proposed
+   proposal, then stop and ask the operator to accept or dismiss that proposed
    candidate. If the evidence does not support proposal, keep it as `Draft`,
    record why it is not proposal-ready, and do not move it to `Dismissed`,
    `Accepted`, or `Promoted` in the same operation.
@@ -165,28 +165,28 @@ When Cam explicitly accepts or dismisses a specific candidate:
    no-op decision-history note and end with `RESULT: candidate-unchanged`
    unless the current request also explicitly asks for promotion; in that case,
    record the instruction and continue through Promote Mode. A dismiss request
-   may move it to `Dismissed` only before promotion and only when Cam explicitly
-   reverses acceptance.
+   may move it to `Dismissed` only before promotion and only when the operator
+   explicitly reverses acceptance.
 5. If the candidate is `Promoted`, do not move it back to `Dismissed` from this
    mode; end with `RESULT: candidate-unchanged` and route reversals or
    follow-up behavior changes through a new story or candidate.
 6. Move a `Proposed` candidate to `Accepted` only when every required field is
    present. If required fields are missing, stop with `RESULT: blocked` and
    `Live changes: none`. A `Proposed` candidate may still move to `Dismissed`
-   when Cam or validation rejects it.
+   when the operator or validation rejects it.
 7. Record the user instruction, date, and short rationale in decision history.
-8. Do not edit the target surface or promote from accept/dismiss mode. If Cam
-   explicitly requested acceptance and promotion in the same turn, first record
-   the accepted state, then continue through Promote Mode and end with the
-   promotion, blocked, or unchanged output contract.
+8. Do not edit the target surface or promote from accept/dismiss mode. If the
+   operator explicitly requested acceptance and promotion in the same turn,
+   first record the accepted state, then continue through Promote Mode and end
+   with the promotion, blocked, or unchanged output contract.
 
 ## Promote Mode
 
 Promote only after the candidate is `Accepted`. If the current request asks to
 promote a `Proposed` candidate without also explicitly accepting it, stop with
-`RESULT: blocked`; live changes require acceptance first. If Cam explicitly
-instructs both acceptance and promotion for a `Proposed` candidate in the
-current turn, first record that instruction as acceptance in the candidate's
+`RESULT: blocked`; live changes require acceptance first. If the operator
+explicitly instructs both acceptance and promotion for a `Proposed` candidate in
+the current turn, first record that instruction as acceptance in the candidate's
 decision history, move the candidate to `Accepted`, and then promote only if
 the artifact has a clear target surface, promotion gate, promotion action,
 validation plan, and all other required fields. If the candidate is `Draft`,
@@ -213,7 +213,7 @@ smallest honest workflow:
 - alignment or scout lane: create or update the lane artifact and route any
   follow-up as a story or inbox note.
 - target-project change: create or use an isolated target-project worktree or
-  repo-native story unless Cam explicitly requested in-place edits.
+  repo-native story unless the operator explicitly requested in-place edits.
 
 After promotion, update the candidate to `Promoted` and link the commit, story,
 diff, or validation evidence that proves live behavior changed.

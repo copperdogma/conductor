@@ -55,8 +55,23 @@ Write `## Plan` in the story with:
 - any current upstream docs/provider evidence needed before touching
   drift-prone components, and which repo-local eval/check proves the change is
   safe
+- an autonomy note using `Go after approval`, `Needs human judgment`, or
+  `Blocked`, with one concrete reason and any later pause point:
+  - `Go after approval`: the plan is bounded, belongs in Conductor, has clear
+    Ideal/spec fit, has safe checkout/worktree handling, and has an honest
+    verification path
+  - `Needs human judgment`: implementation depends on product direction, taste,
+    cross-project policy, prioritization, or another human preference call
+  - `Blocked`: implementation lacks required proof, credentials, current
+    upstream facts, checkout/worktree safety, target-repo approval, or
+    verification
 
 Pause for user approval before implementation.
+
+The autonomy note does not remove the plan gate. It clarifies what approval
+means after the gate: proceed within the named boundary, pause if the work
+crosses into a human judgment call, and stop if the verification or workspace
+safety assumptions fail.
 
 ## Optional Delegation After the Plan Gate
 
@@ -93,11 +108,11 @@ context. Keep routine small stories single-threaded.
    user correction that changes the workflow rule, or exposed a missing
    build-story guardrail. Skip it silently for ordinary clean builds. If the
    detector returns `candidate-warranted`, report or draft the candidate only;
-   do not promote any candidate as part of build closeout unless Cam separately
-   approves that promotion after reviewing the candidate evidence.
+   do not promote any candidate as part of build closeout unless the operator
+   separately approves that promotion after reviewing the candidate evidence.
 6. Leave the story `In Progress` with `Build complete` checked, give a short
-   plain-language note about what improved for Cam or the target projects, and
-   recommend `/validate` as a yes-ready next step.
+   plain-language note about what improved for the operator or target projects,
+   and recommend `/validate` as a yes-ready next step.
 
 ## Guardrails
 

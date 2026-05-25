@@ -61,8 +61,8 @@ When an approved alignment pass needs target-project edits:
 - inspect each target repo's current branch and `git status --short --branch`
   before deciding where to work
 - create a dedicated worktree per target repo under
-  `/Users/cam/.codex/worktrees/<task>/<project-key>` unless Cam explicitly asks
-  to work in place
+  `$HOME/.codex/worktrees/<task>/<project-key>` unless the operator explicitly
+  asks to work in place
 - create a task branch with the `codex/` prefix from `origin/main` unless the
   user names a different base branch
 - keep one branch/worktree per target repo for cross-repo rollouts
@@ -91,4 +91,4 @@ which existing changes are in scope.
 - Do not treat local product-specific adaptation as accidental drift by default.
 - When methodology intent truly conflicts, surface it clearly and ask whether it should converge.
 - Do not step on tracked project workspaces. Use isolated task worktrees for
-  target-repo edits unless Cam explicitly requests in-place work.
+  target-repo edits unless the operator explicitly requests in-place work.

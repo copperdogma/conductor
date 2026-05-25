@@ -141,9 +141,10 @@ missing context instead of guessing.
 7. Commit and push safely:
    - stage only the intended files
    - always stage modified inbox files (`inbox.md` or `docs/inbox.md`) with the
-     rest of the validated work, whether the edit came from Cam during the run,
-     from the current task's cleanup, or from a primary-checkout inbox merge;
-     only exclude inbox changes when Cam explicitly says to leave them out
+     rest of the validated work, whether the edit came from the operator during
+     the run, from the current task's cleanup, or from a primary-checkout inbox
+     merge; only exclude inbox changes when the operator explicitly says to
+     leave them out
    - draft a commit message that matches the completed work
    - if the current branch is not `main`, commit there, push the branch, sync it
      with `origin/main` if needed, validate again if integration changed files,
@@ -175,8 +176,8 @@ missing context instead of guessing.
   the user explicitly says those inbox changes should stay out of the landing
   set.
 - Never leave modified inbox files unstaged merely because they predated the
-  current task; Cam uses inbox files as live capture and wants additions and
-  removals checked in.
+  current task; operators may use inbox files as live capture and expect
+  additions and removals to be checked in.
 - Never leave a completed inbox item in place after its durable story,
   alignment, scout, spec, ADR, commit, or explicit answer has landed.
 - Never push `main` before fresh validation on the exact tip being landed.

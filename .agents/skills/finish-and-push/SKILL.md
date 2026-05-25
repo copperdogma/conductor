@@ -115,8 +115,8 @@ appears.
    draft can be validated and included in the intended landing set. Do not
    create a post-landing dirty diff just to draft a learning candidate; report
    the candidate-warranted result and recommend a separate drafting pass
-   instead. Do not promote as part of the landing unless Cam separately approves
-   that promotion after reviewing the candidate evidence.
+   instead. Do not promote as part of the landing unless the operator
+   separately approves that promotion after reviewing the candidate evidence.
 
 9. Report the outcome:
    - if successful: summarize story closure, commit/landing path, validation

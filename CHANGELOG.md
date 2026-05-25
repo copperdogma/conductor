@@ -1,5 +1,20 @@
 # Changelog
 
+## [2026-05-25-01] - Add autonomy boundary methodology wording
+
+### Added
+- Added Scout 040 and Story 021 for adapting Peter Steinberger's Codex
+  autotriage boundary into Conductor's Ideal-first workflow.
+
+### Changed
+- Updated `/triage` to classify the recommended action as `Go after yes`,
+  `Needs human judgment`, or `Blocked` based on Ideal/spec fit, current
+  evidence, bounded scope, checkout safety, and verification.
+- Updated `/build-story` so plans include a matching autonomy note while
+  preserving the existing plan approval gate.
+- Genericized touched skill wording so reusable skills refer to the operator or
+  human judgment instead of personal-name wording.
+
 ## [2026-05-20-04] - Add harness navigation context-debt review
 
 ### Added

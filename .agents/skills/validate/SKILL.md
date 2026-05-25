@@ -105,15 +105,15 @@ Validate Conductor work with fresh current-pass evidence.
    If none of those triggers exist, skip this step silently. A clean validation
    does not need a learning artifact. If the detector returns
    `candidate-warranted`, report or draft the candidate only; do not promote
-   any candidate as part of validation unless Cam separately approves that
-   promotion after reviewing the candidate evidence.
+   any candidate as part of validation unless the operator separately approves
+   that promotion after reviewing the candidate evidence.
 6. Produce a report with:
    - findings first: concrete bugs, regressions, missing tests, or "no material
      findings found" with residual risks
    - Met / Partial / Unmet
    - concrete remaining gaps
-   - a short plain-language impact note: what improved for Cam or the target
-     projects, or what practical risk got smaller
+   - a short plain-language impact note: what improved for the operator or the
+     target projects, or what practical risk got smaller
    - one clear closure recommendation
    - one recommended next step phrased so a bare `yes` can approve it
 

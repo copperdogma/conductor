@@ -205,7 +205,24 @@ sequentially and state that fallback in the response.
    - when leverage is otherwise comparable, prefer the action that creates the
      clearest reusable memory with the least extra structure
 
-6. **Return one compact report**
+6. **Classify the autonomy boundary**
+   Add one boundary for the recommended action:
+   - `Go after yes`: Ideal/spec fit is clear, current evidence is sufficient,
+     the action is bounded to named artifacts or files, checkout/worktree
+     safety and ownership are clear, and an honest verification or stop
+     condition exists. A bare `yes` authorizes executing that named action, not
+     committing, pushing, merging, or rolling out target-repo changes unless
+     the recommended action explicitly says so.
+   - `Needs human judgment`: the next move depends on product direction, taste,
+     cross-project policy, prioritization, a conflict between valid options, or
+     another human preference call.
+   - `Blocked`: the work lacks a needed repro, credential, current upstream
+     fact, checkout/worktree safety, target-repo approval, or honest
+     verification path.
+   State the boundary with a one-sentence reason and, for `Needs human judgment`
+   or `Blocked`, the exact decision or evidence that would change it.
+
+7. **Return one compact report**
    - End with a direct yes-ready handoff sentence
    - A bare `yes` should be enough to authorize the one recommended action on
      the next turn
@@ -242,6 +259,9 @@ sequentially and state that fallback in the response.
 
 ### Health Flags
 - ...
+
+### Autonomy Boundary
+- {Go after yes | Needs human judgment | Blocked}: ...
 
 ### Decision
 - Reply `yes` to proceed with: ...

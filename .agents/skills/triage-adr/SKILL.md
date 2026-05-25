@@ -1,6 +1,6 @@
 ---
 name: triage-adr
-description: Inspect an existing ADR, identify what remains undecided, separate Cam-owned preference calls from technical recommendations, and recommend the next route.
+description: Inspect an existing ADR, identify what remains undecided, separate human-owned preference calls from technical recommendations, and recommend the next route.
 user-invocable: true
 ---
 
@@ -15,11 +15,11 @@ asks for that follow-up.
 
 ## Use When
 
-- Cam asks where an ADR stands or what is left.
+- The operator asks where an ADR stands or what is left.
 - An ADR conversation has become rambling or hard to summarize.
 - The ADR appears close to decided, but integration or alignment work is
   unclear.
-- A technical option still needs a recommendation before Cam weighs in.
+- A technical option still needs a recommendation before the operator weighs in.
 - An ADR may be stale, superseded, blocked, or ready for `/align-projects`.
 
 Skip this for brand-new decisions that need `/create-adr`, ordinary story
@@ -44,9 +44,9 @@ If the ADR cannot be identified, ask one concise question for the exact ADR.
 Classify every meaningful remaining item:
 
 - **Settled**: the ADR already records the decision and rationale.
-- **Cam preference / product direction**: the choice has taste, workflow,
+- **Human preference / product direction**: the choice has taste, workflow,
   priority, user-experience, downstream ownership, or risk-tolerance
-  consequences that Cam should decide.
+  consequences that the operator should decide.
 - **Technical recommendation**: the choice is mainly implementation detail,
   file format, validation route, sequencing, or tool/contract shape. Think it
   through and recommend a path instead of handing back a vague question.
@@ -64,9 +64,9 @@ use it when the blocker is missing evidence.
 Pick one:
 
 - **Early**: context exists, but options or evidence are still too thin.
-- **Discussing**: real options exist and Cam-facing choices remain.
+- **Discussing**: real options exist and operator-facing choices remain.
 - **Researching**: evidence is the main blocker.
-- **Decision-ready**: open choices are clear enough for Cam or an agent
+- **Decision-ready**: open choices are clear enough for the operator or an agent
   recommendation.
 - **Decision-complete / needs alignment**: decisions are effectively settled;
   route to `/align-projects` for cross-project/supervisor implications or the
@@ -78,7 +78,7 @@ Pick one:
 
 Recommend exactly one primary next route:
 
-- **Continue discussion** when a Cam preference/product-direction decision is
+- **Continue discussion** when a human preference/product-direction decision is
   genuinely open.
 - **Make technical recommendation** when the remaining choice is technical and
   enough evidence exists.
@@ -102,8 +102,8 @@ Recommend exactly one primary next route:
 ### Settled Decisions
 - {decision and where it is recorded}
 
-### Cam Decisions
-- {question, why Cam owns it, downstream consequence}
+### Human Decisions
+- {question, why the operator owns it, downstream consequence}
 
 ### Technical Recommendations
 - {decision, recommendation, rationale, proof needed}
@@ -125,9 +125,9 @@ Keep the report compact. If there are no items in a section, write `None`.
 - Read the actual ADR; do not summarize from memory.
 - Do not reopen settled decisions unless the ADR contradicts current repo
   evidence.
-- Do not ask Cam to decide low-level technical details when the agent can make
-  and defend a recommendation.
+- Do not ask the operator to decide low-level technical details when the agent
+  can make and defend a recommendation.
 - Do not bury a real product/taste/ownership call inside an agent
   recommendation.
-- Do not create stories, ADRs, or alignment entries during triage unless Cam
-  explicitly asks for that follow-up.
+- Do not create stories, ADRs, or alignment entries during triage unless the
+  operator explicitly asks for that follow-up.

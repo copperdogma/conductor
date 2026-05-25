@@ -266,7 +266,7 @@ without spending many rounds proving absent evidence. Do this:
      ADR options, story boundaries, and build-plan alternatives where option
      quality is the blocker, with final judgment left to the caller
    - `/triage-adr` as an optional helper for existing ADRs whose remaining
-     Cam decisions, technical recommendations, evidence gaps, or alignment
+     human decisions, technical recommendations, evidence gaps, or alignment
      route are unclear
    - `/build-story` with delegation only after the plan gate, only for bounded
      non-blocking work with disjoint ownership

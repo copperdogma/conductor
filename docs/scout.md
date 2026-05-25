@@ -174,3 +174,8 @@ Use this index to track external sources investigated for cross-project value.
   context-debt and navigation review: keep root instructions lean, make
   path-specific commands discoverable, exclude generated noise, and review
   stale model-compensation rules after major tool or model upgrades.
+- `2026-05-23` — [Scout 040 — Evaluate Peter Steinberger GitHub Autotriage for Autonomous Work Boundaries](./scout/scout-040-peter-steinberger-github-autotriage.md) — `Adapt`
+  Peter Steinberger's Codex autotriage skill strongly validates the local
+  Ideal/spec/triage/work loop. The useful adoption is an explicit autonomous
+  promotion boundary: project fit plus high-confidence code evidence, bounded
+  scope, checkout safety, and live or repo-native verification.

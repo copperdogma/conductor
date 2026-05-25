@@ -23,7 +23,7 @@ packet. `/create-adr` still owns the decision, ADR text, and follow-up route.
 Use `/triage-adr` on an existing ADR when the conversation has become unclear,
 when it is not obvious what decisions remain, or when the ADR appears mature
 but the next route is uncertain. `/triage-adr` inventories remaining
-Cam-owned decisions, technical recommendations, evidence gaps, and alignment
+human-owned decisions, technical recommendations, evidence gaps, and alignment
 work before `/create-adr` creates more decision surface or `/align-projects`
 propagates the result.
 

@@ -38,14 +38,14 @@ Use this for ordinary broad review/fix work.
   disjoint and the surface is not tightly coupled.
 - If the first round finds material issues, classify them and run only the
   narrowest confirmation that fits the budget. If another full round is needed,
-  stop with `final state: continuation-needed` and ask Cam to approve the
+  stop with `final state: continuation-needed` and ask the operator to approve the
   continuation.
 - Minor-only fixes do not trigger another full round after targeted checks pass.
 
 ### Docs/ADR Alignment Mode
 
 Use this for ADR, spec, story, methodology, runbook, and prose alignment work
-unless Cam explicitly asks for a strict clean-round proof.
+unless the operator explicitly asks for a strict clean-round proof.
 
 - Default workers to find-only. The main agent applies any fixes so cross-file
   meaning stays coordinated.
@@ -61,10 +61,10 @@ unless Cam explicitly asks for a strict clean-round proof.
 
 ### Strict-Until-Clean Mode
 
-Use this only when Cam explicitly asks for a full clean round or when the task is
-objectively contract-critical and bounded: executable behavior, tests, scripts,
-generated outputs, schemas, API/output contracts, eval correctness, security, or
-similarly high-risk validation surfaces.
+Use this only when the operator explicitly asks for a full clean round or when
+the task is objectively contract-critical and bounded: executable behavior,
+tests, scripts, generated outputs, schemas, API/output contracts, eval
+correctness, security, or similarly high-risk validation surfaces.
 
 - Start with a discovery phase before fixing when the risk is cross-cutting:
   portability, privacy, cache identity, manifests, source/user-controlled
@@ -260,7 +260,7 @@ When a worker finds an upstream-owned or expansion issue:
 - otherwise continue only the local loop, keep a concise upstream/expansion
   issue list, and finish when the current scope has no further material local
   issues
-- if the surface is a repo Cam controls, name the repo/path and the smallest
+- if the surface is a repo the operator controls, name the repo/path and the smallest
   suggested follow-up route; do not claim it is fixed until that repo receives
   its own scoped work
 
@@ -517,4 +517,4 @@ stories or ADRs outside the named files.
   repeated same-class issue, explicit user correction, missing guardrail,
   high-risk miss, or reusable verification pattern.
 - Do not promote candidates as part of ordinary loop closeout. Promotion
-  requires separate Cam approval after the candidate evidence has been reviewed.
+  requires separate operator approval after the candidate evidence has been reviewed.
