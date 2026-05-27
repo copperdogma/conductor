@@ -775,11 +775,40 @@
       ],
       "status": "Done",
       "title": "Roll Out Skill Authoring Budget Guidance"
+    },
+    {
+      "category_refs": [
+        "registry-routing",
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [],
+      "depends_on": [],
+      "file": "docs/stories/story-024-interview-first-new-project-kickoff.md",
+      "id": 24,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:1.2",
+        "spec:2.2",
+        "spec:4.1",
+        "spec:4.2",
+        "spec:5.3"
+      ],
+      "status": "Done",
+      "title": "Interview-First New Project Kickoff"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 23,
+    "Done": 24,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

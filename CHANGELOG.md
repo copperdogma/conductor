@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-05-27-01] - Add interview-first project kickoff
+
+### Added
+- Added Story 024 and `/init-project` as the interview-first greenfield
+  kickoff surface for new project seeds such as `docs/initial-concept.md`.
+- Added `docs/runbooks/new-project-kickoff.md` with the standard prompt,
+  project-shape menu, setup surface menu, first-story rule, and guardrails.
+
+### Changed
+- Updated setup-methodology guidance so missing Ideal/spec routes to a kickoff
+  interview and approved plan before scaffolding.
+- Added `/init-project` to Conductor's specialized workflow list.
+- Clarified that a naive blank-repo agent can be pointed at the Conductor
+  `/init-project` skill file directly, and the skill resolves its companion
+  runbook from the Conductor source root.
+
 ## [2026-05-25-02] - Add skill surface budget audit
 
 ### Added

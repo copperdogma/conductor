@@ -81,6 +81,7 @@ Default loop:
 
 Specialized loops:
 
+- `/init-project` for interview-first greenfield kickoff before setup
 - `/align-projects` for cross-project infrastructure drift
 - `/scout` for external sources and adoption analysis
 - `/ideation` for optional divergent option generation before Ideal/spec,

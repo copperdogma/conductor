@@ -16,12 +16,18 @@ Use `/setup-methodology` when the project structure or public surfaces drift.
 
 ## Greenfield checklist
 
-1. Create the ideal and spec
-2. Create the state file and project registry
-3. Install inbox, scout, and alignment logs
-4. Install story surfaces and compile the graph
-5. Install AGENTS and the local skill surface
-6. Run:
+1. Run `/init-project` against the preserved seed, usually
+   `docs/initial-concept.md`.
+2. Discuss the kickoff brief with the user and get approval for a named setup
+   plan.
+3. Create real, project-specific `docs/ideal.md` and `docs/spec.md`; review
+   them against the seed for coverage, contradictions, and late Ideal material.
+4. Create the state file and project registry when the chosen package warrants
+   them.
+5. Install inbox, scout, and alignment logs when they fit the project shape.
+6. Install story surfaces and compile the graph.
+7. Install AGENTS and the local skill surface.
+8. Run:
    - `make methodology-compile`
    - `make methodology-check`
    - `make skills-sync`
@@ -37,8 +43,8 @@ the exact skill file into the other product repos and refresh canonical
 
 The product setup skill must be sparse-safe for repos with no code yet:
 
-- require real `docs/ideal.md` and `docs/spec.md` from `/init-project` or
-  equivalent intake before setup fabricates package surfaces
+- require real `docs/ideal.md` and `docs/spec.md` from an interview-first
+  `/init-project` or equivalent intake before setup creates package surfaces
 - install upgraded `/triage`, packet-mode triage leaves, `/triage-health`, and
   `/loop-verify`
 - install `/triage-adr` as the lightweight helper for existing ADRs whose

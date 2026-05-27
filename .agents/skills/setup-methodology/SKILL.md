@@ -16,11 +16,14 @@ user-invocable: true
 Use this skill as the **canonical full-package setup entrypoint** for the
 methodology package. It assumes project-specific `docs/ideal.md` and
 `docs/spec.md` already exist from `/init-project` or equivalent source-backed
-intake. It replaces the old phased setup surface with one integrated package
+intake. `/init-project` is interview-first: it should discuss project shape,
+setup options, and first proof stories with the user before creating files.
+This skill replaces the old phased setup surface with one integrated package
 installer/normalizer.
 
 `/setup-methodology` does not discover a blank project's idea. For a greenfield
-folder with no real Ideal/spec, stop and route to `/init-project new-idea`.
+folder with no real Ideal/spec, stop and route to `/init-project new-idea`;
+do not treat that route as approval to scaffold without the kickoff interview.
 
 ## What This Skill Owns
 
@@ -125,7 +128,7 @@ silently forking the setup contract.
    They may be v0, but they must be real authored artifacts. If either is
    missing, generic, only a placeholder, or not yet reviewed for cohesion
    against raw intake, stop and route to `/init-project`; do not fabricate them
-   from the setup template.
+   from the setup template or skip the user-facing kickoff discussion.
 2. **Create or refresh the checklist first after preflight.** Copy the bundled
    template to `docs/setup-checklist.md` if the template exists and the working
    checklist is missing or still an older one-off format. If the repo has no
