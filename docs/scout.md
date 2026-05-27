@@ -185,3 +185,10 @@ Use this index to track external sources investigated for cross-project value.
   duplicate plugin-cache copies, repeated repo-local skills, and long
   descriptions, but it should be wrapped around `projects.yaml` and real loaded
   roots rather than imported unchanged or used for automatic deletion.
+- `2026-05-27` — [Scout 042 — Evaluate OpenClaw Autoreview for Structured Review Closeout](./scout/scout-042-openclaw-autoreview-structured-review-helper.md) — `Spike`
+  OpenClaw's `autoreview` is a credible structured helper for local, branch,
+  and commit code-review closeout, with schema validation, optional datasets,
+  review panels, heartbeat behavior, and fixture calibration. Conductor's
+  fixture spike passed, but `/validate` helper adoption should wait for one
+  approved real code-diff trial because current guidance already covers
+  instruction-level `codex review`.

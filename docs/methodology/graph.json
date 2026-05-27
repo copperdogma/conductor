@@ -804,11 +804,40 @@
       ],
       "status": "Done",
       "title": "Interview-First New Project Kickoff"
+    },
+    {
+      "category_refs": [
+        "scouting",
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001",
+        "ADR-002"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-025-structured-autoreview-helper-spike.md",
+      "id": 25,
+      "ideal_refs": [
+        "I1",
+        "I3",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:2.2",
+        "spec:3.2",
+        "spec:4.2",
+        "spec:5.2"
+      ],
+      "status": "Done",
+      "title": "Structured Autoreview Helper Spike"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 24,
+    "Done": 25,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0
