@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026-05-28-01] - Add RPG Map Projector local port allocation
+
+### Changed
+- Added `rpg-map-projector` to the Conductor local dev port allocation with
+  primary UI port `5178`, worktree UI range `5900-5999`, and future service
+  range `3900-3999`.
+
 ## [2026-05-27-01] - Add interview-first project kickoff
 
 ### Added

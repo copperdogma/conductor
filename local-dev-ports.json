@@ -119,6 +119,20 @@
         "ui": { "kind": "ui", "offset": 0 },
         "api": { "kind": "service", "offset": 0 }
       }
+    },
+    "rpg-map-projector": {
+      "name": "RPG Map Projector",
+      "primaryCheckout": "/Users/cam/Documents/Projects/rpg-map-projector",
+      "primaryPorts": {
+        "ui": 5178
+      },
+      "ranges": {
+        "ui": { "start": 5900, "end": 5999 },
+        "service": { "start": 3900, "end": 3999 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0, "primaryPort": 5178 }
+      }
     }
   }
 }
