@@ -192,3 +192,8 @@ Use this index to track external sources investigated for cross-project value.
   fixture spike passed, but `/validate` helper adoption should wait for one
   approved real code-diff trial because current guidance already covers
   instruction-level `codex review`.
+- `2026-05-28` — [Scout 043 — Evaluate Claude Opus 4.8 API Eval Opportunities](./scout/scout-043-claude-opus-48-api-eval-opportunities.md) — `Spike`
+  Claude Opus 4.8 is a real Anthropic frontier eval trigger for Dossier,
+  doc-web, CineForge, Storybook, Board Game Ingester, RoboRally, and Echo Forge,
+  but promotion belongs inside repo-local eval ladders rather than a blanket
+  model switch.
