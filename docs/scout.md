@@ -197,3 +197,7 @@ Use this index to track external sources investigated for cross-project value.
   doc-web, CineForge, Storybook, Board Game Ingester, RoboRally, and Echo Forge,
   but promotion belongs inside repo-local eval ladders rather than a blanket
   model switch.
+- `2026-06-09` — [Scout 044 — Evaluate Claude Fable 5 API Eval Opportunities](./scout/scout-044-claude-fable-5-api-eval-opportunities.md) — `Spike`
+  Claude Fable 5 is a real but very expensive ceiling-model trigger. Dossier is
+  the strongest first fit, doc-web is second on tiny hard-document/OCR slices,
+  and Storybook should not evaluate it as a Luna chat default.
