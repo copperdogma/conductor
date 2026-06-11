@@ -833,13 +833,42 @@
       ],
       "status": "Done",
       "title": "Structured Autoreview Helper Spike"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "Alignment 041"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-026-cost-aware-delegation-rollout.md",
+      "id": 26,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1",
+        "spec:5.3"
+      ],
+      "status": "In Progress",
+      "title": "Cost-Aware Delegation Rollout"
     }
   ],
   "story_counts": {
     "Blocked": 0,
     "Done": 25,
     "Draft": 0,
-    "In Progress": 0,
+    "In Progress": 1,
     "Pending": 0
   },
   "tracked_projects": [

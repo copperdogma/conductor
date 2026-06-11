@@ -68,6 +68,9 @@ appears.
      current artifact quality
    - if the work was small or local, validate against the explicit user intent
      plus the realized diff and current artifact quality
+   - for broad multi-repo closeouts, mechanical evidence collection may use
+     cost-aware sidecars under the repo-level delegation rule, but the main
+     thread keeps the closeout, landing, deploy, and rollback judgment
    - if this validation fails or remains ambiguous, stop before any close-out or
      landing step
 
@@ -94,6 +97,9 @@ appears.
 6. Run `/check-in` in full landing mode:
    - reuse that skill's intent-surface audit, staging discipline,
      sync-with-main, validation, and fast-forward-only landing rules
+   - inherit `/check-in`'s cost-aware sidecar boundary for mechanical preflight
+     evidence only; do not create a second delegation policy in this
+     orchestrator
    - pass through `--cleanup` only if the user explicitly requested it
 
 7. Triage issues from check-in:

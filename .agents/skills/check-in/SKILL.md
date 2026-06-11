@@ -80,6 +80,14 @@ missing context instead of guessing.
      - anything not freshly verified
    - name the validation target in one sentence before deciding the work is
      complete
+   - for large or messy closeouts, a sidecar may gather mechanical preflight
+     evidence such as git/diff inventory, generated-file freshness, inbox
+     consistency, or link/alias checks; choose the lowest model strength and
+     reasoning level that can honestly complete that bounded packet, record the
+     short rationale when downshifting, and do not name or hard-code a specific
+     model
+   - sidecars never decide completion, stage files, commit, push, sync with
+     `main`, or resolve integration risk; the main thread owns those actions
 
 3. Classify issues before landing:
    - treat these as **minor** unless they reveal a larger problem:

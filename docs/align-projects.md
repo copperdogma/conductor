@@ -152,3 +152,8 @@ Use this index to track internal cross-project alignment work.
   Focused on carrying the skill-budget lesson into target repos'
   `create-cross-cli-skill` and existing `improve-skill` surfaces so new skills
   are shaped token-efficiently before Conductor needs to audit them.
+- `2026-06-10` — [Alignment 041 — Cost-Aware Delegation Defaults](./alignments/align-041-cost-aware-delegation-defaults.md)
+  Focused on setting a model-name-free delegation policy in Conductor root
+  guidance, then adding narrow opt-in hooks to the skills where mechanical
+  sidecars can reduce model spend without taking over judgment or landing
+  authority.

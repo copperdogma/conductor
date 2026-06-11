@@ -98,6 +98,27 @@ Specialized loops:
   `yes` to proceed with: ... when there is one clear next move. If there is no
   honest next step, say so explicitly.
 
+## Cost-Aware Delegation
+
+When a task explicitly authorizes subagents, delegation, parallel packets, or a
+skill-local sidecar, choose the lowest model strength and reasoning level that
+can honestly handle the delegated shard. Do not name, hard-code, or prefer a
+specific model in repo instructions; the calling model owns that judgment based
+on the current tool surface and task risk.
+
+Use lower-strength sidecars for bounded mechanical work such as command
+execution, git or diff inventory, generated-file freshness checks, link and
+alias checks, log collection, and narrow docs consistency scans. Keep the
+current/coordinator thread responsible for scope, semantic judgment, staging,
+commits, pushes, deploy go/no-go decisions, rollback decisions, security
+judgment, eval correctness, architecture calls, and final user-facing
+synthesis.
+
+Do not delegate tiny tasks where delegation overhead is likely higher than the
+work itself. When downshifting a sidecar, record the short rationale in the
+plan or report. Delegated workers must not spawn more workers, invoke
+`/loop-verify`, or widen their assignment.
+
 ## Guardrails
 
 - Do not assume the newest project change should propagate everywhere.

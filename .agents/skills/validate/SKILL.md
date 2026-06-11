@@ -76,12 +76,17 @@ Validate Conductor work with fresh current-pass evidence.
      confidence, such as findings-first defect review, changed-file review,
      story acceptance review, check/test execution, or holistic
      Ideal/spec/architecture review.
+   - For mechanical packets such as command execution, generated-file checks,
+     link or alias scans, and narrow changed-file inventories, choose the
+     lowest model strength and reasoning level that can honestly complete the
+     packet. Record the short rationale when downshifting.
    - Scope each packet to explicit files, commands, or criteria. Each packet
      must return fresh evidence from the current diff and must not decide the
      final disposition.
    - The main thread keeps Conductor's final synthesis: acceptance status,
      Ideal/spec fit, closure recommendation, impact note, and yes-ready next
      step.
+   - Do not name or hard-code a specific model in validation instructions.
    - Do not use subagents for routine small validations where direct review is
      cheaper and equally trustworthy.
    - If subagents are unavailable, unsafe for the checkout, or explicitly

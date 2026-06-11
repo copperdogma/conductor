@@ -11,7 +11,14 @@ descriptions, or wrong-skill activation may be adding context overhead.
 
 ## Workflow
 
-1. Run the report-only helper:
+1. For large portfolio scans, optional sidecars may gather report-only evidence
+   from disjoint roots such as active skill roots, portfolio skill roots, cache
+   candidates, or recent-log usage evidence. Use the lowest model strength and
+   reasoning level that can honestly inspect the assigned root, record the
+   short rationale when downshifting, and do not name or hard-code a specific
+   model. Sidecars must not edit, delete, disable, or rewrite skills.
+
+2. Run the report-only helper:
 
 ```bash
 python3 scripts/skill_surface_audit.py --mode all
@@ -26,7 +33,7 @@ python3 scripts/skill_surface_audit.py --mode all --output /tmp/skill-surface-au
 python3 scripts/skill_surface_audit.py --mode all --format json
 ```
 
-2. Read findings in this order:
+3. Read findings in this order:
    - budget pressure
    - root summary and root confidence
    - plugin-cache cleanup candidates
@@ -34,7 +41,7 @@ python3 scripts/skill_surface_audit.py --mode all --format json
    - long description candidates
    - low usage evidence candidates
 
-3. Before recommending cleanup, classify each finding:
+4. Before recommending cleanup, classify each finding:
    - `keep`
    - `shorten`
    - `disable`
