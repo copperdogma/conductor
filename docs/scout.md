@@ -197,3 +197,8 @@ Use this index to track external sources investigated for cross-project value.
   doc-web, CineForge, Storybook, Board Game Ingester, RoboRally, and Echo Forge,
   but promotion belongs inside repo-local eval ladders rather than a blanket
   model switch.
+- `2026-06-16` — [Scout 046 — Evaluate GLM-5.2 API Eval Opportunities](./scout/scout-046-glm-52-api-eval-opportunities.md) — `Spike`
+  GLM-5.2 is a real Z.ai 1M-context text model with strong public
+  long-horizon/coding signals, but the honest first eval targets are Dossier
+  and CineForge; doc-web, Storybook, Board Game Ingester, RoboRally, and Echo
+  Forge should wait for tighter repo-local eval pressure.
