@@ -202,3 +202,8 @@ Use this index to track external sources investigated for cross-project value.
   long-horizon/coding signals, but the honest first eval targets are Dossier
   and CineForge; doc-web, Storybook, Board Game Ingester, RoboRally, and Echo
   Forge should wait for tighter repo-local eval pressure.
+- `2026-07-16` — [Scout 047 — Evaluate Kimi K3 API Eval Opportunities](./scout/scout-047-kimi-k3-api-eval-opportunities.md) — `Spike`
+  Kimi K3 is directly callable with 1M context and strict structured output,
+  but it should enter Dossier's transport/value eval first and Canmore's
+  provenance-scored public-corpus lane second; Storybook and Echo Forge remain
+  narrow follow-ons rather than default-model targets.
