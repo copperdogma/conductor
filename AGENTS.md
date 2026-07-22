@@ -84,6 +84,9 @@ Specialized loops:
 - `/init-project` for interview-first greenfield kickoff before setup
 - `/align-projects` for cross-project infrastructure drift
 - `/scout` for external sources and adoption analysis
+- `/evaluate-model` for natural-language model-eval planning, reproducibility
+  requests, evidence audits, and target-repo handoffs; Conductor scouts and
+  routes, while the owning repo runs and judges its benchmark
 - `/ideation` for optional divergent option generation before Ideal/spec,
   story, or ADR decisions when option quality is the blocker
 - `/setup-methodology` for refreshing this project's own methodology package

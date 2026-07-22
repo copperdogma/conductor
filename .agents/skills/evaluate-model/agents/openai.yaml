@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evaluate Model"
+  short_description: "Route fair provider-native model evaluations"
+  default_prompt: "Interpret my natural-language model-evaluation brief, then prepare or audit a fair owning-repository handoff. Keep provider calls, benchmark execution, evidence, and adoption decisions in the owning repo."

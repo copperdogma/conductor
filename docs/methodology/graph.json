@@ -833,11 +833,40 @@
       ],
       "status": "Done",
       "title": "Structured Autoreview Helper Spike"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [
+        "ADR-001"
+      ],
+      "depends_on": [],
+      "file": "docs/stories/story-027-provider-native-model-evaluation.md",
+      "id": 27,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:2.1",
+        "spec:2.2",
+        "spec:4.2",
+        "spec:5.1"
+      ],
+      "status": "Done",
+      "title": "Build and Refine Provider-Native Model Evaluation"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 25,
+    "Done": 26,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

@@ -1,5 +1,23 @@
 # Changelog
 
+## [2026-07-22-01] - Add provider-native model evaluation routing
+
+### Added
+- Added Story 027, Alignment 042, and `/evaluate-model` as Conductor's portable
+  model-evaluation planning, evidence-audit, reproducibility, and owning-repo
+  handoff surface.
+
+### Changed
+- Incorporated doc-web's real Grok 4.5 pilot lessons: natural multi-model
+  briefs, force-fresh semantics, a default aggregate spend ceiling,
+  per-surface qualification, fail-closed prompt-payload and response scoring,
+  exact dirty-run provenance, and explicit `not measured` treatment for
+  skipped surfaces.
+- Recommended selective repo-local adaptation in Storybook and CineForge while
+  deferring Dossier, Board Game Ingester, RoboRally, and Echo Forge for their
+  recorded local reasons. Conductor remains a scout/router; owning repos
+  execute evals and decide adoption.
+
 ## [2026-05-28-01] - Add RPG Map Projector local port allocation
 
 ### Changed

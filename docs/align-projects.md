@@ -152,3 +152,9 @@ Use this index to track internal cross-project alignment work.
   Focused on carrying the skill-budget lesson into target repos'
   `create-cross-cli-skill` and existing `improve-skill` surfaces so new skills
   are shaped token-efficiently before Conductor needs to audit them.
+- `2026-07-21` — [Alignment 042 — Provider-Native Model Evaluation](./alignments/align-042-provider-native-model-evaluation.md)
+  Focused on preventing transport, provider configuration, transient
+  availability, structured-output, and harness failures from being mistaken
+  for model quality. A doc-web-owned real-world pilot validated and hardened
+  the Conductor reference; Storybook and CineForge are the next selective
+  adaptations, while Dossier and lower-pressure repos remain deferred.
