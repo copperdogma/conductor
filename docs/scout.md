@@ -207,3 +207,7 @@ Use this index to track external sources investigated for cross-project value.
   but it should enter Dossier's transport/value eval first and Canmore's
   provenance-scored public-corpus lane second; Storybook and Echo Forge remain
   narrow follow-ons rather than default-model targets.
+- `2026-07-24` — [Scout 051 — Evaluate Claude Opus 5 API Eval Opportunities](./scout/scout-051-claude-opus-5-api-eval-opportunities.md) — `Spike`
+  Claude Opus 5 is callable on Anthropic and OpenRouter today. Evaluate it in
+  Dossier first and doc-web second, keep CineForge as a bounded follow-on, and
+  defer Storybook until a maintained product or architecture decision reopens.
