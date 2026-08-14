@@ -862,11 +862,41 @@
       ],
       "status": "Done",
       "title": "Build and Refine Provider-Native Model Evaluation"
+    },
+    {
+      "category_refs": [
+        "alignment",
+        "scouting",
+        "story-prep",
+        "memory"
+      ],
+      "decision_refs": [],
+      "depends_on": [],
+      "file": "docs/stories/story-028-eval-validity-audit-and-repair.md",
+      "id": 28,
+      "ideal_refs": [
+        "I1",
+        "I2",
+        "I3",
+        "I4",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:2.1",
+        "spec:2.2",
+        "spec:3.2",
+        "spec:4.1",
+        "spec:4.2",
+        "spec:5.1"
+      ],
+      "status": "Done",
+      "title": "Eval Validity Audit and Repair"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 26,
+    "Done": 27,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

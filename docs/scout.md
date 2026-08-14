@@ -211,3 +211,19 @@ Use this index to track external sources investigated for cross-project value.
   Claude Opus 5 is callable on Anthropic and OpenRouter today. Evaluate it in
   Dossier first and doc-web second, keep CineForge as a bounded follow-on, and
   defer Storybook until a maintained product or architecture decision reopens.
+- `2026-05-27` — [Scout 052 — Evaluate SkillOpt for Validation-Gated Skill Optimization](./scout/scout-052-skillopt-validation-gated-skill-optimization.md) — `Adapt`
+  SkillOpt is a strong design reference for eval-backed skill improvement:
+  train one compact skill through scored rollouts, bounded text edits,
+  rejected-edit memory, and held-out selection gates. Do not install it
+  portfolio-wide or add automatic skill mutation. The first concrete spike is
+  now Dossier Story 156, which completed as `reject/no-promotion`; doc-web and
+  Board Game Ingester remain later candidates once a specific scored prompt or
+  skill failure class is selected.
+- `2026-08-12` — [Scout 053 — Evaluate Grok 4.6 API Eval Opportunities](./scout/scout-053-grok-46-api-eval-opportunities.md) — `Spike`
+  Grok 4.6 is directly callable through xAI now. Route the first bounded evals
+  to Dossier, CineForge, and doc-web, while keeping Storybook and the rest of
+  the portfolio out of this wave unless a concrete maintained failure appears.
+- `2026-08-13` — [Scout 054 — Route Gemini 3.7 Flash and DeepSeek V4 Pro GA Evals](./scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md) — `Spike`
+  Both releases are callable with current workspace credentials. Route Gemini
+  3.7 first to doc-web, CineForge, and Dossier; route DeepSeek V4 Pro first to
+  CineForge, Dossier, and Echo Forge, each through its narrow maintained gate.

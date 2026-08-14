@@ -158,3 +158,13 @@ Use this index to track internal cross-project alignment work.
   for model quality. A doc-web-owned real-world pilot validated and hardened
   the Conductor reference; Storybook and CineForge are the next selective
   adaptations, while Dossier and lower-pressure repos remain deferred.
+- `2026-05-27` — [Alignment 043 — SkillOpt First Spike Routing](./alignments/align-043-skillopt-first-spike-routing.md)
+  Focused on routing Scout 052 into the first concrete target-repo spike:
+  Dossier owned the initial eval-backed extraction prompt experiment and
+  completed it as `reject/no-promotion`, while doc-web and Board Game Ingester
+  remain later candidates until a specific scored prompt or skill failure class
+  is selected.
+- `2026-08-13` — [Alignment 044 — Eval Validity and Incumbent Parity](./alignments/align-044-eval-validity-and-incumbent-parity.md)
+  Focused on repairing hidden scorer preferences, contaminated selection cases,
+  and stale incumbent comparisons across CineForge, doc-web, and Echo Forge
+  while preserving repo-owned safety and value gates.
