@@ -1,9 +1,10 @@
 # Alignment 042 — Provider-Native Model Evaluation
 
 **Date**: 2026-07-21
-**Updated**: 2026-07-22
+**Updated**: 2026-08-19
 **Classification**: Portable improvement with repo-local execution
-**Story**: [Story 027](../stories/story-027-provider-native-model-evaluation.md)
+**Stories**: [Story 027](../stories/story-027-provider-native-model-evaluation.md),
+[Story 031](../stories/story-031-owning-repo-model-evaluation-orchestration.md)
 **Projects Reviewed**: conductor, dossier, storybook, doc-web, cine-forge,
 boardgame-ingester, roborally, echo-forge
 **Reference Build**: conductor
@@ -17,13 +18,40 @@ as a fair benchmark. A candidate must be called through a valid,
 provider-native contract and given a bounded task-appropriate configuration
 before semantic quality is judged.
 
-Conductor owns the portable reference workflow and cross-project routing. It
-does not own model runtimes, eval fixtures, provider credentials, benchmark
-artifacts, or adoption decisions for target repos. Current provider facts remain
-external and drift-prone; each target repo owns its prompts, adapters, scorers,
-thresholds, and final evidence.
+Conductor owns the portable reference workflow, cross-project routing, and—after
+the user selects all or a subset—the orchestration that enters isolated owner
+worktrees and executes the approved repo-local campaigns. It still does not own
+model runtimes, eval fixtures, provider credentials, benchmark artifacts, or
+adoption decisions for target repos. Current provider facts remain external and
+drift-prone; each target repo owns its prompts, adapters, scorers, thresholds,
+and final evidence.
 
-## Current Surface Inventory
+## 2026-08-19 Orchestration Evolution
+
+Story 027 intentionally established a handoff-only Conductor boundary. That was
+the right first safety boundary, but it left Cam coordinating separate agents
+after every portfolio scout. Story 031 keeps the ownership boundary and removes
+the manual relay:
+
+1. `/evaluate-model <model>` verifies current API evidence and inspects every
+   tracked repo.
+2. Only positive `evaluate now` recommendations receive stable numbers. All
+   other repos receive explicit unnumbered `defer` or `do not evaluate` reasons.
+3. The response discloses the exact first lane, gates, privacy restriction,
+   per-repo spend ceiling, and total campaign maximum.
+4. `yes` selects every positive item; `only do 1, 5, and 6` or named repos
+   selects that subset.
+5. Conductor then creates isolated worktrees and performs the selected work
+   under each owning repo's complete instructions and local skill. Provider
+   calls, fixtures, artifacts, tests, and verdicts belong to that repo context.
+6. Conductor synthesizes the owner-returned evidence. It does not invent a
+   central benchmark, duplicate private artifacts, land defaults, or acquire
+   commit/push authority from the selection.
+
+This is recommendation-first orchestration, not autonomous portfolio sweeping.
+An unselected or unnumbered repo remains untouched.
+
+## 2026-07 Surface Inventory (Historical Baseline)
 
 | Project | `discover-models` | `improve-eval` | Dedicated new-model workflow | Classification |
 | --- | --- | --- | --- | --- |
@@ -34,7 +62,7 @@ thresholds, and final evidence.
 | Board Game Ingester | yes | yes | no | Later only if a maintained model lane exists. |
 | RoboRally | no | yes | no | Defer; no decision-bearing model-discovery lane established. |
 | Echo Forge | yes | yes | no | Defer until a maintained model/provider eval needs it. |
-| Conductor | no | no | `evaluate-model` reference | Portable routing reference; never claim target eval proof. |
+| Conductor | no | no | `evaluate-model` reference | Portable routing/orchestration reference; never substitute a Conductor benchmark for owner proof. |
 
 The shared `/improve-eval` meaning is useful after an eval exists: inspect the
 registry, classify prompt/pipeline versus test/golden mismatches, improve the
@@ -46,6 +74,10 @@ Dossier's `refresh-model-evals` adds runtime-first smoke and promotion passes,
 quality/speed/cost ranking, and artifact gates. It still does not require the
 full provider-docs, transport, transient-error, structured-output, and bounded
 settings contract. It is evidence, not a canonical file to copy.
+
+The table records the Story 027 rollout snapshot, not a permanent routing
+matrix. Every model-only invocation must re-inspect `projects.yaml` and current
+repo-local evidence before recommending work.
 
 ## Repeated Failure Class
 
@@ -84,19 +116,21 @@ positional arguments. Multiple candidates should share the same maintained
 incumbent per surface and advance through progressive screening, not a pairwise
 tournament.
 
-Declare one operating mode. `Conductor handoff` may research first-party docs
-and existing public or authorized access evidence, but it does not run provider
-probes, use target credentials or fixtures, execute another repo's harness, or
-issue the adoption verdict. A Conductor `audit` is read-only; execution verbs
-produce an execution-ready owner handoff. `Owning-repo execution` performs the
-qualification and benchmark under the repo's authority and policies.
+Declare one stage. `Portfolio recommendation` researches first-party docs and
+current portfolio evidence, produces stable numbered positive recommendations,
+and does not run a paid benchmark or mutate a target repo. `Selected
+owning-repo campaign` begins only after explicit all-or-subset selection, then
+creates isolated worktrees and performs qualification and benchmarking under
+each repo's authority and policies. A read-only `audit` still performs no
+provider call, harness execution, artifact creation, or repo mutation.
 
 A request to rerun from scratch, reproduce, check variance, or exercise the
 workflow fresh is force-fresh intent. It bypasses duplicate avoidance only and
-does not relax privacy, spend, fairness, retry, truth, or rollout controls. A
-fresh adoption comparison reruns incumbent and candidate on frozen inputs;
-candidate-only transport or variance reproduction cannot support a current
-superiority claim.
+requires a new run/artifact identity plus uncached subject calls, even for an
+unchanged model/configuration. It does not relax privacy, spend, fairness,
+retry, truth, or rollout controls. A fresh adoption comparison reruns incumbent
+and candidate on frozen inputs; candidate-only transport or variance
+reproduction cannot support a current superiority claim.
 
 ### 2. Refresh external truth
 
@@ -174,11 +208,14 @@ Every result must state:
 - reliability: acceptable, degraded, failed, or not measured
 - capability: better, equivalent, worse, or not measured
 - adoption in the owning repo: adopt, conditional adopt, do not adopt, or defer
-- adoption in Conductor: not evaluated — target-repo handoff required
+- portfolio-recommendation stage: not evaluated — user selection and owner-run
+  evidence required
+- campaign synthesis: quote the owning repo's verdict; do not relabel it as a
+  Conductor adoption decision
 
-Conductor reports access as `unverified` unless dated owner-run callability
-evidence establishes another state. Conductor's lack of execution authority is
-not evidence that the model itself is inaccessible.
+The recommendation stage reports access as `unverified` unless dated owner-run
+callability evidence establishes another state. Missing proof before selection
+is not evidence that the model itself is inaccessible.
 
 No adoption recommendation may hide an unqualified transport or untested
 required runtime contract.
@@ -195,7 +232,7 @@ Conductor can make the portable contract concise, internally coherent, and
 resistant to known reasoning failures. Independent workers can test whether it
 classifies raw incidents correctly and preserves ownership and verdict layers.
 
-Conductor cannot establish:
+The Conductor checkout by itself cannot establish:
 
 - that a real provider's current docs were interpreted correctly
 - that a provider adapter sends the right wire format
@@ -205,8 +242,10 @@ Conductor cannot establish:
 - that quality, latency, cost, and variance beat a target repo's incumbent
 
 Those claims require an owning repo's real harness, credentials, artifacts, and
-acceptance gates. Synthetic success is readiness for a pilot, not adoption
-proof.
+acceptance gates. After explicit selection, Conductor may establish them by
+switching into that isolated owner context and following its local workflow.
+Synthetic success in the Conductor checkout alone is still readiness evidence,
+not adoption proof.
 
 ## Synthetic Validation Plan
 
@@ -278,7 +317,7 @@ The skill verdict is **keep and refine**, not reject. The portable refinements
 are now incorporated in Conductor's reference without copying doc-web-specific
 PromptFoo commands, adapter schemas, fixture counts, or thresholds.
 
-## Selective Rollout Decision
+## 2026-07 Selective Skill Rollout Decision (Historical)
 
 Adapt the refined skill into **Storybook and CineForge now**. Both have
 maintained model-evaluation lanes, model/provider churn, and enough distinct
@@ -298,18 +337,19 @@ Defer the remaining repos:
 Doc-web retains its accepted repo-local pilot copy. Conductor remains the
 portable routing reference, not a canonical harness implementation.
 
-## Stop Conditions
+## Current Stop Conditions
 
-- Do not touch Dossier.
-- Do not edit target repos or run their evals from this Conductor worktree.
-- Do not treat synthetic reasoning tests as live transport or benchmark proof.
-- Do not change target runtime defaults, prompts, scorers, goldens, or eval
-  records.
-- Do not run paid live benchmarks from Conductor.
+- Do not edit or evaluate an unselected repo.
+- Do not run a target benchmark against copied fixtures or an improvised harness
+  in the Conductor checkout; switch into an isolated owning-repo worktree.
+- Do not treat official catalog visibility, synthetic reasoning tests, or skill
+  installation as live transport or benchmark proof.
 - Do not copy target credentials or private payloads into Conductor artifacts.
-- Do not call selective skill installation an eval or adoption result; each
-  target repo must execute and decide under its own authority.
-- Do not commit, push, or land without explicit closeout approval.
+- Do not send private fixtures unless the owning repo's current provider policy
+  explicitly permits them.
+- Do not exceed the disclosed per-repo or campaign spend ceiling.
+- Do not change target defaults, deploy, commit, push, merge, or land without
+  separate explicit authorization.
 
 ## Practical Impact
 
@@ -340,7 +380,7 @@ are retained so independence, no-answer leakage, and behavior can be audited.
 | Capacity-coded `503` at supported concurrency with provider status incident | Preserved first-attempt reliability failure and retry cost, separated conditional `4/4` semantic evidence, rejected the semantic-loss verdict, and required one bounded `Retry-After` replay. | pass |
 | Wrong API family, unsupported reasoning parameter, prompt-only JSON, and output exhaustion | Classified every attempt as transport/configuration failure, removed them from semantic scoring, and required native strict-schema then harness-parity probes. | pass |
 | Fully qualified transport with three source-confirmed semantic misses plus proposed settings sweep | Issued `do not adopt`, rejected same-fixture settings fishing, and required a separately approved calibration/frozen/held-out experiment to reopen. | pass |
-| Conductor offered a doc-web API key and private fixtures | Refused credentials, fixtures, provider calls, target-checkout edits, and adoption judgment; final replay returned `access: unverified` and `adoption: not evaluated — target-repo handoff required`. | pass |
+| Conductor offered a doc-web API key and private fixtures | Under the Story 027 handoff-only contract, refused credentials, fixtures, provider calls, target-checkout edits, and adoption judgment; final replay returned `access: unverified` and `adoption: not evaluated — target-repo handoff required`. | pass |
 | Correct subject outputs hidden by judge `401`, zero-filling collector, and retired cleanup field | Attributed failures by stage, preserved safe frozen artifacts, and recommended judge/scorer plus cleanup repair rather than new paid subject calls. | pass |
 | Router fallback plus model-agnostic stale cache | Refused to credit the requested model, required fail-closed served-model proof and cache bypass/key repair, and treated capability/reliability/economics as unmeasured. | pass |
 
@@ -352,7 +392,8 @@ concrete hardenings:
 - control concurrency before treating overload as provider reliability
 - attribute failures across subject, router, adapter, parser, cleanup, scorer,
   and judge stages
-- split explicit Conductor-handoff and owning-repo-execution modes
+- split explicit recommendation and owning-repo-execution stages; Story 031
+  later allowed the same agent to cross that boundary only after user selection
 - use `not evaluated` rather than an adoption verdict in Conductor
 - freeze one configuration before promotion and reject post-score budget
   expansion or uncorrected same-fixture best-of-many selection
@@ -376,8 +417,9 @@ qualification.
 - It recognizes a real source-backed semantic loss and can issue `do not adopt`.
 - It rejects post-score settings fishing and requires independent promotion
   evidence after configuration selection.
-- It keeps Conductor in handoff mode and refuses target credentials or private
-  fixtures.
+- It proved the original handoff boundary and refusal to move target credentials
+  or private fixtures into Conductor. Story 031 separately evolves the agent's
+  post-selection authority while retaining those data boundaries.
 - It keeps target credentials, fixtures, registry changes, and defaults in the
   owning repo.
 
@@ -393,9 +435,10 @@ Those were the acceptance surface for the doc-web-owned pilot. Its result now
 provides one real integration proof, but only for doc-web's Grok 4.5 crop lane;
 it does not prove another provider, adapter, task, repo, or runtime contract.
 
-## Portable Rollout Packet
+## Portable Owner-Execution Packet
 
-For each approved target repo, its owning agent should:
+For each selected target repo, the orchestrating agent should enter an isolated
+owner worktree and:
 
 1. read local `AGENTS.md`, Ideal, Spec, methodology state/graph, eval registry,
    discovery, eval-improvement, credential, privacy, and artifact conventions
@@ -406,9 +449,10 @@ For each approved target repo, its owning agent should:
    semantics intact
 4. integrate through the repo's canonical cross-CLI skill surface and run its
    skill, methodology, lint, and test gates
-5. treat installation as workflow readiness only; wait for a real
-   decision-bearing request before spending or issuing an adoption verdict
+5. treat skill installation as workflow readiness only; spend and issue an
+   adoption verdict only for the explicitly selected decision-bearing lane
 
-This sequencing is intentional: Conductor supplies the portable reasoning
-contract; each owning repo owns integration, provider calls, artifact
-inspection, and adoption judgment.
+This sequencing is intentional: Conductor supplies the portable reasoning and
+selection contract; after approval it can perform the work, but each owning
+repo still owns integration, provider calls, artifact inspection, and adoption
+judgment.

@@ -84,9 +84,11 @@ Specialized loops:
 - `/init-project` for interview-first greenfield kickoff before setup
 - `/align-projects` for cross-project infrastructure drift
 - `/scout` for external sources and adoption analysis
-- `/evaluate-model` for natural-language model-eval planning, reproducibility
-  requests, evidence audits, and target-repo handoffs; Conductor scouts and
-  routes, while the owning repo runs and judges its benchmark
+- `/evaluate-model` for current model/API verification, portfolio-fit
+  recommendations, reproducibility requests, evidence audits, and approved
+  repo-local execution. Conductor first returns numbered evaluation choices;
+  after the user selects all or a subset, it enters isolated owning-repo
+  worktrees where each repo runs and judges its own maintained benchmark
 - `/ideation` for optional divergent option generation before Ideal/spec,
   story, or ADR decisions when option quality is the blocker
 - `/setup-methodology` for refreshing this project's own methodology package
@@ -114,4 +116,7 @@ Specialized loops:
 - Treat an active target-project checkout as shared workspace: supervisor
   upgrades should be quiet, isolated, and easy to land or discard without
   polluting the project's live work environment.
+- An approved cross-project evaluation remains repo-local work: read and obey
+  each owning repo's instructions, credentials, fixtures, gates, artifacts, and
+  verdict contract rather than running a synthetic substitute in Conductor.
 - No implicit commits or pushes.

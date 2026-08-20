@@ -15,7 +15,9 @@ In the ideal state:
 - project-specific divergence is preserved when it is useful and challenged only
   when it looks accidental or stale
 - Conductor prepares stories, ADR suggestions, sync recommendations, and scout
-  outputs so the target projects can execute them with minimal setup friction
+  outputs so target projects can execute them with minimal setup friction; for
+  an explicitly approved cross-project campaign, it can also enter isolated
+  owning-repo worktrees and perform that local execution on their behalf
 
 ## Execution Ideal
 
@@ -28,6 +30,9 @@ In the ideal state:
 - triage converts notes into the right artifact shape
 - alignment and scouting have memory, so the same comparison work is not
   repeated from scratch
+- a model-only evaluation request becomes one availability/portfolio
+  recommendation, then one simple all-or-subset approval can launch the
+  selected repo-local evaluations without losing owner context
 - the structure stays light enough that it removes busywork instead of adding it
 - human judgment is reserved for real conflicts and prioritization, not routine
   comparison labor
@@ -39,8 +44,8 @@ In the ideal state:
 - **I2 — Distributed ownership**: the tracked projects remain the owners of
   their own local adaptations.
 - **I3 — Recommendation-first supervision**: Conductor should prepare adoption
-  work before attempting cross-project edits.
+  work before attempting cross-project edits; an explicit all-or-subset choice
+  may then authorize isolated execution under each selected project's rules.
 - **I4 — Honest divergence**: intentional local differences are a feature, not a bug.
 - **I5 — Minimal overhead**: every Conductor artifact must earn its keep by
   removing future work.
-

@@ -29,6 +29,11 @@ tracked_projects:
 
 # Story 027 — Build and Refine Provider-Native Model Evaluation
 
+> **Historical boundary note (2026-08-19):** Story 031 supersedes this story's
+> handoff-only Conductor boundary after explicit all-or-subset selection. The
+> provider-native transport, fairness, privacy, provenance, and owner-verdict
+> requirements remain current; see Alignment 042 for the evolved contract.
+
 **Priority**: High
 **Status**: Done
 **Decision Refs**: ADR-001

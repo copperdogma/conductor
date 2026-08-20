@@ -47,6 +47,23 @@ Scout outputs must answer:
 - which project(s) should care
 - whether the move is adopt, adapt, defer, reject, or spike
 
+### spec:3.3 Staged model-evaluation orchestration
+
+A model-only evaluation request first verifies current API evidence and maps
+every tracked project to `evaluate now`, `defer`, or `do not evaluate`.
+Positive recommendations receive stable numbers, a named owner lane, decision
+gates, privacy constraints, and disclosed spend ceilings. A later `yes` selects
+all positive items; an explicit numbered or named subset selects only those
+items.
+
+Selected evaluations run in isolated worktrees under each owning repository's
+instructions, credentials, maintained prompts, fixtures, scorers, thresholds,
+artifact conventions, and adoption authority. Conductor may orchestrate and
+synthesize those runs, but it does not become a canonical benchmark harness or
+move provider payloads into its own artifacts. Selection does not implicitly
+authorize private-data use, higher spend, default changes, deployment, commit,
+push, merge, or landing.
+
 ## spec:4 Story & Decision Preparation
 
 ### spec:4.1 Same story loop as other projects
@@ -81,4 +98,3 @@ and reusable conclusions.
 
 Conductor should add the minimum structure needed to make recurring work
 cheaper. If a new artifact does not save future time, it should not exist.
-

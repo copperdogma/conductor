@@ -1,356 +1,294 @@
 ---
 name: evaluate-model
-description: Plan, route, execute, or audit a fair evaluation of one or more AI models against an owning repo's maintained decision surface. Use for natural-language new-model, replacement, comparison, rerun, reproducibility, or evidence-audit requests, including broad, narrow, or informal briefs where API contract, structured output, reasoning, reliability, cost, latency, or quality affect adoption. In Conductor, prepare or audit the handoff only; the owning repo executes and decides. Use scout for generic launch or portfolio-fit questions without a decision-bearing eval request.
+description: Verify a current AI model, map its decision-bearing fit across tracked projects, recommend a numbered evaluation shortlist, and after explicit all-or-subset approval run fair provider-native evaluations inside isolated owning-repo worktrees. Use for new-model, replacement, comparison, rerun, reproducibility, or evidence-audit requests where API access, structured output, reasoning, reliability, cost, latency, privacy, or quality affect adoption. Use scout only for release research with no evaluation decision.
 user-invocable: true
 ---
 
 # /evaluate-model [natural-language evaluation brief]
 
-Evaluate each candidate through its best defensible production-relevant call
-shape, not by changing model names and accepting the first harness result.
+Use one skill for the whole campaign:
+
+1. verify that the candidate exists on a current API surface
+2. determine which tracked repositories have a maintained decision it could change
+3. recommend the evaluations worth running and explain the deferrals
+4. after the user selects all or a subset, enter each owning repo and run its
+   evaluation under its own context
+5. synthesize the repo-local verdicts without centralizing their harnesses
+
+The public name remains `evaluate-model`. “Remote model” is an access path, not
+the purpose of the workflow.
 
 ## Invocation Contract
 
-Treat everything after `/evaluate-model` as an evaluation brief, not positional
-arguments. A model name alone is sufficient. The brief may be long, informal,
-tightly scoped, self-correcting, or name several candidates. Extract and retain:
+Treat everything after `/evaluate-model` as a natural-language brief, not
+positional arguments. A model name alone is sufficient. Extract and retain:
 
-- candidate names, possible slugs/providers/access paths, and any incumbent
-- target repo, runtime stage, eval lane, fixtures, or narrow capability
-- requested reasoning, output, schema, tool, sampling, modality, or route
+- candidate names and possible slugs, providers, routers, or access paths
+- any named repo, runtime stage, eval lane, fixture, incumbent, or capability
+- reasoning, output, schema, tool, sampling, modality, and route requirements
 - cost, latency, concurrency, privacy, safety, repeat, and deadline constraints
-- execution intent such as evaluate/run/test/compare versus plan/design/recommend
-- freshness intent such as reuse, audit, rerun from scratch, reproduce, check
-  variance, or exercise the workflow fresh
+- whether the user wants portfolio recommendations, selected execution, a
+  force-fresh rerun, reproducibility work, or a read-only evidence audit
 - exclusions and later corrections; the latest clear instruction wins
 
-Resolve routine omissions from current first-party documentation and repo truth.
-Do not require an exact slug, eval ID, incumbent, or provider when those are
-discoverable. Preserve a narrow request rather than widening it into a model
-tournament. For multiple candidates, qualify each independently and compare each
-against the same maintained incumbent per surface, using provider-valid call
-shapes and progressive screening rather than pairwise tournaments.
+Resolve routine slugs, providers, incumbents, eval IDs, and repo paths from
+current official and repository evidence. Do not ask for facts that are safely
+discoverable. Preserve narrow requests rather than widening them into a model
+tournament.
 
-Inside Conductor, `evaluate`, `run`, `test`, or `compare` means prepare an
-execution-ready owning-repo handoff; it never authorizes Conductor to call the
-provider or edit the target repo. `Plan`, `design`, `scope`, or `recommend`
-produces a handoff plan. `Audit`, `inspect`, or `review existing evidence`
-produces a read-only evidence audit with no provider call, harness execution,
-artifact creation, or repo mutation. In an owning repo, execution verbs authorize
-only the smallest bounded run under that repo's credentials and policies.
+## Choose the Current Stage
 
-Treat a clear request to rerun from scratch, reproduce prior evidence, measure
-variance, or exercise the workflow fresh as **force-fresh intent**. In Conductor,
-record that requirement in the handoff; do not execute it. In the owning repo,
-force-fresh overrides duplicate avoidance only: preserve prior evidence, use new
-artifact identities and uncached subject calls, and report whether the result
-reproduces, weakens, or contradicts the prior result. It never relaxes scope,
-privacy, spend, fairness, tuning, retry, truth, commit, or rollout controls.
+State the stage briefly before acting.
 
-When force-fresh intent leaves comparison shape unstated, a workflow-acceptance
-or fresh adoption comparison reruns the incumbent and candidate on the same
-frozen inputs. Candidate-variance or transport reproduction may be
-candidate-only, but cannot support a current superiority claim.
+### Stage 1 — Portfolio recommendation
 
-Ask only when authority, credentials, private-payload approval, materially higher
-spend, or an unresolved product choice is required. If no maintained owner lane
-could change a decision, return an evidence-backed no-eval or defer result.
+This is the default for a model-only invocation such as:
 
-## Operating Mode
+```text
+evaluate-model grok 4.6
+```
 
-State one mode before proceeding:
+Verify availability, inspect portfolio fit, and return the numbered proposal.
+Do not run a paid benchmark or mutate a target repo yet.
 
-- **Conductor handoff** — while working in Conductor, research current
-  first-party documentation and existing public or authorized access evidence,
-  then prepare or audit the owning-repo packet according to the invocation.
-  Do not run provider probes, use target credentials or fixtures, execute
-  another repo's harness, mutate its eval surfaces, or issue its adoption
-  verdict. Sections 3–7 become handoff or audit requirements, not actions.
-- **Owning-repo execution** — only while working under the authority of the repo
-  that owns the runtime, credentials, fixtures, and decision. Follow the full
-  workflow and retain evidence under that repo's policies.
+### Stage 2 — Selected owning-repo campaign
 
-If the mode or owning repo is unclear, stop and resolve ownership before any
-model call.
+Enter this stage when the user responds to the numbered proposal with `yes`,
+`go ahead`, `do it`, `only do 1, 5, and 6`, equivalent named repos, or another
+unambiguous selection. Execute the selected evaluations; do not merely write
+handoffs for another agent.
+
+An explicit request to “run now in Dossier” or an equivalent named target may
+also enter Stage 2 directly when the repo, lane, scope, and spend boundary are
+already clear. Otherwise produce a one-item Stage 1 proposal first.
+
+### Read-only audit
+
+`Audit`, `inspect`, `review`, or `verify existing evidence` does not authorize
+provider calls, harness execution, artifact creation, or repo mutation. Report
+the evidence and its limits only.
+
+### Force-fresh intent
+
+A clear request to rerun from scratch, reproduce, measure variance, or exercise
+the workflow fresh bypasses duplicate avoidance only. Preserve prior evidence,
+use a new artifact/run identity, and make uncached subject calls even when the
+model and configuration are unchanged. It still preserves all scope, privacy,
+spend, fairness, retry, truth, commit, and rollout controls. A fresh adoption
+comparison reruns incumbent and challenger on the same frozen inputs; a
+candidate-only transport or variance check cannot support a current superiority
+claim.
+
+## Stage 1 — Verify and Recommend
+
+### 1. Verify the model
+
+Use current first-party provider documentation, release notes, pricing, model
+catalogs, and API references. For temporally unstable facts, browse or query
+the current official source rather than relying on model-family memory or
+announcement copy.
+
+Distinguish these claims:
+
+- **announced** — the provider describes the model publicly
+- **API-listed** — an official API document or authenticated model-catalog
+  lookup exposes the exact slug
+- **callable** — a dated successful native inference response proves access for
+  the credentials and region that will own the run
+
+Stage 1 must not use a target repo's credential, including for model discovery.
+Use public official API evidence and dated existing owner-returned access
+evidence only. Authenticated catalog, text, schema, image, tool, or harness
+probes always belong to Stage 2. An explicitly requested standalone access
+probe may enter Stage 2 under a named owner context and disclosed bounded spend;
+it does not create a Stage 1 credential exception. If callability is not already
+proven, say `access: unverified` rather than turning missing proof into a
+model-access failure.
+
+Record the exact slug, endpoint/API family, relevant modalities and structured
+output/tool support, reasoning controls, pricing, and retention/ZDR posture.
+Availability is not adoption.
+
+### 2. Inspect the portfolio
+
+Start with `projects.yaml`, then inspect every registered project and any
+explicitly named active repo. Read enough current owner context to identify:
+
+- its runtime and maintained model-owned surfaces
+- the local `AGENTS.md`, Ideal/spec, eval registry, recent attempts/stories,
+  inbox or scout evidence, and repo-local model-evaluation skill when present
+- incumbent and recent same-family or same-provider evidence
+- frozen prompts, fixtures, scorers/goldens, hard quality gates, latency/cost
+  gates, privacy restrictions, and current work that makes an eval timely or
+  disruptive
+- the smallest lane whose result could change a real decision
+
+Do not infer fit from a vendor capability claim alone. A repo gets a positive
+recommendation only when it has a maintained decision-bearing surface, eligible
+fixtures, a credible challenger hypothesis, and a bounded progressive run.
+
+Give every inspected repo exactly one disposition:
+
+- **Evaluate now** — the result can change a current maintained decision
+- **Defer** — plausible later value, but a prerequisite, privacy posture,
+  competing work, or maintained lane is missing
+- **Do not evaluate** — the model does not address a relevant maintained
+  surface or prior evidence makes the run unjustified without a new trigger
+
+### 3. Return an executable recommendation
+
+Put only **Evaluate now** items in the numbered list. Those numbers are stable
+execution handles for the next user message. For each numbered item include:
+
+- owning repo and exact first eval lane
+- incumbent and decision the evidence can support
+- why this model could change that decision now
+- progressive stop gate and the most important quality/latency/cost threshold
+- fixture eligibility and privacy/ZDR restriction
+- proposed per-repo provider-spend ceiling, normally lower than the US$5
+  fallback when the maintained lane can be bounded more tightly
+
+Then include an unnumbered `Not recommended now` section that names every
+remaining inspected repo and gives its **Defer** or **Do not evaluate** reason. Do not
+silently omit a tracked project.
+
+State the sum of all proposed per-repo ceilings as the **campaign maximum**.
+The ordinary acceptance line is:
+
+```text
+Reply `yes` to run all numbered evaluations, or `only do 1, 5, and 6` to run a subset.
+```
+
+If no repo deserves an evaluation, say so and do not offer a meaningless
+approval prompt. A recommendation pass may create or update Conductor's normal
+scout/routing artifact when durable portfolio memory is warranted, but it must
+not change a target repo.
+
+## Stage 2 — Execute the Selection
+
+### 1. Resolve approval exactly
+
+- `yes`, `go ahead`, or equivalent means every positively recommended numbered
+  item from the immediately preceding proposal
+- `only do ...` means exactly those numbered positive items
+- named repos are equivalent when they map unambiguously to the proposal
+- exclusions such as `except Storybook` remove that item
+
+If the numbered mapping is no longer available in conversation context, print
+the proposal again rather than guessing. A request to add an unnumbered
+**Defer** or **Do not evaluate** repo is a scope change: explain what
+prerequisite or boundary changed, issue a new numbered Stage 1 proposal for that
+repo, and wait for its own `yes` or equivalent before spending.
+
+Before starting, restate the selected repos and their combined disclosed spend
+ceiling in one concise line. Do not ask for a second approval when the selection
+already maps unambiguously to positively recommended numbered items.
+
+The selection authorizes:
+
+- isolated current-base worktrees for the selected owners
+- the repo-local story/plan, adapter or evidence scaffolding, provider probes,
+  bounded progressive benchmark, artifact inspection, tests, and durable eval
+  records needed for the proposed lane
+- spend up to each disclosed per-repo ceiling and no more than the disclosed
+  selected-campaign total
+
+It does **not** authorize:
+
+- use of private fixtures on an unapproved provider/retention path
+- spend above a disclosed ceiling or an unbounded-price call
+- product prompt/golden/scorer changes that require a new preference decision
+- runtime-default changes, rollout, deployment, destructive operations, commit,
+  push, merge, or landing
+
+Source-backed deterministic repair of an eval defect may proceed when the
+owning repo's existing contract clearly requires it. Otherwise pause and ask
+for the missing judgment without blocking unrelated selected repos.
+
+### 2. Switch into the owning repo
+
+For each selected item:
+
+1. Resolve the path from `projects.yaml` and inspect its primary checkout and
+   remote/base state read-only.
+2. Create or reuse a dedicated `codex/` branch and isolated worktree from the
+   current remote base. Reuse only when its base and existing changes belong to
+   this exact campaign. Never pollute or overwrite the primary checkout.
+3. Enter that worktree and read its root instructions plus relevant Ideal,
+   spec, methodology state/graph, active story, eval registry, privacy and
+   artifact rules.
+4. Read [the owning-repo execution protocol](references/owning-repo-execution.md)
+   completely. If the repo also has a local `evaluate-model` skill, read that
+   `SKILL.md` completely and use its owner-specific adaptation. Otherwise adapt
+   the portable protocol to the local harness.
+5. When local and portable guidance differ, the owning repo controls its
+   prompts, fixtures, scorers, thresholds, artifact locations, and stricter
+   privacy/spend rules. Preserve the portable transport-validity, fairness,
+   provenance, and layered-verdict invariants.
+
+The work happens on behalf of the owning repo, not “from Conductor.” Provider
+calls use the owner's existing authorized credential path. Never copy secrets
+or private payloads into Conductor artifacts or commentary.
+
+### 3. Run as the owner would
+
+Use the selected repo's normal workflow and artifact vocabulary. Create or
+reuse only the durable surfaces it ordinarily requires—such as a story, scout,
+attempt document, registry row, raw-artifact manifest, or regression test. Do
+not manufacture every artifact type merely for portfolio symmetry.
+
+Treat the user's selection as plan approval for the exact bounded lane already
+recommended. It satisfies a repo-local approval gate only when the gate asks for
+the same disclosed plan and owner-context inspection has not materially changed
+the lane, gates, artifacts, privacy boundary, or spend. If local instructions
+require a distinct plan review, or exploration changes any of those terms,
+present the repo-local plan and pause. Otherwise continue without ceremonial
+reapproval. Always pause for a material new product choice, private-data
+authorization, higher spend, or broader rollout.
+
+Read the owner protocol reference before live execution. Qualify access and the
+actual production contract before semantic scoring, use frozen maintained
+inputs, run progressively, stop on predeclared gates, and retain failures as
+access/transport/reliability evidence rather than hiding them.
+
+An early stop in one repo does not cancel independent selected repos. Preserve
+its honest `not measured` surfaces and continue where remaining scope and spend
+are still valid.
+
+### 4. Synthesize without stealing ownership
+
+For each repo report:
+
+- worktree/branch and exact base identity
+- durable evidence files and exact commands
+- actual provider spend versus cap
+- access, transport, reliability, capability, economics, and owner adoption
+  verdicts
+- stopped or unmeasured surfaces
+- validation results and any remaining user decision
+
+Conductor may update its campaign scout/alignment with links, SHAs, costs, and
+repo-returned verdicts. Do not copy private artifacts or duplicate the owning
+repo's full benchmark record. Leave worktrees and changes uncommitted unless
+the user separately asks for closeout or landing.
 
 ## Non-Negotiable Rule
 
-Do not call a model bad when the request, provider path, harness adapter, or
-output contract failed before a valid answer was produced. Preserve those
-failures as access, transport, or reliability evidence; keep them separate from
-semantic capability.
-
-## 1. Establish Ownership and the Decision
-
-Identify the repo that owns the runtime and maintained eval. Conductor may
-scout availability and prepare a handoff, but the owning repo must run model
-calls, inspect artifacts, update eval records, and decide adoption.
-
-Before spending tokens, record:
-
-- candidate and incumbent model/provider
-- exact runtime stage or product surface that could change
-- maintained prompt, fixtures, scorer/golden, and current winning evidence
-- quality threshold plus latency, cost, reliability, privacy, and safety limits
-- the decision this evidence can support: adopt, conditional adopt, do not
-  adopt, or defer
-
-If no result could change a maintained decision, stop and recommend no eval.
-
-## 2. Refresh External Truth
-
-Use current first-party documentation. In owning-repo execution mode, add live
-provider evidence; in Conductor handoff mode, use existing public or authorized
-evidence only. Do not rely on model-family memory, announcement copy, or a
-harness alias alone.
-
-Build a dated call-contract sheet covering every item relevant to the target:
-
-- exact model slug, aliases/tiers, availability, region, and access path
-- native endpoint/API family and current SDK or harness support
-- actual served-model/provider metadata, router fallback policy, and parameter
-  enforcement when an intermediary is used
-- required text, image/file, tool, streaming, or long-context input shape
-- supported instruction/message roles when they affect the call contract
-- structured-output or strict JSON Schema support and its required flags
-- tool-choice behavior when the runtime uses tools
-- reasoning/thinking controls and supported values
-- output-token controls and whether reasoning consumes that budget
-- supported or rejected sampling, stop, seed, and penalty parameters
-- pricing, rate/concurrency limits, service tier, and availability guidance
-- retention, training, zero-data-retention, and other payload policy
-
-Prefer the direct provider when it is the cleanest supported path. Check
-OpenRouter when it is the best practical access or normalization path. A model
-is not reproducibly evaluable from an interactive preview, announcement, or
-automation-prohibited plan alone.
-
-Resolve unknowns that can invalidate the eval. Otherwise mark them as explicit
-blockers; do not fill them with guesses.
-
-## 3. Qualify Transport Before Scoring
-
-In owning-repo execution mode, advance through this ladder and retain the
-sanitized request payload, response, terminal status, latency, usage, served
-identity, and error/incomplete evidence at each step:
-
-1. **Access probe** — confirm the exact model ID is visible and authorized with
-   the intended credentials and region. Catalog visibility alone is not
-   callability.
-2. **Native probe** — make the smallest raw provider call, outside the eval
-   harness when practical; confirm the requested model/provider was actually
-   served when response metadata exposes it.
-3. **Contract probe** — exercise what production actually needs: strict schema,
-   tools, images/files, long context, or another required feature.
-4. **Harness-parity probe** — send the same small case through the repo adapter
-   or eval harness and compare it with the native result.
-
-Qualify every materially distinct runtime surface and output contract
-separately. A schema proven for one task does not qualify another task with a
-different output contract merely because both use the same provider. Do not
-start a surface's scored matrix until its required contract and harness-parity
-probe pass. If raw native succeeds but the harness fails, investigate the
-adapter. If the provider lacks a required production feature, record a genuine
-compatibility limit rather than a semantic failure.
-
-Fail closed before scoring. HTTP success is insufficient: require the provider's
-documented terminal-success state, no provider error or incomplete condition,
-the expected served model/provider, and complete output from the documented
-message field. Verify the actual outgoing prompt/input payload and required
-schema/tool flags rather than trusting adapter configuration names. Reject
-malformed envelopes, wrong identities, partial output, invalid usage/cost, and
-contract-invalid responses as operational evidence; do not pass them to the
-semantic scorer.
-
-Follow the owner's artifact policy. Never persist authorization headers, API
-keys, signed URLs, or equivalent secrets. Keep private inputs and outputs only
-in an owner-approved protected or ignored location; committable evidence uses
-redacted excerpts, hashes, or safe pointers rather than raw private payloads.
-
-When JSON is required, use strict schema enforcement when supported. If only a
-weaker documented JSON mode exists, test and label that limitation. Prompt-only
-JSON is not equivalent to API-enforced structure. Ensure the output budget can
-hold the schema before judging malformed or incomplete JSON. A passing unit
-parse or harness smoke is not contract parity without inspecting the native
-request, raw output, terminal state, and served identity.
-
-## 4. Predeclare a Fair Configuration Budget
-
-Write the configuration matrix before looking at scores:
-
-- set an aggregate provider-spend ceiling covering access/contract probes,
-  candidates, incumbent, retries, and judge calls; if the user and repo provide
-  no tighter cap, default to **US$5** for the owning-repo invocation
-- estimate and start a cost ledger before the first paid call; stop and request
-  an explicit higher cap when the smallest valid run may exceed the ceiling or
-  pricing cannot be bounded conservatively
-- rerun the incumbent on its maintained production configuration when fresh
-  comparison evidence is needed
-- run the challenger with provider-recommended defaults plus the required
-  production output/tool contract
-- predeclare the exact challenger arm count and the transport-debug retry and
-  repair cap; use the recommended configuration plus at most two justified
-  variants, such as a lower or higher documented reasoning level or a necessary
-  output-budget adjustment
-- give incumbent and challenger comparable opportunity; do not exhaustively
-  tune only the challenger
-- choose among variants on a predeclared calibration slice when possible, then
-  freeze one configuration before the decision-bearing comparison
-- if variants share the scored decision fixtures, label selection exploratory;
-  do not present the best observed score as independent evidence without a
-  predeclared held-out or repeated confirmation run
-- do not expand the tuning or debug budget after seeing scores without explicit
-  owning-repo approval; a new causal hypothesis starts a separately declared
-  experiment with comparable incumbent treatment
-- keep prompt, fixtures, scorer, golden, and downstream cleanup fixed during
-  model comparison
-- bypass the subject-output cache for a model/configuration change, or prove
-  the cache key includes the exact model and relevant parameters
-- start at low, documented-safe concurrency; test intended production
-  concurrency separately so client-induced overload is not mislabeled
-
-A request-shape or documented schema-flag repair needed to obtain any valid
-response is transport work, not score optimization. A repair that can change
-answer content—including prompt, reasoning level, or output budget—becomes a
-declared configuration arm and its exploratory score is not promotion evidence.
-If a model-specific prompt is later justified, record it as a separate
-prompt-plus-model candidate with its maintenance cost; never silently move the
-goalposts.
-
-## 5. Run Progressively
-
-Use the smallest run that answers the current question:
-
-1. one representative smoke case
-2. the known failing or differentiating slice
-3. a bounded maintained fixture set
-4. promotion-grade comparison with the repo's required repeats and artifacts
-
-Inspect raw outputs and artifacts between stages. Do not launch a broad matrix
-to debug one malformed call. Stop weak or incompatible candidates before
-expensive promotion runs, but retain their evidence.
-
-If an earlier prerequisite stops a later materially distinct surface, report
-that surface as `capability: not measured` and `adoption: not advanced`. A
-deliberate progressive stop is not semantic evidence that the skipped surface
-failed.
-
-## 6. Classify and Respond to Failures
-
-For every non-pass, first identify the stage that produced it: subject-model
-request, provider/router, harness adapter, parser, downstream cleanup, scorer,
-or judge. Do not charge a judge or post-processing failure to the subject
-model. Then record the evaluation phase and one primary class:
-
-| Failure class | Required response |
-| --- | --- |
-| transient provider capacity, timeout, `5xx`, or capacity-coded `429` | Respect provider guidance or `Retry-After`; retry within a declared cap; retain every attempt and include retry latency/cost. Persistent instability affects reliability, not semantic quality. |
-| auth, quota, region, tier, or policy | Correct only within existing authorization; otherwise mark access blocked or constrained. Do not score capability. |
-| client concurrency or rate-limit `429` | Inspect advertised limits and harness concurrency, then rerun within the declared cap. Client-induced overload is harness/configuration evidence; a plan limit is access or economics evidence. |
-| wrong endpoint, API family, input shape, or unsupported parameter | Recheck current docs, correct one contract variable, rerun the native probe, then rerun harness parity. |
-| structured output not enforced | Enable supported schema/JSON controls and ensure the schema is supported before judging JSON compliance. |
-| truncation or thinking-token exhaustion | Inspect finish reason and usage; correct documented output/thinking controls and rerun the affected slice. |
-| native call passes but harness fails | Treat as adapter/harness incompatibility until disproved; check cache and actual served-model metadata; do not blame the model. |
-| parser, cleanup, judge, scorer, rubric, or golden mismatch | Isolate the failing stage and use the owning repo's eval-improvement and source-verification workflow before changing truth surfaces. |
-| valid output contradicts source-backed expectation | Count as model-quality evidence after transport and configuration validity are proven. |
-| refusal, content filter, or safety behavior | Classify separately as policy/safety compatibility and decide whether it blocks the target use. |
-
-Change one causal variable at a time while debugging. Use bounded retries; do
-not keep experimenting until a desired score appears.
-
-Classify `429` responses from the provider error code/body, headers, account
-limits, and tested concurrency. Do not assume every `429` is transient provider
-instability.
-
-Report two views when retries or provider failures matter:
-
-- **conditional semantic quality** on valid responses
-- **end-to-end production result** including provider failures, retries, added
-  latency, and added cost
-
-Never hide initial failures by reporting only the successful retry.
-
-## 7. Verify and Decide
-
-Before recommending adoption:
-
-- classify important mismatches against source evidence
-- validate result artifacts and reject empty, malformed, or partial bundles
-- compare quality, latency, cost, variance, success rate, retry overhead, and
-  privacy/safety eligibility
-- confirm the winning configuration is supported on the intended runtime path
-- record exact commands, model/provider IDs, relevant parameters, checked docs,
-  dates, fixture scope, repeats, cache state, concurrency, and code identity
-- update the owning repo's eval registry and work log, including failed and
-  inconclusive attempts
-
-For a dirty run, a base commit alone is not exact code identity. Record the base
-SHA plus hashes or an exact tracked snapshot/patch for every changed adapter,
-prompt, scorer, golden, and task that affected the result. Hash and size raw
-artifacts; if they remain ignored or protected, keep a tracked manifest with
-safe regeneration commands and redacted pointers. Distinguish evaluated code
-from later hardening so a newer adapter is never claimed to have produced an
-older score.
-
-Do not change defaults merely because a model is newer, faster, or cheaper. It
-must clear the maintained quality and operational gates for a named surface.
-
-## Required Output
-
-Return a compact evaluation record with these separate verdicts:
-
-1. **Decision and owner** — repo, target surface, incumbent, adoption question
-2. **External evidence** — checked sources/date, exact model and access path
-3. **Configuration matrix** — variants tried, rationale, aggregate spend cap,
-   freshness mode, and fairness statement
-4. **Access** — available, constrained, blocked, or unverified
-5. **Transport** — qualified, blocked, or inconclusive
-6. **Reliability** — acceptable, degraded, failed, or not measured
-7. **Capability** — better, equivalent, worse, or not measured
-8. **Economics** — measured latency/cost and retry overhead, or not measured
-9. **Adoption** — in the owning repo: adopt, conditional adopt, do not adopt,
-   or defer, naming the exact surface; in Conductor: not evaluated, target-repo
-   handoff required
-10. **Evidence limits and next step** — unmeasured surfaces, what remains
-    unproven, and the smallest honest follow-up
-
-In owning-repo execution mode, an access or transport block normally yields
-`capability: not measured` and `adoption: defer` unless the missing production
-feature itself makes the model ineligible. A valid semantic loss may support
-`do not adopt`. In Conductor mode, use the handoff-only adoption state above.
-State which one happened.
-
-## Conductor Boundary
-
-When invoked from Conductor:
-
-- inspect portfolio fit and current access evidence
-- choose the owning repo and one decision-bearing eval lane
-- prepare a repo-local handoff containing the decision contract, required docs
-  and probes, proposed bounded matrix and aggregate spend ceiling, pass/fail
-  gates, freshness requirement, privacy constraints, and durable provenance
-- do not run another repo's benchmark, modify its eval surfaces, or claim model
-  quality from Conductor
-- report `adoption: not evaluated — target-repo handoff required`; Conductor's
-  routing recommendation is not the owning repo's adoption verdict
-- report `access: unverified` unless dated owner-run callability evidence proves
-  another state; lack of Conductor execution authority is not proof that the
-  model itself is blocked
-- never copy or persist target-repo credentials or private payloads in
-  Conductor
-
-Synthetic incident tests may validate this skill's reasoning, but they do not
-qualify live transport or benchmark performance. Say so explicitly.
+Do not call a model bad when the request, provider path, harness adapter, output
+contract, parser, cleanup, scorer, or judge failed before a valid answer was
+produced. Keep access, transport, reliability, capability, economics, and
+adoption as separate verdict layers.
 
 ## Guardrails
 
 - Do not score pre-response infrastructure failures as semantic misses.
-- Do not dismiss repeated instability; keep it in production reliability.
-- Do not weaken schema, tools, or input requirements merely to make a candidate
-  pass unless the runtime can accept that weaker contract.
+- Do not hide repeated instability behind a successful retry.
+- Do not weaken schema, tools, modality, or input requirements merely to make a
+  candidate pass unless the product can accept that weaker contract.
 - Do not alter goldens or scorers to rescue a model without source-backed
-  verification.
+  verification and owner-contract authority.
 - Do not send private fixtures through a provider path that has not cleared the
-  owning repo's privacy policy.
-- Do not commit, push, change defaults, or broaden rollout without explicit
-  authorization.
+  owning repo's policy.
+- Do not evaluate an unselected or unnumbered repo by implication.
+- Do not commit, push, merge, change defaults, deploy, or broaden rollout
+  without separate explicit authorization.

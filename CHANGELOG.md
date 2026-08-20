@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026-08-19-01] - Orchestrate selected owning-repo model evaluations
+
+### Changed
+- Evolved `/evaluate-model <model>` from a handoff-only surface into a staged
+  campaign: verify current API evidence, recommend numbered repo evaluations,
+  then accept `yes` or an explicit subset as authorization to run the selected
+  work inside isolated owning-repo worktrees.
+- Kept prompts, fixtures, scorers, credentials, artifacts, gates, and adoption
+  verdicts under each owning repo's rules; the approval does not imply private
+  data, excess spend, default changes, deployment, commits, pushes, or merges.
+- Moved the detailed provider-native execution protocol into a reference loaded
+  only after selection so the common portfolio-recommendation turn stays lean.
+
 ## [2026-07-22-01] - Add provider-native model evaluation routing
 
 ### Added
