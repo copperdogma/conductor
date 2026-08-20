@@ -146,6 +146,14 @@ Inspect raw outputs and artifacts between stages. Do not launch a broad matrix
 to debug one malformed call. Stop weak, incompatible, or operationally failed
 candidates at the predeclared gate and retain their evidence.
 
+Before the first paid multi-case run, resolve the harness without inference and
+inspect its topology: rendered cases, conversation/session grouping, exact
+prompt snapshot versus the intended runtime prompt, subject and judge
+providers, judge pricing, cache keys, concurrency, and output paths. A harness
+that silently chains independent cases, selects an implicit judge, or renders a
+stale production contract is not ready for paid scoring. Correct the execution
+topology or stop; do not discover these facts through a broad live run.
+
 If a prerequisite stops a later materially different surface, report the later
 surface as `capability: not measured` and `adoption: not advanced`. A deliberate
 progressive stop is not evidence that the skipped surface failed.
@@ -187,9 +195,16 @@ Before an adoption recommendation:
 - confirm the winning configuration is supported on the intended runtime path
 - record commands, model/provider IDs, parameters, source dates, fixture scope,
   repeats, cache state, concurrency, code identity, and actual spend
+- retain safe raw or sanitized outputs in an owner-approved durable location;
+  when raw content cannot be tracked, record a stable protected pointer plus
+  hash, byte size, privacy classification, and regeneration command in a
+  tracked manifest. A temporary path and hash alone are not durable evidence
 - update the owner's normal story/attempt/registry/scout and work log, including
   failed and inconclusive attempts
-- run focused adapter/scorer tests and the repo's proportionate validation
+- preflight required services before broad suites, then run focused
+  adapter/scorer tests and validation proportional to the touched runtime
+  surfaces; do not spend time on unrelated frontend/backend suites merely for
+  symmetry
 
 For a dirty run, a base commit alone is not reproducible identity. Record the
 base SHA plus hashes or an exact tracked snapshot/patch for every changed

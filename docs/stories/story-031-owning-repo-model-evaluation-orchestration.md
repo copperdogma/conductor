@@ -232,3 +232,21 @@ part of this story. Pause if implementation would require any of those actions.
   acceptance criterion, task, Build gate, and Validation gate is complete.
   Updated status to Done and queued a fresh methodology compile/check before
   check-in. Story closure adds no target-repo work or broader authority.
+- 20260819 — live-campaign orchestration correction: Cam clarified during the
+  first multi-repo Grok 4.6 campaign that separate owning repositories should
+  be executed by separate subagents, with Conductor's root agent acting as
+  scope/cost coordinator and final judge. Added that rule to Stage 2, including
+  per-worker repo/cap/privacy isolation and an explicit ban on delegation
+  broadening authority. The generic skill-creator validator again reached the
+  skill but rejected the pre-existing Conductor `user-invocable` extension;
+  `git diff --check` passed. Echo Forge and Storybook were then assigned to
+  independent owning-repo workers under their previously approved caps.
+- 20260820 — live-campaign efficiency and evidence follow-up: Cam approved the
+  audit recommendations while preserving each target repo's native
+  attempt/registry/story vocabulary. Added a zero-cost resolved-harness
+  topology preflight, fail-closed handling for known-invalid aggregate
+  commands, durable raw/sanitized artifact requirements, proportional
+  dependency-aware validation, dispatch-before-provider-call coordination, and
+  mandatory Conductor campaign follow-through when execution differs from the
+  dated scout recommendation. Updated Scout 053 with the user-selected Echo
+  Forge and Storybook results without rewriting its original recommendation.

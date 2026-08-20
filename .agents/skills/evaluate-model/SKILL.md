@@ -207,6 +207,24 @@ for the missing judgment without blocking unrelated selected repos.
 
 ### 2. Switch into the owning repo
 
+When Stage 2 selects more than one repository and subagents are available,
+assign each repository to its own isolated owning-repo subagent. Give each
+worker only that repo's approved lane, disclosed cap, privacy boundary, current
+base/worktree, and the portable owner protocol. The worker reads and follows
+the repo-local instructions and returns its durable artifacts, spend ledger,
+and layered owner verdict. Do not make one worker mutate or judge another
+repo. Dispatch all selected owner workers before the root makes any owner
+provider call; coordination should not duplicate work already assigned to an
+owner.
+
+The root agent remains campaign coordinator and final judge: it resolves
+cross-repo scope, monitors aggregate spend, reviews every returned artifact and
+verdict against the predeclared contract, corrects unsupported conclusions,
+and produces the final synthesis. Delegation does not authorize extra repos,
+broader lanes, private payloads, higher spend, commits, pushes, or rollout. If
+only one repo is selected, or subagents are unavailable, the root may execute
+the same owner protocol directly and must say so.
+
 For each selected item:
 
 1. Resolve the path from `projects.yaml` and inspect its primary checkout and
@@ -251,6 +269,20 @@ actual production contract before semantic scoring, use frozen maintained
 inputs, run progressively, stop on predeclared gates, and retain failures as
 access/transport/reliability evidence rather than hiding them.
 
+Before the first paid multi-case run, perform a zero-cost resolved-harness
+preflight. Inspect the rendered case matrix, conversation grouping, exact
+prompt/runtime parity, selected subject and judge providers, estimated judge
+cost, cache keys, concurrency, and the command that will be preserved for
+reproduction. Fix or fail closed on unintended case chaining, stale prompt
+snapshots, implicit judge selection, or another topology mismatch before
+spending. A one-case contract probe does not replace this resolved-matrix
+check.
+
+Do not preserve a normal-looking aggregate command that is known to execute an
+invalid topology. Repair it, make it fail closed with an actionable message, or
+label and isolate it as a diagnostic command while retaining a safe owner
+reproduction path.
+
 An early stop in one repo does not cancel independent selected repos. Preserve
 its honest `not measured` surfaces and continue where remaining scope and spend
 are still valid.
@@ -267,10 +299,14 @@ For each repo report:
 - stopped or unmeasured surfaces
 - validation results and any remaining user decision
 
-Conductor may update its campaign scout/alignment with links, SHAs, costs, and
-repo-returned verdicts. Do not copy private artifacts or duplicate the owning
-repo's full benchmark record. Leave worktrees and changes uncommitted unless
-the user separately asks for closeout or landing.
+After a Stage 2 campaign, update Conductor's campaign scout/alignment with the
+user's actual selection, links, base identities, costs, stopped surfaces, and
+repo-returned verdicts. This closeout is required when execution differs from
+the preserved recommendation; append a dated follow-through rather than
+rewriting the original recommendation as though it predicted the later choice.
+Do not copy private artifacts or duplicate the owning repo's full benchmark
+record. Leave worktrees and changes uncommitted unless the user separately asks
+for closeout or landing.
 
 ## Non-Negotiable Rule
 

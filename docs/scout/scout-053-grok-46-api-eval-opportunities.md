@@ -93,6 +93,39 @@ No target-repo handoff was written during this recommendation pass. The owning
 repo agents should execute and interpret their benchmarks after Cam approves
 the shortlist.
 
+## Campaign Follow-Through — 2026-08-20
+
+Cam later selected Echo Forge and Storybook after a fresh portfolio review
+identified concrete maintained retry triggers in both repos. That selection
+superseded this scout's original first-wave routing for the bounded campaign;
+the original recommendation above remains preserved as dated evidence rather
+than being rewritten retroactively.
+
+- **Echo Forge** ran the public/synthetic two-fixture
+  `scene-to-soundscape-golden` lane through OpenRouter `x-ai/grok-4.6`, pinned
+  to xAI. Transport and strict-schema provenance qualified, but the provider-
+  free final regrade was `1/2` after a punctuation-only scorer repair. Mean
+  latency was `25,200 ms`; total spend was `US$0.036394` of `US$0.50`.
+  Adoption: **do not adopt** for the smart-tier mapper lane. Owner record:
+  Echo Forge branch `codex/evaluate-grok-46-echo-forge`, base
+  `08174a9e056aaa932b81a51298c952e79cd1eab5`,
+  `docs/evals/attempts/scene-to-soundscape-golden/20260819-openrouter-x-ai-grok-4-6.md`.
+- **Storybook** ran direct xAI Responses against synthetic Luna persona
+  fixtures only because live ZDR was false. Grok 4.6 removed the visible
+  reasoning leakage seen on Grok 4.3 and passed the four independently isolated
+  single-turn cases, but mean latency was `8,211 ms` against the `5,000 ms`
+  hard chat gate. Multi-turn and a fresh Claude arm were not measured. Total
+  actual/estimated spend was `US$0.091476` of `US$0.25`. Adoption: **do not
+  adopt** for Luna chat. Owner record:
+  Storybook branch `codex/evaluate-grok-46-storybook`, base
+  `d892fef08276eef80e5e638743434e933b10465f`,
+  `docs/evals/attempts/049-luna-persona-grok46-challenger.md`.
+
+Combined campaign spend was `US$0.127870` of the selected `US$0.75` ceiling.
+Both owners retained their native attempt, registry, and story records; no
+target scout, private payload, runtime-default change, commit, push, or rollout
+was required.
+
 ## Evidence
 
 - xAI release notes document the August 12 API release and pricing tiers:

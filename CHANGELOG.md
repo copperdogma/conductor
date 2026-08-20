@@ -1,5 +1,17 @@
 # Changelog
 
+## [2026-08-20-01] - Harden owning-repo evaluation campaigns
+
+### Changed
+- Required multi-repo model campaigns to dispatch isolated owning-repo agents
+  before provider calls while Conductor retains spend coordination and final
+  review.
+- Added zero-cost resolved-harness topology checks, durable evidence rules,
+  fail-closed handling for invalid aggregate runners, proportional validation,
+  and mandatory campaign follow-through in Conductor's routing record.
+- Appended the selected Echo Forge and Storybook Grok 4.6 outcomes to Scout 053
+  without rewriting its original dated recommendation.
+
 ## [2026-08-19-01] - Orchestrate selected owning-repo model evaluations
 
 ### Changed

@@ -221,8 +221,9 @@ Use this index to track external sources investigated for cross-project value.
   skill failure class is selected.
 - `2026-08-12` — [Scout 053 — Evaluate Grok 4.6 API Eval Opportunities](./scout/scout-053-grok-46-api-eval-opportunities.md) — `Spike`
   Grok 4.6 is directly callable through xAI now. Route the first bounded evals
-  to Dossier, CineForge, and doc-web, while keeping Storybook and the rest of
-  the portfolio out of this wave unless a concrete maintained failure appears.
+  to Dossier, CineForge, and doc-web. A later user-selected campaign tested new
+  maintained triggers in Echo Forge and Storybook; both owner repos returned
+  do-not-adopt verdicts, recorded in the scout's dated follow-through.
 - `2026-08-13` — [Scout 054 — Route Gemini 3.7 Flash and DeepSeek V4 Pro GA Evals](./scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md) — `Spike`
   Both releases are callable with current workspace credentials. Route Gemini
   3.7 first to doc-web, CineForge, and Dossier; route DeepSeek V4 Pro first to
