@@ -13,6 +13,9 @@ Before spending tokens, record:
 - exact runtime stage or product surface that could change
 - maintained prompt, fixtures, scorer/golden, and current winning evidence
 - quality threshold plus latency, cost, reliability, privacy, and safety limits
+- fixture data class and the resulting provider retention/training boundary;
+  do not infer that checked-in means public or that realistic-looking data is
+  private when the owner identifies it as public or synthetic
 - the decision this run can support: adopt, conditional adopt, do not adopt, or
   defer
 - freshness mode, cache policy, proposed configuration arms, retry budget,
@@ -75,14 +78,23 @@ Advance through this ladder and retain sanitized evidence at each stage:
 
 Qualify every materially distinct runtime surface separately. A schema proven
 for one task does not qualify another task with a different output shape. Do
-not start scored evaluation on a surface until its required native contract and
-harness-parity probe pass.
+not start adoption-grade scoring on a surface until its required native
+contract and harness-parity probe pass. When approved inputs are clearly public
+or synthetic, a failed production-contract probe may be followed by a bounded,
+clearly labeled diagnostic that relaxes one transport constraint to measure raw
+capability. Diagnostic scores cannot establish production parity or adoption.
+Before parsing a diagnostic response, retain its complete raw envelope/content
+in owner-approved ignored or protected storage and record a safe hash/pointer.
+Do not let a strict parser reduce a useful failure to a truncated prefix that
+forces another provider call merely to classify wrapper or formatting behavior.
 
 HTTP success is insufficient. Fail closed unless all of these hold:
 
 - the provider reports documented terminal success with no error/incomplete
   condition
-- served model/provider identity matches the intended arm
+- served model identity matches the intended arm, and the resolved provider is
+  recorded; require an exact provider match only when route identity is part of
+  the predeclared decision contract
 - the documented final output field is complete and unambiguous
 - the actual outgoing prompt/input payload is lossless
 - required schema/tool flags were sent and the output satisfies the contract
@@ -102,6 +114,14 @@ When JSON is required, use strict schema enforcement when supported. Label a
 weaker documented JSON mode honestly. Prompt-only JSON is not API-enforced
 structure. Ensure the output budget can hold the required schema before
 classifying malformed or incomplete JSON as model behavior.
+
+Apply privacy controls to the payload rather than as universal transport
+requirements. Clearly public or synthetic fixtures may use a route that retains
+or trains on inputs when that posture was disclosed and approved. Private,
+personal, confidential, licensed-restricted, and unclear fixtures remain
+ineligible until the owner policy and route permit them. ZDR and
+`data_collection=deny` are optional for public/synthetic evaluation unless the
+repo explicitly requires them.
 
 ## 4. Predeclare a Fair Configuration and Spend Budget
 

@@ -109,6 +109,20 @@ Record the exact slug, endpoint/API family, relevant modalities and structured
 output/tool support, reasoning controls, pricing, and retention/ZDR posture.
 Availability is not adoption.
 
+Treat privacy controls as payload-dependent rather than universal eval gates:
+
+- for clearly public or synthetic fixtures, ZDR and provider data-collection
+  denial are optional unless the owner or repo requires them. Disclose when the
+  selected route may retain or train on inputs, and proceed only within the
+  approved evaluation scope
+- for non-public but non-sensitive project material, follow the owner's stated
+  provider policy and disclose retention/training uncertainty before calls
+- for private, personal, confidential, licensed-restricted, or unclear inputs,
+  fail closed until the route and owner policy make them eligible
+
+Do not combine every available privacy filter by default. A filter is an
+absolute gate only when the payload classification or owner policy requires it.
+
 ### 2. Inspect the portfolio
 
 Start with `projects.yaml`, then inspect every registered project and any
@@ -121,6 +135,11 @@ explicitly named active repo. Read enough current owner context to identify:
 - frozen prompts, fixtures, scorers/goldens, hard quality gates, latency/cost
   gates, privacy restrictions, and current work that makes an eval timely or
   disruptive
+- each fixture's actual data class: clearly public/synthetic, non-public but
+  non-sensitive project material, or private/sensitive data. Checked into Git
+  does not by itself mean public, and realistic names do not by themselves
+  prove personal data when the owner identifies the fixture as public or
+  synthetic
 - the smallest lane whose result could change a real decision
 
 Do not infer fit from a vendor capability claim alone. A repo gets a positive
@@ -195,6 +214,9 @@ The selection authorizes:
   records needed for the proposed lane
 - spend up to each disclosed per-repo ceiling and no more than the disclosed
   selected-campaign total
+- use of the proposal's clearly public or synthetic fixtures under the
+  disclosed provider retention/training posture. This does not authorize
+  private or unclear fixtures
 
 It does **not** authorize:
 
@@ -287,6 +309,31 @@ actual production contract before semantic scoring, use frozen maintained
 inputs, run progressively, stop on predeclared gates, and retain failures as
 access/transport/reliability evidence rather than hiding them.
 
+Keep subject identity strict without overconstraining router infrastructure:
+
+- exact requested and served model identity is mandatory; never substitute a
+  different model as a fallback
+- pin a provider endpoint only when the owner decision, reproducibility claim,
+  pricing, quantization, privacy policy, or multiple available endpoints makes
+  that route decision-bearing. Otherwise allow same-model provider routing and
+  record the resolved provider
+- provider fallback among endpoints serving the exact model is not itself a
+  model substitution. Disable it only when route identity is decision-bearing;
+  always disable model-list fallbacks to another model
+
+For structured lanes, test the production contract first. Use strict schema
+and parameter enforcement when a drop-in adoption claim depends on them. If
+that route fails before a valid answer, a clearly labeled diagnostic may relax
+one transport constraint on clearly public/synthetic data to measure raw model
+capability. Such evidence cannot prove production parity or direct adoption;
+record it as adapter-required, transport-limited, or exploratory. Do not let a
+production-contract failure prevent all capability measurement when the
+approved payload is safe and a bounded diagnostic can isolate the cause.
+Persist the complete diagnostic response in owner-approved ignored/protected
+storage before strict parsing or cleanup can discard it, then record a safe
+hash and pointer. This allows offline wrapper removal and schema/scorer checks
+without paying for or biasing a second model response.
+
 Before the first paid multi-case run, perform a zero-cost resolved-harness
 preflight. Inspect the rendered case matrix, conversation grouping, exact
 prompt/runtime parity, selected subject and judge providers, estimated judge
@@ -337,8 +384,10 @@ adoption as separate verdict layers.
 
 - Do not score pre-response infrastructure failures as semantic misses.
 - Do not hide repeated instability behind a successful retry.
-- Do not weaken schema, tools, modality, or input requirements merely to make a
-  candidate pass unless the product can accept that weaker contract.
+- Do not weaken schema, tools, modality, or input requirements to claim
+  production parity. A bounded, explicitly diagnostic relaxation is allowed on
+  approved public/synthetic data when it isolates raw capability and is not
+  presented as adoption evidence.
 - Do not alter goldens or scorers to rescue a model without source-backed
   verification and owner-contract authority.
 - Do not send private fixtures through a provider path that has not cleared the

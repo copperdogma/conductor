@@ -1,5 +1,16 @@
 # Changelog
 
+## [2026-08-22-01] - Correct public-fixture evaluation gates
+
+### Added
+- Added the completed Ox Alpha portfolio campaign record with owner-local
+  doc-web, CineForge, and Echo Forge outcomes.
+
+### Changed
+- Made retention and ZDR requirements depend on fixture sensitivity, retained
+  exact-model identity while making provider pinning decision-dependent, and
+  allowed bounded public/synthetic diagnostics with safe raw-response evidence.
+
 ## [2026-08-21-01] - Centralize evaluation credential custody
 
 ### Added

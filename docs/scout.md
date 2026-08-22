@@ -233,3 +233,8 @@ Use this index to track external sources investigated for cross-project value.
   evaluations in doc-web and CineForge only. Storybook already has passing,
   cheaper visual incumbents behind a stricter privacy boundary; the other
   tracked repos lack a current decision-bearing vision lane.
+- `2026-08-22` — [Scout 059 — Ox Alpha Portfolio Evaluation Recommendation](./scout/scout-059-ox-alpha-portfolio-evaluation-recommendation.md) — `Defer`
+  Ox Alpha is callable on approved public or synthetic fixtures, but doc-web
+  measured below its maintained crop gate, CineForge received malformed and
+  slow output, and Echo Forge exhausted its response budget before producing a
+  complete payload. No owner default should change.
