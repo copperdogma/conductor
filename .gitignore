@@ -2,3 +2,5 @@
 .gemini/commands/
 __pycache__/
 *.pyc
+.env.eval
+eval-credentials.env

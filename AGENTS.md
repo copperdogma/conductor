@@ -88,7 +88,9 @@ Specialized loops:
   recommendations, reproducibility requests, evidence audits, and approved
   repo-local execution. Conductor first returns numbered evaluation choices;
   after the user selects all or a subset, it enters isolated owning-repo
-  worktrees where each repo runs and judges its own maintained benchmark
+  worktrees where each repo runs and judges its own maintained benchmark,
+  temporarily supplying only the selected provider's designated eval key when
+  the owner lacks one
 - `/ideation` for optional divergent option generation before Ideal/spec,
   story, or ADR decisions when option quality is the blocker
 - `/setup-methodology` for refreshing this project's own methodology package
@@ -117,6 +119,9 @@ Specialized loops:
   upgrades should be quiet, isolated, and easy to land or discard without
   polluting the project's live work environment.
 - An approved cross-project evaluation remains repo-local work: read and obey
-  each owning repo's instructions, credentials, fixtures, gates, artifacts, and
+  each owning repo's instructions, fixtures, privacy, gates, artifacts, and
   verdict contract rather than running a synthetic substitute in Conductor.
+  Conductor may inject one configured eval-only provider key through its safe
+  helper; never expose the value, copy the whole vault, overwrite an owner key,
+  or infer permission to change provider account settings.
 - No implicit commits or pushes.

@@ -33,6 +33,9 @@ tracked_projects:
 > handoff-only Conductor boundary after explicit all-or-subset selection. The
 > provider-native transport, fairness, privacy, provenance, and owner-verdict
 > requirements remain current; see Alignment 042 for the evolved contract.
+> ADR-003 and Story 032 later supersede only the owner-only credential-custody
+> rule by allowing one temporary Conductor-custodied eval key per selected
+> isolated owner worktree.
 
 **Priority**: High
 **Status**: Done

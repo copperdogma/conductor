@@ -931,11 +931,36 @@
       ],
       "status": "Done",
       "title": "Owning-Repo Model Evaluation Orchestration"
+    },
+    {
+      "category_refs": [
+        "registry-routing",
+        "story-prep"
+      ],
+      "decision_refs": [
+        "ADR-003"
+      ],
+      "depends_on": [
+        "Story 031"
+      ],
+      "file": "docs/stories/story-032-conductor-eval-credential-custody.md",
+      "id": 32,
+      "ideal_refs": [
+        "I2",
+        "I3",
+        "I5"
+      ],
+      "priority": "High",
+      "spec_refs": [
+        "spec:3.3"
+      ],
+      "status": "Done",
+      "title": "Conductor Evaluation Credential Custody"
     }
   ],
   "story_counts": {
     "Blocked": 0,
-    "Done": 28,
+    "Done": 29,
     "Draft": 0,
     "In Progress": 0,
     "Pending": 0

@@ -32,7 +32,9 @@ In the ideal state:
   repeated from scratch
 - a model-only evaluation request becomes one availability/portfolio
   recommendation, then one simple all-or-subset approval can launch the
-  selected repo-local evaluations without losing owner context
+  selected repo-local evaluations without losing owner context; Conductor can
+  supply designated eval-only provider access while the owner retains its
+  harness, fixtures, privacy gates, evidence, and adoption decision
 - the structure stays light enough that it removes busywork instead of adding it
 - human judgment is reserved for real conflicts and prioritization, not routine
   comparison labor

@@ -1,6 +1,6 @@
 ---
 name: evaluate-model
-description: Verify a current AI model, map its decision-bearing fit across tracked projects, recommend a numbered evaluation shortlist, and after explicit all-or-subset approval run fair provider-native evaluations inside isolated owning-repo worktrees. Use for new-model, replacement, comparison, rerun, reproducibility, or evidence-audit requests where API access, structured output, reasoning, reliability, cost, latency, privacy, or quality affect adoption. Use scout only for release research with no evaluation decision.
+description: Verify a current AI model, map its decision-bearing fit across tracked projects, recommend a numbered evaluation shortlist, and after explicit all-or-subset approval run fair provider-native evaluations inside isolated owning-repo worktrees with centrally custodied eval access when needed. Use for new-model, replacement, comparison, rerun, reproducibility, or evidence-audit requests where API access, structured output, reasoning, reliability, cost, latency, privacy, or quality affect adoption. Use scout only for release research with no evaluation decision.
 user-invocable: true
 ---
 
@@ -187,6 +187,9 @@ already maps unambiguously to positively recommended numbered items.
 The selection authorizes:
 
 - isolated current-base worktrees for the selected owners
+- temporary injection of the one required configured evaluation-only provider
+  credential from Conductor's local vault into each selected isolated owner's
+  ignored environment, under the owner's expected variable name
 - the repo-local story/plan, adapter or evidence scaffolding, provider probes,
   bounded progressive benchmark, artifact inspection, tests, and durable eval
   records needed for the proposed lane
@@ -196,6 +199,9 @@ The selection authorizes:
 It does **not** authorize:
 
 - use of private fixtures on an unapproved provider/retention path
+- copying product/runtime credentials into Conductor, copying the whole eval
+  vault into an owner, changing provider-account privacy/billing settings, or
+  retaining a temporary owner copy after the campaign
 - spend above a disclosed ceiling or an unbounded-price call
 - product prompt/golden/scorer changes that require a new preference decision
 - runtime-default changes, rollout, deployment, destructive operations, commit,
@@ -225,6 +231,15 @@ broader lanes, private payloads, higher spend, commits, pushes, or rollout. If
 only one repo is selected, or subagents are unavailable, the root may execute
 the same owner protocol directly and must say so.
 
+Before dispatching an owner that needs evaluation-only access, read
+[the credential-custody protocol](references/credential-custody.md) completely.
+Check provider presence by name only. Prefer an owner's already-configured
+credential when it exists; otherwise inject one central provider key through
+the helper into an ignored environment without exposing or overwriting a value.
+Pass the owner worker only the provider, target variable name, ignored env path,
+and cleanup requirement—not the secret. Central credential presence is access
+infrastructure, not proof of callability, privacy eligibility, or transport.
+
 For each selected item:
 
 1. Resolve the path from `projects.yaml` and inspect its primary checkout and
@@ -245,8 +260,11 @@ For each selected item:
    provenance, and layered-verdict invariants.
 
 The work happens on behalf of the owning repo, not “from Conductor.” Provider
-calls use the owner's existing authorized credential path. Never copy secrets
-or private payloads into Conductor artifacts or commentary.
+calls use either the owner's existing authorized credential or the one
+temporary Conductor-custodied eval key injected for the selected provider.
+Never copy secrets or private payloads into Conductor artifacts or commentary.
+Remove a temporary injected key after the owner finishes or stops, and record
+cleanup by variable name only.
 
 ### 3. Run as the owner would
 
@@ -325,6 +343,10 @@ adoption as separate verdict layers.
   verification and owner-contract authority.
 - Do not send private fixtures through a provider path that has not cleared the
   owning repo's policy.
+- Do not print, message, fingerprint, commit, or copy the whole central eval
+  vault; transfer only the selected provider key through the helper.
+- Do not treat possession of a central key as authorization to change an
+  account privacy/billing setting or weaken an owner's payload policy.
 - Do not evaluate an unselected or unnumbered repo by implication.
 - Do not commit, push, merge, change defaults, deploy, or broaden rollout
   without separate explicit authorization.

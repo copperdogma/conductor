@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-08-21-01] - Centralize evaluation credential custody
+
+### Added
+- Added ADR-003, Story 032, and a git-external mode-`0600` Conductor vault for
+  designated eval-only provider credentials.
+- Added `scripts/eval_credentials.py` with atomic, value-suppressing import,
+  status, one-key owner injection, cleanup, and validation operations.
+
+### Changed
+- Updated `/evaluate-model` so approved Stage 2 campaigns can temporarily
+  inject one configured eval provider key into an isolated owner's ignored
+  environment while preserving owner control of fixtures, privacy, spend,
+  evidence, and adoption.
+- Kept product/runtime credentials owner-managed and kept provider account
+  privacy/billing changes outside ordinary eval approval.
+
 ## [2026-08-20-01] - Harden owning-repo evaluation campaigns
 
 ### Changed

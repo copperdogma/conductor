@@ -54,6 +54,13 @@ run.
 
 ## 3. Qualify Transport Before Quality
 
+Resolve credentials before the access probe. If the owner lacks an evaluation-
+only provider key, use the Conductor coordinator's credential-custody protocol
+to inject exactly that provider into an ignored owner environment. Do not
+receive or request the raw value in task text. An injected key does not relax
+the owner's privacy rules or authorize provider-account setting changes, and it
+must be removed after the run.
+
 Advance through this ladder and retain sanitized evidence at each stage:
 
 1. **Access probe** — confirm the exact model ID is visible and authorized for

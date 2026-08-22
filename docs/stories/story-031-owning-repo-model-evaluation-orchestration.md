@@ -42,6 +42,11 @@ tracked_projects:
 
 # Story 031 — Owning-Repo Model Evaluation Orchestration
 
+> **Credential-boundary update (2026-08-21):** ADR-003 and Story 032 supersede
+> this story's owner-only credential custody. Owners still control prompts,
+> fixtures, privacy, scoring, evidence, and adoption; Conductor may now inject
+> one designated eval-only provider key into an approved isolated worktree.
+
 **Priority**: High
 **Status**: Done
 **Decision Refs**: Alignment 042

@@ -228,3 +228,8 @@ Use this index to track external sources investigated for cross-project value.
   Both releases are callable with current workspace credentials. Route Gemini
   3.7 first to doc-web, CineForge, and Dossier; route DeepSeek V4 Pro first to
   CineForge, Dossier, and Echo Forge, each through its narrow maintained gate.
+- `2026-08-21` — [Scout 058 — Route DeepSeek V4 Flash Vision Exp Evals](./scout/scout-058-deepseek-v4-flash-vision-exp-eval-routing.md) — `Spike`
+  DeepSeek's experimental V4 Flash Vision release warrants bounded owner-run
+  evaluations in doc-web and CineForge only. Storybook already has passing,
+  cheaper visual incumbents behind a stricter privacy boundary; the other
+  tracked repos lack a current decision-bearing vision lane.

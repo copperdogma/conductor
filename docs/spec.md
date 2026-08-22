@@ -57,12 +57,16 @@ all positive items; an explicit numbered or named subset selects only those
 items.
 
 Selected evaluations run in isolated worktrees under each owning repository's
-instructions, credentials, maintained prompts, fixtures, scorers, thresholds,
-artifact conventions, and adoption authority. Conductor may orchestrate and
-synthesize those runs, but it does not become a canonical benchmark harness or
-move provider payloads into its own artifacts. Selection does not implicitly
-authorize private-data use, higher spend, default changes, deployment, commit,
-push, merge, or landing.
+instructions, maintained prompts, fixtures, scorers, thresholds, privacy
+rules, artifact conventions, and adoption authority. Conductor is the local
+custodian for explicitly designated eval-only provider credentials and may
+temporarily inject the one required key into a selected owner's ignored
+worktree environment. Product/runtime credentials remain owner-managed.
+Conductor does not become a canonical benchmark harness or move provider
+payloads into its own artifacts. Selection does not implicitly authorize
+private-data use, provider account-policy changes, copying the whole credential
+vault, permanent owner provisioning, higher spend, default changes,
+deployment, commit, push, merge, or landing.
 
 ## spec:4 Story & Decision Preparation
 

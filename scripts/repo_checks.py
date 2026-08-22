@@ -65,6 +65,7 @@ def test() -> None:
     lint()
     run([sys.executable, "scripts/methodology_graph.py", "check"])
     run(["./scripts/sync-agent-skills.sh", "--check"])
+    run([sys.executable, "-m", "unittest", "discover", "-s", "tests", "-p", "test_*.py"])
     print("test: OK")
 
 
@@ -81,4 +82,3 @@ def main(argv: list[str]) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main(sys.argv))
-

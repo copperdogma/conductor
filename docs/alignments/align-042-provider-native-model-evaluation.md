@@ -1,10 +1,11 @@
 # Alignment 042 — Provider-Native Model Evaluation
 
 **Date**: 2026-07-21
-**Updated**: 2026-08-19
+**Updated**: 2026-08-21
 **Classification**: Portable improvement with repo-local execution
 **Stories**: [Story 027](../stories/story-027-provider-native-model-evaluation.md),
-[Story 031](../stories/story-031-owning-repo-model-evaluation-orchestration.md)
+[Story 031](../stories/story-031-owning-repo-model-evaluation-orchestration.md),
+[Story 032](../stories/story-032-conductor-eval-credential-custody.md)
 **Projects Reviewed**: conductor, dossier, storybook, doc-web, cine-forge,
 boardgame-ingester, roborally, echo-forge
 **Reference Build**: conductor
@@ -21,10 +22,12 @@ before semantic quality is judged.
 Conductor owns the portable reference workflow, cross-project routing, and—after
 the user selects all or a subset—the orchestration that enters isolated owner
 worktrees and executes the approved repo-local campaigns. It still does not own
-model runtimes, eval fixtures, provider credentials, benchmark artifacts, or
-adoption decisions for target repos. Current provider facts remain external and
-drift-prone; each target repo owns its prompts, adapters, scorers, thresholds,
-and final evidence.
+model runtimes, eval fixtures, benchmark artifacts, or adoption decisions for
+target repos. ADR-003 now makes Conductor the local custodian for designated
+eval-only provider credentials, which it injects one at a time into approved
+isolated owner worktrees. Product credentials remain owner-managed. Current
+provider facts remain external and drift-prone; each target repo owns its
+prompts, adapters, scorers, privacy rules, thresholds, and final evidence.
 
 ## 2026-08-19 Orchestration Evolution
 
@@ -241,9 +244,10 @@ The Conductor checkout by itself cannot establish:
 - that the chosen setting matrix is fair on a real maintained task
 - that quality, latency, cost, and variance beat a target repo's incumbent
 
-Those claims require an owning repo's real harness, credentials, artifacts, and
-acceptance gates. After explicit selection, Conductor may establish them by
-switching into that isolated owner context and following its local workflow.
+Those claims require an owning repo's real harness, an authorized owner or
+Conductor-custodied eval credential, artifacts, and acceptance gates. After
+explicit selection, Conductor may establish them by switching into that
+isolated owner context and following its local workflow.
 Synthetic success in the Conductor checkout alone is still readiness evidence,
 not adoption proof.
 

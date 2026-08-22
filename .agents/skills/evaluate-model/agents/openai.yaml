@@ -1,4 +1,4 @@
 interface:
   display_name: "Evaluate Model"
   short_description: "Recommend and run owning-repo model evals"
-  default_prompt: "Use $evaluate-model to verify this model, recommend numbered repo evaluations, and run the approved all-or-subset selection inside isolated owning-repo worktrees."
+  default_prompt: "Use $evaluate-model to verify this model, recommend numbered repo evaluations, and run the approved all-or-subset selection inside isolated owning-repo worktrees, using Conductor's eval-only credential vault when needed."
