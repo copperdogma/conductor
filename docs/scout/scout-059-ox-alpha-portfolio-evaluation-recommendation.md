@@ -2,8 +2,9 @@
 
 **Stage:** Stage 2 — selected owner campaigns completed
 **Source:** OpenRouter public model/endpoint metadata and current API, routing,
-reasoning, structured-output, and privacy documentation, checked 2026-08-22.
-**Status:** corrected public/synthetic rerun complete / callable / strict structured output blocked
+reasoning, structured-output, and privacy documentation, initially checked
+2026-08-22 and refreshed 2026-08-25.
+**Status:** force-fresh drift rerun complete / callable / strict structured output blocked / no consistent improvement
 **Candidate:** `stealth/ox-alpha` through OpenRouter
 
 ## Candidate verification
@@ -210,6 +211,40 @@ valid but below-gate score, while CineForge still failed JSON syntax and its
 latency gate, and Echo Forge exhausted its response budget before producing a
 complete payload. No result supports a runtime-default change. All temporary
 credential variables were removed after the reruns.
+
+## 2026-08-25 force-fresh drift rerun
+
+Cam requested the same three owner evaluations again to test the claim that Ox
+Alpha learns live and improves day by day. The campaign repeated the preserved
+2026-08-22 candidate configuration, maintained public/synthetic fixtures,
+progressive gates, no-cache execution, exact served-model requirement, and
+repo-local spend ceilings. It was candidate-only: the result can detect
+behavioral drift under the opaque `stealth/ox-alpha` slug, but cannot identify
+whether a change came from online learning, new weights, routing, serving, or
+sampling. OpenRouter still publishes no snapshot/version identifier or claim
+of daily live learning for this route.
+
+| Owner | Same-contract 2026-08-25 result | Change from 2026-08-22 | Verdict |
+| --- | --- | --- | --- |
+| doc-web | Strict routing still returned 404. The exact-model 13-case diagnostic scored `12/13`, mean `0.880846`, with one source-confirmed empty-crop miss; mean latency `7.248s`. | Quality regressed from `13/13` and `0.915146`; mean latency improved from `8.539s`. | Do not adopt. The 40/22 follow-ons remained gated off. |
+| CineForge | Strict routing still returned 404. The exact-model Open Frequency diagnostic again produced malformed fenced JSON; provider latency was `96.146s` and PromptFoo total was `217.675s`. | Still syntactically invalid and provider latency was `48.347s` slower than the prior `47.799s` result. | Defer / non-drop-in. No scorer, Mariner, judge, or incumbent ran. |
+| Echo Forge | The identical Dungeon request returned terminal `stop` and complete bare JSON, but failed the unchanged strict schema with 51 errors; latency was `189.202s`. | Completeness improved from truncated `length` output, while latency worsened from `150.129s` and the response still could not enter semantic scoring. | Defer. Tavern and the 34-case lane remained gated off. |
+
+The candidate calls again reported `$0`. doc-web also disclosed `$0.0073287`
+from seven excluded one-case calls started by an interrupted command-shape
+mistake; they did not enter the Ox Alpha score and the campaign stayed within
+its US$3.00 ceiling. A narrow Echo Forge parser repair now accepts valid bare
+JSON as well as a single complete Markdown fence, preserving the initial
+harness rejection while allowing offline schema diagnosis. No default changed,
+and all temporary owner credentials were removed after completion.
+
+**Portfolio conclusion:** Ox Alpha exhibited behavioral drift, not consistent
+improvement. Two lanes regressed or remained invalid and slower; the one clear
+improvement was Echo Forge response completeness, which still missed the
+production schema by 51 errors. A single repeat also cannot prove or disprove
+the provider's hidden update mechanism. Continued daily reruns would need a
+predeclared repeated-measures design and a stable provider snapshot signal to
+support more than an endpoint-behavior trend.
 
 ## Not recommended now
 

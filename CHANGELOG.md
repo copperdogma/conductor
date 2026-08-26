@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026-08-26-01] - Record Ox Alpha drift rerun
+
+### Changed
+- Recorded the force-fresh doc-web, CineForge, and Echo Forge rerun against the
+  August 22 Ox Alpha evidence, including mixed behavioral drift, unchanged
+  strict-transport blocks, and no support for consistent daily improvement.
+
 ## [2026-08-25-01] - Close retrospective SOTA reevaluation
 
 ### Added
