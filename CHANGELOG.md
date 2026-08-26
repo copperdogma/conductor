@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026-08-25-01] - Close retrospective SOTA reevaluation
+
+### Added
+- Added Story 029 and Alignment 045 with the historical rerun matrices, fresh
+  owning-repo comparisons, and reconciled per-surface SOTA decisions for
+  CineForge, doc-web, and Echo Forge.
+
+### Changed
+- Recorded Terra as doc-web's benchmark detector leader but retained Gemini as
+  the runtime default after exact production parity exposed caption leakage.
+- Recorded Grok 4.6 as Echo Forge's later measured quality leader while keeping
+  it production-ineligible on latency and cost.
+
 ## [2026-08-25-01] - Reconcile completed supervision records
 
 ### Added

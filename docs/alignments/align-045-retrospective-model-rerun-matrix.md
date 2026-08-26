@@ -49,11 +49,11 @@ Cam has time to correct new SOTA output into additional ideal examples.
 | CineForge QA | GPT-4.1 Mini | Gemini 3.7 Flash | Old rows were shortlist-only after the QA contract repair | Fresh two-case exact-runtime parity | GPT-4.1 Mini leads `0.817475` to `0.73495`; neither reaches `1.0` |
 | CineForge config detection | Gemini 3 Flash | Gemini 3.7 Flash | Historical rows shortlisted the cheaper challenger; current parity required | Fresh two-corpus subject and symmetric replacement-judge arm | Gemini 3 Flash leads `0.67995` to `0.65245`; neither reaches `0.92`, incumbent misses latency |
 | CineForge script bible | Gemini 3.5 Flash-Lite | Gemini 3.7 Flash | Historical rows were not current exact-runtime parity | Fresh two-corpus exact-runtime and symmetric replacement-judge arm | Gemini 3.5 leads `0.74495` to `0.70995`; neither reaches `0.90` |
-| doc-web detector | Gemini 3 Flash | GPT-5.6 Terra | Retained scores were close but not fresh symmetric parity | Fresh 13-case candidate/incumbent rerun | GPT-5.6 Terra is new measured and production-eligible leader: `13/13`, `0.9689` |
+| doc-web detector | Gemini 3 Flash | GPT-5.6 Terra | Retained scores were close but not fresh symmetric parity | Fresh 13-case candidate/incumbent rerun plus exact four-page production parity | Terra leads the bounded benchmark at `13/13`, `0.9689`, but retains printed captions on two page-122 runtime crops; Gemini remains the production default |
 | doc-web crop-only | Gemini 3.1 Flash Lite | Gemini 3.7 Flash | Gemini 3.7's prior source-backed miss required retained/fresh confirmation; raw result was absent | Fresh 40-case candidate/incumbent rerun | Gemini 3.1 retains quality and production lead: `40/40`, `1.0`; 3.7 repeats `39/40` |
 | doc-web page context | GPT-5.5 Responses | GPT-5.6 Terra | Current retained artifacts are replayable on unchanged goldens | No paid rerun: `22/22` already beats Terra `21/22` | GPT-5.5 retains lead |
 | doc-web handwriting | Gemini 3.6 Flash | Gemini 3.7 Flash | Current corrected-real evidence is replayable and decisive | No paid rerun | Gemini 3.6 retains measured lead; neither reaches `0.99` |
-| Echo Forge scene outline | GPT-5.4 Mini | Gemini 3.7 Flash; GPT-5.6 Terra | All prior provider results lacked fresh v3 parity | Fresh two-fixture v3 run for all three | Official three-way `0/2` tie; no sole quality leader and no production-eligible winner |
+| Echo Forge scene outline | GPT-5.4 Mini | Gemini 3.7 Flash; GPT-5.6 Terra | All prior provider results lacked fresh v3 parity | Fresh two-fixture v3 run for all three | Campaign subjects tied at `0/2`; later Grok 4.6 leads at `1/2` but fails latency and cost gates, so there is no production-eligible winner |
 
 ## Final SOTA Decisions
 
@@ -64,16 +64,30 @@ Cam has time to correct new SOTA output into additional ideal examples.
 - **Production-eligible winner**: a measured leader that also clears every hard
   safety, schema, privacy, reliability, latency, and cost gate.
 
-On that basis, GPT-5.6 Terra is the only new leader and only new
-production-eligible winner in this campaign, for doc-web's 13-case detector.
-CineForge's three freshly rerun incumbents remain their respective measured
-leaders but are not production-qualified under the repaired contracts.
+On that basis, GPT-5.6 Terra is doc-web's new bounded detector-benchmark leader,
+but it is not a production-eligible winner: the explicitly approved exact
+runtime proof reproduced Luna's hard caption-leak defect. Gemini 3 Flash stays
+the executable detector. CineForge's three freshly rerun incumbents remain
+their respective measured leaders but are not production-qualified under the
+repaired contracts; later GLM-5.3 and Ox Alpha work did not change that.
 doc-web's crop-only, page-context, and handwriting leaders remain unchanged.
-Echo Forge has an official three-way tie at `0/2`; the incumbent stays
-executable for continuity but no longer owns a unique current SOTA claim.
+Echo Forge's campaign subjects tied at `0/2`; later Grok 4.6 evidence now leads
+at `1/2`, but its latency and cost leave the repo without a production-eligible
+winner.
 
-Total conservative provider spend was approximately `$1.32303`: CineForge
-`$0.942709`, doc-web `$0.29152`, and Echo Forge `$0.08880`.
+Total conservative provider spend was approximately `$1.368482`: CineForge
+`$0.942709`, doc-web `$0.336972` including the exact Terra runtime proof, and
+Echo Forge `$0.08880`.
+
+## Landing Reconciliation — 2026-08-25
+
+- CineForge evidence lands as Story 216 / Attempt 030 after newer main added
+  Stories 214-215 and Attempts 027-029.
+- doc-web evidence lands as Story 232 / Attempt 029. The production-parity
+  promotion check is part of that attempt, not a benchmark-score rewrite.
+- Echo Forge evidence lands as Story 069 and explicitly incorporates the newer
+  Grok 4.6 and Ox Alpha outcomes already present on main.
+- No Dossier work was opened, modified, delegated, or interrupted.
 
 ## Intentional Divergence
 

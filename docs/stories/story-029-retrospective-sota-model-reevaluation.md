@@ -180,9 +180,18 @@ historically justified candidate/surface.
   Conductor itself will only own the matrix and handoff record.
 - 20260814-0145 — Completed the three owning-repo campaigns. Fresh incumbent
   parity established per-surface measured leaders independently from hard
-  production eligibility. GPT-5.6 Terra is the only new leader and eligible
-  winner, on doc-web detector (`13/13`, `0.9689`). CineForge incumbents remain
-  measured leaders but all miss repaired quality targets; Echo Forge is an
-  official `0/2` three-way tie and its executable default no longer has a sole
-  SOTA claim. The doc-web held-out prerequisite is removed. Conservative total
+  production eligibility. GPT-5.6 Terra became doc-web's detector-benchmark
+  leader (`13/13`, `0.9689`). CineForge incumbents remained measured leaders
+  but missed repaired quality targets; Echo Forge's campaign subjects tied at
+  `0/2`. The doc-web held-out prerequisite was removed. Initial conservative
   spend was `$1.32303`; no private data or runtime default changed.
+- 20260825-2030 — Closeout reconciled the campaign against each repo's newer
+  main and Cam's explicit detector-adoption approval. An exact four-page
+  production-parity run showed Terra retained printed captions below both
+  page-122 portraits, so it remains the benchmark quality leader but is not
+  production-eligible; Gemini stays doc-web's runtime detector. Later Echo
+  Forge evidence makes Grok 4.6 the measured leader at `1/2`, but it still
+  fails latency and cost gates. CineForge's later GLM-5.3 and Ox Alpha attempts
+  did not supplant its three measured incumbents. Final subject spend is
+  `$1.368482`. Target evidence is Story 216 / Attempt 030 in CineForge, Story
+  232 / Attempt 029 in doc-web, and Story 069 in Echo Forge.
