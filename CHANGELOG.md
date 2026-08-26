@@ -1,5 +1,21 @@
 # Changelog
 
+## [2026-08-25-01] - Reconcile completed supervision records
+
+### Added
+- Added Story 029 and Alignment 045 with the completed current-contract model
+  rerun matrix across CineForge, doc-web, and Echo Forge.
+- Added Story 030 and Scout 055 with the bounded SkillEvaluator canary and its
+  optional, advisory Conductor-only adoption decision.
+- Added the promoted setup-versus-evaluation evidence learning and the
+  historical GLM-5.3 and DeepSeek Vision routing records.
+
+### Changed
+- Added the approved Scout guardrail separating setup and compatibility
+  friction from decision-bearing evaluation evidence.
+- Recorded CineForge's zero-spend GLM-5.3 access stop and marked the older
+  DeepSeek Vision routing record superseded by Scout 058.
+
 ## [2026-08-22-01] - Correct public-fixture evaluation gates
 
 ### Added

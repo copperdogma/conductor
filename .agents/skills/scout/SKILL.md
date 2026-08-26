@@ -76,6 +76,14 @@ the source:
   official docs are easy to check and likely to drift. Upstream docs answer
   current interface facts; repo-local Ideal/spec/compromise/evals decide
   whether adoption is valuable and safe.
+- When an external-tool scout includes an executable evaluation, keep setup,
+  environment, and compatibility evidence separate from task-result evidence.
+  Setup friction may count as recurring overhead or operational risk, but it
+  must not determine the adoption verdict before the declared decision-bearing
+  test runs. If bounded, safe, in-scope diagnosis still cannot run that test,
+  report the evaluation as blocked or incomplete and name the missing evidence.
+  This does not override declared cost, safety, credential, scope, or runtime
+  stop gates.
 - If a connector fails, say so explicitly and use the next honest fallback.
 - Do not let Conductor accumulate repo-specific "maybe later" pressure forever.
   If a future idea clearly belongs to one tracked repo, hand it off to that

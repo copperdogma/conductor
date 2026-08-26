@@ -228,6 +228,20 @@ Use this index to track external sources investigated for cross-project value.
   Both releases are callable with current workspace credentials. Route Gemini
   3.7 first to doc-web, CineForge, and Dossier; route DeepSeek V4 Pro first to
   CineForge, Dossier, and Echo Forge, each through its narrow maintained gate.
+- `2026-08-19` — [Scout 055 — Evaluate NVIDIA SkillEvaluator and ClawHub Skill Lift](./scout/scout-055-nvidia-skillevaluator-clawhub-skill-lift.md) — `Adopt`
+  Use it as an optional, isolated Conductor diagnostic. A completed 16-trial
+  canary found neutral overall lift but useful workflow-adherence evidence,
+  while raw review exposed default-grader false positives. Require hand-authored
+  cases, a baseline, and manual inspection; do not schedule weekly discovery or
+  create target-repo rollout pressure from the tool's score.
+- `2026-08-20` — [Scout 056 — GLM-5.3 CineForge Script-Bible Evaluation](./scout/scout-056-glm-53-cineforge-script-bible-handoff.md) — `Defer`
+  CineForge accepted the bounded handoff but had no configured Z.ai credential,
+  and current documentation did not prove provider-enforced strict ScriptBible
+  schema. The owner stopped before inference at $0 and retained its incumbent.
+- `2026-08-21` — [Scout 057 — DeepSeek V4 Flash Vision Exp Early Routing](./scout/scout-057-deepseek-v4-flash-vision-exp-doc-web-handoff.md) — `Superseded`
+  Preserves the initial direct-provider routing analysis only. Scout 058 is the
+  authoritative portfolio selection and campaign record; do not execute Scout
+  057's older three-repo shortlist or held-out prerequisite.
 - `2026-08-21` — [Scout 058 — Route DeepSeek V4 Flash Vision Exp Evals](./scout/scout-058-deepseek-v4-flash-vision-exp-eval-routing.md) — `Spike`
   DeepSeek's experimental V4 Flash Vision release warrants bounded owner-run
   evaluations in doc-web and CineForge only. Storybook already has passing,

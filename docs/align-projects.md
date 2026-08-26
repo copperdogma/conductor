@@ -168,3 +168,8 @@ Use this index to track internal cross-project alignment work.
   Focused on repairing hidden scorer preferences, contaminated selection cases,
   and stale incumbent comparisons across CineForge, doc-web, and Echo Forge
   while preserving repo-owned safety and value gates.
+- `2026-08-14` — [Alignment 045 — Retrospective Model Rerun Matrix](./alignments/align-045-retrospective-model-rerun-matrix.md)
+  Uses historical attempts to shortlist only decision-relevant current-contract
+  reruns, restores doc-web's hand-authored goldens as its authoritative
+  benchmark, and records per-surface SOTA conclusions after paid owner-repo
+  comparisons.
