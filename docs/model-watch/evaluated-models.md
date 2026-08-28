@@ -1,0 +1,52 @@
+# Evaluated frontier model ledger
+
+This is Conductor's central deduplication index for frontier-model evaluation
+campaigns. It answers whether an exact model or alias has already entered an
+owning repository's evaluation workflow. Owner repositories remain authoritative
+for prompts, fixtures, scores, artifacts, and adoption decisions.
+
+An entry belongs here once an approved owner campaign makes an authenticated
+contract probe, provider call, or a documented access/transport stop. An entry
+does not imply semantic quality was measured. Read the recorded verdict layer
+and owner evidence before making any capability claim.
+
+Before recommending an evaluation, match the provider-qualified ID, public
+alias, and dated checkpoint against this ledger. A match suppresses a new-eval
+recommendation. Recommend a clearly labeled **re-evaluation** only when Cam asks
+for a fresh run or linked current evidence satisfies a recorded retry trigger.
+Documentation, catalog, pricing, or route metadata alone does not satisfy a
+callability, strict-contract, privacy, reliability, latency, cost, or capability
+trigger.
+
+| Canonical model | Known aliases / checkpoints | Latest owner attempt | Owner evidence | Layered outcome | Re-evaluate only when |
+| --- | --- | --- | --- | --- | --- |
+| Google `gemini-3.5-flash` | Gemini 3.5 Flash | 2026-05-20 | [Scout 035](../scout/scout-035-google-gemini-35-flash-api-eval-opportunities.md); CineForge registry | Evaluated across maintained CineForge lanes; no portfolio-wide adoption | Exact new checkpoint, repaired owner contract, or explicit fresh comparison |
+| Moonshot `kimi-k2.6` | Kimi K2.6 | 2026-05-20 | [Scout 038](../scout/scout-038-kimi-k26-api-eval-opportunities.md); CineForge and Dossier registries | Evaluated; owner-local results retained | Exact new checkpoint or owner retry trigger |
+| Anthropic `claude-opus-4.8` | Claude Opus 4.8, Opus 4.8 | 2026-05-29 | [Scout 043](../scout/scout-043-claude-opus-48-api-eval-opportunities.md); CineForge and Dossier registries | Evaluated; owner-local results retained | Exact new checkpoint or owner retry trigger |
+| Moonshot `moonshot/kimi-k3` | Kimi K3 | 2026-07-16 | [Scout 047](../scout/scout-047-kimi-k3-api-eval-opportunities.md); Echo Forge `scene-to-soundscape-golden` registry | Strict structured output measured; semantic `1/2`; operationally too slow/costly for the live lane | Faster eligible route or a reasoning-eligible noninteractive lane |
+| Anthropic `claude-opus-5` | Claude Opus 5, Opus 5 | 2026-07-24 | [Scout 051](../scout/scout-051-claude-opus-5-api-eval-opportunities.md); CineForge script-bible registry | Evaluated; owner operational/value gates did not justify adoption | Material price/latency change or a different maintained lane with explicit headroom |
+| xAI `grok-4.5` | Grok 4.5 | 2026-07-22 | [Alignment 042](../alignments/align-042-provider-native-model-evaluation.md) | Direct strict-schema doc-web pilot scored `11/13`; do not adopt | Exact new checkpoint or repaired owner contract with a live retry trigger |
+| Google `gemini-3.5-flash-lite` | Gemini 3.5 Flash-Lite | 2026-08-03 | CineForge and doc-web eval registries | Evaluated across maintained text and vision lanes; retained only where owner evidence supports it | Exact new checkpoint or owner retry trigger |
+| Google `gemini-3.6-flash` | Gemini 3.6 Flash | 2026-08-14 | [Alignment 045](../alignments/align-045-retrospective-model-rerun-matrix.md) | Evaluated on CineForge and doc-web lanes; no new production default | Exact new checkpoint or owner retry trigger |
+| DeepSeek `deepseek/deepseek-v4-flash-0731` | `deepseek/deepseek-v4-flash`, `deepseek-v4-flash`, DeepSeek V4 Flash 0731 | 2026-08-03 | [Scout 054 predecessor evidence](../scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md) | Strict transport qualified; CineForge full-script reliability failed and Echo Forge scored `0/2` | Materially updated snapshot or a changed owner prompt/schema |
+| Alibaba `qwen/qwen3.8-max` | Qwen3.8 Max | 2026-08-04 | [Scout 060 predecessor evidence](../scout/scout-060-qwen38-flash-next-evaluation-routing.md) | Evaluated in CineForge and doc-web; rejected by maintained gates | Exact new checkpoint or owner retry trigger |
+| xAI `grok-4.6` | Grok 4.6 | 2026-08-14 | [Scout 053](../scout/scout-053-grok-46-api-eval-opportunities.md); [Alignment 045](../alignments/align-045-retrospective-model-rerun-matrix.md) | Evaluated in multiple owners; no production-eligible winner | Exact new checkpoint or a recorded owner retry trigger |
+| Google `gemini-3.7-flash` | Gemini 3.7 Flash | 2026-08-14 | [Scout 054](../scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md); [Alignment 045](../alignments/align-045-retrospective-model-rerun-matrix.md) | Evaluated and rerun on current contracts; no production-default change | Exact new checkpoint or a recorded owner retry trigger |
+| DeepSeek `deepseek/deepseek-v4-pro` | `deepseek-v4-pro`, DeepSeek-V4-Pro-0813, DeepSeek V4 Pro | 2026-08-13 | [Scout 054 follow-through](../scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md); CineForge Attempt 025; Echo Forge 20260813 attempt | CineForge stopped on latency/value before semantic scoring; Echo Forge diagnostic `2/2` was not decision-grade and was operationally rejected | A callable exact route that plausibly clears the owner strict-contract, privacy, latency, and cost gates; documentation alone is insufficient |
+| OpenAI `gpt-5.6-terra` | GPT-5.6 Terra Responses | 2026-08-14 | [Alignment 045](../alignments/align-045-retrospective-model-rerun-matrix.md) | Evaluated in doc-web and Echo Forge; bounded score lead did not clear production safety/eligibility | Exact new checkpoint or a recorded owner retry trigger |
+| Z.ai `glm-5.3` | Z.ai GLM-5.3, GLM-5.3 | 2026-08-20 | [Scout 056](../scout/scout-056-glm-53-cineforge-script-bible-handoff.md) | Owner campaign stopped before inference: access and provider-enforced strict contract unproven | Configured eligible access plus proof of the exact required strict contract |
+| DeepSeek `deepseek/deepseek-v4-flash-vision-exp` | `deepseek-v4-flash-vision-exp`, DeepSeek V4 Flash Vision Exp | 2026-08-28 | [Scout 058](../scout/scout-058-deepseek-v4-flash-vision-exp-eval-routing.md) | Metadata access available; strict forced-tools/schema transport blocked; zero spend and capability unmeasured | Exact qualifying strict route with forced tools and provider-enforced JSON Schema |
+| OpenRouter `stealth/ox-alpha` | Ox Alpha | 2026-08-25 | [Scout 059](../scout/scout-059-ox-alpha-portfolio-evaluation-recommendation.md) | Evaluated and force-fresh rerun; strict structured output blocked or no consistent improvement | Material served-model/contract change with exact identity and stable strict output |
+| Alibaba `qwen/qwen3.8-flash` | `qwen3.8-flash`, `qwen3.8-flash-20260826` | 2026-08-27 | [Scout 060](../scout/scout-060-qwen38-flash-next-evaluation-routing.md) | CineForge and doc-web stopped at upstream shared-pool capacity before semantic scoring | Provider capacity materially changes; resume at the failed transport gate |
+
+`Qwen/Qwen3.8-Flash-Next`, the open checkpoint named in Scout 060, is not an
+alias for the evaluated managed `qwen/qwen3.8-flash` service unless current
+provider evidence proves exact served-checkpoint identity.
+
+## Maintenance contract
+
+After every selected `/evaluate-model` owner campaign, add or update the exact
+candidate here before final synthesis. Preserve aliases, latest attempt date,
+direct owner evidence, layered outcome, and the narrow retry condition. Record
+access/transport stops as attempts without converting them into semantic model
+failures. Do not replace detailed owner evidence with this summary.

@@ -252,3 +252,8 @@ Use this index to track external sources investigated for cross-project value.
   measured below its maintained crop gate, CineForge received malformed and
   slow output, and Echo Forge exhausted its response budget before producing a
   complete payload. No owner default should change.
+- `2026-08-26` — [Scout 060 — Qwen3.8-Flash-Next Evaluation Routing](./scout/scout-060-qwen38-flash-next-evaluation-routing.md) — `Defer`
+  Qwen's managed `qwen3.8-flash` production service and OpenRouter's exact
+  Alibaba route became publicly API-listed on 2026-08-27. CineForge and doc-web
+  then stopped at Alibaba shared-pool capacity gates before semantic scoring;
+  combined spend was $0.0000678. Dossier was excluded while under construction.

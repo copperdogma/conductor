@@ -123,6 +123,27 @@ Treat privacy controls as payload-dependent rather than universal eval gates:
 Do not combine every available privacy filter by default. A filter is an
 absolute gate only when the payload classification or owner policy requires it.
 
+### 1.5 Check the evaluated-model ledger
+
+Read `docs/model-watch/evaluated-models.md` before portfolio routing. Match the
+candidate's provider-qualified ID, public aliases, and dated checkpoints. An
+authenticated contract probe, provider call, or documented owner-side
+access/transport stop counts as a prior evaluation attempt for deduplication,
+even when semantic quality remained unmeasured.
+
+Do not recommend an exact matched model as a new evaluation. A prior model may
+enter the numbered list again only when the user explicitly requests a fresh
+rerun or current evidence satisfies the narrow retry trigger recorded in the
+ledger and owner evidence. Label that item **re-evaluation**, cite the prior
+attempt and changed trigger, and rerun only the decision-bearing failed gate or
+current parity surface. Documentation, catalog, pricing, or route metadata
+alone does not satisfy a callability, strict-contract, privacy, reliability,
+latency, cost, or capability trigger.
+
+Keep distinct checkpoints distinct. Do not collapse a similarly named open
+checkpoint, managed service, dated snapshot, or provider alias unless exact
+served-identity evidence proves they are the same evaluated model.
+
 ### 2. Inspect the portfolio
 
 Start with `projects.yaml`, then inspect every registered project and any
@@ -372,6 +393,15 @@ rewriting the original recommendation as though it predicted the later choice.
 Do not copy private artifacts or duplicate the owning repo's full benchmark
 record. Leave worktrees and changes uncommitted unless the user separately asks
 for closeout or landing.
+
+Also add or update the candidate in
+`docs/model-watch/evaluated-models.md` before final synthesis. Do this after
+every selected owner campaign that reaches an authenticated probe, provider
+call, or documented access/transport stop, including zero-spend stops. Record
+the canonical provider-qualified ID, aliases/checkpoints, latest attempt date,
+direct owner evidence, layered outcome, and narrow retry trigger. Preserve
+unmeasured verdict layers as unmeasured. This central row is a dedupe pointer;
+the owning repository remains authoritative and retains the full evidence.
 
 ## Non-Negotiable Rule
 

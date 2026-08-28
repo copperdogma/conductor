@@ -1,0 +1,20 @@
+# Candidate ledger
+
+This ledger deduplicates material candidates discovered by the watch. It does
+not replace detailed Conductor scouts or owner-repository evidence.
+
+| Provider / model | First seen | Release/access state | Evidence | Likely fit | Disposition |
+| --- | --- | --- | --- | --- | --- |
+| Google `gemini-3.7-flash` | 2026-08-13 | Official GA, documented API ID; direct and aggregator access were already verified in Scout 054 | [Google model page](https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash), [Scout 054](../scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md) | doc-web, CineForge, Dossier maintained lanes | Existing candidate; no new recommendation today |
+| DeepSeek `deepseek-v4-pro` / `-0813` | 2026-08-13 | Official GA alias update; on 2026-08-28 the current official pricing/model table documents Responses API support, though older endpoint guides still say unsupported | [DeepSeek pricing/model table](https://api-docs.deepseek.com/quick_start/pricing/), [DeepSeek GA release](https://api-docs.deepseek.com/news/news260813/), [Scout 054](../scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md), [evaluated-model ledger](evaluated-models.md) | CineForge and Echo Forge already attempted the exact alias; Dossier remained unrun | Already evaluated; no new recommendation. CineForge stopped on latency/value and Echo Forge was an operational reject with decision-grade capability unmeasured. Conflicting native Responses documentation is monitoring evidence only and does not satisfy the recorded strict-contract/privacy/latency/cost retry trigger |
+| Z.ai `glm-5.3` | 2026-08-20 | Official model ID documented; account/API callability was not established | [Z.ai model guide](https://docs.z.ai/guides/llm/glm-5.3), [Scout 056](../scout/scout-056-glm-53-cineforge-script-bible-handoff.md) | CineForge `script_bible_v1` | Deferred: no configured native access and strict contract unproven |
+| Qwen `qwen3.7-{max,plus,flash}` | 2026-08-26 | OpenRouter catalog routes exist; compact first-party pass did not establish a current launch/API contract | [OpenRouter catalog](https://openrouter.ai/api/v1/models), [Qwen Code providers](https://qwenlm.github.io/qwen-code-docs/en/users/configuration/model-providers/) | Plausible multimodal/document/coding follow-on | Non-qualifying catalog-only lead; monitor official Model Studio release notes |
+| Qwen `qwen3.8-flash` (Qwen3.8-Flash-Next production service) | 2026-08-27 | Officially announced 2026-08-26; QwenCloud documents exact API ID and OpenRouter lists an Alibaba endpoint `qwen/qwen3.8-flash` / `qwen3.8-flash-20260826` | [Qwen announcement](https://qwen.ai/blog?id=qwen3.8-flash-next), [QwenCloud model page](https://www.qwencloud.com/models/qwen3.8-flash), [OpenRouter endpoint metadata](https://openrouter.ai/api/v1/models/qwen/qwen3.8-flash/endpoints) | CineForge script-bible and doc-web multimodal/document lanes, subject to their existing gates | New qualifying lead: available now; evaluate, do not adopt yet. First candidate is CineForge; strict JSON Schema enforcement, Cam-account callability, privacy, served identity, and capability on owner fixtures remain unverified |
+
+## Evidence discipline
+
+The first-seen date is the date this ledger recorded the candidate, not
+necessarily the provider release date. Any unlisted property—including strict
+JSON Schema, forced tools, served identity, retention/training terms,
+reliability, capability, economics, and adoption—is unknown unless linked
+evidence says otherwise. No candidate has been adopted by this watch.

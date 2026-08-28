@@ -345,3 +345,22 @@ endpoint-compatibility result, not a DeepSeek visual-quality result. Retry only
 after OpenRouter exposes one of those provider-enforced strict contracts for
 the exact route, or after a direct DeepSeek eval credential is provisioned for
 separate native qualification.
+
+## Scheduled Metadata Follow-Through — 2026-08-26
+
+The exact public OpenRouter catalog and endpoint metadata again returned HTTP
+200 and one text+image route, but only generic `tools`, `tool_choice`, and
+`response_format`; provider-enforced forced tools and strict JSON Schema remain
+absent. The unchanged gate stopped before workers, credentials, account
+controls, fixtures/frames, inference, parity, scoring, or judges. Spend remains
+US$0.00 in doc-web and US$0.00 in CineForge. The missing campaign worktrees
+were not recreated because their retained branch tips do not contain this
+campaign's exact evidence and recreation could mix unrelated owner work.
+
+## Scheduled Metadata Follow-Through — 2026-08-27
+
+The exact public OpenRouter catalog and endpoint metadata again returned HTTP 200 and one text+image route. Its supported parameters remain generic `tools`, `tool_choice`, and `response_format`; provider-enforced forced tools and strict JSON Schema remain absent. The unchanged gate stopped before owner workers, credentials, account controls, fixtures/frames, inference, parity, scoring, or judges. Spend remains US$0.00 of the US$2.50 campaign maximum. Access is metadata-available; transport is blocked; reliability, capability, and owner economics are unmeasured; adoption remains deferred. The requested campaign worktrees remain absent and were not recreated.
+
+## Scheduled Metadata Follow-Through — 2026-08-28
+
+Unauthenticated zero-cost OpenRouter catalog and exact endpoint metadata again returned HTTP 200. The exact route remains catalog-listed as `text+image->text` with one DeepSeek endpoint, but only generic `tools`, `tool_choice`, and `response_format` are advertised; provider-enforced forced tools and strict JSON Schema remain absent. The unchanged absolute gate stopped before owner workers, credentials, account controls, public fixtures/frames, inference, parity, scorers, judges, and comparators. Cumulative spend remains **$0.00 of the $2.50 campaign maximum**: access is metadata-available, transport is blocked, reliability/capability/economics are unmeasured, and adoption remains deferred. The campaign is waiting for the exact OpenRouter route to expose provider-enforced forced tools or strict JSON Schema so the doc-web crop-extraction and CineForge ordered-frame evaluations can run.
