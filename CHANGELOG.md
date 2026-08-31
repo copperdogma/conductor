@@ -1,5 +1,16 @@
 # Changelog
 
+## [2026-08-31-01] - Record Tencent Hy4 evaluation campaign
+
+### Added
+- Added Scout 061 with the approved CineForge and Echo Forge owner evaluation
+  evidence, cumulative spend, transport history, and final layered verdicts.
+
+### Changed
+- Recorded Echo Forge's decision-grade rejection and CineForge's exhausted
+  strict and diagnostic transport paths in the evaluated-model ledger so the
+  unchanged campaign is not recommended again.
+
 ## [2026-08-26-01] - Record Ox Alpha drift rerun
 
 ### Changed

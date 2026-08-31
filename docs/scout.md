@@ -257,3 +257,9 @@ Use this index to track external sources investigated for cross-project value.
   Alibaba route became publicly API-listed on 2026-08-27. CineForge and doc-web
   then stopped at Alibaba shared-pool capacity gates before semantic scoring;
   combined spend was $0.0000678. Dossier was excluded while under construction.
+- `2026-08-29` — [Scout 061 — Tencent Hy4 Preview Evaluation Routing](./scout/scout-061-tencent-hy4-preview-evaluation-routing.md) — `Do not adopt / Defer`
+  Echo Forge qualified exact strict transport but failed Tavern semantics and
+  latency, so that frozen lane is a decision-grade `do not adopt`. CineForge's
+  strict probes and one-variable synthetic diagnostic never produced a terminal
+  body, leaving capability unmeasured and adoption deferred. The campaign is
+  complete; reopen only for a material model or provider-transport change.
