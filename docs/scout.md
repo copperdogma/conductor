@@ -263,3 +263,8 @@ Use this index to track external sources investigated for cross-project value.
   strict probes and one-variable synthetic diagnostic never produced a terminal
   body, leaving capability unmeasured and adoption deferred. The campaign is
   complete; reopen only for a material model or provider-transport change.
+- `2026-09-01` — [Scout 062 — Claude Fable and Mythos 5.1 Evaluation](./scout/scout-062-claude-fable-mythos-51-evaluation.md) — `Do not adopt / Defer`
+  Fable 5.1 qualified exact first-party strict text and vision transport, but
+  Doc Web's selected crop screen hit one contract error and remained below its
+  quality target at substantially higher cost than the comparable incumbent.
+  Mythos is the same underlying model, so it does not warrant a duplicate eval.
