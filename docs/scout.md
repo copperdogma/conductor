@@ -268,3 +268,8 @@ Use this index to track external sources investigated for cross-project value.
   Doc Web's selected crop screen hit one contract error and remained below its
   quality target at substantially higher cost than the comparable incumbent.
   Mythos is the same underlying model, so it does not warrant a duplicate eval.
+- `2026-09-02` — [Scout 064 — Muse Spark 1.3 Evaluation Routing](./scout/scout-064-muse-spark-13-evaluation-routing.md) — `Do not adopt / Defer`
+  After the account gate cleared, Storybook passed one smoke case but remains
+  too narrow for adoption, CineForge qualified strict transport but hit an
+  ambiguous lexical evidence-form gate, and Echo Forge failed Tavern quality
+  and value gates. Conservative campaign spend was at most US$0.031856.
