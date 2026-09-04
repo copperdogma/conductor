@@ -273,3 +273,8 @@ Use this index to track external sources investigated for cross-project value.
   too narrow for adoption, CineForge qualified strict transport but hit an
   ambiguous lexical evidence-form gate, and Echo Forge failed Tavern quality
   and value gates. Conservative campaign spend was at most US$0.031856.
+- `2026-09-04` — [Scout 066 — Inception Mercury 2.5 Preview Evaluation Routing](./scout/scout-066-mercury-25-preview-evaluation-routing.md) — `Do not adopt`
+  Mercury qualified exact Inception-only strict structured transport and
+  comfortably passed Echo Forge's latency and cost screens, but failed seven
+  maintained Tavern semantic requirements. The ladder stopped at US$0.00042627
+  before Dungeon or incumbent parity; no default changed.
