@@ -278,3 +278,7 @@ Use this index to track external sources investigated for cross-project value.
   comfortably passed Echo Forge's latency and cost screens, but failed seven
   maintained Tavern semantic requirements. The ladder stopped at US$0.00042627
   before Dungeon or incumbent parity; no default changed.
+- `2026-09-06` — [Scout 068 — Qwen3.8 Max 0902 Doc Web Re-evaluation](./scout/scout-068-qwen38-max-0902-reevaluation.md) — `Do not adopt`
+  Exact Alibaba/OpenRouter strict vision qualified, but the frozen low-reasoning
+  arm repeated the Image011 seal/signature grouping failure (0.6001, 3 boxes
+  versus 2). Stopped at US$0.013964 before the full detector and safety suites.
