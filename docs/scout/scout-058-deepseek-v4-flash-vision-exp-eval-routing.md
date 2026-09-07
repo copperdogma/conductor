@@ -1,5 +1,11 @@
 # Scout 058 - Route DeepSeek V4 Flash Vision Exp Evals
 
+## Scheduled Metadata Follow-Through — 2026-09-07
+
+Unauthenticated zero-cost OpenRouter catalog and exact endpoint metadata returned HTTP 200. The exact route remains catalog-listed as `text+image->text`; active DeepInfra and Fireworks endpoints advertise `structured_outputs` and `tool_choice.required=true`, while DeepSeek and other endpoints remain generic-only. This is a metadata trigger, not owner-native proof that the required strict contract is enforced for the served identity.
+
+The requested campaign worktrees remain absent. Current doc-web and CineForge checkouts contain unrelated dirty changes and are not safe substitutes, so no isolated owner workers or provider calls occurred. Cumulative spend remains US$0.00 of each owner cap. Access is metadata-available; owner transport, reliability, capability, and economics remain unmeasured; adoption remains deferred. The campaign is waiting for safe isolated owner worktrees plus provider-enforced forced tools or strict JSON Schema on the exact OpenRouter route so the doc-web crop-extraction and CineForge ordered-frame evaluations can run.
+
 **Source**: Official DeepSeek API model listing, 2026-08-21 release notes,
 vision guide, JSON-output guide, and pricing documentation; all tracked
 repositories in `projects.yaml`; checked 2026-08-21.

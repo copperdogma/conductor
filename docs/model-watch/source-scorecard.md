@@ -36,3 +36,23 @@ inference.
   docs in the core as monitoring evidence, but do not recommend re-evaluation
   unless current evidence satisfies the recorded strict-contract, privacy,
   latency, and cost trigger; documentation alone does not.
+
+
+## 2026-09-07 run scorecard (supersedes older last-checked cells)
+
+| Source group | Yield / uniqueness / timeliness | Reliability / cost or friction | Decision |
+| --- | --- | --- | --- |
+| OpenAI docs MCP | Current Astra only; zero new leads | First-party, low cost; fetched model guide | Keep core; last checked September 7 |
+| Anthropic newsroom / model release | Sonnet pricing update, no new identity; owner search caught missing ledger row | Low friction; release age and exact owner history essential | Keep core; add owner-search safeguard |
+| Google changelog + exact model/pricing | Gemini 3.8 Flash release; owner-worktree search later reconciled a prior exact campaign | High verification quality, low friction; central-ledger-only lookup was insufficient | Keep core plus owner-evidence search; last useful September 7 |
+| xAI / DeepSeek / Qwen direct docs | Existing evaluated IDs and specialist churn | Low friction; no retry proof | Keep compact core; last checked September 7 |
+| Moonshot / Tencent | No new verified successor | Partial search coverage, uneven indexing | Keep compact search; no promotion from non-results |
+| Z.ai / Ollama / official HF card | GLM naming resolved as existing Ox Alpha preview; no new retry | Z.ai blog empty; card/provider page useful; AutoClaw freshness misleading | Keep identity checks; avoid treating app article date as release date |
+| Mistral / MiniMax / Meta / Inception | Older or already evaluated releases; no unique actionable challenger | Mostly readable, low yield | Retain rotating depth; last checked September 7 |
+| OpenRouter public catalog / exact endpoints | 430 models; corroborated Gemini dated checkpoint; no K2 Horizon | Public Python GET recovered web endpoint error; catalog status is metadata only | Keep core; last useful September 7 |
+| Artificial Analysis releases + primary IFM/MBZUAI verification | Unique K2 Horizon lead, deferred for managed access | Useful lead index; benchmarks do not prove owner fit | Keep AA in rotation, add IFM exact-route monitoring; last useful September 7 |
+| Hugging Face recent-model feed | No additional unique lead; derivative noise | High redundancy for broad recency, low value | Prefer exact first-party cards over broad feed next run |
+
+No paid inference. Search/tool and orchestration usage were not separately
+metered in currency. No source retired on one low-yield run. Missing post-August
+28 daily files are a continuity limitation, not proof those searches never ran.

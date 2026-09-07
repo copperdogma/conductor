@@ -19,3 +19,36 @@ necessarily the provider release date. Any unlisted property—including strict
 JSON Schema, forced tools, served identity, retention/training terms,
 reliability, capability, economics, and adoption—is unknown unless linked
 evidence says otherwise. No candidate has been adopted by this watch.
+
+
+## 2026-09-07 additions and corrections
+
+- **Google `gemini-3.8-flash` / `google/gemini-3.8-flash-20260902`:** first recorded
+  here September 7; [official September 2 GA](https://ai.google.dev/gemini-api/docs/changelog)
+  and [exact router endpoints](https://openrouter.ai/api/v1/models/google/gemini-3.8-flash/endpoints).
+  Initially misclassified as unevaluated because the central ledger lacked the
+  September 3 owner campaign. The reconciled ledger records the exact prior
+  attempts; suppress unchanged evaluation framing. No new inference or adoption.
+  [Full release and correction record](daily/2026-09-07.md).
+- **Qwen3.8 Flash:** the August 27 recommendation above is superseded by the
+  evaluated ledger's August 27 capacity stops. No new recovery evidence today.
+- **Qwen3.8 Max 0902:** [Scout 068](../scout/scout-068-qwen38-max-0902-reevaluation.md)
+  now records completed September 6 owner evaluation and failed grouping gate;
+  suppress unchanged low-reasoning repeats.
+- **Claude Sonnet 5:** already evaluated in
+  [Doc Web Attempt 014](/Users/cam/Documents/Projects/doc-web/docs/evals/attempts/014-sonnet5-bounded-challenger.md)
+  on June 30. Missing from the central ledger, but not a new lead; September 3
+  automation-memory recommendation is corrected. Ledger maintenance remains
+  with the evaluation campaign workflow.
+
+- **IFM `IFM/K2-Horizon-375B-A23B`:** first recorded September 7, released
+  [September 3](https://ifm.ai/blog/k2/). No prior exact attempt found.
+  [Weights/model card](https://huggingface.co/IFM/K2-Horizon-375B-A23B) verified;
+  no managed route verified and no OpenRouter catalog match. Defer CineForge
+  long-context structured work until exact managed access, price and privacy
+  are inspectable. Do not repeat an unchanged unavailable candidate.
+- **GLM-5.3-Flash / Ox Alpha:** [Ollama's provider page](https://ollama.com/library/glm-5.3-flash)
+  identifies the prior Ox Alpha preview. September 7 AutoClaw visibility is not
+  a new checkpoint; no strict-contract retry proof. Suppress new-evaluation
+  framing and retain Scout 059's retry boundary. Exact historical served
+  response identity remains limited by the former opaque route.

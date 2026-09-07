@@ -52,3 +52,19 @@ Recommend a clearly labeled re-evaluation only when current evidence satisfies
 the exact retry condition recorded in `evaluated-models.md`. Documentation or
 metadata does not by itself satisfy a callability, strict-contract, privacy,
 reliability, latency, cost, or capability trigger.
+
+
+## 2026-09-07 retrieval refinements
+
+- Use the current month in searches (for example September 2026), but inspect
+  official release dates; freshly crawled pages can describe old checkpoints.
+- If the central ledger has no exact match, search existing owner attempt
+  records before declaring a first evaluation. Sonnet 5's June attempt was
+  absent centrally. Record gaps as corrections without editing this watch's
+  read-only evaluated ledger.
+- If web retrieval of a public catalog endpoint fails, one unauthenticated
+  direct HTTP GET may recover the metadata; record both outcomes.
+- Rotate Artificial Analysis release discovery, then verify at exact official
+  model cards. Prefer those cards over Hugging Face's noisy global recency feed.
+- Monitor exact K2 Horizon managed-route appearance; do not repeat its open-weight
+  announcement or incur hosting/setup work while access remains unchanged.
