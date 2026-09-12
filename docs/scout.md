@@ -12,6 +12,11 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-12` — [Scout 069 — Ling 3.0 Flash VL Evaluation Routing](./scout/scout-069-ling-30-flash-vl-evaluation-routing.md) — `Defer`
+  Cam deferred the proposed Doc Web, Storybook and CineForge campaign. The
+  model is API-listed, but access and strict-contract behavior are unverified;
+  no evaluation or spend occurred.
+
 - `2026-04-10` — [Scout 001 — Evaluate Superpowers for Dossier-First Research Automation](./scout/scout-001-superpowers-dossier-research-automation.md) — `Defer`
   Superpowers is a credible coding-agent workflow bundle, but its current value
   here is narrow Codex workflow reference material rather than a research
