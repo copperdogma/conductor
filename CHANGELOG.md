@@ -1,5 +1,15 @@
 # Changelog
 
+## [2026-09-13-01] - Complete DeepSeek V4.1 Flash evaluation campaign
+
+### Added
+- Recorded Scout 070 with the approved Doc Web, Storybook, and Echo Forge
+  evaluations, cumulative spend bounds, and final rejection verdicts.
+
+### Changed
+- Updated the evaluated-model ledger to prevent unchanged retries after the
+  completed campaign; the six-hour retry automation is paused.
+
 ## [2026-08-31-01] - Record Tencent Hy4 evaluation campaign
 
 ### Added
