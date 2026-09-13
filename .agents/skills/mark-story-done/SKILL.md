@@ -8,6 +8,10 @@ user-invocable: true
 
 Close a validated Conductor story.
 
+Use the validation policy in `../finish-and-push/SKILL.md` for evidence selection
+and reuse; reading that policy does not invoke landing. Story bookkeeping does
+not invalidate tests of unchanged code. Check the changed methodology records.
+
 ## Steps
 
 1. Read the story.
@@ -27,6 +31,5 @@ Close a validated Conductor story.
 ## Guardrails
 
 - Never hide remaining implementation gaps.
-- Never mark done without current-pass evidence.
+- Never mark done without applicable validation evidence for the current content.
 - Do not treat the existence of a follow-up story as sufficient reason to close.
-

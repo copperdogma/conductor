@@ -1,5 +1,20 @@
 # Changelog
 
+## [2026-09-13-03] - Consolidate close-out skills
+
+### Changed
+- Replaced the overlapping close-out flows with one repo-independent
+  `finish-and-push` skill and removed `check-in` without an alias.
+- Clarified read-only audits, delegation, story closure, validation reuse,
+  multi-repo landing recovery, optional cleanup, and learning-review timing.
+- Kept Conductor's validation commands in the README for future shared-skill rollout.
+- Landed identical copies on all seven tracked repos' remote main branches,
+  preserving local requirements and recording Alignment 046 with verified
+  commit receipts and reviewed file allowlists.
+- Made close-out validation proportional to changed behavior and reusable across
+  unchanged test inputs, including story-close and validation handoffs, after
+  tracing the Qwen retry's duplicate full-suite runs.
+
 ## [2026-09-13-02] - Record Qwen3.8 Flash force-fresh retry
 
 ### Changed

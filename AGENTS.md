@@ -125,3 +125,9 @@ Specialized loops:
   helper; never expose the value, copy the whole vault, overwrite an owner key,
   or infer permission to change provider account settings.
 - No implicit commits or pushes.
+
+For close-out, including `/validate` and `/mark-story-done` handoffs, use the
+validation selection and evidence-reuse policy in
+`.agents/skills/finish-and-push/SKILL.md`. Local commands supply the applicable
+checks; generic full-suite/current-pass wording does not require rerunning
+unchanged inputs. Preserve explicit task acceptance and mandatory CI gates.

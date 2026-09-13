@@ -1,0 +1,196 @@
+{
+  "alignment": "046",
+  "date": "2026-09-13",
+  "shared_skill_sha256": "2805622da7e195cacef321898fd7379abee9110462d0149fdcefbe9b56e9de1b",
+  "note": "Completed target rollout receipts and reviewed paths. Remote main and task branch were verified at each recorded target commit. Conductor completion is recorded by the commit containing this manifest; no self-referential commit hash is embedded. Unrelated primary-checkout work and all task worktrees are retained.",
+  "repos": [
+    {
+      "repo": "boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/closeout-skill-20260913/boardgame-ingester",
+      "branch": "codex/closeout-skill-20260913",
+      "base": "2aea3fe7f1609104854fe3e7711ccf5c16161523",
+      "destination": "origin/main",
+      "state": "landed",
+      "files": [
+        ".agents/skills/check-in-diff/SKILL.md",
+        ".agents/skills/codebase-improvement-scout/SKILL.md",
+        ".agents/skills/finish-and-push/SKILL.md",
+        ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/validate/SKILL.md",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "README.md",
+        "docs/runbooks/close-out.md"
+      ],
+      "commit": "89ea2e17e15304bb3ed8cb2e115f138a55595e97",
+      "integrated_base": "2aea3fe7f1609104854fe3e7711ccf5c16161523",
+      "remote_verified": true
+    },
+    {
+      "repo": "cine-forge",
+      "worktree": "/Users/cam/.codex/worktrees/closeout-skill-20260913/cine-forge",
+      "branch": "codex/closeout-skill-20260913",
+      "base": "a8b13f8a35663c931c232557f86d9338be7c5a80",
+      "destination": "origin/main",
+      "state": "landed",
+      "files": [
+        ".agents/skills/check-in-diff/SKILL.md",
+        ".agents/skills/codebase-improvement-scout/SKILL.md",
+        ".agents/skills/finish-and-push/SKILL.md",
+        ".agents/skills/init-project/SKILL.md",
+        ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/validate/SKILL.md",
+        ".cursor/commands.legacy/check-in-diff.md",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "docs/runbooks/check-in-worktree-landing.md",
+        "docs/runbooks/close-out.md",
+        "docs/runbooks/codebase-improvement-scout.md",
+        "docs/runbooks/finish-and-push.md",
+        "scripts/methodology-graph.js"
+      ],
+      "commit": "b5140648653c16194ba025a80d0b9542ddaeb775",
+      "integrated_base": "a8b13f8a35663c931c232557f86d9338be7c5a80",
+      "remote_verified": true
+    },
+    {
+      "repo": "doc-web",
+      "worktree": "/Users/cam/.codex/worktrees/closeout-skill-20260913/doc-web",
+      "branch": "codex/closeout-skill-20260913",
+      "base": "bb3c6ffaaa9163a831635ffee5429be9debfcd01",
+      "destination": "origin/main",
+      "state": "landed",
+      "files": [
+        ".agents/skills/check-in-diff/SKILL.md",
+        ".agents/skills/codebase-improvement-scout/SKILL.md",
+        ".agents/skills/finish-and-push/SKILL.md",
+        ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/validate/SKILL.md",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "docs/runbooks/check-in-worktree-landing.md",
+        "docs/runbooks/close-out.md",
+        "docs/runbooks/codebase-improvement-scout.md"
+      ],
+      "commit": "9f09aca6ff055d1f9842c0f4ab2e800627f4bdba",
+      "integrated_base": "c88a757b8d1e705ee2e14fcfae9e6a11d3bb43b1",
+      "remote_verified": true
+    },
+    {
+      "repo": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/closeout-skill-20260913/dossier",
+      "branch": "codex/closeout-skill-20260913",
+      "base": "ff5ce05712c7cdf3a9360dd218c4dc618693b14a",
+      "destination": "origin/main",
+      "state": "landed",
+      "files": [
+        ".agents/skills/check-in-diff/SKILL.md",
+        ".agents/skills/codebase-improvement-scout/SKILL.md",
+        ".agents/skills/finish-and-push/SKILL.md",
+        ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/validate/SKILL.md",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "docs/runbooks/check-in-worktree-landing.md",
+        "docs/runbooks/close-out.md",
+        "docs/runbooks/codebase-improvement-scout.md",
+        "docs/runbooks/finish-and-push.md"
+      ],
+      "commit": "1c7ede93d00212f0ec36e8f6b578b8cd7463989d",
+      "integrated_base": "ff5ce05712c7cdf3a9360dd218c4dc618693b14a",
+      "remote_verified": true
+    },
+    {
+      "repo": "echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/closeout-skill-20260913/echo-forge",
+      "branch": "codex/closeout-skill-20260913",
+      "base": "ede96d83cf65ee4bec1b386e6fdb9ffff85b9372",
+      "destination": "origin/main",
+      "state": "landed",
+      "files": [
+        ".agents/skills/check-in-diff/SKILL.md",
+        ".agents/skills/codebase-improvement-scout/SKILL.md",
+        ".agents/skills/deploy/SKILL.md",
+        ".agents/skills/finish-and-push/SKILL.md",
+        ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/validate/SKILL.md",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "docs/deployment.md",
+        "docs/runbooks/check-in-worktree-landing.md",
+        "docs/runbooks/finish-and-push.md"
+      ],
+      "commit": "f8bcfbbf69e87f65d04d063b9edf27d0ef5c9f80",
+      "integrated_base": "ede96d83cf65ee4bec1b386e6fdb9ffff85b9372",
+      "remote_verified": true
+    },
+    {
+      "repo": "roborally",
+      "worktree": "/Users/cam/.codex/worktrees/closeout-skill-20260913/roborally",
+      "branch": "codex/closeout-skill-20260913",
+      "base": "42ed0dca68c6ed4dccfb0b32a7967bbc1acfafd2",
+      "destination": "origin/main",
+      "state": "landed",
+      "files": [
+        ".agents/skills/check-in-diff/SKILL.md",
+        ".agents/skills/codebase-improvement-scout/SKILL.md",
+        ".agents/skills/finish-and-push/SKILL.md",
+        ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/validate/SKILL.md",
+        "AGENTS.md",
+        "README.md",
+        "docs/runbooks/close-out.md"
+      ],
+      "commit": "deef51febe2e92d5c2d85b8a85752d377e611f65",
+      "integrated_base": "42ed0dca68c6ed4dccfb0b32a7967bbc1acfafd2",
+      "remote_verified": true
+    },
+    {
+      "repo": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/closeout-skill-20260913/storybook",
+      "branch": "codex/closeout-skill-20260913",
+      "base": "16990502a99a0804edb950f93253ef81c28c45fe",
+      "destination": "origin/main",
+      "state": "landed",
+      "files": [
+        ".agents/skills/check-in-diff/SKILL.md",
+        ".agents/skills/codebase-improvement-scout/SKILL.md",
+        ".agents/skills/finish-and-push/SKILL.md",
+        ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/scout/SKILL.md",
+        ".agents/skills/ui-scout/SKILL.md",
+        ".agents/skills/validate/SKILL.md",
+        "AGENTS.md",
+        "CHANGELOG.md",
+        "docs/runbooks/check-in-worktree-landing.md",
+        "docs/runbooks/close-out.md",
+        "docs/runbooks/codebase-improvement-scout.md",
+        "docs/runbooks/finish-and-push.md",
+        "docs/setup.md",
+        "docs/ui-scout/_template.md"
+      ],
+      "commit": "42f25e4d88080373b0aad14e9f376388ceb89e6f",
+      "integrated_base": "b72a736e9126fafec9402dc21d4eba9e417604e3",
+      "remote_verified": true
+    }
+  ],
+  "conductor": {
+    "worktree": "/Users/cam/Documents/Projects/conductor",
+    "state": "supervisor-record-in-this-commit",
+    "files": [
+      ".agents/skills/check-in/SKILL.md",
+      ".agents/skills/finish-and-push/SKILL.md",
+      ".agents/skills/mark-story-done/SKILL.md",
+      ".agents/skills/validate/SKILL.md",
+      "AGENTS.md",
+      "CHANGELOG.md",
+      "README.md",
+      "docs/align-projects.md",
+      "docs/alignments/align-046-shared-close-out-skill.md",
+      "docs/alignments/evidence/shared-close-out-rollout.json"
+    ],
+    "partial_files": {
+      "CHANGELOG.md": "Only the 2026-09-13-03 close-out consolidation entry; preserve unrelated changes."
+    }
+  }
+}

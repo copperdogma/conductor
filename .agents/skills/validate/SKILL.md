@@ -6,7 +6,9 @@ user-invocable: true
 
 # /validate [story-number]
 
-Validate Conductor work with fresh current-pass evidence.
+Validate Conductor work with evidence applicable to its current content. Use
+the validation selection and reuse policy in `../finish-and-push/SKILL.md`;
+reading that policy does not invoke landing.
 
 ## Steps
 
@@ -65,11 +67,12 @@ Validate Conductor work with fresh current-pass evidence.
    - acceptance criteria
    - tasks
    - workflow gates
-3. Re-run the honest checks for the touched surface:
+3. Select checks for the touched behavior and reuse applicable results:
    - `make methodology-check`
    - `make lint`
    - `make skills-check` if skill files changed
-   - `make test` if scripts or repo checks changed
+   - focused tests for script or repo-check changes; broaden to `make test`
+     when shared effects warrant it
 
 3b. Optional parallel validation:
    - Use bounded validation packets only when they will materially improve
@@ -77,7 +80,7 @@ Validate Conductor work with fresh current-pass evidence.
      story acceptance review, check/test execution, or holistic
      Ideal/spec/architecture review.
    - Scope each packet to explicit files, commands, or criteria. Each packet
-     must return fresh evidence from the current diff and must not decide the
+     must return applicable evidence for the current diff and must not decide the
      final disposition.
    - The main thread keeps Conductor's final synthesis: acceptance status,
      Ideal/spec fit, closure recommendation, impact note, and yes-ready next
@@ -126,7 +129,7 @@ Validate Conductor work with fresh current-pass evidence.
 
 ## Guardrails
 
-- Fresh evidence only.
+- Evidence must cover current inputs; unchanged inputs may reuse recorded results.
 - Do not count close-out bookkeeping as an implementation failure by itself.
 - End with one recommended disposition and a yes-ready next step when an honest
   next move exists.
