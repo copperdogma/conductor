@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-09-13-02] - Record Qwen3.8 Flash force-fresh retry
+
+### Changed
+- Updated Scout 060 and the evaluated-model ledger with CineForge's repeated
+  Alibaba capacity stop and doc-web's partial, contract-invalid crop evidence.
+- Recorded the corrected retry boundaries, combined provider spend, and the
+  decision to defer adoption without changing any owner runtime default.
+
 ## [2026-09-13-01] - Complete DeepSeek V4.1 Flash evaluation campaign
 
 ### Added

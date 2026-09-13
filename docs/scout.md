@@ -261,9 +261,10 @@ Use this index to track external sources investigated for cross-project value.
   complete payload. No owner default should change.
 - `2026-08-26` — [Scout 060 — Qwen3.8-Flash-Next Evaluation Routing](./scout/scout-060-qwen38-flash-next-evaluation-routing.md) — `Defer`
   Qwen's managed `qwen3.8-flash` production service and OpenRouter's exact
-  Alibaba route became publicly API-listed on 2026-08-27. CineForge and doc-web
-  then stopped at Alibaba shared-pool capacity gates before semantic scoring;
-  combined spend was $0.0000678. Dossier was excluded while under construction.
+  route were force-fresh retried on 2026-09-13. CineForge again stopped on
+  Alibaba capacity; doc-web obtained partial valid crop evidence but contract
+  mismatch, semantic variance, and capacity prevented a complete decision-grade
+  matrix. Combined spend was $0.010852478; no default changed.
 - `2026-08-29` — [Scout 061 — Tencent Hy4 Preview Evaluation Routing](./scout/scout-061-tencent-hy4-preview-evaluation-routing.md) — `Do not adopt / Defer`
   Echo Forge qualified exact strict transport but failed Tavern semantics and
   latency, so that frozen lane is a decision-grade `do not adopt`. CineForge's

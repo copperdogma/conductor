@@ -333,3 +333,69 @@ private fixture, commit, or push was authorized or performed.
   strict contract, or after a separately authorized access path becomes
   available. Do not rerun unchanged catalog probes or infer quality from the
   unrun semantic benchmarks.
+
+## 2026-09-13 force-fresh retry — still inconclusive
+
+Cam explicitly requested a new attempt after the intended one-week automation
+did not persist. CineForge and doc-web reran independently from current remote
+`main` in fresh isolated worktrees. Dossier remained excluded. The original
+US$0.75 per-owner ceiling, public/synthetic fixture boundary, strict identity
+and contract gates, and no-default/no-commit/no-push boundary remained in force.
+
+### CineForge — Alibaba capacity blocker reproduced
+
+- Worktree
+  `/Users/cam/.codex/worktrees/qwen38-flash-retry-20260913/cine-forge`, branch
+  `codex/qwen38-flash-retry-20260913`, base
+  `77e7da93dc21b26e50f615f5e4c577f6d38b1f31`.
+- The native strict `ScriptBible` request and its one declared retry both
+  returned pre-inference Alibaba shared-pool HTTP 429s. No response identity,
+  usage, output, subject latency, or semantic score existed.
+- OpenRouter now also lists a Makora FP4 endpoint for the exact public route,
+  but its quantization and context differ. It was not substituted after the
+  Alibaba result; any CineForge Makora evaluation is a separate configuration
+  arm.
+- Spend: **US$0 / US$0.75**. Access constrained; transport blocked; managed
+  Alibaba route reliability failed in this bounded attempt; capability and
+  subject economics not measured; adoption **defer**.
+- Owner evidence: CineForge Attempt 036 and its Story 219 manifest. Focused
+  checks and the full `2178`-test unit suite passed.
+
+### doc-web — callable, but no valid complete detector matrix
+
+- Worktree `/Users/cam/.codex/worktrees/qwen38-flash-retry-20260913/doc-web`,
+  branch `codex/qwen38-flash-eval-20260913`, base
+  `bb3c6ffaaa9163a831635ffee5429be9debfcd01`.
+- Exact Alibaba text, generated-image, owner-adapter parity, and an initial
+  maintained Image011 request qualified. The initial Image011 scored `0.9652`.
+- The normalized-coordinate full13 produced only five locally contract-valid
+  rows: four passed, conditional mean `0.91334`; seven other rows emitted
+  0-1000-style coordinates despite 0-1 bounds and one added an extra root
+  field. This is not a promotable 13-case score. A valid Image011 rerun scored
+  `0.6393` after omitting adjacent signatures, exposing semantic variance.
+- The owner then used its existing integer-coordinate prompt branch and strict
+  integer schema as the one evidence-led transport repair. Synthetic native
+  and adapter parity qualified on Alibaba, but two capacity 429s blocked the
+  maintained representative. The predeclared Makora FP4 alternative also
+  returned a capacity 429 on its first native probe. The retry allowance was
+  exhausted, so no further calls were made.
+- Spend: **US$0.010852478 / US$0.75** across 23 network calls: 19 HTTP 200 and
+  four zero-cost capacity 429s. Access available on Alibaba; maintained
+  transport inconclusive; reliability degraded; decision-grade capability not
+  measured; adoption **defer**. The 40-case and 22-case safety follow-ons remain
+  unmeasured.
+- Owner evidence: doc-web Attempt 037 and its hash-verified protected raw
+  manifest. Methodology checks, 34 focused tests, Ruff, YAML/JSON validation,
+  manifest hashes, and diff checks passed.
+
+### Retry closeout
+
+- Combined measured spend: **US$0.010852478 / US$1.50**.
+- Both temporary OpenRouter variables were removed from the ignored worktree
+  env files and verified absent by variable name.
+- No private fixture, Dossier work, runtime default, deployment, commit, or
+  push occurred.
+- This is now a successful evaluation *attempt* with useful access, transport,
+  reliability, and partial diagnostic evidence, but not a successful semantic
+  qualification for either owner. Do not call Qwen3.8 Flash adopted or fully
+  evaluated on these surfaces.
