@@ -14,6 +14,12 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-19` — [Scout 071 — Qwen3.8-Omni-Flash Evaluation Routing](./scout/scout-071-qwen38-omni-flash-evaluation-routing.md) — `Defer — access`
+  All three selected owners (CineForge, Doc Web, Storybook) stopped before
+  inference because direct Alibaba credentials were unavailable. US$0 / $1.35;
+  capability unmeasured. Cam deferred further work; no automatic retry. Skill
+  policy update landed as `822f00b`.
+
 - `2026-09-12` — [Scout 069 — Ling 3.0 Flash VL Evaluation Routing](./scout/scout-069-ling-30-flash-vl-evaluation-routing.md) — `Defer`
   Cam deferred the proposed Doc Web, Storybook and CineForge campaign. The
   model is API-listed, but access and strict-contract behavior are unverified;
