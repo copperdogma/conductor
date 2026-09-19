@@ -163,9 +163,48 @@ explicitly named active repo. Read enough current owner context to identify:
   synthetic
 - the smallest lane whose result could change a real decision
 
-Do not infer fit from a vendor capability claim alone. A repo gets a positive
-recommendation only when it has a maintained decision-bearing surface, eligible
-fixtures, a credible challenger hypothesis, and a bounded progressive run.
+Require a maintained decision-bearing surface, eligible fixtures, a plausible
+measurable benefit, and a bounded progressive run. The bar for evaluation is
+lower than the bar for adoption: do not demand demonstrated superiority before
+testing, or treat "the incumbent already works well" as a sufficient deferral.
+
+Apply this balanced selection policy:
+
+- **Default to a small comparison on matching modalities.** For a new
+  vision-capable checkpoint, normally recommend a bounded screen on each
+  maintained, eligible vision task (for example cropping, photo/OCR grounding,
+  and ordered-frame understanding). These measure different abilities; choosing
+  one does not cover the others. Verify the actual supported inputs and task
+  fit; an omni label alone does not justify audio generation or unrelated text
+  evaluations. Apply the same principle to other matching capabilities.
+- **Look beyond pass rate.** Consider continuous accuracy, difficult cases,
+  reliability, latency, total task cost and useful capability gains. A 100%
+  pass rate can coexist with imperfect localization or a tiny, easy fixture
+  set. Prefer a fresh same-input incumbent/challenger comparison when making
+  relative claims. If the benchmark cannot distinguish quality, say so; measure
+  what it can and propose representative held-out coverage when warranted.
+  Freeze new criteria before either model runs and respect scope approval;
+  never change goldens or scorers to manufacture a winner.
+- **Skip comparisons with no plausible practical payoff.** Defer or exclude
+  task mismatches, ineligible fixtures, redundant prior attempts, or candidates
+  whose expected economics cannot justify adoption. For example, a dramatically
+  costlier/slower model against a cheap incumbent with representative, reliable
+  full-quality results may be unjustified when no relevant difficult cases or
+  other valuable capability remain. Cite the task-level cost estimate or known
+  gate, fixture coverage and missing benefit. Token price or a small 100% smoke
+  test alone is insufficient; do not claim an untested model cannot be better.
+- **Qualify uncertainty consistently.** Unverified access or schema support can
+  justify a small first-stage qualification inside a selected owner campaign;
+  it is not automatically a reason to omit an otherwise useful comparison.
+  Qualify the owner's actual contract; do not invent a strict-schema requirement
+  for a lane that uses another output contract. Distinguish missing proof from
+  documented incompatibility. Preserve hard
+  owner contracts, privacy, prior-attempt retry triggers and spend limits;
+  any permitted relaxed diagnostic remains capability-only evidence.
+
+For every matching task omitted, give a concrete task-specific reason. Prioritize
+larger expected gains when resources are constrained, but do not silently turn
+that priority into a rule that only failing incumbents deserve challengers.
 
 Give every inspected repo exactly one disposition:
 
