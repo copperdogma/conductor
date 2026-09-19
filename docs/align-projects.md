@@ -11,6 +11,16 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-09-19` — [Alignment 047 — Dossier Model Evaluation Catch-up](./alignments/align-047-dossier-model-catchup.md)
+  Sequential owner campaign for the applicable model backlog, with an isolated
+  current-base worktree and a combined US$5 provider ceiling. All 19 checkpoints
+  accounted for; US$3.6782 conservative exposure, no production adoption.
+  Approved Story 169 follow-through corrects benchmark scope, organization depth
+  and alias scoring, with provider-free replay and 2,454 passing unit tests.
+  Separate Story170 now supplies the standalone direct-semantic benchmark:
+  17 callable models screened, source-adjudicated failures, no replacement;
+  US$3.6607 accounted cost and 2,574 passing unit tests.
+
 - `2026-09-13` — [Alignment 046 — Shared Close-Out Skill](./alignments/align-046-shared-close-out-skill.md)
   Approved identical `finish-and-push` rollout across all tracked repos, removing
   check-in entrypoints while preserving local validation requirements.
