@@ -479,3 +479,26 @@ eval-only patch is committed/pushed, but no main-runtime merge is claimed.
 A deliberate prerequisite-runtime integration decision is the next action.
 Conductor records this state separately; primary checkout dirt and all task
 worktrees are retained.
+
+## Approved runtime and benchmark main integration — 2026-09-19
+
+Cam explicitly approved the prerequisite runtime review and combined main landing,
+superseding the pending state above. Dossier main is verified at
+[3d66f3c5](https://github.com/copperdogma/dossier/commit/3d66f3c52b5f27a58bd49d807e23a94b678e8baa),
+which contains accepted runtime67258516, benchmark5cbe6c30 and the current-main
+shared close-out workflow. The only merge conflict was the changelog; all dated
+entries were preserved. The integration branch was also pushed.
+
+Independent bounded runtime review found no material blocker or production
+imports from evals/Storybook. Fresh merged-tree validation passed2574unit tests,
+9public runtime/fixture tests, scoped Ruff and methodology graph checks; the
+reviewer also passed67offline semantic tests. Runtime, dependency, test and eval
+inputs remain byte-identical to the qualified branch. All826campaign hashes
+reverified unchanged. Detailed commands, coverage and qualification limits are in
+[the owner integration report](https://github.com/copperdogma/dossier/blob/3d66f3c52b5f27a58bd49d807e23a94b678e8baa/docs/reports/story170-main-integration-2026-09-19.md).
+
+No new paid calls, model-default change or consumer dependency update occurred.
+Dossier remains a standalone library. Historical native qualification was not
+rerun. Primary checkout dirt and task worktrees are retained. No further action
+is required for this approved main integration; any new model/prompt comparison
+or consumer adoption is separate scope.

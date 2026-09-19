@@ -33,8 +33,9 @@ was warranted. Total conservative accounted cost: US$3.66071209916/US$5.
 No production change or general best-value claim follows from the narrow
 initial correction case.
 The [committed benchmark evidence](https://github.com/copperdogma/dossier/blob/5cbe6c30c7103da6237c9670b9850af1048103b1/docs/evals/artifacts/semantic-value-20260919/README.md)
-is pushed on its isolated branch; main integration awaits the prerequisite
-published runtime, not a model-selection decision.
+and its accepted prerequisite runtime are now integrated on Dossier main at
+[3d66f3c5](https://github.com/copperdogma/dossier/commit/3d66f3c52b5f27a58bd49d807e23a94b678e8baa).
+This library integration does not change the model-selection verdict or consumer dependencies.
 
 ## Ledger
 
