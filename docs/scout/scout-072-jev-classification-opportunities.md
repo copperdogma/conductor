@@ -1384,3 +1384,75 @@ Owner observation tooling, frozen sample, raw evidence and report landed at
 execution branch. Five focused tooling checks, Ruff, methodology, source freezes
 and whitespace checks passed; runtime tests reused unchanged. No runtime code or
 persistent enable setting changed; primary checkout remained untouched.
+
+
+### Approved convention and context repair — 2026-09-21
+
+Cam approved fixing the two measured upstream problems and a bounded recheck.
+Keep the original six HTML fixtures and gold frozen. Improve the full planner's
+separation of observed anomalies from intended conventions, detect only provable
+structural policy contradictions, retain unresolved note text and page-context
+coverage, and preserve review uncertainty through output normalization. Do not
+invent fact corrections, globally ban legitimate document-local variants or
+expand uncertain findings into automatic repair targets.
+
+The recheck is a changed-code/prompt experiment on the same source cohort, not an
+independent test set. One fresh full planner and at most six native JEV calls,
+US$0.15 maximum with no retries; anonymous fixtures only. Existing source and
+historical outcomes remain unchanged. Provider calls follow focused regressions,
+real-driver artifact verification and independent review of the revised inputs.
+
+
+#### Repair and bounded recheck results
+
+Implemented the measured boundary fixes: planner instructions distinguish observed
+anomalies from target conventions; exact structural contradictions are retained
+as diagnostics and skipped by shadow dispatch; unclassified note text and page
+context coverage survive compaction; explicit uncertainty survives normalization.
+An accepted canonical fused variant that conflicts with detector evidence routes
+to review without automatic repair. Authoritative uncertainty cannot be cleared
+by a raw JEV judgment; raw probabilities and labels remain visible for scoring.
+
+Independent review identified and verified the two downstream uncertainty fixes.
+66 affected runtime/repair-consumer tests passed, with focused Ruff and real-driver
+cohort-r5 proof. Root inspected the emitted dossier, stamped report, conformance,
+shadow decisions and unchanged authoritative hashes. The original HTML and gold
+were not edited; revised code, prompt and input have separate frozen identities.
+
+One fresh planner plus five JEV calls completed; the sixth planned JEV call was
+skipped because the new guard detected conflicting conventions. No errors,
+retries or unknown usage. CostUS$0.030029128 (planner$0.02974 + JEV$0.000289128),
+belowUS$0.15. Planner latency29.176s. Combined four-lane evaluation plus the smoke,
+structural sample and this recheck totalUS$0.153663580; wider historical portfolio
+costs remain separate.
+
+Both raw planner and normalized pipeline now match all six expected outcomes:
+the original five visible cases remain5/5 and the newly exposed note is uncertain.
+The planner still authors a fused canonical header while flagging it as defective;
+the prompt alone did not eliminate this generative inconsistency. The new exact
+contract guard catches it and retains the planner's defect decision without a JEV
+call. This is detected and contained, not a claim of perfectly consistent model
+policy generation.
+
+For the original five cases rawJEV has3 correct,1 wrong and1 skipped; across allsix
+rawJEV has3 correct,2 wrong and1 skipped. It calls fragmentation conformant at0.32
+confidence (layoutguard routes review) and the ambiguous note row_semantic_issue
+at0.42 (authoritative uncertainty remains review). Routed shadow has5/6 exact
+statuses plus one appropriate review, no false-clean clearance. JEV directly
+handles2/6; two use planner fallback and two review. All authoritative output
+hashes remain unchanged by shadow.
+
+Recommendation: use the full planner for this lane and retain JEV default-off.
+The fixes improve evidence coverage and prevent inconsistent policy/uncertainty
+from being silently cleared, but JEV did not add defect-detection value here.
+This is a relative workflow judgment, not rejection against an aspirational
+perfect-score gate, and not a verdict against JEV in other repositories. No
+further unchanged-sample tuning or paid reruns are warranted. Source-disjoint
+real-workload evidence would be needed before a broader adoption decision.
+
+[Owner recheck evidence](/Users/cam/.codex/worktrees/jev-docweb-20260921/docs/evals/artifacts/story234-evidence-contract-recheck/).
+
+Owner fixes, verification tooling and recheck evidence landed and verified on
+Doc Web remote main at `35798b9af598f9a0f5829b3ccead5637392afe9f`.
+The task worktree is clean; primary checkout and ignored runtime settings remain
+unchanged. Story234 is Done; JEV remains default-off.

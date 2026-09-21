@@ -144,3 +144,10 @@ explicit rejections.
   JEV4/5; layoutguard handled contradictory convention, shared compaction blind
   spot isolated pre-call. Scout072 records recommendation to fix conventions and
   note/context visibility before expanding; persistent shadow remains disabled.
+
+- 2026-09-21: Approved convention/context fixes and bounded recheck complete.
+  Note evidence and uncertainty now survive; contradictory conventions are
+  detected and skipped, including downstream repair/clean-clearance guards.
+  Sixcalls/$0.030029128: planner6/6, rawJEV3correct/2wrong/1skip. Retain planner
+  authority and JEVdefaultoff; no incremental detection benefit in this sample.
+  Original fixtures/gold unchanged;66focused tests and realdriver proof pass.
