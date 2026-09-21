@@ -132,3 +132,8 @@ explicit rejections.
   no provider spend. Doc Web ignored worktree .env has a blank dedicated runtime
   key entry and disabled shadow flag; live observation awaits local key entry.
   Dossier observation requires consumer-owned authenticated dispatch.
+
+- 2026-09-21: Cam supplied Doc Web's dedicated runtime key. One synthetic native
+  observation passed:303ms/$0.000044268, low-confidence planner fallback,
+  five unchanged authoritative artifacts. Key blocker resolved; persistent
+  shadow disabled and representative/private traffic not yet observed.

@@ -54,8 +54,10 @@ Use this index to track external sources investigated for cross-project value.
   and Done in its isolated worktree; Dossier Story171 is also Done and independently
   reviewed. Both integrations and all four campaign evidence sets are now landed
   on owner remote main; both integrations remain opt-in and not live-enabled.
-  Doc Web observation awaits its dedicated runtime key. Implementation and
-  landing incurred zero additional provider spend.
+  Doc Web subsequently passed one native synthetic observation (303ms,
+  $0.000044268): low confidence correctly retained the planner decision.
+  Persistent shadow remains disabled. Implementation and landing themselves
+  incurred zero provider spend.
 
 - `2026-09-19` — [Scout 071 — Qwen3.8-Omni-Flash Evaluation Routing](./scout/scout-071-qwen38-omni-flash-evaluation-routing.md) — `Defer — access`
   All three selected owners (CineForge, Doc Web, Storybook) stopped before

@@ -1294,3 +1294,25 @@ Doc Web live observation is pending its dedicated runtime key; Dossier consumer
 observation is pending an identified host integration. Neither integration has
 been enabled for private production data. Storybook's full artifact judge and
 Scrypted repair behavior remain unchanged.
+
+
+### Doc Web native observation completed — 2026-09-21
+
+Cam filled the dedicated runtime key. One authorized native `jev-1.13.0` call
+through the landed shadow seam used retained synthetic r4 chapter data and its
+mock-authored planner output. It completed in303.043ms: conformant, confidence0.70,
+planner_fallback/low_confidence. Usage1054 input/64 output; US$0.000044268 known
+cost and zero unknown reservation. All five source authoritative JSON artifacts
+retained exact byte hashes. Persistent shadow remains disabled; no private
+payload, GPT comparator call, retry or additional model call occurred.
+
+The key/access blocker for this isolated Doc Web worktree is resolved. The
+observation establishes native runtime transport and configured fallback behavior,
+not representative quality, calibration or savings. Evidence is retained in
+[the owner observation record](/Users/cam/.codex/worktrees/jev-docweb-20260921/docs/evals/artifacts/story234-jev-shadow/live-synthetic-observation-01/README.md).
+The previous four-lane eval total remains US$0.089721794; this distinct runtime
+observation adds US$0.000044268 (combined US$0.089766062). Dossier consumer-owned
+observation remains a separate integration step.
+
+Owner observation evidence landed and verified on Doc Web remote main at
+`91faacb7fc9968207ab85a1b1927ddbd7b4968ed`. Runtime source is unchanged.
