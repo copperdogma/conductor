@@ -137,3 +137,10 @@ explicit rejections.
   observation passed:303ms/$0.000044268, low-confidence planner fallback,
   five unchanged authoritative artifacts. Key blocker resolved; persistent
   shadow disabled and representative/private traffic not yet observed.
+
+- 2026-09-21: Approved Doc Web representative-sample follow-up completed using
+  regenerated fictional content in one real reviewed48-row structure; original
+  personal material not sent. Seven calls/$0.03386839. Fullplanner5/5 visible,
+  JEV4/5; layoutguard handled contradictory convention, shared compaction blind
+  spot isolated pre-call. Scout072 records recommendation to fix conventions and
+  note/context visibility before expanding; persistent shadow remains disabled.

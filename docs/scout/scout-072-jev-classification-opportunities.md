@@ -1316,3 +1316,71 @@ observation remains a separate integration step.
 
 Owner observation evidence landed and verified on Doc Web remote main at
 `91faacb7fc9968207ab85a1b1927ddbd7b4968ed`. Runtime source is unchanged.
+
+
+### Approved structural observation sample — 2026-09-21
+
+Cam approved the next small representative sample. No retained real planner
+triple exists for the available reviewed Onward HTML; original content contains
+personal genealogy. The original-data transfer choice was requested, with no
+permission inferred from silence. Preparation instead uses six fully fictional
+content variants inheriting the complete48-row DOM of one reviewed chapter.
+Five structural/semantic mutations are explicit; this is representative of
+maintained failure shapes, not production prevalence or independent documents.
+
+The bounded comparison uses the actual dossier/compaction/detector, one fresh
+full GPT-4.1 planner call, and at most six native JEV shadow calls. No retries;
+maximum combined exposure US$0.15. Root independently reviewed the generated text,
+gold, source structure and compact inputs before calls. Case6 is a predeclared
+coverage probe: the ambiguous full-HTML note is absent from compact model input.
+It is excluded from conditional classifier accuracy and reported separately as
+an end-to-end evidence-coverage limitation. Full-planner outputs are comparison
+evidence, never the gold oracle. Existing0.8 routing threshold stays frozen.
+
+
+#### Structural sample results
+
+Seven native calls completed without retries, transport errors or strict-parser
+failures. Full planner status was5/5 on the evidence-visible cases, raw JEV4/5,
+and shadow4/5 exact classes plus one guarded review. Within these five cases,
+two used JEV directly, two reused the planner on low confidence, and one routed
+to review through the deterministic layout guard. No additional defect was caught
+relative to the full planner in this sample. All four authoritative output files
+retained their exact hashes.
+
+The fused-header disagreement has an upstream explanation: the full planner
+correctly marked that chapter format_drift while simultaneously authoring a
+pattern whose canonical header and allowed variants explicitly permit BOYGIRL.
+JEV's conformant judgment followed the policy it received; the deterministic
+guard prevented a false-clean shadow result. Other planner conventions also
+listed fragmentation/concatenation as allowed variants while text discouraged
+them. This is a convention-authoring inconsistency, not clean evidence of JEV
+inferiority. Canonical signals themselves can carry planner-authored defect
+meaning, so this dependent checker is not independent source validation.
+
+Case6 returned conformant from both models. Its clipped ambiguous note was absent
+from the compact inputs, as identified before inference; that result is a shared
+input-coverage failure and remains excluded from classifier accuracy. It is not
+repaired or relabeled after seeing output.
+
+JEV costUS$0.00030639 for six requests, median233.84ms and1.541s summed latency.
+Full GPT-4.1 planner costUS$0.033562 and31.396s. TotalUS$0.03386839, no unknown
+reservation, below theUS$0.15 cap. This is added shadow cost, not measured savings.
+Prior four-lane eval plus single smoke plus this sample totalUS$0.123634452;
+historical wider portfolio costs remain separate.
+
+Recommendation: retain JEV as opt-in while correcting contradictory conventions
+and improving visibility of suspicious notes/missing source context. Then compare
+again on the same frozen cases before expanding. No absolute perfection gate is
+being applied: the present pipeline already detects all five visible cases, and
+this sample shows no incremental detection benefit from JEV yet. Both upstream
+issues affect meaningful comparison. Do not discard JEV based on the inconsistent
+policy it was given or claim production representativeness from one source DOM.
+
+Owner evidence: [structural observation](/Users/cam/.codex/worktrees/jev-docweb-20260921/docs/evals/artifacts/story234-anonymized-observation/).
+
+Owner observation tooling, frozen sample, raw evidence and report landed at
+`b25a329b184d434e4286a27045fe6e87aeadaf7b`, verified on Doc Web remote main and
+execution branch. Five focused tooling checks, Ruff, methodology, source freezes
+and whitespace checks passed; runtime tests reused unchanged. No runtime code or
+persistent enable setting changed; primary checkout remained untouched.

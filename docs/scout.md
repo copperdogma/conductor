@@ -58,6 +58,10 @@ Use this index to track external sources investigated for cross-project value.
   $0.000044268): low confidence correctly retained the planner decision.
   Persistent shadow remains disabled. Implementation and landing themselves
   incurred zero provider spend.
+  Follow-up six-case anonymized structural sample cost$0.03386839: full planner
+  5/5 visible cases, rawJEV4/5; guard prevented the false-clean result caused by
+  contradictory planner conventions. A separate missing-input probe failed both.
+  Fix convention consistency and note visibility before expanding shadow use.
 
 - `2026-09-19` — [Scout 071 — Qwen3.8-Omni-Flash Evaluation Routing](./scout/scout-071-qwen38-omni-flash-evaluation-routing.md) — `Defer — access`
   All three selected owners (CineForge, Doc Web, Storybook) stopped before
