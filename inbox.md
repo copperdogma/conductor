@@ -6,6 +6,15 @@ explicit rejections.
 
 ## General
 
+- 2026-09-21: Cam set an explicit goal to complete all remaining positive JEV
+  proposals and review the combined results at the end: Doc Web issue triage,
+  Dossier assertion review, Storybook artifact-link selection and Scrypted
+  ambiguous diagnostics. Build missing evals and run relative comparisons.
+  Combined provider cap remains US$2: Doc Web $0.60, Dossier $0.60, Storybook
+  $0.40, Scrypted $0.40. Synthetic/public fixtures only; no runtime/default
+  changes, adoption or deployment. Other dispositions remain deferred. Scout072
+  owns the consolidated follow-through; temporary eval keys must be removed.
+
 - 2026-09-21: Cam selected hosted Storybook JEV activation and supplied a new
   owner runtime key. Routed to Scout072 hosted activation record. Production
   app and active worker enabled; actual-router synthetic probe passed in 284 ms
@@ -107,3 +116,19 @@ explicit rejections.
   - I'm imaginging moving our core management docs over to something like this. If it's just text, like the ideal.md, it could be an html file with a nicer presentation. Instead of referecing docs via paths or notation in markdown we could just hyperlink to them. And some things that are data-heavy like the stories.md file or the like could be done in a better format for AI to worth with (like json) with an HTML view available for humans to look at, which would be much easier to understand. The stories could also be linked a lot better with hyperlinks plus there are a ton of broken-link tools and the like we could use for linting to make sure nothing goes astray.
   - I'd be worried about the cruft it would create. It's not usually just html, it's css, svg, image files, js, etc, etc. Maybe it doesn't matter because it's written and maintaned by AI and the benefits may outweigh the costs.
   - A lot of this could be stitched together in a project dashboard, linking to the ideal and spec, showing the active and upcoming stories, perhaps showing the pipeline runs or latest evals if applicable, etc.
+
+- 2026-09-21: Completed the four remaining approved JEV screens; 172 provider calls, $0.089721794/$2. Doc Web cascade and Dossier advisory review are strongest next integrations; Storybook link selection positive but full completion unmeasured; Scrypted promising read-only adjunct. Evidence and limitations in Scout072 portfolio-results section. All temporary eval-key entries removed; no new runtime changes or landing.
+
+- 2026-09-21: Cam authorized a new goal to follow the completed JEV recommendations. Implement Doc Web opt-in shadow triage and Dossier optional advisory assertion review in existing isolated owner worktrees; preserve current authoritative processing and frozen evals. No implicit landing or deployment.
+
+  Completed: Doc Web Story234 and Dossier Story171 are Done and independently
+  reviewed in isolated worktrees. Offline integration and failure checks passed;
+  zero additional provider spend. Both remain opt-in and unlanded. Consolidated
+  evidence is in Scout072 approved implementation follow-through.
+
+- 2026-09-21: Cam approved landing and observation preparation. Doc Web81d4cfa9,
+  Dossier9fc49b17, Storybook evalb619d007 and Scrypted evalb2198f3d verified on
+  remote main. Conductor records close the campaign. Primary checkouts untouched;
+  no provider spend. Doc Web ignored worktree .env has a blank dedicated runtime
+  key entry and disabled shadow flag; live observation awaits local key entry.
+  Dossier observation requires consumer-owned authenticated dispatch.

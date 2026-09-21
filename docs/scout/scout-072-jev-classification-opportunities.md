@@ -1044,3 +1044,253 @@ standby's controlled boot, were verified. Do not claim aggregate FullyDeployed.
 
 Owner deployment record landed at `63d75877040e19ecdf94a2d8743710dea1fa26b3`
 on Storybook remote main. See [deployment log](https://github.com/copperdogma/storybook/blob/63d75877040e19ecdf94a2d8743710dea1fa26b3/docs/deploy-log.md#story-167-hosted-jev-activation--2026-09-21).
+
+## Approved remaining portfolio campaign — 2026-09-21
+
+Cam explicitly set a goal to complete all remaining positive proposals and
+review the grand total afterward. Selected: Doc Web five-class text issue
+triage, Dossier source/assertion review assistance, Storybook textual artifact
+candidate selection, and Scrypted ambiguous-diagnostics classification. Missing
+fixtures and harnesses are authorized preparation, not indefinite deferrals.
+
+Combined provider ceiling US$2, allocated Doc Web $0.60, Dossier $0.60,
+Storybook $0.40 and Scrypted $0.40, including qualification/comparators/retries.
+Use synthetic/public independent gold and same-input relative baselines; freeze
+before calls. Semantic mistakes are observations, not automatic stopping gates.
+No product/default changes, commits/pushes, deployment, or adoption decision is
+part of this campaign. Private production payloads and the new Storybook runtime
+key remain out of scope; Conductor's synthetic-eval key is used temporarily.
+Conductor, Robo Rally, CineForge and Board Game Ingester remain deferred, as do
+Cam's explicit exclusions Bishop, updater/maintenance and Labor/Zero.
+
+Owner worktrees are independent of primary checkouts and prior frozen evidence.
+Coordinator owns fixture/contract review, aggregate budget and final synthesis;
+owner workers build and judge repo-local lanes. Each owner must return source
+identity, raw synthetic responses, cost ledger, relative results, evidence
+limits, focused validation and temporary-key cleanup.
+
+## Remaining portfolio campaign results — 2026-09-21
+
+The four approved experiments completed in isolated owner worktrees. All used
+synthetic fixtures with independent gold review, fresh provider calls, and
+relative comparisons. No runtime/default changes, deployments, commits, or pushes
+were made in this campaign. These results support choosing useful imperfect
+components, rather than requiring a perfect score or arbitrary savings floor.
+
+| Owner lane | Relative evidence | Recommendation |
+| --- | --- | --- |
+| Doc Web issue triage | 20 cases ×2: JEV 24/40, GPT-4.1 narrow projection 29/40, predeclared real serial cascade 33/40. Cascade $0.0196916 vs GPT $0.043408 (54.64% less); median 495 vs730ms, p95 1691 vs1136ms. Both cascade and GPT had three false-clean defects. | Highest-priority bounded shadow integration of JEV plus fallback; retain deterministic layout checks. Full planner and repair outcomes remain unmeasured. |
+| Dossier assertion review | 15 short source/assertion pairs: JEV and pinned GPT-5.5 both15/15, including9 held-out; each caught10 planted defects without false alarms. JEV $0.000153006 vsGPT $0.01111; three matched batches took592 vs8919ms in aggregate. | Pursue optional advisory review, preserving source evidence and human/main-model authority. This adds a check; it does not replace semantic graph extraction. |
+| Storybook artifact-link candidate selection | 12 scenarios/30 candidate labels: JEV25/30, Gemini2.5FlashLite23/30, new score-only reference17/30. No rejected candidate strongly accepted by either model; unnecessary review proposals2 vs4. | Positive candidate-selection result, but retain Gemini full judge for now. A selection/completion integration must still supply rationale, evidence, and follow-up questions. Candidate-only savings are not complete-workflow savings. |
+| Scrypted diagnosis | 16 synthetic incident packets: JEV diagnosis16/16; acceptable next diagnostic15/16. Existing unchanged script replayed16/16 but has a different remediation contract, so no invented head-to-head accuracy. | Useful lower-priority read-only diagnostic assistant; keep repair actions deterministic. No automated remediation or production rollout justified by this small screen. |
+
+Doc Web represents ten paired mutation patterns across only two source documents,
+not forty independent documents. Dossier is deliberately defect-enriched and does
+not measure normal defect prevalence. Storybook's thirty labels are clustered in
+twelve scenarios; the full Gemini contract is richer than JEV's selection output.
+Scrypted's script baseline is descriptive, not a weaker gold standard. Confidence
+calibration, real-traffic economics, and production accuracy remain unmeasured.
+
+### Campaign accounting and evidence integrity
+
+| Owner | Actual provider calls | Published-price usage cost | Approved cap |
+| --- | ---: | ---: | ---: |
+| Doc Web |97|$0.063099600|$0.60|
+| Dossier |7|$0.017273006|$0.60|
+| Storybook links |52|$0.008508768|$0.40|
+| Scrypted |16|$0.000840420|$0.40|
+| **Total** |**172**|**$0.089721794**|**$2.00**|
+
+These are this four-lane campaign's usage-priced inference costs, including all
+qualification, preliminary, rejected, and corrected calls; not historical
+portfolio spend, agent labor, or provider invoice reconciliation. Workflow arm
+costs share underlying calls and are not added again.
+
+Dossier's initial alias call served `gpt-5.5-2026-04-23` and failed the initial
+exact-identity gate. Its $0.00601 remains counted; the comparator was pinned to
+that observed checkpoint and rerun with unchanged semantic fixtures/prompts.
+Storybook's preliminary26-call run is preserved and excluded from the quality
+verdict because raw-before-parse custody, reservation/output-cap alignment, and
+contract protections needed repair. The corrected26-call run has its own frozen
+identity; both runs' costs are included. Scrypted initially quarantined four
+responses whose rounded probability maps summed to0.99. Original envelopes and
+strict-parser results were retained, then reparsed offline with explicit rounding
+tolerance; no new calls, probability normalization, or gold changes were used.
+
+All four centrally injected TypeSafe eval-key entries were removed after calls.
+Owner runtime credentials were not copied or changed. Focused owner validation,
+source hashes, request/response artifacts, independent reviews, and usage ledgers
+remain in the owner worktrees for review. No private source replay occurred.
+
+### Owner evidence
+
+- [Doc Web report](/Users/cam/.codex/worktrees/jev-docweb-20260921/docs/evals/artifacts/jev-consistency-20260921/report.md), branch `codex/jev-docweb-20260921`, base `0a4d20ff894892f4d96a9a4541d9299d358c2cd5`.
+- [Dossier Attempt014](/Users/cam/.codex/worktrees/jev-dossier-review-20260921/docs/evals/attempts/014-jev-assertion-review.md), branch `codex/jev-dossier-review-20260921`, base `3d66f3c52b5f27a58bd49d807e23a94b678e8baa`.
+- [Storybook link-selection report](/Users/cam/.codex/worktrees/jev-storybook-links-20260921/docs/evals/artifacts/story061-jev-relative-20260921-v2/report.md), branch `codex/jev-storybook-links-20260921`, base `63d75877040e19ecdf94a2d8743710dea1fa26b3`.
+- [Scrypted report](/Users/cam/.codex/worktrees/jev-scrypted-20260921/evals/jev-scrypted/REPORT.md), branch `codex/jev-scrypted-20260921`, base `e0c438f90a3fa9185da27d64fcd100e60106c758`.
+
+The previous portfolio decisions remain distinct: Storybook relationship routing
+was already deployed; Echo Forge's Gemini/Grok control-intent implementation was
+already landed. No new evidence here reverses Echo's relative model preference.
+The four newly screened lanes were worth reconsidering. Conductor, Robo Rally,
+CineForge and Board Game Ingester remain deferred for the previously recorded
+lack of a concrete semantic router, tactical framework, matching lane, or text-only
+fit; Bishop, updater/maintenance and Labor/Zero remain explicitly excluded.
+
+Final validation: Doc Web five focused tests plus Ruff/methodology; Dossier seven
+focused tests plus Ruff/registry parsing; Storybook four harness tests plus backend
+typecheck, full lint and methodology; Scrypted eleven tests. Owner whitespace
+checks passed. Conductor lint and whitespace checks passed; all four owner report
+links resolve. Coordinator independently verified all four injected key entries
+absent without printing secret values. Results, tooling and records remain
+uncommitted in the isolated worktrees, ready for Cam's combined review.
+
+## Approved implementation follow-through — 2026-09-21
+
+Cam approved following the recommendations. The next implementation slice is
+Doc Web opt-in shadow triage beside the existing planner and Dossier optional
+source/assertion advisory review. Existing authoritative output, deterministic
+checks, extraction, and fact acceptance stay in control. Owner worktrees and
+evaluation evidence are retained; new owner stories own runtime changes and
+integration validation. TypeSafe HTTP/Choice and citation-check documentation
+were refreshed from official sources on this date. Validation targets real owner
+interfaces, failure isolation, source binding, opt-in behavior, and inspectable
+synthetic artifacts. No private replay, paid model rerun, runtime credential
+provisioning, commit, push, or deployment is needed for this implementation.
+
+### Doc Web implementation validation
+
+Story234 adds one post-planner hook and an isolated, default-off JEV shadow
+module. The full planner and deterministic layout checks stay authoritative.
+Explicit uncertainty routes to review; low-confidence or failed calls use the
+existing planner decision. This reuses an already-computed result, not the
+separate serial GPT call from the evaluation, and adds cost rather than claiming
+production savings. Runtime inputs are compact extracted HTML plus conventions;
+prior source-prose evaluation accuracy is not asserted for this different input.
+
+Owner configuration requires both `DOC_WEB_JEV_SHADOW=enabled` and a distinct
+`DOC_WEB_TYPESAFE_RUNTIME_API_KEY`. No key was provisioned or feature enabled.
+Limits are three attempted chapters,16KiB state,64KiB response, two-second caller
+deadline, and $0.008064 conservative per-invocation exposure; no redirects/retries.
+A timed-out daemon request can finish remotely, so unknown exposure remains
+reserved and no late decision is applied. Sidecars omit source excerpts/error
+bodies, bind input/plan/authoritative hashes, and replace old reports atomically.
+
+26 affected tests, Ruff, methodology, whitespace, and independent review passed.
+The real driver ran disabled/enabled/failure modes using synthetic input,
+network-blocked mocks and no inherited provider keys. Primary report, dossier,
+pattern inventory, plan and conformance artifacts match apart from run metadata.
+Root inspected explicit-uncertain routing and the failed-call reservation.
+All222 prior Story233 evaluation artifacts retain their frozen hashes.
+
+- [Setup and limits](/Users/cam/.codex/worktrees/jev-docweb-20260921/docs/runbooks/jev-consistency-shadow.md)
+- [Integration artifacts](/Users/cam/.codex/worktrees/jev-docweb-20260921/docs/evals/artifacts/story234-jev-shadow/README.md)
+- [Owner story](/Users/cam/.codex/worktrees/jev-docweb-20260921/docs/stories/story-234-jev-consistency-shadow-routing.md)
+
+This is implemented/validated code in an isolated worktree, not a commit, push,
+deployment, private replay, or new live-provider qualification. Additional provider
+spend for implementation validation is zero; sidecar usage examples are mock data.
+
+
+### Dossier implementation validation
+
+Story171 adds the explicitly invoked `review_semantic_assertions` API. Ordinary
+extraction never calls it, and advisory judgments cannot change accepted graph
+facts. The caller owns HTTP dispatch, product authorization, response custody,
+WAL and timeout enforcement; the library discovers no credentials and performs
+no hidden network calls. This reviews cited excerpts, not full-source or external
+truth. Runtime adoption requires a consumer-owned HTTP/auth callback.
+
+Requests preserve opaque entity IDs alongside labels, exact evidence passages,
+source roles, offsets and assertion qualifiers. Fixed model/rate reservations,
+request/response size caps, batch/assertion/token limits, deadlines and cost bounds
+are checked before dispatch. Stable request hashes and batch ordinals distinguish
+identical request bodies. Failed or malformed batches make the entire report
+unavailable while retaining known usage and unknown-outcome reservations.
+Consumed response fields are validated strictly, duplicate JSON keys reject, and
+unused additive provider metadata is allowed. Malformed callback models cannot
+emit value-bearing validation warnings.
+
+The owner passed 11 final advisory tests, seven frozen-eval tests and an earlier
+58-test affected semantic boundary run; unchanged boundary results were reused
+after the final strictness-only additions. Independent review passed 18 focused
+checks and returned CLEAR. Ruff, size limits and whitespace checks passed.
+The semantic contract fingerprint is unchanged:
+`028b1cecba17bd6bb6ccb65ca7da36891a200fb0b0ef1346bc8319020a19b149`.
+Retained synthetic complete and partial-failure reports show identical sealed
+result hashes before and after review. Root inspected both reports, including the
+second-batch unknown outcome with no leaked partial judgments.
+
+- [Public API and caller responsibilities](/Users/cam/.codex/worktrees/jev-dossier-review-20260921/README.md)
+- [Validation and retained reports](/Users/cam/.codex/worktrees/jev-dossier-review-20260921/docs/stories/artifacts/story-171/validation.md)
+- [Owner story](/Users/cam/.codex/worktrees/jev-dossier-review-20260921/docs/stories/story-171-optional-advisory-assertion-review.md)
+
+### Implementation goal complete
+
+Both owner stories are Done, independently reviewed, and ready for combined
+review in their isolated worktrees. Doc Web remains disabled; Dossier requires
+explicit caller integration. No new live-provider qualification or private replay
+was performed. Implementation validation incurred zero provider spend, leaving
+the preceding four-lane evaluation total at $0.089721794. Synthetic report usage
+is not billed API usage. No commits, pushes, deployment or credential provisioning
+occurred. Storybook's full artifact judge and Scrypted repairs remain unchanged.
+The next recommended step is scoped landing of the validated work, followed by
+separately configured runtime observation before any authoritative adoption.
+
+
+## Approved landing and observation preparation — 2026-09-21
+
+Cam approved the recommended next step. The finish-and-push workflow covers
+Doc Web and Dossier integrations, their evaluation evidence, the linked Storybook
+and Scrypted evaluation-only changes, and Conductor records. Each owner owns its
+Git integration; all five repositories are preflighted before any push. Existing
+validated inputs are reused; only affected integration surfaces require reruns.
+Primary checkouts and unrelated dirty work remain untouched. Reviewed primary
+Conductor inbox captures are already represented in the newer task copy.
+
+Runtime observation remains advisory. Doc Web is the first runnable observation
+path: use the owner's distinct runtime key and explicit enable setting, limit the
+initial run to one invocation (at most three JEV attempts), inspect coverage,
+latency, unknown reservations and disagreements with the unchanged planner, and
+retain the sidecar with its input hashes. Do not treat agreement as a gold label
+or claim savings from shadow mode. Dossier is a library API; representative
+observation requires an identified consumer to supply authenticated dispatch and
+source custody. No generic library-owned network path should be added merely to
+turn it on. Runtime key absence does not block landing validated disabled code.
+
+
+Observation setup check: the Doc Web primary runtime key was absent and shadow
+was not enabled. A blank `DOC_WEB_TYPESAFE_RUNTIME_API_KEY` entry and
+`DOC_WEB_JEV_SHADOW=disabled` were prepared only in the isolated worktree's ignored
+`.env`; all existing values and the primary checkout were preserved. Cam was
+asked to fill the key locally. No central eval key was repurposed. The first
+native observation can use the retained r4 synthetic dossier and mock-authored
+plan through `write_shadow`, capped at one call/$0.002688 reserve; this qualifies
+runtime transport and policy only, not production quality or savings. No live
+observation has been run while that credential is missing.
+
+
+### Verified owner landings
+
+| Repository | Commit on remote main | Scope |
+| --- | --- | --- |
+| Doc Web | `81d4cfa95da71f10ef28e5f82195d8e496610a5d` | Story233 evaluation and Story234 disabled shadow integration |
+| Dossier | `9fc49b175ef6b1a79ec5a291f8b7b771ab728687` | Attempt014 evaluation and Story171 explicit advisory API |
+| Storybook | `b619d00745e5cda87893f2db26a7d337ae8c62fd` | Attempt160 artifact-link evaluation only |
+| Scrypted | `b2198f3d4c1a6e6663fee9e4571002959fd422a9` | Synthetic diagnostic evaluation only |
+
+Every owner refreshed its remote, pushed its execution branch, fast-forwarded
+main without force, and verified the exact destination hash with `git ls-remote`.
+No integration conflicts arose. Each task worktree is clean and retained; ignored
+credential files and protected local raw evidence remain outside commits. Primary
+checkouts were not reset, stashed or synchronized. Applicable prior validation
+was reused after hash checks; Dossier additionally passed18 combined tests and
+Doc Web refreshed methodology validation. All scoped secret/whitespace checks
+passed. No provider calls were made during landing. The earlier unlanded statuses
+above describe their historical checkpoints and are superseded by this record.
+
+The validated integrations and all four campaign evidence sets are now landed.
+Doc Web live observation is pending its dedicated runtime key; Dossier consumer
+observation is pending an identified host integration. Neither integration has
+been enabled for private production data. Storybook's full artifact judge and
+Scrypted repair behavior remain unchanged.

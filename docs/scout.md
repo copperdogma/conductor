@@ -46,6 +46,16 @@ Use this index to track external sources investigated for cross-project value.
   US$0.119062142/$1; supports bounded JEV routing rather than blanket rejection.
   Story167 and comparison evidence landed at `67e8e44`. Hosted activation then
   approved with a new owner key; live synthetic router probe passed, 284 ms.
+  Remaining four-owner screen completed: Doc Web hybrid33/40 vsGPT29/40;
+  Dossier JEV/GPT15/15; Storybook links25/30 vsGemini23/30; Scrypted diagnoses16/16.
+  Total172 calls/$0.089721794; limitations and corrected-run costs retained.
+  Cam approved implementation follow-through: Doc Web opt-in shadow triage and
+  Dossier optional advisory assertion review. Doc Web Story234 is now validated
+  and Done in its isolated worktree; Dossier Story171 is also Done and independently
+  reviewed. Both integrations and all four campaign evidence sets are now landed
+  on owner remote main; both integrations remain opt-in and not live-enabled.
+  Doc Web observation awaits its dedicated runtime key. Implementation and
+  landing incurred zero additional provider spend.
 
 - `2026-09-19` — [Scout 071 — Qwen3.8-Omni-Flash Evaluation Routing](./scout/scout-071-qwen38-omni-flash-evaluation-routing.md) — `Defer — access`
   All three selected owners (CineForge, Doc Web, Storybook) stopped before
