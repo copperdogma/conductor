@@ -41,6 +41,10 @@ Use this index to track external sources investigated for cross-project value.
   45/48; JEV→Gemini saves cost but loses accuracy. Subsequent approved runtime
   implementation landed Echo Story071 at `518046e` on 2026-09-21: Gemini default
   with Grok option, manual review and cancellation. No deployment.
+  Storybook relative rerun 2026-09-21: JEV/narrow Haiku 24/24 routing, JEV 89.5%
+  cheaper/4.6x faster median; full Haiku/cascade 22/24, cascade 20.6% cheaper.
+  US$0.119062142/$1; supports bounded JEV routing rather than blanket rejection.
+  Story167 and comparison evidence landed at `67e8e44`; runtime disabled by default.
 
 - `2026-09-19` — [Scout 071 — Qwen3.8-Omni-Flash Evaluation Routing](./scout/scout-071-qwen38-omni-flash-evaluation-routing.md) — `Defer — access`
   All three selected owners (CineForge, Doc Web, Storybook) stopped before

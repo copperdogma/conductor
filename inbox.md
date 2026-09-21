@@ -6,10 +6,24 @@ explicit rejections.
 
 ## General
 
+- 2026-09-21: Approved implementing bounded Storybook JEV routing after the
+  relative comparison. New isolated runtime worktree; preserve existing eval
+  evidence. Keep Haiku for full corrections/explanations, preserve confirmation
+  and general non-relationship corrections. Implementation tests use mocks;
+  no paid calls or private payload dispatch during implementation.
+  Story167 build complete in isolated `jev-routing-integration-20260921`: 171
+  backend + 12 env/privacy tests, typecheck/lint, component builds and synthetic
+  DB/runtime smoke pass. Independent review clean; disabled defaults remain.
+  Final review and landing completed: Story167 Done; Storybook main `67e8e44`
+  includes runtime and relative eval evidence. Runtime activation remains separate.
+
 - 2026-09-21: Approved final review and landing of Echo Story071. Requested
   relative re-evaluation of other JEV tests affected by overly strict gates.
   Storybook is the sole other tested owner; new synthetic paired screen capped
   at US$1, preserving old evidence and product behavior. Routed to Scout072.
+  Completed 75 calls/$0.119062142: JEV and narrow Haiku 24/24 routing; JEV 89.5%
+  cheaper/4.6x faster median. Full Haiku and serial cascade 22/24; cascade 20.6%
+  cheaper/slightly slower. Bounded JEV integration and evidence landed in Story167 at `67e8e44`.
 
 - 2026-09-19: Research JEV against current project classification opportunities.
   Routed to [Scout 072](docs/scout/scout-072-jev-classification-opportunities.md).

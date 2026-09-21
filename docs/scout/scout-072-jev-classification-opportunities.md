@@ -677,6 +677,118 @@ it still states probability distributions sum to one. This is not authorization
 to normalize malformed consumed answers silently:
 https://docs.typesafe.ai/primitives/choice (checked 2026-09-21).
 
+## Completed relative Storybook rerun — 2026-09-21
+
+Fresh isolated owner worktree: `/Users/cam/.codex/worktrees/jev-relative-20260921`,
+branch `codex/jev-relative-20260921`, base
+`69940efd87b46c1a0e3031757af98a434c01f18a`. Twelve independently reviewed synthetic
+cases were run twice: four fictionalized control-case mirrors and eight fresh
+challenge cases, not 24 independent scenarios. Model requests and source hashes
+were frozen before calls. Three native probes plus 72 matrix calls completed;
+all 75 settled at **US$0.119062142 / US$1**. No cache, retries or runtime changes.
+The temporary `TYPESAFE_API_KEY` was removed and absence verified by the coordinator.
+
+| Measured arm | Quality on 24 attempts | Cost for matrix | Median / p95 ms |
+| --- | --- | --- | --- |
+| JEV narrow routing | 24/24 mode + old target; 20/24 accepted projections | $0.003484908 | 177.5 / 312.7 |
+| Haiku narrow routing | 24/24 mode + old target | $0.033080 | 817.5 / 2460.6 |
+| Haiku full interpreter | 22/24 full-task passes | $0.082011 | 2309.6 / 3164.7 |
+| Measured serial JEV → full Haiku | 22/24 full-task passes | $0.065085908 | 2420.8 / 3305.6 |
+
+The routing metric does not claim complete replacement-argument or generated
+rationale parity. JEV accepted 20/24 projections; four fallbacks were two repeats
+each of low-confidence reverse-relationship replacement and explicit date-value
+extraction. Full Haiku returned a safe no-op instead of asking clarification on
+both absent-target repetitions. The serial cascade inherited that miss. No
+scored unsafe auto-apply occurred. Error adjudication preserves the pre-reviewed
+gold and raw responses.
+
+**Revised recommendation: pursue JEV as a bounded Storybook routing front end.**
+It matched narrow Haiku routing on this small screen at 89.5% lower cost and
+4.6× faster median latency. Keeping Haiku for corrections and rationales saved
+20.6% of full-workflow cost, while median latency rose 4.8%. These are useful
+relative tradeoffs; neither a 50% saving nor perfection is required to win.
+The measured workflow is a no-op shortcut with the full incumbent for other
+branches, not a rationale-only generator or a new mutation authority. The small
+synthetic sample and repeat dependence limit generalization. The subsequent approved implementation is recorded below. The owner evaluation
+was committed as `4cbe5ca` during approved close-out, preserving raw evidence.
+
+Owner [report](https://github.com/copperdogma/storybook/blob/4cbe5ca/docs/evals/artifacts/story150-jev-relative-20260921/report.md)
+and [Attempt159](https://github.com/copperdogma/storybook/blob/4cbe5ca/docs/evals/attempts/159-story150-jev-relative-comparison.md)
+retain reproduction sources and raw evidence. Nine focused tests, scoped lint,
+source/artifact integrity, methodology and whitespace checks pass. The coordinator
+independently verified all 75 ledger entries settled/qualified and every frozen
+source hash unchanged. No product/parent suite or runtime adoption is claimed.
+The zero-cost posthoc branch-aware replay of old responses is separately stored
+at `docs/evals/artifacts/story150-jev-audit-20260921/` in the old frozen eval
+worktree: 23/23 projected decisions, 22 paired incumbent results, one unpaired.
+That diagnostic is not combined with the fresh results as extra samples.
+
+## Approved Storybook routing implementation — 2026-09-21
+
+Cam approved the bounded integration after the relative comparison. The owner
+implemented Story167 in isolated worktree
+`/Users/cam/.codex/worktrees/jev-routing-integration-20260921`, branch
+`codex/jev-routing-integration-20260921`, refreshed remote base
+`69940efd87b46c1a0e3031757af98a434c01f18a`. Both prior evaluation worktrees and
+the primary checkout remain preserved. Initial approval covered implementation;
+Cam subsequently approved final review and landing. No deployment or new paid
+evaluation is included.
+
+The reviewed plan wraps only the freeform relationship correction caller. Other
+Knowledge correction factories keep the general Haiku interpreter. A production
+module uses the evaluated mode judgment, omitting independent unused questions:
+confident no-op can shortcut; explicit confirmation returns a canonical
+non-mutating confirmation with a factual routing explanation; corrections,
+unknowns and provider failures go to Haiku. General names, aliases and facts
+remain outside this router. New runtime module/prompt tests must preserve the
+mode contract, existing confirmation/executor/raw-save behavior and separately
+track JEV and Haiku usage, including returned usage before fallback failure.
+Unknown transport cost must not be represented as known-zero billing.
+
+Activation uses explicit server-side configuration and an owner-managed key;
+the existing evaluation-only key is not copied into runtime. The owner provider
+manifest and setup docs must describe the payload, provider posture and controls.
+Implementation verification used synthetic mocked responses, with no private
+provider dispatch. The build is complete in
+[Story167](https://github.com/copperdogma/storybook/blob/67e8e44/docs/stories/story-167-jev-relationship-routing.md),
+which has completed formal validation and is marked Done. Independent code review is
+clean. The coordinator compared the production mode question against the frozen
+paid request and found an exact match; state is minimized to referenced fields,
+so this is contract/source parity evidence, not a fresh accuracy measurement.
+
+Validation: 171 distinct affected backend tests and 12 env/privacy tests passed,
+along with workspace typecheck/lint, backend and direct frontend builds,
+methodology and whitespace checks. Three real-consumer cases used a task-owned
+synthetic PostgreSQL database and mocked providers to verify terminal no-op,
+low-confidence clarification/queue creation without graph mutation, and separate
+JEV/Haiku cost rows. Backend startup plus health/database connectivity passed.
+The root Turbo build lost the local port-skip variable; the direct frontend
+build passed with it explicitly supplied. Existing large-chunk and global
+provider-review-date warnings remain; the new TypeSafe coverage is current.
+
+The temporary server and exact task-owned test database were removed. No runtime
+key or activation flag was set, and no `.env` was created. Setup is documented in
+[tech-stack.md](https://github.com/copperdogma/storybook/blob/67e8e44/docs/tech-stack.md#optional-jev-relationship-routing-story-167).
+No new provider spend, commit, push or deployment occurred in this build. The
+build was subsequently approved for final review and landing; runtime activation
+remains separate server configuration.
+
+## Storybook landing — 2026-09-21
+
+Approved final review and landing completed. Story167 is Done. Runtime commit
+`a3fe7cd` and relative evaluation commit `4cbe5ca` retain their ancestry in
+`67e8e44ba7f6643daf568642477f34b143dbe740`, verified on Storybook remote `main`
+and the execution branch. The evaluation branch was also pushed. Review found
+no remaining blockers; all six frozen source hashes and the artifact inventory
+match. Nine eval tests and 27 router/scorer tests passed after integration;
+unchanged implementation evidence above was reused. Combined methodology,
+provider coverage and whitespace checks passed.
+
+No runtime activation, deployment or additional provider spend. Primary
+checkouts and older frozen evaluation worktrees remain untouched; task
+worktrees are retained. Activation is the next separate operator decision.
+
 ## Finding
 
 Pursue Storybook's bounded correction interpreter first. Echo Forge is the most
