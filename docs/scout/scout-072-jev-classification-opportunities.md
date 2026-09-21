@@ -1006,3 +1006,41 @@ owner plan before implementation/provider spending.
 Validation: source/code claims and local links inspected; Conductor lint and
 whitespace checks recorded in the task handoff. No product suite was needed for
 this research-only artifact. No adoption or current model superiority claimed.
+
+## Hosted activation — 2026-09-21
+
+Cam explicitly selected hosted Storybook and supplied a new owner runtime key;
+the central synthetic-evaluation credential was not reused. Deployment candidate
+`c0a3929` records that operator decision. The production image is
+`sha256:b73ce5045cad6b7ecda6f0fd96f1b3a09140373760b0ea928f9454e7d6eb14a2`.
+Enforced media-storage and PDF-toolchain startup passed in an isolated process
+with production bindings before cutover. No schema/package/Dossier pin changes
+relative to the prior image; no migration or private corpus replay was run.
+
+The app and active worker have the new runtime key and enabled flag. Existing
+identity/private/worker settings and the $30 identity cap were preserved.
+Public health/database and provider readiness passed; root, login and JavaScript
+bundle returned HTTP 200. The coordinator visually inspected the in-app browser
+landing page with zero console errors. The stored production authenticated smoke
+token returned 401, so authenticated smoke remains unverified; no sign-in/out or
+user-record inspection was attempted.
+
+One synthetic call through the actual deployed router on the active worker used
+`jev-1.13.0`, 849 input / 52 output tokens, 284 ms and $0.000035658 published-price
+cost. It completed without Haiku fallback, database writes or private replay.
+This verifies activation/transport, not new production accuracy or savings.
+
+The stopped standby's runtime key and enabled flag were also verified through
+a temporary idle Node process with worker processing disabled. It was then
+stopped and its original worker command, enabled processing policy and standby
+association restored with skip-start; final state remains stopped. No extra
+inference was performed for this check. Deployment release is v27.
+
+Final checks verified all three machines on the candidate digest and both worker
+configurations equal to their predeploy snapshots apart from image. Both health
+endpoints returned 200. Fly's aggregate secret status remains Partial with the
+standby stopped; actual app/active-worker key presence and enabled flag, plus the
+standby's controlled boot, were verified. Do not claim aggregate FullyDeployed.
+
+Owner deployment record landed at `63d75877040e19ecdf94a2d8743710dea1fa26b3`
+on Storybook remote main. See [deployment log](https://github.com/copperdogma/storybook/blob/63d75877040e19ecdf94a2d8743710dea1fa26b3/docs/deploy-log.md#story-167-hosted-jev-activation--2026-09-21).

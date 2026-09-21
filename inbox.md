@@ -6,6 +6,12 @@ explicit rejections.
 
 ## General
 
+- 2026-09-21: Cam selected hosted Storybook JEV activation and supplied a new
+  owner runtime key. Routed to Scout072 hosted activation record. Production
+  app and active worker enabled; actual-router synthetic probe passed in 284 ms
+  for $0.000035658 without fallback or database writes. Existing worker policies
+  preserved. Public API/browser smoke passed; saved authenticated token expired.
+
 - 2026-09-21: Approved implementing bounded Storybook JEV routing after the
   relative comparison. New isolated runtime worktree; preserve existing eval
   evidence. Keep Haiku for full corrections/explanations, preserve confirmation
