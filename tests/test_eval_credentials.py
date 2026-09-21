@@ -105,6 +105,34 @@ class EvalCredentialTests(unittest.TestCase):
             "owner",
         )
 
+    def test_typesafe_copy_is_scoped_and_cleanup_preserves_owner_key(self) -> None:
+        self.vault.parent.mkdir(parents=True, mode=0o700)
+        self.vault.write_text(
+            'EVAL_TYPESAFE_API_KEY="typesafe-test-only"\n'
+            'EVAL_XAI_API_KEY="unrelated-test-only"\n'
+        )
+        os.chmod(self.vault, 0o600)
+        target = self.root / ".env.local"
+        target.write_text('OWNER_KEY="preserve-test-only"\n')
+        output = io.StringIO()
+        with redirect_stdout(output):
+            eval_credentials.check(Namespace(vault=str(self.vault)))
+            eval_credentials.copy_credential(Namespace(
+                provider="typesafe", target_env=str(target),
+                target_var="TYPESAFE_API_KEY", vault=str(self.vault),
+            ))
+            self.assertEqual(eval_credentials.read_assignments(target), {
+                "OWNER_KEY": "preserve-test-only",
+                "TYPESAFE_API_KEY": "typesafe-test-only",
+            })
+            eval_credentials.remove_credential(Namespace(
+                target_env=str(target), target_var="TYPESAFE_API_KEY",
+            ))
+        self.assertEqual(eval_credentials.read_assignments(target), {
+            "OWNER_KEY": "preserve-test-only",
+        })
+        self.assertNotIn("test-only", output.getvalue())
+
     def test_rejects_symlink_target(self) -> None:
         real = self.root / "real.env"
         real.write_text("SAFE=value\n")

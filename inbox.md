@@ -6,6 +6,67 @@ explicit rejections.
 
 ## General
 
+- 2026-09-21: Approved final review and landing of Echo Story071. Requested
+  relative re-evaluation of other JEV tests affected by overly strict gates.
+  Storybook is the sole other tested owner; new synthetic paired screen capped
+  at US$1, preserving old evidence and product behavior. Routed to Scout072.
+
+- 2026-09-19: Research JEV against current project classification opportunities.
+  Routed to [Scout 072](docs/scout/scout-072-jev-classification-opportunities.md).
+  Storybook correction intent is the first bounded comparison; Echo Forge needs
+  a new cue-classification baseline. Dossier/Doc Web/Scrypted remain scoped eval
+  proposals. Bishop, unified updater and Labor/Zero excluded by Cam for now.
+  Approved Storybook screen completed22 pairs before adapter-contract stop:
+  19 correct JEV projections,3 fallbacks; incumbent22/22. US$0.08689611/$1.
+  Only4.1% estimated full-workflow savings; no adoption. Evidence and isolated
+  benchmark changes retained; temporary key removed. Subsequent approved Echo
+  Forge offline eval construction adds38 synthetic cases and component baselines
+  in a separate owner worktree. Approved live dev screen then stopped after8
+  matched cases on GPT control-policy mismatch; JEV abstention/latency also miss
+  targets. Spend US$0.005804382/$1; key removed, no adoption.
+  Approved offline v2 separates control intent from new-sound presence:24
+  development cases,19 distinct utterances,5 active/empty-state pairs. Original
+  v1 evidence stays frozen. Subsequent approved v2 live screen:6matched pairs,
+  JEV6/6 vs GPT5/6, stopped on GPT maintenance-only music false positive.
+  US$0.004907424/$1;18cases unrun, JEVp95 475ms, no adoption. Temporarykey
+  removed; no runtime changes. Approved diagnostic completion then finished
+  remaining18pairs forUS$0.014816976. Stitched24: JEV15exact vsGPT14,
+  macroF1 .6389vs.7434, soundFP0/15vs2/15; JEV misses more real cues.
+  No fullcue adoption. Approved offline control-intent eval now has48 fresh
+  independently reviewed synthetic cases and two frozen deterministic baselines.
+  Lexical reference catches1/20 controls with3/22 false positives; AI quality
+  initially unmeasured, US$0 offline spend. Subsequently approved48pair native
+  comparison completed: JEV31/48exact,15/20recall,1/22FP,14clearabstentions;
+  GPT36/48exact,19/20recall,5/22FP. Neither meets ambiguity/latency targets.
+  US$0.016273332/$1; no adoption, key removed. Further paid work needs
+  representative fresh usage cases/stronger deterministic comparison. Existing
+  runtime is a different action contract.
+  Cam corrected the decision rule: rank useful relative improvements instead
+  of rejecting every model against aspirational absolute gates. Explicitly
+  approved broader comparison of prior promising models; Astra, Gemini 3.8,
+  Grok 4.6 and Terra plus fresh JEV/Mini anchors completed the frozen48:
+  Grok46/48 (quality winner,zero false activations), Gemini44/48 (recommended
+  interactive balance), Terra/Astra42, Mini36, JEV30. All288 unique calls cost
+  US$0.437034082/$5. Gemini+Terra agreement projects45/48; JEV→Gemini is cheaper
+  but drops to42/48. TypeSafe key removed; no runtime changes or commits.
+  Historical measurements remain intact; relative recommendations supersede
+  earlier blanket rejection against aspirational gates.
+  Cam approved implementing the Gemini control-intent path with Grok as the
+  accuracy-focused option. Owner implementation is isolated in
+  `/Users/cam/.codex/worktrees/echo-control-intent-runtime-20260920`, based on
+  current Echo Forge HEAD `cc3c77798`; the older eval worktree stays frozen.
+  Scope: explicit PTT submission, server-held provider keys, persisted model
+  selection, semantic routing with deterministic execution and review on
+  ambiguity/failure. No commit, push or deployment requested.
+  Implementation is now build-complete in that worktree: Gemini default/Grok
+  option, bounded server route, persisted choice and cancellation/manual-review
+  behavior. Verification: 134 App + 348 non-App + 5 server tests, typecheck, lint,
+  build and mocked browser smoke. Node test discovery was corrected; final
+  evidence reuses unchanged passing App shards with corrected other runners.
+  Story071 subsequently validated, marked Done and landed on remote main at
+  `518046e` on 2026-09-21. Final review fixed an autoplay cancellation race;
+  30 affected tests and packaging preflight pass. No deployment.
+
 - 2026-09-19: Evaluate the models deferred from Dossier while development was
   active, one at a time. Routed to [Alignment 047](docs/alignments/align-047-dossier-model-catchup.md);
   the applicable historical queue and exclusions are reconciled there.

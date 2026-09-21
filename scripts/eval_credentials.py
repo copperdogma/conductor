@@ -18,6 +18,7 @@ PROVIDER_VARIABLES = {
     "mistral": "EVAL_MISTRAL_API_KEY",
     "moonshot": "EVAL_MOONSHOT_API_KEY",
     "openrouter": "EVAL_OPENROUTER_API_KEY",
+    "typesafe": "EVAL_TYPESAFE_API_KEY",
     "xai": "EVAL_XAI_API_KEY",
     "zai": "EVAL_ZAI_API_KEY",
 }

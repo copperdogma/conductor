@@ -14,6 +14,34 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-19` — [Scout 072 — JEV Classification Opportunities](./scout/scout-072-jev-classification-opportunities.md) — `Spike`
+  Storybook screen: 19 correct JEV decisions / 3 fallbacks across22 complete
+  pairs; Haiku22/22. Stopped at rounded-probability validation, no retry.
+  US$0.08689611/$1; full-workflow replay saves only4.1%. No adoption.
+  Echo Forge:38-case offline eval built; selected live dev screen stopped after
+  8 pairs at GPT control-policy mismatch. JEV abstained9/48 labels; p95 426ms.
+  Spend US$0.005804382/$1; no adoption.
+  Approved offline v2 now separates control intent from new sound across24
+  development cases (19 distinct utterances). Selected v2 live screen then
+  stopped at GPT's maintenance-only music false positive: JEV6/6 vs GPT5/6,
+  18cases initially unrun; US$0.004907424/$1. Diagnostic completion now covers
+  all24: JEV15exact vsGPT14, but lowerF1/more missed cues. Combinedv2
+  US$0.0197244; pooledJEVp95 326ms. No fullcue adoption; control-only research next.
+  Approved offline control-intent eval now has48 independently reviewed synthetic
+  cases and frozen baselines: lexical1/20 recall,3/22 false positives. Approved
+  live48pair screen: JEV75%recall/1FP vsGPT95%/5FP; ambiguity and latency
+  targets missed. US$0.016273332/$1; neither adopted, no automatic further runs.
+  Cam subsequently approved a broader relative comparison: Astra, Gemini 3.8,
+  Grok 4.6 and Terra against fresh JEV/Mini anchors, same48 cases, US$5 cap.
+  Earlier blanket rejection from aspirational gates is superseded; rank useful
+  quality/cost/latency improvements and explicit combination tradeoffs.
+  Completed288 calls forUS$0.437034082: Grok46/48 withzero false activations
+  wins quality; Gemini44/48 atmedian1295ms is recommended for interactive use
+  versusGrok3895ms. Terra/Astra42, Mini36, JEV30. Gemini+Terra agreement projects
+  45/48; JEV→Gemini saves cost but loses accuracy. Subsequent approved runtime
+  implementation landed Echo Story071 at `518046e` on 2026-09-21: Gemini default
+  with Grok option, manual review and cancellation. No deployment.
+
 - `2026-09-19` — [Scout 071 — Qwen3.8-Omni-Flash Evaluation Routing](./scout/scout-071-qwen38-omni-flash-evaluation-routing.md) — `Defer — access`
   All three selected owners (CineForge, Doc Web, Storybook) stopped before
   inference because direct Alibaba credentials were unavailable. US$0 / $1.35;
