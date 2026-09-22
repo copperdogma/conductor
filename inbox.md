@@ -205,3 +205,29 @@ explicit rejections.
   unintended Google readiness request failed invalid-key HTTP400, not retried;
   no successful inference or provider-readiness claim. Activation remains off,
   no deployment. Scout072 records the full verification and limitation.
+
+- 2026-09-21: Cam approved Storybook complete artifact-link workflow comparison,
+  synthetic fixtures only, total provider cap US$0.50. Compare fresh incumbent
+  Gemini full proposals with JEV selection plus Gemini completion, including
+  source-grounded explanations/evidence/questions and total serial cost/latency.
+  No product changes, deployment, activation, commits or pushes. Dossier
+  cross-assertion review was not selected.
+
+- [x] 2026-09-21 — Storybook full artifact-link Attempt164 complete as bounded
+  stopped run:24calls/$0.004911288 under$0.50; sevenpaired cases Gemini15/17 vs
+  JEV+Gemini14/17, cascade9.68% more costly/5.69% faster median. Eighth completion
+  added a JEV-rejected candidate; fourcases unmeasured, no retries. Keep Gemini
+  on relative evidence; no routine rerun. Temporary eval key removed, owner
+  credential untouched, no runtime changes or landing. Scout072 records limits.
+
+- 2026-09-22: Cam approved saving Attempt164 and preparing the hosted Storybook
+  focused source-support pilot. Scope includes scoped commits/pushes and
+  read-only production inspection; deployment, activation and paid smoke calls
+  remain a separate final decision against a concrete rollout plan. Primary
+  inbox captures rechecked and already reconciled; shared checkout untouched.
+
+- [x] 2026-09-22 — Storybook Attempt164 and hosted pilot plan saved to remote
+  main at `d077499` (eval commit `721b047`). Plan records rollback and global
+  activation scope. Pilot not execution-ready: bounded ordinary extraction
+  smoke, usable test authentication/run and app-key placement still need
+  qualification. No deployment, activation, secret changes or provider calls.

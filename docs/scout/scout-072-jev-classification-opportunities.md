@@ -1978,3 +1978,126 @@ Conductor closes this line with the scoped scout, evaluated-model ledger and
 reviewed inbox captures. Primary checkout edits were left untouched; isolated
 worktrees are retained. The next operational decision is a separate deployment
 and activation choice, not another routine paid model comparison.
+
+
+### Storybook complete artifact-link comparison approved — 2026-09-21
+
+Cam selected the complete-workflow follow-up to Attempt160, capped at US$0.50
+across probes, incumbent, selection, completion, and any judges. The earlier
+25/30 versus23/30 candidate result is a motivation, not a full-workflow win.
+This run compares fresh Gemini full proposals with JEV selection followed by
+Gemini completion over the same synthetic sources/candidates. Final proposal
+quality, evidence attribution, rationale and questions, full cost and serial
+latency are decision-bearing. Existing twelve cases may support a maintained
+comparison but are not held-out. No runtime/default change or landing selected.
+
+Current official API/models, Gemini structured-output and pricing docs refreshed:
+JEV fixed `jev-1.13.0` input $0.042/M/free output; incumbent direct
+`gemini-2.5-flash-lite` standard input $0.10/M/output $0.40/M. Synthetic fixtures
+remain eligible without claiming account ZDR; Google free-tier data-use differs
+from paid-tier, and TypeSafe states it does not train on customer requests.
+Provider-free preflight and independent review precede paid dispatch.
+
+
+### Complete artifact-link run stopped and reconciled — 2026-09-21
+
+Owner worktree `/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921`,
+branch `codex/jev-artifact-link-full-20260921`, base
+`01c8e74cd4b452f6430272b314aa8415dc6cfde0`. Frozen manifest
+`ca4093cf747b23cf098a041378b7d71919ecd06e8f86a915a45902624ee82938`
+reserved US$0.0655167 under US$0.50. Five offline tests and independent preflight
+review passed. Same twelve fictional cases are maintained, not held-out.
+
+The approved one-shot run made24 calls:8 native JEV selectors,8 Gemini
+completions,8 fresh Gemini full-proposal incumbents. All returned HTTP200;23
+qualified and one completion violated the frozen selected-inventory contract.
+Exact request/response hashes reconcile for all48 raw files. All usage/cost is
+known: US$0.004911288 total, no retries. Root removed the temporary TypeSafe
+variable and verified absence; owner Gemini credential was read selectively,
+never copied or modified. No unrelated credential probes occurred.
+
+The stop happened on case8, `chronology-ambiguous`: JEV selected the 2003
+Pine Street move for review and rejected the contradictory 2005 candidate.
+Gemini completion emitted both despite instructions to preserve the selection.
+This is completion/control-adherence evidence, not a JEV transport or semantic
+failure. Seven paired cases completed; case8 remains a partial workflow with
+retained raw results, and cases9–12 were not run. No gold or prompt changed.
+
+On the seven completed pairs (17 labels), Gemini alone scored15/17 and the
+cascade14/17. Gemini costUS$0.001983; cascadeUS$0.002174906 (9.68% more).
+Mean durations were1843.91ms versus1609.88ms; medians1762.97ms versus1662.72ms.
+These are conditional paired-subset economics, not full-campaign or upload
+latency. Shared OCR/vision/retrieval were frozen inputs and are outside scope.
+Relative evidence favors retaining Gemini: the measured cascade gives no
+quality/cost win, even before accounting for its completion failure. No
+perfection gate or blanket JEV rejection follows. Source-quality review and
+owner report complete the closeout below.
+
+
+Owner closeout: [Attempt164](/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/docs/evals/attempts/164-story061-jev-full-artifact-link-workflow.md),
+with report, derived metrics and source review under
+`docs/evals/artifacts/story061-jev-full-workflow-live-20260921/`; owner registry
+updated under `story061-artifact-linking`. Independent audit confirms exact
+freeze, all call custody/accounting, same incumbent source prefix in completion
+requests, and no gold leakage. Five offline checks and diff check pass.
+
+Returned proposals were source-bearing overall (11 incumbent/10 cascade on
+complete pairs). Both had a date-direction wording error in Harbor Quartet
+despite correctly quoted dates. Both sometimes mislabeled evidence kind and
+used typed display handles rather than canonical existing UUIDs in referenceId;
+these shared provenance defects do not erase grounding or turn one selection
+miss into multiple independent failures. The extra OCR clarification was
+unnecessary under gold but linked to the conservative selection error.
+
+Decision: **retain Gemini for this proposal stage**. The completed paired
+sample favors its candidate accuracy and cost; the cascade's modest measured
+speed gain and eighth-case composition failure do not justify adoption. This
+is a relative decision, not an absolute perfection rejection. Reconsider only
+a materially different completion mechanism with structural selection control
+and a plausible full-workflow benefit. No routine rerun, production change,
+commit, push, or deployment occurred in this campaign.
+
+
+### Hosted focused-advisory preparation approved — 2026-09-22
+
+Cam approved saving Attempt164 and preparing the hosted Storybook pilot. This
+continues the focused source-support advisory from Story168, not the rejected
+artifact-link cascade. Scope includes scoped landing and read-only production
+inspection. Deployment, activation, secret mutations and paid smoke calls are
+not part of preparation. The final rollout plan must identify the deployed and
+candidate versions, exact rollback image, activation scope and remaining gates.
+
+Code inspection confirms the advisory flag is global to the server. Protected
+owner-scoped requests isolate each user's data but do not limit activation to
+a selected account. The existing relationship-routing privacy acceptance and
+live status must not be confused with this separate source-support payload.
+The ordinary Dossier extraction deployment smoke is also distinct from a
+bounded JEV advisory smoke; its earlier failed readiness probe is not a pass.
+
+Hosted inspection identified app release27 and worker release26 using the same
+immutable image. The owner pilot runbook records the exact rollback digest.
+The TypeSafe secret name exists but Fly reports partial placement; no secret
+value was inspected, and this is not proof of app-process key availability.
+The health endpoints responded ready, which is not a provider inference test.
+The mandatory ordinary Dossier extraction smoke and production-environment
+candidate-image startup checks must pass before deployment. Existing invalid-key
+evidence is retained without retry. The proposed JEV synthetic review limit is
+US$0.05, separate from the ordinary extraction gate's still-unqualified budget.
+
+Save and preparation landed in Storybook at
+`d07749983b9dc3cd24af2bf98556b974b2a2fee7`, verified on remote main and the
+execution branch. Attempt164 itself is commit
+`721b0472452c221ba94b60f30cc44d40b9adc3a9`; five harness tests, JSON/YAML parse,
+scoped secret-pattern review and diff check passed. The owner worktree is clean.
+The concrete [hosted pilot plan](/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/docs/runbooks/story168-hosted-focused-advisory-pilot.md)
+records the target, rollback image, source-passage payload and pre-cutover gates.
+
+The pilot is documented but **not execution-ready**: the mandatory ordinary
+extraction smoke has no cost cap yet; no usable local production smoke token or
+eligible hosted synthetic run was verified; app-process key placement needs
+confirmation; and activation is global unless an account allowlist is added.
+The landed candidate above is the source to qualify, not a deployed image.
+No deployment, activation, production configuration/secret mutation or new
+provider call occurred. Next preparation should close these concrete smoke
+prerequisites before requesting deployment approval; no further routine model
+comparison is recommended.
