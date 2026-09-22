@@ -6,6 +6,18 @@ explicit rejections.
 
 ## General
 
+- 2026-09-22: Evaluate Grok 4.7. All five numbered owner evaluations approved
+  under a USD4.80 campaign ceiling; lower-cost owner delegation requested.
+  Routed to [Scout 073](docs/scout/scout-073-grok47-evaluation-campaign.md).
+  Bounded campaign complete; conservative accounting USD1.388118 including
+  estimates/reservations. Echo matched screen favors retaining Gemini for
+  interactive use; other owners stopped on recorded quality/value/transport
+  gates. Scoped owner evidence/repairs landed on main; worktrees/raw retained
+  and temporary keys removed.
+  Approved offline follow-through completed: Dossier synchronous timeout repair
+  passed27 focused tests; CineForge source adjudication preserved scorer/results
+  with27 focused checks. USD0 additional spend; paid reruns remain unapproved.
+
 - 2026-09-21: Cam set an explicit goal to complete all remaining positive JEV
   proposals and review the combined results at the end: Doc Web issue triage,
   Dossier assertion review, Storybook artifact-link selection and Scrypted

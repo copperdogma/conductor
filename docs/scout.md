@@ -14,6 +14,15 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-22` — [Scout 073 — Grok 4.7 Evaluation Campaign](./scout/scout-073-grok47-evaluation-campaign.md) — `Spike`
+  Bounded campaign complete: Echo46/48 vs fresh Gemini45/48 at greater cost/
+  latency; retain Gemini. Doc Web and CineForge gates failed, Storybook
+  operational stop, Dossier transport stop. Conservative USD1.388118/USD4.80
+  includes estimates/reservations. Scoped owner evidence/repairs landed on main;
+  runtime defaults unchanged.
+  Offline follow-through: Dossier timeout handling repaired; CineForge scorer
+  ambiguity adjudicated without unsafe lexical relaxation. No new paid calls.
+
 - `2026-09-19` — [Scout 072 — JEV Classification Opportunities](./scout/scout-072-jev-classification-opportunities.md) — `Spike`
   The [current usefulness map](./scout/scout-072-jev-classification-opportunities.md#current-usefulness-map--2026-09-22) separates raw model wins from final workflow value and records when each use case is worth revisiting. Echo Forge Search is parked after no final playable-action gain; no new JEV eval is implied by this index.
   Storybook screen: 19 correct JEV decisions / 3 fallbacks across22 complete
