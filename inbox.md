@@ -151,3 +151,57 @@ explicit rejections.
   Sixcalls/$0.030029128: planner6/6, rawJEV3correct/2wrong/1skip. Retain planner
   authority and JEVdefaultoff; no incremental detection benefit in this sample.
   Original fixtures/gold unchanged;66focused tests and realdriver proof pass.
+
+- 2026-09-21: Cam set a goal to inspect the actual Dossier consumer integration
+  and prepare a bounded anonymized JEV advisory-review experiment. Preparation
+  includes source-backed fixtures, existing-review baseline, offline tooling,
+  exact run plan and prerequisites; no new paid inference or deployment selected.
+  Verified current Storybook remote main already retains sealed semantic request/
+  result evidence; its Dossier pin predates review_semantic_assertions. The dirty
+  primary checkout is 128 commits behind and is not the preparation baseline.
+  Prepare isolated evaluation tooling without changing the product dependency.
+
+- 2026-09-21: Cam approved implementing the eval-only dispatcher and running the
+  frozen Dossier consumer assertion-review experiment:13 JEV calls, US$0.05 cap,
+  no retries. Storybook isolated preparation worktree owns the run; no product
+  changes, new private inputs, commits or deployment selected.
+
+- 2026-09-21: Approved frozen Dossier consumer run completed13calls, no retries,
+  US$0.000514458; observed0/2errors detected,0/5healthy false alarms; planted6/6.
+  Retain no-advisory product behavior for this formulation. Scout072/Attempt161
+  preserve evidence and focused follow-up recommendation; temp eval key removed.
+
+- 2026-09-21: Cam approved focused JEV attribution/type comparison with a stronger
+  reviewer on the same frozen Dossier consumer cases, total US$0.25. Comparator
+  selected GPT-5.4 via existing OpenRouter eval access; same sources/gold, new
+  uniform3dimension prompt, observed/planted results separate; no product changes.
+
+- 2026-09-21: Approved focused assertion-review comparison completed (Storybook Attempt162): JEV and GPT-5.4 both caught2/2 observed extraction defects with0/5 false alarms and6/6 planted flags; JEV costUS$0.00101661 versusUS$0.040515 and median242ms versus1301ms. TotalUS$0.04153161/US$0.25,26calls,no retries; temporary eval keys removed. Focused JEV preferred for advisory role; source-disjoint validation is the next candidate, not yet authorized or run. No runtime changes or landing. See Scout072 focused comparison completion.
+
+- 2026-09-21: Cam approved the small blind fresh-source comparison (Attempt163), totalUS$0.25. Keep Attempt162 focused rubric and both JEV/GPT-5.4 routes unchanged; prelabel source-disjoint fictional retained assertions before calls, compare useful detections and false alarms, no runtime changes or landing.
+
+- 2026-09-21: Attempt163 fresh-source focused comparison complete:12calls,US$0.047810302/US$0.25. Both supported prelabelled chronology case; JEV0/16 healthy falseflags vsGPT5/16,45.40x cheaper/4.96x faster median. Sixgraphs/threefictionalfamilies withrescuecluster repetition; sourcegold/promptsfrozenbeforecalls, no retries, temporarykeysremoved. FocusedJEVpreferred bounded opt-in advisory candidate; no measuredGPTfallbackbenefit. See Scout072 and ownerAttempt163. No runtimechanges/commits/pushes.
+
+- 2026-09-21: Cam approved implementation of focused JEV assertion review as an opt-in Dossier feature available to Storybook. Preserve three evaluated dimensions and probabilities, separate advisory flags from accepted graph/fact state, default off, no blanket GPT fallback. Implement/test in existing isolated owning worktrees; no implicit commit, push, deployment, activation, paid rerun, or new credential provisioning.
+
+
+- [x] 2026-09-21 — Approved focused Dossier/Storybook advisory implementation
+  prepared and independently cleared: Dossier Story172 and Storybook Story168;
+  exact three-check rubric, owner-clicked source-support display, no fact writes,
+  default off. Producer/consumer, disposable-DB custody, and UI validation passed.
+  See Scout072 implementation closeout. No paid calls, commit, push, deployment,
+  or activation. Next: scoped dependency-first landing and exact Dossier repin.
+
+- 2026-09-21: Cam approved scoped commit/push and exact Storybook Dossier pin
+  promotion for the validated focused advisory. Land dependency before consumer
+  and supervisor records; keep activation off, preserve historical eval evidence,
+  and do not deploy or run new paid evaluations. Primary-checkout capture was
+  reconciled: its two JEV/model-catchup notes are already retained here with
+  subsequently verified completion updates; no unrelated primary changes copied.
+
+- [x] 2026-09-21 — Focused advisory landing complete: Dossier `7fa90aea`,
+  Storybook `01c8e74` pinned to that exact version, prior frozen eval evidence
+  `eb6384e`. Installed-pin/packaging and reused custody/UI checks pass. One
+  unintended Google readiness request failed invalid-key HTTP400, not retried;
+  no successful inference or provider-readiness claim. Activation remains off,
+  no deployment. Scout072 records the full verification and limitation.

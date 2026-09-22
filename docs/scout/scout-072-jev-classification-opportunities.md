@@ -1,7 +1,7 @@
 # Scout 072 — JEV classification opportunities
 
 Date: 2026-09-19
-Status: Expanded comparison complete; Grok wins quality, Gemini recommended for interactive balance; historical absolute rejection interpretations superseded
+Status: Portfolio comparisons complete; focused Dossier/Storybook advisory landed with verified exact dependency pin; activation remains off
 
 ## Selected execution — 2026-09-20
 
@@ -1456,3 +1456,525 @@ Owner fixes, verification tooling and recheck evidence landed and verified on
 Doc Web remote main at `35798b9af598f9a0f5829b3ccead5637392afe9f`.
 The task worktree is clean; primary checkout and ignored runtime settings remain
 unchanged. Story234 is Done; JEV remains default-off.
+
+
+### Dossier consumer experiment preparation — 2026-09-21
+
+Cam selected preparation of a bounded anonymized assertion-review experiment.
+This phase authorizes offline fixtures, tooling and a reviewable run plan, not
+new paid inference, product activation or deployment.
+
+Current Storybook remote main (`b619d00745e5cda87893f2db26a7d337ae8c62fd`)
+already uses Dossier sealed semantic requests/results. Its caller-owned provider
+runtime, WAL and receipt validation retain the source evidence required for
+advisory review. The dirty primary checkout is 128 commits behind that remote;
+its legacy EntityGraph adapter is not the current integration baseline.
+Storybook pins Dossier `6725851691e4c1466d63d65ad42d52bf64f2d627`, before the
+optional review API at `9fc49b175ef6b1a79ec5a291f8b7b771ab728687`. Offline
+preparation uses an explicit eval-only checkout of the latter; the product pin
+and production behavior remain unchanged.
+
+The current assertion baseline is exact source/contract validation plus a
+read-and-discuss semantic-memory view. There is no assertion confirm/reject
+workflow here; Artifact Review is a separate uploaded-media workflow. This
+experiment asks whether optional source-support judgments add useful defect
+signals after deterministic validation. It does not transfer fact acceptance
+to JEV or evaluate Dossier's entity resolution, identity observations, actor
+bindings, missing assertions or standalone entity defects.
+
+The owner preparation worktree is
+`/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921` on
+`codex/jev-dossier-consumer-prep-20260921`. Fixtures distinguish maintained
+contract controls, observed retained extraction errors, explicitly reconstructed
+replays, and planted stress cases. Reconstructed fixtures must pass the real
+public compiler and carry new hashes; their seals are not original model-run
+custody. Ambiguous attribution/qualifier cases are diagnostic unless independent
+assertion-level adjudication supports a frozen scored label.
+
+
+Independent fixture adjudication before any new inference:
+
+- HY4 correction/first: the opening assertion projects its footbridge object as
+  kind `person`. Because endpoint kind is present in the review payload, this is
+  a scored contradiction, not an excluded standalone entity defect.
+- Opus correction/second: `misread-date` assigns the narrator's first-person
+  misreading to Pip. This is a scored unsupported subject substitution. Either
+  `contradicted` or `insufficient_evidence` counts as useful detection: the text
+  does not independently prove the narrator cannot be Pip. Preserve the raw
+  three-way outcome instead of forcing a single overly strong negative label.
+- Gemini38 source-attribution/first: Ada's donation loses explicit archive-report
+  attribution but preserves the reported event, person, object and year. Keep
+  diagnostic and unscored; do not treat a defensible `supported` as model failure.
+- Gemini38 plans-negation/notice: a possible choir plan loses the rain condition.
+  Keep diagnostic and unscored; the weaker possible claim may remain supported.
+
+These retained outputs came from real model runs on fictional benchmark sources,
+not private production memories. They establish observed model errors, not live
+workload prevalence or user-review benefit.
+
+Observed source, graph and historical review artifacts remain in Dossier's
+`docs/evals/artifacts/semantic-value-20260919/`; the owner manifest records exact
+paths and hashes. Historic whole-graph severity ratings are not automatically
+assertion-review labels. The paired benchmark will report useful flags, missed
+observable defects and false flags on correct controls separately, alongside
+unavailability, latency and cost. No confidence threshold is tuned on this pack;
+no perfect-score adoption bar or aggregate planted-plus-observed headline.
+
+
+Prepared cohort and interpretation:
+
+- Fifteen selected assertions: five observed correct controls, two observed
+  defects, six explicitly planted stress cases, and two unscored diagnostic
+  boundaries. Thirteen are scored, with supported/flagged usefulness primary.
+- Thirteen complete replay graphs contain 28 assertions. Thirteen companion
+  assertions are transmitted but unscored; the input scope is not just the
+  fifteen selected rows. All seven retained graph outputs must match their
+  original bytes after official compilation.
+- One assistant-only assertion is already rejected by Dossier's deterministic
+  attribution check; retain it as a separate zero-JEV-call control. Do not
+  present that caught case as new JEV value. A separately authored user report
+  of Luna's tentative suggestion supplies the planted insufficient-evidence row.
+- Replay normalization adds only absent empty `actor_bindings` fields to older
+  prior-history graphs. Original context hashes remain preserved, and current
+  compiled outputs must stay unchanged. Planted input IDs are neutral; gold and
+  descriptive case names remain outside the transmitted review payload.
+- Proposed later paid run: exact `jev-1.13.0`, at most thirteen calls, no retries,
+  US$0.05 total hard cap. Thirteen 64,000-token reservations at the pinned API
+  rate of US$0.042/million give US$0.034944 conservative reserved input cost.
+  This is a proposed bound, not incurred cost. The preparation harness is
+  provider-free; a budget-enforcing live dispatcher with durable receipts and
+  the designated eval credential is still a prerequisite before paid execution.
+
+The no-advisory baseline produces no semantic flags on accepted fixtures; this
+is not an AI "supported" prediction and is not a measurement of human review
+accuracy. Compare incremental observed defect detections and false flags on
+healthy controls; report planted stress separately. The first run can establish
+mechanical source-support utility, not real-world defect prevalence, user burden
+or production adoption readiness.
+
+
+Preparation validation and handoff:
+
+The owner focused Node checks passed 2/2, Python compilation and focused Ruff
+passed, JSON parsed, and diff whitespace checks passed. Root independently
+verified all 43 frozen file hashes, thirteen exact review-body/hash bindings,
+28-assertion fixture coverage, absence of planted case names in transmitted
+bodies, and unchanged request/result evidence. Gold was reviewed against all
+nine retained selections and six final planted source/claim pairs before any
+new inference. Frozen manifest SHA-256:
+`454afd01111eabd8ca595bab6179d4a5a52097fdae09f2a970c3a1184b0e87bc`.
+
+[Owner run plan](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/artifacts/jev-dossier-assertion-review-prep-20260921/README.md),
+[frozen manifest](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/tests/fixtures/golden/jev-dossier-assertion-review/manifest.json),
+and [input provenance](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/artifacts/jev-dossier-assertion-review-prep-20260921/provenance.json)
+are reviewable locally. The mocked preview proves API compatibility, not JEV
+quality, latency or observed cost. No paid calls, product configuration changes,
+commits, pushes or deployments were performed in this preparation phase.
+
+Independent review returned CLEAR: fresh offline regeneration byte-matched the
+frozen fixture tree and preview; selected coverage, source roles, graph identity,
+neutral inputs, original/replay provenance and zero-call controls verified. Root
+reverified all 43 final hashes after the final harness changes.
+
+
+### Dossier consumer frozen live experiment — 2026-09-21
+
+Cam approved the prepared experiment: implement an eval-only dispatcher and run
+at most13 native JEV calls, US$0.05 total cap, no retries. The owner is the same
+isolated Storybook worktree and frozen15-selection/28-assertion cohort above.
+No private memories, live user traffic, product pin/default changes, deployment,
+commit or push is included. This is a new assertion-review consumer measurement,
+not an unchanged rerun of the earlier standalone15-pair citation screen.
+
+Current official [API](https://docs.typesafe.ai/api) and
+[model documentation](https://docs.typesafe.ai/models) reverified the exact
+`jev-1.13.0` endpoint contract,64k combined request limit and US$0.042/million
+input tokens with free output. The provider states customer requests/responses
+are not used for training; enterprise ZDR is separate and is not claimed here.
+Only the frozen fictional benchmark material is eligible for this run.
+
+The designated central eval key was temporarily supplied to the ignored owner
+`.env` through Conductor's credential helper after presence and permission
+checks. It is not a product credential or permanent provisioning. Root owns the
+single execution and cleanup; implementation/review agents make no live calls.
+
+
+#### Completed live result
+
+The general Storybook env launcher stopped before the runner started because
+its shared development-port registry was full. No output directory, pending
+entry or provider request existed. Root changed only the launcher to `uv run
+--offline --env-file <owner>/.env --project <exact-Dossier> python ...`; no port
+registry or runtime setting was changed. This zero-call launcher failure was
+not an HTTP retry. The resulting single provider campaign completed13/13 calls,
+all HTTP200 with served identity `jev-1.13.0`, complete28/28 assertion coverage,
+no retries, no unknown usage and no failures. Exact raw requests/responses and
+receipts are retained in the owner artifact directory.
+
+Observed usage:12,249 input +1,341 free output tokens; costUS$0.000514458 out of
+US$0.05. Median measured HTTP duration239ms; nearest-rank p95/max304ms across13
+calls; summed measured HTTP duration3,234ms. These are local client request
+measurements including transport, not server-only inference or production SLOs.
+
+Observed retained selections: no useful flags on either of the two known errors
+(0/2), with no false flags on five healthy controls (0/5). Both errors were called
+`supported`: wrong-person `reported_error` assignment to Pip at0.80 support
+probability and footbridge typed as `person` at0.86 support probability. Root
+inspected the actual sent states: the subject, endpoint kind and source passages
+were present. These are misses in this broad source-support formulation, not
+missing-input or transport failures. The raw5/7 acceptable labels all came from
+the healthy controls and must not obscure the0/2 detection result.
+
+Planted stress selections:6/6 acceptable labels and useful flags. Both diagnostic
+qualification-loss rows were supported and remain unscored as preregistered.
+Do not combine the observed and planted cohorts into an accuracy headline or
+infer real-workload prevalence from fictional benchmark inputs.
+
+Relative recommendation: retain the current no-advisory product behavior for
+this exact generic assertion-review formulation. It added no detection benefit
+on the observed failures in this small sample, although the service was fast,
+inexpensive and correctly handled the planted cases. This does not disqualify
+JEV in other lanes or prove it cannot perform narrower checks. A decision-bearing
+next experiment would compare explicit subject-attribution and endpoint-kind
+questions with a stronger reviewer on the same frozen sources, before another
+integration proposal. Do not tune thresholds or silently change this campaign's
+gold to turn these outcomes into a win.
+
+Root verified thirteen unique request hashes, all raw response/receipt hashes,
+served identity, answer coverage and recomputed usage cost. Temporary injected
+`TYPESAFE_API_KEY` was removed by the helper and absence verified; the ignored
+env file remains. Production settings and graph acceptance are unchanged.
+[Owner Attempt161](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/attempts/161-dossier-jev-assertion-review-advisory.md)
+and [raw result](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/artifacts/jev-dossier-assertion-review-live-20260921/result.json)
+retain the owning evidence. No commits, pushes or deployments were performed.
+
+Live dispatcher validation:5/5 mocked tests passed for successful custody,
+malformed-response preservation/no retry, budget preflight, unknown transport
+stop and oversized-prefix handling; exact13/28 API preflight, focused Ruff,
+Python compilation and diff checks passed. Independent pre-run review CLEAR.
+Owner Attempt161 and live README finalized with the exact successful launcher.
+
+
+### Focused assertion-review comparison — 2026-09-21
+
+Cam approved the next paired experiment, totalUS$0.25: focused JEV attribution
+and entity-type checks against a stronger reviewer on the same frozen sources.
+Storybook retains ownership in the existing isolated campaign worktree. The
+comparator is OpenRouter `openai/gpt-5.4`, whose current catalog maps to canonical
+`openai/gpt-5.4-20260305`. This is a new paired prompt/role measurement, not a
+repeat of a prior unchanged capability benchmark. Request/provider/served
+identity will be recorded separately; catalog identity alone is not callability.
+
+Current official OpenAI model documentation and public OpenRouter models/endpoint
+catalogs confirm GPT-5.4, structured output and reasoning controls, with standard
+OpenAI-route pricingUS$2.50/M input andUS$15/M output. Use reasoning none, bounded
+output, exact model/provider routing and no fallback/retry. JEV remains pinned
+`jev-1.13.0` atUS$0.042/M input, output free. Only fictional fixtures are eligible;
+no enterprise ZDR claim or private-data authorization is inferred.
+
+The common rubric asks three uniform questions for each assertion: subject/actor
+and reporting attribution, semantic kinds of entity endpoints, and proposition
+scope including modality/negation/time. The overall defect flag is any
+non-supported dimension. Original overall gold remains authoritative; dimension
+outcomes are diagnostic and defects need not occur in one preordained dimension
+to count. Both original ambiguity cases remain unscored. This reformulation
+explicitly targets observed failure mechanisms and is not a held-out test.
+Observed and planted cohorts remain separate, with healthy-control false flags
+reported alongside incremental detection. Freeze the revised rubric/requests
+before either candidate runs; no in-place tuning after answers.
+
+Sources: [OpenAI GPT-5.4](https://developers.openai.com/api/docs/models/gpt-5.4),
+[OpenRouter route](https://openrouter.ai/openai/gpt-5.4),
+[structured-output contract](https://openrouter.ai/docs/guides/features/structured-outputs),
+[provider controls](https://openrouter.ai/docs/guides/routing/provider-selection).
+
+
+#### Focused comparison completed — 2026-09-21
+
+Owner evidence: [Storybook Attempt162](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/attempts/162-dossier-focused-assertion-review.md)
+and [frozen live results](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/artifacts/jev-dossier-focused-review-live-20260921/result.json).
+All26 calls completed without retries or transport/contract failures; total
+US$0.04153161 against the US$0.25 cap (preflight reservationUS$0.2477365).
+Both temporary eval keys were removed afterward and absence verified.
+
+| Measure | Focused JEV | GPT-5.4, reasoning none |
+| --- | --- | --- |
+| Observed extraction defects flagged | 2/2 | 2/2 |
+| Healthy observed assertions falsely flagged | 0/5 | 0/5 |
+| Planted defects flagged | 6/6 | 6/6 |
+| Planted combined labels matching original gold | 5/6 | 3/6 |
+| Median request duration | 242ms | 1301ms |
+| Nearest-rank p95 request duration | 448ms | 3233ms |
+| Cost,13 requests | US$0.00101661 | US$0.040515 |
+
+JEV used24,205 input tokens and4,199 free output tokens. GPT used11,262 input
+and824 output tokens. All JEV responses identify `jev-1.13.0`; all GPT responses
+identify `openai/gpt-5.4` and provider `OpenAI`. The dated GPT canonical slug is
+catalog evidence, not a served checkpoint attestation. The GPT cost reconciles
+exactly to the pinned standard rates and reported usage. Durations are measured
+around HTTP and raw-response custody, serially on this machine; they are not
+production latency promises or independent cold-start trials.
+
+Focused JEV catches the two observed errors missed by the generic review: the
+narrator-to-Pip substitution through subject attribution, and a footbridge typed
+as a person through endpoint kind. GPT catches both too. JEV's only planted
+label miss calls an unsupported shop identity contradicted. GPT also overstates
+the assistant-suggestion and unsupported exact-return-date cases as contradicted.
+These still produce useful advisory flags; the label mistakes remain recorded
+and do not become invented overall failure gates. Neither model flags either
+unscored qualification-loss diagnostic. No gold or prompts changed after answers.
+
+Recommendation: **focused JEV is the preferred candidate for this advisory
+role**, tying GPT on useful detections and false alarms at39.85x lower cost and
+5.38x lower median duration in this sample. Its label distinctions were also
+better here. This supersedes the earlier generic-prompt rejection for the
+focused design only. No unconditional GPT fallback is justified by this sample;
+that would add expense without an observed detection benefit. Use review flags
+as requests for checking evidence, never as automatic fact rejection or graph
+mutation. The known-error reformulation is not held-out validation: the next
+useful step is a small source-disjoint sample of healthy and defective assertions
+with the current rubric frozen, before making it a default consumer feature.
+
+Root verified all26 raw/request/receipt hashes, model/provider and usage/cost
+contracts, exact regenerated scores, original43-file source freeze, focused
+manifest identity, and credential cleanup. The5 focused provider-free tests,
+Ruff and diff checks passed; no product/runtime changes, commits or pushes.
+
+Independent post-run review also CLEAR: all107 live artifacts reconciled,26
+unique request hashes and26 unique raw-response hashes, no stopped/failure
+artifacts, and all four exact-label misses source-checked as contradiction
+overstatements rather than gold defects.
+
+
+### Fresh-source focused review — 2026-09-21
+
+Cam approved a blind comparison on new source material, capped atUS$0.25.
+Storybook Attempt163 remains owner-local in the existing isolated worktree.
+The exact Attempt162 subject-attribution, endpoint-kind, and proposition-scope
+rubrics remain frozen. Prefer retained fictional extraction outputs whose source
+families were absent from Attempts161/162; label sources before new model calls
+and exclude ambiguous assertions from the scored denominator. Both models
+receive identical selected state, with the same any-non-supported review flag.
+There is no new per-dimension gold or arbitrary perfection gate. Record source
+selection, overlap checks, completeness, and precise blindness limits before
+using fresh results to decide whether focused JEV remains the preferred advisory
+reviewer. No production changes, commits, or pushes are authorized.
+
+Current [TypeSafe models](https://docs.typesafe.ai/models) and
+[OpenRouter GPT-5.4](https://openrouter.ai/openai/gpt-5.4) were rechecked: pinned
+JEV remainsUS$0.042/M input with free output; the standard OpenAI comparator
+route remainsUS$2.50/M input andUS$15/M output. Same-day Attempt162 proves
+callability and the native/strict contracts; no redundant paid probe is needed.
+
+Independent pre-call source review found six eligible retained graphs across
+three unused fictional families: rescue-report, immigration-family, and
+life-history. Initial selection has23 healthy assertions, one observed defect,
+and one unscored ambiguity. The12 rescue rows repeat three facts in four
+extractor outputs; they are not12 independent sources. The farmhouse residence
+duration defect is visible in the exact7,749-character citation, which includes
+both the41-year claim and the later purchase of the current smaller farmhouse.
+Gold was source-reviewed before any Attempt163 model output. Final selected
+counts remain subject to the pre-call cost reservation, with no source truncation
+or rubric change permitted.
+
+
+#### Fresh-source comparison completed — 2026-09-21
+
+Owner: [Attempt163](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/attempts/163-dossier-focused-heldout-review.md),
+[raw results and report](/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/docs/evals/artifacts/jev-dossier-focused-heldout-live-20260921/README.md).
+Final pre-call budget selection retained18 assertions:16 healthy controls,
+one prelabelled chronology defect, and one unscored ambiguity. Two additional
+healthy life-history controls were removed before outputs to preserve complete
+source citations under the cap. All12 predeclared calls completed without retry,
+HTTP error or contract failure. ReservationUS$0.228043; actualUS$0.047810302.
+
+| Frozen-score measure | Focused JEV | GPT-5.4, reasoning none |
+| --- | --- | --- |
+| Prelabelled chronology defect flagged | 0/1 | 0/1 |
+| Healthy assertions falsely flagged | 0/16 | 5/16 |
+| Median request plus raw-custody duration | 290ms | 1437ms |
+| Nearest-rank p95 duration (six calls) | 314ms | 2181ms |
+| Cost, six requests | US$0.001030302 | US$0.04678 |
+
+JEV used24,531 input and2,652 free output tokens. GPT used15,688 input and504
+output tokens. Responses retained exact JEV checkpoint `jev-1.13.0` and GPT
+request alias `openai/gpt-5.4`, provider `OpenAI`; the dated GPT catalog entry
+is not an exact served-checkpoint attestation. Both temporary keys were removed
+and absence verified. Root reconciled all12 outgoing request bytes, raw hashes,
+receipt identities, usage and costs, and regenerated the frozen scores. Original
+43-file source freeze and prior helpers remain unchanged. Adapter tests3/3,
+Ruff, compilation and diff checks passed. No product changes or landing.
+
+The GPT false flags concern one event-role representation, three renderings of
+the rescue-team/boat fact, and the uncle's death attribution. These are five
+assertion rows, not five independent source failures. Twelve healthy rows are
+four extractor renderings of three rescue facts; all observations span only
+three fictional source families. The unscored affair ambiguity elicited
+`insufficient_evidence` from JEV and `supported` from GPT; it remains unscored.
+
+Relative recommendation: **prefer focused JEV for a bounded opt-in advisory
+integration**, using the earlier targeted detection evidence together with this
+fresh-source false-alarm comparison. It was45.40x cheaper and4.96x faster by
+median duration than the tested GPT configuration here. The fresh run adds no
+new useful detection and cannot validate long-narrative chronology review. A
+blanket GPT fallback has no measured benefit: it added false flags while also
+supporting the prelabelled chronology case. Do not turn `supported` into proof
+of correctness or flags into automatic graph edits. The next proposed work is
+the disabled/opt-in focused advisory integration, not another routine benchmark
+or a changed perfection gate. Runtime changes remain unapproved/unperformed.
+
+Independent post-run audit CLEAR with a gold-sensitivity note: the frozen
+farmhouse label follows Dossier's whole-assertion temporal scope and the prior
+owner review, which treats41 years as over-specific to the current house. Its
+object is generic text rather than a uniquely bound house entity, so a broader
+category/area reading is also possible. Keep the predeclared0/1 result intact,
+but do not present it as an unequivocal general chronology metric. This ambiguity
+does not affect the confirmed five GPT false positives or the relative JEV
+economics/recommendation. No post-exposure prompt, gold, or threshold changes.
+
+
+### Focused advisory implementation approved — 2026-09-21
+
+Cam approved the concrete opt-in integration recommended after Attempts162/163.
+Dossier owns the exact evaluated three-dimensional review and per-dimension
+probabilities/confidence; deterministic code combines labels into advisory
+review flags without inventing joint probabilities. Storybook consumes the
+separate source-bound report without mutating accepted facts, identity, graph
+publication, or extraction checkpoints. The feature remains disabled until
+explicitly configured, and failures must not become semantic judgments.
+
+Execution reuses clean Dossier worktree
+`/Users/cam/.codex/worktrees/jev-dossier-review-20260921` at remote-main
+`9fc49b175ef6b1a79ec5a291f8b7b771ab728687` and Storybook worktree
+`/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921` at remote-main
+`b619d00745e5cda87893f2db26a7d337ae8c62fd`. Storybook's existing untracked
+evaluation artifacts stay intact. One writer owns each repo; independent review
+covers the producer/consumer boundary. Local co-development verifies modified
+Dossier code without inventing a commit or claiming the existing production pin
+contains it. Landing/pin promotion and runtime activation remain separate from
+this authorized implementation.
+
+The [TypeSafe API](https://docs.typesafe.ai/api),
+[Choice contract](https://docs.typesafe.ai/primitives/choice), and
+[citation-review cookbook](https://docs.typesafe.ai/cookbooks/citation_check)
+were refreshed. Existing retained live responses establish this exact evaluated
+rubric; implementation validation uses deterministic replay/mocked provider
+responses plus the actual local public API/consumer seam, with no new paid calls.
+
+
+Dossier implementation independently cleared: the focused public API keeps its
+existing explicit reviewer/dispatch signature and exposes capability profile
+`focused-evidence-v1`. The three native Choice judgments retain their individual
+probabilities and confidence; only precedence and the review flag are combined.
+Thirty-two focused review and sealed-semantic-boundary tests passed with Ruff
+and diff checks. Independent comparison reproduced all six frozen Attempt163
+native request bodies byte-for-byte, including all four rescue renderings,
+immigration-family, and life-history. The extraction fingerprint is unchanged.
+Story172 records the owning implementation; consumer validation follows below.
+No new inference call, key provisioning, commit, push, or activation was used.
+
+
+Consumer custody verification reused the maintained source guards rather than
+inventing new semantic truth: 11/11 tests passed across
+`identity-semantic-custody.integration.test.ts`,
+`identity-semantic-source-races.integration.test.ts`, and
+`identity-semantic-erasure.integration.test.ts`, plus 4/4 semantic-read tests.
+Root ran the database suites serially in Storybook's backend with explicit
+`STORYBOOK_TEST_DATABASE_URL` pointing to disposable local database
+`storybook_semantic_direct_20260912_c2d4`. The first config load found the local
+worktree port registry full; the supported `STORYBOOK_SKIP_LOCAL_DEV_PORTS=true`
+flag allowed these server-free tests without changing that registry. No production
+database or provider credential was used.
+
+
+### Focused advisory implementation prepared — 2026-09-21
+
+Storybook Story168 adds an owner-clicked **Check source support** action to the
+Memory chapter detail. It sends the retained sealed request/result through the
+actual Dossier public API, checks owner/source/archive custody before and after,
+and discards changed revisions. It shows dimension-specific concerns beside
+existing records and evidence, with “No concerns found in this check” kept
+separate from fact verification. No accepted fact, graph, identity decision,
+checkpoint, or original source is edited by the review.
+
+Activation is separately controlled by
+`STORYBOOK_DOSSIER_ASSERTION_REVIEW_ENABLED=false` and the existing server-only
+owner credential. An older installed Dossier without `focused-evidence-v1`
+returns unavailable before provider dispatch. The valid production source pin
+`6725851691e4c1466d63d65ad42d52bf64f2d627` remains unchanged; this implementation
+was verified against the explicitly selected local modified Dossier worktree,
+not falsely attributed to that pinned commit.
+
+The host bounds time and bytes, checks the exact endpoint/model/body digest,
+keeps the key out of Python, and does not retry. Dossier owns the exact native
+rubric and whole-report verdict. Network failure returns unavailable with its
+unknown accounting; a hard wrapper interruption after dispatch is also unknown.
+Reports are intentionally response-scoped: each new click starts a new bounded
+check, with no persistent review truth, durable replay, or extraction-grade WAL.
+This is an explicit advisory scope, not a change to extraction custody.
+
+Storybook validation includes seven focused backend checks with the real local
+Dossier bridge and mocked HTTP, four frontend checks, the 15 maintained custody
+and read checks above, backend/frontend typecheck and lint, frontend production
+build, and diff checks. The actual component was rendered with synthetic data
+and inspected at 1440×1200 and 600×1100; retained screenshots live under
+`docs/reports/artifacts/story168-ui/` in the owning worktree. Root inspected both.
+All three historical evaluation runner hashes and the Attempt163 freeze manifest
+remain unchanged. No new paid evaluations, credentials, commits, pushes,
+deployment, or activation were performed. Next landing must publish the scoped
+Dossier change before promoting Storybook's exact Dossier pin and landing its
+consumer; live activation remains a separate step.
+
+
+Final independent cross-repository review: **CLEAR**. It repeated Dossier's
+32 focused/boundary checks and all six frozen request-byte comparisons, then
+Storybook's portable tests, explicit local bridge/failure/deadline checks,
+typechecks, lint, and diff inspection. Source binding, exact coverage,
+credential isolation, bounded/no-retry transport, unavailable/unknown behavior,
+and advisory-only display were confirmed. Production pin and activation remain
+intentionally pending, not implementation failures or new model quality gates.
+
+
+Owning stories closed locally after validation: Dossier Story172 and Storybook
+Story168 are Done, with changelog and generated methodology records refreshed.
+Storybook's methodology compile/check and all three worktree diff checks pass.
+Feature changes remain uncommitted; retained Attempts161–163 evidence is
+preserved separately from the feature file allowlist for a deliberate landing.
+
+
+### Focused advisory landing — 2026-09-21
+
+Cam authorized scoped commits/pushes and promotion of Storybook's exact Dossier
+pin, with activation remaining off. All three repos passed preflight against
+unchanged remote bases. Historical eval evidence remains frozen; validation is
+reused for unchanged code and extended specifically for the installed new pin.
+Dossier Story172 landed on execution branch and remote `main` at
+`7fa90aea2372faf90d7b7788446a795ba28b5591`, a fast-forward from `9fc49b17`.
+Its worktree is clean. Consumer landing and installed-pin results follow below.
+
+
+Pin verification installed exact published Dossier `7fa90aea` and passed
+installer import/contract, deterministic Doc Web/GEDCOM smoke, and seven mocked
+focused-bridge/service checks against the actual pinned package. One attempted
+`pnpm test:eval:dossier-contract` was not provider-free: its extraction-readiness
+path made a Google compatibility request that returned HTTP400 invalid API key.
+No successful inference was recorded. The command was stopped without retry or
+credential changes; provider readiness is not established by this closeout.
+Further validation is offline only. This failed probe is recorded separately
+from the successful installed-contract checks, and activation remains off.
+
+
+Storybook landed with remote `main`, execution branch and HEAD all verified at
+`01c8e74cd4b452f6430272b314aa8415dc6cfde0`. The preceding commit
+`eb6384e` preserves frozen Attempts161–163 evidence; `01c8e74` contains Story168
+and exact Dossier pin `7fa90aea2372faf90d7b7788446a795ba28b5591`.
+The worktree is clean. Installed-pin focused tests passed7/7 and runtime
+packaging tests passed7/7; methodology compile/check, typecheck, lint and diff
+checks passed. Unchanged frontend4/4, custody/read15/15 and rendered UI evidence
+were reused. All source and semantic-contract invariants remain intact.
+Activation remains off; no deployment or credential repair was performed.
+
+Conductor closes this line with the scoped scout, evaluated-model ledger and
+reviewed inbox captures. Primary checkout edits were left untouched; isolated
+worktrees are retained. The next operational decision is a separate deployment
+and activation choice, not another routine paid model comparison.
