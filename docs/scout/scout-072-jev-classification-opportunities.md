@@ -2429,7 +2429,7 @@ The remaining JEV evaluation records and guarded prototype are checked in on
 their owning repositories' remote `main` branches. Storybook landed at
 `98f8d25e293a32130875100b455ba26da3830be5` (Story150 classification,
 Story126 passage ranking, and the source-support follow-up). Echo Forge landed
-at `7d7387aa826bd23bdf09d4246fc0066e1b30be5b` (cue/control-intent evals,
+at `e6c3ef1aed1d0a515b75ba6100ad6f74430bcfa8` (cue/control-intent evals,
 Search ranking/display/action evals, and the default-off Search prototype).
 These check-ins do not change the recommendations above or authorize runtime
 activation. Earlier no-commit/no-push statements describe the state when those
