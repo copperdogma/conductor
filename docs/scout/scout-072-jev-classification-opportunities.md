@@ -2101,3 +2101,84 @@ No deployment, activation, production configuration/secret mutation or new
 provider call occurred. Next preparation should close these concrete smoke
 prerequisites before requesting deployment approval; no further routine model
 comparison is recommended.
+
+
+### Hosted readiness prerequisites resolved — 2026-09-22
+
+Cam approved finishing readiness, then selected the existing global switch
+briefly for one synthetic smoke followed by disabling it. Deployment and actual
+activation still await the final go-ahead. The active app and worker both have
+the TypeSafe key; Fly's aggregate Partial label reflects a stopped standby. No
+secret mutation is needed. Chrome is already authenticated to the dedicated
+smoke account, and the existing fictional Aria/Bo chapter is located at
+`https://storybook.chat/knowledge/memories/5339f93d-6904-429e-8148-fec5e0dd9d6b`.
+The CLI smoke token returned401; use Chrome rather than extracting its cookie.
+No new account or hosted test data was created.
+
+Installed exact Dossier pin passed provider-free packaging checks. The ordinary
+public contract-smoke entrypoint then passed through new isolated operator
+spending tooling capped at US$1 across Gemini and GPT-5.4. Final run settled all
+four inference exchanges at list-price US$0.010297 and returned four people,
+four relationships and nine evidence rows. Earlier attempts are retained:
+one credential-alias check had zero inference; a later guard snapshot-ID defect
+left one GPT response unaccounted. Its full US$0.049378 reserve remains charged.
+Total effort is US$0.013716 known list cost plus that reserve, at most US$0.063094.
+The documented snapshot spelling was corrected; this was tooling qualification,
+not a new model comparison or a JEV rejection. No private corpus was replayed.
+
+Storybook local changes include the narrow adapter launch hook, public-smoke
+guard/launcher, explicit advisory privacy payload, original receipts and updated
+pilot runbook. Five guard checks and18 adapter/runtime regressions passed,
+including installed native library/CLI proof, plus backend typecheck, scoped
+lint, privacy coverage and diff check. The guard/adapter/smoke source hashes
+still match the final live run; a later launcher-only fix carries prior debit
+through another predecessor and was checked offline, not by paid rerun.
+
+The concrete remaining approval is to check in the reviewed changes, complete
+applicable remaining release and candidate-image production startup gates,
+deploy with the feature off, then run one Chrome synthetic JEV review capped
+at US$0.05 and turn the feature off. Preserve app/worker overrides and use the
+recorded immutable rollback image if the approved smoke fails. Exact advisory
+endpoint eligibility still needs candidate runtime verification. No deployment,
+activation or production configuration changes occurred during readiness.
+
+### Hosted execution authorized — 2026-09-22
+
+Cam approved the complete proposal above, including scoped check-in and landing,
+remaining release checks, deployment with advisory off, one synthetic review
+under US$0.05, immediate deactivation, and exact-image rollback if verification
+fails. This supersedes the pending-approval status above; results are pending.
+
+### Hosted focused-advisory pilot completed — 2026-09-22
+
+Storybook readiness/runtime commit `c55dc39ae3e84fb3926e45d12b94c2a40c36f8f2`
+landed on remote main and deployed as v28, image
+`sha256:5451c74178edc0e58b29330aa9427831fdaf9a401930fb73ca8dbcea539ee359`.
+Required ordinary extraction and full release gates passed (1464 Vitest +3
+native tests,12 existing skips), followed by isolated production startup checks.
+App and active/stopped-standby worker overrides were preserved; no replay.
+
+One authenticated review of the existing fictional chapter completed: eight
+assertions, two batches,7161 input/1174 output tokens, **US$0.000300762** exact
+reported cost versus US$0.05 cap; no retries. All combined labels supported;
+UI “No concerns found in this check.” The deployment/integration works. This
+single synthetic result is not broad semantic accuracy evidence; one raw
+proposition-scope distribution remained close (supported0.52/contradicted0.47).
+
+Global source-support advisory switched off after the result (74.6 seconds
+from successful enable to confirmed disable). Runtime and browser off checks
+passed; visible assertion/evidence fingerprints and stored request/result/graph
+hashes/revision were unchanged. Health green; rollback unnecessary. Existing
+relationship routing remains enabled. CLI smoke token remains expired, while
+the authenticated browser provided the actual end-to-end proof. No ongoing
+private-content activation was approved.
+
+Owner evidence: Storybook `evals/story168-hosted-pilot-20260922/`,
+`docs/runbooks/story168-hosted-focused-advisory-pilot.md`, and `docs/deploy-log.md`.
+The approved hosted-pilot scope is complete. Leave the advisory off pending
+Cam's decision about a separate ongoing owner-clicked rollout; no automatic
+model-evaluation expansion or historical private-corpus rerun is needed.
+
+Storybook deployment/receipt closeout landed on remote main as
+`fa55e6afc254fcaa6cac9a73ce6ce2f58ed004c2`; it is documentation/evidence only,
+so the verified production image continues to identify runtime commitc55dc39.

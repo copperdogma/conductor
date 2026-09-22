@@ -231,3 +231,32 @@ explicit rejections.
   activation scope. Pilot not execution-ready: bounded ordinary extraction
   smoke, usable test authentication/run and app-key placement still need
   qualification. No deployment, activation, secret changes or provider calls.
+
+- 2026-09-22: Cam approved finishing hosted focused-advisory readiness before
+  deployment approval. Active app and worker TypeSafe key presence verified;
+  aggregate Partial reflects stopped standby and is not an app-key blocker.
+  Existing Chrome smoke session is authenticated and existing fictional
+  Aria/Bo chapter located; CLI token returned401 and remains unchanged. No
+  new account/data or secret mutation needed. Mandatory ordinary extraction
+  smoke needs a combined Gemini/GPT-5.4 bound; public-only launcher under
+  preparation with US$1 total cap, no private-corpus rerun.
+
+- [x] 2026-09-22 — Hosted readiness follow-through: actual app key, valid Chrome
+  smoke session and existing fictional chapter verified. Bounded ordinary
+  Dossier smoke passed4/4 final exchanges; all readiness attempts total at most
+  US$0.063094/$1 including retained unknown reserve. Five guard and18 adapter
+  tests pass. Cam selected brief global smoke then off. Local changes await
+  check-in and final deployment approval; no rollout or activation performed.
+
+- 2026-09-22: Cam approved scoped check-in, remaining release checks, deployment,
+  one hosted synthetic source-support review up to US$0.05 using the existing
+  global switch briefly, then off; exact-image rollback is also authorized.
+  Execution results remain pending.
+
+- [x] 2026-09-22 — Hosted JEV source-support pilot complete: Storybook c55dc39
+  landed/deployed v28; all release/startup gates passed. One synthetic review
+  covered8 assertions in2 batches for US$0.000300762. Advisory off again after
+  74.6seconds; server/browser off checks and unchanged stored/visible facts
+  verified. Worker overrides preserved, health green, no rollback. Scout072
+  and owner receipts record details; ongoing private-content activation stays
+  off pending a separate decision. Existing relationship routing stays enabled.
