@@ -15,6 +15,7 @@ Use this index to track external sources investigated for cross-project value.
 ## Entries
 
 - `2026-09-19` — [Scout 072 — JEV Classification Opportunities](./scout/scout-072-jev-classification-opportunities.md) — `Spike`
+  The [current usefulness map](./scout/scout-072-jev-classification-opportunities.md#current-usefulness-map--2026-09-22) separates raw model wins from final workflow value and records when each use case is worth revisiting. Echo Forge Search is parked after no final playable-action gain; no new JEV eval is implied by this index.
   Storybook screen: 19 correct JEV decisions / 3 fallbacks across22 complete
   pairs; Haiku22/22. Stopped at rounded-probability validation, no retry.
   US$0.08689611/$1; full-workflow replay saves only4.1%. No adoption.

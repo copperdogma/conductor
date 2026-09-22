@@ -1,7 +1,34 @@
 # Scout 072 — JEV classification opportunities
 
 Date: 2026-09-19
-Status: Portfolio comparisons complete; focused Dossier/Storybook advisory landed with verified exact dependency pin; activation remains off
+Status: Portfolio fit mapped; targeted integrations and activation states are recorded per owner below
+
+## Current usefulness map — 2026-09-22
+
+This is the decision index for revisiting JEV. The dated sections below and each
+owning repository's attempt remain the evidence of record. **Candidate ranking,
+final workflow value, runtime installation, and live use are separate claims.**
+These small synthetic evaluations identify promising components; they do not
+establish production accuracy. Do not repeat an unchanged fixture merely to
+raise a score, and do not turn a product-path limitation into a model failure.
+
+| Use case | What the successive checks established | Current decision and revisit trigger |
+| --- | --- | --- |
+| **Storybook relationship-correction routing** | Initial JEV decision projection was 19/22 accepted with three fallbacks; the full interpreter still needed Haiku rationale. A [fresh relative rerun](#completed-relative-storybook-rerun--2026-09-21) found narrow JEV and Haiku routing both 24/24, with the measured cascade 22/24 and 20.6% lower cost than full Haiku. The bounded router [landed](#storybook-landing--2026-09-21) and a hosted synthetic probe passed. | **Useful as a narrow route with fallback;** owner controls accepted changes. Installed routing is separate from broader production-quality proof. Revisit with representative correction outcomes, not the original eight cases. |
+| **Dossier source/assertion review** | The [first paired screen](#remaining-portfolio-campaign-results--2026-09-21) tied a GPT reviewer 15/15 on short enriched pairs. A [focused comparison](#focused-comparison-completed--2026-09-21) tied useful defect flags with fewer dollars and milliseconds; a [fresh-source check](#fresh-source-comparison-completed--2026-09-21) had zero JEV false flags on 16 healthy assertions, but both models missed one interpretation-sensitive chronology defect. The focused advisory integration [landed](#focused-advisory-landing--2026-09-21); Storybook's hosted [synthetic pilot](#hosted-focused-advisory-pilot-completed--2026-09-22) finished with its switch off. | **Promising bounded advisory, not fact authority.** Revisit with naturally occurring defect prevalence and source-disjoint observations; keep graph acceptance with the owning system. |
+| **Doc Web text issue triage** | The [20-case paired screen](#remaining-portfolio-campaign-results--2026-09-21) favored a JEV+planner cascade 33/40 versus planner 29/40, but later [six structural cases](#structural-sample-results) showed planner-visible defects 5/5 versus raw JEV 4/5. A [corrected recheck](#repair-and-bounded-recheck-results) exposed planner-convention contradictions and input-visibility limits; guarded routing stayed safe while the planner remained authoritative. | **Keep default off.** The landed shadow hook is a measurement seam, not a demonstrated production improvement. Revisit only with consistent conventions, complete compact inputs, and source-disjoint workload evidence. |
+| **Storybook artifact-link selection** | Candidate-only JEV labels beat the Gemini selector 25/30 versus 23/30 in the [portfolio screen](#remaining-portfolio-campaign-results--2026-09-21). The [complete-workflow comparison](#complete-artifact-link-run-stopped-and-reconciled--2026-09-21) favored full Gemini on seven completed pairs (15/17 versus cascade 14/17); the cascade cost 9.68% more and its eighth completion violated selected-inventory control. | **Retain Gemini full proposals.** Revisit only if a structurally constrained completion step can turn JEV selection into better complete proposals, including rationale and evidence. |
+| **Storybook passage retrieval** | JEV [raw passage ranking](#storybook-passage-ranking-result--2026-09-22) improved useful top-five inclusions 71→92, but final exact-rescued prompt inclusions moved only 64→65 across 24 queries, with added median 195 ms. | **Retain current retrieval.** Revisit if the exact-rescue/final-selection path changes or fresh queries show consequential final-context misses. |
+| **Echo Forge cue/control intent** | A broad cue screen missed sounds; the later [six-model comparison](#completed-six-model-comparison) put JEV at 30/48, behind Grok 46/48 and Gemini 44/48 on the selected control-intent task. Echo Forge [landed](#echo-runtime-landed--2026-09-21) Gemini default with a Grok option. | **Do not use JEV for this live control lane.** Revisit only if the task or checkpoint materially changes; no unchanged rerun. |
+| **Echo Forge typed Search** | Metadata [shortlist ranking](#echo-forge-sound-ranking-result--2026-09-22) and [built-in catalog ranking](#echo-forge-built-in-catalog-reranking-follow-through--2026-09-22) showed semantic wins. The [sound-ID panel replay](#echo-forge-final-search-display-and-opt-in-prototype--2026-09-22) showed only one extra visible ID. The fresh [playable-action check](#echo-forge-playable-search-action-ranking--2026-09-22) improved raw top-one 7/16→15/16 but final first playable control stayed 6/16 and visibility 14/16, both tied. | **Park JEV Search; optional prototype stays off.** The model is useful at ranking eligible actions, but this panel absorbs the gain. Revisit when a changed Search presentation could expose the selected control and fresh GM choices are available. No Search redesign is proposed by this scout. |
+| **Scrypted/HomeKit diagnostics** | The [small synthetic screen](#remaining-portfolio-campaign-results--2026-09-21) got JEV diagnosis 16/16 and acceptable next diagnostic 15/16; the existing script also handled its separate deterministic contract. | **Lower-priority read-only adjunct.** Revisit with real ambiguous incident packets; keep probes and repairs in code. |
+
+Conductor, Robo Rally, CineForge and Board Game Ingester were inspected but had
+no compelling maintained text-only JEV lane then; see [original dispositions](#other-projects--not-recommended-for-a-provider-comparison-yet).
+Bishop, unified updater/maintenance and Labor/Zero were explicitly excluded by
+Cam because their implementation repos were unavailable here. Those are
+**unevaluated**, not negative results. This map recommends no new JEV provider
+calls or product work on its own.
 
 ## Selected execution — 2026-09-20
 
@@ -2182,3 +2209,228 @@ model-evaluation expansion or historical private-corpus rerun is needed.
 Storybook deployment/receipt closeout landed on remote main as
 `fa55e6afc254fcaa6cac9a73ce6ce2f58ed004c2`; it is documentation/evidence only,
 so the verified production image continues to identify runtime commitc55dc39.
+
+### Two new ranking evaluations approved — 2026-09-22
+
+Cam selected both genuinely new shortlist-ranking lanes, distinct from prior
+cue/control classification, source-support review and artifact-link completion.
+The combined provider ceiling is **US$1.00**, split **US$0.50 per owner**, including
+all probes, embeddings, candidates, retries and judges. Synthetic text/metadata
+only; no private passages, licensed narration, audio or production traffic.
+No runtime changes, activation, commits or pushes are authorized by this selection.
+
+- Echo Forge: `codex/jev-sound-ranking-20260922`, isolated worktree
+  `/Users/cam/.codex/worktrees/jev-sound-ranking-20260922`, base
+  `518046ebe96a8b1615815f77cb2d45e58e8dc964`. Compare native pinned
+  `jev-1.13.0` candidate relevance scores against the unchanged production
+  metadata matcher on fresh synthetic query/candidate sets. Preserve hard
+  eligibility and deterministic playback authority; this does not reopen the
+  settled control-intent model comparison.
+- Storybook: `codex/jev-passage-ranking-20260922`, isolated worktree
+  `/Users/cam/.codex/worktrees/jev-passage-ranking-20260922`, base
+  `fa55e6afc254fcaa6cac9a73ce6ce2f58ed004c2`. Compare JEV raw-passage ranking
+  with actual current embedding-distance/user-role ordering and top-five
+  selection. Generate real incumbent-model embeddings for new fictional inputs;
+  do not invent distances to weaken the baseline. Exact-anchor rescue, owner
+  eligibility and complete Dossier semantic chronology stay outside model control.
+
+Both owner agents must freeze independently reviewed expected matches, requests,
+scoring and source identities before inference; retain raw responses, reserve
+spend before dispatch, stop on unknown accounting, and report accuracy alongside
+incremental latency/cost versus the existing code. No arbitrary perfect-score
+bar. Conditional ranking quality does not establish candidate-retrieval recall,
+live usage quality or downstream answer improvement. Temporary central TypeSafe
+keys were injected through the safe helper into each ignored `.env`; remove only
+those injected variables after completion. Existing primary checkouts and the
+separate Storybook review-trial todo remain untouched.
+
+### Echo Forge sound-ranking result — 2026-09-22
+
+The new metadata-ranking lane supports an optional semantic reranker, with the
+local matcher retained for immediate suggestions and exact-name lookup. Across
+21 positive synthetic queries, unchanged `matchSoundCandidates` ranked the
+expected target first13/21 versus JEV21/21; top-three20/21 versus21/21.
+Exact-name queries tied7/7. Paraphrase and contextual/negated queries each improved
+from3/7 to7/7. These are three query variants across seven reused candidate pools,
+with four eligible candidates per query, not21 independent catalog tests.
+
+28/28 native requests qualified, including seven no-match queries;112Score
+judgments,44,535input tokens, **US$0.00187047** settled, no retries or outstanding
+reserves. JEV median182.027ms/p95358.472ms versus local matcher median0.152ms.
+A predeclared Score>=2 diagnostic rejected all seven no-match cases but also one
+valid positive whose relative rank was correct. Keep that absolute cutoff out of
+default behavior; the ranking win does not validate a no-match gate or autoplay.
+
+Owner report: `/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/docs/evals/attempts/sound-ranking/20260922-jev-1-13-0.md`.
+Frozen fixtures, requests, complete raw responses and ledger reside in
+`benchmarks/results/jev-sound-ranking-20260922/` in that owner worktree. Independent
+pre-inference gold review, eight offline scorer/contract checks, thirteen existing
+matcher tests and scoped lint passed. Conductor independently verified all28raw
+receipts, exact served checkpoint, cost settlement and frozen source hashes;
+temporary injected TypeSafe key absence verified. No runtime edits, commit/push
+or production activation. Larger actual search pools and owner selections are
+needed before broader adoption; more unchanged synthetic reruns are unnecessary.
+
+### Storybook passage-ranking result — 2026-09-22
+
+JEV improved raw-passage ranking but supplied little additional value through
+Storybook's existing final selection. Keep the current retrieval pipeline for
+now; this verdict compares measured benefit with added latency, not perfection.
+
+24 fresh fictional queries with eight passages each used actual
+`gemini-embedding-2`768-dimensional embeddings and the unchanged production
+retrieval function against read-only synthetic DB rows. All97 useful passages
+remained in the eligible shortlists. JEV raw top-five selection improved useful
+passage inclusions71→92 and ranking nDCG0.84637→0.95748, while unsupported
+assistant-claim inclusions increased0→2. That exposure is not an observed
+hallucinated final answer.
+
+The actual final prompt surface keeps exact-anchor rescue and up to four
+passages. Its useful inclusions improved only64→65 and nDCG0.80355→0.80976;
+unsupported assistant inclusions stayed7→7. Only2/24final surfaces changed:
+case09 reordered evidence and case13 gained one useful passage. Existing exact
+rescue supersedes most semantic-ranking changes. Complete eligible Dossier
+semantic chronology remained a separate unchanged pass-through, not a ranked
+or truncated target.
+
+48/48calls qualified (24Google embedding batches and24JEV Score requests),
+**US$0.003214544** total with reported usage on every response, no retries,
+unknown balances or paid judges. Added JEV median195.050ms/p95329.136ms.
+Embeddings use standard Google pricing, not discounted asynchronous batch rates.
+Small synthetic pools and repeated authored patterns limit generalization;
+no downstream answer, real private corpus or production-traffic claim.
+
+Owner report: `/Users/cam/.codex/worktrees/jev-passage-ranking-20260922/docs/evals/attempts/165-story126-jev-passage-ranking.md`.
+Raw requests/responses, freeze, fixture review, ledger and per-case results are
+in `evals/jev-passage-ranking-20260922/` in that worktree. Conductor verified all48
+response hashes, settled usage/cost, JEV checkpoint and frozen file hashes.
+
+Across both new lanes:76qualified calls, **US$0.005085014** combined, below the
+US$1approved cap. Prioritize an Echo Forge optional-search trial over inserting
+JEV into Storybook's existing passage pipeline. A future combined semantic/exact
+ranking experiment would change the decision being tested and must preserve
+exact-anchor eligibility and full semantic chronology; it is not an authorized
+runtime change or a reason to replay this identical benchmark.
+
+Closeout verification: both owner temporary TypeSafe variables are absent.
+Conductor replayed Echo's scorer and Storybook's offline replay (24cases,
+48request/response hashes and6frozen sources), with zero further provider calls.
+Conductor lint and diff checks passed. Evidence and harness changes remain local
+in the isolated owner/coordinator branches; no commits or pushes were requested.
+
+### Echo Forge built-in catalog reranking follow-through — 2026-09-22
+
+Cam approved the optional Echo Forge search trial after the first ranking result.
+Story 073/Attempt 002 in the same isolated owner branch used the actual built-in
+typed-Search pool: 416 candidates (92 Sources, two Scenes,75 Recipes,247 sound
+asset sets). The current matcher ran over all of them; the product's first80
+positive eligible results were retained, and JEV reranked up to20 sound sets
+within that scan. 18 independently reviewed synthetic queries used catalog
+identity as gold, with equivalent live/all sets counted as one target family.
+No user query logs, local saved places, private Spell rows or audio were sent.
+The provider request used synthetic query text plus a narrow metadata allowlist;
+filename-like titles were replaced by semantic tags, and paths, provenance,
+license notes and gold stayed local.
+
+The target sound survived local eligibility and both shortlists in15/16positive
+queries. It ranked first **10/16 with current metadata scoring versus15/16 with
+JEV**, five paired wins and zero losses; top-three11/16 versus15/16. Exact-name
+queries tied3/3. Wins corrected wooden door slam, snow/gravel footsteps, water
+drips and dungeon exploration music. The remaining thunder-only target received
+local score0 and was filtered before reranking; this is a retrieval miss, not
+an inference failure. Two no-match cases were diagnostic; a fixed Score>=2 gate
+would still hide a valid snow-footstep result and remains uncalibrated.
+
+18/18 native requests qualified,81,588input tokens and **US$0.003426696**
+settled against a self-cappedUS$0.50, no retries/unknown reserves. Local full-pool
+matcher median46.8ms, JEV median221.0ms, combined median270.1ms on this laptop.
+Conductor verified the frozen source hashes, raw receipts, exact served
+`jev-1.13.0`, token costs, offline replay and credential removal. Owner matcher
+13tests, full lint and methodology checks passed. Runtime behavior and defaults
+were untouched; no commit or push.
+
+Owner report: `/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/docs/evals/attempts/sound-ranking/20260922-jev-catalog-trial.md`.
+The ranking win is real within eligible sounds, but the final UI gives higher
+priority to scene/source tiers and icons, dedupes sounds, removes sounds covered
+by Source surfaces, and limits display to18. This trial cannot claim a visible
+GM benefit. If prioritized, the next bounded step is an opt-in result-row
+prototype with immediate local results, stale-query cancellation and the
+existing deterministic eligibility/action rules. Measure final displayed order
+and GM choices before any default or rollout decision. Do not replay these
+same authored queries as held-out evidence.
+
+### Echo Forge final Search display and opt-in prototype — 2026-09-22
+
+Cam approved a local, session-opt-in typed Search prototype and a zero-provider
+replay of the 18 retained catalog queries. The owner implemented a build-time
+prototype flag plus a separate server enable switch and server-only TypeSafe
+key. All defaults are off. Local Search paints first; an explicit opt-in may
+send only the query and up to20 eligible built-in sound-set IDs. The server
+reconstructs the same minimal metadata used in the catalog trial, validates
+the pinned `jev-1.13.0` Score response, and returns bounded scores. Aborted,
+stale, failed and malformed responses leave local ordering. No candidate,
+Source action, permission or playback authority moves to JEV. No deploy,
+activation, commit, push or new provider call occurred.
+
+The replay passed the retained responses through production result projection,
+tier/icon sorting, deduplication, Source limit, covered-sound removal, top18 and
+panel grouping. Across16 positive queries, a gold sound-set ID appeared
+anywhere in the panel on **6 local versus7 JEV**. Standalone Sound visibility
+was2→3; four targets appeared as Source rows in both arms. A gold target was
+first within the Sound group on **0/16 in both arms**. Panel order changed on
+6/18 queries. Gravel steps moved from panel position12→8; water drips entered
+at position18. The earlier sound-shortlist top1 gain10→15 was largely masked
+by the actual Search presentation. This is still a narrow relative win, not
+evidence for a default rollout or a perfect-score gate. The next comparison
+should grade the displayed playable Source action or Sound row across scene
+contexts, because exact sound-set IDs may be hidden by a relevant Source.
+
+Owner [display replay](/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/docs/evals/attempts/sound-ranking/20260922-jev-final-display-replay.md),
+[prototype story](/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/docs/stories/story-074-optional-jev-search-reranking-prototype.md),
+and per-query data under `benchmarks/results/jev-final-display-20260922/`.
+
+### Echo Forge playable Search action ranking — 2026-09-22
+
+Cam approved one more Echo Forge evaluation after the sound-ID replay: judge
+the action the GM can actually play, including Source controls, across home,
+live Tavern and live Dungeon contexts. The isolated owner Story075 used20fresh
+synthetic queries with independently reviewed playable-action gold (16positive,
+four no-match). Production eligibility and first80 scan were unchanged. Every
+positive gold action reached the first24 actionable-unit shortlist. The
+challenger made18direct `jev-1.13.0` Score calls; the two empty-retrieval
+cases required no call. All18 qualified, 76,022input tokens, US$0.003192924,
+median provider-only165.7ms, p95341.8ms; temporary eval key removed.
+
+JEV moved a gold playable action to raw shortlist first place **7/16→15/16**,
+eight paired wins and zero losses. The sound-only and Source+Sound score
+replays through the *actual final Search panel* each tied current Search:
+first relevant control **6/16**, first three **10/16**, visible **14/16**.
+No positive case gained or lost action rank, though panel row order changed
+on12/20queries. Two suitable actions were hidden by Source coverage: Patrons
+showed other controls instead of a crowd gasp, and Water Feature showed other
+controls instead of shallow-water footsteps. Tier/icon priority, Source
+control order and covered-Sound filtering prevent Score from selecting the
+specific control. JEV assigned below2 to both nonempty no-match distractor
+sets, but that threshold is uncalibrated and the current panel still shows
+candidates.
+
+**Recommendation:** do not expand or enable the optional Search prototype.
+JEV has useful semantic ranking capability, but no observed playable-action
+benefit in this UI. A future direct-action Search presentation could make use
+of it; that would need fresh GM choices and a calibrated no-match policy.
+This is a relative product-path verdict, not a model-failure or perfect-score
+gate. No runtime activation, deployment, commit, or push occurred. See the
+[owner attempt](/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/docs/evals/attempts/sound-ranking/20260922-jev-playable-actions.md)
+and frozen per-case artifacts.
+
+### Check-in status — 2026-09-22
+
+The remaining JEV evaluation records and guarded prototype are checked in on
+their owning repositories' remote `main` branches. Storybook landed at
+`98f8d25e293a32130875100b455ba26da3830be5` (Story150 classification,
+Story126 passage ranking, and the source-support follow-up). Echo Forge landed
+at `7d7387aa826bd23bdf09d4246fc0066e1b30be5b` (cue/control-intent evals,
+Search ranking/display/action evals, and the default-off Search prototype).
+These check-ins do not change the recommendations above or authorize runtime
+activation. Earlier no-commit/no-push statements describe the state when those
+individual experiments completed.

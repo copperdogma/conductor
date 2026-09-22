@@ -260,3 +260,16 @@ explicit rejections.
   verified. Worker overrides preserved, health green, no rollback. Scout072
   and owner receipts record details; ongoing private-content activation stays
   off pending a separate decision. Existing relationship routing stays enabled.
+
+- 2026-09-22 — Cam approved new JEV ranking evaluations in Echo Forge sound
+  search and Storybook raw conversation retrieval, US$0.50 each/US$1 total.
+  Fresh synthetic cases and actual maintained baselines; no production changes.
+  Routed to Scout072 with separate isolated owner worktrees.
+
+- 2026-09-22 completed the two approved new JEV ranking evaluations: Echo Forge top1 13/21→21/21 on seven synthetic candidate families, supports optional semantic-search follow-up; Storybook raw ranking improves but final exact-rescued context gains only one useful passage across24queries, retain current pipeline. 76qualified calls/US$0.005085014 combined, no runtime edits/activation/commit/push. Reports and limitations: Scout072 final ranking sections.
+
+- 2026-09-22 Echo Forge JEV catalog follow-up completed in isolated Story073: actual416 built-in candidates,16 positive synthetic typed queries, target sound top1 local10/16 versusJEV15/16, one retrieval miss before JEV,18qualified calls/US$0.003426696. Ranking win supports an opt-in result-row prototype; final displayed order and GM choices still unmeasured. Scout072/owner Attempt002 hold evidence; no runtime change/commit/push.
+
+- [x] 2026-09-22 Echo Forge Story074 opt-in typed Search prototype and zero-provider final panel replay completed in the same isolated worktree. Gold sound-set visible6/16 local→7/16 JEV, first Sound row0/16 both; panel order changed6/18. Local results first, server-only key and explicit flags default off, safe stale/failure fallback. No deployment, activation, commit, push or provider calls. Scout072 and owner attempt record the narrower visible gain; next eval should judge playable Source actions plus standalone Sounds across contexts before rollout.
+- [x] 2026-09-22 Echo Forge Story075 evaluated playable Source and Sound controls on20fresh synthetic queries across home/Tavern/Dungeon. JEV raw shortlist top1 improved7/16→15/16, but final first relevant control stayed6/16 and visible14/16 in both arms. 18/18 native calls qualified for US$0.003192924; temporary key removed. Keep optional Search off; Scout072 and owner attempt record the product-path limit. No deployment, activation, commit or push.
+- [x] 2026-09-22 JEV check-in: remaining Storybook and Echo Forge evaluation work landed on owner remote main at `98f8d25e293a32130875100b455ba26da3830be5` and `7d7387aa826bd23bdf09d4246fc0066e1b30be5b`, respectively. Scout072 records the final usefulness verdicts. Optional Search remains off; no new provider calls or deployment.
