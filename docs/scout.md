@@ -14,6 +14,8 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-22` — [Scout 074 — MiMo V2.6 Flash and Pro Evaluation Routing](./scout/scout-074-mimo-v26-evaluation-routing.md) — `Defer`: five selected owners stopped on DeepInfra capacity or five-image incompatibility; no completed benchmark/adoption. Known USD0.00014672; conservative exposure USD1.435527145. Storybook reservation bound exceeds its USD0.25 owner cap; runner/provenance defects are preserved. Temporary keys removed.
+
 - `2026-09-22` — [Scout 073 — Grok 4.7 Evaluation Campaign](./scout/scout-073-grok47-evaluation-campaign.md) — `Spike`
   Bounded campaign complete: Echo46/48 vs fresh Gemini45/48 at greater cost/
   latency; retain Gemini. Doc Web and CineForge gates failed, Storybook

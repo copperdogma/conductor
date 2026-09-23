@@ -6,6 +6,13 @@ explicit rejections.
 
 ## General
 
+- 2026-09-22: Evaluate MiMo V2.6 Flash and Pro with lower-cost delegation.
+  [Scout 074](docs/scout/scout-074-mimo-v26-evaluation-routing.md) records
+  the selected campaign and its transport stops. Known spend USD0.00014672;
+  conservative exposure USD1.435527145, actual total billing unknown. Storybook
+  exposure bound exceeded its owner cap due to a reservation preflight defect.
+  No owner benchmark completed or defaults changed. All temporary keys removed.
+
 - 2026-09-22: Evaluate Grok 4.7. All five numbered owner evaluations approved
   under a USD4.80 campaign ceiling; lower-cost owner delegation requested.
   Routed to [Scout 073](docs/scout/scout-073-grok47-evaluation-campaign.md).
