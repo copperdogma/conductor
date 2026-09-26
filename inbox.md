@@ -294,9 +294,11 @@ explicit rejections.
 - [x] 2026-09-22 JEV check-in: remaining Storybook and Echo Forge evaluation work landed on owner remote main at `98f8d25e293a32130875100b455ba26da3830be5` and `e6c3ef1aed1d0a515b75ba6100ad6f74430bcfa8`, respectively. Scout072 records the final usefulness verdicts. Optional Search remains off; no new provider calls or deployment.
 
 
-- 2026-09-26: Evaluate Opus 5.5. [Scout075](docs/scout/scout-075-opus55-evaluation-routing.md)
+- [x] 2026-09-26: Evaluate Opus 5.5. [Scout075](docs/scout/scout-075-opus55-evaluation-routing.md)
   Cam selected all five. Direct inference qualified; no adoption after bounded
   owner stops. Known USD1.15682175, conservative exposure USD1.91246975/11.50.
   Dossier runner continued after a contract failure; extra calls retained,
   one interrupted reservation unresolved, fail-fast repaired offline. No
-  default changes, commits or pushes; isolated owner evidence preserved.
+  default changes. Approved closeout landed all five owner commits on remote
+  main; validation blockers resolved offline and evidence preserved. Scout075
+  records exact commits, checks, billing uncertainty and retained worktrees.

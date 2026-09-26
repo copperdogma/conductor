@@ -232,7 +232,7 @@ while retaining failed-call cost. Future reproduction must enable it. Original
 run configs and call-time code identities remain frozen; repaired code did not
 produce earlier results. No automatic rerun is authorized.
 
-### Evidence boundaries and validation
+### Evidence boundaries and validation before closeout
 
 Root reviewed source/graph evidence for Dossier correction and namesakes,
 Echo's false-activation fixture and raw response, Storybook's terminal receipt,
@@ -261,18 +261,18 @@ with Storybook's existing typecheck failures, these are validation limitations,
 not provider-quality evidence; they remain documented rather than repaired
 outside scope. No claim of a clean full-suite landing is made.
 
-Recommended next action: scoped review and check-in of the evaluation records
+At the evaluation handoff, the recommended next action was scoped review and check-in of the evaluation records
 and validated tooling repairs, preserving the documented pre-existing check
-failures and all negative/unknown evidence. This would require separate landing
-authorization; no further paid evaluation is currently recommended.
+failures and all negative/unknown evidence. That required separate landing
+authorization, subsequently granted below; no further paid evaluation is recommended.
 
 ## Approved closeout — 2026-09-26
 
 Cam accepted scoped closeout with validation blockers resolved before pushing.
 This authorizes the five owner evidence/tooling commits and the Conductor
 record, not further inference, runtime model changes or deployment. All six
-repositories are preflighted before the first push. Owners hold their prepared
-commits until the coordinator releases landing; Conductor lands last.
+repositories were preflighted before the first push. Owners held their prepared
+commits until the coordinator released landing; Conductor lands last.
 
 Conductor uses a fresh `codex/opus55-closeout-20260926` worktree from
 `47189f26be9d7784543207119a1a8f4992f28d3c`. Only this report, its scout index
@@ -285,3 +285,38 @@ Preflight validation here: lint, methodology freshness, skill surface check,
 report local links, cost arithmetic and whitespace checks passed. Owner fixes
 are offline only; original call-time artifacts and unresolved billing exposure
 remain preserved. Worktrees and protected/ignored raw artifacts are retained.
+
+### Completed owner landings
+
+All five execution branches and remote `main` refs were verified at these exact
+commits after non-force fast-forward pushes. Primary checkouts were untouched.
+
+| Owner | Verified remote main commit | Applicable final validation |
+| --- | --- | --- |
+| Dossier | `0ba2825b97ea564e72f88c12a0267fee13e9712c` | 32 runner tests, Ruff, methodology, JSON validation, custody and secret-presence checks |
+| Doc Web | `92f341e169f7e81775a7f006ae39757303a8e88f` | 26 focused tests, Ruff, methodology, YAML and 21 artifact hashes |
+| CineForge | `163bcb1ecd36de97b76e5ad83298048c9211a4d7` | 2,187 unit tests, 135 focused tests, all three check-evals checks, Ruff and current manifest verification |
+| Storybook | `7ec2ac667b111bce269e0d56d81305c95518bdec` | Repository typecheck 5/5, affected backend typecheck and lint, two usage tests, three provider-free tests, historical source hash |
+| Echo Forge | `031857e0c8b8cee06cf5e28473887d1029461640` | 63-response replay and ledger, 130-file manifest, eight focused tests, ESLint and registry parsing |
+
+The validation blockers recorded at the evaluation handoff are resolved.
+Storybook now validates nullable or malformed usage before accessing its fields;
+its historical MiMo dispatch-source snapshot remains byte-identical. The
+DB-backed photo suite could not start against the unavailable local database
+(seven skipped); it supplies no passing evidence. Focused eval-only checks and
+typechecks cover the changed tooling, with no runtime product changes.
+
+CineForge's touched provider is split into bounded modules. Both new executable
+helpers are included in the final-render fingerprint and size inventory, with
+mutation tests proving that changes affect the fingerprint. Stale Grok-status
+and historical-manifest assertions were corrected; v11 records the current
+contract while historical manifests remain intact. Story 221 is Done and its
+required generated views and changelog are included.
+
+All fixes were offline. The original provider failures, call-time source
+identities, unmeasured stages and USD0.755648 interrupted reservation remain
+unchanged. Known cost is USD1.15682175; conservative exposure is USD1.91246975.
+No adoption, activation, deployment or additional spend occurred during closeout.
+Task branches, isolated worktrees and protected raw evidence are retained.
+Conductor's final commit containing this section is the supervisor landing
+record; its remote verification is reported in the task handoff.
