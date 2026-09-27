@@ -6,6 +6,19 @@ explicit rejections.
 
 ## General
 
+- 2026-09-26: Evaluate GPT-6 Sol and GPT-6 Luna. [Scout076](docs/scout/scout-076-gpt6-sol-luna-evaluation-routing.md)
+  records completed decisions across five owners, recovered operational defects
+  and mixed-model checks. Luna wins Storybook persona and CineForge inspected
+  headless frame analysis; retain Gemini in Echo, photo/OCR and Doc Web runtime.
+  Planned evaluation plus qualification totalsUSD3.784318290; accidental live
+  Dossier validation addsUSD11.039940 conservative unresolved exposure and
+  possible cap overrun; the Storybook deployment smoke adds unquantified
+  exposure from bypassing its existing guard. Both are documented in Scout076. Storybook integration, CineForge qualification,
+  Dossier/Echo/Doc Web evidence and the Dossier opt-in pilot are landed.
+  Storybook v29 is deployed; public smoke passes, authenticated smoke token401.
+  Cost reconciliation needs billing access; no more quality evals are needed. See [efficiency review](docs/scout/scout-076-evaluation-efficiency-review.md)
+  for measured orchestration overhead and recommended reductions.
+
 - 2026-09-22: Evaluate MiMo V2.6 Flash and Pro with lower-cost delegation.
   [Scout 074](docs/scout/scout-074-mimo-v26-evaluation-routing.md) records
   the selected campaign and its transport stops. Known spend USD0.00014672;

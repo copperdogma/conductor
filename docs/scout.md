@@ -14,6 +14,8 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-26` — [Scout 076 — GPT-6 Sol and Luna Evaluation Routing](./scout/scout-076-gpt6-sol-luna-evaluation-routing.md) — Task-specific Luna wins in Storybook persona and CineForge inspected frame analysis; retain Gemini in Echo, photo/OCR and Doc Web runtime. Planned evaluation/qualificationUSD3.784318290; accidental Dossier validation hasUSD11.039940 conservative unresolved exposure, with possible cap overrun. Storybook smoke adds unquantified exposure. Owner landings, Storybook v29 deployment and Dossier opt-in library pilot completed and tracked with an [efficiency review](./scout/scout-076-evaluation-efficiency-review.md).
+
 - `2026-09-26` — [Scout 075 — Claude Opus 5.5 Evaluation Routing](./scout/scout-075-opus55-evaluation-routing.md) — `Do not adopt`: five selected owners reached direct inference, then contract, grounding, intent or economic stops. Known USD1.15682175; conservative exposure USD1.91246975/11.50 includes Dossier interrupted reservation. Dossier stop-rule breach preserved and fail-fast repaired offline. Owner records and validated tooling fixes landed on all five remote main branches; no defaults changed.
 
 - `2026-09-22` — [Scout 074 — MiMo V2.6 Flash and Pro Evaluation Routing](./scout/scout-074-mimo-v26-evaluation-routing.md) — `Defer`: five selected owners stopped on DeepInfra capacity or five-image incompatibility; no completed benchmark/adoption. Known USD0.00014672; conservative exposure USD1.435527145. Storybook reservation bound exceeds its USD0.25 owner cap; runner/provenance defects are preserved. Temporary keys removed.

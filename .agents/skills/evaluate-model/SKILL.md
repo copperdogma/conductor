@@ -18,6 +18,11 @@ Use one skill for the whole campaign:
 The public name remains `evaluate-model`. “Remote model” is an access path, not
 the purpose of the workflow.
 
+Success means a decision Cam can act on: name the winners, explain the tradeoffs,
+and recommend where to use each model. Completing calls or listing blockers is
+not sufficient. A repository may use several models for different tasks; a
+candidate need not replace every model-owned call to be a worthwhile adoption.
+
 ## Invocation Contract
 
 Treat everything after `/evaluate-model` as a natural-language brief, not
@@ -140,6 +145,11 @@ current parity surface. Documentation, catalog, pricing, or route metadata
 alone does not satisfy a callability, strict-contract, privacy, reliability,
 latency, cost, or capability trigger.
 
+Repairing a judge, adapter or harness within an already approved active campaign
+is continuation, not a new model nomination. Preserve failed evidence and reuse
+saved subject outputs where possible; do not turn routine recovery into repeated
+approval requests. Respect explicit user retry limits and hard spend ceilings.
+
 Keep distinct checkpoints distinct. Do not collapse a similarly named open
 checkpoint, managed service, dated snapshot, or provider alias unless exact
 served-identity evidence proves they are the same evaluated model.
@@ -201,6 +211,10 @@ Apply this balanced selection policy:
   documented incompatibility. Preserve hard
   owner contracts, privacy, prior-attempt retry triggers and spend limits;
   any permitted relaxed diagnostic remains capability-only evidence.
+- **Evaluate adoption by task.** Identify separable calls or stages where a
+  cheaper/faster model could win while a stronger model handles other work.
+  Test each proposed boundary; failure on one task does not erase a win on an
+  independent task. Do not require a repository-wide replacement decision.
 
 For every matching task omitted, give a concrete task-specific reason. Prioritize
 larger expected gains when resources are constrained, but do not silently turn
@@ -226,6 +240,13 @@ execution handles for the next user message. For each numbered item include:
 - fixture eligibility and privacy/ZDR restriction
 - proposed per-repo provider-spend ceiling, normally lower than the US$5
   fallback when the maintained lane can be bounded more tightly
+
+Size that ceiling for the decision-bearing comparison, independent judging and
+bounded operational recovery. Check reservation feasibility before proposing it;
+do not offer a budget that cannot admit the intended cases, then discover this
+after approval. Distinguish hard user limits from provisional operator estimates
+and soft screening thresholds. Avoid blanket zero-retry plans for recoverable
+harness/judge faults unless the user explicitly requires them.
 
 Then include an unnumbered `Not recommended now` section that names every
 remaining inspected repo and gives its **Defer** or **Do not evaluate** reason. Do not
@@ -363,11 +384,27 @@ require a distinct plan review, or exploration changes any of those terms,
 present the repo-local plan and pause. Otherwise continue without ceremonial
 reapproval. Always pause for a material new product choice, private-data
 authorization, higher spend, or broader rollout.
+Routine operational recovery under the rules below is not a new selection
+merely because an agent's provisional timeout, token allowance or retry default
+changes. A hard user ceiling or explicit user exclusion remains binding.
 
 Read the owner protocol reference before live execution. Qualify access and the
 actual production contract before semantic scoring, use frozen maintained
-inputs, run progressively, stop on predeclared gates, and retain failures as
-access/transport/reliability evidence rather than hiding them.
+inputs, and run progressively to a decision. Stop an affected lane for a clear
+candidate failure against a valid required contract or source-backed quality
+gate. Retain failures as access/transport/reliability evidence rather than hiding
+them; do not confuse an evaluation-system failure with a candidate failure.
+
+**Pursue recoverable problems through to conclusion.** A judge-format error,
+undersized output allowance, conservative reservation estimate, timeout setting,
+or other soft operational limit is a repair task, not a finished evaluation.
+Diagnose it, make the smallest evidence-backed repair, validate it, and continue
+within the approved task and hard budget. Rejudge saved answers instead of
+rerunning subjects. Record changed settings and use matched comparison arms
+where subject behavior could change. An agent-invented soft stop or zero-retry
+default must not force another user approval loop for routine repair. Never
+weaken quality gates or keep tuning a clearly failing candidate into a winner.
+The owner protocol defines recovery and genuine hard-boundary handling.
 
 Keep subject identity strict without overconstraining router infrastructure:
 
@@ -408,13 +445,44 @@ invalid topology. Repair it, make it fail closed with an actionable message, or
 label and isolate it as a diagnostic command while retaining a safe owner
 reproduction path.
 
-An early stop in one repo does not cancel independent selected repos. Preserve
-its honest `not measured` surfaces and continue where remaining scope and spend
-are still valid.
+An early stop in one lane does not cancel independent selected lanes, even
+inside the same repo. Preserve honest `not measured` surfaces and finish the
+other approved comparisons that can still change a decision. If a hard boundary
+prevents completion, exhaust useful authorized work, prepare the concrete
+recovery, and ask only for the missing decision; do not close with a shrug or a
+list of stops.
 
 ### 4. Synthesize without stealing ownership
 
-For each repo report:
+Lead the user-facing report with **what won and what to do**, not the last error
+or a blanket "no adoption." Give a concise task-level comparison table covering
+every evaluated repo: task, measured winner/tie/no winner, quality evidence,
+task cost and latency versus the comparator, and recommended action with its
+reason. State sample size, whether the comparison was fresh/matched, and the
+material uncertainty without burying the recommendation. Separate subject cost
+from judge/retry overhead and distinguish quality scores from pass rates.
+
+Make a strong, evidence-proportional call: **adopt for this task**, **prioritize
+this bounded promotion check**, **retain the incumbent**, or **reject for this
+task**. Explain why that action has the best practical payoff. Distinguish a
+measured task winner from deployment readiness; neither erase a demonstrated
+win because another gate failed nor promote a small smoke-test winner beyond
+its evidence. Rank the most useful next actions across the portfolio rather
+than automatically pursuing the repo with the latest failure. If evidence is
+inconclusive, identify the exact missing decision-bearing evidence and obtain
+it within scope instead of merely recommending another round.
+
+Explicitly consider mixed-model adoption: "use Luna for crop detection; retain
+the stronger model for independent page-safety decisions" is a valid conclusion
+when both roles and their interface are qualified. State which calls move,
+which stay, the deterministic routing/escalation condition, combined quality,
+latency and cost, and any untested routing risk. A subset must be identifiable
+at runtime, not a post-hoc selection of cases the candidate happened to pass.
+Do not invent a working fallback or routing policy from a model's self-reported
+confidence. Recommend the split when supported; implementing it still requires
+the user's rollout authorization.
+
+Keep the full evidence in each owner's record, linked from the summary:
 
 - worktree/branch and exact base identity
 - durable evidence files and exact commands

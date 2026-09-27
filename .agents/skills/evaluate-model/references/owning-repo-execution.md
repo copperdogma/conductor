@@ -17,7 +17,7 @@ Before spending tokens, record:
   do not infer that checked-in means public or that realistic-looking data is
   private when the owner identifies it as public or synthetic
 - the decision this run can support: adopt, conditional adopt, do not adopt, or
-  defer
+  defer, for the exact task/call subset rather than necessarily the whole repo
 - freshness mode, cache policy, proposed configuration arms, retry budget,
   per-repo spend ceiling, and progressive stop gates
 
@@ -132,6 +132,16 @@ conservatively. For a direct targeted invocation with no prior disclosed cap,
 use US$5 as the maximum fallback, but propose a lower task-specific cap whenever
 possible.
 
+Preflight the budget against the intended cases and judge overhead before
+seeking execution approval. Include a finite operational recovery allowance.
+Separate the hard authorized dollar ceiling from soft per-call estimates,
+provisional token/time limits and agent-selected stop defaults. If an estimate
+blocks admission, improve its evidence or execution plan while still reserving
+all possible charges conservatively; do not lower a bound just to make it fit.
+Releasing settled reservations or using a defensible tighter bound is normal
+bookkeeping, not a model failure. If the hard ceiling really is insufficient,
+prepare the feasible remaining plan and request only the needed increase.
+
 Before looking at scores:
 
 - start a cost ledger and conservative estimate
@@ -156,9 +166,13 @@ Before looking at scores:
 
 A request-shape or schema-flag repair needed to obtain any valid response is
 transport work. A change that can alter answer content—including reasoning
-level, output budget, or prompt—becomes a declared configuration arm. Do not
-expand the tuning or debug budget after observing scores without a new causal
-hypothesis and explicit approval.
+level, output budget, or prompt—becomes a declared configuration arm. Distinguish
+operational recovery from tuning for a better score: fix a demonstrated harness
+or judge defect within approved scope/budget without ceremonial reapproval,
+preserve the failed attempt, and retain fair matched settings where needed.
+Do not expand subject tuning or cross a hard spend/privacy/scope boundary
+without approval. A low subject output cap causing truncation may justify a
+documented adequate-budget arm, not a semantic loss or an unreported rerun.
 
 ## 5. Run Progressively
 
@@ -170,8 +184,13 @@ Use the smallest run that answers the current question:
 4. promotion-grade comparison with the repo's required repeats and artifacts
 
 Inspect raw outputs and artifacts between stages. Do not launch a broad matrix
-to debug one malformed call. Stop weak, incompatible, or operationally failed
-candidates at the predeclared gate and retain their evidence.
+to debug one malformed call. Stop an affected candidate lane on a clear early
+model failure: for example, an unambiguous source contradiction or violation
+of a valid required output contract under adequate settings. First establish
+that the expectation, parser and request were correct. Do not stop the campaign
+merely because the judge, harness, provisional allowance or another soft limit
+failed. Diagnose, repair and resume until the approved comparison supports a
+conclusion. Continue independent approved lanes that can still produce value.
 
 Before the first paid multi-case run, resolve the harness without inference and
 inspect its topology: rendered cases, conversation/session grouping, exact
@@ -181,9 +200,12 @@ that silently chains independent cases, selects an implicit judge, or renders a
 stale production contract is not ready for paid scoring. Correct the execution
 topology or stop; do not discover these facts through a broad live run.
 
-If a prerequisite stops a later materially different surface, report the later
-surface as `capability: not measured` and `adoption: not advanced`. A deliberate
-progressive stop is not evidence that the skipped surface failed.
+If a genuinely shared prerequisite blocks a later surface, report it as
+`capability: not measured` and `adoption: not advanced`; otherwise test the
+independent surface. A failed safety-classification task need not disqualify a
+separate detector task when another qualified model retains safety ownership.
+A skipped surface is never a failed surface, and an unrelated blocker must not
+erase an established task-level win.
 
 ## 6. Classify and Respond to Failures
 
@@ -199,7 +221,7 @@ parser, downstream cleanup, scorer, or judge. Then assign one primary class.
 | Missing structured-output enforcement | Enable the supported schema/JSON contract and adequate output budget before judging JSON behavior. |
 | Truncation or reasoning-token exhaustion | Inspect finish reason and usage; correct documented output/reasoning controls and rerun the affected slice. |
 | Native call passes but harness fails | Treat as adapter/harness incompatibility until disproved; inspect payload, cache, terminal state, and served identity. |
-| Parser, cleanup, judge, scorer, rubric, or golden mismatch | Isolate the stage and use the owner's eval-improvement/source-verification workflow; reuse safe cached subject output where honest. |
+| Parser, cleanup, judge, scorer, rubric, or golden mismatch | Isolate and repair the demonstrated defect under the owner's source-verification contract; validate and resume. Reuse saved subject outputs, including rejudging with a repaired citation schema. Preserve all failed reviews and charges; do not stop at "ungraded" when recovery is authorized. |
 | Valid output contradicts source-backed expectation | Count as model-quality evidence only after transport and configuration validity are proven. |
 | Refusal, filter, or safety behavior | Classify separately as policy/safety compatibility and decide whether it blocks the selected use. |
 
@@ -210,6 +232,16 @@ appears. When retries or operational failures matter, report both:
 - end-to-end production result including failures, retries, latency, and cost
 
 Never hide an initial failure by reporting only the successful retry.
+
+An agent-selected zero-retry default is not a user prohibition. Plan and use
+bounded, evidence-driven recovery for operational faults within the authorized
+ceiling. Honor an explicit user no-retry instruction. If recovery repeatedly
+fails, identify what changed between attempts and the concrete access, contract
+or reliability blocker; do not loop without new evidence. Hard money, privacy,
+permission and scope limits still bind. When one is reached, preserve usable
+results, complete independent authorized work, and present the specific prepared
+fix or remaining plan for the missing approval. A soft stop alone is never a
+satisfactory final outcome.
 
 ## 7. Verify Evidence and Provenance
 
@@ -244,7 +276,11 @@ cheaper, or stronger on vendor benchmarks.
 
 ## 8. Issue the Owner's Layered Verdict
 
-Return a compact evaluation record with:
+Lead with a recommendation for each tested task: winner/tie/no demonstrated
+winner, why it matters, what should change and what should remain. Use measured
+quality, cost, latency and reliability to justify the call. Distinguish measured
+wins from remaining adoption requirements; a blocked full replacement is not
+the same as finding no useful winner. Then return a compact evidence record with:
 
 1. **Decision and owner** — repo, surface, incumbent, adoption question
 2. **External evidence** — checked sources/date, exact model and access path
@@ -263,3 +299,11 @@ An access or transport block normally means `capability: not measured` and
 `adoption: defer`, unless the missing production feature itself makes the model
 ineligible. A valid semantic loss can support `do not adopt`. No adoption
 verdict may hide an unqualified required contract.
+
+Mixed-model recommendations are first-class outcomes. Specify the call/stage
+boundary, the runtime-observable routing rule, the stronger model's retained
+role, and any escalation/fallback cost and failure risk. Judge the combined
+path if routing is required for the proposed win; do not cherry-pick successful
+examples into a subset that cannot be recognized before inference. Recommend
+adoption for a qualified subset even when other calls should stay on the
+incumbent. A recommendation does not authorize changing runtime defaults.
