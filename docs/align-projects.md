@@ -11,6 +11,9 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-09-27` — [Alignment 048 — pnpm Dependency Storage](./alignments/align-048-pnpm-dependency-storage.md)
+  Evidence-based disk audit and selective isolated migrations for active npm repos.
+
 - `2026-09-19` — [Alignment 047 — Dossier Model Evaluation Catch-up](./alignments/align-047-dossier-model-catchup.md)
   Sequential owner campaign for the applicable model backlog, with an isolated
   current-base worktree and a combined US$5 provider ceiling. All 19 checkpoints

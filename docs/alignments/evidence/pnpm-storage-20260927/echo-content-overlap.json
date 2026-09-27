@@ -1,0 +1,32 @@
+{
+  "roots": [
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/node_modules",
+      "files": 12479,
+      "bytes": 171262805
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/node_modules",
+      "files": 12479,
+      "bytes": 171144522
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/echo-forge/node_modules",
+      "files": 12462,
+      "bytes": 164368674
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/closeout-skill-20260913/echo-forge/node_modules",
+      "files": 12461,
+      "bytes": 164368477
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/grok47-eval-20260922/echo-forge/node_modules",
+      "files": 12459,
+      "bytes": 164270046
+    }
+  ],
+  "duplicate_content_bytes": 657179134,
+  "duplicate_content_mib": 626.7348613739014,
+  "method": "regular file sha256/size multiset, sum counts across roots less largest count in any one root; symlinks excluded"
+}

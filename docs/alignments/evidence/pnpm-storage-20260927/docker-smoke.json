@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "bytes": 855,
+    "type": "text/html; charset=utf-8"
+  },
+  {
+    "path": "/manifest.webmanifest",
+    "status": 200,
+    "bytes": 559,
+    "type": "application/manifest+json; charset=utf-8"
+  },
+  {
+    "path": "/api/ptt/health",
+    "status": 200,
+    "bytes": 93,
+    "type": "application/json; charset=utf-8"
+  },
+  {
+    "path": "/private/spells/aidedd-all-spells.json",
+    "status": 200,
+    "bytes": 794362,
+    "type": "application/json; charset=utf-8"
+  }
+]

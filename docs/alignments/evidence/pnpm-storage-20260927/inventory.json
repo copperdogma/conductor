@@ -1,0 +1,760 @@
+{
+  "scan_roots": [
+    "/Users/cam/Documents/Projects",
+    "/Users/cam/.codex/worktrees"
+  ],
+  "pruned_dirs": [
+    ".git",
+    "node_modules (after recording it)"
+  ],
+  "node_modules": [
+    {
+      "path": "/Users/cam/.codex/worktrees/7fb1/Hardware Specs/.library/browser-capture/node_modules",
+      "installed_manager": "unknown",
+      "kib": 0,
+      "git_root": "/Users/cam/.codex/worktrees/7fb1/Hardware Specs",
+      "manifest_name": null
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/closeout-skill-20260913/echo-forge/node_modules",
+      "installed_manager": "npm",
+      "kib": 192844,
+      "git_root": "/Users/cam/.codex/worktrees/closeout-skill-20260913/echo-forge",
+      "manifest_name": "echo-forge",
+      "baseline_included": true
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/echo-forge/node_modules",
+      "installed_manager": "npm",
+      "kib": 192848,
+      "git_root": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/echo-forge",
+      "manifest_name": "echo-forge",
+      "baseline_included": true
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 312264,
+      "git_root": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 36,
+      "git_root": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 8,
+      "git_root": "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 312232,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 8,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-astra-20260905/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 32,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 8,
+      "git_root": "/Users/cam/.codex/worktrees/gpt6-sol-luna-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/grok47-eval-20260922/echo-forge/node_modules",
+      "installed_manager": "npm",
+      "kib": 192744,
+      "git_root": "/Users/cam/.codex/worktrees/grok47-eval-20260922/echo-forge",
+      "manifest_name": "echo-forge",
+      "baseline_included": true
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/grok47-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 32,
+      "git_root": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 8,
+      "git_root": "/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 6804,
+      "git_root": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/jev-dossier-consumer-prep-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 312276,
+      "git_root": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/jev-passage-ranking-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-relative-20260921/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 312276,
+      "git_root": "/Users/cam/.codex/worktrees/jev-relative-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-relative-20260921/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-relative-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-relative-20260921/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-relative-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-relative-20260921/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-relative-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-relative-20260921/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/jev-relative-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/jev-routing-integration-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/node_modules",
+      "installed_manager": "npm",
+      "kib": 199504,
+      "git_root": "/Users/cam/.codex/worktrees/jev-sound-ranking-20260922",
+      "manifest_name": "echo-forge",
+      "baseline_included": true
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-20260920/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 312276,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-20260920",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-20260920/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-20260920",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-20260920/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-20260920",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-20260920/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-20260920",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-20260920/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-20260920",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 312276,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-closeout-20260922",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/jev-storybook-links-20260921",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/mimo26-eval-20260922/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 20,
+      "git_root": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 4,
+      "git_root": "/Users/cam/.codex/worktrees/opus55-eval-20260926/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/pnpm-migration-20260927/echo-forge/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 325596,
+      "git_root": "/Users/cam/.codex/worktrees/pnpm-migration-20260927/echo-forge",
+      "manifest_name": "echo-forge"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350912,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 36,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 6804,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 8,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-improvement-loop/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-story-161-adr024/.storybook-release-evidence/story162-browser-session/run-145c440-story160/home/Library/pnpm/.tools/pnpm/9.15.4/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 18608,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-story-161-adr024",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-story-161-adr024/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 350936,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-story-161-adr024",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-story-161-adr024/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 40,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-story-161-adr024",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-story-161-adr024/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-story-161-adr024",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-story-161-adr024/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 6804,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-story-161-adr024",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/storybook-story-161-adr024/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 8,
+      "git_root": "/Users/cam/.codex/worktrees/storybook-story-161-adr024",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/node_modules",
+      "installed_manager": "pnpm",
+      "kib": 346192,
+      "git_root": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/packages/backend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 28,
+      "git_root": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/packages/db/node_modules",
+      "installed_manager": "unknown",
+      "kib": 16,
+      "git_root": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/packages/frontend/node_modules",
+      "installed_manager": "unknown",
+      "kib": 6808,
+      "git_root": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/packages/shared/node_modules",
+      "installed_manager": "unknown",
+      "kib": 8,
+      "git_root": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "manifest_name": "storybook"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/aliexpress-capture/node_modules",
+      "installed_manager": "npm",
+      "kib": 26620,
+      "git_root": "/Users/cam/Documents/Projects/aliexpress-capture",
+      "manifest_name": "hardware-capture"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/node_modules",
+      "installed_manager": "npm",
+      "kib": 267636,
+      "git_root": "/Users/cam/Documents/Projects/cine-forge",
+      "manifest_name": null
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/node_modules",
+      "installed_manager": "npm",
+      "kib": 199616,
+      "git_root": "/Users/cam/Documents/Projects/echo-forge",
+      "manifest_name": "echo-forge",
+      "baseline_included": true
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/rpg-map-projector/node_modules",
+      "installed_manager": "npm",
+      "kib": 80968,
+      "git_root": "/Users/cam/Documents/Projects/rpg-map-projector",
+      "manifest_name": "rpg-map-projector"
+    }
+  ],
+  "walk_error_count": 0,
+  "du_error_count": 0,
+  "marker_error_count": 0,
+  "walk_errors": [],
+  "du_errors": [],
+  "marker_errors": [],
+  "totals_kib_by_manager": {
+    "unknown": 28208,
+    "npm": 1352780,
+    "pnpm": 6073140
+  },
+  "total_kib": 7454128,
+  "baseline_excludes_new_migration_worktrees": [
+    "/Users/cam/.codex/worktrees/pnpm-migration-20260927"
+  ],
+  "baseline_node_modules_count": 95,
+  "baseline_totals_kib_by_manager": {
+    "unknown": 28208,
+    "npm": 1352780,
+    "pnpm": 5747544
+  },
+  "baseline_total_kib": 7128532,
+  "cache_and_store": {
+    "npm_cache_path": "/Users/cam/.npm",
+    "npm_cache_kib": 763736,
+    "pnpm_store_path": "/Users/cam/Library/pnpm/store",
+    "pnpm_store_kib": 1336608,
+    "pnpm_store_versions": {
+      "v3_kib": 303792,
+      "v10_kib": 1032816,
+      "v9_directory": "absent"
+    },
+    "pnpm_cli_version": "10.5.2"
+  },
+  "target_families": {
+    "cine-forge": {
+      "npm_roots": 1,
+      "identical_content_repeat_bytes_across_distinct_roots": 0
+    },
+    "echo-forge": {
+      "npm_roots": 5,
+      "paths": [
+        "/Users/cam/Documents/Projects/echo-forge/node_modules",
+        "/Users/cam/.codex/worktrees/jev-sound-ranking-20260922/node_modules",
+        "/Users/cam/.codex/worktrees/deepseek-v41-flash-20260912/echo-forge/node_modules",
+        "/Users/cam/.codex/worktrees/closeout-skill-20260913/echo-forge/node_modules",
+        "/Users/cam/.codex/worktrees/grok47-eval-20260922/echo-forge/node_modules"
+      ],
+      "npm_install_du_kib": 977556,
+      "npm_install_du_mib": 954.64,
+      "regular_file_bytes_across_roots": 835414524,
+      "duplicate_content_bytes": 657179134,
+      "duplicate_content_mib": 626.7348613739014,
+      "method": "regular file sha256/size multiset, sum counts across roots less largest count in any one root; symlinks excluded"
+    },
+    "aliexpress-capture": {
+      "npm_roots": 1,
+      "kib": 26620,
+      "manifest_name": "hardware-capture"
+    },
+    "canmore-town-council": {
+      "npm_roots": 0,
+      "note": "no matching node_modules found in full Projects and Codex worktrees scan"
+    },
+    "rpg-map-projector": {
+      "npm_roots": 1,
+      "kib": 80968
+    }
+  },
+  "duplicate_content_method": "For echo-forge, SHA-256 and file-size multiset across the five package-identity roots; sum identical file instances across roots beyond largest multiplicity in one root. Symlinks excluded.",
+  "prior_echo_duplicate_estimate_status": "Superseded: earlier 237.47 MiB calculation was an erroneous ad hoc result; use corrected direct five-root inventory at /tmp/pnpm-parent-content-check.json."
+}

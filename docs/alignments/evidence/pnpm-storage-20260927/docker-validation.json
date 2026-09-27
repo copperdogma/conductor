@@ -1,0 +1,15 @@
+{
+  "cine_forge": {
+    "command": "docker build --target frontend -t pnpm-cineforge-validation:20260927 .",
+    "result": "passed",
+    "image": "sha256:a611b306e91540a6cb162d2c807853eb18072a0004ab8491ab2937d666795720",
+    "scope": "changed frontend build stage; unchanged Python runtime not rebuilt"
+  },
+  "echo_forge": {
+    "command": "docker build -t pnpm-echoforge-validation:20260927 .",
+    "result": "passed",
+    "image": "sha256:b60f2a6c0fc25017e6904ad36a8f381f8f87160aea01993b0796ff15c99bfb1c",
+    "preflight": "pnpm run deploy:preflight passed; private local source copied only into ignored private asset path",
+    "smoke": "HTTP200 root, manifest, ptt health and private spell asset; no provider calls"
+  }
+}

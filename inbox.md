@@ -316,3 +316,10 @@ explicit rejections.
   default changes. Approved closeout landed all five owner commits on remote
   main; validation blockers resolved offline and evidence preserved. Scout075
   records exact commits, checks, billing uncertainty and retained worktrees.
+
+- 2026-09-27: Research npm versus pnpm disk use and implement where justified.
+  [Alignment 048](docs/alignments/align-048-pnpm-dependency-storage.md) records
+  ~1.29 GiB npm footprint and ~626.7 MiB repeated Echo Forge content (not a
+  physical-reclaim promise). Approved close-out resolved validation blockers and
+  landed CineForge `f4a0dec` and Echo Forge `ef6bb1e` on verified remote main.
+  Existing primary installs remain intact; no old-install cleanup performed.
