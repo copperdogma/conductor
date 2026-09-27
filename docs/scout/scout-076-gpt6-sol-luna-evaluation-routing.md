@@ -1,7 +1,7 @@
 # Scout 076 — GPT-6 Sol and Luna evaluation routing
 
 Date: 2026-09-26
-Status: Evaluation and implementation work complete; Storybook deployed; two billing exceptions remain unresolved.
+Status: Closed by Cam on 2026-09-27; delivered work complete, billing uncertainty retained as a documented exception.
 
 ## Current recommendation
 
@@ -1018,3 +1018,14 @@ Conductor validation: reviewed task-specific skill changes and owner receipts,
 current, scoped staged diff check. Existing owner runtime test evidence is
 retained rather than replaying paid evaluations. Dirty primary checkouts remain
 untouched; task worktrees and raw artifacts are retained.
+
+
+### User-approved campaign closure — 2026-09-27
+
+Cam approved closing the campaign with the two billing uncertainties documented.
+Exact charge reconciliation is no longer a completion requirement. This does
+not establish the actual charges, certify historical cap compliance, or authorize
+additional spending. Evaluation, implementation, deployment and the efficiency
+review are complete within the recorded scope. No additional provider calls,
+billing investigation or sign-in are required for this campaign. Remaining
+workflow optimization recommendations are separate future work.
