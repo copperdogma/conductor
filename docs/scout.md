@@ -14,6 +14,8 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-28` — [Scout 078 — Sonnet 5.5 Quality Follow-through](./scout/scout-078-sonnet55-quality-campaign.md) — Complete: retain existing choices across five owners. Known spend USD1.11009962, conservative exposure USD1.68073962/17.50. Dossier savings carry a minor completeness gap; Doc Web crop/OCR, CineForge frames, Storybook persona and Echo intent did not justify replacement. Operational failures/source repairs retained; scoped records and repairs landed on all five owner main branches. No defaults changed.
+
 - `2026-09-27` — [Scout 077 — GPT-6 image rerun](./scout/scout-077-gpt6-image-rerun.md) — Complete: Luna retains the CineForge inspected-frame value win; Sol leads Doc Web detector quality, but runtime crops/page safety remain unqualified. Retain Storybook Gemini photo/OCR. USD0.944566325/5 across122paid calls, no unresolved reservations or production changes.
 
 - `2026-09-26` — [Scout 076 — GPT-6 Sol and Luna Evaluation Routing](./scout/scout-076-gpt6-sol-luna-evaluation-routing.md) — Closed by Cam on 2026-09-27 with billing uncertainty documented. Task-specific Luna wins in Storybook persona and CineForge inspected frame analysis; retain Gemini in Echo, photo/OCR and Doc Web runtime. Planned evaluation/qualificationUSD3.784318290; accidental Dossier validation hasUSD11.039940 conservative unresolved exposure, with possible cap overrun. Storybook smoke adds unquantified exposure. Owner landings, Storybook v29 deployment and Dossier opt-in library pilot completed and tracked with an [efficiency review](./scout/scout-076-evaluation-efficiency-review.md).

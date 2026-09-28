@@ -6,6 +6,17 @@ explicit rejections.
 
 ## General
 
+- 2026-09-28: Evaluate Sonnet 5.5. Cam selected all five bounded owner quality
+  lanes in [Scout078](docs/scout/scout-078-sonnet55-quality-campaign.md), with
+  USD17.50 combined ceiling. Dossier namesakes, Doc Web crop/safety plus public
+  handwriting, CineForge ordered frames, Storybook persona, Echo control intent.
+  Existing tiny Dossier access proof retained; no implicit runtime adoption or landing.
+  Completed: retain existing owner choices; known spendUSD1.11009962 and maximum
+  exposureUSD1.68073962/17.50. Scoped adapter/scorer/stop repairs and original
+  failures retained. Cam approved closeout: scoped records and repairs now
+  landed on verified remote main in all five owners, linked from Scout078.
+  No defaults or deployments changed; no further inference during closeout.
+
 - 2026-09-27: Fresh Sol/Luna image-task rerun requested after OpenAI image-encoding fix. [Scout077](docs/scout/scout-077-gpt6-image-rerun.md) records completed Doc Web, CineForge and Storybook comparisons: Luna inspected-frame value win, Sol detector-quality lead, no photo/OCR or crop-runtime replacement. USD0.944566325/5, zero unresolved reservations. Scoped owner evidence/harness changes landed on verified remote main; previous text results and closed billing remain unchanged.
 
 - 2026-09-26: Evaluate GPT-6 Sol and GPT-6 Luna. [Scout076](docs/scout/scout-076-gpt6-sol-luna-evaluation-routing.md)
