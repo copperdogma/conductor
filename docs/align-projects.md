@@ -190,3 +190,7 @@ Use this index to track internal cross-project alignment work.
   reruns, restores doc-web's hand-authored goldens as its authoritative
   benchmark, and records per-surface SOTA conclusions after paid owner-repo
   comparisons.
+
+- `2026-09-28` — [Alignment 049 — Dossier Sonnet 5.5 access](./alignments/align-049-dossier-sonnet55-access.md)
+  User-selected Story174 replacement: one successful exact-model synthetic tool
+  probe, USD0.001334; legacy test/benchmark migration only, no runtime adoption.
