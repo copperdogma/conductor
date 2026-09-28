@@ -6,6 +6,8 @@ explicit rejections.
 
 ## General
 
+- 2026-09-27: Fresh Sol/Luna image-task rerun requested after OpenAI image-encoding fix. [Scout077](docs/scout/scout-077-gpt6-image-rerun.md) records completed Doc Web, CineForge and Storybook comparisons: Luna inspected-frame value win, Sol detector-quality lead, no photo/OCR or crop-runtime replacement. USD0.944566325/5, zero unresolved reservations. Scoped owner evidence/harness changes landed on verified remote main; previous text results and closed billing remain unchanged.
+
 - 2026-09-26: Evaluate GPT-6 Sol and GPT-6 Luna. [Scout076](docs/scout/scout-076-gpt6-sol-luna-evaluation-routing.md)
   records completed decisions across five owners, recovered operational defects
   and mixed-model checks. Luna wins Storybook persona and CineForge inspected
