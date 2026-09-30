@@ -2,6 +2,8 @@
 
 Use this index to track external sources investigated for cross-project value.
 
+- `2026-09-30` — [Scout 081 — Additional Jev Decision Seams](./scout/scout-081-jev-additional-decision-seams.md) — Complete: seven-owner audit, approved Echo studies and deterministic repairs. NO-GO normal/default Jev use; local useful proposals improve3→4/7 versus Jev2/7,14/16review. CumulativeUSD.003283266; default off.
+
 - `2026-09-13` — [Scout 070 — DeepSeek V4.1 Flash Evaluation Routing](./scout/scout-070-deepseek-v41-flash-evaluation-routing.md) — Complete: Doc Web crop rejection, Echo Forge and Storybook operational rejections. Retry automation paused. Reported spend $0.004547568; maximum with unreconciled exposure $0.028540368 / $0.90. No defaults changed.
 
 ## Status guide

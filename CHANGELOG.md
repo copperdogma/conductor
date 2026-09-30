@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-09-30-01] - Close additional Jev decision audit
+
+### Added
+- Recorded Scout081 across seven owners, including the completed Echo Forge scene-intent comparison and verified Story076–078 landing at69dc6a8.
+
+### Changed
+- Keep normal/default Jev scene intent off:14/16 review cases and2/7 useful proposals. Landed local target repair improves3/7 to4/7 without further provider spend or deployment.
+
 ## [2026-09-13-03] - Consolidate close-out skills
 
 ### Changed

@@ -6,6 +6,13 @@ explicit rejections.
 
 ## General
 
+- 2026-09-30: Additional Jev-seam audit and approved Echo follow-through complete;
+  [Scout081](docs/scout/scout-081-jev-additional-decision-seams.md). Frozen component
+  study:57calls,USD.002316762. Full proposal trial:16calls,freshUSD.000966504,total
+  USD.003283266. Deterministic repair improves local positives3→4/7 while Jev stays
+  2/7 with14/16review: NO-GO normal/default use; keep local Search. Owner076–078
+  landing authorized; other repo seams remain recommendations.
+
 - 2026-09-29: Thinking-level coverage audit found mainly one setting per owner
   task, with Dossier Sol6.1 the meaningful multi-level exception. Cam selected
   all three [Scout080 comparisons](docs/scout/scout-080-thinking-level-coverage.md):
