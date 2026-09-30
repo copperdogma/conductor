@@ -1,6 +1,6 @@
 # Scout 080 — Thinking-level coverage and selected comparisons
 
-Date: 2026-09-29. Status: complete; isolated owner evidence verified, uncommitted/unlanded.
+Date: 2026-09-29; scoped closeout2026-09-30. Status: complete; owner changes landed on verified remote main branches.
 
 ## Question and audit
 
@@ -544,3 +544,26 @@ offline enforcement only; synthetic authority, explicit operator completeness
 and deferred live/model-default qualification remain clear. No API calls,
 commits, push or rollout. A separately authorized finish-and-push is the next
 close-out action if Cam wants these changes landed.
+
+
+## Scoped landing — 2026-09-30
+
+Cam approved finish-and-push after Story241 formal closure. All owner candidates
+were preflighted before landing; no unrelated primary edits were staged or
+synchronized. Current Conductor main already assigns Scout079 to the prior
+GPT6.1/Dossier campaign, so this thinking-level record lands as **Scout080**.
+The older isolated/local Scout079 filename is retained as historical source;
+only this integrated record and its index/ledger/inbox links are renumbered.
+
+| Owner | Verified remote-main commit | Scope and checks |
+| --- | --- | --- |
+| Doc Web | `0a19e2d89a73eda4be1faf15ad96707b26a7ceba` | Story240/Attempts047–048 evidence and Story241 offline review gate;198 reviewed files.208 tests reused against10 exact inputs,10 fresh guard tests, lint/graph/syntax;258 reconstructed receipt files byte-equal. |
+| Echo Forge | `7ab91978b4048118aab0051832d1f462ff7dca13` | Thinking-level intent artifacts/tooling/owner records;10 reviewed files.10 focused tests and145-receipt postcommit replay pass. Replay checks recorded original eval base rather than treating a new landing HEAD as source drift. |
+| Storybook | `e1a52206720cfdf6b9836a07b4084e1e84054563` | Attempt176 artifacts, eval runner, registry, Story169 evaluation appendix and changelog. Integrated current main;4 focused tests, lint/privacy/methodology/native73-call evidence checks pass. Current production wording drift is separate from frozen historical parity; fresh paid-preflight still fails closed. |
+
+Execution branches and remote main were pushed normally and independently
+verified. Conductor's four-file integration preserves current Dossier/default
+records and unrelated dirty primary captures; lint and links pass. No new paid
+calls, runtime-default changes, deployment or cleanup occurred. Worktrees and
+branches are retained. Story241 remains Done; live Sol classification and
+automatic uncertainty-qualified promotion remain outside this closeout.

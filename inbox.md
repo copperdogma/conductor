@@ -39,7 +39,9 @@ explicit rejections.
   source/crop/HTML inspection qualify offline enforcement; all fixture approvals
   are synthetic. Cam approved formal validation/closure; all six criteria Met, no material
   findings, Story241 Done with208 hash-verified applicable tests and driver
-  evidence. Zero API calls; defaults and landing unchanged.
+  evidence. Zero API calls; defaults unchanged. Cam approved finish-and-push;
+  scoped owner changes landed in Doc Web, Echo Forge and Storybook, with
+  verified commits recorded in Scout080. Primary unrelated captures preserved.
 
 - 2026-09-29: Evaluate GPT-6.1 Sol. [Scout079](docs/scout/scout-079-gpt61-sol-evaluation-routing.md)
   Cam selected all five owner comparisons with USD28.50 maximum. Measured

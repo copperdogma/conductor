@@ -96,7 +96,9 @@ proofs and source/artifact inspection. This qualifies deterministic enforcement
 only: fixture authority is synthetic, no live Sol classification or model/default
 promotion. Cam approved formal validation/closure: all six criteria Met,
 Story241 Done,208 applicable tests and real driver evidence hash-verified;
-zero API spend, commits or landing.
+zero API spend or default adoption. Sept30 authorized scoped closeout landed
+owner evaluation/review changes on Doc Web, Echo Forge and Storybook remote
+main; exact commits and checks recorded in Scout080.
 
 ## Ledger
 
