@@ -567,3 +567,135 @@ records and unrelated dirty primary captures; lint and links pass. No new paid
 calls, runtime-default changes, deployment or cleanup occurred. Worktrees and
 branches are retained. Story241 remains Done; live Sol classification and
 automatic uncertainty-qualified promotion remain outside this closeout.
+
+## Approved Sol runtime integration — 2026-09-30
+
+Cam approved adding the measured `gpt-6.1-sol` / `medium` two-image crop-safety
+check after cropping and connecting it to the existing all-candidate review
+gate. This is implementation and offline verification, with **zero provider
+calls**. The recommendation is to make Sol usable as an advisory safety stage,
+then qualify it with a separately approved bounded public pilot; the known
+uncertain-grouping pass does not support automatic release.
+
+Owner work continues in the dedicated Doc Web worktree from landed
+`0a19e2d89a73eda4be1faf15ad96707b26a7ceba`. Existing defaults and detection
+remain unchanged. Runtime implementation, native-contract checks, custody
+preparation, explicit human review, and driver proof belong to the owner.
+No commits, pushes, paid pilot, or default activation are authorized by this
+approval. Implementation and verification results will be appended when proved.
+
+## Sol runtime integration implemented and verified offline — 2026-09-30
+
+Owner [Story242](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/docs/stories/story-242-sol-crop-safety-review-integration.md)
+now implements the new opt-in Sol medium native proposal stage, source/crop
+custody preparation, pending full-page display, explicit operator setup and
+review finalization, and native receipt validation at release/build. Guided
+crop metadata names the actual source used, including high-resolution overrides;
+detector/model settings and standard recipes remain unchanged. Both model pass
+and fail remain proposals requiring human review.
+
+The coordinator independently verified exact request068 parity against the
+measured prompt/schema/settings and image-URI hashes. Live transport adds an
+explicit Standard service tier to keep the disclosed reservation valid. Offline
+replay never reads credentials or dispatches inference. Native identity,
+terminal status, schema or usage errors hold; single-send caps retain unknown
+exposure and a run anchor prevents resetting the same paid identity by moving
+custody. Two concrete output/custody alias findings were fixed before the final
+independent review returned no material findings.
+
+342 focused tests and whole-repo lint pass. Fresh real driver runs
+`story242-final-approved`, `story242-final-held` and `story242-final-error`
+respectively produce an inspected chapter, zero released crops/no publication,
+and a stop at the incomplete native proposal. The approved chapter preserves
+S3/S4 exact bytes and the third text-only page; the pending review display shows
+all source pages, including zero-candidate pages. Test authority is explicitly
+synthetic. [Coordinator review and screenshots](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/docs/evals/evidence/story242-crop-safety/coordinator-review.md)
+record source/artifact inspection and its limits.
+
+**Recommendation:** run the prepared two-case public synthetic live smoke at
+US$0.50 maximum/two attempts, no retries/fallback, then obtain actual operator
+review before release. It qualifies this new live adapter, not unseen scan
+quality or autonomous publication; the broader fresh24 source-quality plan
+remains distinct. This step made the usable runtime integration concrete; no
+paid pilot, default activation, commit or push has occurred in Story242.
+
+Formal offline validation is complete and Story242 is Done: all six acceptance
+criteria met, no remaining material findings. The owner graph was compiled and
+checked; frozen inputs, historical/default files, protected paid ledgers and
+proof archive hashes were independently verified. See the
+[formal validation](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/docs/evals/evidence/story242-crop-safety/formal-validation.md).
+
+## Live pilot approved — 2026-09-30
+
+Cam approved the recommended two-case public synthetic pilot and asked to take
+the remaining work to completion. Execution is limited to S3/S4 under fresh
+`story242-public-sol-pilot-001` custody, inclusive US$0.50 and maximum two
+attempts, with no extra probe, retry or fallback. Fresh receipts and the held
+operator review package will be recorded below after verification. This approval
+does not assert source completeness or crop acceptance on Cam's behalf.
+
+## Live adapter pilot completed — 2026-09-30
+
+The new runtime made exactly two native requests under the approved identity;
+both completed on `gpt-6.1-sol` at medium effort and Standard tier with strict
+valid outputs. S3 passed as a complete connected paired-panel illustration;
+S4 passed with integral badge lettering distinguished from the excluded page
+caption. Latencies were4.876s and3.145s. Usage-based settlement upper bound is
+**US$0.013025 / US$0.50**, unknown exposure0, two attempts / maximum2. Native
+cache-write details permit a separate calculated estimateUS$0.013022; neither
+number asserts account-level billing. No retry, fallback or extra access probe
+was sent.
+
+This qualifies the implemented live adapter on the two exposed public fixtures.
+It does not expand held-out quality evidence or authorize automatic publication.
+Fresh custody retains all three source pages and remains incomplete/unapproved
+until real operator review. The concrete source/crop review and scoped landing
+approval were presented to Cam; pending approval is not an operator assertion.
+[Pilot source review](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/docs/evals/evidence/story242-public-sol-pilot-001/pending-source-review.html).
+
+[Owner Attempt049](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/docs/evals/attempts/049-sol-native-public-smoke.md)
+records native usage, pricing, scope and the portable proof. Independent review
+confirmed both exact request bodies, completed envelopes, candidate bindings,
+durable run anchor and settlement; source review remained held as intended.
+The existing release module was also exercised against these fresh live
+proposals without authority: it emitted `hold_publication`, two held candidates,
+zero released crops and no deletion authorization. No publication was produced.
+
+## Operator approval and landing authorized — 2026-09-30
+
+Cam replied `yes` to the concrete request confirming both current S3/S4 crops
+and the complete three-page source inventory, and explicitly authorizing
+commits/pushes for the reviewed Doc Web and Conductor changes. This is actual
+trusted local operator approval recorded from the conversation, distinct from
+earlier synthetic assertions and the preapproval held evidence. Complete the
+approved local release/build proof and land the scoped changes; no further
+provider calls or automatic default promotion are included.
+
+The fresh deterministic approved driver completed all four stages at
+`story242-public-sol-pilot-001/approved-driver/story242-public-sol-pilot-001`.
+The coordinator verified non-synthetic Cam authority, exact complete three-page
+inventory, two hash-bound current-crop approvals and a release receipt for two
+candidates. The resulting chapter contains each approved crop exactly once with
+byte-identical primary images. The paid ledger still contains exactly two calls.
+An initial recipe preflight failure is preserved separately; the successful
+recipe loads the reviewed metadata bytes without JSONL restamping. The source
+gate was retained. [Approved chapter](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/output/runs/story242-public-sol-pilot-001/approved-driver/story242-public-sol-pilot-001/output/html/chapter-001.html).
+
+## Integration landed — 2026-09-30
+
+Doc Web's72-file scoped integration/evidence commit
+`92b5b6b1bfbc7c8eb07d59ff6e2423db6be67019` was pushed to its execution branch
+and fast-forwarded onto remote main; the coordinator verified the exact remote
+main SHA. The71 indexed file hashes plus the self-index match the committed
+candidate, and all61 postapproval archive members match retained live artifacts.
+The342-test proof remains applicable to unchanged execution/test/consumer
+inputs; actual approved/held/error driver paths and fresh live receipt/approval
+checks passed. Conductor's accompanying three-file closeout records the final
+recommendation, completed work and approval trail. Unrelated primary checkouts
+remain untouched; worktrees and ignored proof artifacts are retained.
+
+The usable result is an opt-in Sol medium crop-safety proposal pipeline with
+explicit source review, followed by enforced release/build. The approved public
+pilot completed end to end. No further work or provider calls are required for
+this integration; representative scan qualification and automatic promotion
+remain separate decisions.

@@ -100,6 +100,30 @@ zero API spend or default adoption. Sept30 authorized scoped closeout landed
 owner evaluation/review changes on Doc Web, Echo Forge and Storybook remote
 main; exact commits and checks recorded in Scout080.
 
+Sept30 follow-through: the user-approved **Sol medium runtime integration is
+implemented and verified offline** in owner Story242, now Done after formal
+validation with all six acceptance criteria met. A new opt-in native
+proposal stage feeds explicit all-candidate source review and the existing
+release/builder gate; native failures hold publication. The measured request
+and saved receipts match,342 focused tests pass, and actual driver proofs cover
+approved, unresolved, and incomplete-native paths. At the offline checkpoint,
+the implementation was uncommitted with no new inference or default activation.
+The recommended two-case public synthetic live smoke, capped at US$0.50/two
+attempts, was subsequently approved. This is runtime qualification, not new held-out
+quality evidence. [Owner implementation and evidence](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/docs/stories/story-242-sol-crop-safety-review-integration.md).
+
+The separately approved two-case public live adapter pilot subsequently
+completed: two exact Sol medium/Standard native responses, both source-valid
+passes, US$0.013025 usage settlement upper bound / US$0.50, unknown0 and no
+retries. Cam then explicitly confirmed both current crops and the complete
+three-page inventory and authorized committing/pushing Doc Web and Conductor.
+Approved release/build verification passed: actual Cam authority, complete
+three-page inventory, two exact crops published once each. Doc Web integration
+and evidence landed on verified remote main at `92b5b6b1bfbc7c8eb07d59ff6e2423db6be67019`.
+These exposed
+fixtures establish live plumbing, not fresh representative quality or default
+promotion. [Pilot review](/Users/cam/.codex/worktrees/docweb-thinking-safety-20260929/docs/evals/evidence/story242-public-sol-pilot-001/pending-source-review.html).
+
 ## Ledger
 
 This is Conductor's central deduplication index for frontier-model evaluation

@@ -42,6 +42,23 @@ explicit rejections.
   evidence. Zero API calls; defaults unchanged. Cam approved finish-and-push;
   scoped owner changes landed in Doc Web, Echo Forge and Storybook, with
   verified commits recorded in Scout080. Primary unrelated captures preserved.
+  Sept30 Cam approved the next concrete Sol medium runtime integration with
+  offline verification. Owner Story242 now implements the native adviser and
+  explicit source-review handoff;342 tests, source inspection, clean independent
+  review and actual approved/held/native-error driver proofs pass. Zero calls;
+  local changes uncommitted and defaults unchanged. Recommend the prepared
+  two-case public synthetic live smoke, US$0.50/two attempts, followed by real
+  operator review; no automatic/default promotion. Scout080 records the result.
+  Cam approved that pilot and requested remaining completion: exactly two
+  native Sol medium calls completed, both valid passes; settlement upper
+  US$0.013025/US$0.50 and unknown0. Fresh request/receipt/cap bindings passed
+  independent review. The three-page source/crop review and scoped commit/push
+  decision were presented to Cam. Cam subsequently replied yes, explicitly
+  confirming both current crops and complete three-page inventory and authorizing
+  commits/pushes in Doc Web and Conductor. The actual approved release/build
+  passed with both crops byte-identical and published once each. Integration and
+  evidence landed on verified Doc Web remote main at `92b5b6b`; Conductor's
+  scoped completion record accompanies this closeout. No additional provider calls.
 
 - 2026-09-29: Evaluate GPT-6.1 Sol. [Scout079](docs/scout/scout-079-gpt61-sol-evaluation-routing.md)
   Cam selected all five owner comparisons with USD28.50 maximum. Measured
