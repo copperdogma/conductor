@@ -14,6 +14,12 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-29` — [Scout 079 — Dossier broader acceptance](./scout/scout-079-dossier-broader-acceptance.md) — Complete: medium11/11 cases,16/16 snapshots accepted. Sol medium long is Dossier's direct semantic default; explicit Astra profiles remain. 2595 unit and60 focused checks, lint and methodology pass. KnownUSD20.227699; conservativeUSD22.210424/25, old timeout retained. No new closeout charges or consumer deployment.
+
+- `2026-09-29` — [Scout 079 — Dossier reasoning-effort plan](./scout/scout-079-dossier-promotion-plan.md) — Historical low/medium/high calibration and candidate-history confirmation; later broader low rejection and medium qualification led to the selected medium default. Final owner landing recorded in broader acceptance.
+
+- `2026-09-29` — [Scout 079 — GPT-6.1 Sol evaluation routing](./scout/scout-079-gpt61-sol-evaluation-routing.md) — Five owner comparisons and scoped closeout complete. Dossier selects Sol medium; safety/OCR/persona/intent choices remain. Initial campaignUSD1.17446772/28.50, unknown0; owner remote-main commits recorded.
+
 - `2026-09-28` — [Scout 078 — Sonnet 5.5 Quality Follow-through](./scout/scout-078-sonnet55-quality-campaign.md) — Complete: retain existing choices across five owners. Known spend USD1.11009962, conservative exposure USD1.68073962/17.50. Dossier savings carry a minor completeness gap; Doc Web crop/OCR, CineForge frames, Storybook persona and Echo intent did not justify replacement. Operational failures/source repairs retained; scoped records and repairs landed on all five owner main branches. No defaults changed.
 
 - `2026-09-27` — [Scout 077 — GPT-6 image rerun](./scout/scout-077-gpt6-image-rerun.md) — Complete: Luna retains the CineForge inspected-frame value win; Sol leads Doc Web detector quality, but runtime crops/page safety remain unqualified. Retain Storybook Gemini photo/OCR. USD0.944566325/5 across122paid calls, no unresolved reservations or production changes.

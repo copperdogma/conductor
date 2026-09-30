@@ -6,6 +6,61 @@ explicit rejections.
 
 ## General
 
+- 2026-09-29: Evaluate GPT-6.1 Sol. [Scout079](docs/scout/scout-079-gpt61-sol-evaluation-routing.md)
+  Cam selected all five owner comparisons with USD28.50 maximum. Measured
+  leads: Dossier namesakes value and Doc Web detector; CineForge narrow quality
+  reference improves but remains below gate. Retain existing safety/OCR/persona/
+  intent choices. Paid work finished atUSD1.17446772, unknown exposure0;
+  all owner evidence validation complete. No defaults or landing.
+  Follow-up: Cam approved preparing a Dossier promotion plan with thinking-level
+  value checks. [Prepared plan](docs/scout/scout-079-dossier-promotion-plan.md)
+  proposes low/medium/high calibration plus new candidate-history confirmation,
+  USD25 maximum; selected follow-up found low the value winner:4/4 confirmation
+  snapshots vs Astra3/4. USD1.990351 spent, zero unknown; owner validation complete, no defaults or landing.
+  Cam approved [broader acceptance preparation](docs/scout/scout-079-dossier-broader-acceptance.md):
+  all 11 maintained non-scale synthetic cases, low versus fresh Astra medium.
+  Zero-call review proof complete; USD85 worst-case proposal withdrawn after Cam challenged the cost.
+  Cam approved running the full comparison with staged reservations under existing USD25 cumulative ceiling.
+  Completed 16 snapshots/11 cases per arm: Sol low10/11 accepted complete cases,
+  one confirmed material dialogue-attribution error; Astra11/11 under material
+  gate, with one disputed minor caption-layout rating. Retain Astra; no defaults.
+  Cumulative confirmedUSD14.727474, maximumUSD16.710199/25 including retained
+  timeout exposureUSD1.982725. Medium/high broader quality remains unmeasured.
+  Cam subsequently selected the USD1 medium/high attribution screen:
+  one dramatic-scene snapshot each for Sol medium/high and fresh Astra medium,
+  with independent source review; separate artifacts, prior exposure retained.
+  Screen complete: all three arms source-acceptable; mediumUSD0.027758/32.806s,
+  highUSD0.043808/66.966s, fresh AstraUSD0.131940/36.395s. Carry medium into
+  separately selected broader qualification, no default change. New all-provider
+  spendUSD0.451726/1, cumulative knownUSD15.179200 and maximumUSD17.161925/25.
+  Cam selected broader medium qualification: ten remaining synthetic non-scale
+  cases/15 new snapshots, reuse the passing medium scene and reviewed Astra
+  historical baseline. Incremental ceilingUSD7.50, also within cumulativeUSD25;
+  stop on confirmed source-backed failure, no default or integration selected.
+
+  Historical broader medium qualification completed: 11/11 cases and 16/16 snapshots
+  accepted with zero defects (15 fresh + one verified scene reuse). Incremental
+  USD5.048499/7.50; cumulative known USD20.227699, conservative USD22.210424/25
+  retaining old Astra timeout maximum. Prepare runtime parity/integration next;
+  defaults unchanged, historical Astra baseline only.
+  Cam selected preparing and testing opt-in Sol-medium runtime integration for
+  review, preserving Astra default; isolated owner implementation, no paid calls
+  or landing selected.
+  The opt-in implementation stage was later superseded by Cam's selected
+  promotion of Dossier's default to Sol medium. Omitting `capacity_profile`
+  selects `sol_medium_long`: exact Sol medium, foreground, 32768 output tokens,
+  30000 request bytes and 420 seconds. Explicit Astra profiles remain available;
+  there is no fallback. Prompt/graph schema/compiler are unchanged. Contract v4
+  requires consumer pin renewal. 2595 unit and 60 focused tests passed, as did
+  lint and methodology checks. The full suite retains unrelated legacy failures;
+  Gemini default-evidence mismatch remains. No provider calls or consumer updates;
+  owner change is verified and landed on Dossier remote main. Campaign known spend and
+  conservative exposure remain USD20.227699 and USD22.210424/25.
+
+  Final closeout: selected Dossier default and all five owner records are checked
+  in and verified on remote main. Conductor records close this capture; no deployment
+  or consuming-repo pin update was selected. No paid calls during closeout.
+
 - 2026-09-28: Evaluate Sonnet 5.5. Cam selected all five bounded owner quality
   lanes in [Scout078](docs/scout/scout-078-sonnet55-quality-campaign.md), with
   USD17.50 combined ceiling. Dossier namesakes, Doc Web crop/safety plus public
