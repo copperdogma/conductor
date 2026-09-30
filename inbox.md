@@ -6,6 +6,41 @@ explicit rejections.
 
 ## General
 
+- 2026-09-29: Thinking-level coverage audit found mainly one setting per owner
+  task, with Dossier Sol6.1 the meaningful multi-level exception. Cam selected
+  all three [Scout080 comparisons](docs/scout/scout-080-thinking-level-coverage.md):
+  Echo intent USD3, Storybook persona USD2, Doc Web page safety USD14;
+  USD19 total, no runtime defaults or landing. Measured: Echo medium improves
+  Luna intent false activations (2 vs4) with preserved19/19 recall, but Gemini
+  remains stronger39/42 vs38; Storybook low/none source12/12 tie, keep none;
+  Doc Web medium arms and fresh control false-safe, review contradictory prompt.
+  Complete atUSD0.40224176, unknown0; owner evidence/receipts verified,
+  no defaults or landing. Cam approved source-backed Doc Web safety-contract
+  repair prepared for review, without paid reruns; offline rendering/checks pass,
+  historical receipts preserved, model behavior remains unmeasured.
+  Revised-contract evaluation plan prepared: USD18 inclusive cap proposed,
+  three exact selected configurations, progressive screen/full22/fresh synthetic
+  confirmation. Cam approved execution under USD18: all three arms pass6/6 screens, but
+  full22/fresh6 are unmeasured because owner OpenAI credits exhausted.
+  Sept30 credits-restored continuation complete: Sol source-adjudicated22/22,
+  fresh physical5/5 but uncertainty-policy0/1; strongest safety candidate,
+  defer automatic promotion. Luna/control valid false-reject stops preserved.
+  Two source-confirmed golden defects repaired transparently; frozen scores exact.
+  Attempt048 total71attempts: settledUSD0.916739025 plus unknownUSD0.023394
+  reserved under18; no defaults or landing. See Scout080 completed continuation.
+  Sept30 approved uncertainty-policy preparation complete: every candidate
+  requires source review; exact hash-bound decisions hold publication when
+  missing/stale/unresolved and preserve originals. Owner plan proposes a
+  zero-spend offline gate plus builder enforcement/fixture-driver tests next;
+  no implementation or further API calls in preparation. See Scout080 approved definition.
+  Cam then approved implementing the finite offline review gate, builder
+  enforcement and regression/driver tests with zero API calls; isolated owner
+  implementation build complete as Story241. Approved/held driver proofs and
+  source/crop/HTML inspection qualify offline enforcement; all fixture approvals
+  are synthetic. Cam approved formal validation/closure; all six criteria Met, no material
+  findings, Story241 Done with208 hash-verified applicable tests and driver
+  evidence. Zero API calls; defaults and landing unchanged.
+
 - 2026-09-29: Evaluate GPT-6.1 Sol. [Scout079](docs/scout/scout-079-gpt61-sol-evaluation-routing.md)
   Cam selected all five owner comparisons with USD28.50 maximum. Measured
   leads: Dossier namesakes value and Doc Web detector; CineForge narrow quality

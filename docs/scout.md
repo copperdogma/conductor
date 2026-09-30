@@ -14,6 +14,8 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-09-29` — [Scout 080 — Thinking-level coverage and selected comparisons](./scout/scout-080-thinking-level-coverage.md) — Complete: Echo Luna medium38/42 versus none37 and Gemini39; keep Gemini quality default. Storybook low/none12/12 source-reviewed tie; keep none. Doc Web medium safety arms and fresh GPT5.5 control false-safe; review contradictory safety prompt first. USD0.40224176/19, unknown0; owner evidence verified, no defaults or landing. Sept30 repaired Doc Web follow-through complete: Sol source-adjudicated22/22, fresh physical5/5 and uncertainty-policy0/1; Luna/control false-reject stops. Strongest physical-safety candidate Sol, defer automatic promotion; separate exposureUSD0.940133025/18. Sept30 offline review gate Story241 formally validated and Done:208 applicable tests, approved/held driver proof, no API calls/default changes or landing.
+
 - `2026-09-29` — [Scout 079 — Dossier broader acceptance](./scout/scout-079-dossier-broader-acceptance.md) — Complete: medium11/11 cases,16/16 snapshots accepted. Sol medium long is Dossier's direct semantic default; explicit Astra profiles remain. 2595 unit and60 focused checks, lint and methodology pass. KnownUSD20.227699; conservativeUSD22.210424/25, old timeout retained. No new closeout charges or consumer deployment.
 
 - `2026-09-29` — [Scout 079 — Dossier reasoning-effort plan](./scout/scout-079-dossier-promotion-plan.md) — Historical low/medium/high calibration and candidate-history confirmation; later broader low rejection and medium qualification led to the selected medium default. Final owner landing recorded in broader acceptance.
