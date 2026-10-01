@@ -11,6 +11,11 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-09-30` — [Alignment 050 — Loop Review Project Rollout](./alignments/align-050-loop-review-project-rollout.md)
+  Approved migration from a personal skill to project-owned copies alongside
+  `loop-verify`; ten target repos landed and verified, with the Conductor copy
+  and completion evidence in this supervisor commit. Personal copy deleted.
+
 - `2026-09-27` — [Alignment 048 — pnpm Dependency Storage](./alignments/align-048-pnpm-dependency-storage.md)
   Evidence-based disk audit and selective isolated migrations for active npm repos.
 

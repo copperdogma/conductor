@@ -1,5 +1,12 @@
 # Inbox
 
+- 2026-09-30: Cam approved moving personal `loop-review` into project-owned
+  skill surfaces wherever `loop-verify` is present, then deleting the personal
+  copy to avoid duplicates. Routed to
+  [Alignment 050](docs/alignments/align-050-loop-review-project-rollout.md).
+  All ten target repos landed and verified on remote main; this supervisor
+  commit includes the Conductor skill and rollout record. Personal folder deleted.
+
 Use this file as the capture surface for cross-project work. Notes can be raw.
 Triage is responsible for turning them into stories, scout missions, ADRs, or
 explicit rejections.

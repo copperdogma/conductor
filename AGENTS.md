@@ -83,6 +83,8 @@ Specialized loops:
 
 - `/init-project` for interview-first greenfield kickoff before setup
 - `/align-projects` for cross-project infrastructure drift
+- `/loop-review` for strategic checks of long-running work against user intent,
+  applying or handing off a proposed course correction only when authorized
 - `/scout` for external sources and adoption analysis
 - `/evaluate-model` for current model/API verification, portfolio-fit
   recommendations, reproducibility requests, evidence audits, and approved

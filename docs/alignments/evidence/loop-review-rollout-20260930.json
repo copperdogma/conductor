@@ -1,0 +1,850 @@
+{
+  "date": "2026-09-30",
+  "timezone": "America/Edmonton",
+  "authorization": "User approved project rollout and personal deletion, then replied yes to commit, push, and land all 11 scoped patches.",
+  "source": "/Users/cam/.codex/skills/loop-review",
+  "source_file_sha256": {
+    "SKILL.md": "87493f9e8696cde65fb13dc15d77d221099a8c98a97dfe96f7ae57c246d044c6",
+    "agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+  },
+  "personal_removed": true,
+  "source_verified_before_removal": true,
+  "repositories": [
+    {
+      "key": "storybook",
+      "primary": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/storybook",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "e9e588823f870897b476151fc8ab12cc5a178f8e",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md",
+        "CHANGELOG.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "90766ded41e796f452c98db83fcc0e2d780f8b36",
+      "integrated_base": "e9e588823f870897b476151fc8ab12cc5a178f8e",
+      "remote_main_head": "90766ded41e796f452c98db83fcc0e2d780f8b36",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "boardgame-ingester",
+      "primary": "/Users/cam/Documents/Projects/boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/boardgame-ingester",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "2d3b0bb1de7c429200e81ca9440de3c92220edbb",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md",
+        "CHANGELOG.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "7a677416b1418a4fd1b651536354c40134d6067c",
+      "integrated_base": "a78d8de99a766ba3bf4051ad682f05d69fea7414",
+      "remote_main_head": "7a677416b1418a4fd1b651536354c40134d6067c",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "canmore-town-council",
+      "primary": "/Users/cam/Documents/Projects/canmore-town-council",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/canmore-town-council",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "a17e92a9ab65fb6011cf92a8294da3c8868ca49b",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "e6bf3784f47e35a329de86a007e64a02f3b21a73",
+      "integrated_base": "a17e92a9ab65fb6011cf92a8294da3c8868ca49b",
+      "remote_main_head": "e6bf3784f47e35a329de86a007e64a02f3b21a73",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "cine-forge",
+      "primary": "/Users/cam/Documents/Projects/cine-forge",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/cine-forge",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "8be0fe2966d24613404763addd1948716227d272",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md",
+        "docs/build-map.md",
+        "docs/methodology/graph.json",
+        "docs/stories.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "3ba38d7a8a222ed51ca8097dfc1f2fdad2234520",
+      "integrated_base": "8be0fe2966d24613404763addd1948716227d272",
+      "remote_main_head": "3ba38d7a8a222ed51ca8097dfc1f2fdad2234520",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "conductor",
+      "primary": "/Users/cam/Documents/Projects/conductor",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/conductor",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "5dc5d930f46c2cd275f9d5a958e89677b5f7a8f3",
+      "state": "supervisor-record-in-this-commit",
+      "changed_files": [
+        "AGENTS.md",
+        "docs/align-projects.md",
+        "inbox.md",
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "docs/alignments/align-050-loop-review-project-rollout.md",
+        "docs/alignments/evidence/loop-review-rollout-20260930.json"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ]
+    },
+    {
+      "key": "doc-web",
+      "primary": "/Users/cam/Documents/Projects/doc-web",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/doc-web",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "f6352ed8b62b49b53800ad5b0345dc085dd6a479",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "b47a6def39344bac988c58b36c72614f0dac1d9e",
+      "integrated_base": "f2362ea21881b54ca0bb16f5ff7bb4b28d7e8c87",
+      "remote_main_head": "b47a6def39344bac988c58b36c72614f0dac1d9e",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "dossier",
+      "primary": "/Users/cam/Documents/Projects/dossier",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/dossier",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "811da7dadc4225d101b785aecf7d6c376beb139e",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md",
+        "CHANGELOG.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "38629be704096b3cc47563b60980d71cd0193826",
+      "integrated_base": "811da7dadc4225d101b785aecf7d6c376beb139e",
+      "remote_main_head": "38629be704096b3cc47563b60980d71cd0193826",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "echo-forge",
+      "primary": "/Users/cam/Documents/Projects/echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/echo-forge",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "69dc6a8c8c551e5d1dcbc4ccf3413cb99f792de7",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md",
+        "CHANGELOG.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "d9fdce175631e6344b7cc942e8d2729ef184a59a",
+      "integrated_base": "69dc6a8c8c551e5d1dcbc4ccf3413cb99f792de7",
+      "remote_main_head": "d9fdce175631e6344b7cc942e8d2729ef184a59a",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "ravenloft-cthulhu",
+      "primary": "/Users/cam/Documents/Projects/ravenloft-cthulhu",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/ravenloft-cthulhu",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "4421cdfdcc492907cc119ccd924cd8b937754528",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md",
+        "CHANGELOG.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "6558573405896d086ad1daa99f15c8f31cac14d9f7eb3704414320d67d8d7018",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true",
+        "required alignment preamble"
+      ],
+      "commit": "f5138b0bf3c7b5f1bbd224fed9ee43343278d162",
+      "integrated_base": "4421cdfdcc492907cc119ccd924cd8b937754528",
+      "remote_main_head": "f5138b0bf3c7b5f1bbd224fed9ee43343278d162",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "roborally",
+      "primary": "/Users/cam/Documents/Projects/roborally",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/roborally",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "deef51febe2e92d5c2d85b8a85752d377e611f65",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "99322fa379b2e62507851f3affc07b165b865783",
+      "integrated_base": "deef51febe2e92d5c2d85b8a85752d377e611f65",
+      "remote_main_head": "99322fa379b2e62507851f3affc07b165b865783",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    },
+    {
+      "key": "rpg-map-projector",
+      "primary": "/Users/cam/Documents/Projects/rpg-map-projector",
+      "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/rpg-map-projector",
+      "branch": "codex/loop-review-rollout-20260930",
+      "base": "7d628dac55d8ccb324c4ecb4a13ac005171a8fe2",
+      "state": "landed",
+      "changed_files": [
+        ".agents/skills/loop-review/SKILL.md",
+        ".agents/skills/loop-review/agents/openai.yaml",
+        "AGENTS.md"
+      ],
+      "file_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "normalized_source_match": true,
+      "metadata_yaml_valid": true,
+      "diff_check": "passed",
+      "primary_status_and_head_match_baseline": true,
+      "local_adaptations": [
+        "user-invocable: true"
+      ],
+      "commit": "fc90ecbef62f27799dc1c38021596201952869c5",
+      "integrated_base": "7d628dac55d8ccb324c4ecb4a13ac005171a8fe2",
+      "remote_main_head": "fc90ecbef62f27799dc1c38021596201952869c5",
+      "commit_verified_on_remote_main": true,
+      "execution_branch_verified": true
+    }
+  ],
+  "worker_validation": {
+    "python": {
+      "task": "loop-review skill rollout to three authorized worktrees",
+      "source": "/Users/cam/.codex/skills/loop-review",
+      "source_sha256": {
+        ".agents/skills/loop-review/SKILL.md": "87493f9e8696cde65fb13dc15d77d221099a8c98a97dfe96f7ae57c246d044c6",
+        ".agents/skills/loop-review/agents/openai.yaml": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+      },
+      "methodology_compile": "Not run: methodology inputs were unchanged; methodology consistency checks were run.",
+      "repositories": {
+        "dossier": {
+          "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/dossier",
+          "files_changed": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "commands": [
+            {
+              "cmd": "make skills-check",
+              "status": "passed",
+              "detail": "Rerun after adding user-invocable: true to the project copy; canonical skill validation and compatibility links passed."
+            },
+            {
+              "cmd": "make methodology-check",
+              "status": "passed on retry",
+              "detail": "Initial make command used worktree Python without PyYAML; retried using existing /Users/cam/Documents/Projects/dossier/.venv/bin/python scripts/methodology_graph.py check."
+            },
+            {
+              "cmd": "/Users/cam/Documents/Projects/dossier/.venv/bin/python scripts/methodology_graph.py check",
+              "status": "passed",
+              "detail": "Methodology graph is current."
+            },
+            {
+              "cmd": "git diff --check",
+              "status": "passed"
+            },
+            {
+              "cmd": "git diff --check (after authorization wording refinement)",
+              "status": "passed"
+            },
+            {
+              "cmd": "make skills-check && git diff --check",
+              "status": "passed",
+              "detail": "Final run after frontmatter metadata insertion."
+            }
+          ],
+          "warnings": [
+            "Existing methodology warnings: stories 076, 078, 081 reference non-local ADRs; ADRs 002-005 reference non-local compromise C6; legacy metadata remains on 177 stories and 11 ADRs (tool labels migration intentional)."
+          ]
+        },
+        "doc-web": {
+          "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/doc-web",
+          "files_changed": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "commands": [
+            {
+              "cmd": "make skills-check",
+              "status": "passed",
+              "detail": "Rerun after adding user-invocable: true to the project copy; canonical skill validation and compatibility links passed."
+            },
+            {
+              "cmd": "make methodology-check",
+              "status": "passed",
+              "detail": "Methodology graph is current."
+            },
+            {
+              "cmd": "git diff --check",
+              "status": "passed"
+            },
+            {
+              "cmd": "git diff --check (after authorization wording refinement)",
+              "status": "passed"
+            },
+            {
+              "cmd": "make skills-check && git diff --check",
+              "status": "passed",
+              "detail": "Final run after frontmatter metadata insertion."
+            }
+          ],
+          "warnings": []
+        },
+        "boardgame-ingester": {
+          "worktree": "/Users/cam/.codex/worktrees/loop-review-rollout-20260930/boardgame-ingester",
+          "files_changed": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "commands": [
+            {
+              "cmd": "make skills-check",
+              "status": "passed",
+              "detail": "Rerun after adding user-invocable: true to the project copy; canonical skill validation and compatibility links passed."
+            },
+            {
+              "cmd": "make methodology-check",
+              "status": "passed",
+              "detail": "Methodology graph is current."
+            },
+            {
+              "cmd": "git diff --check",
+              "status": "passed"
+            },
+            {
+              "cmd": "git diff --check (after authorization wording refinement)",
+              "status": "passed"
+            },
+            {
+              "cmd": "make skills-check && git diff --check",
+              "status": "passed",
+              "detail": "Final run after frontmatter metadata insertion."
+            }
+          ],
+          "warnings": []
+        }
+      },
+      "routing_note": "AGENTS.md guidance now preserves existing authorization and asks approval only for additional actions.",
+      "source_normalization": {
+        "personal_source_modified": false,
+        "normalization": "Insert exactly `user-invocable: true` immediately after the source description frontmatter line in each project SKILL.md copy.",
+        "normalized_skill_sha256": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+        "agents_openai_yaml_sha256": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a",
+        "comparison": "All three project SKILL.md files byte-match the source after only this metadata insertion; all agents/openai.yaml files byte-match the source; no extra skill files."
+      },
+      "blockers": []
+    },
+    "js": {
+      "task": "loop-review skill rollout",
+      "source": "/Users/cam/.codex/skills/loop-review",
+      "source_integrity": {
+        "personal_source_unchanged": true,
+        "personal_source_SKILL.md_sha256": "87493f9e8696cde65fb13dc15d77d221099a8c98a97dfe96f7ae57c246d044c6",
+        "personal_source_agents/openai.yaml_sha256": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a",
+        "project_copy_comparison": "Each project SKILL.md is byte-for-byte equal to personal source SKILL.md with exactly one metadata line inserted; agents/openai.yaml remains byte-for-byte equal to source.",
+        "inserted_line_exact": "user-invocable: true",
+        "insertion_location": "Immediately after the description frontmatter line and before the closing --- delimiter.",
+        "project_copy_SKILL.md_sha256": {
+          "storybook": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+          "cine-forge": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+          "echo-forge": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104",
+          "roborally": "311751103c5f2c0124a7bd5c807796fe3ce6e09b77bfe1d8039e2401a8a0d104"
+        },
+        "project_copy_agents/openai.yaml_sha256": {
+          "storybook": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a",
+          "cine-forge": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a",
+          "echo-forge": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a",
+          "roborally": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a"
+        }
+      },
+      "repositories": {
+        "storybook": {
+          "skill_check": {
+            "command": "bash scripts/sync-agent-skills.sh --check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "Native skill sync/check passed; compatibility links are valid."
+          },
+          "methodology_check": {
+            "command": "pnpm run methodology:check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "Methodology graph is current."
+          },
+          "diff_check": {
+            "command": "git diff --check",
+            "result": "pass",
+            "exit_code": 0
+          },
+          "changed_files": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "warnings": []
+        },
+        "cine-forge": {
+          "skill_check": {
+            "command": "make skills-check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "Native skill sync/check passed; compatibility links are valid."
+          },
+          "methodology_check": {
+            "command": "node scripts/methodology-graph.js check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "Outputs current after native build."
+          },
+          "methodology_build": {
+            "command": "node scripts/methodology-graph.js build",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "Native tool regenerated docs/methodology/graph.json, docs/stories.md, and docs/build-map.md as required by the initial stale-output check."
+          },
+          "diff_check": {
+            "command": "git diff --check",
+            "result": "pass",
+            "exit_code": 0
+          },
+          "changed_files": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml",
+            "docs/methodology/graph.json",
+            "docs/stories.md",
+            "docs/build-map.md"
+          ],
+          "warnings": [
+            "Methodology check reports open/due architecture audits in ingest_and_world_building, api_service_and_operator_console, and generation_and_visualization; UI scout last ran 2026-04-12 and is 172 days old against a 14-day cadence.",
+            "Generated docs/build-map.md and docs/stories.md date counters advanced from 2026-09-30 / 171 days to 2026-10-01 / 172 days during required regeneration."
+          ]
+        },
+        "echo-forge": {
+          "skill_check": {
+            "command": "pnpm run skills:check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "Native skill sync/check passed; compatibility links are valid."
+          },
+          "methodology_check": {
+            "command": "node scripts/methodology-graph.mjs check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "8 categories, 78 stories."
+          },
+          "diff_check": {
+            "command": "git diff --check",
+            "result": "pass",
+            "exit_code": 0
+          },
+          "changed_files": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "warnings": [
+            "Methodology reports: No Ideal requirements parsed.",
+            "pnpm noted local package.json exists but node_modules is missing; direct methodology command succeeded and no install was run."
+          ]
+        },
+        "roborally": {
+          "skill_check": {
+            "command": "npm run skills:check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "Native skill sync/check passed; compatibility links are valid."
+          },
+          "methodology_check": {
+            "command": "npm run methodology:check",
+            "result": "pass",
+            "exit_code": 0,
+            "detail": "methodology-check: OK."
+          },
+          "diff_check": {
+            "command": "git diff --check",
+            "result": "pass",
+            "exit_code": 0
+          },
+          "changed_files": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "warnings": []
+        }
+      },
+      "scope_notes": [
+        "No product tests, dependency installation, provider calls, commits, or pushes were run.",
+        "Skill checks initially identified required user-invocable metadata; with explicit approval, the exact line user-invocable: true was added after description frontmatter in each project copy only. Personal source was not changed.",
+        "Native skill checks and git diff --check now pass in all four worktrees; methodology check evidence from the prior run is reused.",
+        "CineForge required native methodology generation to make its outputs current; resulting date-counter changes and existing methodology warnings are recorded above.",
+        "All four routing bullets direct course corrections only within existing authorization."
+      ]
+    },
+    "other": {
+      "scope": "Install /Users/cam/.codex/skills/loop-review into three assigned worktrees; exact source copies and AGENTS.md routing only.",
+      "source_files": {
+        "SKILL.md_sha256": "87493f9e8696cde65fb13dc15d77d221099a8c98a97dfe96f7ae57c246d044c6",
+        "agents/openai.yaml_sha256": "149d0338f88b35e66440377bc3349b59572691e3f24880f4718d8dd539bd101a",
+        "copy_comparison": "agents/openai.yaml remains byte-identical in all repos. SKILL.md contains user-invocable: true in all copies; Ravenloft also has its mandated alignment preamble. After removing these documented local additions, each SKILL.md matches the personal source exactly."
+      },
+      "repositories": [
+        {
+          "name": "canmore-town-council",
+          "context_read": [
+            "AGENTS.md",
+            "docs/ideal.md",
+            "docs/spec.md",
+            "docs/methodology/state.yaml",
+            "docs/methodology/graph.json"
+          ],
+          "commands": [
+            {
+              "command": "make -C /Users/cam/.codex/worktrees/loop-review-rollout-20260930/canmore-town-council methodology-compile",
+              "result": "PASS; exited 0 and wrote docs/methodology/graph.json and docs/stories.md; no tracked diff remained"
+            },
+            {
+              "command": "make -C /Users/cam/.codex/worktrees/loop-review-rollout-20260930/canmore-town-council methodology-check",
+              "result": "PASS; exited 0, methodology-check: OK"
+            },
+            {
+              "command": "make skills-check",
+              "result": "PASS; 18 canonical skills, compatibility links valid"
+            },
+            {
+              "command": "git diff --check",
+              "result": "PASS; no whitespace errors in tracked changes"
+            },
+            {
+              "command": "cmp source SKILL.md and installed SKILL.md; cmp source agents/openai.yaml and installed counterpart",
+              "result": "PASS; both files byte-identical"
+            },
+            {
+              "command": "make skills-check",
+              "result": "PASS; 18 canonical skills; compatibility links valid"
+            },
+            {
+              "command": "Normalize local metadata (remove user-invocable: true) and compare installed SKILL.md with personal source; git diff --check and untracked-skill whitespace check",
+              "result": "PASS; instruction text matches source exactly after metadata normalization; no whitespace errors"
+            }
+          ],
+          "changed_files": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "warnings": []
+        },
+        {
+          "name": "ravenloft-cthulhu",
+          "context_read": [
+            "AGENTS.md",
+            "docs/ideal.md",
+            "docs/spec.md",
+            "docs/decisions/adr-004-campaign-module-design-methodology/adr.md",
+            "skill authoring convention in .agents/skills/create-cross-cli-skill/SKILL.md"
+          ],
+          "commands": [
+            {
+              "command": "No repository-native methodology/skill check exists (no Makefile/package manifest or skill-sync/check script); inspected scripts and canonical skill authoring instructions",
+              "result": "No applicable native command"
+            },
+            {
+              "command": "git diff --check",
+              "result": "PASS; no whitespace errors in tracked changes"
+            },
+            {
+              "command": "cmp source SKILL.md and installed SKILL.md; cmp source agents/openai.yaml and installed counterpart",
+              "result": "PASS; both files byte-identical"
+            },
+            {
+              "command": "Manual metadata and required-alignment-block check against .agents/skills/create-cross-cli-skill/SKILL.md",
+              "result": "PASS; name, description, user-invocable: true, and alignment block present"
+            },
+            {
+              "command": "Normalize local user-invocable metadata and required alignment preamble, compare installed SKILL.md with personal source; git diff --check and untracked-skill whitespace check",
+              "result": "PASS; remaining instruction text matches source exactly; no whitespace errors"
+            }
+          ],
+          "changed_files": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "warnings": [
+            "Ravenloft's skill guide Rule 2 explicitly requires the alignment-check blockquote in every new skill, so it was treated as mandatory rather than advisory. The existing 'Establish the destination and target' section did not explicitly check alignment with relevant decision records or known spec compromises. Added only the required blockquote locally after '# Loop Review'; the personal source was left untouched."
+          ]
+        },
+        {
+          "name": "rpg-map-projector",
+          "context_read": [
+            "AGENTS.md",
+            "docs/ideal.md",
+            "docs/spec.md",
+            "docs/methodology/state.yaml",
+            "docs/methodology/graph.json"
+          ],
+          "commands": [
+            {
+              "command": "make -C /Users/cam/.codex/worktrees/loop-review-rollout-20260930/rpg-map-projector methodology-compile",
+              "result": "PASS; exited 0 and wrote docs/methodology/graph.json and docs/stories.md; no tracked diff remained"
+            },
+            {
+              "command": "make -C /Users/cam/.codex/worktrees/loop-review-rollout-20260930/rpg-map-projector methodology-check",
+              "result": "PASS; exited 0, methodology graph is current"
+            },
+            {
+              "command": "make -C /Users/cam/.codex/worktrees/loop-review-rollout-20260930/rpg-map-projector triage-facts-check",
+              "result": "PASS; exited 0"
+            },
+            {
+              "command": "make skills-check",
+              "result": "FAIL (make exit 2); native validator rejects .agents/skills/loop-review/SKILL.md because required user-invocable frontmatter is absent in the supplied source"
+            },
+            {
+              "command": "git diff --check",
+              "result": "PASS; no whitespace errors in tracked changes"
+            },
+            {
+              "command": "cmp source SKILL.md and installed SKILL.md; cmp source agents/openai.yaml and installed counterpart",
+              "result": "PASS; both files byte-identical"
+            },
+            {
+              "command": "make skills-check",
+              "result": "PASS; 17 canonical skills; compatibility links valid"
+            },
+            {
+              "command": "Normalize local metadata (remove user-invocable: true) and compare installed SKILL.md with personal source; git diff --check and untracked-skill whitespace check",
+              "result": "PASS; instruction text matches source exactly after metadata normalization; no whitespace errors"
+            }
+          ],
+          "changed_files": [
+            "AGENTS.md",
+            ".agents/skills/loop-review/SKILL.md",
+            ".agents/skills/loop-review/agents/openai.yaml"
+          ],
+          "warnings": []
+        }
+      ],
+      "overall": "Native skills-check passes in Canmore (18 skills) and RPG Map Projector (17 skills). Ravenloft manual metadata/alignment checks pass; its skill authoring guide explicitly mandates an alignment blockquote, so that minimal preamble was added locally after the skill heading. Normalized source comparison and whitespace checks pass in all three. Personal source unchanged. No product tests, commits, or pushes were run."
+    }
+  },
+  "conductor_validation": [
+    {
+      "command": "make skills-check methodology-check lint",
+      "result": "passed"
+    },
+    {
+      "command": "make skills-check (after metadata normalization)",
+      "result": "passed"
+    },
+    {
+      "command": "git diff --check",
+      "result": "passed"
+    },
+    {
+      "command": "make lint; git diff --check (final alignment/evidence/inbox candidate)",
+      "result": "passed"
+    },
+    {
+      "command": "make skills-check methodology-check lint; git diff --check (final landing record)",
+      "result": "passed"
+    }
+  ],
+  "coordinator_validation": "Parsed skill/UI YAML, checked exact permitted adaptations and original body, complete copied file set, per-file hashes, routing entries, tracked and new-file whitespace; all passed.",
+  "closeout_validation": [
+    {
+      "repo": "doc-web",
+      "commands": [
+        "git rebase origin/main",
+        "make skills-check methodology-check",
+        "git diff --check origin/main...HEAD"
+      ],
+      "result": "passed; preserved upstream crop-provenance commit"
+    },
+    {
+      "repo": "boardgame-ingester",
+      "commands": [
+        "git rebase origin/main",
+        "make skills-check methodology-check",
+        "git diff --check origin/main...HEAD"
+      ],
+      "result": "passed; resolved CHANGELOG conflict by retaining upstream entry and assigning rollout sequence 29"
+    },
+    {
+      "repo": "canmore-town-council",
+      "commands": [
+        "make skills-sync test"
+      ],
+      "result": "passed; make test covers lint, methodology-check and skills-check"
+    },
+    {
+      "repo": "rpg-map-projector",
+      "commands": [
+        "make skills-sync local-status",
+        "git diff --check"
+      ],
+      "result": "passed; isolated runtime was stopped; no service started"
+    },
+    {
+      "repos": [
+        "storybook",
+        "boardgame-ingester",
+        "dossier",
+        "echo-forge",
+        "ravenloft-cthulhu"
+      ],
+      "checks": "Required dated changelog entries added and checked; previously validated skill bytes unchanged."
+    },
+    {
+      "repo": "roborally",
+      "note": "No tracked CHANGELOG exists; local close-out policy records this instead of requiring one."
+    },
+    {
+      "repo": "ravenloft-cthulhu",
+      "note": "Legacy leaf skill refers to an absent companion runbook; executed its available validation/staging/fast-forward requirements under shared finish-and-push rules. No nonexistent tooling was claimed as passing."
+    },
+    {
+      "all_targets": "Reviewed full candidate file allowlists and whitespace; all clean; execution branch and remote-main inclusion verified. Existing skill and methodology evidence reused where inputs were unchanged."
+    },
+    {
+      "inbox_scope": "Supervisor task capture included; unrelated primary inbox entries belong to other ongoing work and were preserved, with no rollout capture omitted."
+    }
+  ],
+  "worker_validation_phase": "Pre-landing implementation snapshots; their no-commit/no-push statements describe that historical phase. Closeout results and receipts above describe landing."
+}
