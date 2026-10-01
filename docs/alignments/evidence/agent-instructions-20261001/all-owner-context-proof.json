@@ -1,0 +1,75 @@
+[
+  {
+    "key": "dossier",
+    "session": 89953,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.claude/projects/-Users-cam-Documents-Projects-dossier/memory/MEMORY.md: 218\n tokens\n\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 14.1k tokens",
+    "passed": true
+  },
+  {
+    "key": "storybook",
+    "session": 47865,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.claude/projects/-Users-cam-Documents-Projects-Storybook-storybook/memory/ME\nMORY.md: 594 tokens\n\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 18.3k tokens",
+    "passed": true
+  },
+  {
+    "key": "doc-web",
+    "session": 65447,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 11.9k tokens",
+    "passed": true
+  },
+  {
+    "key": "cine-forge",
+    "session": 84134,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.claude/projects/-Users-cam-Documents-Projects-cine-forge/memory/MEMORY.md:\n570 tokens\n\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 26.6k tokens",
+    "passed": true
+  },
+  {
+    "key": "boardgame-ingester",
+    "session": 44204,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 3.6k tokens",
+    "passed": true
+  },
+  {
+    "key": "roborally",
+    "session": 59969,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 1.5k tokens",
+    "passed": true,
+    "initialAttempt": {
+      "key": "roborally",
+      "session": 43160,
+      "version": "2.1.287",
+      "noInference": true,
+      "loadedMemoryListing": "",
+      "passed": false
+    },
+    "retryReason": "First session immediately after trust did not list memory files; a subsequent fresh session did. No root settings or content changes between attempts."
+  },
+  {
+    "key": "echo-forge",
+    "session": 67785,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 6k tokens",
+    "passed": true
+  },
+  {
+    "key": "conductor",
+    "session": 10183,
+    "version": "2.1.287",
+    "noInference": true,
+    "loadedMemoryListing": "\u251c ~/.codex/AGENTS.md: 40 tokens\n\u2514 AGENTS.md: 2.3k tokens",
+    "passed": true
+  }
+]

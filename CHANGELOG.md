@@ -1,5 +1,17 @@
 # Changelog
 
+## [2026-10-01-01] — Consolidate agent instructions and decision-model awareness
+
+### Added
+- Add compact decision-model awareness and a portable local guide; record
+  verified Claude compatibility and owner-specific adoption boundaries.
+- Record Alignment 051 and Scout 082 with seven verified owner landings, native
+  AGENTS loading evidence, preserved primary work and proportional validation.
+
+### Changed
+- Remove four remaining owner CLAUDE.md bridges; incorporate Storybook's
+  independently landed removal without duplicating its instruction section.
+
 ## [2026-09-30-01] - Close additional Jev decision audit
 
 ### Added

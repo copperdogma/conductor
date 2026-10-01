@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-01",
+  "group": "a",
+  "worktree_root": "/Users/cam/.codex/worktrees/agent-instructions-20261001",
+  "scope": "Documentation-only decision-model awareness in dedicated owner worktrees; no commits, pushes, installs, provider calls, product suites, or runtime/default changes.",
+  "owners": {
+    "dossier": {
+      "branch": "codex/agent-instructions-20261001",
+      "base": "origin/main",
+      "changed": [
+        "AGENTS.md",
+        "docs/decision-models.md"
+      ],
+      "coordinated_change": [
+        "CLAUDE.md deleted after host proof by coordinator"
+      ],
+      "checks": [
+        {
+          "command": "make methodology-check",
+          "result": "failed under default python3: ModuleNotFoundError: No module named 'yaml'"
+        },
+        {
+          "command": "make PYTHON=/Users/cam/miniconda3/bin/python methodology-check",
+          "result": "passed; methodology graph current; existing metadata warnings for legacy ADR/story references and migration fields remain"
+        },
+        {
+          "command": "make skills-check",
+          "result": "passed; 32 canonical skills, compatibility links OK"
+        },
+        {
+          "command": "git diff --check",
+          "result": "passed"
+        },
+        {
+          "command": "local Markdown link and guide-size check",
+          "result": "passed; all targets exist; 100-line guide"
+        }
+      ]
+    },
+    "doc-web": {
+      "branch": "codex/agent-instructions-20261001",
+      "base": "origin/main",
+      "changed": [
+        "AGENTS.md",
+        "docs/decision-models.md"
+      ],
+      "coordinated_change": [
+        "CLAUDE.md deleted after host proof by coordinator"
+      ],
+      "checks": [
+        {
+          "command": "make methodology-check",
+          "result": "passed; methodology graph current"
+        },
+        {
+          "command": "make skills-check",
+          "result": "passed; 29 canonical skills, compatibility links OK"
+        },
+        {
+          "command": "git diff --check",
+          "result": "passed"
+        },
+        {
+          "command": "local Markdown link and guide-size check",
+          "result": "passed; all targets exist; 97-line guide"
+        }
+      ]
+    },
+    "boardgame-ingester": {
+      "branch": "codex/agent-instructions-20261001",
+      "base": "origin/main",
+      "changed": [
+        "AGENTS.md",
+        "docs/decision-models.md"
+      ],
+      "coordinated_change": [
+        "CLAUDE.md deleted after host proof by coordinator"
+      ],
+      "checks": [
+        {
+          "command": "make methodology-check",
+          "result": "passed; methodology graph current"
+        },
+        {
+          "command": "make skills-check",
+          "result": "passed; 29 canonical skills, compatibility links OK"
+        },
+        {
+          "command": "git diff --check",
+          "result": "passed"
+        },
+        {
+          "command": "local Markdown link and guide-size check",
+          "result": "passed; all targets exist; 94-line guide"
+        }
+      ]
+    }
+  },
+  "host_proof_reported_by_coordinator": {
+    "claude_code_cli": "2.1.287",
+    "desktop_bundled_cli": "2.1.286",
+    "builtin_plugin": "agents-md@builtin enabled as cc-plugin-agents-md@builtin",
+    "fresh_no_inference_context": "listed AGENTS.md",
+    "operator_action": "coordinator removed the root CLAUDE.md bridges after this proof"
+  },
+  "reference_audit": {
+    "active_tooling": "No CLAUDE.md discovery/generation references found in inspected Makefiles, scripts, GitHub config, README, or AGENTS surfaces after bridge removal.",
+    "historical_records": "Doc Web historical changelog/scout references retained.",
+    "skill_links": "scripts/sync-agent-skills.sh --check passed in all owners; .claude/skills and .cursor/skills compatibility links preserved."
+  },
+  "source_verification": [
+    "TypeSafe official primitives, System One, and confidence documentation checked on 2026-10-01; Score described as ordered levels with probability-weighted mean level, distribution, and confidence; Noul has no separate confidence field; Jev text-only.",
+    "OpenAI September 29, 2026 DevDay recap checked; Decisions API text/image limited preview and broader release planned in coming days; account access, API/SDK contract, and pricing unverified."
+  ],
+  "limitations": [
+    "The initial default Dossier methodology-check could not import PyYAML; it passed using the already installed Miniconda interpreter without installing dependencies.",
+    "No source-model integration, private source evaluation, paid call, product test suite, or adoption decision was made."
+  ]
+}

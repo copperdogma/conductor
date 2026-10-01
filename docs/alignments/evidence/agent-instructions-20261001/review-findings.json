@@ -1,0 +1,33 @@
+{
+  "scope": "Read-only review of docs-only approved8repo rollout across dossier, storybook, doc-web, cine-forge, boardgame-ingester, roborally, echo-forge, and conductor.",
+  "findings": [],
+  "review_checks": {
+    "decision_model_primitives": "No remaining incorrect Score or Noul claim found after rereading concurrent wording edits. Storybook, Echo Forge, CineForge, RoboRally, and Conductor now explicitly describe Score as a probability-weighted mean over ordered levels; Noul correctly has no separate confidence field. Dossier, Doc Web, and Board Game Ingester use the equivalent phrase 'probability-weighted position' and separately reserve custom weights for code-combined judgments.",
+    "provider_status": "Jev is consistently described as text-only. The OpenAI Luna Decisions statement is dated to the limited text/image preview and does not claim account/API access or pricing verification.",
+    "links": "All relative links in the eight new guides and their AGENTS.md links resolve.",
+    "claude_bridges": "The five deleted HEAD:CLAUDE.md files were text-only instruction bridges/imports. Existing .claude/skills compatibility paths remain present.",
+    "scope_drift": "No runtime or story files were changed in the eight target worktrees."
+  },
+  "resolved_findings": [
+    {
+      "severity": "P2",
+      "file": "cine-forge/AGENTS.md:56; roborally/AGENTS.md:37",
+      "title": "Instruction setup asks compatible Claude hosts to enable the plugin unconditionally",
+      "evidence": "Both newly added instructions say Claude Code 2.1.281 or later supports AGENTS.md through the built-in agents-md plugin, then direct the reader to run `claude plugin enable agents-md@builtin` without conditioning that command on a failed load. The coordinator's current host proof establishes native loading without inference on CLI 2.1.287 and bundled Desktop 2.1.286, with root and nested-cwd AGENTS files present in context.",
+      "impact": "This makes global host setup look like a prerequisite even though the verified compatible hosts load AGENTS.md natively, and may prompt an unnecessary settings mutation.",
+      "suggested_minimal_correction": "Say that compatible Claude Code versions load AGENTS.md natively; verify the files in a fresh session context and inspect/enable the built-in plugin only if a compatible host fails to load them. Record the verified CLI/Desktop versions and retain the temporary @AGENTS.md fallback only for confirmed unsupported hosts.",
+      "status": "resolved",
+      "resolution_evidence": "Rechecked CineForge AGENTS.md:56 and RoboRally AGENTS.md:37. Both now instruct a fresh /context check first and limit plugin inspection/enablement to missing AGENTS loading with the plugin disabled; both mention ancestor/private suppression and retain a temporary bridge only for incompatible hosts."
+    }
+  ],
+  "storybook_followup": {
+    "base": "f1a786d3",
+    "result": "No actionable findings.",
+    "checks": [
+      "The compact AGENTS section compares deterministic code, decision models, and LLMs; retains the every-story Approach Evaluation requirement; gives precise Choice, Noul, and Score semantics; and links to the detailed guide.",
+      "The detailed guide retains Storybook-specific JEV privacy, enablement, fallback, spend, accounting, and owner-evaluation gates, plus mixed surface-specific verdicts and reference implementation links.",
+      "Story 180 is accurately described as retaining a prompt-only approach after it passed; decision-model awareness does not require a new call site.",
+      "All relative links in the Storybook guide and its AGENTS link resolve. Storybook .claude/skills symlink remains in HEAD; no runtime or story file is changed by this patch."
+    ]
+  }
+}

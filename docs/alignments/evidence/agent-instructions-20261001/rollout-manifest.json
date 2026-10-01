@@ -1,0 +1,307 @@
+{
+  "date": "2026-10-01",
+  "state": "prepared-uncommitted",
+  "scope": "Seven registered owners plus Conductor; isolated documentation only",
+  "hostProof": "host-proof.json",
+  "instructionContextProof": "all-owner-context-proof.json",
+  "review": "review-findings.json",
+  "validationRecords": [
+    "group-a-validation.json",
+    "group-b-validation.json",
+    "group-c-validation.json"
+  ],
+  "conductorValidation": {
+    "command": "make methodology-check lint skills-check",
+    "result": "PASS; 21 canonical skills"
+  },
+  "reuse": "Native checks reused after prose-only edits; Storybook checks rerun after fresh-main refresh; final guide links and whitespace checked on all8",
+  "primaryPreservation": "No primary writes performed by this rollout. Seven snapshots unchanged; Storybook independently landed two commits and is clean. Isolated patch refreshed against f1a786d3.",
+  "repositories": [
+    {
+      "owner": "dossier",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "38629be704096b3cc47563b60980d71cd0193826",
+      "initialBase": "38629be704096b3cc47563b60980d71cd0193826",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/dossier",
+      "primaryBeforeHead": "0f4edc20522fc5e2e958f7831194287ea2cd90b1",
+      "primaryAfterHead": "0f4edc20522fc5e2e958f7831194287ea2cd90b1",
+      "primaryBeforeStatusHash": "d71efc89ddeea51a27abf0242c54ffbcac9ed4f4c1a92634d03c2c447f44b437",
+      "primaryAfterStatusHash": "d71efc89ddeea51a27abf0242c54ffbcac9ed4f4c1a92634d03c2c447f44b437",
+      "concurrentChange": null,
+      "checks": {
+        "primaryHeadUnchanged": true,
+        "primaryStatusUnchanged": true,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "ad8c890ff514d1b9a7237dd35dd8437cdfabf253356d8cd1a91057c71775bc86",
+          "deleted": false
+        },
+        {
+          "path": "CLAUDE.md",
+          "sha256": null,
+          "deleted": true
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "d3fc655cc79afd67a0c0e476baf7e71cee3676b345ddde0410c3d3a9d4f31ef5",
+          "deleted": false
+        }
+      ]
+    },
+    {
+      "owner": "storybook",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "f1a786d39b4bb6ae0640f573e89bc5a5b2425620",
+      "initialBase": "36d412cd8975f634b4643eed86913e8618ce34c9",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/storybook",
+      "primaryBeforeHead": "36d412cd8975f634b4643eed86913e8618ce34c9",
+      "primaryAfterHead": "f1a786d39b4bb6ae0640f573e89bc5a5b2425620",
+      "primaryBeforeStatusHash": "9012685fff5b41adcd33b51d68de756515a939b0c7e45c56942333b5367b8196",
+      "primaryAfterStatusHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "concurrentChange": "Primary and remote main advanced independently; isolated patch refreshed against the new main. CLAUDE deletion already landed there.",
+      "checks": {
+        "primaryHeadUnchanged": false,
+        "primaryStatusUnchanged": false,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "31fbad42f8778b5cc588dbf25749c49959ab4851cba4b7faccc0bd038cf0bec5",
+          "deleted": false
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "70a5bc1e1538e501b18cdfede332d2d0dd8ec85b7718bbfcc2aca0499aff90c4",
+          "deleted": false
+        }
+      ]
+    },
+    {
+      "owner": "doc-web",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "b47a6def39344bac988c58b36c72614f0dac1d9e",
+      "initialBase": "b47a6def39344bac988c58b36c72614f0dac1d9e",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/doc-web",
+      "primaryBeforeHead": "009afed44da2494273983449b73c9f4c0a5cde37",
+      "primaryAfterHead": "009afed44da2494273983449b73c9f4c0a5cde37",
+      "primaryBeforeStatusHash": "2cb0d72b85ec21256650697a280f3074748b1dbe4169db48f0177017faed0f5e",
+      "primaryAfterStatusHash": "2cb0d72b85ec21256650697a280f3074748b1dbe4169db48f0177017faed0f5e",
+      "concurrentChange": null,
+      "checks": {
+        "primaryHeadUnchanged": true,
+        "primaryStatusUnchanged": true,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "a0c1141ee7e9b9ce275083f32a45ab81916dc3a1f7c4c12aea0278ffb7571a25",
+          "deleted": false
+        },
+        {
+          "path": "CLAUDE.md",
+          "sha256": null,
+          "deleted": true
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "755964ebde5772f9e450b48e86ffb84aa2da997a0da3dd3e6296ca8b03d760e9",
+          "deleted": false
+        }
+      ]
+    },
+    {
+      "owner": "cine-forge",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "3ba38d7a8a222ed51ca8097dfc1f2fdad2234520",
+      "initialBase": "3ba38d7a8a222ed51ca8097dfc1f2fdad2234520",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/cine-forge",
+      "primaryBeforeHead": "94861914623fff237ffb4ab379fa9f995a58da1e",
+      "primaryAfterHead": "94861914623fff237ffb4ab379fa9f995a58da1e",
+      "primaryBeforeStatusHash": "84827c819d348a03dfa5da0c2476759c50a469f6d2e023f0322bae3de48dc5bb",
+      "primaryAfterStatusHash": "84827c819d348a03dfa5da0c2476759c50a469f6d2e023f0322bae3de48dc5bb",
+      "concurrentChange": null,
+      "checks": {
+        "primaryHeadUnchanged": true,
+        "primaryStatusUnchanged": true,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "a52fd846937355ce0470a7115ff804e8f736242f2a64df4571f70e88e4d5b65b",
+          "deleted": false
+        },
+        {
+          "path": "CLAUDE.md",
+          "sha256": null,
+          "deleted": true
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "618d567b07ff29f03bd9f3020d9ce693e33283b1703f6dbff22b282d26986073",
+          "deleted": false
+        }
+      ]
+    },
+    {
+      "owner": "boardgame-ingester",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "b65f46823df3279f0577d7f0e8775838dad66804",
+      "initialBase": "b65f46823df3279f0577d7f0e8775838dad66804",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/boardgame-ingester",
+      "primaryBeforeHead": "ee0af2b362054adf3e309efcdde004566ef12ab2",
+      "primaryAfterHead": "ee0af2b362054adf3e309efcdde004566ef12ab2",
+      "primaryBeforeStatusHash": "901066c6a82c6421f64c0c59d04cd2978a63837a4f415a71d3d7a165b2ebf8e0",
+      "primaryAfterStatusHash": "901066c6a82c6421f64c0c59d04cd2978a63837a4f415a71d3d7a165b2ebf8e0",
+      "concurrentChange": null,
+      "checks": {
+        "primaryHeadUnchanged": true,
+        "primaryStatusUnchanged": true,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "a5578901bf7923f30c6ed66cb0fbf1fdb718a6c14d6a0677c57a73604fe7cedb",
+          "deleted": false
+        },
+        {
+          "path": "CLAUDE.md",
+          "sha256": null,
+          "deleted": true
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "7461569c41d379034cec99d968ed5a1fd8eb4d6ce1c4f5410f90a57241185864",
+          "deleted": false
+        }
+      ]
+    },
+    {
+      "owner": "roborally",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "99322fa379b2e62507851f3affc07b165b865783",
+      "initialBase": "99322fa379b2e62507851f3affc07b165b865783",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/roborally",
+      "primaryBeforeHead": "42ed0dca68c6ed4dccfb0b32a7967bbc1acfafd2",
+      "primaryAfterHead": "42ed0dca68c6ed4dccfb0b32a7967bbc1acfafd2",
+      "primaryBeforeStatusHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "primaryAfterStatusHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "concurrentChange": null,
+      "checks": {
+        "primaryHeadUnchanged": true,
+        "primaryStatusUnchanged": true,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "11bdcf8046f429440dc890aae46d2d679a6e1af77e619e65ede0806206dbb0e4",
+          "deleted": false
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "5add408b613277fa05a93a4732b1bca18e0882467adc4974f62dec0d65ad1ce9",
+          "deleted": false
+        }
+      ]
+    },
+    {
+      "owner": "echo-forge",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "d9fdce175631e6344b7cc942e8d2729ef184a59a",
+      "initialBase": "d9fdce175631e6344b7cc942e8d2729ef184a59a",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/echo-forge",
+      "primaryBeforeHead": "cc3c77798ba3da217f46459b39a9338f8651a288",
+      "primaryAfterHead": "cc3c77798ba3da217f46459b39a9338f8651a288",
+      "primaryBeforeStatusHash": "f4926944686c45b6e508040f91da58cfa8f1ec4bdc27a20fce37685409190ed0",
+      "primaryAfterStatusHash": "f4926944686c45b6e508040f91da58cfa8f1ec4bdc27a20fce37685409190ed0",
+      "concurrentChange": null,
+      "checks": {
+        "primaryHeadUnchanged": true,
+        "primaryStatusUnchanged": true,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "6d6d6fc568e77d8b2a95194359524b63685ccd5bad9f3ad212f62dcb0a508a78",
+          "deleted": false
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "77883c648e7fcd818166d8d5861bd27c0671b4925c7cfce304868ef6f52b8a0c",
+          "deleted": false
+        }
+      ]
+    },
+    {
+      "owner": "conductor",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "5759e7846d01e74ec4ee2b5ef777d100192d7107",
+      "initialBase": "5759e7846d01e74ec4ee2b5ef777d100192d7107",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/conductor",
+      "primaryBeforeHead": "822f00b1ae889c30c5a72a6132c588f31e088121",
+      "primaryAfterHead": "822f00b1ae889c30c5a72a6132c588f31e088121",
+      "primaryBeforeStatusHash": "8fe601d89e006da85e018095ff253c8822ba49bc0f61d28a32e4d5c40961c693",
+      "primaryAfterStatusHash": "8fe601d89e006da85e018095ff253c8822ba49bc0f61d28a32e4d5c40961c693",
+      "concurrentChange": null,
+      "checks": {
+        "primaryHeadUnchanged": true,
+        "primaryStatusUnchanged": true,
+        "diffCheck": true,
+        "guideLinksAndWhitespace": true
+      },
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "c7fcc73b7b05deee62bb8f54fdb6fce00fc61733b59bb2de3b344ad7c7f06b43",
+          "deleted": false
+        },
+        {
+          "path": "docs/align-projects.md",
+          "sha256": "e50d300a0fdcc1bc1a5871a56e647e7ba2780a28e31be1cdd8cb3adeb2532409",
+          "deleted": false
+        },
+        {
+          "path": "docs/scout.md",
+          "sha256": "d0fe49f17fc997e0a23a930ae6d5dcda99635f1c811b70c7f1ac5c011ce116df",
+          "deleted": false
+        },
+        {
+          "path": "inbox.md",
+          "sha256": "5dd3229aea69e45422a6d21afbd0e1c5c21471de555d851a892f6524e685a20a",
+          "deleted": false
+        },
+        {
+          "path": "docs/alignments/align-051-agent-instructions-and-decision-models.md",
+          "sha256": "7660cef600aa4b2ba94b3116b39018c165e149987045556c98ed4e2f11fc3c62",
+          "deleted": false
+        },
+        {
+          "path": "docs/decision-models.md",
+          "sha256": "8971743b394a473ea5349a75c2a1a539c86d9ecc22b0e3231bd5c2d17ed76560",
+          "deleted": false
+        },
+        {
+          "path": "docs/scout/scout-082-agent-instructions-and-decision-model-awareness.md",
+          "sha256": "807c0447e25d1f552b6988f1e32f02bc7266cc749005ea04a89018db1633f1f8",
+          "deleted": false
+        }
+      ]
+    }
+  ],
+  "reviewResult": "PASS; one setup wording finding resolved; refreshed Storybook patch independently re-reviewed without actionable findings"
+}

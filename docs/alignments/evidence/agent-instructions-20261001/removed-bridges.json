@@ -1,0 +1,32 @@
+[
+  {
+    "key": "dossier",
+    "path": "CLAUDE.md",
+    "sha256": "3b3eb89aebf74680844266aff361993fa51216334629b868394f8e8c49a718b7",
+    "content": "@AGENTS.md\n\n## Claude Code Bridge\n\nLoad `AGENTS.md` as the canonical instruction source for this repository.\nIf Claude-specific behavior is ever required, keep it minimal here and avoid duplicating\ncore project guidance that already exists in `AGENTS.md`.\n"
+  },
+  {
+    "key": "storybook",
+    "path": "CLAUDE.md",
+    "sha256": "ba765b59297ef17f4944c09fe15dd5e814f0a383597befb85874e95b5ddd78aa",
+    "content": "# Claude Code Instructions\n\nRead AGENTS.md for all project instructions, conventions, and context.\nThat file is the single source of truth for agent behavior across all AI tools.\n"
+  },
+  {
+    "key": "doc-web",
+    "path": "CLAUDE.md",
+    "sha256": "16d5e8079f6e79bc060ba7f2a740cb4472ba266c38ebbcb08654d299006007e1",
+    "content": "Read AGENTS.md for all project instructions, conventions, and context.\nThat file is the single source of truth for agent behavior across all AI tools.\n"
+  },
+  {
+    "key": "cine-forge",
+    "path": "CLAUDE.md",
+    "sha256": "3b3eb89aebf74680844266aff361993fa51216334629b868394f8e8c49a718b7",
+    "content": "@AGENTS.md\n\n## Claude Code Bridge\n\nLoad `AGENTS.md` as the canonical instruction source for this repository.\nIf Claude-specific behavior is ever required, keep it minimal here and avoid duplicating\ncore project guidance that already exists in `AGENTS.md`.\n"
+  },
+  {
+    "key": "boardgame-ingester",
+    "path": "CLAUDE.md",
+    "sha256": "16d5e8079f6e79bc060ba7f2a740cb4472ba266c38ebbcb08654d299006007e1",
+    "content": "Read AGENTS.md for all project instructions, conventions, and context.\nThat file is the single source of truth for agent behavior across all AI tools.\n"
+  }
+]

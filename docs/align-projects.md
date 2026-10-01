@@ -11,6 +11,9 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-10-01` — [Alignment 051 — Agent Instructions and Decision Models](./alignments/align-051-agent-instructions-and-decision-models.md)
+  Completed owner rollout with remote-main receipts; host upgraded and AGENTS loading verified.
+
 - `2026-09-30` — [Alignment 050 — Loop Review Project Rollout](./alignments/align-050-loop-review-project-rollout.md)
   Approved migration from a personal skill to project-owned copies alongside
   `loop-verify`; ten target repos landed and verified, with the Conductor copy

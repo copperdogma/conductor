@@ -99,6 +99,24 @@ Specialized loops:
 
 ## Working norms
 
+### Decision models
+
+Decision models are an architecture option for bounded semantic judgments over
+supplied context, including TypeSafe's Jev and OpenAI's announced Decisions API.
+Consider them for routing, candidate selection, evidence checks and ranking when
+heuristics or a full generative call are a poor fit. When changing semantic
+decision logic, compare deterministic code, a decision model and a language model
+and explain the choice. Keep exact rules, arithmetic, identities, permissions and
+execution in code; use language models for generated text and open-ended outputs.
+Read [the local guide](docs/decision-models.md) and current provider docs before
+designing an integration. Respect owner evaluation verdicts, privacy and enablement
+gates. Measure complete behavior, fallback, quality, latency and cost before
+adoption; typed answers or concentrated probabilities do not prove correctness.
+Conductor routes evaluations to owning repos; awareness does not authorize a paid
+campaign or a runtime change.
+
+### Handoffs
+
 - When reporting technical work, include 1-2 plain-language lines on what
   improved for Cam or the target projects, what practical risk or annoyance
   got smaller, or what they should notice next.

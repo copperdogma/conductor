@@ -1,0 +1,167 @@
+{
+  "date": "2026-10-01",
+  "scope": "Seven registered owners plus Conductor",
+  "ownerLandings": [
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/dossier",
+      "base": "38629be704096b3cc47563b60980d71cd0193826",
+      "destination": "origin/main",
+      "preflight": "PASS; candidate hashes match reviewed docs; changelog inspected; no required CI/release gate for documentation scope",
+      "validation": "Reused recorded methodology, skill and independent review evidence; final diff/whitespace checked",
+      "landing": "landed",
+      "commit": "3db0b1f400bb60baccd73614d198a46352362053",
+      "branchPushed": true,
+      "verifiedRemoteHead": "3db0b1f400bb60baccd73614d198a46352362053",
+      "remote": "https://github.com/copperdogma/dossier.git"
+    },
+    {
+      "owner": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/storybook",
+      "base": "f1a786d39b4bb6ae0640f573e89bc5a5b2425620",
+      "destination": "origin/main",
+      "preflight": "PASS; candidate hashes match reviewed docs; changelog inspected; no required CI/release gate for documentation scope",
+      "validation": "Reused recorded methodology, skill and independent review evidence; final diff/whitespace checked",
+      "landing": "landed",
+      "commit": "5992e8724af55e4e813084fede1c6b781858064a",
+      "branchPushed": true,
+      "verifiedRemoteHead": "5992e8724af55e4e813084fede1c6b781858064a",
+      "remote": "https://github.com/copperdogma/storybook.git"
+    },
+    {
+      "owner": "doc-web",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/doc-web",
+      "base": "b47a6def39344bac988c58b36c72614f0dac1d9e",
+      "destination": "origin/main",
+      "preflight": "PASS; candidate hashes match reviewed docs; changelog inspected; no required CI/release gate for documentation scope",
+      "validation": "Reused recorded methodology, skill and independent review evidence; final diff/whitespace checked",
+      "landing": "landed",
+      "commit": "b90c0da0f95eff852eeaea16419051a0b0a2e10d",
+      "branchPushed": true,
+      "verifiedRemoteHead": "b90c0da0f95eff852eeaea16419051a0b0a2e10d",
+      "remote": "https://github.com/copperdogma/doc-web.git"
+    },
+    {
+      "owner": "cine-forge",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/cine-forge",
+      "base": "3ba38d7a8a222ed51ca8097dfc1f2fdad2234520",
+      "destination": "origin/main",
+      "preflight": "PASS; candidate hashes match reviewed docs; changelog inspected; no required CI/release gate for documentation scope",
+      "validation": "Reused recorded methodology, skill and independent review evidence; final diff/whitespace checked",
+      "landing": "landed",
+      "commit": "b66b42ad989c1187ff539ec1b4ddc398d3900da2",
+      "branchPushed": true,
+      "verifiedRemoteHead": "b66b42ad989c1187ff539ec1b4ddc398d3900da2",
+      "remote": "https://github.com/copperdogma/cine-forge.git"
+    },
+    {
+      "owner": "boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/boardgame-ingester",
+      "base": "b65f46823df3279f0577d7f0e8775838dad66804",
+      "destination": "origin/main",
+      "preflight": "PASS; candidate hashes match reviewed docs; changelog inspected; no required CI/release gate for documentation scope",
+      "validation": "Reused recorded methodology, skill and independent review evidence; final diff/whitespace checked",
+      "landing": "landed",
+      "commit": "7a3c470fe4d2d008289ebf530c0439e57a6388dd",
+      "branchPushed": true,
+      "verifiedRemoteHead": "7a3c470fe4d2d008289ebf530c0439e57a6388dd",
+      "remote": "https://github.com/copperdogma/boardgame-ingester.git"
+    },
+    {
+      "owner": "roborally",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/roborally",
+      "base": "99322fa379b2e62507851f3affc07b165b865783",
+      "destination": "origin/main",
+      "preflight": "PASS; candidate hashes match reviewed docs; changelog inspected; no required CI/release gate for documentation scope",
+      "validation": "Reused recorded methodology, skill and independent review evidence; final diff/whitespace checked",
+      "landing": "landed",
+      "commit": "4123c2bbe22dc680748fc7823303a140d8ecf1ed",
+      "branchPushed": true,
+      "verifiedRemoteHead": "4123c2bbe22dc680748fc7823303a140d8ecf1ed",
+      "remote": "https://github.com/copperdogma/roborally.git"
+    },
+    {
+      "owner": "echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/agent-instructions-20261001/echo-forge",
+      "base": "d9fdce175631e6344b7cc942e8d2729ef184a59a",
+      "destination": "origin/main",
+      "preflight": "PASS; candidate hashes match reviewed docs; changelog inspected; no required CI/release gate for documentation scope",
+      "validation": "Reused recorded methodology, skill and independent review evidence; final diff/whitespace checked",
+      "landing": "landed",
+      "commit": "726864e531c2327d73462fcfd2be81c444fea504",
+      "branchPushed": true,
+      "verifiedRemoteHead": "726864e531c2327d73462fcfd2be81c444fea504",
+      "remote": "https://github.com/copperdogma/echo-forge.git"
+    }
+  ],
+  "supervisor": "Completion record and Conductor instruction changes land in the commit containing this file; that commit is verified remotely after push.",
+  "validation": "Reused implementation evidence with matching documentation hashes; final changed records, changelogs, links and diff inspected. No product suites or paid calls.",
+  "cleanup": "Task worktrees and branches retained; no cleanup requested.",
+  "roborallyChangelog": "No tracked CHANGELOG.md; none created per local close-out runbook.",
+  "primaryCheckoutVerification": [
+    {
+      "owner": "dossier",
+      "currentHead": "0f4edc20522fc5e2e958f7831194287ea2cd90b1",
+      "headUnchangedFromOriginalSnapshot": true,
+      "statusUnchangedFromOriginalSnapshot": true,
+      "statusHash": "d71efc89ddeea51a27abf0242c54ffbcac9ed4f4c1a92634d03c2c447f44b437",
+      "explanation": "No rollout edits to primary checkout."
+    },
+    {
+      "owner": "storybook",
+      "currentHead": "f1a786d39b4bb6ae0640f573e89bc5a5b2425620",
+      "headUnchangedFromOriginalSnapshot": false,
+      "statusUnchangedFromOriginalSnapshot": false,
+      "statusHash": "b3aff0f62712709cfe703d9ad71c5506ef0e326634d5986725640bc3f02a2a47",
+      "explanation": "Independent Storybook landing occurred during preparation; no rollout edits to primary checkouts."
+    },
+    {
+      "owner": "doc-web",
+      "currentHead": "009afed44da2494273983449b73c9f4c0a5cde37",
+      "headUnchangedFromOriginalSnapshot": true,
+      "statusUnchangedFromOriginalSnapshot": true,
+      "statusHash": "2cb0d72b85ec21256650697a280f3074748b1dbe4169db48f0177017faed0f5e",
+      "explanation": "No rollout edits to primary checkout."
+    },
+    {
+      "owner": "cine-forge",
+      "currentHead": "94861914623fff237ffb4ab379fa9f995a58da1e",
+      "headUnchangedFromOriginalSnapshot": true,
+      "statusUnchangedFromOriginalSnapshot": true,
+      "statusHash": "84827c819d348a03dfa5da0c2476759c50a469f6d2e023f0322bae3de48dc5bb",
+      "explanation": "No rollout edits to primary checkout."
+    },
+    {
+      "owner": "boardgame-ingester",
+      "currentHead": "ee0af2b362054adf3e309efcdde004566ef12ab2",
+      "headUnchangedFromOriginalSnapshot": true,
+      "statusUnchangedFromOriginalSnapshot": true,
+      "statusHash": "901066c6a82c6421f64c0c59d04cd2978a63837a4f415a71d3d7a165b2ebf8e0",
+      "explanation": "No rollout edits to primary checkout."
+    },
+    {
+      "owner": "roborally",
+      "currentHead": "42ed0dca68c6ed4dccfb0b32a7967bbc1acfafd2",
+      "headUnchangedFromOriginalSnapshot": true,
+      "statusUnchangedFromOriginalSnapshot": true,
+      "statusHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "explanation": "No rollout edits to primary checkout."
+    },
+    {
+      "owner": "echo-forge",
+      "currentHead": "cc3c77798ba3da217f46459b39a9338f8651a288",
+      "headUnchangedFromOriginalSnapshot": true,
+      "statusUnchangedFromOriginalSnapshot": true,
+      "statusHash": "f4926944686c45b6e508040f91da58cfa8f1ec4bdc27a20fce37685409190ed0",
+      "explanation": "No rollout edits to primary checkout."
+    },
+    {
+      "owner": "conductor",
+      "currentHead": "822f00b1ae889c30c5a72a6132c588f31e088121",
+      "headUnchangedFromOriginalSnapshot": true,
+      "statusUnchangedFromOriginalSnapshot": true,
+      "statusHash": "8fe601d89e006da85e018095ff253c8822ba49bc0f61d28a32e4d5c40961c693",
+      "explanation": "No rollout edits to primary checkout."
+    }
+  ]
+}

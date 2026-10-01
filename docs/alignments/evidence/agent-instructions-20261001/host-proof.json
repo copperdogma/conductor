@@ -1,0 +1,15 @@
+{
+  "before": "2.1.202",
+  "after": "2.1.287",
+  "update": "claude update; exit0",
+  "enable": "claude plugin enable agents-md@builtin --json; exit0; pluginId cc-plugin-agents-md@builtin; user",
+  "freshSessionId": "b6e56695-acc2-4b5a-9267-956f6731841a",
+  "proof": "/context in conductor worktree showed Memory files: ~/.codex/AGENTS.md 40tokens; AGENTS.md 2ktokens",
+  "noInference": true,
+  "limitations": "Local CLI root and nested-working-directory startup verified; nested Read attachment not exercised without inference. Other hosts not tested.",
+  "nestedStartupProof": "Fresh /context from cine-forge/tests showed root AGENTS 26.6ktokens and tests/AGENTS 186tokens after root bridge deletion.",
+  "desktopBundledVersion": "2.1.286",
+  "desktopBundledProof": "Direct launch of Desktop bundled Claude Code executable, fresh /context listed root AGENTS.md2.3ktokens; no model request.",
+  "desktopSessionLimit": "Bundled executable verified; existing Desktop session state/cloud hosts not inspected.",
+  "legacyProcess": "2.1.202 process is Chrome native host in ~/.claude/chrome; preserved, not a repo coding session."
+}

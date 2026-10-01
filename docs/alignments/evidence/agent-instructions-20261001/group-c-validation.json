@@ -1,0 +1,34 @@
+{
+  "task": "Approved docs alignment: decision-model guidance for Storybook and Echo Forge",
+  "date": "2026-10-01",
+  "summary": "Added compact AGENTS.md model-selection entry points and owner-specific decision-model guides. Storybook guidance preserves optional JEV relationship routing, privacy, paid-dispatch and accounting controls, and mixed surface-specific evidence. Echo Forge documents its complete-proposal NO-GO and default-off prototype. No runtime config, provider calls, product tests, commits, or pushes.",
+  "worktrees": [
+    {
+      "path": "/Users/cam/.codex/worktrees/agent-instructions-20261001/storybook",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "36d412cd8975f634b4643eed86913e8618ce34c9 (HEAD equals origin/main)",
+      "changedFiles": ["AGENTS.md", "docs/decision-models.md", "CLAUDE.md (coordinator-owned bridge deletion after host proof)"],
+      "validation": [
+        {"command": "bash scripts/sync-agent-skills.sh --check", "result": "PASS: 39 canonical skills; compatibility links ok"},
+        {"command": "pnpm run methodology:check", "result": "PASS: Methodology graph is current: docs/methodology/graph.json"},
+        {"command": "git diff --check", "result": "PASS"},
+        {"command": "Local Markdown target check for docs/decision-models.md", "result": "PASS: 13 links; no missing targets"},
+        {"command": "Owner-record and heading inspection", "result": "PASS: Attempt 160/161/164, Attempts 158/159 records, Story 167, and activation heading checked; Story 167 is bounded to freeform relationship routing with explicit flag, fallback, privacy and accounting details"}
+      ]
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/agent-instructions-20261001/echo-forge",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "d9fdce175631e6344b7cc942e8d2729ef184a59a (HEAD equals origin/main)",
+      "changedFiles": ["AGENTS.md", "docs/decision-models.md"],
+      "validation": [
+        {"command": "pnpm run skills:check", "result": "PASS: 39 canonical skills; compatibility links ok"},
+        {"command": "pnpm run methodology:check", "result": "PASS: 8 categories, 78 stories; existing warning: No Ideal requirements parsed"},
+        {"command": "git diff --check", "result": "PASS"},
+        {"command": "Local Markdown target check for docs/decision-models.md", "result": "PASS: 7 links; no missing targets"},
+        {"command": "Owner-record inspection", "result": "PASS: 2026-09-30 component study, complete-proposal NO-GO record, and Story 077 checked"}
+      ]
+    }
+  ],
+  "limits": "Documentation and agent-surface validation only. No product suites, provider calls, installs, commits, pushes, or runtime configuration changes were performed."
+}

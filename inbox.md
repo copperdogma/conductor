@@ -1,5 +1,13 @@
 # Inbox
 
+- 2026-10-01: Cam approved Claude compatibility checks and combined documentation
+  patches for the seven registered projects plus Conductor.
+  [Alignment 051](docs/alignments/align-051-agent-instructions-and-decision-models.md)
+  records completed owner landings and host proof;
+  [Scout 082](docs/scout/scout-082-agent-instructions-and-decision-model-awareness.md)
+  preserves source research. Handled by the approved documentation rollout;
+  runtime model adoption remains separately gated.
+
 - 2026-09-30: Cam approved moving personal `loop-review` into project-owned
   skill surfaces wherever `loop-verify` is present, then deleting the personal
   copy to avoid duplicates. Routed to

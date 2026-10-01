@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-01",
+  "scope": "Documentation alignment for CineForge and RoboRally only; no commits or pushes.",
+  "evidence_sources": [
+    {
+      "url": "https://docs.typesafe.ai/concepts/system-one",
+      "checked": "2026-10-01",
+      "notes": "Jev is documented as text-only; typed bounded judgments and calibration distinction."
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives",
+      "checked": "2026-10-01",
+      "notes": "Choice, Noul and Score semantics; Noul has no separate confidence field."
+    },
+    {
+      "url": "https://docs.typesafe.ai/primitives/score",
+      "checked": "2026-10-01",
+      "notes": "Score is the probability-weighted mean of ordered level positions; code can normalize and combine separate scores."
+    },
+    {
+      "url": "https://docs.typesafe.ai/confidence",
+      "checked": "2026-10-01",
+      "notes": "Confidence summarizes the distribution for Choice/Score and is not an individual correctness guarantee."
+    },
+    {
+      "url": "https://openai.com/index/devday-2026-recap/",
+      "checked": "2026-10-01",
+      "notes": "2026-09-29 announcement: Decisions API with Luna, text/image context, limited preview and broad release planned in the coming days. No account, API contract or pricing access was verified."
+    }
+  ],
+  "repositories": [
+    {
+      "name": "cine-forge",
+      "path": "/Users/cam/.codex/worktrees/agent-instructions-20261001/cine-forge",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "origin/main",
+      "head": "3ba38d7a8a222ed51ca8097dfc1f2fdad2234520",
+      "candidate_files": ["AGENTS.md", "docs/decision-models.md"],
+      "observed_coordinator_change": "CLAUDE.md is deleted in this worktree after the coordinator's Claude host-loading proof; this deletion was not made by this worker. .claude/skills discovery remains intact.",
+      "validation": [
+        {
+          "command": "node scripts/methodology-graph.js check",
+          "result": "PASS; graph outputs current. Existing warning notes architecture-audit domains due/open and UI scout stale at 172 days versus 14-day cadence."
+        },
+        {
+          "command": "make skills-check",
+          "result": "PASS; 40 canonical skills and compatibility links OK."
+        },
+        {
+          "command": "git diff --check",
+          "result": "PASS on current tracked changes, including coordinator's bridge deletion."
+        },
+        {
+          "command": "Local Markdown link and whitespace scan on AGENTS.md and docs/decision-models.md",
+          "result": "PASS; local links resolve, no tabs or trailing whitespace. Guide is 95 lines; AGENTS decision-model awareness is 120 words."
+        }
+      ],
+      "not_run": "Product suites, provider calls, and runtime evaluations; the candidate changes are documentation-only."
+    },
+    {
+      "name": "roborally",
+      "path": "/Users/cam/.codex/worktrees/agent-instructions-20261001/roborally",
+      "branch": "codex/agent-instructions-20261001",
+      "base": "origin/main",
+      "head": "99322fa379b2e62507851f3affc07b165b865783",
+      "candidate_files": ["AGENTS.md", "docs/decision-models.md"],
+      "validation": [
+        {
+          "command": "npm run methodology:check",
+          "result": "PASS."
+        },
+        {
+          "command": "npm run skills:check",
+          "result": "PASS; 31 canonical skills and compatibility links OK."
+        },
+        {
+          "command": "git diff --check",
+          "result": "PASS on current tracked changes."
+        },
+        {
+          "command": "Local Markdown link and whitespace scan on AGENTS.md and docs/decision-models.md",
+          "result": "PASS; local links resolve, no tabs or trailing whitespace. Guide is 91 lines; AGENTS decision-model awareness is 99 words."
+        }
+      ],
+      "not_run": "Product suites, provider calls, and runtime evaluations; no product or runtime integration is proposed."
+    }
+  ]
+}
