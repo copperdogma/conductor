@@ -1,5 +1,14 @@
 # Inbox
 
+- 2026-10-02: Approved fresh Grok4.7 Dossier and useful reasoning-level checks completed.
+  [Scout083](docs/scout/scout-083-grok47-reasoning-follow-through.md) records low/medium/high
+  Dossier, Doc Web crop and CineForge frames: Dossier low narrow quality tie,
+  cheaper/slower; no image/frame effort qualifies. AccountedUSD.871834/USD15,
+  unknown0. Dossier high exceeded the requested total-output bound; further
+  Grok generation deferred pending qualified cost control. Retain defaults.
+  Authorized finish-and-push landed the three scoped owner continuations;
+  Story227 Done. Prior already-Done owner stories retain their closure.
+
 - 2026-10-01: Cam approved Claude compatibility checks and combined documentation
   patches for the seven registered projects plus Conductor.
   [Alignment 051](docs/alignments/align-051-agent-instructions-and-decision-models.md)
