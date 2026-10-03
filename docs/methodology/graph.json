@@ -1217,6 +1217,87 @@
       "name": "Echo Forge",
       "path": "/Users/cam/Documents/Projects/echo-forge",
       "role": "RPG soundscape generation and table-audio workflow"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        "README.md",
+        "docs/methodology-ideal-spec-compromise.md",
+        "docs/methodology/state.yaml",
+        "docs/methodology/graph.json",
+        "docs/build-map.md",
+        "docs/setup-checklist.md",
+        "docs/runbooks/setup-methodology.md",
+        "docs/scout.md",
+        "docs/scout",
+        ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "ultima-iv-web",
+      "name": "Ultima IV Web",
+      "path": "/Users/cam/Documents/Projects/ultima-iv-web",
+      "role": "browser-based Ultima IV game and product workflow"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        "README.md",
+        "docs/methodology-ideal-spec-compromise.md",
+        "docs/methodology/state.yaml",
+        "docs/methodology/graph.json",
+        "docs/build-map.md",
+        "docs/setup-checklist.md",
+        "docs/runbooks/setup-methodology.md",
+        "docs/scout.md",
+        "docs/scout",
+        ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "financial-hub",
+      "name": "Financial Hub",
+      "path": "/Users/cam/Documents/Projects/financial-hub",
+      "role": "native financial application, reporting, and guarded deployment"
+    },
+    {
+      "comparison_surfaces": [
+        "AGENTS.md",
+        "docs/ideal.md",
+        "docs/spec.md",
+        "README.md",
+        "docs/methodology-ideal-spec-compromise.md",
+        "docs/methodology/state.yaml",
+        "docs/methodology/graph.json",
+        "docs/build-map.md",
+        "docs/setup-checklist.md",
+        "docs/runbooks/setup-methodology.md",
+        "docs/scout.md",
+        "docs/scout",
+        ".agents/skills",
+        ".codex/environments/environment.toml",
+        "scripts/local-dev-ports.mjs",
+        "scripts/local-service.mjs",
+        "scripts/dev-local",
+        "docs/stories",
+        "docs/decisions"
+      ],
+      "key": "financial-monthly-analysis",
+      "name": "Financial Monthly Analysis",
+      "path": "/Users/cam/Documents/Projects/financial-monthly-analysis",
+      "role": "financial source acquisition, reconciliation, and proposal preparation"
     }
   ]
 }

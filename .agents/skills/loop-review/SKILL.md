@@ -30,6 +30,24 @@ Compare progress with the end state, including both product usefulness and execu
 
 Do not equate test counts, closed stories, reports, proposals, or historical eval scores with completion. Conversely, explain how legitimate enabling work advances the outcome even when it adds no immediately usable output. Distinguish a genuine blocker from an unanswered question that affects only one item or lane. State evidence gaps instead of converting suspicion into a finding.
 
+Every review must also answer, using the existing review/attempt records or story
+logs: what changed because of the previous review (or that this is the first);
+what improved for the user or what evidence changed the next decision; whether
+the current work attacks the most valuable remaining problem; and what to finish,
+change, defer, or stop. Trace previous recommendations to actual action or a
+reason for deferral; message delivery alone is not follow-through. Compare likely
+end-to-end benefit with the effort and better alternatives. A failed experiment
+that closes a useful question and a verified wait for a named dependency can be
+progress; repeated bookkeeping without new evidence is not.
+
+For requested periodic reviews, retain the original start, deadline/timezone,
+cadence, and next due review in the existing working plan across interruptions
+and handoffs. Reconstruct them before resuming; do not silently restart the clock
+or extend the deadline. Note missed reviews and resume the remaining schedule
+without redundant catch-up reports. Do not create a schedule unless requested.
+Keep story acceptance separate from the broader goal's observable stopping
+condition; closing a story does not establish that the overall goal is achieved.
+
 ## Challenge the approach
 
 Compare continuing as planned with plausible alternatives. Use the problem's actual constraints to consider richer context, a simpler existing path, different tools or models, a small human-assisted baseline, working backward from the consumer's needs, and an earlier end-to-end or independent-case demonstration. Do not require every review to explore every option.

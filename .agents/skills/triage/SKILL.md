@@ -35,6 +35,13 @@ not outrank higher-leverage work automatically; prioritize the pressure that
 removes the most repeated work, compresses the most human judgment, or creates
 the clearest reusable memory.
 
+For optimization proposals, estimate overall time, cost, or human-effort savings
+from representative evidence, label unknowns, and compare the likely gain with
+experiment/maintenance effort and higher-value alternatives. Quality defects and
+critical dependencies can justify work independently. Inspect what changed after
+the previous recommendation and what user benefit or decision evidence resulted;
+repeated bookkeeping alone does not justify continuing the same work.
+
 ## Routing
 
 - `/triage` — full-sweep read-only recommendation

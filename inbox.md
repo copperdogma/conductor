@@ -1,5 +1,21 @@
 # Inbox
 
+- 2026-10-03: Board Game Ingester's three-skill feedback reviewed and adapted
+  across applicable managed projects. [Alignment 052](docs/alignments/align-052-experiment-impact-uncertainty-follow-through.md)
+  records end-to-end impact, predeclared experiment/uncertainty rules,
+  independent validation inputs, and review follow-through. All eight owner
+  patches landed on verified remote main after Cam approved scoped close-out.
+  The finance repos have no matching skills and remain unchanged. Conductor's
+  triage/evaluation/review guidance and landing record are included here.
+
+- 2026-10-03: Managed-project rollout check added to `/align-projects` and
+  routed from `AGENTS.md`. Cam approved adding Ultima IV Web, Financial Hub,
+  and Financial Monthly Analysis alongside the existing seven projects.
+  Other repositories from today's app/local inventory remain unmanaged for
+  now. Future rollouts show the current list, discover new candidates, and
+  resolve additions/removals before choosing targets. Registry and rollout
+  guidance are included in the approved close-out; see Alignment 052.
+
 - 2026-10-02: Approved fresh Grok4.7 Dossier and useful reasoning-level checks completed.
   [Scout083](docs/scout/scout-083-grok47-reasoning-follow-through.md) records low/medium/high
   Dossier, Doc Web crop and CineForge frames: Dossier low narrow quality tie,

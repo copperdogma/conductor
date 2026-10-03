@@ -1,6 +1,6 @@
 ---
 name: align-projects
-description: Compare infrastructure surfaces across tracked projects and recommend what should sync
+description: Compare shared infrastructure and skills across managed projects, refresh rollout membership, and execute approved cross-repo updates.
 user-invocable: true
 ---
 
@@ -29,7 +29,8 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
 
 ## Steps
 
-1. Read `projects.yaml` to identify the projects and comparison surfaces.
+1. Read `projects.yaml` to identify the projects and comparison surfaces. For
+   a rollout request, first complete the managed-project check below.
 2. Choose the relevant surface area for this pass.
    - If the requested alignment is driven by an ADR whose remaining decisions
      are unclear, run `/triage-adr` first so the comparison does not propagate
@@ -48,6 +49,35 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
 6. Write an alignment entry under `docs/alignments/`.
 7. Update `docs/align-projects.md`.
 8. If warranted, create follow-up stories.
+
+## Managed-project check before rollout
+
+Before choosing targets for any cross-repo rollout of skills, methodology, or
+shared infrastructure:
+
+- Compare `projects.yaml` with the current Codex project list (when available)
+  and local Git repositories under `/Users/cam/Documents/Projects`. Include
+  repositories elsewhere that are exposed by the app or named by the user.
+  Deduplicate by Git common directory so worktrees do not become new projects;
+  distinguish personal projects from vendored code, backups, and archived copies.
+- Show the full current managed list and a concise list of plausible new
+  candidates with paths and available activity evidence. A recent commit is
+  evidence of activity, not proof that a repo belongs on the managed list.
+- Ask which candidates to add and whether any existing projects should be
+  removed. Resolve membership before editing target repos; read-only comparison
+  and preparation may continue while awaiting the answer. An explicit selection
+  already supplied in the current conversation satisfies this check for that
+  inventory; do not ask again for the same decision.
+- Add or remove registry entries only as directed. Record declined candidates
+  and removals in the alignment entry so the same inventory does not repeatedly
+  prompt for them; reconsider when the user asks or materially new activity
+  warrants it. Removing membership leaves the repository and its history intact.
+- Refresh generated registry references after membership changes. Then select
+  applicable targets from the updated list, preserving local adaptations and
+  task authorization. Membership alone does not authorize a rollout.
+
+When discovery is incomplete, state the coverage limit. Do not silently enroll
+new repositories or drop existing ones because they appear old.
 
 ## Target-repo edit isolation
 

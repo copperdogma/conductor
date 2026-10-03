@@ -173,6 +173,13 @@ explicitly named active repo. Read enough current owner context to identify:
   synthetic
 - the smallest lane whose result could change a real decision
 
+For efficiency proposals, estimate the stage's contribution to total workflow
+time, cost, or human effort and the plausible overall gain, using representative
+owner evidence when available. Stage share × fractional reduction approximates
+additive savings; parallel work requires critical-path analysis. Label unknowns
+and compare benefit with experiment/maintenance effort and competing work.
+Quality defects or critical dependencies can justify a lane independently.
+
 Require a maintained decision-bearing surface, eligible fixtures, a plausible
 measurable benefit, and a bounded progressive run. The bar for evaluation is
 lower than the bar for adoption: do not demand demonstrated superiority before
@@ -439,6 +446,23 @@ reproduction. Fix or fail closed on unintended case chaining, stale prompt
 snapshots, implicit judge selection, or another topology mismatch before
 spending. A one-case contract probe does not replace this resolved-matrix
 check.
+
+In the owner's existing attempt record, predeclare the hypothesis, preserved
+quality requirements, baseline/metric/aggregation, meaningful improvement
+threshold, budget/stop conditions, and adoption/rejection/uncertainty rules.
+Choose the cheapest evidence that can settle the question; an offline bound or
+cached replay may justify rejection before implementation or paid calls.
+Identify development versus independent-validation inputs. If validation results
+guide tuning, disclose that reuse and reserve fresh material for confirmation.
+Judge borderline aggregates against paired variation and sample limits rather
+than treating a numerical pass as a convincing win. Allow at most one
+predeclared confirmation batch for the unchanged hypothesis within authorized
+scope/budget, or retain an uncertain verdict. Never rerun or select subsets until
+a favorable result appears; a changed hypothesis requires a disclosed new attempt.
+Use the owning repo's proportional-validation policy (or
+[Conductor's policy](../finish-and-push/SKILL.md#validation-proportional-to-the-change))
+to reuse applicable unchanged checks and rerun affected ones; this does not waive
+the independent evidence required by the declared experiment.
 
 Do not preserve a normal-looking aggregate command that is known to execute an
 invalid topology. Repair it, make it fail closed with an actionable message, or

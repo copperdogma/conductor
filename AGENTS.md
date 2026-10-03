@@ -83,6 +83,10 @@ Specialized loops:
 
 - `/init-project` for interview-first greenfield kickoff before setup
 - `/align-projects` for cross-project infrastructure drift
+- Cross-repo skill, methodology, and shared-infrastructure rollout requests
+  also use `/align-projects`, beginning with its managed-project check: discover
+  new repos, show the existing list, and resolve requested additions/removals
+  before choosing rollout targets.
 - `/loop-review` for strategic checks of long-running work against user intent,
   applying or handing off a proposed course correction only when authorized
 - `/scout` for external sources and adoption analysis

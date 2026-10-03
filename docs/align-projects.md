@@ -202,3 +202,8 @@ Use this index to track internal cross-project alignment work.
 - `2026-09-28` — [Alignment 049 — Dossier Sonnet 5.5 access](./alignments/align-049-dossier-sonnet55-access.md)
   User-selected Story174 replacement: one successful exact-model synthetic tool
   probe, USD0.001334; legacy test/benchmark migration only, no runtime adoption.
+
+- `2026-10-03` — [Alignment 052 — Experiment impact, uncertainty, and review follow-through](./alignments/align-052-experiment-impact-uncertainty-follow-through.md)
+  Landed existing-skill updates on verified main in eight owner repositories,
+  with supervisor adaptations and managed-project rollout checks in Conductor.
+  Both finance repos lack these skills and remain unchanged.

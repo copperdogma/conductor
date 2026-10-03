@@ -9,6 +9,12 @@ This spec records the active constraints around the supervisor project.
 Conductor keeps one machine-readable registry in `projects.yaml` describing the
 active projects, local paths, and comparison surfaces.
 
+Before cross-repo rollouts, refresh the inventory against available Codex
+projects and local repositories. Show the managed list and newly discovered
+candidates so Cam can approve additions and remove inactive projects. Discovery
+does not automatically change membership; explicit choices in the current
+conversation can satisfy the check without repeated confirmation.
+
 ### spec:1.2 Single capture surface
 
 Cross-project notes, sync requests, and raw links land in `inbox.md` first.
