@@ -73,6 +73,13 @@ reading that policy does not invoke landing.
    - `make skills-check` if skill files changed
    - focused tests for script or repo-check changes; broaden to `make test`
      when shared effects warrant it
+   - If an unfamiliar material failure or repeated unexplained failures invite
+     another retry, fixed sleep, special case, or weaker assertion, apply
+     AGENTS' problem-class research rule first. Diagnose locally, reuse
+     applicable research or check established techniques, then test the
+     smallest hypothesis. Keep the acceptance contract and record useful
+     sources, local evidence, and uncertainty in the existing log. Ordinary
+     understood fixes and unchanged passing evidence need no research pass.
 
 3b. Optional parallel validation:
    - Use bounded validation packets only when they will materially improve

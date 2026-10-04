@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-04-01] — Research before reinvention across eleven projects
+
+### Changed
+- Add bounded problem-class research and periodic strategic checkpoints to
+  Conductor setup and execution guidance, retaining budgets and stop rules.
+- Register VLC Thumbs and record the approved eleven-project rollout with
+  owner-specific workflow adaptations and proportional validation evidence.
+
 ## [2026-10-01-01] — Consolidate agent instructions and decision-model awareness
 
 ### Added

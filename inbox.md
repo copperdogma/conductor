@@ -1,5 +1,17 @@
 # Inbox
 
+- 2026-10-04: Review Ultima IV's research-before-reinvention lesson and its
+  place in project setup and skills. [Alignment 053](docs/alignments/align-053-research-before-reinvention.md)
+  records the assessment, refinements, and approved local instructions/setup/
+  build/validate changes, extended after discussion to periodic loop-verify and
+  loop-review checkpoints. Implemented and validated in Conductor, including
+  independent simulated scenario review and retained budget/stop boundaries.
+  Cam subsequently approved owner rollout to the ten managed projects plus VLC
+  Thumbs; isolated patches and validation receipts are recorded in Alignment
+  053. Cam approved close-out; all eleven owner commits are verified on remote
+  main, preserving primary checkouts.
+
+
 - 2026-10-03: Board Game Ingester's three-skill feedback reviewed and adapted
   across applicable managed projects. [Alignment 052](docs/alignments/align-052-experiment-impact-uncertainty-follow-through.md)
   records end-to-end impact, predeclared experiment/uncertainty rules,

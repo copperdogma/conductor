@@ -14,6 +14,14 @@ Conductor uses a lean methodology package:
 
 Use `/setup-methodology` when the project structure or public surfaces drift.
 
+When creating or refreshing `AGENTS.md`, include a concise, portable research
+rule: for nontrivial obstacles with an uncertain next step, inspect local
+evidence, name the general problem class, reuse applicable prior research, or
+check a few relevant primary sources before choosing a small local applicability
+check. Record reusable sources, the decision, result, and uncertainty in
+existing notes. Obvious fixes need no ceremony; preserve domain reuse limits
+and acceptance criteria.
+
 ## Greenfield checklist
 
 1. Run `/init-project` against the preserved seed, usually
@@ -27,6 +35,17 @@ Use `/setup-methodology` when the project structure or public surfaces drift.
 5. Install inbox, scout, and alignment logs when they fit the project shape.
 6. Install story surfaces and compile the graph.
 7. Install AGENTS and the local skill surface.
+   - Include the research rule in `AGENTS.md` and adapt its reuse boundaries to
+     the project.
+   - For long-running work, wire optional `/loop-review` at existing strategic
+     checkpoints where the approach merits periodic reconsideration. Ensure
+     `/loop-verify` checks progress and repeated assumptions at round
+     boundaries; for long active runs without a user cadence, add a checkpoint
+     after about 30 active minutes or three substantive rounds, whichever comes
+     first. Preserve cadence across interruptions, remain proactive when proxy
+     metrics improve, reuse recent research only when it still applies, and
+     keep research within existing budgets and hard stops. Do not add a
+     scheduler or require these loops for routine work.
 8. Run:
    - `make methodology-compile`
    - `make methodology-check`

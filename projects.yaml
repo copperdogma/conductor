@@ -240,3 +240,27 @@ projects:
       - scripts/dev-local
       - docs/stories
       - docs/decisions
+  - key: vlc-thumbs
+    name: VLC Thumbs
+    path: /Users/cam/Documents/Projects/ultima-iv-web/vlc-thumbs
+    role: native VLC timeline thumbnails and persistent bookmarks
+    comparison_surfaces:
+      - AGENTS.md
+      - docs/ideal.md
+      - docs/spec.md
+      - README.md
+      - docs/methodology-ideal-spec-compromise.md
+      - docs/methodology/state.yaml
+      - docs/methodology/graph.json
+      - docs/build-map.md
+      - docs/setup-checklist.md
+      - docs/runbooks/setup-methodology.md
+      - docs/scout.md
+      - docs/scout
+      - .agents/skills
+      - .codex/environments/environment.toml
+      - scripts/local-dev-ports.mjs
+      - scripts/local-service.mjs
+      - scripts/dev-local
+      - docs/stories
+      - docs/decisions

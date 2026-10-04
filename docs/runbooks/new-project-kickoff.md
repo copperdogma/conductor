@@ -49,6 +49,14 @@ The agent reads the seed and returns a kickoff brief:
 This phase is conversational. Cam can correct the classification, add missing
 constraints, reject overhead, or ask for a different first proof.
 
+When the seed exposes a nontrivial obstacle with an uncertain next step, use
+local evidence to name its general problem class before proposing a workaround.
+Check applicable prior research first; otherwise consult a few relevant primary
+sources and choose a small local check of applicability. Skip research ceremony
+for obvious fixes. When setup creates `AGENTS.md`, include a concise version of
+this rule, reuse boundaries from intake, and direct reusable sources, decisions,
+results, and uncertainty to existing project notes.
+
 ### 3. Approval
 
 Setup starts only after Cam approves a named plan. A bare `yes` means "do the

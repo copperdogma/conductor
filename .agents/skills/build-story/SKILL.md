@@ -29,6 +29,11 @@ Use this to take a Conductor story from story text to implemented supervisor art
    source-specific official docs/connectors first when available; otherwise use
    first-party docs, release notes, or changelogs. Local
    Ideal/spec/compromise/evals still define the acceptance contract.
+   For an unfamiliar material obstacle, also apply AGENTS' problem-class
+   research rule: diagnose locally, compare established techniques, and choose
+   the smallest local experiment before planning a speculative workaround.
+   Reuse applicable research and record useful sources, assumptions, the
+   decision, and uncertainty in the existing work log. Obvious fixes skip this.
 6. Add a work-log entry describing:
    - files to change
    - tracked projects affected
@@ -96,6 +101,12 @@ context. Keep routine small stories single-threaded.
 
 1. Set the story to `In Progress`.
 2. Implement the planned changes.
+   - Keep the research trigger active after planning: a new uncertain obstacle
+     or repeated failed approach calls for revisiting its general class before
+     adding retries or special cases. Verify the chosen technique locally.
+   - For long-running work, follow AGENTS' strategy-review cadence within the
+     approved scope and budget. Reassess the user outcome as well as local
+     metrics; preserve acceptance criteria and project reuse boundaries.
 3. Run the narrowest honest checks:
    - `make methodology-compile`
    - `make methodology-check`

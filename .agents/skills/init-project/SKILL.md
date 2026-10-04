@@ -61,15 +61,30 @@ runbook is unavailable, continue with this skill's embedded workflow.
      runtime/ports, UI scout, source-intake, ADRs, scout logs, README, and
      Codex environment setup.
    - Mark each important optional surface as adopt, adapt, defer, or reject.
+   - When intake exposes a nontrivial obstacle that makes the first approach
+     uncertain, inspect local evidence, name the general problem class, and
+     check applicable prior research before proposing a workaround. If none
+     applies, use a bounded pass over relevant primary sources and identify a
+     small local applicability check. Obvious fixes need no research ceremony.
 5. **Discuss**
    - Present the kickoff brief, alternatives, and the first proof story.
    - Ask only the questions needed to resolve material ambiguity.
    - Incorporate the user's corrections before setup.
 6. **Set Up After Approval**
-   - After explicit approval, create the agreed files and first story.
+   - After explicit approval, create the agreed files; create a first story
+     only when the approved setup package includes it.
    - Run `/setup-methodology greenfield` only after real, reviewed
      `docs/ideal.md` and `docs/spec.md` exist and the chosen package warrants
      it.
+   - Include a concise, project-specific form of the research rule in the new
+     `AGENTS.md`: reuse applicable prior findings; for unfamiliar material
+     obstacles, diagnose locally, consult a few relevant primary sources, and
+     verify a chosen approach with a small local check. Record reusable
+     sources, the decision, result, and uncertainty in existing project notes.
+     Stop research once the next experiment is clear; repeated failures call
+     for reframing before more special cases. Keep this in lean kickoffs even
+     when full methodology setup is deferred.
+     Preserve implementation-reuse boundaries and acceptance criteria.
 
 ## Kickoff Brief Shape
 

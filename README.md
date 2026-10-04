@@ -46,3 +46,7 @@ changes use focused tests, broadening to `make test` when shared effects warrant
 it. Refresh generated planning surfaces with `make methodology-compile` when
 their sources change, before the final methodology check. Commits and story
 bookkeeping do not require repeating checks over unchanged inputs.
+
+Long-running `/loop-review` and `/loop-verify` work uses bounded problem-class
+research and periodic strategy checkpoints within existing scope, budgets,
+and stop rules; see [Alignment 053](docs/alignments/align-053-research-before-reinvention.md).

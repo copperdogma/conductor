@@ -40,3 +40,13 @@
 - [x] `make skills-check`
 - [x] `make lint`
 - [x] `make test`
+
+## Research before reinvention (Alignment 053)
+
+- [x] Kickoff and setup skills/runbooks carry conditional problem-class research
+      guidance and preserve the lean setup variant
+- [x] Conductor `AGENTS.md`, `/build-story`, `/validate`, `/loop-review`, and
+      `/loop-verify` implement the approved local guidance and checkpoints
+- [x] Local checks and independent scenario review completed; evidence and
+      validator compatibility note recorded in
+      [Alignment 053](alignments/align-053-research-before-reinvention.md)

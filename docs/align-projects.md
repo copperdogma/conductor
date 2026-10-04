@@ -11,6 +11,16 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-10-04` — [Alignment 053 — Research Before Reinvention](./alignments/align-053-research-before-reinvention.md)
+  Implemented the existing global/Ultima research rule in Conductor's
+  project setup, build, validation, and periodic loop-verify/loop-review
+  checkpoints, with bounded research and local proof. Local checks and simulated
+  scenario review passed. Cam subsequently selected the ten managed projects
+  plus VLC Thumbs for isolated owner rollout; scoped patches and owner checks
+  are recorded in the alignment. All eleven owner commits are landed and
+  verified on remote main; active primary work is preserved.
+
+
 - `2026-10-01` — [Alignment 051 — Agent Instructions and Decision Models](./alignments/align-051-agent-instructions-and-decision-models.md)
   Completed owner rollout with remote-main receipts; host upgraded and AGENTS loading verified.
 

@@ -1,0 +1,1777 @@
+{
+  "alignment": 53,
+  "date": "2026-10-04",
+  "authorization": "Rollout to all relevant projects; membership: Ten plus VLC",
+  "landing_authorized": true,
+  "projects": [
+    {
+      "project": "boardgame-ingester",
+      "name": "Board Game Ingester",
+      "primary": "/Users/cam/Documents/Projects/boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/boardgame-ingester",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "9ba7543e91548d22d4d3ac3a85194df5077e72c4",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "1a4b90e8a4b9dcd5e9b1ac21d0c318d7e755336f2eceb3ed63f7b58e1bd7151b"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "ffcab9cc7b6bfa8d8a54362cff347dd2c74f74cd16c07f638897bf49fe8d1e2a"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "204a4a4e835ca69b69af6caa98a0a60a8a7e578069d787b50b2b7167a521b9ef"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "ec4d2015f55f497c465d5f667f78c60dfdb8a4b24c26bd9a2125872662566a59"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "aea553b5f0229eab588ed669bda85429e34e7b87b401f3fa839f674448dda6f0"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "6cd592623b98589a5097e00060e974be2eef82f40edcf8ac92435ab497042371"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "09a32b7fd0858009595d6c0bce44e39725167b56d3bb2d09301795d085900730"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "4d6731003335531746c50cf761ed60ff5eeada907f01380553f4e9bedfdc6c6b"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "dfa36f89a730f2052c46afe5edc08e122af5ac022d78f031ee1eb834c7acd97d"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "8f0b111add12e17f2edd8b91032db53a19bebff7803b1110cb9d9cafb1b9d43e"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "1f14e58060ef5df9ee355aa966cab5c5dca948bae3f3eb6d6b86942de236808d"
+        }
+      ],
+      "owner_validation": {
+        "repo": "boardgame-ingester",
+        "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/boardgame-ingester",
+        "branch": "codex/research-before-reinvention-20261004",
+        "base": "9ba7543e91548d22d4d3ac3a85194df5077e72c4",
+        "setup_source_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+        "adaptation": "Shared setup skill refreshed from Conductor, with the phase-specific reset paragraph adapted to the owner verifier contract: any material strict-mode fix resets the full original scope only within convergence, budget, and scope. Owner intake, build, validate, loop-review approval and follow-through retained; no phase redesign.",
+        "checks": [
+          {
+            "commands": [
+              "make skills-check",
+              "make methodology-check",
+              "make lint",
+              "git diff --check"
+            ],
+            "outcome": "passed",
+            "exit_code": 0,
+            "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (29 canonical skills; compatibility links ok; command aliases optional)\n/opt/homebrew/bin/python3 scripts/methodology_graph.py check\nMethodology graph is current: docs/methodology/graph.json\n/opt/homebrew/bin/python3 -m py_compile scripts/methodology_graph.py scripts/triage_facts.py\n"
+          },
+          {
+            "command": "python3 /tmp/audit-rollout-group-b.py",
+            "outcome": "passed",
+            "details": "Source checkpoint sections match. Original root, intake, build, validate, and loop-review bodies unchanged after removing inserted hooks. Owner full-scope reset policy and setup agreement retained. Single-pass workers, budget precedence, interrupted cadence, lean intake, implementation trigger, and scoped clean termination are explicit."
+          },
+          {
+            "commands": [
+              "make skills-check",
+              "git diff --check"
+            ],
+            "outcome": "passed",
+            "exit_code": 0,
+            "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (29 canonical skills; compatibility links ok; command aliases optional)\n",
+            "context": "Final affected checks after refreshing the existing setup checklist template; earlier methodology checks reused because compiler inputs stayed unchanged."
+          },
+          {
+            "command": "git diff --no-index --check /dev/null docs/research-before-reinvention.md",
+            "outcome": "passed",
+            "exit_code": 1,
+            "details": "No whitespace diagnostics; exit 1 denotes the new-file diff."
+          }
+        ],
+        "paths": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/init-project/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "template_audit": "Existing owner checklist template now contains unchecked research, implementation, validation, cadence continuity, overdue budget precedence, and scoped clean-termination items; local template content preserved."
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "b6e6edf8a4fe6592b2596f03482df921cf01e19f",
+      "remote_main_verified": "b6e6edf8a4fe6592b2596f03482df921cf01e19f",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "1a4b90e8a4b9dcd5e9b1ac21d0c318d7e755336f2eceb3ed63f7b58e1bd7151b"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "ffcab9cc7b6bfa8d8a54362cff347dd2c74f74cd16c07f638897bf49fe8d1e2a"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "204a4a4e835ca69b69af6caa98a0a60a8a7e578069d787b50b2b7167a521b9ef"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "ec4d2015f55f497c465d5f667f78c60dfdb8a4b24c26bd9a2125872662566a59"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "aea553b5f0229eab588ed669bda85429e34e7b87b401f3fa839f674448dda6f0"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "6cd592623b98589a5097e00060e974be2eef82f40edcf8ac92435ab497042371"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "09a32b7fd0858009595d6c0bce44e39725167b56d3bb2d09301795d085900730"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "4d6731003335531746c50cf761ed60ff5eeada907f01380553f4e9bedfdc6c6b"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "1e82646ccbca1269ee9aab5f7e66ca7973fcedf7f2d7bfe2fa2c24b6f9df3582"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "560ac669c2af9266184fba4c9c89c1c84b2a111d1a03b070c37230ade56ad589"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "8f0b111add12e17f2edd8b91032db53a19bebff7803b1110cb9d9cafb1b9d43e"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "1f14e58060ef5df9ee355aa966cab5c5dca948bae3f3eb6d6b86942de236808d"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "cine-forge",
+      "name": "CineForge",
+      "primary": "/Users/cam/Documents/Projects/cine-forge",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/cine-forge",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "714802a53275a959ffb250c355ce13ae8e6d85ae",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "a0fa25aa3cc3480abdb646b8e94aa9bec4bbd768349c81d4ecf3c49157d14825"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "95c2f4ae2f9d83753af386584e7126816de9749e46501d4522c7ade4004174e6"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "d5eee7ac404fada7e32c08f6f88c11433a90e2ab406d8fe7b8ec2b173200342b"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "ec4d2015f55f497c465d5f667f78c60dfdb8a4b24c26bd9a2125872662566a59"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "aea553b5f0229eab588ed669bda85429e34e7b87b401f3fa839f674448dda6f0"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "768af6d1b016a669a5c18dc520d5e63573cf738460111934edb939c08aa96034"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "a7e0ce3b5c9652182c32187205dc4619cb9ef327d39e094bab40c13623f192cd"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "c30e4e5d4aed3da5a5641fa45184310838a649520a180ce7f62b0b94894d4eca"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "8f0303a5faba0cc7402caf75b673738d06c51ac5451066e818c73e0626806987"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "3f7b43f82f3c38bc2780143a83cf8e75362ffb82174dd2034f6f0438d41abc3d"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "065d07bc0b062b8c530e44a5992a4f5840d04a8549379378c402e3eb0c6e5ddf"
+        }
+      ],
+      "owner_validation": {
+        "repo": "cine-forge",
+        "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/cine-forge",
+        "branch": "codex/research-before-reinvention-20261004",
+        "base": "714802a53275a959ffb250c355ce13ae8e6d85ae",
+        "setup_source_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+        "adaptation": "Shared setup skill refreshed from Conductor, with the phase-specific reset paragraph adapted to the owner verifier contract: any material strict-mode fix resets the full original scope only within convergence, budget, and scope. Owner intake, build, validate, loop-review approval and follow-through retained; no phase redesign.",
+        "checks": [
+          {
+            "commands": [
+              "make skills-check",
+              "node scripts/methodology-graph.js check",
+              "git diff --check"
+            ],
+            "outcome": "passed",
+            "exit_code": 0,
+            "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (40 canonical skills; compatibility links ok; command aliases optional)\nMethodology warnings:\n- Architecture audit domains due or carrying open findings: ingest_and_world_building, api_service_and_operator_console, generation_and_visualization\n- UI scout freshness due: attention needed \u2014 last run 2026-04-12 is 175 days old against a 14-day cadence\nMethodology outputs are current: docs/methodology/graph.json\n"
+          },
+          {
+            "command": "python3 /tmp/audit-rollout-group-b.py",
+            "outcome": "passed",
+            "details": "Source checkpoint sections match. Original root, intake, build, validate, and loop-review bodies unchanged after removing inserted hooks. Owner full-scope reset policy and setup agreement retained. Single-pass workers, budget precedence, interrupted cadence, lean intake, implementation trigger, and scoped clean termination are explicit."
+          },
+          {
+            "commands": [
+              "make skills-check",
+              "git diff --check"
+            ],
+            "outcome": "passed",
+            "exit_code": 0,
+            "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (40 canonical skills; compatibility links ok; command aliases optional)\n",
+            "context": "Final affected checks after refreshing the existing setup checklist template; earlier methodology checks reused because compiler inputs stayed unchanged."
+          },
+          {
+            "command": "git diff --no-index --check /dev/null docs/research-before-reinvention.md",
+            "outcome": "passed",
+            "exit_code": 1,
+            "details": "No whitespace diagnostics; exit 1 denotes the new-file diff."
+          }
+        ],
+        "paths": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/init-project/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "template_audit": "Existing owner checklist template now contains unchecked research, implementation, validation, cadence continuity, overdue budget precedence, and scoped clean-termination items; local template content preserved."
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "2e148974583e731bedd32e4896b282a94134aeff",
+      "remote_main_verified": "2e148974583e731bedd32e4896b282a94134aeff",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "a0fa25aa3cc3480abdb646b8e94aa9bec4bbd768349c81d4ecf3c49157d14825"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "95c2f4ae2f9d83753af386584e7126816de9749e46501d4522c7ade4004174e6"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "d5eee7ac404fada7e32c08f6f88c11433a90e2ab406d8fe7b8ec2b173200342b"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "ec4d2015f55f497c465d5f667f78c60dfdb8a4b24c26bd9a2125872662566a59"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "aea553b5f0229eab588ed669bda85429e34e7b87b401f3fa839f674448dda6f0"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "768af6d1b016a669a5c18dc520d5e63573cf738460111934edb939c08aa96034"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "a7e0ce3b5c9652182c32187205dc4619cb9ef327d39e094bab40c13623f192cd"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "c30e4e5d4aed3da5a5641fa45184310838a649520a180ce7f62b0b94894d4eca"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "f115adff8cdabe062e9dad35840b8729f6bd74c3753ecb6abec7e8f87ddc15ee"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "9815ea61560a6a14a2e9105bc399f93af0a5cf5065aaf7c5e5751075e417d34c"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "3f7b43f82f3c38bc2780143a83cf8e75362ffb82174dd2034f6f0438d41abc3d"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "065d07bc0b062b8c530e44a5992a4f5840d04a8549379378c402e3eb0c6e5ddf"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "doc-web",
+      "name": "Doc Web",
+      "primary": "/Users/cam/Documents/Projects/doc-web",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/doc-web",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "6fec862221296ae8036b26a298b61af71645fa94",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "939b4a740411176e99238b23da825e0ea8f1225819456ef3127a5edc74e9dd2e"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "7d6e743bdf1aae83e92841f3f72ce6cd036ab7eb52802d9a3af90df92955cb37"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "1138acec035a670d696fc5c6b16120ed29ecf0890ba74b36477f53f5653fa4c7"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "13608457d246843d1eae37bc6fd093896b21d5ef1d236b091bb69f765d779748"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "3ebfef65e942f2e98ded51d843eb3ae6f31acba8c07a1a2ce32c3034812b38dc"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d2a6c9d88fa134d21dc12e7e98a446e6e93aed2e09ff3583ff2dbb4fad1f2a57"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "94a7d7d8e865d002a8eef2dc52b96ad1b8abcbe73b144e06b53112d98cd01f1f"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "1e4e0bfc6f04a6893f881ee2f7384e7aeb4f54d479203c69a659fae2e36a06a5"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "b1ccfda63c6b34318d2edacfff1a4e9e0f37e8da3e40d169b835d9eac3627407"
+        }
+      ],
+      "owner_validation": {
+        "repo": "doc-web",
+        "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/doc-web",
+        "base": "6fec862221296ae8036b26a298b61af71645fa94",
+        "files": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "validation": [
+          {
+            "command": "manual scoped claim/contract review and instruction scenario walkthrough",
+            "exit_code": 0,
+            "output": "Obvious fix: targeted check, no research ritual. Unfamiliar failure: diagnose/generalize/research/local test. Same-class failures twice: systemic stop before periodic cadence. Proxy improvement: compare user outcome and established alternative. Applicable prior sources: reuse with a reason. Interruption: preserve active counters and timed cadence. Exhausted budget: no catch-up/extra round. Restricted reuse: owner gates retained. Clean verifier: stop, broader goal reviewed separately."
+          },
+          {
+            "command": "make skills-check",
+            "exit_code": 0,
+            "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (29 canonical skills; compatibility links ok; command aliases optional)"
+          },
+          {
+            "command": "make methodology-check",
+            "exit_code": 0,
+            "output": "/Users/cam/miniconda3/bin/python scripts/methodology_graph.py check\nMethodology graph is current: docs/methodology/graph.json"
+          },
+          {
+            "command": "quick_validate.py temporary projections omitting only established user-invocable field; original name and invocation checked",
+            "exit_code": 0,
+            "output": "5 touched skills passed: .agents/skills/build-story/SKILL.md, .agents/skills/loop-review/SKILL.md, .agents/skills/loop-verify/SKILL.md, .agents/skills/setup-methodology/SKILL.md, .agents/skills/validate/SKILL.md"
+          },
+          {
+            "command": "git diff --check",
+            "exit_code": 0,
+            "output": ""
+          },
+          {
+            "command": "manual setup/verifier reset consistency check",
+            "exit_code": 0,
+            "output": "Owner strict mode material fixes reset full original scope in both setup and loop-verify; source research/cadence text retained."
+          },
+          {
+            "command": "make methodology-check (after setup adaptation)",
+            "exit_code": 0,
+            "output": "/Users/cam/miniconda3/bin/python scripts/methodology_graph.py check\nMethodology graph is current: docs/methodology/graph.json"
+          },
+          {
+            "command": "bash scripts/sync-agent-skills.sh --check (after setup adaptation)",
+            "exit_code": 0,
+            "output": "skills-check: OK (29 canonical skills; compatibility links ok; command aliases optional)"
+          },
+          {
+            "command": "git diff --check (after setup adaptation)",
+            "exit_code": 0,
+            "output": ""
+          },
+          {
+            "command": "quick_validate.py setup temporary projection after strict-reset adaptation",
+            "exit_code": 0,
+            "output": "Passed; only established user-invocable field omitted on temporary copy."
+          },
+          {
+            "command": "template future-state review and git diff --check",
+            "exit_code": 0,
+            "output": "Future setup template tasks remain unchecked; current working-checklist entries checked against applied scope."
+          }
+        ],
+        "caveats": [
+          "No product effectiveness measurement",
+          "Intentional setup-only adaptation preserves existing owner strict-reset semantics; no phase redesign"
+        ],
+        "source_setup_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+        "applied_setup_sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3",
+        "setup_adaptation": "Replace only candidate-close/focused-confirmation reset guidance with owner material-fix full-original-scope reset rule"
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "dd4438435a2c06749b03185149603c7284d0d227",
+      "remote_main_verified": "dd4438435a2c06749b03185149603c7284d0d227",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "939b4a740411176e99238b23da825e0ea8f1225819456ef3127a5edc74e9dd2e"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "7d6e743bdf1aae83e92841f3f72ce6cd036ab7eb52802d9a3af90df92955cb37"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "1138acec035a670d696fc5c6b16120ed29ecf0890ba74b36477f53f5653fa4c7"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "13608457d246843d1eae37bc6fd093896b21d5ef1d236b091bb69f765d779748"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "3ebfef65e942f2e98ded51d843eb3ae6f31acba8c07a1a2ce32c3034812b38dc"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d2a6c9d88fa134d21dc12e7e98a446e6e93aed2e09ff3583ff2dbb4fad1f2a57"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "9b8537bffe6148818e4de32ddd802809ba9d9fc6f16421c3aa83de71c871bf4a"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "203a3b014d0f513274461a73512002d48f738d4e7cd6c8cf8984360f7937c7fe"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "1e4e0bfc6f04a6893f881ee2f7384e7aeb4f54d479203c69a659fae2e36a06a5"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "b1ccfda63c6b34318d2edacfff1a4e9e0f37e8da3e40d169b835d9eac3627407"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "dossier",
+      "name": "Dossier",
+      "primary": "/Users/cam/Documents/Projects/dossier",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/dossier",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "ed7b0d6b4cfe20641c894b5464e4a68b07ec7988",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "b12a2c6d8163d581c97cf80f368794b50ef7fb023a5e73667f2dbc7f599ce338"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "7d6e743bdf1aae83e92841f3f72ce6cd036ab7eb52802d9a3af90df92955cb37"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "1138acec035a670d696fc5c6b16120ed29ecf0890ba74b36477f53f5653fa4c7"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "548d99e6e9612e2143736c57e63fee4b9fc414d239c8a9a7f4d9b6948041bf4d"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "ac8b5f3bbf01dc9676acfc3ad1fa10d3c3149aa41cfad3e9bb55fb4b466cb1d6"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "598fb1286eee8e08ff60ecdb8327f85a415fe426e1ae821f743998aac135827e"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "fba5ce1666a8cac8efbc578f78983dba94f0adabf57ebf6d3f6e8f5f9af9f68f"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "86882d33dd6cc18c6c0fe057ed0064214f45f7622061fc0190404b8dbe9da07b"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "d8e6f312b505604b5387ccd2146b01cc4d4b10c601451bf4841f3c697b8c681d"
+        }
+      ],
+      "owner_validation": {
+        "repo": "dossier",
+        "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/dossier",
+        "base": "ed7b0d6b4cfe20641c894b5464e4a68b07ec7988",
+        "files": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "validation": [
+          {
+            "command": "manual scoped claim/contract review and instruction scenario walkthrough",
+            "exit_code": 0,
+            "output": "Obvious fix: targeted check, no research ritual. Unfamiliar failure: diagnose/generalize/research/local test. Same-class failures twice: systemic stop before periodic cadence. Proxy improvement: compare user outcome and established alternative. Applicable prior sources: reuse with a reason. Interruption: preserve active counters and timed cadence. Exhausted budget: no catch-up/extra round. Restricted reuse: owner gates retained. Clean verifier: stop, broader goal reviewed separately."
+          },
+          {
+            "command": "make skills-check",
+            "exit_code": 0,
+            "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (32 canonical skills; compatibility links ok; command aliases optional)"
+          },
+          {
+            "command": "make methodology-check PYTHON=/Users/cam/Documents/Projects/dossier/.venv/bin/python",
+            "exit_code": 0,
+            "output": "/Users/cam/Documents/Projects/dossier/.venv/bin/python scripts/methodology_graph.py check\nMethodology graph is current: docs/methodology/graph.json\nwarning: story 076 references non-local ADR ADR-019\nwarning: story 078 references non-local ADR ADR-021\nwarning: story 081 references non-local ADR ADR-021\nwarning: ADR ADR-002 references non-local compromise C6\nwarning: ADR ADR-003 references non-local compromise C6\nwarning: ADR ADR-004 references non-local compromise C6\nwarning: ADR ADR-005 references non-local compromise C6\nwarning: stories still on legacy metadata: 178 (supported intentionally during migration)\nwarning: ADRs still on legacy metadata: 11 (supported intentionally during migration)"
+          },
+          {
+            "command": "quick_validate.py temporary projections omitting only established user-invocable field; original name and invocation checked",
+            "exit_code": 0,
+            "output": "5 touched skills passed: .agents/skills/build-story/SKILL.md, .agents/skills/loop-review/SKILL.md, .agents/skills/loop-verify/SKILL.md, .agents/skills/setup-methodology/SKILL.md, .agents/skills/validate/SKILL.md"
+          },
+          {
+            "command": "git diff --check",
+            "exit_code": 0,
+            "output": ""
+          },
+          {
+            "command": "manual setup/verifier reset consistency check",
+            "exit_code": 0,
+            "output": "Owner strict mode material fixes reset full original scope in both setup and loop-verify; source research/cadence text retained."
+          },
+          {
+            "command": "make methodology-check PYTHON=/Users/cam/Documents/Projects/dossier/.venv/bin/python (after setup adaptation)",
+            "exit_code": 0,
+            "output": "/Users/cam/Documents/Projects/dossier/.venv/bin/python scripts/methodology_graph.py check\nMethodology graph is current: docs/methodology/graph.json\nwarning: story 076 references non-local ADR ADR-019\nwarning: story 078 references non-local ADR ADR-021\nwarning: story 081 references non-local ADR ADR-021\nwarning: ADR ADR-002 references non-local compromise C6\nwarning: ADR ADR-003 references non-local compromise C6\nwarning: ADR ADR-004 references non-local compromise C6\nwarning: ADR ADR-005 references non-local compromise C6\nwarning: stories still on legacy metadata: 178 (supported intentionally during migration)\nwarning: ADRs still on legacy metadata: 11 (supported intentionally during migration)"
+          },
+          {
+            "command": "bash scripts/sync-agent-skills.sh --check (after setup adaptation)",
+            "exit_code": 0,
+            "output": "skills-check: OK (32 canonical skills; compatibility links ok; command aliases optional)"
+          },
+          {
+            "command": "git diff --check (after setup adaptation)",
+            "exit_code": 0,
+            "output": ""
+          },
+          {
+            "command": "quick_validate.py setup temporary projection after strict-reset adaptation",
+            "exit_code": 0,
+            "output": "Passed; only established user-invocable field omitted on temporary copy."
+          },
+          {
+            "command": "template future-state review and git diff --check",
+            "exit_code": 0,
+            "output": "Future setup template tasks remain unchecked; current working-checklist entries checked against applied scope."
+          }
+        ],
+        "caveats": [
+          "No product effectiveness measurement",
+          "Intentional setup-only adaptation preserves existing owner strict-reset semantics; no phase redesign"
+        ],
+        "source_setup_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+        "applied_setup_sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3",
+        "setup_adaptation": "Replace only candidate-close/focused-confirmation reset guidance with owner material-fix full-original-scope reset rule"
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "15ac295ea705a9fdd00590b2e5855b34ee05a256",
+      "remote_main_verified": "15ac295ea705a9fdd00590b2e5855b34ee05a256",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "b12a2c6d8163d581c97cf80f368794b50ef7fb023a5e73667f2dbc7f599ce338"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "7d6e743bdf1aae83e92841f3f72ce6cd036ab7eb52802d9a3af90df92955cb37"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "1138acec035a670d696fc5c6b16120ed29ecf0890ba74b36477f53f5653fa4c7"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "548d99e6e9612e2143736c57e63fee4b9fc414d239c8a9a7f4d9b6948041bf4d"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "ac8b5f3bbf01dc9676acfc3ad1fa10d3c3149aa41cfad3e9bb55fb4b466cb1d6"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "598fb1286eee8e08ff60ecdb8327f85a415fe426e1ae821f743998aac135827e"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "927e7fd434bb04dd2b490a5759444965fec195b71857e96773dec76be5a03457"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "bc0558a7eb7004a0bf3d0476bfd30e11f09059fdb638af37d7f96301688d8fec"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "86882d33dd6cc18c6c0fe057ed0064214f45f7622061fc0190404b8dbe9da07b"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "d8e6f312b505604b5387ccd2146b01cc4d4b10c601451bf4841f3c697b8c681d"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "echo-forge",
+      "name": "Echo Forge",
+      "primary": "/Users/cam/Documents/Projects/echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/echo-forge",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "4a5cddb37cc21cd7cff08722315d499344a7de30",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "342d4bd34fdd638f38bd176d543f71d91559e78f1d7613b73d4cb49200878c2b"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "c3fd3e222794818e099214b4084f69b0e084a0dac32eca0bb20f3b774e988898"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "c53c6428a00d2099b225fff9f1cbdf26c084e0c329fd48881797a284c8d1b005"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "37acb2b7d89c17ad06c0a75d0f78ed730a2065f840588dc975ec5cb819cbc057"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "34ec636b6e52fd7c1daaea3b5ae76a2eb772634034c7a344d3e81a59ed631d57"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "b381479b50a4b909211208331c345156136dbbae46fa7e543d9025b6fa865359"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "ef9588424d0d17e70713029f5f1201860e532ce3108fcb5890d2df57c8694cec"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "f6de7376d6510e16a61975302960a60f2ad32d938844fc3da0be82a8660061fe"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "5db339d5fd670f18e5d3267848836e48001daf07434954efd403dedc8cbaf455"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "c021ce532d2c70f9e9bdbba3498d05f4d5dd578833bd64bffb5b85d6bb2ca887"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "ee17db50cfec7987ca9a3c40ab9839dd6337c3054366113ac237331730feeafb"
+        }
+      ],
+      "owner_validation": {
+        "repo": "echo-forge",
+        "path": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/echo-forge",
+        "base": "4a5cddb37cc21cd7cff08722315d499344a7de30",
+        "adaptations": [
+          "Preserve rights/provenance and the live-table outcome; audio/model benchmarks alone do not establish table usefulness.",
+          "Current setup guidance deliberately preserves native full-original-scope strict resets; no candidate-close phase redesign.",
+          "Init/build/validate retain product owner workflows with narrow research hooks; loop-verify gains only coordinator checkpoints and systemic-stop precedence."
+        ],
+        "checks": [
+          {
+            "command": "pnpm run skills:check",
+            "result": "passed; 39 canonical skills and compatibility links"
+          },
+          {
+            "command": "pnpm run methodology:check",
+            "result": "passed; 8 categories, 78 stories; existing No Ideal requirements parsed warning"
+          },
+          {
+            "command": "native frontmatter and scoped instruction invariant check",
+            "result": "passed all six skills; strategy/stop/reuse/cadence invariants present"
+          },
+          {
+            "command": "git diff --check and new-file trailing whitespace inspection",
+            "result": "passed"
+          }
+        ],
+        "scenario_walkthrough": [
+          {
+            "scenario": "obvious fix",
+            "decision": "targeted local correction; no research ceremony"
+          },
+          {
+            "scenario": "unfamiliar/repeated failure",
+            "decision": "local diagnosis, general problem class, prior research or bounded primary-source comparison before retries"
+          },
+          {
+            "scenario": "two same-class passes or two resets without narrowing",
+            "decision": "immediate systemic-audit/non-convergent stop; periodic cadence cannot bypass it"
+          },
+          {
+            "scenario": "proxy metric improves with no user benefit",
+            "decision": "proactively compare a meaningfully different established technique; no automatic pivot or execution"
+          },
+          {
+            "scenario": "applicable recent research",
+            "decision": "reuse with stated applicability; no mandatory fresh search"
+          },
+          {
+            "scenario": "interruption at 20 minutes/two rounds then 11 minutes/one round",
+            "decision": "comparison due at 31 active minutes/three rounds; brief checks and waits do not reset counters"
+          },
+          {
+            "scenario": "overdue timed checkpoint",
+            "decision": "one current-state comparison only within remaining authorization; retain original next deadline"
+          },
+          {
+            "scenario": "budget/deadline exhausted",
+            "decision": "no catch-up research, extra round or implicit extension"
+          },
+          {
+            "scenario": "clean verifier but broader goal incomplete",
+            "decision": "end verifier and assess broader mismatch separately"
+          },
+          {
+            "scenario": "owner reuse boundaries",
+            "decision": "Ultima prohibits completed-implementation copying; VLC licensed upstream reuse appropriate; native/media/persistence evidence separate"
+          }
+        ],
+        "changed_files": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/init-project/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "diff_stat": ".agents/skills/build-story/SKILL.md                | 13 ++++\n .agents/skills/init-project/SKILL.md               | 12 ++++\n .agents/skills/loop-review/SKILL.md                | 50 ++++++++++++++++\n .agents/skills/loop-verify/SKILL.md                | 69 ++++++++++++++++++++++\n .agents/skills/setup-methodology/SKILL.md          | 55 ++++++++++++++---\n .../setup-methodology/templates/setup-checklist.md |  9 +++\n .agents/skills/validate/SKILL.md                   | 10 ++++\n AGENTS.md                                          | 23 ++++++++\n docs/runbooks/setup-methodology.md                 | 12 ++++\n docs/setup-checklist.md                            |  9 +++\n 10 files changed, 255 insertions(+), 7 deletions(-)",
+        "status": "complete, uncommitted"
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "95b176e11b7760e7ca2472552a418cd5d413ce27",
+      "remote_main_verified": "95b176e11b7760e7ca2472552a418cd5d413ce27",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "342d4bd34fdd638f38bd176d543f71d91559e78f1d7613b73d4cb49200878c2b"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "c3fd3e222794818e099214b4084f69b0e084a0dac32eca0bb20f3b774e988898"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "c53c6428a00d2099b225fff9f1cbdf26c084e0c329fd48881797a284c8d1b005"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "37acb2b7d89c17ad06c0a75d0f78ed730a2065f840588dc975ec5cb819cbc057"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "34ec636b6e52fd7c1daaea3b5ae76a2eb772634034c7a344d3e81a59ed631d57"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "b381479b50a4b909211208331c345156136dbbae46fa7e543d9025b6fa865359"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "ef9588424d0d17e70713029f5f1201860e532ce3108fcb5890d2df57c8694cec"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "f6de7376d6510e16a61975302960a60f2ad32d938844fc3da0be82a8660061fe"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "93530a68b9a2fcaf5ae6bccb2d4309c7724d4edb9139653881620af895d7b649"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "45703654c2b5cc80793caf89d6332975a5560d2e2fa45fcaf8f1f0e96c6e578e"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "c021ce532d2c70f9e9bdbba3498d05f4d5dd578833bd64bffb5b85d6bb2ca887"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "ee17db50cfec7987ca9a3c40ab9839dd6337c3054366113ac237331730feeafb"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "financial-hub",
+      "name": "Financial Hub",
+      "primary": "/Users/cam/Documents/Projects/financial-hub",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/financial-hub",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "21e9b0211095f9ddabf31d778d41e8b991faafff",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "98172141bb21808f70fe320ed14fde85146d113b43cd83a4d59c9edbf8083b8d"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "f2628ecfa9b70b8c135ccf6bf25745d19c8d5038dcd06d049d59d5a89b9a23bb"
+        }
+      ],
+      "owner_validation": {
+        "key": "financial-hub",
+        "paths": [
+          "AGENTS.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "base": "21e9b0211095f9ddabf31d778d41e8b991faafff",
+        "checks": [
+          {
+            "command": "git diff --check",
+            "exit_code": 0
+          },
+          {
+            "command": "Verify preexisting AGENTS.md content preserved",
+            "exit_code": 0
+          }
+        ],
+        "adaptations": [
+          "Manual strategic checkpoint; no absent harness installed",
+          "Privacy-safe general research; financial authorization and owner boundaries preserved"
+        ]
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "f6f44b5ea467c336a5e469b4fb9174fd1b029a29",
+      "remote_main_verified": "f6f44b5ea467c336a5e469b4fb9174fd1b029a29",
+      "final_committed_files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "98172141bb21808f70fe320ed14fde85146d113b43cd83a4d59c9edbf8083b8d"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "463ec81ac6dced9f24857101a13b6b78e3f0f4d4133e377ba2d160d57b99e2b0"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "financial-monthly-analysis",
+      "name": "Financial Monthly Analysis",
+      "primary": "/Users/cam/Documents/Projects/financial-monthly-analysis",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/financial-monthly-analysis",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "555cd158cc6dc198f49a259a16e9f763666f5419",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "2743fd1238fe66974c39c8c23293b4bcf1f08e7d9333b6ec326ad51b6722afd2"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "f2628ecfa9b70b8c135ccf6bf25745d19c8d5038dcd06d049d59d5a89b9a23bb"
+        }
+      ],
+      "owner_validation": {
+        "key": "financial-monthly-analysis",
+        "paths": [
+          "AGENTS.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "base": "555cd158cc6dc198f49a259a16e9f763666f5419",
+        "checks": [
+          {
+            "command": "git diff --check",
+            "exit_code": 0
+          },
+          {
+            "command": "Verify preexisting AGENTS.md content preserved",
+            "exit_code": 0
+          }
+        ],
+        "adaptations": [
+          "Manual strategic checkpoint; no absent harness installed",
+          "Privacy-safe general research; financial authorization and owner boundaries preserved"
+        ]
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "dfa19f563a82b6a0d80cb645cf6469cb1e794e63",
+      "remote_main_verified": "dfa19f563a82b6a0d80cb645cf6469cb1e794e63",
+      "final_committed_files": [
+        {
+          "path": "AGENTS.md",
+          "sha256": "2743fd1238fe66974c39c8c23293b4bcf1f08e7d9333b6ec326ad51b6722afd2"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "463ec81ac6dced9f24857101a13b6b78e3f0f4d4133e377ba2d160d57b99e2b0"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "roborally",
+      "name": "Robo Rally",
+      "primary": "/Users/cam/Documents/Projects/roborally",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/roborally",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "4bbef77e0b50cff9b745c639392a354608be147f",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "4664dbd9b21766d0efe22b42cccb3da6615a8ca2103d77b7bd65b79ee19ab392"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "5cf5fecf90e8d22d53d878661153d3c3cfd3358a4eccf254d1dc6c90c2da3d40"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "c53c6428a00d2099b225fff9f1cbdf26c084e0c329fd48881797a284c8d1b005"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "ec4d2015f55f497c465d5f667f78c60dfdb8a4b24c26bd9a2125872662566a59"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "aea553b5f0229eab588ed669bda85429e34e7b87b401f3fa839f674448dda6f0"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "1cab6fb952aedaabde0576553a6d92b1b4fac1fee08fe74f16db7fbfcb0ac152"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "1670bbdcb1fc96e5a579d1ffaa7d2499423d99d2721bf58fd53ff9715990c9f9"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d116b52993e0569019bf1affa72750101bfd9972890ebb3fe279368de79635a2"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "262d619fac9a4b0c90c90a5255723781daaf456e24d1c96fe79aeabfa226f99f"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "dcddfa216992b89c3cb014695fce36999adc1e8ab2f01ffe782c14f793cfd62c"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "7c9d0ccc4f693d371ae861aabb44a8fdae3a81919980eaf5c5f1aec04f5d96ad"
+        }
+      ],
+      "owner_validation": {
+        "repo": "roborally",
+        "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/roborally",
+        "branch": "codex/research-before-reinvention-20261004",
+        "base": "4bbef77e0b50cff9b745c639392a354608be147f",
+        "setup_source_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+        "adaptation": "Shared setup skill refreshed from Conductor, with the phase-specific reset paragraph adapted to the owner verifier contract: any material strict-mode fix resets the full original scope only within convergence, budget, and scope. Owner intake, build, validate, loop-review approval and follow-through retained; no phase redesign.",
+        "checks": [
+          {
+            "commands": [
+              "npm run skills:check",
+              "npm run methodology:check",
+              "git diff --check"
+            ],
+            "outcome": "passed",
+            "exit_code": 0,
+            "output": "\n> skills:check\n> bash scripts/sync-agent-skills.sh --check\n\nskills-check: OK (31 canonical skills; compatibility links ok; command aliases optional)\n\n> methodology:check\n> node scripts/methodology-graph.mjs check\n\nmethodology-check: OK\n"
+          },
+          {
+            "command": "python3 /tmp/audit-rollout-group-b.py",
+            "outcome": "passed",
+            "details": "Source checkpoint sections match. Original root, intake, build, validate, and loop-review bodies unchanged after removing inserted hooks. Owner full-scope reset policy and setup agreement retained. Single-pass workers, budget precedence, interrupted cadence, lean intake, implementation trigger, and scoped clean termination are explicit."
+          },
+          {
+            "commands": [
+              "npm run skills:check",
+              "git diff --check"
+            ],
+            "outcome": "passed",
+            "exit_code": 0,
+            "output": "\n> skills:check\n> bash scripts/sync-agent-skills.sh --check\n\nskills-check: OK (31 canonical skills; compatibility links ok; command aliases optional)\n",
+            "context": "Final affected checks after refreshing the existing setup checklist template; earlier methodology checks reused because compiler inputs stayed unchanged."
+          },
+          {
+            "command": "git diff --no-index --check /dev/null docs/research-before-reinvention.md",
+            "outcome": "passed",
+            "exit_code": 1,
+            "details": "No whitespace diagnostics; exit 1 denotes the new-file diff."
+          }
+        ],
+        "paths": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/init-project/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "template_audit": "Existing owner checklist template now contains unchecked research, implementation, validation, cadence continuity, overdue budget precedence, and scoped clean-termination items; local template content preserved."
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "475ce183a7aece3c7b3badc68875a45cc140d5d9",
+      "remote_main_verified": "475ce183a7aece3c7b3badc68875a45cc140d5d9",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "4664dbd9b21766d0efe22b42cccb3da6615a8ca2103d77b7bd65b79ee19ab392"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "5cf5fecf90e8d22d53d878661153d3c3cfd3358a4eccf254d1dc6c90c2da3d40"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "c53c6428a00d2099b225fff9f1cbdf26c084e0c329fd48881797a284c8d1b005"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "ec4d2015f55f497c465d5f667f78c60dfdb8a4b24c26bd9a2125872662566a59"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "aea553b5f0229eab588ed669bda85429e34e7b87b401f3fa839f674448dda6f0"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "1cab6fb952aedaabde0576553a6d92b1b4fac1fee08fe74f16db7fbfcb0ac152"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "1670bbdcb1fc96e5a579d1ffaa7d2499423d99d2721bf58fd53ff9715990c9f9"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d116b52993e0569019bf1affa72750101bfd9972890ebb3fe279368de79635a2"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "fd359f7fe3177ef026b089d210c971d8c0dabe5c1b6cadd4a117f88648ea8830"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "dcddfa216992b89c3cb014695fce36999adc1e8ab2f01ffe782c14f793cfd62c"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "7c9d0ccc4f693d371ae861aabb44a8fdae3a81919980eaf5c5f1aec04f5d96ad"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "storybook",
+      "name": "Storybook",
+      "primary": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/storybook",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "14767978eeb5bed7ba8d04b1ec21f7c33a7b9387",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "fbdc7b59321e5f83f68e9cbfa2668717ddafcc7ca637924be5d27071e5c04660"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "be3a93dc6bf4bced33258a001a5cf0b31c9800bd9c6759c6a965efeef57e244e"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "c53c6428a00d2099b225fff9f1cbdf26c084e0c329fd48881797a284c8d1b005"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "1138acec035a670d696fc5c6b16120ed29ecf0890ba74b36477f53f5653fa4c7"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "b26f83c045a0a2e49a49d0569c672cf6c8ed74fa4f5a52d05973059f2a81b86d"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "7de75b2af077a86e894a4400b0daee85bed8c8b159a0d218019a0df4a17380bf"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d50f947c3c579d5e85900a805a412ae62778736c04131e0942a55059ecae9669"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "a91ca2d60020cd60205679191d659273932c656e5d9762df3f074c19e1ffc7bf"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "1440f7dbb9bbac31d273c138a9588289284289605dd8ca59fef60cef59bce891"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "7c4f7a4253ee26b757b30ce35a68c086b6d45d971740caec53fd3d49be40fd3c"
+        }
+      ],
+      "owner_validation": {
+        "repo": "storybook",
+        "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/storybook",
+        "base": "14767978eeb5bed7ba8d04b1ec21f7c33a7b9387",
+        "files": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/init-project/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "validation": [
+          {
+            "command": "manual scoped claim/contract review and instruction scenario walkthrough",
+            "exit_code": 0,
+            "output": "Obvious fix: targeted check, no research ritual. Unfamiliar failure: diagnose/generalize/research/local test. Same-class failures twice: systemic stop before periodic cadence. Proxy improvement: compare user outcome and established alternative. Applicable prior sources: reuse with a reason. Interruption: preserve active counters and timed cadence. Exhausted budget: no catch-up/extra round. Restricted reuse: owner gates retained. Clean verifier: stop, broader goal reviewed separately."
+          },
+          {
+            "command": "pnpm methodology:check",
+            "exit_code": 0,
+            "output": "> storybook@ methodology:check /Users/cam/.codex/worktrees/research-before-reinvention-20261004/storybook\n> node --experimental-strip-types scripts/methodology-graph.ts check\n\nMethodology graph is current: docs/methodology/graph.json"
+          },
+          {
+            "command": "bash scripts/sync-agent-skills.sh --check",
+            "exit_code": 0,
+            "output": "skills-check: OK (39 canonical skills; compatibility links ok; command aliases optional)"
+          },
+          {
+            "command": "quick_validate.py temporary projections omitting only established user-invocable field; original name and invocation checked",
+            "exit_code": 0,
+            "output": "6 touched skills passed: .agents/skills/build-story/SKILL.md, .agents/skills/init-project/SKILL.md, .agents/skills/loop-review/SKILL.md, .agents/skills/loop-verify/SKILL.md, .agents/skills/setup-methodology/SKILL.md, .agents/skills/validate/SKILL.md"
+          },
+          {
+            "command": "git diff --check",
+            "exit_code": 0,
+            "output": ""
+          },
+          {
+            "command": "manual setup/verifier reset consistency check",
+            "exit_code": 0,
+            "output": "Owner strict mode material fixes reset full original scope in both setup and loop-verify; source research/cadence text retained."
+          },
+          {
+            "command": "pnpm methodology:check (after setup adaptation)",
+            "exit_code": 0,
+            "output": "> storybook@ methodology:check /Users/cam/.codex/worktrees/research-before-reinvention-20261004/storybook\n> node --experimental-strip-types scripts/methodology-graph.ts check\n\nMethodology graph is current: docs/methodology/graph.json"
+          },
+          {
+            "command": "bash scripts/sync-agent-skills.sh --check (after setup adaptation)",
+            "exit_code": 0,
+            "output": "skills-check: OK (39 canonical skills; compatibility links ok; command aliases optional)"
+          },
+          {
+            "command": "git diff --check (after setup adaptation)",
+            "exit_code": 0,
+            "output": ""
+          },
+          {
+            "command": "quick_validate.py setup temporary projection after strict-reset adaptation",
+            "exit_code": 0,
+            "output": "Passed; only established user-invocable field omitted on temporary copy."
+          },
+          {
+            "command": "template future-state review and git diff --check",
+            "exit_code": 0,
+            "output": "Future setup template tasks remain unchecked; current working-checklist entries checked against applied scope."
+          }
+        ],
+        "caveats": [
+          "No product effectiveness measurement",
+          "Intentional setup-only adaptation preserves existing owner strict-reset semantics; no phase redesign"
+        ],
+        "source_setup_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+        "applied_setup_sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3",
+        "setup_adaptation": "Replace only candidate-close/focused-confirmation reset guidance with owner material-fix full-original-scope reset rule"
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "fedc582ee5e8a4dfde1244a372ecdd1aa3dd7dbf",
+      "remote_main_verified": "fedc582ee5e8a4dfde1244a372ecdd1aa3dd7dbf",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "fbdc7b59321e5f83f68e9cbfa2668717ddafcc7ca637924be5d27071e5c04660"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "be3a93dc6bf4bced33258a001a5cf0b31c9800bd9c6759c6a965efeef57e244e"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "c53c6428a00d2099b225fff9f1cbdf26c084e0c329fd48881797a284c8d1b005"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "1138acec035a670d696fc5c6b16120ed29ecf0890ba74b36477f53f5653fa4c7"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "8c65aab9e08be264f3b4ea5ef6248a482931295f6bc29fe6b6f15e399a4db7a3"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "b26f83c045a0a2e49a49d0569c672cf6c8ed74fa4f5a52d05973059f2a81b86d"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "7de75b2af077a86e894a4400b0daee85bed8c8b159a0d218019a0df4a17380bf"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "d50f947c3c579d5e85900a805a412ae62778736c04131e0942a55059ecae9669"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "02f3c18b13f32e0abf14b15990627ee2109d1cb1bcdf7bc3a672c5f8279a8dd4"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "0025693365ea496addeb209d55e0d09f8c4f0ea04ac5432bc07ca408c90659a1"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "1440f7dbb9bbac31d273c138a9588289284289605dd8ca59fef60cef59bce891"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "7c4f7a4253ee26b757b30ce35a68c086b6d45d971740caec53fd3d49be40fd3c"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "ultima-iv-web",
+      "name": "Ultima IV Web",
+      "primary": "/Users/cam/Documents/Projects/ultima-iv-web",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/ultima-iv-web",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "4bbc2e632364403023b39e41ec984a866d921a8e",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "8d498a2349a4ac8b890e92096d21a200c728db77764581395ef2685bf06d0bb2"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "1c8a447dad238450672cdb67218e7c92c273b9f85c0aaf6a250a7e8020ad2763"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "34539b09059686d239afab7981a416f2ad05e63a31183c29c61d0b34b20edac6"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "37acb2b7d89c17ad06c0a75d0f78ed730a2065f840588dc975ec5cb819cbc057"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "34ec636b6e52fd7c1daaea3b5ae76a2eb772634034c7a344d3e81a59ed631d57"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "07526127b2046327b03058fa9ba0f3d502ae50f1ec3386ea9a0d98a1690e0516"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "50b003cf8ff9d4f0798e7541310ba0c216ea69b55a91e92eccf5cde681341895"
+        },
+        {
+          "path": "docs/evidence/workflow-skill-sources.json",
+          "sha256": "6be6b3aa36d38a49c30641ad9235ff8f1eccd954db8866f7dec72bd422130f4a"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "96726ec6354261c2dcd2704a8a342a0e918f38ea7beda184b98800c11e4c3e0f"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "0b601c2a1f27a810641644bdc44f10f7f0cb89199dbe45a1d92e3ffde1620e19"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "e638165765f6143c17536cceccdce975145a2713005600636aedb262b346d531"
+        }
+      ],
+      "owner_validation": {
+        "repo": "ultima-iv-web",
+        "path": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/ultima-iv-web",
+        "base": "4bbc2e632364403023b39e41ec984a866d921a8e",
+        "adaptations": [
+          "Treat the pinned executable/assets as behavior authority; learn general techniques and external facts, but do not copy, adapt or translate completed Ultima implementations. Keep bounded recovered-routine proof separate from complete game fidelity.",
+          "Current setup guidance deliberately preserves native full-original-scope strict resets; no candidate-close phase redesign.",
+          "Init/build/validate retain product owner workflows with narrow research hooks; loop-verify gains only coordinator checkpoints and systemic-stop precedence.",
+          "Added current Conductor loop-review with local owner routing and native frontmatter; manifest records old and adopted provenance."
+        ],
+        "checks": [
+          {
+            "command": "make methodology-check skills-check tooling-check",
+            "result": "passed; 26 skills; 2 methodology tooling tests. Input/game/emulator/recovery suites excluded."
+          },
+          {
+            "command": "native frontmatter and scoped instruction invariant check",
+            "result": "passed all six skills; strategy/stop/reuse/cadence invariants present"
+          },
+          {
+            "command": "git diff --check and new-file trailing whitespace inspection",
+            "result": "passed"
+          }
+        ],
+        "scenario_walkthrough": [
+          {
+            "scenario": "obvious fix",
+            "decision": "targeted local correction; no research ceremony"
+          },
+          {
+            "scenario": "unfamiliar/repeated failure",
+            "decision": "local diagnosis, general problem class, prior research or bounded primary-source comparison before retries"
+          },
+          {
+            "scenario": "two same-class passes or two resets without narrowing",
+            "decision": "immediate systemic-audit/non-convergent stop; periodic cadence cannot bypass it"
+          },
+          {
+            "scenario": "proxy metric improves with no user benefit",
+            "decision": "proactively compare a meaningfully different established technique; no automatic pivot or execution"
+          },
+          {
+            "scenario": "applicable recent research",
+            "decision": "reuse with stated applicability; no mandatory fresh search"
+          },
+          {
+            "scenario": "interruption at 20 minutes/two rounds then 11 minutes/one round",
+            "decision": "comparison due at 31 active minutes/three rounds; brief checks and waits do not reset counters"
+          },
+          {
+            "scenario": "overdue timed checkpoint",
+            "decision": "one current-state comparison only within remaining authorization; retain original next deadline"
+          },
+          {
+            "scenario": "budget/deadline exhausted",
+            "decision": "no catch-up research, extra round or implicit extension"
+          },
+          {
+            "scenario": "clean verifier but broader goal incomplete",
+            "decision": "end verifier and assess broader mismatch separately"
+          },
+          {
+            "scenario": "owner reuse boundaries",
+            "decision": "Ultima prohibits completed-implementation copying; VLC licensed upstream reuse appropriate; native/media/persistence evidence separate"
+          }
+        ],
+        "changed_files": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/init-project/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/evidence/workflow-skill-sources.json",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          ".agents/skills/loop-review/SKILL.md",
+          "docs/research-before-reinvention.md"
+        ],
+        "diff_stat": ".agents/skills/build-story/SKILL.md       | 13 +++++\n .agents/skills/init-project/SKILL.md      | 12 +++++\n .agents/skills/loop-verify/SKILL.md       | 69 ++++++++++++++++++++++++++\n .agents/skills/setup-methodology/SKILL.md | 44 +++++++++++++++--\n .agents/skills/validate/SKILL.md          | 10 ++++\n AGENTS.md                                 | 24 ++++++++++\n docs/evidence/workflow-skill-sources.json | 80 ++++++++++++++++++++++++++++---\n docs/runbooks/setup-methodology.md        | 12 +++++\n docs/setup-checklist.md                   |  9 ++++\n 9 files changed, 264 insertions(+), 9 deletions(-)",
+        "status": "complete, uncommitted"
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "70a0d14e2fb5ca7bfc36e3730e0adc76b616db7b",
+      "remote_main_verified": "70a0d14e2fb5ca7bfc36e3730e0adc76b616db7b",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "8d498a2349a4ac8b890e92096d21a200c728db77764581395ef2685bf06d0bb2"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "1c8a447dad238450672cdb67218e7c92c273b9f85c0aaf6a250a7e8020ad2763"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "34539b09059686d239afab7981a416f2ad05e63a31183c29c61d0b34b20edac6"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "37acb2b7d89c17ad06c0a75d0f78ed730a2065f840588dc975ec5cb819cbc057"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "34ec636b6e52fd7c1daaea3b5ae76a2eb772634034c7a344d3e81a59ed631d57"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "07526127b2046327b03058fa9ba0f3d502ae50f1ec3386ea9a0d98a1690e0516"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "50b003cf8ff9d4f0798e7541310ba0c216ea69b55a91e92eccf5cde681341895"
+        },
+        {
+          "path": "docs/evidence/workflow-skill-sources.json",
+          "sha256": "6be6b3aa36d38a49c30641ad9235ff8f1eccd954db8866f7dec72bd422130f4a"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "04482783f9e850823f285c153d69ded1ef969cd91a81586622c6eda38ad94f08"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "0b601c2a1f27a810641644bdc44f10f7f0cb89199dbe45a1d92e3ffde1620e19"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "e638165765f6143c17536cceccdce975145a2713005600636aedb262b346d531"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    },
+    {
+      "project": "vlc-thumbs",
+      "name": "VLC Thumbs",
+      "primary": "/Users/cam/Documents/Projects/ultima-iv-web/vlc-thumbs",
+      "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/vlc-thumbs",
+      "branch": "codex/research-before-reinvention-20261004",
+      "base": "4b16323224b3cad485da70001a0a9ceb9339918b",
+      "status": "landed",
+      "changed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "7c203343635f382f967e435098b3a4d7ddc7eb9077565e5e994ef367b836464d"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "1c8a447dad238450672cdb67218e7c92c273b9f85c0aaf6a250a7e8020ad2763"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "52a32470060f815a7d273aff44831a25464138ca046e168069baa1b9eedc2870"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "37acb2b7d89c17ad06c0a75d0f78ed730a2065f840588dc975ec5cb819cbc057"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "34ec636b6e52fd7c1daaea3b5ae76a2eb772634034c7a344d3e81a59ed631d57"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "504ef63273bf2a2813e24cdcd84b3825c2dd6507669471f6120a2c404091aade"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "61cdff5bdba697541dc81a99a790cf85e4a197674b1cfa36ca0cdd5a66ec41f8"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "aad8f537aea20c89b70672c4bc2e91a6a7985d101e717d80057bdd03ef91f8f6"
+        },
+        {
+          "path": "docs/evidence/workflow-skill-sources.json",
+          "sha256": "bbf0c23415c8b78a716ac9cf286ac8e7effea1ee930326b99c4c634a1ca2f41f"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "abc451bd3221b670808a460eb73dece0f5a77a67c99952d8d20f305bd64b0060"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "946e9edda1c5240e98d80301dffcfa836245b563456b5e9a52bb5050330dd23f"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "02cfe1ba3f6f7bdd610bebb0ac98818184cfcd1fffaf249e967018e1193ffeb7"
+        },
+        {
+          "path": "scripts/check-scaffold.mjs",
+          "sha256": "5f7f6c0610a0774adee6939b3258b479b53928c2b7dab6ad3384adb908b9ec07"
+        }
+      ],
+      "owner_validation": {
+        "repo": "vlc-thumbs",
+        "path": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/vlc-thumbs",
+        "base": "4b16323224b3cad485da70001a0a9ceb9339918b",
+        "adaptations": [
+          "Licensed VLC upstream source reuse is appropriate. Native build, media-byte preservation, actual timeline interaction and restart/media-identity persistence require separate evidence; workflow checks establish none of those behaviors.",
+          "Current setup guidance deliberately preserves native full-original-scope strict resets; no candidate-close phase redesign.",
+          "Init/build/validate retain product owner workflows with narrow research hooks; loop-verify gains only coordinator checkpoints and systemic-stop precedence.",
+          "Existing loop-review extended; no new skill needed.",
+          "Scaffold Git check now accepts independent Git worktrees; all original manifest source/hash records retained alongside adopted/current hashes."
+        ],
+        "checks": [
+          {
+            "command": "make validate",
+            "result": "passed after final manifest wiring; methodology, 33 skills, scaffold/hash/contract checks"
+          },
+          {
+            "command": "Git top-level assertion on primary and worktree paths",
+            "result": "passed read-only in both; no primary file edited"
+          },
+          {
+            "command": "native frontmatter and scoped instruction invariant check",
+            "result": "passed all six skills; strategy/stop/reuse/cadence invariants present"
+          },
+          {
+            "command": "git diff --check and new-file trailing whitespace inspection",
+            "result": "passed"
+          }
+        ],
+        "scenario_walkthrough": [
+          {
+            "scenario": "obvious fix",
+            "decision": "targeted local correction; no research ceremony"
+          },
+          {
+            "scenario": "unfamiliar/repeated failure",
+            "decision": "local diagnosis, general problem class, prior research or bounded primary-source comparison before retries"
+          },
+          {
+            "scenario": "two same-class passes or two resets without narrowing",
+            "decision": "immediate systemic-audit/non-convergent stop; periodic cadence cannot bypass it"
+          },
+          {
+            "scenario": "proxy metric improves with no user benefit",
+            "decision": "proactively compare a meaningfully different established technique; no automatic pivot or execution"
+          },
+          {
+            "scenario": "applicable recent research",
+            "decision": "reuse with stated applicability; no mandatory fresh search"
+          },
+          {
+            "scenario": "interruption at 20 minutes/two rounds then 11 minutes/one round",
+            "decision": "comparison due at 31 active minutes/three rounds; brief checks and waits do not reset counters"
+          },
+          {
+            "scenario": "overdue timed checkpoint",
+            "decision": "one current-state comparison only within remaining authorization; retain original next deadline"
+          },
+          {
+            "scenario": "budget/deadline exhausted",
+            "decision": "no catch-up research, extra round or implicit extension"
+          },
+          {
+            "scenario": "clean verifier but broader goal incomplete",
+            "decision": "end verifier and assess broader mismatch separately"
+          },
+          {
+            "scenario": "owner reuse boundaries",
+            "decision": "Ultima prohibits completed-implementation copying; VLC licensed upstream reuse appropriate; native/media/persistence evidence separate"
+          }
+        ],
+        "changed_files": [
+          ".agents/skills/build-story/SKILL.md",
+          ".agents/skills/init-project/SKILL.md",
+          ".agents/skills/loop-review/SKILL.md",
+          ".agents/skills/loop-verify/SKILL.md",
+          ".agents/skills/setup-methodology/SKILL.md",
+          ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          ".agents/skills/validate/SKILL.md",
+          "AGENTS.md",
+          "docs/evidence/workflow-skill-sources.json",
+          "docs/runbooks/setup-methodology.md",
+          "docs/setup-checklist.md",
+          "scripts/check-scaffold.mjs",
+          "docs/research-before-reinvention.md"
+        ],
+        "diff_stat": ".agents/skills/build-story/SKILL.md                |  13 +++\n .agents/skills/init-project/SKILL.md               |  12 +++\n .agents/skills/loop-review/SKILL.md                |  50 +++++++++++\n .agents/skills/loop-verify/SKILL.md                |  69 ++++++++++++++\n .agents/skills/setup-methodology/SKILL.md          |  55 ++++++++++--\n .../setup-methodology/templates/setup-checklist.md |   9 ++\n .agents/skills/validate/SKILL.md                   |  10 +++\n AGENTS.md                                          |  23 +++++\n docs/evidence/workflow-skill-sources.json          | 100 +++++++++++++++++++--\n docs/runbooks/setup-methodology.md                 |  17 +++-\n docs/setup-checklist.md                            |   9 ++\n scripts/check-scaffold.mjs                         |   7 +-\n 12 files changed, 354 insertions(+), 20 deletions(-)",
+        "status": "complete, uncommitted"
+      },
+      "primary_agents_sha256_preserved": true,
+      "commit": "476d7ea8fa963f934cdd23751ec3858bbcca522c",
+      "remote_main_verified": "476d7ea8fa963f934cdd23751ec3858bbcca522c",
+      "final_committed_files": [
+        {
+          "path": ".agents/skills/build-story/SKILL.md",
+          "sha256": "7c203343635f382f967e435098b3a4d7ddc7eb9077565e5e994ef367b836464d"
+        },
+        {
+          "path": ".agents/skills/init-project/SKILL.md",
+          "sha256": "1c8a447dad238450672cdb67218e7c92c273b9f85c0aaf6a250a7e8020ad2763"
+        },
+        {
+          "path": ".agents/skills/loop-review/SKILL.md",
+          "sha256": "52a32470060f815a7d273aff44831a25464138ca046e168069baa1b9eedc2870"
+        },
+        {
+          "path": ".agents/skills/loop-verify/SKILL.md",
+          "sha256": "37acb2b7d89c17ad06c0a75d0f78ed730a2065f840588dc975ec5cb819cbc057"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/SKILL.md",
+          "sha256": "34ec636b6e52fd7c1daaea3b5ae76a2eb772634034c7a344d3e81a59ed631d57"
+        },
+        {
+          "path": ".agents/skills/setup-methodology/templates/setup-checklist.md",
+          "sha256": "504ef63273bf2a2813e24cdcd84b3825c2dd6507669471f6120a2c404091aade"
+        },
+        {
+          "path": ".agents/skills/validate/SKILL.md",
+          "sha256": "61cdff5bdba697541dc81a99a790cf85e4a197674b1cfa36ca0cdd5a66ec41f8"
+        },
+        {
+          "path": "AGENTS.md",
+          "sha256": "aad8f537aea20c89b70672c4bc2e91a6a7985d101e717d80057bdd03ef91f8f6"
+        },
+        {
+          "path": "docs/evidence/workflow-skill-sources.json",
+          "sha256": "bbf0c23415c8b78a716ac9cf286ac8e7effea1ee930326b99c4c634a1ca2f41f"
+        },
+        {
+          "path": "docs/research-before-reinvention.md",
+          "sha256": "44f2d4569aaa2b8696ad37207e417ffd55113ad9644f63c889f455c1fa541913"
+        },
+        {
+          "path": "docs/runbooks/setup-methodology.md",
+          "sha256": "946e9edda1c5240e98d80301dffcfa836245b563456b5e9a52bb5050330dd23f"
+        },
+        {
+          "path": "docs/setup-checklist.md",
+          "sha256": "02cfe1ba3f6f7bdd610bebb0ac98818184cfcd1fffaf249e967018e1193ffeb7"
+        },
+        {
+          "path": "scripts/check-scaffold.mjs",
+          "sha256": "5f7f6c0610a0774adee6939b3258b479b53928c2b7dab6ad3384adb908b9ec07"
+        }
+      ],
+      "validation_reuse": "Prepared instruction/tooling file hashes match; only authorization note and required existing changelog added during close-out. Staged diff hygiene passed."
+    }
+  ],
+  "conductor_checks": [
+    "make skills-check",
+    "make methodology-check",
+    "make lint"
+  ],
+  "independent_review": "Applied owner adaptations reviewed; missing Group B setup template hooks corrected. Root inspected the added template hooks and verified final skill/diff check receipts. No material applied instruction contradiction remains.",
+  "limitations": [
+    "Remote main updated; active primary checkouts left untouched, and other branches need normal owner integration before using the new instructions.",
+    "No product effectiveness measurements, paid evaluations or product feature tests.",
+    "Ultima primary gained unrelated untracked campaign research during rollout; no primary instructions changed."
+  ],
+  "landing_authorization": "Cam replied Yes to commit and land the eleven validated patches on 2026-10-04.",
+  "conductor_integration": {
+    "base": "897724a",
+    "worktree": "/Users/cam/.codex/worktrees/research-before-reinvention-20261004/conductor",
+    "branch": "codex/research-before-reinvention-20261004",
+    "scope": "Only snapshot-proven task delta merged into current remote; prior decision-model and loop-review guidance preserved.",
+    "checks": [
+      "make methodology-compile methodology-check skills-check lint",
+      "git diff --check",
+      "Independent scoped integration review"
+    ],
+    "owner_updates": "Eleven commits verified on remote main before supervisor completion commit."
+  }
+}
