@@ -341,6 +341,21 @@ broader lanes, private payloads, higher spend, commits, pushes, or rollout. If
 only one repo is selected, or subagents are unavailable, the root may execute
 the same owner protocol directly and must say so.
 
+Size owner staffing by lane risk and demonstrated capability, using the cheapest
+capable worker when savings exceed context, coordination and verification
+costs. Give bounded packets and direct artifact access. Collect through native
+completion events or message-aware waits; do not duplicate owner work or sweep
+unchanged status. Strategic coordination review follows `/loop-review`'s runtime
+strongest/maximum policy when warranted; it must not change benchmark subjects,
+frozen prompts, scorers or judge configurations.
+
+Before concurrent provider work, require actual provider/job spend gates and
+conservative aggregate reservations within approved caps. If enforceable gates
+are absent, hold paid dispatch until the existing spend contract can be met.
+A spawn concurrency limit, prompt budget, notification, or wait timeout is not a
+hard dollar cap; sleeping parents do not weaken aggregate enforcement. Record
+actual spend and unknown exposure separately from reservations.
+
 Before dispatching an owner that needs evaluation-only access, read
 [the credential-custody protocol](references/credential-custody.md) completely.
 Check provider presence by name only. Prefer an owner's already-configured

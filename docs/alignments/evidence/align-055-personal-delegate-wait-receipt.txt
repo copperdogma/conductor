@@ -1,0 +1,9 @@
+Scope: updated only /Users/cam/.codex/skills/delegate-wait/SKILL.md. This directory is not a Git repository; no commit or push was made. No production or browser state was read. The existing countdown script was not modified.
+
+The revised instructions prefer target-native notifications for relevant external monitor events, require STARTED immediately after initial successful observation/timer launch, restore bounded parent wait responsiveness guidance, and permit a single explicit terminal message only when native final delivery is unavailable.
+
+Before SHA256: 3b2bc4359eaa932b9be368450ac98bc7ebbc42c63af50015eb6b630ca2f32b81
+After SHA256: 61dd9abafe0e9e6c11dfaa9f752029c7a37fc5ca81896a76d7838d76ed95756e
+Patch SHA256: 627da1feb0ca337d3762bbc2bb3f942aee9d0c5974737ecd052e6718ad57d9f1
+
+Validation: Ruby YAML parser accepted the frontmatter with the required skill name and description. Direct inspection confirms the requested STARTED-at-setup, native target event preference, parent wait responsiveness safeguard, and no duplicate completion ping when native final delivery works. The skill-creator quick validator could not run because its Python environment lacks PyYAML. No countdown or other test machinery was run; parent had already reported observing a live child message wake wait_agent.

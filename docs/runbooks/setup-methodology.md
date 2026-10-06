@@ -46,6 +46,19 @@ and acceptance criteria.
      metrics improve, reuse recent research only when it still applies, and
      keep research within existing budgets and hard stops. Do not add a
      scheduler or require these loops for routine work.
+   - Add a short common staffing/wait policy, with dispatch details in
+     `/loop-review`: dynamically resolve strongest eligible model and highest
+     supported effort, record requested versus verified served identity, and
+     use one bounded read-only reviewer only when needed. Preserve authority,
+     budgets, deadlines and clean stops. Workers use the cheapest capable
+     configuration when overhead is justified, bounded packets and artifacts,
+     and native completion/message-aware waits. Keep child mailboxes distinct
+     from human-authorized user-chat messaging and supported continuation.
+   - Apply focused leaf changes only where needed; retain tiny-lane coverage,
+     plan gates, evaluator subject/judge settings, actual spend gates and
+     sparse/no-code exceptions. Existing delegation authorization is sufficient
+     for the same bounded ideation/ADR packet; respect user opt-outs.
+
 8. Run:
    - `make methodology-compile`
    - `make methodology-check`

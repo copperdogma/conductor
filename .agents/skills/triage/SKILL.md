@@ -134,9 +134,15 @@ Ideal/spec/state synthesis, direct fact/script reads, top-three ranking, and the
 final recommendation. Subagents gather evidence; they do not decide the
 repo-wide answer.
 
-If subagents/delegation are unavailable, unsafe for the current checkout, or the
-user explicitly asks not to use them, run the same lane-packet contracts
-sequentially and state that fallback in the response.
+Use the cheapest capable lane workers when expected savings exceed context,
+coordination and verification costs. Batch tiny related or empty lanes into one
+bounded packet when useful, keeping every required lane's coverage and stop
+condition explicit. Preserve any expressly requested separate fan-out. When
+there is no delegation benefit, execute the same contracts directly and explain
+the choice. If delegation is unavailable, unsafe or disabled by the user, run
+those contracts sequentially and state the fallback. Give direct artifact access,
+use completion events or message-aware waits, and avoid unchanged status sweeps
+and duplicate work; the main thread retains ranking and final disposition.
 
 1. **Read the shared frame**
    - `docs/ideal.md`
@@ -281,8 +287,8 @@ sequentially and state that fallback in the response.
 - Unscoped `/triage` is read-only.
 - Unscoped `/triage` explicitly authorizes subagent lane fan-out when the
   runtime exposes it and the checkout is safe for read-only delegation;
-  otherwise keep the same lane-packet contracts sequentially and state the
-  fallback.
+  preserve coverage when batching tiny lanes or executing directly under the
+  economics rule above; state the fallback when delegation is unavailable.
 - Recommend one next action, not a grab bag.
 - Prefer the smallest honest artifact that reduces repeated work.
 - Do not optimize Conductor's internal tidiness over leverage for the tracked

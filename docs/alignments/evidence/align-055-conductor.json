@@ -1,0 +1,216 @@
+{
+  "date": "2026-10-06",
+  "base_commit": "511655e8efdaba459427fb90b4f2815b7335bb34",
+  "worktree": "/Users/cam/Documents/Projects/conductor-align-055",
+  "branch": "codex/align-055-conductor",
+  "baselines": [
+    {
+      "path": "AGENTS.md",
+      "primary_sha256": "c52289585c21b5149e723bc09cb20bee30692fd30237fd48d0ff65ae7a5d76ab",
+      "base_sha256": "c12280183d8cc70074415213f2a55b1b2fa16811a612f7e466655ad819dd3010",
+      "same_content": false
+    },
+    {
+      "path": "docs/runbooks/setup-methodology.md",
+      "primary_sha256": "011aa68f1d02ffec57ada7bbb52d7ea8886b14b8432dd401f61a0266b67c17fd",
+      "base_sha256": "011aa68f1d02ffec57ada7bbb52d7ea8886b14b8432dd401f61a0266b67c17fd",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/loop-review/SKILL.md",
+      "primary_sha256": "2a17e4152daec8dd40fa648b864b6c2ca22b627733794ae58c17eb043e22526c",
+      "base_sha256": "fd91b9f9ce15f1468fd288b32fa424b5e0b6b5250e3d48a83a8fcfb2d45b481a",
+      "same_content": false
+    },
+    {
+      "path": ".agents/skills/loop-verify/SKILL.md",
+      "primary_sha256": "1d7b722ed4c08a3e0c7647a9155d16d248a22ac2b0bb26cf6c3e3181a2875967",
+      "base_sha256": "1d7b722ed4c08a3e0c7647a9155d16d248a22ac2b0bb26cf6c3e3181a2875967",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/build-story/SKILL.md",
+      "primary_sha256": "144b58c9792ec9dee98bcfcfff6714830867c45a397a45f40aa05a74ad6b796b",
+      "base_sha256": "144b58c9792ec9dee98bcfcfff6714830867c45a397a45f40aa05a74ad6b796b",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/validate/SKILL.md",
+      "primary_sha256": "0114dfe1756f9707470e57f62ae5c08259b8f3168da15a53baec531b266ba6dd",
+      "base_sha256": "0114dfe1756f9707470e57f62ae5c08259b8f3168da15a53baec531b266ba6dd",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/finish-and-push/SKILL.md",
+      "primary_sha256": "2805622da7e195cacef321898fd7379abee9110462d0149fdcefbe9b56e9de1b",
+      "base_sha256": "2805622da7e195cacef321898fd7379abee9110462d0149fdcefbe9b56e9de1b",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/evaluate-model/SKILL.md",
+      "primary_sha256": "cd5ab42e81d2ea2b6ddc6f7cbcdc720d69d4aab696352a0408357c3805bb72cb",
+      "base_sha256": "cd5ab42e81d2ea2b6ddc6f7cbcdc720d69d4aab696352a0408357c3805bb72cb",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/triage/SKILL.md",
+      "primary_sha256": "d0a0bd6215702faba4a1f6616b721872d982c15ad9d8be508b5022a70c0d2d27",
+      "base_sha256": "d0a0bd6215702faba4a1f6616b721872d982c15ad9d8be508b5022a70c0d2d27",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/ideation/SKILL.md",
+      "primary_sha256": "469c363447a0e18947b774e8d937c1a922c5991c69621d07b5a8b3d632a26015",
+      "base_sha256": "469c363447a0e18947b774e8d937c1a922c5991c69621d07b5a8b3d632a26015",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/create-adr/SKILL.md",
+      "primary_sha256": "8023f7f584fc115d5c5d9923f2e3e4ee120a1e2f64b480ae91dcfa2a2d608813",
+      "base_sha256": "8023f7f584fc115d5c5d9923f2e3e4ee120a1e2f64b480ae91dcfa2a2d608813",
+      "same_content": true
+    },
+    {
+      "path": ".agents/skills/setup-methodology/SKILL.md",
+      "primary_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+      "base_sha256": "3188419488a1c7b257447a46399f8c7907ced94dd1510e903e5ad859c35b439a",
+      "same_content": true
+    }
+  ],
+  "baseline_content_reference": "Base blobs are retained in Git at base_commit:path; primary-only differences were inspected directly and intentionally not copied.",
+  "primary_only_difference_disposition": {
+    "AGENTS.md": "Primary lacks landed loop-review route and decision-model/handoff sections; fresh origin preserved.",
+    "loop-review": "Primary has unrelated moved/reworded follow-through refactor and description; fresh origin preserved."
+  },
+  "checks": [
+    {
+      "command": "make skills-check",
+      "result": "pass"
+    },
+    {
+      "command": "make lint",
+      "result": "pass"
+    },
+    {
+      "command": "make methodology-check",
+      "result": "pass"
+    },
+    {
+      "command": "git diff --check",
+      "result": "pass"
+    },
+    {
+      "command": "python3 /tmp/check_align055.py",
+      "result": "pass; 18 changed Markdown/JSON files, new local links/whitespace/JSON checked",
+      "scope": "new local links and whitespace compared with HEAD; existing unchanged link defects excluded"
+    },
+    {
+      "command": "git diff --cached --check",
+      "result": "pass; explicit 20-file staged candidate"
+    }
+  ],
+  "skillcreator_validation": {
+    "raw": "pre-existing user-invocable metadata unsupported; host/bundled Python also lacked PyYAML",
+    "isolated_environment": "uv run --with pyyaml python",
+    "temporary_normalized_copies": "all ten pass with only user-invocable omitted; source unchanged"
+  },
+  "policy_sha256": {
+    "AGENTS.md": "5c812ee67835e032b9791d99bee051c4d57357adb3e17ba36818316d17cac301",
+    "docs/runbooks/setup-methodology.md": "9cc07ac61dcf372940c98918def75421578fecfede892232be1a6b51d1f2d4cc",
+    ".agents/skills/loop-review/SKILL.md": "6158049fc9fe13e25c79e401cfe87f85fea115a095d9ee9cf9160534bc6c0b0c",
+    ".agents/skills/loop-verify/SKILL.md": "336d791fea35753f54dd1d98cbd7cf15615b8e0c4fbdf9c9edd50c75e9769e41",
+    ".agents/skills/build-story/SKILL.md": "9da8c6c21b92210273c258d43349635d57e65c41426ccdd7512b5c2b5171a26b",
+    ".agents/skills/validate/SKILL.md": "619c41beee0c811c45628d4310d015192360eb4147b81884faa0a9b9278d3c44",
+    ".agents/skills/finish-and-push/SKILL.md": "47d408a36cc542de6918445ad2a33411e44c43b783631c6ec167dd13e59054ba",
+    ".agents/skills/evaluate-model/SKILL.md": "7bc899a0ff1413f7be1c51f49e34216c6f660185e52c162f4b35e02fac70c57f",
+    ".agents/skills/triage/SKILL.md": "c96272542a02ec109e749f48e83782b66a2f224ecdb7e2110d8378d5ad69a41a",
+    ".agents/skills/ideation/SKILL.md": "fd510999167e94fac8aef2bcd4e3be54710e3248982fe6ba2bceee5ecc6bbdca",
+    ".agents/skills/create-adr/SKILL.md": "66055295b54888d17704d55d92a01d0cfe83ad6dd318e1c34ff22dcb86c1eded",
+    ".agents/skills/setup-methodology/SKILL.md": "33a2b416f69c3aee079c57a06fa91f51595bc0a233f17a0900abcd31e51d9872"
+  },
+  "independent_scenario_review": {
+    "source": "parent coordinator report after read-only reviewer completion",
+    "verdict": "PASS",
+    "realistic_forward_scenarios": 5,
+    "defects": 0,
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "served_identity": "not independently verified",
+    "latest_fork_override_guidance": "included",
+    "policy_freeze": "parent declared after PASS"
+  },
+  "remote_landing": "Eleven owner landings complete; Conductor supervisor record lands afterward under existing closeout authorization. Exact supervisor commit is reported from post-push remote verification.",
+  "membership_receipt": {
+    "source": "parent live inventory and approved conversation membership; owner Git state /tmp/align055-preflight.json",
+    "coverage": "72 unique Git roots under /Users/cam/Documents/Projects at maximum depth 7; two app Git roots outside Projects checked",
+    "managed_selection": "Existing ten managed owners plus VLC Thumbs retained; no new members added",
+    "excluded_unchanged": [
+      {
+        "name": "Ravenloft Cthulhu",
+        "path": "/Users/cam/Documents/Projects/ravenloft-cthulhu"
+      },
+      {
+        "name": "RPG Map Projector",
+        "path": "/Users/cam/Documents/Projects/rpg-map-projector"
+      },
+      {
+        "name": "Canmore Town Council",
+        "path": "/Users/cam/Documents/Projects/canmore-town-council"
+      },
+      {
+        "name": "Alain Lessard Book",
+        "path": "/Users/cam/Documents/Projects/alain-lessard-book"
+      },
+      {
+        "name": "Onward to the Unknown Website",
+        "path": "/Users/cam/Documents/Projects/onward-to-the-unknown-website"
+      },
+      {
+        "name": "Codex Forge",
+        "path": "/Users/cam/Documents/Projects/codex-forge"
+      }
+    ],
+    "outside_project_roots": [
+      {
+        "path": "/Users/cam/Documents/Hardware Specs",
+        "matching_skill_surface": false,
+        "observation": "no .agents/skills directory in parent check"
+      },
+      {
+        "path": "/Users/cam/Documents/RPG/!Campaigns/2025 Matt's 5e Waterdeep Campaign/images",
+        "matching_skill_surface": false,
+        "observation": "no .agents/skills directory in parent check"
+      }
+    ]
+  },
+  "personal_delegate_wait": {
+    "scope": "non-Git personal skill updated by separately assigned worker; Conductor imports patch and receipt only",
+    "before_sha256": "3b2bc4359eaa932b9be368450ac98bc7ebbc42c63af50015eb6b630ca2f32b81",
+    "after_sha256": "61dd9abafe0e9e6c11dfaa9f752029c7a37fc5ca81896a76d7838d76ed95756e",
+    "patch_sha256": "627da1feb0ca337d3762bbc2bb3f942aee9d0c5974737ecd052e6718ad57d9f1",
+    "patch_path": "docs/alignments/evidence/align-055-personal-delegate-wait.patch.gz",
+    "receipt_path": "docs/alignments/evidence/align-055-personal-delegate-wait-receipt.txt",
+    "raw_skillcreator_check": {
+      "command": "uv run --with pyyaml python /Users/cam/.codex/skills/.system/skill-creator/scripts/quick_validate.py /Users/cam/.codex/skills/delegate-wait",
+      "result": "pass"
+    },
+    "compressed_patch_sha256": "84b2d07feda2a70f825ca3a6cd61552a09939b1c38478669de09323efbb8ac03",
+    "storage_note": "Deterministic gzip preserves raw patch hash/content; avoids diff whitespace checks misreading required patch context markers as trailing prose whitespace."
+  },
+  "primary_preservation_check": {
+    "scope": "all 12 inspected primary policy surfaces",
+    "result": "hashes remain equal to pre-edit primary baselines"
+  },
+  "remote_preflight": {
+    "command": "git fetch origin; git rev-parse origin/main; git merge-base --is-ancestor origin/main HEAD; git status --short; git diff --cached --check",
+    "remote_main": "511655e8efdaba459427fb90b4f2815b7335bb34",
+    "result": "pass; remote matches base/HEAD, no integration needed; 20 intended staged files and no other isolated-worktree dirt",
+    "gate": "before any owner pushes; final Conductor landing after owner receipts"
+  },
+  "owner_landing_ledger": {
+    "json": "docs/alignments/evidence/align-055-owner-landing-ledger.json",
+    "markdown": "docs/alignments/evidence/align-055-owner-landing-ledger.md",
+    "status": "all 11 final remote main identities verified after pushes",
+    "integration_source": "parent coordinator supplied final owner ledger after global preflight and landings"
+  }
+}

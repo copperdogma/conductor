@@ -89,6 +89,12 @@ reading that policy does not invoke landing.
    - Scope each packet to explicit files, commands, or criteria. Each packet
      must return applicable evidence for the current diff and must not decide the
      final disposition.
+   - Choose the cheapest capable worker for checks when delegation's benefit
+     exceeds context, coordination and verification overhead. Use completion
+     events or message-aware waits; avoid duplicate work and unchanged sweeps.
+     Genuinely strategic outcome/architecture review follows `/loop-review`'s
+     strongest/maximum policy. Routine validation needs no compulsory strategic
+     reviewer, and the existing validation scope and stops still govern.
    - The main thread keeps Conductor's final synthesis: acceptance status,
      Ideal/spec fit, closure recommendation, impact note, and yes-ready next
      step.

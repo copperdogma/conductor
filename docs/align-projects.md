@@ -11,6 +11,14 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-10-06` — [Alignment 055 — Agent Staffing and Event-driven Waits](./alignments/align-055-agent-staffing-and-event-waits.md)
+  Audited 21 Conductor skills plus personal delegate-wait and sampled 11 owner
+  roots. Proposed dynamic strongest/maximum strategic review, economical
+  workers and event waits; active-parent ping wake-up verified. Ten narrow
+  Conductor skill updates implemented and validated; all eleven selected owners
+  landed and verified on remote main. Finance manual checkpoints and local
+  provenance/validation gates preserved. Personal waiting-skill patch recorded.
+
 - `2026-10-04` — [Alignment 053 — Research Before Reinvention](./alignments/align-053-research-before-reinvention.md)
   Implemented the existing global/Ultima research rule in Conductor's
   project setup, build, validation, and periodic loop-verify/loop-review

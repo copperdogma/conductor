@@ -1,5 +1,21 @@
 # Inbox
 
+- [x] 2026-10-06: Extend delegation scout to the other skills and confirm messaging
+  and wake-up behavior. [Alignment 055](docs/alignments/align-055-agent-staffing-and-event-waits.md)
+  records the 21-skill audit, targeted owner comparison, strongest-model/maximum-
+  thinking preference and a successful child-ping wake of an active parent wait.
+  Proposed ten narrow Conductor skill edits plus common/setup/personal waiting
+  guidance approved by Cam, implemented and validated in isolation; all eleven
+  owner policy/receipt landings verified on remote main. Finance manual
+  checkpoints and owner gates preserved; personal waiting-skill patch recorded.
+
+- 2026-10-06: Scout cheaper executor plus strong loop-review versus strong
+  coordinator plus cheaper workers. [Scout 085](docs/scout/scout-085-model-delegation-and-strategic-review.md)
+  records recent evidence, Astra/runtime changes, polling and cost controls,
+  proposed review contract and a matched pilot. No universal cost winner is
+  proven; review contract subsequently approved in Alignment 055. No economic
+  pilot or provider benchmark campaign is authorized by this research.
+
 - 2026-10-04: Review Ultima IV's research-before-reinvention lesson and its
   place in project setup and skills. [Alignment 053](docs/alignments/align-053-research-before-reinvention.md)
   records the assessment, refinements, and approved local instructions/setup/

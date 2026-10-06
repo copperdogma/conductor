@@ -123,6 +123,18 @@ Specialized loops:
   comparisons, carry cadence across interruptions, and charge research to the
   existing budget. This does not create a schedule or extend work past a stop.
 
+- For strategic loop reviews, use the strongest available eligible model at its
+  maximum supported thinking level, resolved from current runtime capabilities.
+  Follow `/loop-review` for selection evidence and one bounded read-only
+  reviewer when the main agent is not already suitably configured. Existing
+  scope, access, privacy, budgets and clean-stop rules prevail.
+- Use the cheapest capable workers when delegation saves more than context,
+  coordination and verification overhead. Give bounded packets and direct
+  artifact access. Do independent work or use message-aware completion waits;
+  avoid unchanged status sweeps, duplicate work and watcher agents when native
+  events suffice. Child mailboxes and separate user-owned chats have distinct
+  authorization and continuation contracts.
+
 ### Decision models
 
 Decision models are an architecture option for bounded semantic judgments over
