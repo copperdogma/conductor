@@ -52,3 +52,7 @@ evidence says otherwise. No candidate has been adopted by this watch.
   a new checkpoint; no strict-contract retry proof. Suppress new-evaluation
   framing and retain Scout 059's retry boundary. Exact historical served
   response identity remains limited by the former opaque route.
+
+## 2026-10-06 — Mistral Large 4 evaluated
+
+**October6 owner follow-through:** Cam selected all five [Scout084 evaluations](../scout/scout-084-mistral-large4-evaluation-routing.md#owner-results--2026-10-06). Exact OpenRouter access and measured contracts qualified; retain existing models after source-faithfulness failures. Detector numerical/economic pass is qualified by logo clipping. KnownUSD0.72167835 plus unknown timeout reservations0.02448150, conservative0.74615985/USD22; no default changes; evaluation evidence landed on all five owner remote main branches. Candidate now has an evaluated-ledger entry: suppress unchanged nominations and honor task-specific retry boundaries.

@@ -504,3 +504,5 @@ explicit rejections.
   physical-reclaim promise). Approved close-out resolved validation blockers and
   landed CineForge `f4a0dec` and Echo Forge `ef6bb1e` on verified remote main.
   Existing primary installs remain intact; no old-install cleanup performed.
+
+- 2026-10-06: Evaluate Mistral Large 4 — [Scout084](docs/scout/scout-084-mistral-large4-evaluation-routing.md) complete after Cam selected all five. OpenRouter access works; direct Mistral key absent. Retain existing models after source-faithfulness failures, including detector logo clipping despite numerical/economic pass. KnownUSD0.72167835, unknown0.02448150; conservative0.74615985/USD22. Owner evidence landed on all five remote main branches, temporary keys removed; no runtime/default or deployment changes.
