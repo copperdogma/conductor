@@ -1,5 +1,16 @@
 # Inbox
 
+- [x] 2026-10-06: Perplexity open-weights Decider v1.1 versus Jev/OpenAI Decisions.
+  [Scout 088](docs/scout/scout-088-perplexity-decider-v11-evaluation-routing.md)
+  records the four-owner comparisons and
+  [Doc Web follow-ups](docs/scout/scout-088-docweb-shadow-validation-plan.md).
+  Final decision: retain current models and stop further paid evaluation.
+  The Doc Web experimental warning sidecar remains disabled; saved-response
+  integration proof does not demonstrate fresh model quality or adoption value.
+  Known spend USD0.470093438; conservative maximum USD0.494595188 across
+  separately approved USD7+4 ceilings. Temporary owner credentials removed.
+  Scoped owner/supervisor evidence and disabled tooling authorized for landing.
+
 - [x] 2026-10-06: Evaluate OpenAI Decisions API as a JEV-class decision primitive.
   [Scout 086](docs/scout/scout-086-openai-decisions-api-evaluation-routing.md)
   records the approved four-owner comparison: native access qualified, Storybook
