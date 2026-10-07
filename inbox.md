@@ -9,7 +9,8 @@
   integration proof does not demonstrate fresh model quality or adoption value.
   Known spend USD0.470093438; conservative maximum USD0.494595188 across
   separately approved USD7+4 ceilings. Temporary owner credentials removed.
-  Scoped owner/supervisor evidence and disabled tooling authorized for landing.
+  Owner evidence and disabled tooling landed on all four remote main branches;
+  final supervisor records checked in separately.
 
 - [x] 2026-10-06: Evaluate OpenAI Decisions API as a JEV-class decision primitive.
   [Scout 086](docs/scout/scout-086-openai-decisions-api-evaluation-routing.md)

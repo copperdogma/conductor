@@ -449,3 +449,27 @@ Cam authorized scoped check-in and push of the four owner records and Conductor
 summary, including the disabled Doc Web experimental integration. Historical
 no-commit/no-landing statements above describe their original milestones.
 Final remote landing identities are recorded below after owner verification.
+
+
+## Verified owner landings — 2026-10-07
+
+All four owner execution branches and remote `main` branches were pushed and
+verified. Active primary checkouts and unrelated work were preserved. Task
+worktrees are retained. No paid calls, activation or model-default changes were
+made during close-out.
+
+- Storybook: [`c46a4d14`](https://github.com/copperdogma/storybook/commit/c46a4d14f2a29ce8a82d65700836d6fb22abf82e). Validation: 19 provider-free tests, lint, methodology, privacy coverage, 219-entry manifest and receipt replay.
+- Echo Forge: [`16856a03`](https://github.com/copperdogma/echo-forge/commit/16856a0310eeb185b1dcba847b75faa4cbb4dba7). Validation: 12 mocked tests, scoped lint, methodology, freeze/manifest and offline replay.
+- Board Game Ingester: [`151c13fc`](https://github.com/copperdogma/boardgame-ingester/commit/151c13fc01deb1fefc193264f4435fc8946e27f4). Validation: 8 focused tests; unchanged 46-test evidence reused; lint, methodology and 204-entry manifest.
+- Doc Web: [`cff6771a`](https://github.com/copperdogma/doc-web/commit/cff6771a01ba202b8eb39e13a604a932708e2278). Validation: 83 focused tests, scoped Ruff, methodology; historical manifests and offline replays.
+
+Doc Web preserves all four original attempt commits as ancestors of the combined
+landing. Its [historical custody and replay instructions](https://github.com/copperdogma/doc-web/blob/cff6771a01ba202b8eb39e13a604a932708e2278/docs/evals/perplexity-20261006-landing.md)
+distinguish the frozen paid-run source from later offline integration. Historical
+source manifests remain unchanged. The warning sidecar is still disabled.
+
+Conductor close-out checks: seven credential-helper tests, provider mapping,
+scoped credential-pattern scan, repo lint and diff hygiene passed. Only the
+Perplexity records, inbox resolution, credential mapping and `.env` ignore rule
+were included; unrelated primary changes were preserved. Final recommendation:
+keep the existing models; no further evaluation or adoption action is pending.
