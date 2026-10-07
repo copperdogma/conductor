@@ -424,3 +424,60 @@ Storybook is landed **disabled**. Operator activation, deployment, fresh runtime
 semantic qualification and other-owner evidence landing remain separate work;
 this commit/push authorization changed none of them. Both task worktrees are
 retained; no primary checkout synchronization or cleanup was requested.
+
+
+## Explicit default activation — 2026-10-06
+
+After the separate integration/landing, Cam instructed: “Just turn it on. No
+flag. It’s fine.” This supersedes the prior disabled/opt-in adoption boundary
+for Storybook's eligible relationship-routing component. The authorized outcome
+is a code default without the Decisions enable flag or a JEV override, retaining
+Haiku fallback, confirmation and capture/spend/native-contract safeguards, then
+clean committed/main deployment and actual hosted-route verification. Existing
+owner OpenAI access and standard development retention apply. Other owners'
+model choices and existing unrelated production privacy/identity policy do not
+change. Prior comparison scores remain historical; activation is not a new
+semantic-quality claim.
+
+
+### Hosted default verified
+
+The approved default change landed on Storybook branch/main at
+[`9fc5f34817a74cc1ce827e9e67e77e3d4c65b348`](https://github.com/copperdogma/storybook/commit/9fc5f34817a74cc1ce827e9e67e77e3d4c65b348)
+and deployed as release42 from a separate clean main checkout. Native adapter,
+frozen prompt meaning and pricing were unchanged; default factory selection
+replaces both routing flags and retires the JEV runtime dispatch. Fresh122 backend
+and9 environment/privacy tests, workspace typecheck/lint, production builds and
+pinned Dossier install passed. Earlier validation receipts remain historical.
+
+Exact deployed image is
+`sha256:afdac98f4b24db364b5a27cfbf52ebd558f236afb85ad87fd1835dcc74a7a4ad`.
+Enforced candidate media and PDF/OCR startup checks passed before bluegreen.
+Rollback authority remains prior release41 image
+`sha256:140d7e63d2a3c3be3c2bbb2b0ea9c0b71574f6765de81724f8b55f6db6088c96`.
+Health200/DB connected/dependencies ready, root/login/bundle200 and authenticated
+user.me200 (owner fields redacted) passed. Root independently refreshed the live
+login browser and visually inspected it; error/warning logs were empty.
+
+One fictional no-database-write smoke invoked the default factory inside the
+exact deployed image with the actual owner key and no routing flags. It made one
+native Decisions call: HTTP200, served `gpt-6-luna`, noop0.98,432 input/0 output,
+998ms provider/1001ms total, zero fallback and zero unknown usage. Estimated cost
+USD0.0000432 brings Storybook campaign plus activation smoke to USD0.1331196
+within its USD2 ceiling. The smoke uses an explicitly synthetic fallback stub;
+it qualifies live access/default selection, not full-consumer quality or fresh
+semantic parity for the minimized request. No private replay or saved-data write.
+[Owner deployment artifacts](https://github.com/copperdogma/storybook/tree/d9cb51527e4e5b16a3e406617da8e72caf1f1ba2/docs/reports/artifacts/story191-default-adoption-20261006)
+and [deployment log](https://github.com/copperdogma/storybook/blob/d9cb51527e4e5b16a3e406617da8e72caf1f1ba2/docs/deploy-log.md)
+retain release/topology, source/image hashes, bounded cost and checks.
+
+Production topology is one active app/worker plus a stopped standby, all on the
+new digest; standby association and production override checks passed. Worker
+Dossier readiness/private approval and the existing USD30/day identity cap were
+preserved. Incident delivery check passed; one preexisting processing incident
+remains. Both shared primary checkout status/tracked/staged fingerprints match
+the pre-landing snapshot exactly. No primary synchronization or cleanup occurred.
+
+Owner deployment/closure receipts landed on verified branch and remote main at
+`d9cb51527e4e5b16a3e406617da8e72caf1f1ba2`; follow-up commits are documentation
+and sanitized evidence only. The running image source remains9fc5f348.

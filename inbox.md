@@ -4,9 +4,10 @@
   [Scout 086](docs/scout/scout-086-openai-decisions-api-evaluation-routing.md)
   records the approved four-owner comparison: native access qualified, Storybook
   early-exit integration candidate; retain other incumbents. USD1.5622368/14,
-  zero unknown exposure. Approved Storybook Story191 opt-in routing implemented
-  and verified; landed on Storybook main at`ca442a3e`, disabled.
-  Activation/deployment and other-owner evidence landing remain separate.
+  zero unknown exposure. Cam then approved default activation: Story191 now
+  uses Decisions without a routing flag on hosted release42 from`9fc5f348`.
+  Actual deployed native routing, health, authenticated access and browser passed.
+  Haiku fallback remains; other-owner evidence landing is separate.
 
 - [x] 2026-10-06: Extend delegation scout to the other skills and confirm messaging
   and wake-up behavior. [Alignment 055](docs/alignments/align-055-agent-staffing-and-event-waits.md)
