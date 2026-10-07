@@ -17,6 +17,8 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-10-06` — [Scout 086 — OpenAI Decisions API evaluation routing](./scout/scout-086-openai-decisions-api-evaluation-routing.md) — Completed approved native `gpt-6-luna` Decisions comparisons in four isolated owners: Storybook early-exit integration candidate; retain incumbents in Echo, Doc Web and Board Game.332 paid calls, USD1.5622368/14, zero unknown exposure. Approved Storybook opt-in Story191 integration verified and landed on Storybook main at`ca442a3e`; disabled, no activation/deployment.
+
 - `2026-10-06` — [Scout 085 — Model delegation and strategic review economics](./scout/scout-085-model-delegation-and-strategic-review.md) — `Adapt/Spike`: current research favors selective delegation, explicit review dispatch and completion-driven waiting; no proven universal winner between cheaper executor/strong reviewer and strong coordinator/cheaper workers. Review contract subsequently approved and implemented in Alignment 055; all eleven selected owner landings verified. No provider benchmark campaign or economic savings claim.
 
 - `2026-10-02` — [Scout 083 — Grok 4.7 reasoning follow-through](./scout/scout-083-grok47-reasoning-follow-through.md) — Completed bounded Dossier, Doc Web crop and CineForge ordered-frame low/medium/high checks. Dossier low ties quality narrowly at lower cost/higher latency; image/frame efforts fail qualification. Provider output-limit inconsistency stops further Grok calls. Accounted USD.871834/USD15, unknown0; scoped owner evidence landed, no default changes.

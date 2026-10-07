@@ -1,5 +1,13 @@
 # Inbox
 
+- [x] 2026-10-06: Evaluate OpenAI Decisions API as a JEV-class decision primitive.
+  [Scout 086](docs/scout/scout-086-openai-decisions-api-evaluation-routing.md)
+  records the approved four-owner comparison: native access qualified, Storybook
+  early-exit integration candidate; retain other incumbents. USD1.5622368/14,
+  zero unknown exposure. Approved Storybook Story191 opt-in routing implemented
+  and verified; landed on Storybook main at`ca442a3e`, disabled.
+  Activation/deployment and other-owner evidence landing remain separate.
+
 - [x] 2026-10-06: Extend delegation scout to the other skills and confirm messaging
   and wake-up behavior. [Alignment 055](docs/alignments/align-055-agent-staffing-and-event-waits.md)
   records the 21-skill audit, targeted owner comparison, strongest-model/maximum-
