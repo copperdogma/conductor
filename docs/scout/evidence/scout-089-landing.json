@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-07",
+  "authorization": "User: Thanks. Finish and push",
+  "scope": "Six Haiku owner evaluations including separately approved public orientation follow-up, plus scoped Conductor records",
+  "all_repositories_preflighted_before_first_push": true,
+  "no_paid_calls_during_closeout": true,
+  "runtime_defaults_changed": false,
+  "primary_checkout_policy": "Unrelated dirty primary checkouts preserved; task worktrees retained; no cleanup requested",
+  "validation_policy": "Reuse checks on unchanged inputs; rerun affected lint/tooling tests and offline manifest/source replay after closeout edits; no paid reruns",
+  "owners": [
+    {
+      "name": "Storybook",
+      "commit": "1f27f14c0c2a36cbe22314e5adde7a8b1834092d",
+      "destination": "origin/main",
+      "execution_branch": "codex/haiku55-eval-20261007",
+      "owner_verified_remote_main": true,
+      "coordinator_remote_verification": "git ls-remote origin refs/heads/main refs/heads/codex/haiku55-eval-20261007: both exact commit; git status --porcelain=v1 empty"
+    },
+    {
+      "name": "Echo Forge",
+      "commit": "cfeedd4e902c158065d1ae3447ac5bafa52857ba",
+      "destination": "origin/main",
+      "execution_branch": "codex/haiku55-eval-20261007",
+      "owner_verified_remote_main": true,
+      "coordinator_remote_verification": "git ls-remote origin refs/heads/main refs/heads/codex/haiku55-eval-20261007: both exact commit; git status --porcelain=v1 empty"
+    },
+    {
+      "name": "Dossier",
+      "commit": "caae23221af6f145fbf6fae970509bb40a785d2b",
+      "destination": "origin/main",
+      "execution_branch": "codex/haiku55-eval-20261007",
+      "owner_verified_remote_main": true,
+      "coordinator_remote_verification": "git ls-remote origin refs/heads/main refs/heads/codex/haiku55-eval-20261007: both exact commit; git status --porcelain=v1 empty"
+    },
+    {
+      "name": "CineForge",
+      "commit": "1c759686544a2ec85b6c8808f3b4a3966bf8d86e",
+      "destination": "origin/main",
+      "execution_branch": "codex/haiku55-eval-20261007",
+      "owner_verified_remote_main": true,
+      "coordinator_remote_verification": "git ls-remote origin refs/heads/main refs/heads/codex/haiku55-eval-20261007: both exact commit; git status --porcelain=v1 empty"
+    },
+    {
+      "name": "Doc Web",
+      "commit": "3a7bc2c01543c6c2f96cf3febe3dc8234331427b",
+      "destination": "origin/main",
+      "execution_branch": "codex/haiku55-eval-20261007",
+      "owner_verified_remote_main": true,
+      "closeout_receipt_sha256": "f62f003430c3f254cc3eda606fa0440edf0f8ac72873f18f6c3b2efaaa75414f",
+      "closeout_offline_checks": "Three zero-call refusal checks preserve outputs;13 focused tests, Ruff,methodology, staged whitespace pass;356 archived measurement files unchanged",
+      "coordinator_closeout_hash_entries_checked": 46,
+      "coordinator_remote_verification": "git ls-remote origin refs/heads/main refs/heads/codex/haiku55-eval-20261007: both exact commit; git status --porcelain=v1 empty"
+    },
+    {
+      "name": "Board Game Ingester",
+      "commit": "7c910d1b1dfe8ece2c704fb90169cef146e113d5",
+      "destination": "origin/main",
+      "execution_branch": "codex/haiku55-eval-20261007",
+      "owner_verified_remote_main": true,
+      "integration_base": "5d4c4c426bc568e453128dc1e2a8acdb8bb03bf1",
+      "integration_checks": "10 focused tests, lint,methodology,185+116 manifest entries,raw license hashes and whitespace checks pass",
+      "raw_source_policy": "Narrow license-*.html -text -whitespace attributes preserve exact upstream bytes; other diffs whitespace-checked",
+      "public_manifest_sha256": "32718e74a7e01735332310ea8497aa4a5339a4570777e7105ae2728c27c5489c",
+      "coordinator_remote_verification": "git ls-remote origin refs/heads/main refs/heads/codex/haiku55-eval-20261007: both exact commit; git status --porcelain=v1 empty"
+    }
+  ],
+  "status": "All six owners landed and coordinator independently verified remote main and execution branches; Conductor records prepared for subsequent landing"
+}

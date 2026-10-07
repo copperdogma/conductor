@@ -1,0 +1,310 @@
+{
+  "date": "2026-10-07",
+  "status": "complete; no promotion winner; retain current Sol and review",
+  "owner_root": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval",
+  "remote_base_verified": "151c13fc01deb1fefc193264f4435fc8946e27f4",
+  "user_selection": "Yea to preceding USD1 representative public orientation package",
+  "incremental_hard_cap_usd": 1,
+  "candidate": "Anthropic direct claude-haiku-5-5 adaptive medium",
+  "comparator": "OpenAI Responses gpt-6.1-sol low",
+  "source_checks": [
+    {
+      "url": "https://kenney.nl/assets/boardgame-pack",
+      "evidence": "First-party page lists Board Games,490 assets,CC0; local pack license matches. No representativeness claim from license."
+    },
+    {
+      "url": "https://github.com/AntumDeluge/GreyWyvern-Cardset/blob/master/LICENSE.txt",
+      "evidence": "Maintainer published CC0; locally downloaded original GreyWyvern licence public domain with BSD fallback."
+    },
+    {
+      "url": "https://opengameart.org/content/pixel-art-mahjong-tiles",
+      "evidence": "Author devurandom describes originally drawn Riichi Mahjong tiles, CC0. Draft4faces are distinct native crops of one256x256sheet, not4independent scans."
+    },
+    {
+      "url": "https://opengameart.org/content/simple-tiles",
+      "evidence": "Author garrick describes32x32tiles for tabletopgameclient,CC0. Draft green texture has no inherent top; describe grass rather than stone."
+    },
+    {
+      "url": "https://opengameart.org/content/letter-tiles-0",
+      "evidence": "Author Game_assets_66 explicitCC0forScrabble-like/boardgames; selected4distinct256x256letters. GreyWyvernexcludedprospectively, no inference."
+    }
+  ],
+  "runtime_boundary": "Standalone orientation adapter/prompt is distinct from combined crop+rotation model_proposals; README workflow makes no paid calls. Whole workflow share not measured.",
+  "private_uploads_authorized": false,
+  "default_changes_authorized": false,
+  "commit_push_authorized": false,
+  "precall_source_review": {
+    "draft_contact_sheet": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/fixtures/public-orientation-v1/source-review-sheet.png",
+    "finding": "Dual-ended ranks and swimming-animal poses do not make robust determinate goldens. Worker independently identified same concern; prospectively replace before freeze/inference. Other objects and Chinese glyphs have clear upright cues.",
+    "no_model_calls_at_review": true,
+    "representativeness_limit": "Small clean digitalsource assets, not photographic scanner defects/highresolution physicalgame proof."
+  },
+  "frozen_source_matrix_sha256": "16d818f4597782d8520a5c7c418f0bdcddbbfd7662e40e39bbe4aec151035167",
+  "independent_source_pixel_checks": [
+    {
+      "id": "pub-001",
+      "source_sha256": "946ab3d41d2c510d40abd2eab10f3b352010d88dc7577c466d7768287aa5dc45",
+      "input_sha256": "54a85f545b88bbb70f9f0cbaa52adedc78e787fd4bb8308b9545407293149ad4",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        256,
+        256
+      ],
+      "expected_correction": 0
+    },
+    {
+      "id": "pub-002",
+      "source_sha256": "3e816c071706103eb46da3480755583ba00064f6d84aa5f004441936c8787e30",
+      "input_sha256": "244db668e9ba51b2165021948dacb9f5b7f21c40601629ede53da601945d9c0c",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        256,
+        256
+      ],
+      "expected_correction": 270
+    },
+    {
+      "id": "pub-003",
+      "source_sha256": "ffe5167a71cfa1853706c904ae9294e8dbc12b7f0c712f38575c4b79b3324eb9",
+      "input_sha256": "b0f8625025d467204e79ab6491fcde006f7f814015c647d518b0db2859d182a4",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        256,
+        256
+      ],
+      "expected_correction": 180
+    },
+    {
+      "id": "pub-004",
+      "source_sha256": "b6508e1d189d1e2c4668ecb2d8dc1248d59f7357e8d667a0e20b1ec0e8f7b473",
+      "input_sha256": "73737ce07d928477de83c86d70da663494861887d6b9eb9e8d288e6dff96c114",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        256,
+        256
+      ],
+      "expected_correction": 90
+    },
+    {
+      "id": "pub-005",
+      "source_sha256": "0df272e449429a14002198f47d5b3765bc94d1383e048754e44e16a390678d52",
+      "input_sha256": "6ae8302fc78c43682983ad11ba19b19d57a435aa8a7618ee0592af095d2e2041",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "expected_correction": 270
+    },
+    {
+      "id": "pub-006",
+      "source_sha256": "fa6a4836cf196510a5f2c76f3e10faac9172436ea19a955d12510ba4a54e5606",
+      "input_sha256": "feae2398bde64b75ea68d4c6c78766ef6afde82bdb0e1efc45e1b967574323ed",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "expected_correction": 180
+    },
+    {
+      "id": "pub-007",
+      "source_sha256": "cd680677c07cbf8f7c29f4274dded458e3948f64794ac02ad99f92dd1f14caef",
+      "input_sha256": "73f3a52cd113053dc559c14ee7b16e4f342592dbb3007a35d57a093b7d2e942d",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "expected_correction": 90
+    },
+    {
+      "id": "pub-008",
+      "source_sha256": "ca0da2f1f8c7f4d6cd3de2feae54073d771682204435ee099a806647169c2e9b",
+      "input_sha256": "b1e87564d0bcbbac79ea9bac4e50a74b78a4d192b06b0d1c95c32fb642754f8f",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "expected_correction": 0
+    },
+    {
+      "id": "pub-009",
+      "source_sha256": "e824f8af5f506e30721e904c17fe3b0dc05e6a7d3f32e0842bb2d9a6eb0d63b4",
+      "input_sha256": "fbc491356adc5ee00ef05c8e7d6ef231d35914a791a27563170655f30a16decf",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        24,
+        48
+      ],
+      "expected_correction": 180
+    },
+    {
+      "id": "pub-010",
+      "source_sha256": "e824f8af5f506e30721e904c17fe3b0dc05e6a7d3f32e0842bb2d9a6eb0d63b4",
+      "input_sha256": "0ab2939aecd313c885cc4ee51a0a3d73aa657cead8f41de2c7153ae34d0ab808",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        48,
+        24
+      ],
+      "expected_correction": 90
+    },
+    {
+      "id": "pub-011",
+      "source_sha256": "e824f8af5f506e30721e904c17fe3b0dc05e6a7d3f32e0842bb2d9a6eb0d63b4",
+      "input_sha256": "d35791de597957ab60a7b3f0e05d93e4936e7f7a7ad04c397ed6f9de02a1328d",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        24,
+        48
+      ],
+      "expected_correction": 0
+    },
+    {
+      "id": "pub-012",
+      "source_sha256": "e824f8af5f506e30721e904c17fe3b0dc05e6a7d3f32e0842bb2d9a6eb0d63b4",
+      "input_sha256": "9fbc78b9690f231f3d807ef7f3b3f676e19c5833cb87652c2853648c7ff02c96",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        48,
+        24
+      ],
+      "expected_correction": 270
+    },
+    {
+      "id": "pub-013",
+      "source_sha256": "ad146dd3830f21e99b1c7ce8ae47e904bed388038d7da7d25c353561d3883348",
+      "input_sha256": "3c68cfac4e417ab9b53bbac247aa86e02a02947f5df297c98aa88a9febfadc26",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        64,
+        64
+      ],
+      "expected_correction": null
+    },
+    {
+      "id": "pub-014",
+      "source_sha256": "2a7977993c48191dbad9095305d8c886142037d01be1f4ebf7cf711fdfe30ce5",
+      "input_sha256": "9a5fc0dce09a68a7f190731380c94f425322ae959269848d2915db3b8de9e79d",
+      "source_pixels_and_rotation": "exact",
+      "native_dimensions": [
+        32,
+        32
+      ],
+      "expected_correction": null
+    }
+  ],
+  "balanced_determinate_corrections": {
+    "0": 3,
+    "270": 3,
+    "180": 3,
+    "90": 3
+  },
+  "prior_fixture_hash_overlap": 0,
+  "fixture_freeze": {
+    "path": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/fixtures/public-orientation-v1/frozen-manifest.json",
+    "sha256": "81c423d6b281b75bbbbea19d4d97fb0503fd5840b5bea5da08943c22eed21b3e",
+    "checked_files": 49,
+    "mismatch": 0
+  },
+  "independent_receipt_checks": [
+    {
+      "path": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/results/public-orientation-v1/20261007-haiku55-promotion/haiku-medium/pub-001-receipt.json",
+      "sha256": "ef7c29093ebb7e7ccf397d9d938674258a23666ada209649ee03f94b68286c6a",
+      "bytes": 9374
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/results/public-orientation-v1/20261007-haiku55-promotion/haiku-medium/pub-012-receipt.json",
+      "sha256": "3bb6406a92c7dafdd83ae783e26da5545daf77180de8605c4dfec878b0dc821a",
+      "bytes": 7186
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/results/public-orientation-v1/20261007-haiku55-promotion/sol/pub-001-receipt.json",
+      "sha256": "5ff3edb177188b2b62c0f3f01ac5312154978f14904165266891f15fb710788a",
+      "bytes": 11532
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/results/public-orientation-v1/20261007-haiku55-promotion/sol/pub-012-receipt.json",
+      "sha256": "1a4a093875503db9a422d258d1c7e2100bfa6007add91017936155fcd690bd4c",
+      "bytes": 10343
+    }
+  ],
+  "arms": {
+    "haiku-medium": {
+      "calls": [
+        {
+          "case": "pub-001",
+          "status": "already_canonical",
+          "rotation": 0,
+          "review_required": false,
+          "cost_usd": 0.00013610000000000003,
+          "latency_seconds": 3.283410374999221
+        },
+        {
+          "case": "pub-012",
+          "status": "needs_review",
+          "rotation": null,
+          "review_required": true,
+          "cost_usd": 0.0002253,
+          "latency_seconds": 2.627127624997229
+        }
+      ],
+      "total_cost_usd": 0.0003614,
+      "p95_seconds": 3.283410374999221
+    },
+    "sol": {
+      "calls": [
+        {
+          "case": "pub-001",
+          "status": "already_canonical",
+          "rotation": 0,
+          "review_required": false,
+          "cost_usd": 0.001178,
+          "latency_seconds": 3.5114964169988525
+        },
+        {
+          "case": "pub-012",
+          "status": "needs_review",
+          "rotation": null,
+          "review_required": true,
+          "cost_usd": 0.00291,
+          "latency_seconds": 9.780961000004027
+        }
+      ],
+      "total_cost_usd": 0.004088,
+      "p95_seconds": 9.780961000004027
+    }
+  },
+  "incremental_settled_usd": 0.004449399999999999,
+  "unknown_reserved_usd": 0,
+  "source_adjudication": {
+    "case": "pub-012",
+    "canonical": "24x48 native Chinese Mahjong east glyph \u6771",
+    "input": "48x24 native90clockwise source transformation",
+    "expected_correction": 270,
+    "finding": "Source-valid determinate: recognizable asymmetrical glyph has standard upright orientation. Both exact-terminal outputs safely abstain due insufficient readable top cue; neither executes wrong rotation, neither reaches required automatic determinate12/12gate. No golden change, added context, upscale or effort retry.",
+    "unmeasured": "10remaining determinate and bothholds; no full14cost/p95 claim",
+    "viewed_files": [
+      "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/fixtures/public-orientation-v1/canonical/pub-012.png",
+      "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/fixtures/public-orientation-v1/inputs/pub-012.png"
+    ]
+  },
+  "final_owner_manifest": {
+    "path": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/benchmarks/results/public-orientation-v1/20261007-haiku55-promotion/manifest.json",
+    "sha256": "32718e74a7e01735332310ea8497aa4a5339a4570777e7105ae2728c27c5489c",
+    "files_verified": 116,
+    "mismatches": 0,
+    "evaluation_completion_sha256": "5f0c07b4f3bee6e39b2c278b038a6a46dc10a49bbc95f1036f6d1cfef15f9822",
+    "closeout_note": "All116 entries hash/size reverified after landing-review note; source, native and pixel evidence unchanged."
+  },
+  "independent_output_pixel_inverse_checks": 18,
+  "owner_validation": {
+    "focused_public_controller_tests": 5,
+    "unchanged_prior_native_scorer_executor_tests_reused": 43,
+    "compile_lint_methodology_diff": "pass",
+    "no_runtime_change": true
+  },
+  "owner_attempt": "/Users/cam/Documents/Projects/boardgame-ingester-haiku55-eval/docs/evals/attempts/20261007-haiku55-public-orientation.md"
+}

@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-07-01] — Close Claude Haiku 5.5 evaluation
+
+### Added
+- Record six owner evaluations with thinking/value comparisons, bounded spend,
+  source audits and the approved public orientation follow-up.
+- Preserve incumbent decisions and verified owner landing receipts in Scout089;
+  no runtime default or deployment change.
+
 ## [2026-10-04-01] — Research before reinvention across eleven projects
 
 ### Changed

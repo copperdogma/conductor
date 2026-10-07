@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-07",
+  "campaign": "Scout089",
+  "selected_owners": 6,
+  "provider": "Anthropic direct Messages",
+  "served_id": "claude-haiku-5-5",
+  "checkpoint_immutable": false,
+  "caps_usd": {
+    "storybook": 2,
+    "echo": 1.5,
+    "docweb": 10,
+    "dossier": 5,
+    "cineforge": 3,
+    "boardgame": 1
+  },
+  "settled_estimate_usd": "1.386966965",
+  "unknown_reserved_usd": "0.11009475",
+  "maximum_exposure_usd": "1.497061715",
+  "owner_manifest_audits": [
+    {
+      "name": "cineforge",
+      "root": "/Users/cam/Documents/Projects/cine-forge-haiku55-eval",
+      "manifest": "/Users/cam/Documents/Projects/cine-forge-haiku55-eval/docs/evals/haiku55-20261007-manifest.json",
+      "manifest_exists": true,
+      "manifest_sha256": "38e2be83e8a2190e2b71ef8b06818bc09b71b5cffdde69e7e0c85e33a9972006",
+      "listed": 95,
+      "checked": 95,
+      "missing": 0,
+      "hash_mismatch": 0,
+      "size_mismatch": 0,
+      "spend_fields": {
+        "provider_spend_estimated_usd": "0.190395745",
+        "unknown_exposure_usd": "0"
+      },
+      "evaluation_completion_manifest_sha256": "4986842e8065a78375cd54e658f3f2fd9cae290c00f548349d00585fc6d49c6a",
+      "closeout_note": "Offline coordinator hash/size replay passed after mechanical tooling fixes; original provider records, gates and spend unchanged. Earlier manifest identity retained separately where changed.",
+      "evaluation_completion_checked": 95
+    },
+    {
+      "name": "echo-forge",
+      "root": "/Users/cam/.codex/worktrees/haiku55-echo/echo-forge",
+      "manifest": "/Users/cam/.codex/worktrees/haiku55-echo/echo-forge/docs/evals/attempts/control-intent-v1/20261007-anthropic-claude-haiku-5-5.manifest.json",
+      "manifest_exists": true,
+      "manifest_sha256": "cdc31f94b76e926049913269371074e2a6676d1357dfbfbe47d416b11737140c",
+      "listed": 249,
+      "checked": 249,
+      "missing": 0,
+      "hash_mismatch": 0,
+      "size_mismatch": 0,
+      "spend_fields": {
+        "knownUsd": 0.04124849999999999,
+        "unknownReservedUsd": 0.0869065,
+        "conservativeUsd": 0.128155,
+        "capUsd": 1.5
+      },
+      "evaluation_completion_manifest_sha256": "cb2a4aa296991fc73f16a39ff27699ae75eb866cbf32cbbe048121c482158693",
+      "closeout_note": "Offline coordinator hash/size replay passed after mechanical tooling fixes; original provider records, gates and spend unchanged. Earlier manifest identity retained separately where changed.",
+      "evaluation_completion_checked": 249
+    },
+    {
+      "name": "doc-web",
+      "root": "/Users/cam/.codex/worktrees/haiku55-eval-20261007/doc-web",
+      "manifest": "/Users/cam/.codex/worktrees/haiku55-eval-20261007/doc-web/docs/evals/evidence/068-haiku55-manifest.json",
+      "manifest_exists": true,
+      "manifest_sha256": "15d7374342d9f121961a0bec948ef4fd0438adf27ecc3e48a0dd76d27cf978cb",
+      "listed": 357,
+      "checked": 357,
+      "missing": 0,
+      "hash_mismatch": 0,
+      "size_mismatch": 0,
+      "spend_fields": {
+        "cap_usd": 10,
+        "settled_usd": 0.13654200000000008,
+        "unknown_reserved_usd": 0.011442
+      }
+    },
+    {
+      "name": "dossier",
+      "root": "/Users/cam/Documents/Projects/dossier-haiku55-eval-20261007",
+      "manifest": "/Users/cam/Documents/Projects/dossier-haiku55-eval-20261007/docs/evals/artifacts/haiku55-namesakes-20261007/custody.json",
+      "manifest_exists": true,
+      "manifest_sha256": "f64b8d69d7a15c61d338e19fef80a075de3a690743e144f8fcf720a2977b89c3",
+      "listed": 148,
+      "checked": 148,
+      "missing": 0,
+      "hash_mismatch": 0,
+      "size_mismatch": 0,
+      "spend_fields": {
+        "verification.ledger_exposure_usd": 0.5963771499999999
+      },
+      "supplement": "Original reviews preserved; three source-contract supplements canonical graded material_failure, all11reviews validated."
+    },
+    {
+      "name": "storybook",
+      "root": "/Users/cam/.codex/worktrees/haiku55-storybook-20261007",
+      "manifest": "/Users/cam/.codex/worktrees/haiku55-storybook-20261007/docs/evals/artifacts/haiku55-20261007/manifest.json",
+      "manifest_exists": true,
+      "manifest_sha256": "ba03bd6aa2744e2671b2f88793a44d2b007318dba6e8acaed74053d44d924e22",
+      "listed": 706,
+      "checked": 706,
+      "missing": 0,
+      "hash_mismatch": 0,
+      "size_mismatch": 0,
+      "spend_fields": {},
+      "evaluation_completion_manifest_sha256": "a71c87f26f681355a53935e3f7dc514cf255dfe46745fdbd1c9c8a0cf0c03724",
+      "evaluation_completion_checked": 702,
+      "closeout_note": "Offline coordinator hash/size replay passed after mechanical tooling fixes; original provider records, gates and spend unchanged. Earlier manifest identity retained separately where changed."
+    }
+  ],
+  "coordinator_reviews": [
+    {
+      "path": "/Users/cam/.local/share/conductor/evals/scout089-review/boardgame-verification.json",
+      "bytes": 632,
+      "sha256": "75b8bfe155726796f081ed790a5ca199f65a7a49e1c33d92e3840a0554f31aad",
+      "result": {
+        "manifest_files": 185,
+        "manifest_bad": [],
+        "independent_pixel_pairs": 49,
+        "arms": {
+          "blind-noop": {
+            "receipts": 0,
+            "cost": 0,
+            "p95": null
+          },
+          "haiku-disabled": {
+            "receipts": 6,
+            "cost": 0.0008505,
+            "p95": 2.324263583002903
+          },
+          "haiku-medium": {
+            "receipts": 14,
+            "cost": 0.0038286,
+            "p95": 5.560965333002969
+          },
+          "haiku-high": {
+            "receipts": 1,
+            "cost": 0.0004943,
+            "p95": 6.002592791999632
+          },
+          "sol": {
+            "receipts": 14,
+            "cost": 0.023629999999999998,
+            "p95": 7.759597499993106
+          }
+        },
+        "total": 0.0288034
+      }
+    },
+    {
+      "path": "/Users/cam/.local/share/conductor/evals/scout089-review/cine-source-review.json",
+      "bytes": 2196,
+      "sha256": "117b08c72949a45b76d5d15231ea99276fe5758f924ce733c91783f07ef87958"
+    },
+    {
+      "path": "/Users/cam/.local/share/conductor/evals/scout089-review/persona-review-c.json",
+      "bytes": 4401,
+      "sha256": "0340478465d0b039cb9ea6cdec603633009b92018e67f2b3605458181f07f49d"
+    },
+    {
+      "path": "/Users/cam/.local/share/conductor/evals/scout089-review/review-a.supplemental.json",
+      "bytes": 7740,
+      "sha256": "7d3e0f4db8d031a2523f77d503af35720a509896ba30c8328e07b2e4725ddf48"
+    },
+    {
+      "path": "/Users/cam/.local/share/conductor/evals/scout089-review/review-b.supplemental.json",
+      "bytes": 7638,
+      "sha256": "9cdf7b315a5f2d1062253be6d749620c9fe3a9ee3c9653fd5f090c7054b5bfb5"
+    },
+    {
+      "path": "/Users/cam/.local/share/conductor/evals/scout089-review/review-d.supplemental.json",
+      "bytes": 9079,
+      "sha256": "9630bb4afbc913f8755434a2033d2b2b5c0a12f8abcf14301b6b3868469fc989"
+    }
+  ],
+  "validation": {
+    "scope": "Evidence/docs and owner eval tooling only; reused owner focused checks, no product full-suite reruns.",
+    "conductor_diff_check": "pass",
+    "new_campaign_links": "all present",
+    "unrelated_existing_missing_ledger_link": "gpt61-sol-effort-promotion-20260929/dossier Story179; not touched",
+    "storybook_owner_checks": "179 exact native receipts/usage/cost/scorer replay;11 maintained focused tests, syntax/methodology/diff passed; inherited expired global privacy review disclosed, synthetic-only."
+  },
+  "authorization": {
+    "private_payloads": false,
+    "defaults_changed": false,
+    "commit_push": false,
+    "central_credential_injection": false
+  },
+  "next_package": "Separately approved USD1 Board Game orientation public representative14-case promotion check; no private or default changes.",
+  "manifest_files_verified_before_dossier_supplement": 1730,
+  "storybook_ledger_independent_sum": 0.40534642,
+  "manifest_files_verified_final": 1740,
+  "manifest_files_verified_evaluation_completion": 1736,
+  "closeout_independent_replay": "All current owner manifest entries pass hash/size replay; Dossier separate tooling manifest36/36 also passes. No paid calls."
+}

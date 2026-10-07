@@ -543,3 +543,5 @@ explicit rejections.
   Existing primary installs remain intact; no old-install cleanup performed.
 
 - 2026-10-06: Evaluate Mistral Large 4 — [Scout084](docs/scout/scout-084-mistral-large4-evaluation-routing.md) complete after Cam selected all five. OpenRouter access works; direct Mistral key absent. Retain existing models after source-faithfulness failures, including detector logo clipping despite numerical/economic pass. KnownUSD0.72167835, unknown0.02448150; conservative0.74615985/USD22. Owner evidence landed on all five remote main branches, temporary keys removed; no runtime/default or deployment changes.
+
+- 2026-10-07: Claude Haiku 5.5 evaluation and approved public orientation follow-up completed; [Scout089](docs/scout/scout-089-haiku55-evaluation-routing.md) retains six owner decisions, thinking/value comparisons and spend. Retain incumbents; six owner evidence landings verified, with Conductor close-out records prepared.

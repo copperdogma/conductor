@@ -1,5 +1,74 @@
 # Evaluated frontier model ledger
 
+## Anthropic Claude Haiku 5.5 — 2026-10-07
+
+Canonical provider-qualified ID: **Anthropic direct Messages
+`claude-haiku-5-5`**; public name Claude Haiku5.5 / Haiku5.5. Successful owner
+responses returned that exact ID. No immutable dated checkpoint is inferred;
+router aliases and later snapshots require their own served-identity evidence.
+Latest authenticated evaluation:2026-10-07, all six approved owners.
+[Scout089 completed decisions](../scout/scout-089-haiku55-evaluation-routing.md#completed-owner-decisions--2026-10-07)
+links every authoritative owner attempt, bases, spend and coordinator review.
+
+- **Access:** callable direct with existing owner credentials; no central key
+  injection, no account changes. Public/synthetic fixtures only; account ZDR
+  unverified. Retention/privacy eligibility for private inputs remains unmeasured.
+- **Transport:** simple native strict text/image schemas qualified. Dossier
+  canonical graph and Echo scene strict grammar rejected pre-inference;
+  prompt-only diagnostics do not establish parity. These stops are not semantic
+  losses. Doc Web low geometry invalid; local validation retained.
+- **Reliability:** executed valid receipts retained alongside two Dossier
+  output-budget truncations, pre-response errors and recoveries. Echo accidental
+  CLI duplicates excluded from quality and counted in spend; import-safe guard
+  tested. Small serial cohorts do not establish production reliability.
+- **Capability/economics:** Board Game adaptive medium matches fresh Sol on
+  12 determinate rotations plus two holds,83.8% cheaper,28.3% lower p95;8
+  confirmation cases disjoint from selection, all authored synthetic. Best
+  promotion prospect, not real-source adoption proof. Echo medium37/42 vs
+  Gemini40/42 despite lower cost/latency; high adds39.8% calibration cost with
+  same labels. Doc Web all3 efforts fail crop/safety/OCR gates; low classifier
+  25/40 vs GPT29/40 despite90.38% cost reduction. Dossier medium/high omit
+  familiar-name facts, low invalid enum; corrected source supplements override
+  initial generic review passes. CineForge all3 miss frame enlargement;
+  Bible high improves structure but invents source facts. Storybook medium
+  routing/full cascade24/24 ties current Decisions but p95 is59.4% slower and
+  cost only0.61% lower; photo/OCR low costs3.18x Gemini, persona medium fails
+  no-advice with another disputed grade. Retain current models. Inclusive
+  campaign settled estimateUSD1.386966965 plus unknownUSD.11009475 equals
+  maximum exposureUSD1.497061715 of22.50; owner accounts authoritative.
+- **Adoption:** initial synthetic win justified the now-completed bounded
+  orientation promotion check; its public-source partial result below supports
+  retaining incumbents throughout. At evaluation completion, no defaults,
+  deployment, commits, pushes or private fixture authorization. Subsequent
+  landing is recorded in Scout089. No qualified mixed-model fallback established.
+
+Approved orientation follow-through on the same date froze12 new distinct
+public CC0 component designs across three creator groups plus two hold cases.
+Both native Haiku medium and fresh Sol low correctly oriented the first letter
+tile, then safely abstained on a24x48 Chinese Mahjong east tile requiring270.
+Coordinator source inspection confirms the determinate golden unchanged. Both
+fail complete automatic-orientation qualification; neither executed a wrong
+rotation or demonstrated a relative quality win. Ten remaining determinate
+cases and both holds unmeasured. Four settled calls costUSD.0044494/1, unknown0;
+HaikuUSD.0003614 versus SolUSD.004088 for this two-case sample only. No new
+effort sweep or semantic retry; clean public digital art does not qualify scans,
+the combined crop prompt, workflow savings or production adoption.
+[Scout089 follow-through](../scout/scout-089-haiku55-evaluation-routing.md#representative-public-check-result--stopped-at-second-case)
+and its linked owner attempt retain all source, native and pixel evidence.
+
+Narrow retry triggers: orientation now needs a changed source-valid mechanism
+that improves determinate coverage while retaining explicit abstentions and
+pixel/provenance gates, then a separately approved independent representative
+study. Do not repeat the unchanged public fixture or inflate safe abstention
+into an unsafe rotation. Explicit force-fresh requests remain permitted.
+Dossier/Echo scene require a lossless native-contract repair and source
+quality proof. Rejected semantic lanes require a materially changed checkpoint
+or runtime contract with independently frozen decision-bearing fixtures, or an
+explicit force-fresh reproducibility request. Another catalog listing, metadata
+change, favorable supportive judge, extra thinking on exposed failures, or lower
+token price alone does not justify an unchanged rerun. Later unmeasured corpus
+cases are not recorded as failures.
+
 ## Native Decisions endpoint follow-through — 2026-10-06
 
 [Scout086 completed campaign](../scout/scout-086-openai-decisions-api-evaluation-routing.md#completed-owner-decisions--2026-10-06)
