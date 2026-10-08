@@ -1,5 +1,12 @@
 # Inbox
 
+- [x] 2026-10-08: Continuing strategic reviewer plus fresh milestone reviews.
+  [Alignment 056](docs/alignments/align-056-continuing-reviewer-and-independent-milestones.md)
+  records the approved all-existing-skill rollout, scoped validation and landing
+  receipts. Recurring reviewers receive concise updates; meaningful milestones
+  receive fresh evidence-led challenge. Model/cadence/budget guards preserved;
+  savings unmeasured and active-thread loading not claimed.
+
 - [x] 2026-10-06: Perplexity open-weights Decider v1.1 versus Jev/OpenAI Decisions.
   [Scout 088](docs/scout/scout-088-perplexity-decider-v11-evaluation-routing.md)
   records the four-owner comparisons and

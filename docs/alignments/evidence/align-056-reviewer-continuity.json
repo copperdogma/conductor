@@ -1,0 +1,587 @@
+{
+  "alignment": "056",
+  "date": "2026-10-08",
+  "authorization": "Roll out to every repo already having loop-review; commit and push.",
+  "target_count": 13,
+  "discovery_unique_git_common_dirs": 81,
+  "registry_membership_changed": false,
+  "active_thread_loaded_version_verified": false,
+  "quota_savings_measured": false,
+  "product_or_paid_tests_run": false,
+  "repos": [
+    {
+      "key": "storybook",
+      "primary": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/storybook",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "1f27f14c0c2a36cbe22314e5adde7a8b1834092d",
+      "commit": "ae8a4a447f17f06d7cc1ed81cd76f9800f3eb47a",
+      "checks": [
+        {
+          "command": "bash scripts/sync-agent-skills.sh --check",
+          "result": "pass",
+          "output": "skills-check: OK (39 canonical skills; compatibility links ok; command aliases optional)"
+        },
+        {
+          "command": "git diff --check",
+          "result": "pass"
+        },
+        {
+          "command": "Exact original-content reconstruction outside insertion and dispatch reconciliation",
+          "result": "pass"
+        },
+        {
+          "command": "Post-commit git status --porcelain",
+          "result": "clean"
+        },
+        {
+          "command": "CHANGELOG date/sequence, policy claim inspection and git diff --check",
+          "result": "pass"
+        }
+      ],
+      "file_sha256": "1499fce2a50cb7eac486919ae6eee52e9980a15b0b7182a1107b8918e1f5d2a8",
+      "limits": [
+        "Docs/skill scope only; no paid calls or product suites",
+        "Sparse checkout used after ENOSPC; existing user data untouched",
+        "Mandatory owner CHANGELOG companion included; no story or generated planning changes"
+      ],
+      "push_state": "held for parent preflight",
+      "companion_files": [
+        "CHANGELOG.md"
+      ],
+      "changelog_sha256": "b17c522ed99120c86ab3baa33a1e76fcbdb72d7cc722f59e7507e8608d93170b",
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "ae8a4a447f17f06d7cc1ed81cd76f9800f3eb47a",
+      "remote_branch": "ae8a4a447f17f06d7cc1ed81cd76f9800f3eb47a",
+      "verified_at": "2026-10-08T18:27:41.869215+00:00",
+      "skill_sha256": "1499fce2a50cb7eac486919ae6eee52e9980a15b0b7182a1107b8918e1f5d2a8"
+    },
+    {
+      "key": "boardgame-ingester",
+      "primary": "/Users/cam/Documents/Projects/boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/boardgame-ingester",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "82af4513bc6d89837000e3be61fa6acc340f65b7",
+      "commit": "b900c5d459692b09f54ca1cd9a236f80147c62d1",
+      "checks": [
+        {
+          "command": "make skills-check",
+          "result": "pass",
+          "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (29 canonical skills; compatibility links ok; command aliases optional)"
+        },
+        {
+          "command": "git diff --check",
+          "result": "pass"
+        },
+        {
+          "command": "Exact original-content reconstruction outside insertion and dispatch reconciliation",
+          "result": "pass"
+        },
+        {
+          "command": "Post-commit git status --porcelain",
+          "result": "clean"
+        },
+        {
+          "command": "CHANGELOG date/sequence, policy claim inspection and git diff --check",
+          "result": "pass"
+        }
+      ],
+      "file_sha256": "edceae9ddb67d44f313bee99d87f91f3dc2ccf9cbbd9a60d33dfeb2dcd37d3bc",
+      "limits": [
+        "Docs/skill scope only; no paid calls or product suites",
+        "Sparse checkout used after ENOSPC; existing user data untouched",
+        "Mandatory owner CHANGELOG companion included; no story or generated planning changes"
+      ],
+      "push_state": "held for parent preflight",
+      "companion_files": [
+        "CHANGELOG.md"
+      ],
+      "changelog_sha256": "84e4ebccd6574e48ac0d4f40681c9fbb4fb0548cdf2e26f545755697a8181580",
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "b900c5d459692b09f54ca1cd9a236f80147c62d1",
+      "remote_branch": "b900c5d459692b09f54ca1cd9a236f80147c62d1",
+      "verified_at": "2026-10-08T18:27:46.172555+00:00",
+      "skill_sha256": "edceae9ddb67d44f313bee99d87f91f3dc2ccf9cbbd9a60d33dfeb2dcd37d3bc"
+    },
+    {
+      "key": "cine-forge",
+      "primary": "/Users/cam/Documents/Projects/cine-forge",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/cine-forge",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "1c759686544a2ec85b6c8808f3b4a3966bf8d86e",
+      "commit": "1a38bbae97382abdffe99b2abe959154b02dace6",
+      "checks": [
+        {
+          "command": "make skills-check",
+          "result": "pass",
+          "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (40 canonical skills; compatibility links ok; command aliases optional)"
+        },
+        {
+          "command": "git diff --check",
+          "result": "pass"
+        },
+        {
+          "command": "Exact original-content reconstruction outside insertion and dispatch reconciliation",
+          "result": "pass"
+        },
+        {
+          "command": "Post-commit git status --porcelain",
+          "result": "clean"
+        },
+        {
+          "command": "CHANGELOG date/sequence, policy claim inspection and git diff --check",
+          "result": "pass"
+        }
+      ],
+      "file_sha256": "eb5686a5a2fdf66d462fdb194e976ce71414fa95e72f1131d2bc38d19d5fe2e1",
+      "limits": [
+        "Docs/skill scope only; no paid calls or product suites",
+        "Sparse checkout used after ENOSPC; existing user data untouched",
+        "Mandatory owner CHANGELOG companion included; no story or generated planning changes"
+      ],
+      "push_state": "held for parent preflight",
+      "companion_files": [
+        "CHANGELOG.md"
+      ],
+      "changelog_sha256": "da6a2abc9b004ebdbe0885644dbdc017c23e02d4e8e2fedc06d3ed50b3b156d5",
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "1a38bbae97382abdffe99b2abe959154b02dace6",
+      "remote_branch": "1a38bbae97382abdffe99b2abe959154b02dace6",
+      "verified_at": "2026-10-08T18:27:50.117545+00:00",
+      "skill_sha256": "eb5686a5a2fdf66d462fdb194e976ce71414fa95e72f1131d2bc38d19d5fe2e1"
+    },
+    {
+      "key": "doc-web",
+      "primary": "/Users/cam/Documents/Projects/doc-web",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/doc-web",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "78d3c1bbcee84a3048a71f3e7a4fa3bbe1eaa719",
+      "commit": "5917251340e9c39fbfa69f62d6d31fa8eb8e7d56",
+      "checks": [
+        {
+          "command": "make skills-check",
+          "result": "pass",
+          "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (29 canonical skills; compatibility links ok; command aliases optional)"
+        },
+        {
+          "command": "git diff --check",
+          "result": "pass"
+        },
+        {
+          "command": "Exact original-content reconstruction outside insertion and dispatch reconciliation",
+          "result": "pass"
+        },
+        {
+          "command": "Post-commit git status --porcelain",
+          "result": "clean"
+        },
+        {
+          "command": "CHANGELOG date/sequence, policy claim inspection and git diff --check",
+          "result": "pass"
+        }
+      ],
+      "file_sha256": "b0d016422d533b285aefdd90895f8746af911c62308c350bd8cf945238a328ce",
+      "limits": [
+        "Docs/skill scope only; no paid calls or product suites",
+        "Sparse checkout used after ENOSPC; existing user data untouched",
+        "Mandatory owner CHANGELOG companion included; no story or generated planning changes"
+      ],
+      "push_state": "held for parent preflight",
+      "companion_files": [
+        "CHANGELOG.md"
+      ],
+      "changelog_sha256": "2a8a539788841c7fde453a63cee561b9a3c5346f91369fa2678de350ee2ff17c",
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "5917251340e9c39fbfa69f62d6d31fa8eb8e7d56",
+      "remote_branch": "5917251340e9c39fbfa69f62d6d31fa8eb8e7d56",
+      "verified_at": "2026-10-08T18:27:53.792681+00:00",
+      "skill_sha256": "b0d016422d533b285aefdd90895f8746af911c62308c350bd8cf945238a328ce"
+    },
+    {
+      "key": "dossier",
+      "primary": "/Users/cam/Documents/Projects/dossier",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/dossier",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "caae23221af6f145fbf6fae970509bb40a785d2b",
+      "commit": "f95b6956c795fe0601193025190e4579f60066b4",
+      "checks": [
+        {
+          "command": "make skills-check",
+          "result": "pass",
+          "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (32 canonical skills; compatibility links ok; command aliases optional)"
+        },
+        {
+          "command": "git diff --check",
+          "result": "pass"
+        },
+        {
+          "command": "Exact original-content reconstruction outside insertion and dispatch reconciliation",
+          "result": "pass"
+        },
+        {
+          "command": "Post-commit git status --porcelain",
+          "result": "clean"
+        },
+        {
+          "command": "CHANGELOG date/sequence, policy claim inspection and git diff --check",
+          "result": "pass"
+        }
+      ],
+      "file_sha256": "cb08f397f1204c11d63f57e8289681587ffbd781d7aeb772f1d555eaa5b153ad",
+      "limits": [
+        "Docs/skill scope only; no paid calls or product suites",
+        "Sparse checkout used after ENOSPC; existing user data untouched",
+        "Mandatory owner CHANGELOG companion included; no story or generated planning changes"
+      ],
+      "push_state": "held for parent preflight",
+      "companion_files": [
+        "CHANGELOG.md"
+      ],
+      "changelog_sha256": "3149c8782dcd3ee9210f7a2fe00c72c9af9429917f3b6ed1774b4f75073500eb",
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "f95b6956c795fe0601193025190e4579f60066b4",
+      "remote_branch": "f95b6956c795fe0601193025190e4579f60066b4",
+      "verified_at": "2026-10-08T18:27:59.690625+00:00",
+      "skill_sha256": "cb08f397f1204c11d63f57e8289681587ffbd781d7aeb772f1d555eaa5b153ad"
+    },
+    {
+      "key": "echo-forge",
+      "primary": "/Users/cam/Documents/Projects/echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/echo-forge",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "cfeedd4e902c158065d1ae3447ac5bafa52857ba",
+      "commit": "31fb8e97d5de587d0eec384c00e4708916039557",
+      "checks": [
+        {
+          "command": "pnpm run skills:check",
+          "exit_code": 0,
+          "output": "> echo-forge@ skills:check /Users/cam/.codex/worktrees/align056-reviewer-continuity/echo-forge\n> bash scripts/sync-agent-skills.sh --check\n\nskills-check: OK (39 canonical skills; compatibility links ok; command aliases optional)",
+          "seconds": 0.642
+        },
+        {
+          "command": "git diff --check",
+          "exit_code": 0,
+          "output": "",
+          "seconds": 0.225
+        },
+        {
+          "command": "semantic scope/policy and preserved-owner-content review",
+          "exit_code": 0,
+          "output": "Exact approved policy once before investigation; only dispatch paragraph reconciled where present; remaining owner content unchanged."
+        },
+        {
+          "command": "git diff --check (changelog companion)",
+          "exit_code": 0,
+          "output": ""
+        }
+      ],
+      "file": ".agents/skills/loop-review/SKILL.md",
+      "file_sha256": "a0743afb0d7b5c9256cc09c4b7869c1e19feadc7b1f87d17fe8f563817a9bbe1",
+      "status": "ready-unpushed",
+      "limits": [
+        "Documentation/skill policy verified; no live reviewer or paid-provider experiments performed.",
+        "No product suites run; Canmore make test is documentation/static checks.",
+        "Primary checkout untouched; remote push deliberately deferred to coordinator.",
+        "Sparse checkout excludes product/media paths."
+      ],
+      "companions": [
+        {
+          "file": "CHANGELOG.md",
+          "sha256": "9bf173b053076bd91ccb08dcc5d19783ded971b7acd1fb07db2bf3bf8ca2420d",
+          "reason": "Owner close-out requires changelog for shipped scope."
+        }
+      ],
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "31fb8e97d5de587d0eec384c00e4708916039557",
+      "remote_branch": "31fb8e97d5de587d0eec384c00e4708916039557",
+      "verified_at": "2026-10-08T18:28:04.804848+00:00",
+      "skill_sha256": "a0743afb0d7b5c9256cc09c4b7869c1e19feadc7b1f87d17fe8f563817a9bbe1"
+    },
+    {
+      "key": "roborally",
+      "primary": "/Users/cam/Documents/Projects/roborally",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/roborally",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "1581d058e9f2fe45fd3ee032d41136bb99904670",
+      "commit": "1f95fdf715451b040fb46e4397876059895e7c40",
+      "checks": [
+        {
+          "command": "npm run skills:check",
+          "exit_code": 0,
+          "output": "> skills:check\n> bash scripts/sync-agent-skills.sh --check\n\nskills-check: OK (31 canonical skills; compatibility links ok; command aliases optional)",
+          "seconds": 0.303
+        },
+        {
+          "command": "git diff --check",
+          "exit_code": 0,
+          "output": "",
+          "seconds": 0.03
+        },
+        {
+          "command": "semantic scope/policy and preserved-owner-content review",
+          "exit_code": 0,
+          "output": "Exact approved policy once before investigation; only dispatch paragraph reconciled where present; remaining owner content unchanged."
+        }
+      ],
+      "file": ".agents/skills/loop-review/SKILL.md",
+      "file_sha256": "a0743afb0d7b5c9256cc09c4b7869c1e19feadc7b1f87d17fe8f563817a9bbe1",
+      "status": "ready-unpushed",
+      "limits": [
+        "Documentation/skill policy verified; no live reviewer or paid-provider experiments performed.",
+        "No product suites run; Canmore make test is documentation/static checks.",
+        "Primary checkout untouched; remote push deliberately deferred to coordinator.",
+        "Sparse checkout excludes product/media paths."
+      ],
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "1f95fdf715451b040fb46e4397876059895e7c40",
+      "remote_branch": "1f95fdf715451b040fb46e4397876059895e7c40",
+      "verified_at": "2026-10-08T18:28:08.914072+00:00",
+      "skill_sha256": "a0743afb0d7b5c9256cc09c4b7869c1e19feadc7b1f87d17fe8f563817a9bbe1"
+    },
+    {
+      "key": "ravenloft-cthulhu",
+      "primary": "/Users/cam/Documents/Projects/ravenloft-cthulhu",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/ravenloft-cthulhu",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "f5138b0bf3c7b5f1bbd224fed9ee43343278d162",
+      "commit": "ecbc8ab72f6bb0b91c179951e50ca6e77804783f",
+      "checks": [
+        {
+          "command": "git diff --check",
+          "exit_code": 0,
+          "output": "",
+          "seconds": 0.029
+        },
+        {
+          "command": "semantic scope/policy and preserved-owner-content review",
+          "exit_code": 0,
+          "output": "Exact approved policy once before investigation; only dispatch paragraph reconciled where present; remaining owner content unchanged."
+        },
+        {
+          "command": "git diff --check (changelog companion)",
+          "exit_code": 0,
+          "output": ""
+        },
+        {
+          "command": "manual skill frontmatter validation",
+          "exit_code": 0,
+          "output": "name, description and user-invocable preserved; approved policy and all owner content checked."
+        }
+      ],
+      "file": ".agents/skills/loop-review/SKILL.md",
+      "file_sha256": "a3dd63d4307be8aab1dedadbee9c4893deff0b9c467df4e24ffa9989b63585f3",
+      "status": "ready-unpushed",
+      "limits": [
+        "Documentation/skill policy verified; no live reviewer or paid-provider experiments performed.",
+        "No product suites run; Canmore make test is documentation/static checks.",
+        "Primary checkout untouched; remote push deliberately deferred to coordinator.",
+        "Sparse checkout excludes product/media paths.",
+        "Legacy check-in skill names make skills-check and a companion runbook absent from this repository; no Makefile or sync checker exists. Applied manual frontmatter, policy and scope review plus git diff --check instead."
+      ],
+      "companions": [
+        {
+          "file": "CHANGELOG.md",
+          "sha256": "09d2701740a37874470105aa9d48cf47167b5c3423eb6f22c6048fd6af67d335",
+          "reason": "Owner close-out requires changelog for shipped scope."
+        }
+      ],
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "ecbc8ab72f6bb0b91c179951e50ca6e77804783f",
+      "remote_branch": "ecbc8ab72f6bb0b91c179951e50ca6e77804783f",
+      "verified_at": "2026-10-08T18:28:13.610978+00:00",
+      "skill_sha256": "a3dd63d4307be8aab1dedadbee9c4893deff0b9c467df4e24ffa9989b63585f3"
+    },
+    {
+      "key": "rpg-map-projector",
+      "primary": "/Users/cam/Documents/Projects/rpg-map-projector",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/rpg-map-projector",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "fc90ecbef62f27799dc1c38021596201952869c5",
+      "commit": "99b8682275c5a08554afb5ee7ce482cbb3af9994",
+      "checks": [
+        {
+          "command": "make skills-check",
+          "exit_code": 0,
+          "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (17 canonical skills; compatibility links ok; command aliases optional)",
+          "seconds": 0.326
+        },
+        {
+          "command": "git diff --check",
+          "exit_code": 0,
+          "output": "",
+          "seconds": 0.029
+        },
+        {
+          "command": "semantic scope/policy and preserved-owner-content review",
+          "exit_code": 0,
+          "output": "Exact approved policy once before investigation; only dispatch paragraph reconciled where present; remaining owner content unchanged."
+        }
+      ],
+      "file": ".agents/skills/loop-review/SKILL.md",
+      "file_sha256": "c4a5b1a12f2a2ad7c0a639514e1c2f99c2b595a8e0391e804fb8552bc27ff7b1",
+      "status": "ready-unpushed",
+      "limits": [
+        "Documentation/skill policy verified; no live reviewer or paid-provider experiments performed.",
+        "No product suites run; Canmore make test is documentation/static checks.",
+        "Primary checkout untouched; remote push deliberately deferred to coordinator.",
+        "Sparse checkout excludes product/media paths."
+      ],
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "99b8682275c5a08554afb5ee7ce482cbb3af9994",
+      "remote_branch": "99b8682275c5a08554afb5ee7ce482cbb3af9994",
+      "verified_at": "2026-10-08T18:28:16.856480+00:00",
+      "skill_sha256": "c4a5b1a12f2a2ad7c0a639514e1c2f99c2b595a8e0391e804fb8552bc27ff7b1"
+    },
+    {
+      "key": "canmore-town-council",
+      "primary": "/Users/cam/Documents/Projects/canmore-town-council",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/canmore-town-council",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "e6bf3784f47e35a329de86a007e64a02f3b21a73",
+      "commit": "a7a1c58a1b8687667a65eccb0c04cdd9aecdfbbb",
+      "checks": [
+        {
+          "command": "make methodology-compile",
+          "exit_code": 0,
+          "output": "python3 scripts/methodology_graph.py compile\nWrote docs/methodology/graph.json\nWrote docs/stories.md",
+          "seconds": 0.037
+        },
+        {
+          "command": "make methodology-check",
+          "exit_code": 0,
+          "output": "python3 scripts/methodology_graph.py check\nmethodology-check: OK",
+          "seconds": 0.037
+        },
+        {
+          "command": "make skills-sync",
+          "exit_code": 0,
+          "output": "./scripts/sync-agent-skills.sh\nskills-check: OK (18 canonical skills; compatibility links ok; command aliases optional)",
+          "seconds": 0.136
+        },
+        {
+          "command": "make skills-check",
+          "exit_code": 0,
+          "output": "./scripts/sync-agent-skills.sh --check\nskills-check: OK (18 canonical skills; compatibility links ok; command aliases optional)",
+          "seconds": 0.032
+        },
+        {
+          "command": "make test",
+          "exit_code": 0,
+          "output": "python3 scripts/check_repo.py\nstatic-search-index-check: OK\nlint: OK\npython3 scripts/methodology_graph.py check\nmethodology-check: OK\n./scripts/sync-agent-skills.sh --check\nskills-check: OK (18 canonical skills; compatibility links ok; command aliases optional)",
+          "seconds": 1.874
+        },
+        {
+          "command": "git diff --check",
+          "exit_code": 0,
+          "output": "",
+          "seconds": 0.366
+        },
+        {
+          "command": "semantic scope/policy and preserved-owner-content review",
+          "exit_code": 0,
+          "output": "Exact approved policy once before investigation; only dispatch paragraph reconciled where present; remaining owner content unchanged."
+        }
+      ],
+      "file": ".agents/skills/loop-review/SKILL.md",
+      "file_sha256": "c4a5b1a12f2a2ad7c0a639514e1c2f99c2b595a8e0391e804fb8552bc27ff7b1",
+      "status": "ready-unpushed",
+      "limits": [
+        "Documentation/skill policy verified; no live reviewer or paid-provider experiments performed.",
+        "No product suites run; Canmore make test is documentation/static checks.",
+        "Primary checkout untouched; remote push deliberately deferred to coordinator."
+      ],
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "a7a1c58a1b8687667a65eccb0c04cdd9aecdfbbb",
+      "remote_branch": "a7a1c58a1b8687667a65eccb0c04cdd9aecdfbbb",
+      "verified_at": "2026-10-08T18:28:21.129424+00:00",
+      "skill_sha256": "c4a5b1a12f2a2ad7c0a639514e1c2f99c2b595a8e0391e804fb8552bc27ff7b1"
+    },
+    {
+      "key": "ultima-iv-web",
+      "primary": "/Users/cam/Documents/Projects/ultima-iv-web",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/ultima-iv-web",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "48ad5098381ce14822c72691084963f98f057821",
+      "commit": "250a637cf3ad7ba9efb102547e4d88a4652ab0e0",
+      "checks": [
+        {
+          "command": "make skills-check methodology-check",
+          "result": "pass"
+        },
+        {
+          "command": "git diff --check",
+          "result": "pass"
+        }
+      ],
+      "skill_sha256": "4dddcb71fff7cd07449d522a8b736db0760c7876e9da8d5c1b9890a05ab8f97d",
+      "files": [
+        ".agents/skills/loop-review/SKILL.md"
+      ],
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "250a637cf3ad7ba9efb102547e4d88a4652ab0e0",
+      "remote_branch": "250a637cf3ad7ba9efb102547e4d88a4652ab0e0",
+      "verified_at": "2026-10-08T18:28:25.302566+00:00"
+    },
+    {
+      "key": "vlc-thumbs",
+      "primary": "/Users/cam/Documents/Projects/ultima-iv-web/vlc-thumbs",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/vlc-thumbs",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "2fa014fdaebfe00128c61b274a1287181fe97c0f",
+      "commit": "1c72c4889c74d4f812ef85a558b748bfd3de316f",
+      "checks": [
+        {
+          "command": "make validate",
+          "result": "pass"
+        },
+        {
+          "command": "git diff --check",
+          "result": "pass"
+        }
+      ],
+      "skill_sha256": "0a46d76f0dfe2fe87b2e7eb69c5a44012a12dc14c2006a056540849b97520dcb",
+      "files": [
+        ".agents/skills/loop-review/SKILL.md",
+        "docs/evidence/workflow-skill-sources.json"
+      ],
+      "state": "landed",
+      "remote_verified": true,
+      "remote_main": "1c72c4889c74d4f812ef85a558b748bfd3de316f",
+      "remote_branch": "1c72c4889c74d4f812ef85a558b748bfd3de316f",
+      "verified_at": "2026-10-08T18:28:28.230865+00:00"
+    },
+    {
+      "key": "conductor",
+      "primary": "/Users/cam/Documents/Projects/conductor",
+      "worktree": "/Users/cam/.codex/worktrees/align056-reviewer-continuity/conductor",
+      "branch": "codex/align056-reviewer-continuity",
+      "base": "c2557b644e5a6b13a550e1c3ea4ff2d6e39467b7",
+      "skill_sha256": "cd0d1088fe976b182ac9f1e040e6a78517c156db7c90de5a12408495f6032b7d",
+      "checks": [
+        {
+          "command": "make skills-check methodology-check lint",
+          "result": "pass"
+        },
+        {
+          "command": "local evidence links, frontmatter, policy safeguards and scoped diff inspection",
+          "result": "pass"
+        }
+      ],
+      "state": "validated-supervisor-publish",
+      "verification_note": "This skill and receipt are published together; coordinator verifies the enclosing commit on remote main after publication. No self-referential commit hash is embedded."
+    }
+  ],
+  "owner_remote_main_verified_count": 12,
+  "supervisor_publication": "included with this receipt; verify enclosing commit after push"
+}

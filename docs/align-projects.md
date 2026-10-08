@@ -11,6 +11,12 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-10-08` — [Alignment 056 — Continuing Reviewer and Independent Milestones](./alignments/align-056-continuing-reviewer-and-independent-milestones.md)
+  Rolled out to all 13 discovered repos already having loop-review;
+  recurring reviews reuse a separate reviewer, with fresh milestone challenges.
+  Twelve owner main landings verified; Conductor publishes its skill and receipt
+  together. Model/cadence/budget guards preserved; quota savings unmeasured.
+
 - `2026-10-06` — [Alignment 055 — Agent Staffing and Event-driven Waits](./alignments/align-055-agent-staffing-and-event-waits.md)
   Audited 21 Conductor skills plus personal delegate-wait and sampled 11 owner
   roots. Proposed dynamic strongest/maximum strategic review, economical
