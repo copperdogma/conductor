@@ -1,5 +1,34 @@
 # Evaluated frontier model ledger
 
+## Five decision models — Scout091, 2026-10-13
+
+Canonical provider-qualified router checkpoints (dated alias mapping frozen in
+owner/native catalogs; no immutable weight hash inferred):
+
+| Exact canonical ID | Public aliases | Owner outcome and narrow retry trigger |
+| --- | --- | --- |
+| `cloudflare/clef-omni-20261009` | `cloudflare/clef-omni`, Clef-omni; direct `@cf/cloudflare/clef-omni` is a separately documented access path, not called here | Text/native imageChoice callable. Echo31/48 versusGemini44/48 richer-state; exactcurrent-input28view19/28vs25/28. DocWebcascade28/40vsGPT30/40, same3dangerousclean, costslightlyhigher/p95slower. Crop1/2vsGPT1/2,bothfalse-safeclippedseal;20unmeasured. Board1/2reviewcorrect, ambiguousart wronglyautoaccepted0/noop; no wrongpixelrotation,12unmeasured. No automaticpromotion. Retryonly source-backed newcheckpoint/review-safety capability or separately approved independent contract/route, notunchanged configuration. |
+| `nace-ai/drex-v2.0-20261009` | `nace-ai/drex-v2.0`, Drex2.0; direct `drex-v2.0` not called | Exactshort-state nativeChoice callable,no1.5substitution. Echo33/48 andcurrent-input19/28; DocWebcascade22/40 with12dangerousclean(4defect+8uncertainty). Reject these unchanged text policies. Longcontextunmeasured; directdocs over8192state/16384row substitute1.5. Retryonly materially revisedmodel/contract/source-backed route/config addressing failures; catalogcontext alone insufficient. |
+| `liquid/d1-20260930` | `liquid/d1`, Liquid d1; direct hosted `d1` has unverified checkpoint equivalence and was not called | TextnativeChoice callable. Echo36/48/current-input23/28,5/22falsecontrolsfull48. DocWebcascade31/40vs30/40but4dangerouscleanvs3, cheaperwithoutbetter safety. Reject currentautomatic textpolicy. Bothvisualowners directcredentialabsent; capability/transport/economicsunmeasured, no accountsetup or routertextsubstitute. Retrytextonly revisedpolicy/capability evidence; directvisionneeds eligible explicitlyauthorized configuredaccess andexactidentity/imagecontract. |
+| `scaledown/classify-1-20260928` | `scaledown/classify-1`, ScaleDown Classify-1; direct `classify-1`, moving `classify` not independently called | Textcallable only with lossless structuredstate projection into state.text. Echo36/48/current-input22/28. DocWebcascade31/40vs30/40,dangerousclean2vs3but38/40fallbacks,cost2.04%lower,p9551.42%slower: lowerpriority thanSolar,no automaticpromotion. Bothnativevisualstatearrayrequests400 before answer; documented document alternativeextractsOCR,cannotqualify pixel-native task. Visioncapabilityunmeasured. Twofailedrequest reservationsUSD.00512retain unknowncharge. Retryvisualonly documented/qualified exact pixel-native lossless route; textonly independent decision-bearingquality/value trigger. |
+| `upstage/solar-decide-20260928` | `upstage/solar-decide`, Solar Decide; direct `solar-decide` beta not called | Textcallable. DocWeb strongest boundedquality/economy challenger: cascade33/40,macroF1.82087vsGPT30/40,.73725;confirmed-defectclean0vs3butuncertainty-clean1vs0. Cost.0082638vs.043392,p9517319msvs1111ms. Conditional batchlead only: deferpaidwork until connectedconsumer/source-aware acceptance defines practical benefit; not automaticplannerreplacement. Echo41/48vs44/48; preexisting source-selected exactcurrent-input28view26/28vs25/28,lessfalsecontrolsbut68.4%slowerp95;14rebuiltcurrentinputs unmeasured. RetaininteractiveGemini. Retryonly separatelyselected independent source-aware/full-current-input qualification withdeclaredlatency usecase; no unchangedexposedfixture/tuningrepeat. |
+
+Latest authenticated owner attempts: **2026-10-13**. Direct authoritative
+owner records: [Echo Scout091](/Users/cam/.codex/worktrees/scout091-echo-20261013/docs/evals/attempts/control-intent-v1/20261013-scout091-five-decision-models.md),
+[Echo source-selected applicability](/Users/cam/.codex/worktrees/scout091-echo-20261013/docs/evals/attempts/control-intent-v1/20261013-scout091-applicability.json),
+[DocWeb Attempt070](/Users/cam/.codex/worktrees/scout091-docweb-20261013/docs/evals/attempts/070-scout091-five-decision-models.md),
+[BoardGame orientation](/Users/cam/.codex/worktrees/scout091-boardgame-20261013/docs/evals/attempts/20261013-scout091-orientation.md).
+[Campaign follow-through](../scout/scout-091-five-decision-models-evaluation-routing.md#completed-owner-decisions--2026-10-13).
+
+Access/transport qualified for text, synthetic/public eligible payloads only;
+retention/ZDR/private eligibility and generated rationale/geometry unqualified.
+Reliability668attempts/666valid: two visual400s are transport stops, not semantic
+misses; no paidjudges/retries. Synthetic small/exposed/repeated corpora and
+partial/current-input distinctions remain explicit. KnownUSD.28350031 plus
+unknownUSD.00512, boundUSD.28862031/16; evaluation phase changed no default/commit/push/deployment.
+Temporary BoardOpenRouter key removed; other owner keys unchanged. Scoped owner
+evidence subsequently landed on remote main on2026-10-13; see Scout091 closeout.
+
 ## Anthropic Claude Haiku 5.5 — 2026-10-07
 
 Canonical provider-qualified ID: **Anthropic direct Messages

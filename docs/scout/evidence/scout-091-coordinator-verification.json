@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-13",
+  "campaign": "Scout091",
+  "selected_handles": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "hard_cap_usd": 16,
+  "known_usd": 0.28350031,
+  "unknown_max_usd": 0.00512,
+  "total_bound_usd": 0.28862031,
+  "provider_attempts": 668,
+  "valid_responses": 666,
+  "paid_judge_calls": 0,
+  "paid_retries": 0,
+  "root_checks": [
+    "Echo native replay300valid,618rawhashes",
+    "Board122manifestentries,pixel/sourceartifactreview",
+    "DocWeb702native receipt reconstruction,53manifestentries",
+    "owner preflight topology/sourcehashes/cap arithmetic",
+    "DocWeb clippedseal andBoardart independentvisualinspection",
+    "bounded readonly actualDocWebconsumer trace",
+    "independent strategic review: stoppaidcampaign/defernewSolarbench",
+    "Conductor scoped whitespace andlocal evidence links"
+  ],
+  "strategic_review": {
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "served_identity": "not independently verified",
+    "verdict": "continue closeout; stoppaidcampaign; defernewpaidSolarwork untilconnectedconsumer/uncertaintyboundary"
+  },
+  "primary_checkouts": "preserved",
+  "runtime_defaults": "unchanged",
+  "commits_pushes": "none",
+  "credential_cleanup": "Board injectedOPENROUTER_API_KEY removed/absent; otherowners existingkeys unchanged",
+  "owner_artifacts": {
+    "echo": "/Users/cam/.codex/worktrees/scout091-echo-20261013",
+    "docweb": "/Users/cam/.codex/worktrees/scout091-docweb-20261013",
+    "board": "/Users/cam/.codex/worktrees/scout091-boardgame-20261013"
+  },
+  "closeout": {
+    "authorization": "User requested check in and push, 2026-10-13",
+    "owners": {
+      "echo-forge": {
+        "commit": "8d2e539f06adc7eae0a66fc829484f5c6e192b8a",
+        "branch": "codex/scout091-echo-20261013",
+        "validation": "6 focused tests and fresh-clone portable unit proof; ESLint, methodology and native replay",
+        "remote": "https://github.com/copperdogma/echo-forge.git",
+        "main_verified": true,
+        "execution_branch_verified": true,
+        "worktree_retained": true
+      },
+      "doc-web": {
+        "commit": "91cd9bb19b174247349f1e83b9aaa869eb08ccc7",
+        "branch": "codex/scout091-docweb-20261013",
+        "validation": "41 applicable focused tests, Ruff, methodology and 702-receipt reconstruction",
+        "remote": "https://github.com/copperdogma/doc-web.git",
+        "main_verified": true,
+        "execution_branch_verified": true,
+        "worktree_retained": true
+      },
+      "boardgame-ingester": {
+        "commit": "23ad2cf8ba8e08fe82d1c28bcb1abb85999a74ab",
+        "branch": "codex/scout091-boardgame-20261013",
+        "validation": "Applicable focused tests, lint, methodology, manifest and exact pixel/inverse checks",
+        "remote": "https://github.com/copperdogma/boardgame-ingester.git",
+        "main_verified": true,
+        "execution_branch_verified": true,
+        "worktree_retained": true
+      }
+    },
+    "conductor": {
+      "branch": "codex/scout091-conductor-closeout-20261013",
+      "base": "92f8db652d4d52457dd016bf2cbe1263be4af8fc",
+      "remote": "https://github.com/copperdogma/conductor.git",
+      "destination": "main",
+      "scope": "Six campaign-only files; supervisor record included in this commit"
+    },
+    "additional_provider_spend_usd": 0,
+    "unrelated_primary_work": "preserved",
+    "runtime_defaults": "unchanged",
+    "cleanup": "worktrees retained; none requested"
+  }
+}
