@@ -56,3 +56,8 @@ inference.
 No paid inference. Search/tool and orchestration usage were not separately
 metered in currency. No source retired on one low-yield run. Missing post-August
 28 daily files are a continuity limitation, not proof those searches never ran.
+
+
+## 2026-10-12 — owner-requested decision-source coverage
+
+Promote TypeSafe/JEV, OpenAI Decisions, Microsoft Foundry Decision, Perplexity Decisions/creator cards, Qwen decision API and OpenRouter's decision catalog to a compact daily core. Reason: Cam explicitly expanded scope; Microsoft was previously owner-nominated and the generation-only catalog omits native decision coverage. Historical owner scouts provide contract pointers, not measured discovery yield for this new core. Yield, timeliness, uniqueness and retrieval cost remain to be measured on subsequent runs; do not invent a successful check today. Public docs/catalogs only, no inference. Retain general-purpose rotation; dedupe both categories against evaluated-models.md.

@@ -5,12 +5,17 @@ watch. Conductor verifies public release and access evidence, maps plausible
 repo-local evaluation fits, and recommends next actions. Owning repositories
 retain benchmark fixtures, provider calls, scorecards, and adoption decisions.
 
+## Watch categories
+
+- **Frontier general-purpose models:** reasoning, coding, tools, vision and document understanding.
+- **Decision models and typed judgment APIs:** JEV/TypeSafe, OpenAI Decisions, Microsoft Decision, Perplexity Decider, Alibaba/Qwen decision services and comparable releases. Small size, derived weights or non-generative output do not exclude this category when a maintained owner decision could change.
+
+Both categories use the same identity, prior-attempt dedupe, retry-trigger and discovery-only rules. Decision endpoint/configuration changes remain distinct from new model checkpoints.
+
 ## Qualification
 
 A lead must be newly released, announced, previewed, or materially newly
-accessible and plausibly challenge a maintained decision-bearing lane. Routine
-small-model churn, fine-tunes, wrappers, vendor benchmarks, and catalog-only
-claims do not qualify. A launch-day posture is **available now; evaluate, don't
+accessible and plausibly challenge a maintained decision-bearing lane. For the general-purpose category, routine small-model churn and fine-tunes do not qualify. For both categories, wrappers, benchmark-only claims and catalog-only quality claims do not qualify. A launch-day posture is **available now; evaluate, don't
 adopt yet**.
 
 For each lead, records distinguish announcement, exact documented model ID,

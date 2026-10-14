@@ -68,3 +68,23 @@ reliability, latency, cost, or capability trigger.
   model cards. Prefer those cards over Hugging Face's noisy global recency feed.
 - Monitor exact K2 Horizon managed-route appearance; do not repeat its open-weight
   announcement or incur hosting/setup work while access remains unchanged.
+
+
+## 2026-10-12 — explicit decision-model daily core
+
+Cam added decision models as a first-class watch category. Existing owner evaluations are tracked, but prior general-purpose-only search did not guarantee daily decision-source coverage. This scope update supersedes earlier specialist/small/derived exclusions for decision models with plausible maintained-lane fit.
+
+Check a compact daily core alongside general-purpose sources:
+
+| Source | Retrieval / purpose |
+| --- | --- |
+| [TypeSafe models](https://docs.typesafe.ai/models) | JEV pinned versions, moving aliases, native System One contracts and releases |
+| [OpenAI Decisions](https://developers.openai.com/api/docs/guides/decisions) | Official Docs MCP first; supported exact models, native endpoint and release changes |
+| [Microsoft Foundry Decision docs](https://learn.microsoft.com/en-us/azure/foundry/foundry-models/how-to/use-foundry-models-microsoft-decision), [announcement](https://commandline.microsoft.com/microsoft-decision-1-model-foundry/) | Exact Microsoft checkpoints, deployments and typed contracts |
+| [Perplexity Decisions](https://docs.perplexity.ai/api-reference/decisions-post), [Decider creator card](https://huggingface.co/perplexity-ai/pplx-decider-v1.1-27b) | Hosted versus open checkpoint/revision, endpoint-specific terms and new releases |
+| [Qwen decision API](https://docs.qwencloud.com/api-reference/decision-model-api), [release notes](https://docs.qwencloud.com/changelog/models) | Decision service identities and material contract/access changes |
+| [OpenRouter decision catalog](https://openrouter.ai/api/v1/models?output_modalities=decisions), [API discovery](https://openrouter.ai/skills/) | Public decision metadata separately from generation catalog; discover successors and providers |
+
+Follow current source links to successor cards/catalogs rather than assuming these recorded checkpoints stay latest. General generation-catalog absence does not imply decision-model absence. Keep model ID, served revision, deployment and endpoint/configuration separate; protocol similarity does not prove shared weights. A new endpoint on an already evaluated model is a possible endpoint/configuration re-evaluation subject to its recorded gate, not a first evaluation.
+
+Track Noul/predicate, finite Choice, ordered Score, probabilities/calibration, abstention, text/image eligibility, fallback behavior, actual task latency/cost and endpoint-specific retention/privacy. Typed confidence is not correctness; generic chat ZDR does not prove Decisions coverage. Strongest existing owner fits: Storybook routing/confirmation, Doc Web consistency/uncertainty review and Echo control-intent; Board Game orientation only for eligible image contracts. Preserve owner-specific gates and no unchanged repeat recommendations. No paid probes or owner changes in the watch.

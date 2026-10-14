@@ -93,3 +93,8 @@ Current cumulative known **USD2.909662245** + unknown **USD1.474024000** =
 **USD4.383686245/35**. Doc Web known .931161750 + unknown .441832000 =
 **USD1.372993750/15**. No new inference or verdict change.
 [Landing and correction receipt](../scout/evidence/scout092-landing.json).
+
+
+## 2026-10-12 — decision watch category
+
+Decision models and typed judgment APIs are explicitly in scope, including JEV, OpenAI Decisions, Microsoft Decision, Perplexity Decider and Alibaba/Qwen decision services. Small size, derived weights and non-generative outputs do not exclude them when a maintained owner decision could change. Check the evaluated ledger and available owner evidence before nominating any exact model or endpoint; previously attempted models remain subject to their narrow retry triggers. This scope addition makes no new release, access, evaluation or adoption claim. See the [decision-source daily core](search-playbook.md#2026-10-12--explicit-decision-model-daily-core).
