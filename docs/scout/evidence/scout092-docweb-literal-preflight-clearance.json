@@ -1,0 +1,46 @@
+{
+  "status": "cleared_for_approved_progressive_execution",
+  "new_cap_usd": "3.000000",
+  "authority": "Cam approved implementation and bounded execution; root verifies declared prerequisites, no new scope approval",
+  "opening": [
+    "N1",
+    "A1"
+  ],
+  "opening_scheduled_native_posts": 6,
+  "source_review": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/source-panel-review-r2.json",
+    "sha256": "60d89a70862a246ec76740e24f1a11d684afc331f0a509c69c15518e4952577e"
+  },
+  "connected_review": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/preflight-connected-review.json",
+    "sha256": "3d502d90c6f69298e62aa9916b129d5b269d9b8b4c29e76e3989074d6962d48d"
+  },
+  "freeze": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/freeze.json",
+    "sha256": "72b91943847058910d69c24cc2d9a6ccdf6bda197bc5c7a7211dd8ee9e0943a8"
+  },
+  "config": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/campaign.json",
+    "sha256": "d4af0a085f2112a54e491cc7477a09667fb23691518ad1333497b83e31322d6f"
+  },
+  "proof": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/offline-proof.json",
+    "sha256": "85ef136304f9af3e6b7a197564af9b1db02c2c969282dcc4b5e11522ef877a5c"
+  },
+  "validation": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/validation.json",
+    "sha256": "02aa60d2d428b26fc8cbd82173f5462b8c13e0604ad43bdfd65a8c39c1895a78"
+  },
+  "checks": {
+    "code_fixture_hashes": 52,
+    "portable_records_bound_to_wire_bytes": 16,
+    "all_four_export_manifest_and_entry_report_hashes": true,
+    "all_four_expected_hold_report_hashes": true,
+    "all_offline_artifact_hashes": 261,
+    "additional_posts_during_receipt_reuse": 0,
+    "original_closed_ledgers_unchanged": true,
+    "original_owner_campaign_and_additional_caps": true
+  },
+  "hold_scoring_boundary": "Uncertain-cell HTML is diagnostic, not exact truth. Correct source-located hold plus exact clear cells/spans/inventory is assessed separately; full diagnostic equality cannot reject an equally plausible uncertain reading. No masking outside independently declared uncertain cells. Raw outputs/golds remain unchanged.",
+  "restrictions": "No extra arms or probes; at most one permitted operational recovery; no semantic/latency rescue; progressive source quality/cost/time gates required before expansion; no default activation/landing."
+}

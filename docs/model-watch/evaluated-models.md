@@ -1,5 +1,77 @@
 # Evaluated frontier model ledger
 
+## Gemini 4 Argon — Scout092, 2026-10-13
+
+Canonical provider-qualified identity: **Google native `gemini-4-argon`**.
+Public name Gemini4 Argon; low/medium/high are request thinking settings, not
+separate checkpoints. Earlier `gemini-4-argon-high` discovery label does not
+establish an API alias. Exact native inference and selected task contracts are
+verified in all six owners. Prior trusted-tester discovery holds are historical.
+[Campaign decisions and direct owner evidence](../scout/scout-092-gemini4-argon-evaluation-routing.md#owner-decisions--2026-10-13).
+
+User-authorized [thinking-level calibration](../scout/scout-092-argon-thinking-levels.md)
+completed 2026-10-13. Doc Web low/medium literal both preserve 36 clear cells and
+ambiguity holds; low costs 10.96% less but takes 2.59× the observed latency sum,
+so no overall setting win. Crop high passes 2/3 source gates despite 3/3 numeric
+passes: rule-tail clipping stops it. Fresh medium returns noncompliant 0–1000
+coordinates and stops; no confirmation. BGI high passes 3/3 exposed cases,
+including recognition where low is wrong and medium/Sol safely abstain, but
+costs about 10× Sol and takes about 10× its successful-call latency. Retain
+current runtime choices; high's narrow coverage gain is not held-out adoption.
+Other four owners skipped after native usage/value audit. No unchanged sweep.
+
+Added known USD 0.182772 plus unknown USD 0.688128 = USD 0.870900 exposure.
+Combined known **USD 2.403345745** plus unknown **USD 1.474024** = conservative
+**USD 3.877369745 / 35**, inside every original owner cap. Temporary BGI key
+removed again and absence verified. Original closed evidence below remains
+unchanged. This calibration originally recommended Doc Web independent-source/
+real-driver qualification, including latency variability; its subsequent failed
+qualification is recorded below.
+
+Approved plan preparation is complete: [Doc Web qualification plan](../scout/scout-092-docweb-literal-qualification-plan.md)
+proposes eight new source pages, real-driver provider/receipt integration and
+conditional repeats under USD 3 additional. Preparation itself made no provider
+calls; subsequent approved execution is recorded below.
+
+Subsequent [Doc Web qualification](../scout/scout-092-docweb-literal-qualification.md)
+completed with a mandatory ambiguity-hold failure. N1 both exact10 cells;
+Argon .005112/5.024s versus Astra .141455/7.157s (.115140 cold-normalized).
+A1 Argon falsely verified an optically ambiguous cell; A1 Astra and remaining
+six pages/repeats/live exports unmeasured. Five POSTs, added known USD.468719,
+unknown0. Retain Astra; no unchanged paid repeat or default change.
+New cumulative known2.872064745 + unknown1.474024 = USD4.346088745/35.
+Offline opt-in integration is reviewable, not qualified live consumer acceptance.
+Prior closed ledgers remain unchanged.
+
+Initial campaign task decisions (preserved):
+
+| Owner / task | Measured finding and action | Narrow follow-up or retry trigger |
+| --- | --- | --- |
+| Doc Web literal reader | Three fresh pairs: both exact36 clear cells and ambiguity holds; Argon reader cost88.47% lower and summed latency28.31% lower, still76.94% cheaper at December prices. Prioritize narrow promotion proof; no production adapter/activation yet | Separately selected held-out source/ownership/ambiguity qualification plus generic provider reader and real-driver receipt proof; no unchanged exposed-corpus rerun |
+| Doc Web crop / handwriting | Crop scorer8/9 vs Gemini9/9, mixed-unit coordinate stop; additional confirmed source clipping in both arms, four unmeasured; no source-complete13/13/page-safety proof. OCR0.988117 with source-spelling normalization; Alverson unmeasured. Requested3.7 served3.8 per official redirect; comparator quarantined | Changed capability or separately approved source-backed contract/configuration with independent validation. OCR also needs exact current comparator selection; metadata alias does not establish unchanged identity |
+| Dossier long history | One321KB v4 continuation, both compile/preserve5/5 meanings with zero material defects. Argon minor extra citation; Sol clean. Argon19.534s vs40.018s, cost0.174384vs0.174558; December0.348768. Retain Sol | If observed long-history latency is material, separately selected repeated representative provenance qualification; one fast sample alone does not justify adoption |
+| CineForge frames | Three fresh cases per arm, all0/3 quality passes. Argon original0.58867/source-adjudicated0.59533 vs Sol0.61003/Luna0.61498; scorer/judge defects preclude quality ranking. Argon mean15.592s/cold-normalized0.020348 misses value gates | Source-backed evaluator repair before new independent quality comparison; no full-six/shipped analyzer claim or repeated grading to reach a preferred result |
+| Storybook persona / photo | Persona original rubric passes both; Argon separate unoffered-childhood steering concern,20.29x cost vs Luna. Two photos exact OCR both, one Argon descriptor win, both exceed photo cost/time gates. Retain Luna/Flash-Lite | Material checkpoint/contract/value change with independent source-valid fixtures; no expanded unchanged paid run justified by this screen |
+| BGI orientation | Argon wrong90-degree apply where270 required; Sol safely abstains. Candidate stops2cases, two unmeasured; Sol4 controls complete. Reject this low Argon automatic-orientation configuration | Source-backed new capability/contract proof with independently selected images and unchanged pixel/review safety; no same-case tuning or automatic-coverage claim |
+| Echo intent / scene | Intent3/5vs5/5, two extra false controls. Tavern quality pass but0.022552 hard-cost fail; Mini mood mismatch is preference not hallucination; Dungeon unmeasured. Retain runtime incumbents | Material capability/value/contract change and independently selected current-input qualification; no unchanged full42/2scene expansion |
+
+Initial campaign known usage-pricedUSD2.220573745; unknownUSD0.785896; conservative exposure
+USD3.006469745 of35. Judges/reviewsUSD1.29485625 are included. Doc Web lost two
+initial crop envelopes to a repaired harness collision; originals quarantined,
+unknown reservations retained, one matched custody recovery. BGI invalid-key
+native call retains unknown reservation; explicitly authorized temporary key
+removed and absence verified. Other owner credentials unchanged. Provider/agent
+account billing not reconciled; Codex agent usage is separate and unmeasured.
+Only public/synthetic inputs qualified; no private/ZDR/production reliability
+claim. No defaults, deployments, commits or pushes. Native access attempts count
+for deduplication even where capability stopped; do not renominate this exact
+model from catalog/price/route metadata alone.
+
+All six owning-repo Scout092 landings are verified on remote main.
+[Exact landing commits and validation](../scout/evidence/scout092-landing.json).
+Evaluation results and runtime defaults remain unchanged; closed evidence is
+preserved separately from the reviewed replay/logging/accounting fixes.
+
 ## Five decision models — Scout091, 2026-10-13
 
 Canonical provider-qualified router checkpoints (dated alias mapping frozen in
@@ -365,3 +437,17 @@ candidate here before final synthesis. Preserve aliases, latest attempt date,
 direct owner evidence, layered outcome, and the narrow retry condition. Record
 access/transport stops as attempts without converting them into semantic model
 failures. Do not replace detailed owner evidence with this summary.
+
+### Closeout accounting correction — 2026-10-13
+
+Pre-push review found that three original Astra071 reader receipts report 5,013
+cache-write tokens each. Pricing those writes at the frozen standard USD12.5/M,
+rather than the guard's USD10/M, adds USD.0125325 per call: **USD.0375975** total.
+The original .198730 Astra reader total is cold-normalized; corrected actual
+usage-priced total is .236327500. The 88.47% reader saving remains the original
+cold comparison. Closed ledgers, manifests and archives remain unchanged.
+
+Current cumulative known **USD2.909662245** + unknown **USD1.474024000** =
+**USD4.383686245/35**. Doc Web known .931161750 + unknown .441832000 =
+**USD1.372993750/15**. No new inference or verdict change.
+[Landing and correction receipt](../scout/evidence/scout092-landing.json).

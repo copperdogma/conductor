@@ -1,0 +1,149 @@
+{
+  "schema_version": "scout092_docweb_literal_reconciliation_v1",
+  "status": "closed; failed mandatory ambiguity hold; retain Astra",
+  "date": "2026-10-13 America/Edmonton",
+  "owner": "Doc Web",
+  "owner_worktree": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013",
+  "branch": "codex/scout092-docweb-literal-20261013",
+  "base_head_sha": "91cd9bb19b174247349f1e83b9aaa869eb08ccc7",
+  "owner_attempt": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/attempts/073-argon-literal-qualification.md",
+    "sha256": "d2b00d9d726df8c1d555c79dc905707316661e94a5d7c411c92071a57fdfa37f",
+    "bytes": 9474
+  },
+  "owner_story": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/stories/story-253-argon-literal-reader-qualification.md",
+    "sha256": "bcfb6c9a36d6f8ebc75700fb7df7cb9b29da5fb89874a03d92d50a92050d1cf0",
+    "bytes": 7101
+  },
+  "ledger": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/benchmarks/results/argon-literal-qualification-20261013/ledger.json",
+    "sha256": "6ae374214b022a945f5de599d043c659a1af7ec360d045e8df785e63fc3fa8d3",
+    "bytes": 6570
+  },
+  "ledger_closed": true,
+  "close_reason": "Valid A1 Argon semantic failure: source-proven ambiguous table 0 row 1 cell 1 was declared certain (uncertain_cells=[]), report verified. Diagnostic exact alias text does not establish a correct ambiguity hold.",
+  "live_posts": 5,
+  "additional_known_usd": "0.468719",
+  "additional_unknown_usd": "0",
+  "additional_inclusive_cap_usd": "3",
+  "campaign": {
+    "prior_known_usd": "2.403345745",
+    "prior_unknown_usd": "1.474024000",
+    "known_usd": "2.872064745",
+    "unknown_usd": "1.474024000",
+    "conservative_exposure_usd": "4.346088745",
+    "cap_usd": "35"
+  },
+  "owner_totals": {
+    "prior_known_usd": ".424845250",
+    "prior_unknown_usd": ".441832000",
+    "known_usd": "0.893564250",
+    "unknown_usd": ".441832000",
+    "conservative_exposure_usd": "1.335396250",
+    "cap_usd": "15"
+  },
+  "scope": "Google native gemini-4-argon medium, exact source-policy/schema, new synthetic sources, fresh Astra medium common OCR and comparator",
+  "observations": {
+    "N1": "Both readers exact ten clear cells and complete table/footer span; one matched pair only",
+    "N1_argon_reader_usd": ".005112",
+    "N1_astra_reader_actual_usd": ".141455",
+    "N1_astra_reader_cold_usd": ".115140",
+    "N1_argon_reader_elapsed_seconds": 5.024434750012006,
+    "N1_astra_reader_elapsed_seconds": 7.157300166989444,
+    "A1": "Valid missed mandatory source-located uncertainty hold; K814 alias choice itself permitted; verified adapter diagnostic cannot establish certainty",
+    "A1_astra": "unmeasured; stopped before dispatch",
+    "synthetic_control_limit": "Deliberately aliased-font source, not a general real-scan claim"
+  },
+  "unmeasured": [
+    "A1 Astra",
+    "N2",
+    "N3",
+    "R1",
+    "R2",
+    "R3",
+    "A2",
+    "all four repeat pairs",
+    "all live three-page exports",
+    "positive batch latency gates",
+    "full-panel cost/value qualification",
+    "whole-workflow savings"
+  ],
+  "offline_integration": {
+    "mock_posts": 24,
+    "positive_three_page_exports": 4,
+    "holds": 4,
+    "resume_additional_posts": 0,
+    "actual_network_spend": 0,
+    "proof_sha256": "85ef136304f9af3e6b7a197564af9b1db02c2c969282dcc4b5e11522ef877a5c"
+  },
+  "final_manifest": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/final-manifest.json",
+    "sha256": "7ad25b8b807e48ff86d927efbcda87c79f94f6246e6d120daee8c24a16e81197",
+    "bytes": 237455
+  },
+  "archive": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/evidence.tar.gz",
+    "sha256": "779fa94728cf7382f111f3613bf45686203824d8b52d41fce8e6e26da74d6f4d",
+    "bytes": 19869585
+  },
+  "root_custody_verification": {
+    "archive_regular_members_verified": 1061,
+    "producing_code_files_verified": 24,
+    "frozen_fixture_files_verified": 28,
+    "all_five_wire_request_response_hashes_verified": true,
+    "prior_owner_ledgers_unchanged": {
+      "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/benchmarks/results/argon-20261013/ledger.json": "8213d0303a675a3f6e3ab325a0fcea721d621329558acac0ab98281895f35b00",
+      "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/benchmarks/results/argon-levels-20261013/ledger.json": "fb2fbf30eb5d7b1458804a7f75b843be7e0bc26d10b515d944553b8a9961cbdb"
+    },
+    "prior_campaign_reconciliations_unchanged": [
+      {
+        "path": "docs/scout/evidence/scout092-argon-reconciliation.json",
+        "sha256": "ac9dbdff3da3085626d619ff7252a42058a335e21eeccb7c10b038ef2cab2dfe",
+        "bytes": 7152
+      },
+      {
+        "path": "docs/scout/evidence/scout092-argon-thinking-reconciliation.json",
+        "sha256": "293c202dc648c48b81e6126e45f4ff765ac15bbeefb59e744b98e08ffeedc145",
+        "bytes": 6311
+      }
+    ]
+  },
+  "reviews": {
+    "source-panel-review-r2.json": {
+      "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/source-panel-review-r2.json",
+      "sha256": "60d89a70862a246ec76740e24f1a11d684afc331f0a509c69c15518e4952577e",
+      "bytes": 91561
+    },
+    "source-live-review.json": {
+      "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/source-live-review.json",
+      "sha256": "84e24da50c30615de33844bfa8ad98ad822a1122a4997844f4052a5f7ee44f16",
+      "bytes": 34059
+    },
+    "live-receipt-review.json": {
+      "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/live-receipt-review.json",
+      "sha256": "4e24e4d864e52e2c199cc32c0adf1c3af0e9cbc5d842d107eb8fd4653b704eab",
+      "bytes": 7190
+    },
+    "preflight-connected-review.json": {
+      "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/preflight-connected-review.json",
+      "sha256": "3d502d90c6f69298e62aa9916b129d5b269d9b8b4c29e76e3989074d6962d48d",
+      "bytes": 6813
+    }
+  },
+  "validation": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/validation.json",
+    "sha256": "caeecb588d45ab6ae0201a6735cbb95682a1772cc10b796b77cf7fec4a911a9a",
+    "bytes": 2620
+  },
+  "live_summary": {
+    "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/evidence/073-argon-literal-qualification/live-summary.json",
+    "sha256": "1acca2c9b4160c0387c224c92467786de099ecc9a7db839befc587b28757f927",
+    "bytes": 7188
+  },
+  "provenance_limit": "Initial mock-producing harness source snapshot unavailable; recorded SHA and complete original native mock observations preserved separately from final export/live snapshots.",
+  "billing_basis": "Native-usage-priced estimates; Codex agent usage unmeasured and account invoices not reconciled",
+  "no_new_paid_calls_after_stop": true,
+  "no_commits_pushes_activation": true,
+  "recommendation": "Retain Astra. No unchanged paid expansion. Future source-uncertainty changes require separately selected source-valid scope."
+}

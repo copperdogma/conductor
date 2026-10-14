@@ -3,6 +3,29 @@
 This ledger deduplicates material candidates discovered by the watch. It does
 not replace detailed Conductor scouts or owner-repository evidence.
 
+## Gemini 4 Argon public release — 2026-10-13
+
+Google's [official model entry](https://ai.google.dev/gemini-api/docs/models/gemini-4-argon)
+lists stable `gemini-4-argon`; the September30–October11 trusted-tester discovery
+hold is historical. All six selected owner evaluations now have exact
+native inference evidence. [Scout092 decisions](../scout/scout-092-gemini4-argon-evaluation-routing.md#owner-decisions--2026-10-13)
+originally prioritized Doc Web literal-reader qualification; its completed
+follow-up below retains Astra.
+Selected [thinking-level calibration](../scout/scout-092-argon-thinking-levels.md)
+is complete: BGI high exposes a costly coverage gain; Doc Web low saves 10.96%
+with poor observed latency, while high crops still fail source completeness.
+No defaults change. Combined known USD 2.403345745 plus unknown USD 1.474024 =
+conservative USD 3.877369745 / 35. Public/synthetic only; temporary BGI key removed.
+Use [the evaluated ledger](evaluated-models.md#gemini-4-argon--scout092-2026-10-13)
+for exact attempt deduplication and narrow follow-up triggers; this is no longer
+an unevaluated discovery lead.
+
+The approved [Doc Web qualification plan preparation](../scout/scout-092-docweb-literal-qualification-plan.md)
+is complete. Subsequent USD 3 bounded [execution](../scout/scout-092-docweb-literal-qualification.md)
+is complete: Argon missed the mandatory ambiguity hold after one exact matched
+page. Retain Astra. Added known USD.468719, unknown0; cumulative conservative
+exposure USD4.346088745/35. Remaining sources/repeats/live exports unmeasured.
+
 | Provider / model | First seen | Release/access state | Evidence | Likely fit | Disposition |
 | --- | --- | --- | --- | --- | --- |
 | Google `gemini-3.7-flash` | 2026-08-13 | Official GA, documented API ID; direct and aggregator access were already verified in Scout 054 | [Google model page](https://ai.google.dev/gemini-api/docs/models/gemini-3.7-flash), [Scout 054](../scout/scout-054-gemini-37-flash-deepseek-v4-pro-api-eval-routing.md) | doc-web, CineForge, Dossier maintained lanes | Existing candidate; no new recommendation today |
@@ -56,3 +79,17 @@ evidence says otherwise. No candidate has been adopted by this watch.
 ## 2026-10-06 — Mistral Large 4 evaluated
 
 **October6 owner follow-through:** Cam selected all five [Scout084 evaluations](../scout/scout-084-mistral-large4-evaluation-routing.md#owner-results--2026-10-06). Exact OpenRouter access and measured contracts qualified; retain existing models after source-faithfulness failures. Detector numerical/economic pass is qualified by logo clipping. KnownUSD0.72167835 plus unknown timeout reservations0.02448150, conservative0.74615985/USD22; no default changes; evaluation evidence landed on all five owner remote main branches. Candidate now has an evaluated-ledger entry: suppress unchanged nominations and honor task-specific retry boundaries.
+
+### Closeout accounting correction — 2026-10-13
+
+Pre-push review found that three original Astra071 reader receipts report 5,013
+cache-write tokens each. Pricing those writes at the frozen standard USD12.5/M,
+rather than the guard's USD10/M, adds USD.0125325 per call: **USD.0375975** total.
+The original .198730 Astra reader total is cold-normalized; corrected actual
+usage-priced total is .236327500. The 88.47% reader saving remains the original
+cold comparison. Closed ledgers, manifests and archives remain unchanged.
+
+Current cumulative known **USD2.909662245** + unknown **USD1.474024000** =
+**USD4.383686245/35**. Doc Web known .931161750 + unknown .441832000 =
+**USD1.372993750/15**. No new inference or verdict change.
+[Landing and correction receipt](../scout/evidence/scout092-landing.json).

@@ -1,0 +1,132 @@
+{
+  "schema_version": "scout092_landing_v1",
+  "date": "2026-10-13 America/Edmonton",
+  "authorization": "User explicitly requested check in and push after completed evaluation and qualification. Scope includes all six linked owners and Conductor.",
+  "status": "all six owner landings verified; supervisor closeout record prepared",
+  "scope": "Scoped Scout092 evaluation, calibration, literal qualification, necessary offline replay/logging/accounting closeout fixes and durable evidence. No defaults, deployment or fresh inference.",
+  "validation_policy": "Reuse content-bound tests; focused checks for changed replay/logging/accounting behavior; evidence/hash/link/metadata audits for documents.",
+  "conductor_worktree": "/Users/cam/.codex/worktrees/scout092-conductor-finish-20261013",
+  "owner_landings": {
+    "dossier": {
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-dossier-20261013",
+      "branch": "codex/scout092-argon-dossier-20261013",
+      "candidate_commit": "1906d4bad33fbb1634d9e9ffc4ccd87b10fd7f24",
+      "preflight_remote_main": "ccad4b933e1c4db748a6ea05cbc1aa400f052d07",
+      "remote": "https://github.com/copperdogma/dossier.git",
+      "status": "landed on remote main and execution branch",
+      "validation": "81 unchanged-code tests reused; fresh Ruff, JSON/JSONL/raw/hash/source-grade audits, methodology and staged diff passed. All 77 evidence files committed. Story184 remains open.",
+      "verified_remote_main": "1906d4bad33fbb1634d9e9ffc4ccd87b10fd7f24",
+      "verification": "Owner fresh fetch/ls-remote and root independent ls-remote exact commit match"
+    },
+    "cineforge": {
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-cineforge-20261013",
+      "branch": "codex/scout092-argon-cineforge-20261013",
+      "candidate_commit": "3a029014d252fabfa41d21008cefa471080706be",
+      "preflight_remote_main": "1a38bbae97382abdffe99b2abe959154b02dace6",
+      "remote": "https://github.com/copperdogma/cine-forge.git",
+      "status": "landed on remote main and execution branch",
+      "validation": "64 source-bound focused tests reused; fresh Ruff, tracked-ledger replay without ignored runtime output, 92-file custody/registry/source truth/methodology/diff passed. Original sealed report preserved.",
+      "verified_remote_main": "3a029014d252fabfa41d21008cefa471080706be",
+      "verification": "Owner fresh fetch/ls-remote and root independent ls-remote exact commit match"
+    },
+    "storybook": {
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-storybook-20261013",
+      "branch": "codex/scout092-argon-storybook-20261013",
+      "candidate_commit": "e8bfbb4a9d0e2e69604d90895aad7efb6f8460bd",
+      "preflight_remote_main": "338714c12339f3717331e96b9f4c86b3704f4f4f",
+      "remote": "https://github.com/copperdogma/storybook.git",
+      "status": "landed on remote main and execution branch",
+      "validation": "7 focused tests and lint refreshed for closed-campaign guard; saved native/source/scorer/adapter replay and all63 committed manifest entries verified; methodology/diff passed.",
+      "verified_remote_main": "e8bfbb4a9d0e2e69604d90895aad7efb6f8460bd",
+      "verification": "Owner fresh fetch/ls-remote and root independent ls-remote exact commit match"
+    },
+    "boardgame": {
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013",
+      "branch": "codex/scout092-argon-boardgame-20261013",
+      "candidate_commit": "fa780a4dcbaecbb2fb301fd275bb6d35df7e2640",
+      "preflight_remote_main": "aeb2fdb5ac0274e60ec43dccaf08817cb093e1e0",
+      "remote": "https://github.com/copperdogma/boardgame-ingester.git",
+      "status": "landed on remote main and execution branch",
+      "validation": "45 orientation/shared and13 calibration tests reused;77 initial and93 calibration manifest entries,21 tracked native exports,methodology/staged diff passed. Unrelated PDF deletion excluded.",
+      "verified_remote_main": "fa780a4dcbaecbb2fb301fd275bb6d35df7e2640",
+      "verification": "Owner fresh fetch/ls-remote and root independent ls-remote exact commit match"
+    },
+    "echo": {
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-echo-20261013",
+      "branch": "codex/scout092-argon-echo-20261013",
+      "candidate_commit": "a7da8187cda0574d83ece289339b903b9abb1907",
+      "preflight_remote_main": "8d2e539f06adc7eae0a66fc829484f5c6e192b8a",
+      "remote": "https://github.com/copperdogma/echo-forge.git",
+      "status": "landed on remote main and execution branch",
+      "validation": "6 focused tests and scoped lint pass; committed offline replay byte-identical, source/corpus/methodology/diff checks pass; protected raw restore required for exact clone replay.",
+      "verified_remote_main": "a7da8187cda0574d83ece289339b903b9abb1907",
+      "verification": "Owner fresh fetch/ls-remote and root independent ls-remote exact commit match"
+    },
+    "docweb": {
+      "worktree": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013",
+      "branch": "codex/scout092-docweb-literal-20261013",
+      "candidate_commit": "e44c0a41abf02ad266c10afdf5d95d48bb1b1fe2",
+      "component_commits": [
+        "57bab4ff8160cdcaadbdde22937042a58a4becc2",
+        "6545a37ca6b01b903cd72021862bb21f6eacc02f"
+      ],
+      "preflight_remote_main": "91cd9bb19b174247349f1e83b9aaa869eb08ccc7",
+      "remote": "https://github.com/copperdogma/doc-web.git",
+      "status": "landed on remote main and execution branches",
+      "ready_receipt": {
+        "path": "/Users/cam/.codex/worktrees/scout092-docweb-literal-20261013/docs/evals/landings/scout092-ready.json",
+        "sha256": "b46d5eff9c05da1be3109deb771b711c22a6b0dc1186ffca4f4bb9955d2997ea"
+      },
+      "validation": "157 affected native/bundle/schema checks then94 final Google/instrumentation checks;5 price/collision guard checks, Ruff, independent review, merged methodology/diff pass;358+8 unchanged producing validation retained separately.",
+      "verified_remote_main": "e44c0a41abf02ad266c10afdf5d95d48bb1b1fe2",
+      "verification": "Owner fresh fetch/ls-remote and component ancestry; root independent ls-remote exact candidate plus committed code/archive hashes"
+    }
+  },
+  "accounting_correction": {
+    "reason": "Astra071 cache writes underpriced in original guard",
+    "calls": [
+      "005",
+      "007",
+      "009"
+    ],
+    "cache_write_tokens_per_call": 5013,
+    "recorded_write_rate_usd_per_million": "10",
+    "correct_standard_write_rate_usd_per_million": "12.5",
+    "correction_per_call_usd": ".0125325",
+    "total_correction_usd": ".0375975",
+    "corrected_astra_reader_actual_usd": ".236327500",
+    "original_astra_reader_cold_normalized_usd": ".198730",
+    "original_closed_ledgers_manifests_archives_preserved": true,
+    "owner_receipt": {
+      "path": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/docs/evals/landings/scout092-cost-correction.json",
+      "sha256": "6b971f5d5a6bf1780f3a426aaaa6c122e69df69eb07f19fa25d23e3ede63855e"
+    },
+    "root_native_usage_tier_raw_hash_decimal_verification": true
+  },
+  "current_campaign": {
+    "known_usd": "2.909662245",
+    "unknown_usd": "1.474024000",
+    "conservative_exposure_usd": "4.383686245",
+    "cap_usd": "35"
+  },
+  "current_doc_web": {
+    "known_usd": ".931161750",
+    "unknown_usd": ".441832000",
+    "conservative_exposure_usd": "1.372993750",
+    "cap_usd": "15"
+  },
+  "limits": [
+    "Provider charges are usage-priced estimates, not invoice reconciliation.",
+    "Echo raw native evidence remains in protected local custody and must be restored for exact clean-clone replay.",
+    "Initial Doc Web mock-producing harness has hash-only source provenance; final export/live sources and native raw receipts are sealed."
+  ],
+  "cleanup": "Not requested; task branches/worktrees retained; unrelated shared checkout changes preserved.",
+  "conductor": {
+    "branch": "codex/scout092-finish-20261013",
+    "remote": "https://github.com/copperdogma/conductor.git",
+    "destination": "main",
+    "validation": "Scoped14-path diff; all Scout092 JSON parsed; local file links checked; exact Decimal correction/raw native tiers and hashes verified; lint/methodology/diff passed; fresh independent scope/claims review found no material blocker.",
+    "source_checkout": "Shared primary checkout preserved without reset/stash/synchronization.",
+    "commit_identity": "The containing Git commit is the supervisor landing identity; final remote containment is verified after push."
+  }
+}

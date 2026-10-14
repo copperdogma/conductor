@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-13",
+  "model": "Google native gemini-4-argon",
+  "owner_ledger_reconciliation": "passed; raw binary-float residuals tolerated below 1e-12 USD",
+  "owners": [
+    {
+      "owner": "docweb",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013",
+      "branch": "codex/scout092-argon-docweb-20261013",
+      "base_head": "91cd9bb19b174247349f1e83b9aaa869eb08ccc7",
+      "ledger_or_verified_manifest": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/docs/evals/evidence/071-argon/ledger.json",
+      "ledger_sha256": "8213d0303a675a3f6e3ab325a0fcea721d621329558acac0ab98281895f35b00",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/docs/evals/attempts/071-gemini4-argon.md",
+      "known_usage_priced_usd": "0.341867250",
+      "unknown_reservation_usd": "0.441832",
+      "conservative_exposure_usd": "0.783699250",
+      "cap_usd": 15
+    },
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-dossier-20261013",
+      "branch": "codex/scout092-argon-dossier-20261013",
+      "base_head": "ccad4b933e1c4db748a6ea05cbc1aa400f052d07",
+      "ledger_or_verified_manifest": "/Users/cam/.codex/worktrees/scout092-argon-dossier-20261013/docs/evals/artifacts/scout092-argon-long-history-20261013/campaign-ledger.json",
+      "ledger_sha256": "4fa47a835efe34b6c2b9d94169eacd49acd17ad25cb69e9c3cfbc00ad6b1a6ea",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-dossier-20261013/docs/evals/attempts/030-argon-long-history-20261013.md",
+      "known_usage_priced_usd": "1.497951800",
+      "unknown_reservation_usd": "0",
+      "conservative_exposure_usd": "1.497951800",
+      "cap_usd": 4
+    },
+    {
+      "owner": "cineforge",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-cineforge-20261013",
+      "branch": "codex/scout092-argon-cineforge-20261013",
+      "base_head": "1a38bbae97382abdffe99b2abe959154b02dace6",
+      "ledger_or_verified_manifest": "/Users/cam/.codex/worktrees/scout092-argon-cineforge-20261013/docs/evals/evidence/story-226-argon20261013/ledger.json",
+      "ledger_sha256": "e8965a74b601124648300965a31dc928ead8e6904171ffc2d1472001969466c6",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-cineforge-20261013/docs/evals/attempts/050-argon-v4-three-case-screen.md",
+      "known_usage_priced_usd": "0.278644895",
+      "unknown_reservation_usd": "0",
+      "conservative_exposure_usd": "0.278644895",
+      "cap_usd": 5
+    },
+    {
+      "owner": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-storybook-20261013",
+      "branch": "codex/scout092-argon-storybook-20261013",
+      "base_head": "338714c12339f3717331e96b9f4c86b3704f4f4f",
+      "ledger_or_verified_manifest": "/Users/cam/.codex/worktrees/scout092-argon-storybook-20261013/docs/evals/artifacts/scout092-argon-20261013/ledger.json",
+      "ledger_sha256": "1eb12e772cdd89b01521a8e70fa503cd3c87e2d839ae58d330974250f3e3d692",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-storybook-20261013/docs/evals/attempts/181-gemini4-argon-persona-photo.md",
+      "known_usage_priced_usd": "0.043717300",
+      "unknown_reservation_usd": "0",
+      "conservative_exposure_usd": "0.043717300",
+      "cap_usd": 4
+    },
+    {
+      "owner": "boardgame",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013",
+      "branch": "codex/scout092-argon-boardgame-20261013",
+      "base_head": "aeb2fdb5ac0274e60ec43dccaf08817cb093e1e0",
+      "ledger_or_verified_manifest": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013/benchmarks/results/public-orientation-v1/20261013-scout092-argon/spend-ledger.json",
+      "ledger_sha256": "cebdada2959ea937bc4ca6efc6a822ddcbcf415c32e075a3ddee9ad0a283c59b",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013/docs/evals/attempts/20261013-scout092-argon-public-orientation.md",
+      "known_usage_priced_usd": "0.017820000",
+      "unknown_reservation_usd": "0.344064",
+      "conservative_exposure_usd": "0.361884000",
+      "cap_usd": 3
+    },
+    {
+      "owner": "echo",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-echo-20261013",
+      "branch": "codex/scout092-argon-echo-20261013",
+      "base_head": "8d2e539f06adc7eae0a66fc829484f5c6e192b8a",
+      "ledger_or_verified_manifest": "/Users/cam/.codex/worktrees/scout092-argon-echo-20261013/docs/evals/attempts/control-intent-v1/20261013-google-gemini-4-argon.manifest.json",
+      "ledger_sha256": "deaa3e81d58f9730136b4b051ac70142fa5fde8aff8b516e5bab4ac1bd41ede4",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-echo-20261013/docs/evals/attempts/control-intent-v1/20261013-google-gemini-4-argon.md",
+      "known_usage_priced_usd": "0.040572500",
+      "unknown_reservation_usd": "0",
+      "conservative_exposure_usd": "0.040572500",
+      "cap_usd": 4
+    }
+  ],
+  "totals": {
+    "known_usage_priced_usd": "2.220573745",
+    "unknown_reservation_usd": "0.785896",
+    "conservative_exposure_usd": "3.006469745",
+    "cap_usd": 35,
+    "included_judge_and_review_usd": "1.29485625"
+  },
+  "scope": "public/synthetic only; no defaults, rollout, commit or push",
+  "billing_limit": "Usage-priced estimates, not invoices. Agent/Codex account usage unmeasured separately.",
+  "credential_cleanup": {
+    "owner": "boardgame",
+    "variable": "GEMINI_API_KEY",
+    "user_authorized_temporary_docweb_key": true,
+    "safe_helper_removal_and_absence_check": true
+  },
+  "review_configuration": {
+    "owner_execution_requested": "GPT-6.1 Sol high",
+    "continuing_and_fresh_strategy_requested": "GPT-6 Astra ultra",
+    "served_agent_identity_independently_verified": false
+  },
+  "validation": {
+    "echo": "root offline full receipt replay12valid",
+    "boardgame": "root77manifest hashes/bytes verified; image independently inspected",
+    "storybook": "root final62manifest hashes/bytes verified",
+    "dossier": "fresh independent reviewer12source+76artifact hashes/bytes verified",
+    "cineforge": "fresh independent reviewer89hashes/bytes verified",
+    "docweb": "fresh independent reviewer verified archive SHA/bytes,79members,5keydocuments and closed33record ledger; lost10/11 retained unknown",
+    "conductor": {
+      "local_scout_links_checked": 11,
+      "broken_local_links": 0,
+      "six_ledger_hashes_unchanged": true,
+      "dedupe_heading_unique": true,
+      "new_scout_trailing_whitespace": false,
+      "scoped_git_diff_check": "pass",
+      "test_scope": "Evidence/doc changes only; owner tooling checks reused at unchanged identities."
+    }
+  },
+  "final_review": {
+    "strategic_verdict": "continue closeout",
+    "open_findings": 0,
+    "corrections_integrated": [
+      "explicit crop deterministic score versus source-completeness failures",
+      "OCR candidate cost/latency separate from substituted control",
+      "BGI wrong applied rotation explicit despite narrower unsafe_auto_apply field",
+      "DocWeb exclusive custody before writes",
+      "Storybook read-only replay and final manifest ordering"
+    ]
+  },
+  "status": "complete"
+}

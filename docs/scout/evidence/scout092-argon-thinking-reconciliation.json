@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-13",
+  "model": "Google native gemini-4-argon",
+  "status": "complete",
+  "request": "Selective user-authorized low/medium/high calibration for hidden value",
+  "prior_closed_reconciliation": "/Users/cam/Documents/Projects/conductor/docs/scout/evidence/scout092-argon-reconciliation.json",
+  "prior_closed_reconciliation_sha256": "ac9dbdff3da3085626d619ff7252a42058a335e21eeccb7c10b038ef2cab2dfe",
+  "initial_six_ledger_hashes_verified_unchanged": true,
+  "owners": [
+    {
+      "owner": "docweb",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013",
+      "branch": "codex/scout092-argon-docweb-20261013",
+      "base_head": "91cd9bb19b174247349f1e83b9aaa869eb08ccc7",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/docs/evals/attempts/072-argon-thinking-levels.md",
+      "ledger": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/benchmarks/results/argon-levels-20261013/ledger.json",
+      "ledger_sha256": "fb2fbf30eb5d7b1458804a7f75b843be7e0bc26d10b515d944553b8a9961cbdb",
+      "manifest": "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/docs/evals/evidence/072-argon-levels/manifest.json",
+      "manifest_sha256": "d0aa55d2a81a972e17cc813fbdc66488a0bde758e41fae1896495208155fba35",
+      "added_known_usage_priced_usd": "0.082978",
+      "added_unknown_reservation_usd": "0",
+      "added_conservative_exposure_usd": "0.082978",
+      "incremental_cap_usd": "6",
+      "prior_exposure_usd": "0.783699250",
+      "cumulative_owner_exposure_usd": "0.866677250",
+      "original_owner_cap_usd": 15
+    },
+    {
+      "owner": "boardgame",
+      "worktree": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013",
+      "branch": "codex/scout092-argon-boardgame-20261013",
+      "base_head": "aeb2fdb5ac0274e60ec43dccaf08817cb093e1e0",
+      "attempt": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013/docs/evals/attempts/20261013-scout092-argon-orientation-calibration.md",
+      "ledger": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013/benchmarks/results/public-orientation-v1/20261013-scout092-argon-calibration/spend-ledger.json",
+      "ledger_sha256": "5de382b25846eebde3ffa7b6204e7258b8025b631fe350a13ae8ed32e4e51825",
+      "manifest": "/Users/cam/.codex/worktrees/scout092-argon-boardgame-20261013/benchmarks/results/public-orientation-v1/20261013-scout092-argon-calibration/artifact-manifest.json",
+      "manifest_sha256": "91f8b34924a77fa953dc9b5f315b5fac02950355c0ddb41a466771c8b47c0d98",
+      "added_known_usage_priced_usd": "0.099794",
+      "added_unknown_reservation_usd": "0.688128",
+      "added_conservative_exposure_usd": "0.787922",
+      "incremental_cap_usd": "2.60",
+      "prior_exposure_usd": "0.361884000",
+      "cumulative_owner_exposure_usd": "1.149806000",
+      "original_owner_cap_usd": 3
+    }
+  ],
+  "skipped_after_read_only_value_audit": [
+    "dossier",
+    "cineforge",
+    "storybook",
+    "echo"
+  ],
+  "added_totals": {
+    "known_usage_priced_usd": "0.182772",
+    "unknown_reservation_usd": "0.688128",
+    "conservative_exposure_usd": "0.870900",
+    "incremental_selected_cap_usd": "8.60",
+    "paid_attempts": 20,
+    "valid_responses": 18,
+    "operational_failures": 2,
+    "paid_judge_usd": "0"
+  },
+  "cumulative_totals": {
+    "known_usage_priced_usd": "2.403345745",
+    "unknown_reservation_usd": "1.474024",
+    "conservative_exposure_usd": "3.877369745",
+    "original_campaign_cap_usd": 35
+  },
+  "decisions": {
+    "docweb_literal": "Both levels preserve36clearcells/spans and2ambiguityholds; low10.96%cheaper but2.59x descriptive latency sum. No overalllevelchange; retain medium candidate.",
+    "docweb_crop": "High2/3sourcecomplete despite3/3numericpasses;011rule-tailclip stops. Medium037rawrangecontractfails;001/011unmeasured. Conditionalconfirmationcancelled,no extra calls.",
+    "boardgame": "High3/3exposedcases;lowwrong90,mediumsafeabstention,freshSolabstains ondeterminate/symmetry. Highcost10.04x/validlatency10.27x matchedSol; noadoption/escalation qualification."
+  },
+  "privacy_and_custody": {
+    "source_class": "previously approved public/synthetic only",
+    "bgi_temporary_key_removed_immediately_after_final_google_call": true,
+    "variable_absence_verified": true,
+    "other_credentials_and_accounts_unchanged": true
+  },
+  "billing_limit": "Usage-priced estimates, not invoices. All unknown attempts reserved; Codex/agent account usage is separate and unmeasured.",
+  "scope": "No defaults, private uploads, deployment, commits or pushes. Original attempts preserved.",
+  "validation": {
+    "boardgame": "93newmanifest files and77originalmember hashes/bytes verified; owner11pixelproofs/13focusedtests, scoped compile/lint/methodology checks",
+    "docweb": "Fresh reviewer:33rawfiles,7keydocuments,84archive members verified; archiveSHA/bytes,freeze andclosedledger match;10request/responsehashes,four effort-onlypairs,identity/STOP and011sourcepixels independently checked. Owner8focusedguard/pricingtests+Ruff; unchanged071checks reused.",
+    "conductor": "Scoped git diff --check passed;19local scout links resolve; no trailingwhitespace; exactDecimal addition andallownercaps passed; finalledger/manifest hashes unchanged afterreview."
+  },
+  "review": {
+    "continuing_requested_model": "GPT-6 Astra ultra",
+    "fresh_requested_model": "GPT-6 Astra ultra, no history",
+    "served_agent_identity_independently_verified": false,
+    "continuing_review_effects": [
+      "Addedfreshlowvariancebaseline and value-gatedBGIcontrols beforecalls",
+      "Enforced medium037rawcontractstop and cancelledmatchedconfirmation"
+    ],
+    "fresh_review_effects": [
+      "Corrected BGIcausaloverstatement",
+      "Independent nativepixel confirmationof011clipping and receipt/payload/cost checks"
+    ],
+    "fresh_independence_disclosure": "Substantive conclusions and primary-source checks were delivered before incidental list_agents output exposed prior reviewers summaries; remaining check is artifact consistency.",
+    "final_artifact_review": "passed; no material evidence blocker",
+    "final_disposition": "Close calibration; stop paid expansion; defer adoption; carry representative latency requirements into separately scoped DocWeb literal qualification plan."
+  }
+}

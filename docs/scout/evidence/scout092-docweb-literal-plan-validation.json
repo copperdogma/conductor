@@ -1,0 +1,216 @@
+{
+  "schema": "scout092_docweb_literal_qualification_plan_validation_v1",
+  "date_local": "2026-10-13",
+  "timezone": "America/Edmonton",
+  "status": "offline_plan_checks_passed",
+  "authorization": "planning_only_execution_not_selected",
+  "new_provider_calls": 0,
+  "new_usage_priced_spend_usd": "0",
+  "owner_mutations": false,
+  "fixtures_created": false,
+  "limits": "Abstract design, link and arithmetic checks only. Native dispatch, input-token bounds, receipt topology, source truth and real-driver acceptance remain unproved until selected execution.",
+  "plan": "docs/scout/scout-092-docweb-literal-qualification-plan.md",
+  "matrix": [
+    {
+      "design_id": "N1",
+      "stratum": "native_text",
+      "expected_disposition": "qualified_export",
+      "initial_provider_order": [
+        "astra",
+        "argon"
+      ],
+      "repeat_selected": false
+    },
+    {
+      "design_id": "A1",
+      "stratum": "ambiguity",
+      "expected_disposition": "hold",
+      "initial_provider_order": [
+        "argon",
+        "astra"
+      ],
+      "repeat_selected": true
+    },
+    {
+      "design_id": "N2",
+      "stratum": "native_text",
+      "expected_disposition": "qualified_export",
+      "initial_provider_order": [
+        "argon",
+        "astra"
+      ],
+      "repeat_selected": false
+    },
+    {
+      "design_id": "N3",
+      "stratum": "native_text",
+      "expected_disposition": "qualified_export",
+      "initial_provider_order": [
+        "astra",
+        "argon"
+      ],
+      "repeat_selected": true
+    },
+    {
+      "design_id": "R1",
+      "stratum": "image_only",
+      "expected_disposition": "qualified_export",
+      "initial_provider_order": [
+        "argon",
+        "astra"
+      ],
+      "repeat_selected": true
+    },
+    {
+      "design_id": "R2",
+      "stratum": "image_only",
+      "expected_disposition": "qualified_export",
+      "initial_provider_order": [
+        "argon",
+        "astra"
+      ],
+      "repeat_selected": false
+    },
+    {
+      "design_id": "R3",
+      "stratum": "image_only",
+      "expected_disposition": "qualified_export",
+      "initial_provider_order": [
+        "astra",
+        "argon"
+      ],
+      "repeat_selected": true
+    },
+    {
+      "design_id": "A2",
+      "stratum": "ambiguity",
+      "expected_disposition": "hold",
+      "initial_provider_order": [
+        "astra",
+        "argon"
+      ],
+      "repeat_selected": false
+    }
+  ],
+  "initial_case_order": [
+    "N1",
+    "A1",
+    "N2",
+    "N3",
+    "R1",
+    "R2",
+    "R3",
+    "A2"
+  ],
+  "opening_screen": [
+    "N1",
+    "A1"
+  ],
+  "positive_groups": [
+    [
+      "N1",
+      "N2",
+      "N3"
+    ],
+    [
+      "R1",
+      "R2",
+      "R3"
+    ]
+  ],
+  "repeat_case_order": [
+    "N3",
+    "R1",
+    "R3",
+    "A1"
+  ],
+  "repeat_provider_order": "reverse_each_cases_initial_order",
+  "scheduled_calls": {
+    "common_ocr": 8,
+    "initial_readers": 16,
+    "conditional_repeat_readers": 8,
+    "total": 32,
+    "max_operational_recovery": 1,
+    "total_with_recovery": 33,
+    "opening_screen": 6
+  },
+  "budget_usd": {
+    "additional_inclusive_cap": "3.000000",
+    "ocr_reservation": "0.7346",
+    "astra_reader_reservation": "1.500000",
+    "argon_reader_reservation": "0.37968",
+    "owner_prior_exposure": "0.866677250",
+    "owner_max_with_proposal": "3.866677250",
+    "owner_original_cap": "15",
+    "campaign_prior_exposure": "3.877369745",
+    "campaign_max_with_proposal": "6.877369745",
+    "campaign_original_cap": "35",
+    "reader_only_prior_usage_estimate_range": [
+      "0.868984",
+      "0.886584"
+    ],
+    "fresh_ocr_estimate": "unmeasured"
+  },
+  "rolling_admission_arithmetic_examples": [
+    {
+      "settled": "0.600000",
+      "unknown": "0.7346",
+      "next": "1.500000",
+      "in_flight": "0",
+      "total": "2.8346",
+      "admit": true
+    },
+    {
+      "settled": "0.800000",
+      "unknown": "0.7346",
+      "next": "1.500000",
+      "in_flight": "0",
+      "total": "3.0346",
+      "admit": false
+    }
+  ],
+  "review": {
+    "type": "continuing_strategic",
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "served_identity_independently_verified": false,
+    "recommendation": "ready_after_three_clarifications",
+    "incorporated": [
+      "progressive_common_ocr",
+      "all_six_clear_pages_required_in_real_exports",
+      "recovery_cannot_erase_latency_stop"
+    ]
+  },
+  "local_link_targets_checked": [
+    "docs/scout/scout-092-gemini4-argon-evaluation-routing.md",
+    "docs/scout/scout-092-argon-thinking-levels.md",
+    "docs/scout/evidence/scout092-argon-thinking-reconciliation.json",
+    "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/configs/recipes/recipe-pdf-literal-tables-html.yaml",
+    "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/modules/common/table_source_review.py",
+    "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/modules/common/literal_fidelity_bundle.py",
+    "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/modules/adapter/literal_table_review_v1/main.py",
+    "/Users/cam/.codex/worktrees/scout092-argon-docweb-20261013/docs/stories/story-245-preserve-literal-table-text.md"
+  ],
+  "closed_prior_ledgers": [
+    {
+      "path": "docs/scout/evidence/scout092-argon-reconciliation.json",
+      "sha256": "ac9dbdff3da3085626d619ff7252a42058a335e21eeccb7c10b038ef2cab2dfe"
+    },
+    {
+      "path": "docs/scout/evidence/scout092-argon-thinking-reconciliation.json",
+      "sha256": "293c202dc648c48b81e6126e45f4ff765ac15bbeefb59e744b98e08ffeedc145"
+    }
+  ],
+  "checks": [
+    "eight_unique_design_ids_and_stratum_counts",
+    "balanced_opening_initial_and_repeat_provider_orders",
+    "repeat_stratum_coverage",
+    "32_scheduled_33_max_native_calls",
+    "reservation_decimal_arithmetic",
+    "rolling_admission_boundary_arithmetic",
+    "original_owner_and_campaign_caps",
+    "reader_only_estimate_arithmetic",
+    "local_plan_links_exist",
+    "original_reconciliation_hash_unchanged"
+  ]
+}

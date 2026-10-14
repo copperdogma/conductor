@@ -1,5 +1,43 @@
 # Inbox
 
+- [x] 2026-10-13: Cam selected the reviewed USD 3 additional Doc Web literal-reader
+  qualification. [Execution record](docs/scout/scout-092-docweb-literal-qualification.md)
+  tracks the fresh owner worktree, independent synthetic fixture preparation,
+  offline receipt/driver/spend guards and progressive paired native calls.
+  Execution stopped on a valid Argon ambiguity-hold failure after N1 exact parity.
+  Five POSTs: known USD.468719, unknown0. Closeout cache-write correction
+  adds USD.0375975 to earlier usage estimates; current cumulative
+  USD4.383686245/35. Original sealed ledgers remain unchanged.
+  Retain Astra; remaining sources/repeats/live exports unmeasured. No activation
+  selected default change; no further unchanged paid run recommended.
+  User-authorized scoped evidence/tooling now landed on all six owner remote
+  main branches; [landing receipt](docs/scout/evidence/scout092-landing.json).
+
+- [x] 2026-10-13: Approved Doc Web literal-reader plan preparation is complete.
+  [Reviewed qualification plan](docs/scout/scout-092-docweb-literal-qualification-plan.md)
+  proposes eight new synthetic pages, fresh Argon medium/Astra pairs, guarded
+  real-driver exports and conditional latency repeats under USD 3 additional.
+  Progressive OCR, exact source/hold gates and all attempted observations remain
+  in scope. At plan completion execution was not yet selected; subsequent execution is
+  closed above.
+
+- [x] 2026-10-13: Argon thinking-level follow-through completed. Cam requested
+  selective comparisons for hidden value. [Calibration results](docs/scout/scout-092-argon-thinking-levels.md)
+  show BGI high 3/3 exposed coverage at substantial cost/latency, Doc Web low
+  literal parity with 10.96% token savings and slower observations, and crop
+  high 2/3 source-completeness gates. No setting promotion. Added known USD
+  0.182772 plus unknown 0.688128; campaign exposure USD 3.877369745 / 35.
+  Temporary BGI key removed; all original caps and closed evidence preserved.
+  The subsequent qualification is closed above.
+
+- [x] 2026-10-13: Evaluate Gemini 4 Argon. [Scout092](docs/scout/scout-092-gemini4-argon-evaluation-routing.md#owner-decisions--2026-10-13)
+  records the initial six selected owner campaigns: strongest opportunity was Doc Web's
+  literal reader, equal frozen quality at88.47% lower reader cost. It recommended
+  held-out/real-driver promotion proof; retain other current task choices.
+  Dossier single-sample speed lead remains secondary with a minor provenance
+  defect and December price increase. KnownUSD2.220573745 plusunknown0.785896;
+  conservativeUSD3.006469745/35. Temporary BGI key removed; no defaults/landing.
+
 - [x] 2026-10-08: Continuing strategic reviewer plus fresh milestone reviews.
   [Alignment 056](docs/alignments/align-056-continuing-reviewer-and-independent-milestones.md)
   records the approved all-existing-skill rollout, scoped validation and landing
@@ -442,7 +480,6 @@ explicit rejections.
 
 - 2026-09-21: Cam approved implementation of focused JEV assertion review as an opt-in Dossier feature available to Storybook. Preserve three evaluated dimensions and probabilities, separate advisory flags from accepted graph/fact state, default off, no blanket GPT fallback. Implement/test in existing isolated owning worktrees; no implicit commit, push, deployment, activation, paid rerun, or new credential provisioning.
 
-
 - [x] 2026-09-21 — Approved focused Dossier/Storybook advisory implementation
   prepared and independently cleared: Dossier Story172 and Storybook Story168;
   exact three-check rubric, owner-clicked source-support display, no fact writes,
@@ -531,7 +568,6 @@ explicit rejections.
 - [x] 2026-09-22 Echo Forge Story074 opt-in typed Search prototype and zero-provider final panel replay completed in the same isolated worktree. Gold sound-set visible6/16 local→7/16 JEV, first Sound row0/16 both; panel order changed6/18. Local results first, server-only key and explicit flags default off, safe stale/failure fallback. No deployment, activation, commit, push or provider calls. Scout072 and owner attempt record the narrower visible gain; next eval should judge playable Source actions plus standalone Sounds across contexts before rollout.
 - [x] 2026-09-22 Echo Forge Story075 evaluated playable Source and Sound controls on20fresh synthetic queries across home/Tavern/Dungeon. JEV raw shortlist top1 improved7/16→15/16, but final first relevant control stayed6/16 and visible14/16 in both arms. 18/18 native calls qualified for US$0.003192924; temporary key removed. Keep optional Search off; Scout072 and owner attempt record the product-path limit. No deployment, activation, commit or push.
 - [x] 2026-09-22 JEV check-in: remaining Storybook and Echo Forge evaluation work landed on owner remote main at `98f8d25e293a32130875100b455ba26da3830be5` and `e6c3ef1aed1d0a515b75ba6100ad6f74430bcfa8`, respectively. Scout072 records the final usefulness verdicts. Optional Search remains off; no new provider calls or deployment.
-
 
 - [x] 2026-09-26: Evaluate Opus 5.5. [Scout075](docs/scout/scout-075-opus55-evaluation-routing.md)
   Cam selected all five. Direct inference qualified; no adoption after bounded
