@@ -566,7 +566,7 @@ push. Owner execution branches and remote main were fast-forwarded and verified:
 | --- | --- | --- |
 | Dossier | `75411ca6f2c006a1ee724caceaefaee140e56117` | Attempts031/032; broader Story184 stays open |
 | Doc Web | `889ab517e5c32a3351bc91248f6d0fd36532e82c` | Attempts074/075; Stories254/255 closed |
-| Board Game Ingester | `dd775b6436df4d7600ff4a0931bd3fe7f07d6af6` | Bounded orientation record; broader Story021 stays open |
+| Board Game Ingester | `dd775b6436df4d7600ff4a0931bd3fe7f07d6af6` | Bounded orientation record; Story021 already done |
 | Echo Forge | `f5d72c12f702e2f2f2e62c08ae3c6ac88d438ca3` | Control-intent record; Story071 already done |
 
 [Closeout evidence](evidence/scout093-wonder-landing.json) records the scoped

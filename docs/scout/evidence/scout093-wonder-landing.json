@@ -3,7 +3,7 @@
   "authorization": "Cam: Thanks. Check in and push",
   "scope": "Scout093 Muse Wonder initial four-owner evaluation, Dossier/DocWeb thinking follow-through and adaptive thinking skill policy",
   "supervisor_base": "71ea13f6e2106b00793138fe255df8ab2b8612b4",
-  "status": "all four owner main branches verified landed; supervisor ready for final commit and push",
+  "status": "all four owner main branches verified landed; supervisor completion recorded",
   "validation": {
     "selection": "Evidence/docs and isolated eval tooling; reuse unchanged owner focused tests, validate integrated records and manifests; no paid reruns or unrelated product suites",
     "conductor_checks": [
@@ -45,7 +45,7 @@
       "branch": "codex/scout093-wonder-boardgame-20261014",
       "files": 78,
       "validation": "focused43system+5bundled Pillow+3transport evidence reused, original system Pillow import limitation retained;99file manifest and original93file provenance retained;methodology/diff/secret pass",
-      "story": "Story021 eval worklog added; broader story remains open",
+      "story": "Story021 already done; eval worklog added",
       "landed": true
     },
     {
