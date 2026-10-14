@@ -630,3 +630,5 @@ explicit rejections.
 - 2026-10-07: Claude Haiku 5.5 evaluation and approved public orientation follow-up completed; [Scout089](docs/scout/scout-089-haiku55-evaluation-routing.md) retains six owner decisions, thinking/value comparisons and spend. Retain incumbents; six owner evidence landings verified, with Conductor close-out records prepared.
 
 - 2026-10-13 — Five-model decision evaluation completed in [Scout091](docs/scout/scout-091-five-decision-models-evaluation-routing.md). All four selected lanes accounted for; Solar remains a conditional batch lead, current runtime choices retained. User requested scoped check-in/push; all three owner remote-main landings verified and supervisor closeout recorded.
+
+- 2026-10-14 — DeepSeek V4.1 Flash fresh retry completed; Cam requested no further testing of this checkpoint and authorized scoped check-in/push. Routed and resolved in [Scout094](docs/scout/scout-094-deepseek-v41-flash-fresh-retry.md).

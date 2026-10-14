@@ -12,6 +12,8 @@
 
 Use this index to track external sources investigated for cross-project value.
 
+- `2026-10-14` — [Scout 094 — DeepSeek V4.1 Flash fresh retry](./scout/scout-094-deepseek-v41-flash-fresh-retry.md) — Four owners complete; retain current task choices. Known USD0.1409455396 plus unknown bound0.02178302 = exposure0.1627285596/5.90. Cam closed this checkpoint to further evaluation; four owner remote-main landings verified; supervisor closeout recorded.
+
 - `2026-10-06` — [Scout 084 — Mistral Large 4 evaluation routing](./scout/scout-084-mistral-large4-evaluation-routing.md) — All five selected owners complete: exact OpenRouter access/contracts qualified, retain incumbents after source-faithfulness failures. Detector numeric13/13 economy advantage qualified by clipped logo; no adoption. KnownUSD0.72167835, unknown0.02448150, conservative0.74615985/USD22; temporary keys removed, no default changes; evaluation evidence landed on all five owner remote main branches.
 - `2026-09-30` — [Scout 081 — Additional Jev Decision Seams](./scout/scout-081-jev-additional-decision-seams.md) — Complete: seven-owner audit, approved Echo studies and deterministic repairs. NO-GO normal/default Jev use; local useful proposals improve3→4/7 versus Jev2/7,14/16review. CumulativeUSD.003283266; default off.
 

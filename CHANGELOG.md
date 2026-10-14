@@ -1,5 +1,12 @@
 # Changelog
 
+## [2026-10-14-deepseek-retry] - Close DeepSeek V4.1 Flash fresh retry
+
+### Changed
+- Recorded four fresh owning-repo evaluations and retained current task choices.
+- Preserved measured speed/cost gains, quality failures, unknown cost bounds and provenance limits.
+- Closed the exact checkpoint to further evaluation at Cam’s request, including alternate effort or route attempts.
+
 ## [2026-10-07-01] — Close Claude Haiku 5.5 evaluation
 
 ### Added
