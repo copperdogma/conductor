@@ -1,5 +1,74 @@
 # Evaluated frontier model ledger
 
+## Meta Muse Wonder — Scout093, 2026-10-14
+
+Exact served router checkpoint **`meta/muse-wonder-20261012`**, request alias
+`meta/muse-wonder`, public name Muse Wonder. Authenticated generation receipts
+in all four selected owners prove dated served identity and Meta route. Native
+`muse-wonder-1.0` public listing is not independent proof of checkpoint
+equivalence; Wonder Full is separate subscription-only and untested.
+[Campaign outcomes and direct owner records](../scout/scout-093-muse-wonder-evaluation-routing.md#owner-outcomes--2026-10-14).
+
+Access available; owner task transport qualified. Dossier Wonder medium4/5
+fully preserved plus one minor documentary-basis omission versus Sol5/5 clean,
+both zero material errors; candidate1.82x subject cost, timing boundary
+incomparable. Doc Web medium clear-table screen cheaper/faster but holds3clear
+cells and substitutes O→0; candidate true ambiguity unmeasured after stop,
+Astra all clear cells exact and true ambiguity holds. BGI low safe coverage
+tie, pub012 review on both, zero wrong automatic rotations, candidate8.96x
+cost/1.77x summed time. Echo low2/3 vs Gemini3/3 matched, required ambiguity
+hold missed,13.12x cost; Gemini finished5/5 and candidate remainder unmeasured.
+Retain each current task choice; no deployment/default changes.
+
+Known usage-priced exposureUSD2.1347731, unknown0, inclusive campaign cap31.
+Includes independent Dossier judges1.087985 and qualification/parity.120336;
+not invoice reconciliation or orchestration cost. Temporary BGI
+OPENROUTER_API_KEY removed and absence verified; other owner credentials
+unchanged. Small exposed fresh paired screens do not establish full-corpus,
+private-payload, concurrency, p95 or general capability conclusions.
+
+Retry only for a materially different checkpoint or source-backed changed
+owner contract/approach addressing the recorded missing documentary attribution,
+clear literal coverage, automatic orientation coverage/economics, or ambiguity
+gate. Explicit force-fresh user intent can nominate a new bounded attempt;
+catalog metadata, elapsed time or a higher-effort label alone is not a satisfied
+retry trigger. No unchanged paid rerun recommended.
+
+Initial campaign coverage: Dossier/Doc Web medium; BGI/Echo low. No within-task
+level comparison in that initial attempt; minimal/high/xhigh/max and other per-task settings remain unmeasured.
+Cam's subsequent skill-rewrite request adds a source-backed thinking-calibration
+proposal route: prior valid attribution/clear-coverage gaps and measured reader
+economics may justify a newly selected bounded higher-effort question. That is
+a different configuration hypothesis, not a new checkpoint or standing retry
+authorization. Retain the tested-arm verdicts and original evidence.
+
+**Selected thinking follow-through,2026-10-14:** Dossier fresh medium/high/Sol
+all5/5 clean; medium.329236/22.571s, high.347676/27.923s, Sol.178448/43.017s,
+inference timed before receiptGET. Medium is the better observed Wonder setting,
+47.5% faster at1.845x cost in n=1; prior identical medium4/5 means unresolved
+within-setting provenance variability. High provides no observed quality gain;
+max trigger absent, unmeasured. Retain Sol; medium only merits independent
+latency-priority provenance/repeatability qualification if selected.
+
+Doc Web fresh medium/high/max bakery each22/23 diagnostic exact, same O→0
+and2clear holds, no harmful accepted changes. High/max true ambiguity holds
+correct; their native-clear cases unmeasured after stop. Higher settings cost
+65.4%/62.6% more and take2.29x/2.58x medium latency. Retain Astra; no further
+unchanged sweep. Max ran on speculative economic headroom, not a demonstrated
+30% gain; preserved original decision has explicit audit qualification.
+[Direct owner results and limits](../scout/scout-093-muse-wonder-evaluation-routing.md#higher-thinking-outcomes--2026-10-14).
+
+IncrementalUSD2.9762153, cumulativeUSD5.1109884/31, unknown0; original cumulative
+owner caps12/10 respected, no transfers. One router pre-provider402 settled0
+with primary-source/raw proof and one unchanged recovery; no semantic retry.
+Requested/evidenced level coverage now: Dossier medium/high; Doc Web medium/
+high/max; BGI/Echo low only. Untested settings remain unmeasured. Exact dated
+Meta receipts, unchanged source/prompt/schema, fresh paired controls and full
+blind Dossier reviews retained. No defaults changed.
+Owner records and thinking-policy update checked in under the authorized
+[Scout093 closeout](../scout/scout-093-muse-wonder-evaluation-routing.md#authorized-closeout--2026-10-14);
+earlier no-landing statements describe pre-closeout snapshots.
+
 ## Gemini 4 Argon — Scout092, 2026-10-13
 
 Canonical provider-qualified identity: **Google native `gemini-4-argon`**.

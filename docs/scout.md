@@ -1,5 +1,15 @@
 # Scout Log
 
+- `2026-10-14` — [Scout 093 — Muse Wonder Evaluation Routing](./scout/scout-093-muse-wonder-evaluation-routing.md) — `Do not adopt tested arms`
+  All four selected public/synthetic owner comparisons completed at usage-priced
+  USD2.1347731/31, unknown0. Retain Sol/Astra/Gemini; no default or landing changes.
+  Targeted Dossier/Doc Web thinking follow-through addsUSD2.9762153, cumulative
+  USD5.1109884/31. Medium/high Dossier both clean; high/max Doc Web do not fix
+  glyph failure. No higher-effort benefit; Dossier medium latency lead remains
+  conditional on separate stability proof. Original evidence preserved.
+  All four owner records landed; authorized Conductor closeout includes the
+  task-specific thinking-calibration policy. No defaults changed.
+
 Use this index to track external sources investigated for cross-project value.
 
 - `2026-10-06` — [Scout 084 — Mistral Large 4 evaluation routing](./scout/scout-084-mistral-large4-evaluation-routing.md) — All five selected owners complete: exact OpenRouter access/contracts qualified, retain incumbents after source-faithfulness failures. Detector numeric13/13 economy advantage qualified by clipped logo; no adoption. KnownUSD0.72167835, unknown0.02448150, conservative0.74615985/USD22; temporary keys removed, no default changes; evaluation evidence landed on all five owner remote main branches.

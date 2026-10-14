@@ -128,6 +128,23 @@ Treat privacy controls as payload-dependent rather than universal eval gates:
 Do not combine every available privacy filter by default. A filter is an
 absolute gate only when the payload classification or owner policy requires it.
 
+### Thinking-level planning
+
+Treat thinking/reasoning effort as part of the evaluated configuration. For each
+task, verify the exact route's supported levels or adaptive/token-budget controls,
+defaults, restrictions, and whether hidden reasoning consumes the output limit
+and bill. Equal level names across providers do not imply equal compute; a level
+is not a new checkpoint or a higher-tier model.
+
+Choose a task-specific starting level using owner evidence, provider guidance,
+quality difficulty and operational headroom. Explain the educated guess rather
+than defaulting every task to low, medium or maximum. For a capability-ceiling
+question, start with a suitably strong level; for an interactive cost question,
+start with a plausible affordable level. Normally screen one level first, then
+follow the [thinking-level calibration policy](references/thinking-level-calibration.md)
+when a different level could change the decision. Read it before proposing
+or executing a campaign with selectable effort. Do not sweep every level.
+
 ### 1.5 Check the evaluated-model ledger
 
 Read `docs/model-watch/evaluated-models.md` before portfolio routing. Match the
@@ -137,18 +154,31 @@ access/transport stop counts as a prior evaluation attempt for deduplication,
 even when semantic quality remained unmeasured.
 
 Do not recommend an exact matched model as a new evaluation. A prior model may
-enter the numbered list again only when the user explicitly requests a fresh
-rerun or current evidence satisfies the narrow retry trigger recorded in the
+enter the numbered list as **re-evaluation** when the user explicitly requests
+a fresh rerun or current evidence satisfies the narrow retry trigger recorded in the
 ledger and owner evidence. Label that item **re-evaluation**, cite the prior
 attempt and changed trigger, and rerun only the decision-bearing failed gate or
 current parity surface. Documentation, catalog, pricing, or route metadata
 alone does not satisfy a callability, strict-contract, privacy, reliability,
 latency, cost, or capability trigger.
 
+A justified untested thinking configuration may instead enter as **thinking-level
+calibration** under the linked policy: cite the prior owner/task/setting, valid
+answer or usage evidence, and the specific quality/economics question it can
+resolve. This does not nominate the checkpoint as new, repeat unchanged failed
+arms, or bypass an unresolved access/transport/privacy/spend gate.
+
 Repairing a judge, adapter or harness within an already approved active campaign
 is continuation, not a new model nomination. Preserve failed evidence and reuse
 saved subject outputs where possible; do not turn routine recovery into repeated
 approval requests. Respect explicit user retry limits and hard spend ceilings.
+
+Audit effort coverage by **owner task and configuration**, not just model ID.
+Different settings used in different repos are not a within-task comparison.
+An untested level is not automatically a retry trigger, but prior source-backed
+quality gaps or measured economics may justify a narrowly labelled calibration
+proposal under the linked policy. Preapproved conditional arms in an active
+campaign are continuation; a closed campaign needs a new bounded selection.
 
 Keep distinct checkpoints distinct. Do not collapse a similarly named open
 checkpoint, managed service, dated snapshot, or provider alias unless exact
@@ -244,14 +274,17 @@ execution handles for the next user message. For each numbered item include:
 - incumbent and decision the evidence can support
 - why this model could change that decision now
 - progressive stop gate and the most important quality/latency/cost threshold
+- starting thinking setting and rationale; any conditional follow-up levels,
+  evidence triggers, calibration cases, variant limit and stopping rule; explain
+  why other levels are not useful to test now
 - fixture eligibility and privacy/ZDR restriction
 - proposed per-repo provider-spend ceiling, normally lower than the US$5
   fallback when the maintained lane can be bounded more tightly
 
 Size that ceiling for the decision-bearing comparison, independent judging and
-bounded operational recovery. Check reservation feasibility before proposing it;
-do not offer a budget that cannot admit the intended cases, then discover this
-after approval. Distinguish hard user limits from provisional operator estimates
+bounded operational recovery and any proposed conditional thinking arms. Check
+reservation feasibility before proposing it; do not offer a budget that cannot
+admit the intended cases, then discover this after approval. Distinguish hard user limits from provisional operator estimates
 and soft screening thresholds. Avoid blanket zero-retry plans for recoverable
 harness/judge faults unless the user explicitly requires them.
 
@@ -300,6 +333,8 @@ The selection authorizes:
 - the repo-local story/plan, adapter or evidence scaffolding, provider probes,
   bounded progressive benchmark, artifact inspection, tests, and durable eval
   records needed for the proposed lane
+- its disclosed conditional thinking-level calibration, when the predeclared
+  evidence trigger is met within the same owner scope and hard ceiling
 - spend up to each disclosed per-repo ceiling and no more than the disclosed
   selected-campaign total
 - use of the proposal's clearly public or synthetic fixtures under the
@@ -414,7 +449,10 @@ Read the owner protocol reference before live execution. Qualify access and the
 actual production contract before semantic scoring, use frozen maintained
 inputs, and run progressively to a decision. Stop an affected lane for a clear
 candidate failure against a valid required contract or source-backed quality
-gate. Retain failures as access/transport/reliability evidence rather than hiding
+gate. When conditional thinking arms were selected, stop the failing arm first
+and assess their predeclared triggers under the calibration policy; do not
+cancel an independent approved arm or invent another to rescue the result.
+Retain failures as access/transport/reliability evidence rather than hiding
 them; do not confuse an evaluation-system failure with a candidate failure.
 
 **Pursue recoverable problems through to conclusion.** A judge-format error,
@@ -497,8 +535,12 @@ Lead the user-facing report with **what won and what to do**, not the last error
 or a blanket "no adoption." Give a concise task-level comparison table covering
 every evaluated repo: task, measured winner/tie/no winner, quality evidence,
 task cost and latency versus the comparator, and recommended action with its
-reason. State sample size, whether the comparison was fresh/matched, and the
-material uncertainty without burying the recommendation. Separate subject cost
+reason. Name tested thinking settings and whether levels were compared within
+the task; list omitted or unmeasured levels and their decision-specific reasons.
+Scope rejection to the tested arm unless evidence or a hard route/task boundary
+also excludes the alternatives. State sample size, whether the comparison was
+fresh/matched, and the material uncertainty without burying the recommendation.
+Separate subject cost
 from judge/retry overhead and distinguish quality scores from pass rates.
 
 Make a strong, evidence-proportional call: **adopt for this task**, **prioritize
@@ -546,7 +588,9 @@ every selected owner campaign that reaches an authenticated probe, provider
 call, or documented access/transport stop, including zero-spend stops. Record
 the canonical provider-qualified ID, aliases/checkpoints, latest attempt date,
 direct owner evidence, layered outcome, and narrow retry trigger. Preserve
-unmeasured verdict layers as unmeasured. This central row is a dedupe pointer;
+unmeasured verdict layers and effort settings as unmeasured; record per-task
+tested settings, calibration versus confirmation, and any justified remaining
+level question. This central row is a dedupe pointer;
 the owning repository remains authoritative and retains the full evidence.
 
 ## Non-Negotiable Rule

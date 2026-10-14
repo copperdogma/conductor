@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-14",
+  "timezone": "America/Edmonton",
+  "status": "completed thinking calibration uncommitted",
+  "authorization": "Cam go ahead selected targeted Dossier/DocWeb higher effort; original cumulative owner ceilings retained",
+  "request_model": "meta/muse-wonder",
+  "served_model": "meta/muse-wonder-20261012",
+  "provider": "Meta",
+  "campaign_cap_usd": "31",
+  "prior_campaign_exposure_usd": "2.1347731",
+  "prior_campaign_reconciliation": "/Users/cam/Documents/Projects/conductor/docs/scout/evidence/scout093-wonder-reconciliation.json",
+  "prior_reconciliation_sha256": "8bb89a693382fca53ccf4563201fce30d3a9ab089d032eeefa92fac600b57fc5",
+  "incremental_usd": "2.9762153",
+  "cumulative_usd": "5.1109884",
+  "unknown_reserved_usd": "0",
+  "native_invoice_reconciliation": false,
+  "owners": [
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/scout093-wonder-thinking-dossier-20261014",
+      "branch": "codex/scout093-wonder-thinking-dossier-20261014",
+      "base": "1906d4bad33fbb1634d9e9ffc4ccd87b10fd7f24",
+      "cumulative_cap_usd": "12",
+      "prior_usd": "1.700025",
+      "incremental_usd": "2.494615",
+      "cumulative_usd": "4.194640",
+      "unknown_reserved_usd": "0",
+      "ledger_path": "/Users/cam/.codex/worktrees/scout093-wonder-thinking-dossier-20261014/docs/evals/artifacts/scout093-wonder-thinking-20261014/campaign-ledger.json",
+      "ledger_sha256": "8cf9fd7f9283e97e00fe1a3eac3ea3cba7d41fb03afc7aba4a90b7f09882b17f",
+      "root_verified_artifact_count": 116,
+      "existing_credentials_untouched": true
+    },
+    {
+      "owner": "docweb",
+      "worktree": "/Users/cam/.codex/worktrees/scout093-wonder-thinking-docweb-20261014",
+      "branch": "codex/scout093-wonder-thinking-docweb-20261014",
+      "base": "e44c0a41abf02ad266c10afdf5d95d48bb1b1fe2",
+      "cumulative_cap_usd": "10",
+      "prior_usd": ".3223511",
+      "incremental_usd": ".4816003",
+      "cumulative_usd": "0.8039514",
+      "unknown_reserved_usd": "0",
+      "ledger_path": "/Users/cam/.codex/worktrees/scout093-wonder-thinking-docweb-20261014/docs/evals/evidence/075-wonder-thinking/ledger.json",
+      "ledger_sha256": "007b95b409fa8f2090f9c819993c1a49556801c0909ebbe3f6f9f16826b221ba",
+      "root_verified_artifact_count": 56,
+      "existing_credentials_untouched": true
+    }
+  ],
+  "dossier": {
+    "fresh_settings": [
+      "medium",
+      "high"
+    ],
+    "skipped_max_reason": "high clean5/5; trigger absent",
+    "fresh_cases_per_arm": 1,
+    "quality": "all medium/high/Sol5/5 clean; prior same-medium4/5 omission retained as variability",
+    "subject_usd": {
+      "medium": ".329236",
+      "high": ".347676",
+      "sol": ".178448"
+    },
+    "inference_seconds": {
+      "medium": 22.571,
+      "high": 27.923,
+      "sol": 43.017
+    },
+    "judge_usd": "1.639255",
+    "action": "retain Sol; medium dominates high in observed pair; independent medium stability qualification only if latency prioritized"
+  },
+  "docweb": {
+    "fresh_settings": [
+      "medium",
+      "high",
+      "max"
+    ],
+    "case_counts": {
+      "medium": 1,
+      "high": 2,
+      "max": 2,
+      "astra": 3
+    },
+    "bakery_quality": "all candidates22/23 diagnostic exact and2clearholds;Astra23/23 verified",
+    "subject_usd": {
+      "medium": ".042968",
+      "high": ".071068",
+      "max": ".0698608",
+      "astra": ".0824925"
+    },
+    "inference_seconds": {
+      "medium": 11.232,
+      "high": 25.743,
+      "max": 29.033,
+      "astra": 12.321
+    },
+    "candidate_native_clear": "high/max unmeasured after valid bakery failures",
+    "max_rationale_audit": "bounded quality question proceeded on speculative economic headroom; no demonstrated30percent benefit before max",
+    "predispatch_router_rejections": 1,
+    "rejected_charge_usd": "0",
+    "source": "https://openrouter.ai/docs/api_reference/limits#in-flight-spending-budget",
+    "retry": "one unchanged medium recovery after server guidance and shared admission serialization",
+    "action": "retain Astra; no effort quality gain"
+  },
+  "independent_review": {
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "served_identity": "independently unavailable",
+    "verdict": "continue closeout; stop further paid calibration",
+    "reporting_corrections": [
+      "Dossier timing scope labels corrected in finalizer/summary",
+      "DocWeb separate max economic-rationale audit preserves original decision"
+    ],
+    "provider_calls": 0
+  },
+  "root_checks": [
+    "Dossier116 retained hashes/sizes",
+    "DocWeb56 archive hashes/sizes and header-free requests",
+    "new ledger totals/hashes and original cumulative caps",
+    "all4 initial owner ledger hashes unchanged",
+    "source/graph/obligation and source-pixel review",
+    "new worktree bases/branches/diff hygiene"
+  ],
+  "limits": [
+    "exposed n1percase",
+    "prior same-medium provenance variability",
+    "no causal effort-quality improvement",
+    "cache/load limit causal timing attribution",
+    "requested effort accepted; no private cognition proof",
+    "no new private payload/default/deployment/commit/push"
+  ]
+}

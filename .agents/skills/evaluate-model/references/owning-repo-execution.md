@@ -20,6 +20,9 @@ Before spending tokens, record:
   defer, for the exact task/call subset rather than necessarily the whole repo
 - freshness mode, cache policy, proposed configuration arms, retry budget,
   per-repo spend ceiling, and progressive stop gates
+- task-specific starting effort and conditional calibration plan under
+  [thinking-level calibration](thinking-level-calibration.md); read it when
+  effort is selectable, and preserve the selected triggers/variant limits
 
 If no result can change a maintained decision, stop with an evidence-backed
 defer/no-eval result. For multiple candidates, qualify each independently and
@@ -147,15 +150,19 @@ Before looking at scores:
 - start a cost ledger and conservative estimate
 - rerun the incumbent on its maintained production configuration when current
   superiority evidence is needed
-- run the challenger with provider-recommended defaults plus required contract
-  flags
+- run the challenger with the task-specific selected thinking setting and
+  required contract flags; document why it fits better than an implicit default
 - predeclare the exact challenger arms and transport-debug retry/repair cap;
-  use the recommended configuration plus at most two justified variants
+  use the selected starting configuration plus at most two justified semantic
+  calibration alternatives, including conditionally authorized thinking levels;
+  record operational repair configurations separately within a finite recovery
+  call/spend allowance, never as a way to retune a valid quality failure
 - give incumbent and challenger comparable tuning opportunity
 - select variants on a predeclared calibration slice when possible, then freeze
   one configuration before promotion
 - label same-decision-fixture variant selection exploratory; require held-out or
-  predeclared repeated confirmation before promotion
+  prospectively reserved independent material before promotion; repeated exposed
+  panels establish repeatability, not unseen qualification
 - freeze prompt, fixtures, scorer, golden, and downstream cleanup during the
   comparison unless separately verified eval-validity work proves a defect
 - bypass the subject-output cache for a model/config change; force-fresh work
@@ -187,7 +194,10 @@ Inspect raw outputs and artifacts between stages. Do not launch a broad matrix
 to debug one malformed call. Stop an affected candidate lane on a clear early
 model failure: for example, an unambiguous source contradiction or violation
 of a valid required output contract under adequate settings. First establish
-that the expectation, parser and request were correct. Do not stop the campaign
+that the expectation, parser and request were correct. Stop that arm; a selected
+conditional effort arm may proceed only on its predeclared trigger and frozen
+calibration slice. Do not invent an unapproved level or keep escalating until
+success. Do not stop the campaign
 merely because the judge, harness, provisional allowance or another soft limit
 failed. Diagnose, repair and resume until the approved comparison supports a
 conclusion. Continue independent approved lanes that can still produce value.
@@ -285,6 +295,8 @@ the same as finding no useful winner. Then return a compact evidence record with
 1. **Decision and owner** — repo, surface, incumbent, adoption question
 2. **External evidence** — checked sources/date, exact model and access path
 3. **Configuration** — arms, rationale, freshness, fairness, and spend cap
+   (including requested/evidenced effort, thinking usage and within-task
+   calibration coverage; untested settings remain unmeasured)
 4. **Access** — available, constrained, blocked, or unverified
 5. **Transport** — qualified, blocked, or inconclusive
 6. **Reliability** — acceptable, degraded, failed, or not measured

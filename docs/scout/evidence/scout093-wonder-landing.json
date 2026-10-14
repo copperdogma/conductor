@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-14",
+  "authorization": "Cam: Thanks. Check in and push",
+  "scope": "Scout093 Muse Wonder initial four-owner evaluation, Dossier/DocWeb thinking follow-through and adaptive thinking skill policy",
+  "supervisor_base": "71ea13f6e2106b00793138fe255df8ab2b8612b4",
+  "status": "all four owner main branches verified landed; supervisor ready for final commit and push",
+  "validation": {
+    "selection": "Evidence/docs and isolated eval tooling; reuse unchanged owner focused tests, validate integrated records and manifests; no paid reruns or unrelated product suites",
+    "conductor_checks": [
+      "repo_checks.py lint passed",
+      "six original/follow-up owner ledger hashes verified",
+      "initial reconciliation hash matches follow-up chain",
+      "skill local references resolve",
+      "frontmatter user-invocable true preserved; stock quick_validate passed compatible temporary copy without legacy field",
+      "independent policy six-scenario review reused; exact semantic policy unchanged except remote staffing/spend block retained"
+    ],
+    "skill_files_sha256": {
+      ".agents/skills/evaluate-model/SKILL.md": "3230e6f79464a7370ddc7d142edf4bb453dcc6daf85f4438763be8490b12b59b",
+      ".agents/skills/evaluate-model/references/owning-repo-execution.md": "69e590782cd134ec4af25fc961eaf7eae723073bb91310167c82482d83796507",
+      ".agents/skills/evaluate-model/references/thinking-level-calibration.md": "85a291bb2f12427eee6c4e63f534689878dd527e4c5a7576419bca1ce322c121"
+    }
+  },
+  "owners": [
+    {
+      "repo": "dossier",
+      "commit": "75411ca6f2c006a1ee724caceaefaee140e56117",
+      "branch": "codex/scout093-wonder-dossier-closeout-20261014",
+      "files": 178,
+      "validation": "unchanged78 focused tests reused; two manifests,132JSON checks,5saved reviews,scopedlint/graph/diff pass",
+      "story": "Story184 keep open; broader acceptance remains",
+      "landed": true
+    },
+    {
+      "repo": "doc-web",
+      "commit": "889ab517e5c32a3351bc91248f6d0fd36532e82c",
+      "branch": "codex/scout093-wonder-docweb-land-20261014",
+      "files": 60,
+      "validation": "unchanged104/106 evidence reused; combined10guard tests fresh,100owner interface evidence reused;32/56archive checks,lint/graph/diff/secret pass",
+      "story": "Stories254/255 closed",
+      "landed": true
+    },
+    {
+      "repo": "boardgame-ingester",
+      "commit": "dd775b6436df4d7600ff4a0931bd3fe7f07d6af6",
+      "branch": "codex/scout093-wonder-boardgame-20261014",
+      "files": 78,
+      "validation": "focused43system+5bundled Pillow+3transport evidence reused, original system Pillow import limitation retained;99file manifest and original93file provenance retained;methodology/diff/secret pass",
+      "story": "Story021 eval worklog added; broader story remains open",
+      "landed": true
+    },
+    {
+      "repo": "echo-forge",
+      "commit": "f5d72c12f702e2f2f2e62c08ae3c6ac88d438ca3",
+      "branch": "codex/scout093-wonder-echo-20261014",
+      "files": 11,
+      "validation": "unchanged3focused/corpus/syntax/lint evidence reused;9receipt offline replay,methodology/diff/secret pass",
+      "story": "Story071 already done; eval worklog added",
+      "landed": true
+    }
+  ],
+  "preservation": "Primary checkouts remain untouched; task worktrees and protected raw artifacts retained; prior reconciliation snapshots preserve historical uncommitted status.",
+  "campaign_wide_preflight": "all five repos clear before first push; no known completion/validation/ownership/integration blockers",
+  "remote_verification": "coordinator independently git ls-remote origin main equals each exact owner commit; workers verified execution branches too",
+  "additional_paid_calls": 0
+}

@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-14",
+  "timezone": "America/Edmonton",
+  "status": "completed selected campaign uncommitted",
+  "candidate": {
+    "request": "meta/muse-wonder",
+    "served": "meta/muse-wonder-20261012",
+    "provider": "Meta",
+    "proof": "authenticated generation receipts in all4owners",
+    "native_equivalence": "unproven"
+  },
+  "selected_items": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "cap_usd": "31",
+  "known_usage_priced_usd": "2.1347731",
+  "unknown_reserved_usd": "0",
+  "invoices_reconciled": false,
+  "owners": [
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/scout093-wonder-dossier-20261014",
+      "branch": "codex/scout093-wonder-dossier-20261014",
+      "base": "1906d4bad33fbb1634d9e9ffc4ccd87b10fd7f24",
+      "cap_usd": "12",
+      "known_usage_priced_usd": "1.700025",
+      "unknown_reserved_usd": "0",
+      "ledger_path": "/Users/cam/.codex/worktrees/scout093-wonder-dossier-20261014/docs/evals/artifacts/scout093-wonder-long-history-20261014/campaign-ledger.json",
+      "ledger_sha256": "b97a10014e6467e9c3e71c16f38d4d6c3681ab7eca73a7f4d401654894ce7619",
+      "root_verified_artifact_count": 98,
+      "quality": "4/5 fully preserved plus one minor basis gap vs5/5; zero material both",
+      "action": "retain incumbent",
+      "cleanup": "existing owner credentials untouched; no injection"
+    },
+    {
+      "owner": "docweb",
+      "worktree": "/Users/cam/.codex/worktrees/scout093-wonder-docweb-20261014",
+      "branch": "codex/scout093-wonder-docweb-20261014",
+      "base": "e44c0a41abf02ad266c10afdf5d95d48bb1b1fe2",
+      "cap_usd": "10",
+      "known_usage_priced_usd": ".3223511",
+      "unknown_reserved_usd": "0",
+      "ledger_path": "/Users/cam/.codex/worktrees/scout093-wonder-docweb-20261014/benchmarks/results/wonder-20261014/ledger.json",
+      "ledger_sha256": "4c23535fceeabf8bb99bbaec06c7da1a8e02ca1d72aa620ec149f46342041778",
+      "root_verified_artifact_count": 32,
+      "quality": "one of two candidate clear pages verified vs two of two controls; candidate ambiguity unmeasured",
+      "action": "retain incumbent",
+      "cleanup": "existing owner credentials untouched; no injection"
+    },
+    {
+      "owner": "boardgame",
+      "worktree": "/Users/cam/.codex/worktrees/scout093-wonder-boardgame-20261014",
+      "branch": "codex/scout093-wonder-boardgame-20261014",
+      "base": "50c1496eba5834219b73f33fa3b02cfebb817ec8",
+      "cap_usd": "4",
+      "known_usage_priced_usd": ".065960",
+      "unknown_reserved_usd": "0",
+      "ledger_path": "/Users/cam/.codex/worktrees/scout093-wonder-boardgame-20261014/benchmarks/results/public-orientation-v1/20261014-scout093-wonder/spend-ledger.json",
+      "ledger_sha256": "30eb0a600bb40b52d1183a3c0e1e055ec968dccf30934ae6c9f06458ae8df4ce",
+      "root_verified_artifact_count": 93,
+      "quality": "safe coverage tie1/2 determinate plus correct two controls; no wrong automatic rotations",
+      "action": "retain incumbent",
+      "cleanup": "temporary OPENROUTER_API_KEY removed and absence verified"
+    },
+    {
+      "owner": "echo",
+      "worktree": "/Users/cam/.codex/worktrees/scout093-wonder-echo-20261014",
+      "branch": "codex/scout093-wonder-echo-20261014",
+      "base": "a7da8187cda0574d83ece289339b903b9abb1907",
+      "cap_usd": "5",
+      "known_usage_priced_usd": ".046437",
+      "unknown_reserved_usd": "0",
+      "ledger_path": "/Users/cam/.local/share/echo-forge-evals/scout093-wonder-20261014/ledger.json",
+      "ledger_sha256": "25e33b4cced46928a6e8e876686d4beebce2ea158ad465546219572c2919ee09",
+      "root_verified_artifact_count": 40,
+      "quality": "candidate2/3 vs matched3/3; controls5/5; candidate last two unmeasured",
+      "action": "retain incumbent",
+      "cleanup": "existing owner credentials untouched; no injection"
+    }
+  ],
+  "subjects": {
+    "candidate_usd": ".5076096",
+    "controls_usd": ".4188425"
+  },
+  "independent_judges_usd": "1.087985",
+  "qualification_overhead_usd": ".120336",
+  "provider_semantic_retries": 0,
+  "root_checks": [
+    "all4 worktree bases/branches and diff hygiene",
+    "Dossier98 hashes and sizes; full obligation/source/output review",
+    "DocWeb archive32 member hashes/sizes and header-free requests; source glyph review",
+    "BGI verifier93files exact raw/cap; native source/output contact sheet",
+    "Echo protected40hashes and complete request/schema/usage/ledger replay;006 source review",
+    "temporary BGI credential absent by name"
+  ],
+  "owner_validation": {
+    "dossier": "78 focused plus source/schema/artifact/review/adapter lint/methodology",
+    "docweb": "104 focused plus32archive/Ruff/methodology",
+    "boardgame": "43system passes; Pillow module system import failed; affected module5/5bundledPython passes; newtransport3pass and scopedchecks",
+    "echo": "3focused plus corpus/receipt replay/syntax/lint/methodology"
+  },
+  "limits": [
+    "exposed small fixtures n1",
+    "Dossier reference history not candidate chronological replay",
+    "Dossier latency boundaries incomparable",
+    "candidate early stops preserve unmeasured cases",
+    "no private payloads/defaults/deployment/commits/pushes"
+  ],
+  "review": {
+    "verdict": "continue closeout; stop further unchanged scopes",
+    "decision_changing_mismatch": false,
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "served_reviewer_identity": "independently unavailable",
+    "read_only": true,
+    "provider_calls": 0
+  }
+}

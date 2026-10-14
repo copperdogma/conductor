@@ -1,5 +1,45 @@
 # Inbox
 
+- 2026-10-14: Handled Cam’s Scout093 check-in/push request. All four owner
+  evidence branches/main verified; Conductor closeout contains reviewed campaign
+  records and thinking policy. [Landing evidence](docs/scout/evidence/scout093-wonder-landing.json).
+  Earlier captures below are historical; no further unchanged sweep recommended.
+
+- 2026-10-14: Targeted Muse Wonder thinking calibration completed.
+  [Follow-through](docs/scout/scout-093-muse-wonder-evaluation-routing.md#higher-thinking-outcomes--2026-10-14)
+  finds no observed benefit from raising effort. Dossier medium/high both5/5,
+  fresh medium cheaper/faster; prior medium omission remains variability.
+  Doc Web medium/high/max same held glyph miss; higher settings slower/costlier.
+  AddedUSD2.9762153, cumulativeUSD5.1109884/31, unknown0; unchanged owner caps.
+  Retain current choices; no more unchanged sweep or rollout/landing.
+
+- 2026-10-14: Cam selected targeted higher-thinking Muse Wonder follow-up in
+  Dossier/Doc Web. [Frozen calibration plan](docs/scout/scout-093-muse-wonder-evaluation-routing.md#selected-higher-thinking-calibration--2026-10-14)
+  compares high with fresh medium/control evidence and conditionally max on
+  specific remaining gaps. Original cumulative Dossier12/Doc Web10 ceilings
+  include earlier spend; no budget increase, private data or rollout selected.
+  New isolated worktrees/attempts preserve closed evidence.
+
+- 2026-10-14: Cam asked about Muse Wonder thinking-level coverage and requested
+  adaptive effort planning in evaluate-model. Added task-specific starting
+  settings, bounded conditional higher/lower calibration, effort-aware dedupe,
+  independent confirmation and arm-scoped reporting. Scout093 clarifies
+  medium-only Dossier/Doc Web and low-only BGI/Echo; no within-task comparison.
+  Offline policy review and skill validation only; no new inference or rollout.
+
+- 2026-10-14: Approved Muse Wonder campaign completed across all four selected
+  owners. [Scout093 outcomes](docs/scout/scout-093-muse-wonder-evaluation-routing.md#owner-outcomes--2026-10-14)
+  retain Sol, Astra and Gemini for their tested tasks: no qualified adoption win.
+  Known usage-priced USD2.1347731/31, unknown0, temporary BGI key removed.
+  Dossier basis gap, Doc Web clear-cell holds/substitution, Echo missed ambiguity
+  and orientation coverage tie remain owner-local evidence. No defaults/landing.
+
+- 2026-10-14: Cam asked whether Muse Wonder had been evaluated and to evaluate
+  it if new. No exact prior attempt found. [Scout093](docs/scout/scout-093-muse-wonder-evaluation-routing.md)
+  prepares four public/synthetic owner comparisons (Dossier, Doc Web literal,
+  Board Game Ingester orientation, Echo intent), inclusive USD31 maximum.
+  Stage1 proposal only; selection pending, no provider calls or target edits.
+
 - [x] 2026-10-13: Cam selected the reviewed USD 3 additional Doc Web literal-reader
   qualification. [Execution record](docs/scout/scout-092-docweb-literal-qualification.md)
   tracks the fresh owner worktree, independent synthetic fixture preparation,
