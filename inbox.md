@@ -1,5 +1,12 @@
 # Inbox
 
+- 2026-10-14: Cam requested Jev1.14 evaluation from the TypeSafe release.
+  [Selected comparison complete](docs/scout/scout-095-jev114-evaluation-routing.md#completed-owner-outcomes--2026-10-14):
+  retain Gemini Echo34/42Jevvs39/42 and Luna Storybook21/24vs23/24.
+  Faster Jev decisions lose quality/clarification; second Storybook pass not admitted.
+  KnownUSD.03873815+unknownLunatimeout.0024=max.04113815/1.50. Temporarykeysremoved,
+  owner evidence landed Echo832cd20/Storybookab63f223; [landing receipt](docs/scout/evidence/scout095-landing.json). No defaults/deployment. Native vision fixture-size constraints remain.
+
 - 2026-10-14: Handled Cam’s Scout093 check-in/push request. All four owner
   evidence branches/main verified; Conductor closeout contains reviewed campaign
   records and thinking policy. [Landing evidence](docs/scout/evidence/scout093-wonder-landing.json).

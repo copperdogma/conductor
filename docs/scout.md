@@ -29,6 +29,11 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-10-14` — [Scout 095 — Jev 1.14 Evaluation Routing](./scout/scout-095-jev114-evaluation-routing.md) — Complete
+  Retain Gemini Echo control and Luna Storybook mode routing: Jev34/42vs39/42,
+  21/24vs23/24 despite faster decisions. KnownUSD.03873815+unknown.0024=max.04113815/1.50;
+  temporarykeysremoved; both owner evidence commits landed and verified, defaults unchanged. Native vision fixture sizes block DocWeb/Board.
+
 - `2026-10-13` — [Scout 092 — Gemini 4 Argon](./scout/scout-092-gemini4-argon-evaluation-routing.md) — Six owner evaluations and selected [thinking-level comparisons](./scout/scout-092-argon-thinking-levels.md) complete. Narrow cost, speed and coverage gains did not justify replacement. [Doc Web independent-source qualification](./scout/scout-092-docweb-literal-qualification.md) stopped on a mandatory ambiguity-hold failure after one exact matched page. Retain incumbents; remaining qualification sources/repeats/live exports unmeasured. Corrected cumulative known USD2.909662245 + unknown1.474024 = USD4.383686245/35 (includes USD.0375975 historical cache-write correction). Temporary BGI key removed; no defaults changed. All six owner remote-main landings verified; [commits and validation](./scout/evidence/scout092-landing.json).
 
 - `2026-10-13` — [Scout 091 — Five decision models](./scout/scout-091-five-decision-models-evaluation-routing.md) — `Completed`: all four selected lanes across Echo, Doc Web and Board Game Ingester. Solar conditional Doc Web batch quality/economy lead with uncertainty/latency holds; consumer trace retains full planner, so defer more paid work. Retain interactive Gemini and Sol orientation; no crop-safety winner. Exact current-input28 Echo view retained separately. KnownUSD.28350031 plusunknown.00512/bound.28862031 of16; all three owner evidence landings verified, defaults unchanged.

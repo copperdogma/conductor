@@ -1,0 +1,64 @@
+{
+  "campaign": "Scout095 Jev1.14",
+  "date": "2026-10-14",
+  "timezone": "America/Edmonton",
+  "authorization": "Cam: thanks,. check in and push",
+  "scope": "Two linked owning-repo evaluations and Conductor Jev-only supervisor records",
+  "owners": [
+    {
+      "repo": "echo-forge",
+      "remote": "https://github.com/copperdogma/echo-forge.git",
+      "base": "1dc25e4674805436dac5bf217194eb619d94c3ee",
+      "commit": "832cd20ffbfe27565819d7f87f3c1964f39053aa",
+      "branch": "codex/jev114-control-20261014",
+      "destination": "main",
+      "branch_and_main_exact_remote_verified": true,
+      "method": "normal fast-forward push; fresh ls-remote and ancestry verification",
+      "files": 11,
+      "validation": "Reused unchanged7focused+5runtime checks and corpus proof; refreshed raw193-file replay, verifier lint/syntax, registry, methodology, credential-pattern and diff checks",
+      "worktree": "/Users/cam/.codex/worktrees/jev114-control-echo-20261014"
+    },
+    {
+      "repo": "storybook",
+      "remote": "https://github.com/copperdogma/storybook.git",
+      "base": "2b6ee0464a1728554b272a70efd9a3217e602b75",
+      "commit": "ab63f223e4da5273e7dba270f144584c33377853",
+      "branch": "codex/scout095-jev114",
+      "destination": "main",
+      "branch_and_main_exact_remote_verified": true,
+      "method": "normal fast-forward push; fresh ls-remote and ancestry verification",
+      "files": 81,
+      "validation": "Reused unchanged73router/operationguard tests; refreshed native/source/request/usage/cap/scoring/strict-field replay, inventory, JSON, privacy, lint, methodology and diff checks",
+      "worktree": "/Users/cam/.codex/worktrees/storybook-scout095-jev114"
+    }
+  ],
+  "supervisor": {
+    "repo": "conductor",
+    "base": "5ebe3cb20053b741f87cec891c3cdec22307894a",
+    "branch": "codex/jev114-conductor-closeout",
+    "worktree": "/Users/cam/.codex/worktrees/jev114-closeout-conductor/conductor",
+    "validation": [
+      "make methodology-check",
+      "make lint",
+      "git diff --check",
+      "scoped links and secret-pattern checks",
+      "owner remote branch/main equality independently verified"
+    ],
+    "scope": [
+      "CHANGELOG.md",
+      "docs/model-watch/evaluated-models.md",
+      "docs/scout.md",
+      "docs/scout/scout-095-jev114-evaluation-routing.md",
+      "docs/scout/evidence/scout095-landing.json",
+      "inbox.md"
+    ],
+    "commit_identity": "The containing Git commit/branch is authoritative; no self-referential SHA embedded."
+  },
+  "provider_calls_during_closeout": 0,
+  "runtime_defaults_changed": false,
+  "deployed": false,
+  "force_push": false,
+  "primary_checkout_changes": "No resets/stashes/syncs; unrelated dirty contents preserved. Fetch updates remote-tracking metadata only.",
+  "cleanup": "Temporary provider copies and dependency links already removed; worktrees and branches retained.",
+  "learning_review": "no-candidate; component-quality/adoption separation already covered by evaluate-model skill; no workflow changes promoted."
+}

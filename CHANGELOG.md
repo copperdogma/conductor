@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-14-jev114] — Evaluate Jev 1.14 decision callers
+
+### Added
+- Record fresh Echo Forge control-intent and Storybook mode-routing comparisons;
+  retain Gemini and Luna after Jev's faster decisions missed quality requirements.
+- Preserve owner provenance, scoped validation, unknown timeout charge bounds,
+  credential cleanup and the exact checkpoint's future evaluation conditions.
+
 ## [2026-10-14-deepseek-retry] - Close DeepSeek V4.1 Flash fresh retry
 
 ### Changed
