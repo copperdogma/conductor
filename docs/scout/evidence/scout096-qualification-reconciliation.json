@@ -1,0 +1,78 @@
+{
+  "recorded_at_utc": "2026-10-16T17:09:17.764285+00:00",
+  "approved_scope": {
+    "orientation_cap_usd": "1.25",
+    "storybook_offline_cap_usd": "0",
+    "storybook_future_paid_selected": false
+  },
+  "bgi": {
+    "base": "dd775b6436df4d7600ff4a0931bd3fe7f07d6af6",
+    "worktree": "/Users/cam/.codex/worktrees/scout096-bgi-20261016",
+    "attempt": "/Users/cam/.codex/worktrees/scout096-bgi-20261016/docs/evals/attempts/20261016-scout096-fresh24-native-orientation.md",
+    "manifest": "/Users/cam/.codex/worktrees/scout096-bgi-20261016/benchmarks/results/public-orientation-fresh24-v1/20261016-scout096-qualification/artifact-manifest.json",
+    "manifest_sha256": "f888d98a329e20d3f4034c128030fa3e2a3e558da5ca2dfb56c4f7f5dfe59b86",
+    "manifest_members_verified": 207,
+    "frozen_sources_verified": 83,
+    "frozen_requests": 48,
+    "provider_calls": 8,
+    "completed_pairs": 4,
+    "d1_correct_automatic": 3,
+    "d1_wrong_automatic": 1,
+    "sol_correct_automatic": 2,
+    "sol_wrong_automatic": 2,
+    "remaining_cases_unmeasured": 20,
+    "all_paid_cases_determinate": true,
+    "d1_usd": "0.000038556",
+    "sol_usd": "0.008538",
+    "known_usd": "0.008576556",
+    "unknown_usd": "0",
+    "temporary_key_removed": true,
+    "adoption": "do not promote this automatic policy; valid candidate gate failure; no population ranking"
+  },
+  "storybook": {
+    "base": "d806dba9c643bb0120fa039932ca6f4b3e816eb7",
+    "worktree": "/Users/cam/.codex/worktrees/scout096-storybook-20261016",
+    "attempt": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/attempts/185-scout096-offline-full-consumer-prerequisite.md",
+    "manifest": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-offline-consumer-20261016/manifest.json",
+    "manifest_sha256": "2b2f88ba73d7faf1729e5d3cce671da8536317e3e52ef2d9e4abfb0ea69adfc7",
+    "manifest_members_verified": 20,
+    "provider_calls": 0,
+    "known_usd": "0",
+    "literal_arms": 48,
+    "literal_noop_expected_outcomes": 12,
+    "required_arms_stopped_at_signal": 20,
+    "required_arms_stopped_at_retrieval": 16,
+    "literal_interpreter_calls": 0,
+    "counterfactual_diagnostic_arms": 16,
+    "counterfactual_applied": 2,
+    "counterfactual_targetless_questions": 14,
+    "runtime_patch": "none; unsafe plural experiment reverted",
+    "adoption": "full consumer unqualified; paid comparison deferred"
+  },
+  "selected_execution": {
+    "known_usd": "0.008576556",
+    "unknown_usd": "0",
+    "cap_usd": "1.25",
+    "agent_orchestration_spend": "unmeasured"
+  },
+  "cumulative_scout096": {
+    "known_usd": "1.563480357",
+    "prior_unknown_max_usd": "0.327755812",
+    "maximum_exposure_usd": "1.891236169",
+    "original_campaign_cap_usd": "31",
+    "additional_selected_cap_usd": "1.25"
+  },
+  "verification": [
+    "root inspected new source creator/license pages and visually reviewed canonical/input golds before inference",
+    "root checked revised frozen 83 source and 48 request hashes before key injection",
+    "root inspected raw decisions and native output pixels for discriminating cases03/04",
+    "root verified207 BGI and20 Storybook manifest files and exact native served identities",
+    "root and continuing independent reviewer verified guard restoration, failed plural reproduction, durable state assertions and cleanup",
+    "owner validation BGI34 focused tests, Storybook46 tests plus typecheck/lint; no broad unchanged product suite rerun"
+  ],
+  "limits": [
+    "orientation ambiguity/equivalence/heldout paid behavior unmeasured",
+    "Storybook historical inputs were interpreter fixtures; literal current consumer replay is not production incidence",
+    "no private data, runtime defaults, commits, pushes or rollout"
+  ]
+}

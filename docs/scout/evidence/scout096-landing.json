@@ -1,0 +1,165 @@
+{
+  "recorded_at_utc": "2026-10-16T18:46:21.483Z",
+  "scope": "Completed Scout096 six-owner campaign, selected qualification and Storybook offline follow-through; scoped evidence closeout",
+  "owners": [
+    {
+      "key": "dossier",
+      "repo": "dossier",
+      "name": "Dossier",
+      "dir": "scout096-dossier-20261016",
+      "branch": "codex/scout096-dossier-20261016",
+      "sha": "3f5e2785b9c2130f3014c27568e62cbd670b5376",
+      "base": "f5433ff499a27aa9dab1988090fbccda4e13662c",
+      "checks": "80 focused tests; Ruff; methodology; committed 80 artifacts and 6 historical owner records hash-verified",
+      "remote_ref_proof": [
+        [
+          "3f5e2785b9c2130f3014c27568e62cbd670b5376",
+          "refs/heads/codex/scout096-dossier-20261016"
+        ],
+        [
+          "3f5e2785b9c2130f3014c27568e62cbd670b5376",
+          "refs/heads/main"
+        ]
+      ],
+      "status": "landed; branch and main independently remote-verified"
+    },
+    {
+      "key": "docweb",
+      "repo": "doc-web",
+      "name": "Doc Web",
+      "dir": "scout096-docweb-20261016",
+      "branch": "codex/scout096-docweb-20261016",
+      "sha": "bceb2956da594d6a895f0ddad2f38a5d9a3a78e3",
+      "base": "790da90be047eec66e877de9d558220f08096581",
+      "checks": "2 focused tests; Ruff/format; methodology; committed archives preserve 120 original and 35 additive manifest members",
+      "remote_ref_proof": [
+        [
+          "bceb2956da594d6a895f0ddad2f38a5d9a3a78e3",
+          "refs/heads/codex/scout096-docweb-20261016"
+        ],
+        [
+          "bceb2956da594d6a895f0ddad2f38a5d9a3a78e3",
+          "refs/heads/main"
+        ]
+      ],
+      "status": "landed; branch and main independently remote-verified"
+    },
+    {
+      "key": "bgi",
+      "repo": "boardgame-ingester",
+      "name": "Board Game Ingester",
+      "dir": "scout096-bgi-20261016",
+      "branch": "codex/scout096-bgi-20261016",
+      "sha": "a772c87c28f9b1c8b8508911096c802619021dc6",
+      "base": "dd775b6436df4d7600ff4a0931bd3fe7f07d6af6",
+      "checks": "62 orientation tests; 34 focused stage/decision/scorer/methodology checks; 207 fresh manifest and 83 frozen path Git hashes verified; 110 initial paths present",
+      "remote_ref_proof": [
+        [
+          "a772c87c28f9b1c8b8508911096c802619021dc6",
+          "refs/heads/codex/scout096-bgi-20261016"
+        ],
+        [
+          "a772c87c28f9b1c8b8508911096c802619021dc6",
+          "refs/heads/main"
+        ]
+      ],
+      "status": "landed; branch and main independently remote-verified"
+    },
+    {
+      "key": "echo",
+      "repo": "echo-forge",
+      "name": "Echo Forge",
+      "dir": "scout096-echo-20261016",
+      "branch": "codex/scout096-echo-20261016",
+      "sha": "1cb5f3dc24b5401a7ec74ce06614b7b5ea34cdc5",
+      "base": "832cd20ffbfe27565819d7f87f3c1964f39053aa",
+      "checks": "143/143 offline replay; 16 Node and 8 Vitest tests; normal scoped ESLint; all 307 protected members in committed archive",
+      "remote_ref_proof": [
+        [
+          "1cb5f3dc24b5401a7ec74ce06614b7b5ea34cdc5",
+          "refs/heads/codex/scout096-echo-20261016"
+        ],
+        [
+          "1cb5f3dc24b5401a7ec74ce06614b7b5ea34cdc5",
+          "refs/heads/main"
+        ]
+      ],
+      "status": "landed; branch and main independently remote-verified"
+    },
+    {
+      "key": "cine",
+      "repo": "cine-forge",
+      "name": "CineForge",
+      "dir": "scout096-cine-20261016",
+      "branch": "codex/scout096-cine-20261016",
+      "sha": "9467abc51a6ea2bebf0867fe633691c5a13c7406",
+      "base": "3a029014d252fabfa41d21008cefa471080706be",
+      "checks": "64 focused pytest; Ruff; registry/methodology; 7 scores/19 calls and 114 committed manifest members verified",
+      "remote_ref_proof": [
+        [
+          "9467abc51a6ea2bebf0867fe633691c5a13c7406",
+          "refs/heads/codex/scout096-cine-20261016"
+        ],
+        [
+          "9467abc51a6ea2bebf0867fe633691c5a13c7406",
+          "refs/heads/main"
+        ]
+      ],
+      "status": "landed; branch and main independently remote-verified"
+    },
+    {
+      "key": "storybook",
+      "repo": "storybook",
+      "name": "Storybook",
+      "dir": "scout096-storybook-landing-20261016",
+      "branch": "codex/scout096-evidence-landing-20261016",
+      "sha": "6a8ca030f840a0111c23ae11b8efb4c60102aa39",
+      "base": "c08e9ed7cd91b740ae3215a446bd7d7d4d12bbf0",
+      "checks": "9 prototype unit groups; 1 closed-campaign test; privacy/methodology/syntax; 426 historical artifacts, 24 Attempt188 members, 7 rejected source/test snapshots verified from staged Git bytes",
+      "remote_ref_proof": [
+        [
+          "6a8ca030f840a0111c23ae11b8efb4c60102aa39",
+          "refs/heads/codex/scout096-evidence-landing-20261016"
+        ],
+        [
+          "6a8ca030f840a0111c23ae11b8efb4c60102aa39",
+          "refs/heads/main"
+        ]
+      ],
+      "status": "landed; branch and main independently remote-verified"
+    }
+  ],
+  "conductor": {
+    "branch": "codex/scout096-conductor-closeout",
+    "base": "4eb533eac1cfe4f0bb157eddb18376d13da4aa43",
+    "validation": "make methodology-check; make lint; explicit Scout096-only allowlist; JSON and relative-link review",
+    "landing": "This record is committed after all six owner main landings; the containing Conductor commit is verified separately."
+  },
+  "boundaries": {
+    "current_models_retained": true,
+    "product_runtime_source_changed": false,
+    "default_changes": false,
+    "unqualified_storybook_guard": "Archived with exact historical source/test hashes and restore instructions against d806dba9; not activated or included as active backend code.",
+    "historical_story196": "Preserved as archive; unrelated current-main Story196 remains intact.",
+    "current_relationship_story": "Story197 Blocked, recommendedNow:false; no new product work selected.",
+    "provider_calls_during_closeout": 0,
+    "primary_checkout_changes": "No primary checkout synchronized/reset/stashed; scoped copies staged in isolated worktrees.",
+    "worktree_cleanup": false
+  },
+  "evidence_preservation": {
+    "historical_manifests": "Retained exact; additive landing maps bind original executed source/registry snapshots when maintained files changed.",
+    "git_tree_closure": "Verified actual committed Git objects or committed archives; ignored/local-only protected evidence added before push.",
+    "echo_runner": "Exact executed runner archived; maintained eval runner only removes unused local; normal lint passes.",
+    "bgi_incidental_bytecode": "One 16,654-byte generator cache file was incidentally frozen before paid calls; preserved exact as historical non-inference artifact.",
+    "first_prototype_source": "Reconstructed first source reproduces first receipt; no contemporaneous original source SHA exists. Limitation remains explicit.",
+    "diff_whitespace": "BGI preserves three whitespace lines in two immutable provider raw JSON files; source/tooling diff checks pass."
+  },
+  "campaign_spend": {
+    "known_usd": "1.563480357",
+    "prior_unknown_max_usd": "0.327755812",
+    "maximum_exposure_usd": "1.891236169",
+    "agent_orchestration": "unmeasured",
+    "invoice_settlement": "unverified"
+  },
+  "decision": "Campaign closed; retain current models. Separate Storybook product work requires a separate selection."
+}

@@ -1,5 +1,77 @@
 # Evaluated frontier model ledger
 
+## Liquid d1-ultra, Respan Span-02, NVIDIA Nemotron 3.5 Super VL — Scout096, 2026-10-16
+
+**Current closeout disposition: campaign stopped; retain current models.**
+All six owner evidence branches and main refs are independently verified at
+[their landing commits](../scout/evidence/scout096-landing.json). The unqualified
+Storybook runtime repair stays archived; live Story197 is Blocked. The
+inference/spend and no-landing statements below describe dated pre-closeout
+checkpoints. No model default or product runtime source changed.
+
+All six selected owning-repo screens completed, including newly evidenced
+unchanged-request recovery after a shared Together outage. Full records and
+owner links: [Scout096](../scout/scout-096-d1ultra-span02-nemotron35-routing.md#completed-owner-decisions--2026-10-16).
+Known usage-priced USD1.554903801 plus unresolved maximum USD.327755812 gives
+conservative exposure USD1.882659613 /31. No defaults, deployments, commits or
+pushes. Temporary BGI/Storybook router copies removed and absence verified.
+
+Qualification follow-through (same date): [fresh native orientation and offline
+Storybook consumer work](../scout/scout-096-d1ultra-span02-nemotron35-routing.md#selected-qualification-execution--2026-10-16)
+is complete. Orientation stopped after4fresh pairs: d1 correct3/wrong1 versus
+Sol correct2/wrong2; shared sideways-icon miss fails d1 automatic promotion.
+All20remaining cases, including held-out/ambiguity/equivalence, are unmeasured.
+AddedUSD.008576556, unknown0. StorybookUS0 literal fixture-to-consumer replay
+exposed signal/retrieval prerequisites; unsafe plural patch reverted, paid
+full-consumer qualification remains deferred. CumulativeknownUSD1.563480357 +
+priorunknownmaximum.327755812 = maximumUSD1.891236169. No further unchanged
+orientation inference or confidence tuning is justified by these results.
+
+Subsequent Storybook offline fixture work is complete atUSD0:
+[Attempt186](/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/attempts/186-scout096-offline-consumer-fixture-preflight.md)
+freezes24 new synthetic cases, all24 source/candidate preflights valid;
+gold-correct oracle outputs complete21/24 final states. Three replacement
+drafts are unnecessarily deferred, and two guard-only quoted/disavowed probes
+accept unsafe drafts while their real saved-chat noop paths make no change.
+All8 full-path bad-draft challenges safely clarify. These are current consumer
+regressions, not additional model calls or model-quality scores. Paid comparison
+stays deferred pending a source-backed guard repair and independent consumer
+confirmation; do not rerun either model behind these known shared failures.
+
+The US0 guard-repair iteration passed32/32 exposed regression variants but the
+first independent holdout passed5/8 primary cases:0/3 valid replacements
+completed. All3 auxiliary rejects and2 quote probes were safe. No runtime/gold
+retune followed; the candidate remains isolated and full-consumer readiness
+blocked. These are synthetic oracle consumer results, not model scores.
+[Repair record](../scout/scout-096-d1ultra-span02-nemotron35-routing.md#selected-storybook-guard-repair--2026-10-16).
+Further lexical patching or paid retries are not the next action; an owner
+design assessment of cross-clause evidence binding was completed atUS0:
+recommend auditable field bindings in the existing interpreter with unchanged
+server authority, then independent semantic qualification. No implementation or
+model call followed. Subsequent isolated US0 contract prototype completed:
+8/8 proposals structurally valid,9 adversarial groups pass, all5 unsupported
+meanings also structurally valid and every output non-executable. This is
+representation proof only; no semantic/model qualification or readiness change.
+[Attempt188](/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/attempts/188-story196-evidence-contract-prototype.md).
+Final cumulative strategic review stops this model campaign and retains current
+models/defaults. Evidence-contract integration is separate Story196 product
+work; no standalone adapter/structural panel or further unchanged paid call
+is recommended as model qualification.
+
+| Canonical provider-qualified checkpoint / aliases | Owner evidence and task-layer outcome | Narrow next trigger |
+| --- | --- | --- |
+| `liquid/d1-ultra-20261015`; requested `liquid/d1-ultra`; native hosted `d1-ultra` equivalence not called/proven | Native typed default computation, no effort setting. BGI four public cases4/4 vs fresh Sol3/4+safe review, zero wrong rotations; stage cost99.43% lower, summed latency81.52% lower. Hard tile has narrow probability margin/confidence.17925: initially prioritized fresh finite-adapter qualification; subsequent four-pair attempt failed zero-wrong-auto gate (3 correct/1 wrong vs Sol2/2), so do not promote this automatic policy. Storybook24 mode cases23/24 ties Luna, explicitconfirm8/8vs7/8, zero dangerous noop;52.35% cheaper decision stage, p951397vs709ms, one extra safe clarification. Passes predeclared component screen; subsequent offline consumer investigation leaves paid readiness blocked on capture/retrieval and semantic scope. Echo39/42vs38/42, recall19/19tie,0vs3falsecontrols, but ambiguity1/3vs2/3 fails no-worse gate: retain Gemini. Doc Web native image request500 then4134.5MB limit, safety capability unmeasured. | Orientation needs a materially different checkpoint or independently source-backed policy/capability hypothesis that addresses wrong automatic decisions, then prospective cases; no further unchanged paid qualification. Storybook needs consumer-valid capture/alias/source-authority fixtures and a passing full-consumer prerequisite before a separately selected paid comparison. No unchanged exposed-panel repeat or probability-threshold tuning. Echo requires source-backed ambiguity-policy/capability change or explicit fresh request. Safety requires eligible unchanged native-pixel route admission or separately authorized owner input-policy change; catalog listing alone is insufficient. |
+| `respan/span-02-20261015`; requested `respan/span-02`; native `span-02`/`respan/span-02` equivalence unproven | Router-default computation; native auto/off/on equivalence unverified, no level comparison. BGI safe-coverage tie with Sol3/4+East review, zero wrong rotations,99.69% lower stage cost/80.69% lower summed latency. Storybook23/24 and7/8confirm tie Luna, zero dangerous noop,87.59% cheaper decision stage; passes component gate, but3vs5noop bypasses and p95822vs709ms leave workflow payoff unknown. Echo35/42 and15/19recall,0/3ambiguity: reject this control configuration. Doc Web safety4/5 vs GPT2/5 but same one dangerous false-safe: reject automatic safety replacement. | Full-consumer economics/independent orientation qualification may answer a new bounded decision; do not infer savings from classifier price alone. Echo/safety need a materially new checkpoint or source-backed contract/capability addressing recall/ambiguity or clipped-source acceptance, or explicit fresh reproduction. No unchanged threshold sweeps. |
+| `nvidia/nemotron-3.5-super-vl-20261015`; requested/served alias `nvidia/nemotron-3.5-super-vl`, paid Together pinned; precision unknown | Small native contracts qualified. Router enabled/off requested and actual reasoning usage recorded; native regular-versus-medium equivalence and immutable served revision unattested (generationGET404). Enabled: Dossier recovered full321KB answer has five undeclared graph refs, explicit current prompt/compiler violation vs clean Sol5/5; reject tested long task. Cine dialogue .27595 vs Sol.7282/Luna.625, visible growth missed; stop1/3. BGI wrong East keep0, stop2/4. Doc literal21/23 diagnostic plus4unnecessary clear holds vs Astra23/23verified; OCR.812112<.99; crop date clipped despite tolerant scorepasses; safety one false-safe. Off: Echo2/5 vs Gemini4/5; Storybook persona explicit banned phrase. Photo18/20 frozen checks ties Gemini, both1/2all-assertion cases; candidate28% faster but2.34x cost, lexical/field-placement limits retained. Retain existing task choices. Shared EngineCore502s recovered under original caps; outages are not semantic misses, successful retries do not erase unknown charges. | No unchanged paid repeat or unselected effort rescue. Need a materially different checkpoint or source-backed task/configuration change addressing observed reference, source-completeness, safety, continuity or persona defects; fresh corpus for representative photo quality if that decision reopens. An alternative endpoint/precision is a distinct selected route question, not an implicit retry. |
+
+Owner records remain authoritative. Typed decision transport is not generated
+rationale/full-schema runtime parity. No confidence cascade or post-hoc routing
+subset was qualified. All measurements are exposed public/synthetic screens,
+fresh matched where comparators were valid; requested OCR3.7 serving3.8 was
+quarantined, not silently substituted. Actual task calls plus necessary judges
+and recovery are included; agent orchestration cost and invoice settlement are
+unmeasured. Other thinking settings remain unmeasured, not failed.
+
 ## TypeSafe Jev 1.14 — Scout095, 2026-10-14
 
 Exact native `jev-1.14.0`, distinct from prior `jev-1.13.0`; current preview

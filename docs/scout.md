@@ -29,6 +29,17 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-10-16` — [Scout 096 — d1-ultra, Span-02 and Nemotron 3.5 Super VL](./scout/scout-096-d1ultra-span02-nemotron35-routing.md) — `Closed / retain current models`
+  Six owner screens and selected follow-through complete. Fresh d1 orientation
+  fails automatic correctness; Storybook guard repair completes0/3 fresh valid
+  replacements. Contract prototype8/8 structural,9 adversarial groups pass,
+  while all5 unsupported meanings remain structurally valid and non-executable.
+  Cumulative knownUSD1.563480357 +unknownmaximum.327755812 =
+  maximumUSD1.891236169. Failed runtime work is archived as evidence; further
+  Storybook product correction is deferred and needs separate selection.
+  All six owner evidence main/branch landings are verified; defaults retained.
+  [Scoped landing receipt](./scout/evidence/scout096-landing.json).
+
 - `2026-10-14` — [Scout 095 — Jev 1.14 Evaluation Routing](./scout/scout-095-jev114-evaluation-routing.md) — Complete
   Retain Gemini Echo control and Luna Storybook mode routing: Jev34/42vs39/42,
   21/24vs23/24 despite faster decisions. KnownUSD.03873815+unknown.0024=max.04113815/1.50;

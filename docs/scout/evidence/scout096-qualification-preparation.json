@@ -1,0 +1,81 @@
+{
+  "prepared_at_utc": "2026-10-16T16:27:02.280511+00:00",
+  "scope": "read-only qualification preparation; no authenticated requests, target edits or provider inference",
+  "source_files": [
+    {
+      "path": "/Users/cam/.codex/worktrees/scout096-bgi-20261016/benchmarks/fixtures/public-orientation-v1/source-provenance.json",
+      "sha256": "16d818f4597782d8520a5c7c418f0bdcddbbfd7662e40e39bbe4aec151035167"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout096-bgi-20261016/benchmarks/subjects/orientation_scout096_compare.py",
+      "sha256": "30375a1a9e6cd46858c28ab80dd27468fa6ea6a041845d70d0c45570cd30b895"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout096-bgi-20261016/benchmarks/subjects/sol_orientation_stage.py",
+      "sha256": "54f5b7331d507d954035073b93ee240eafa675883e5b4fff3a0247adb34d5f6a"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/packages/backend/src/knowledge-correction-relationship-context.ts",
+      "sha256": "553d62fb0a698300f345244ac2bc12a6abdfaf95a8f9033ea49aa18d66338719"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/microsoft-storybook-promotion-20261012/packages/backend/src/knowledge-correction-relationship-context.ts",
+      "sha256": "553d62fb0a698300f345244ac2bc12a6abdfaf95a8f9033ea49aa18d66338719"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/packages/backend/src/ai/knowledge-correction-interpreter.ts",
+      "sha256": "6ac40a6e140e75fb97d469148749fffc0d06ed475a74ef11b02a96304fa3786c"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/packages/backend/src/knowledge-correction-freeform-relationships.ts",
+      "sha256": "21a0ca9eacb9846cef20882e31867701a1d10aef9e11df19b18f886030efa202"
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/packages/backend/src/ai/decisions-relationship-router.ts",
+      "sha256": "ff0d19af89fd42406a2f7d114f0c939c26a61a3bd5e6268ff47ed031bb63bf82"
+    }
+  ],
+  "guard_byte_equal": true,
+  "public_catalog": {
+    "url": "https://openrouter.ai/api/v1/models?output_modalities=decisions",
+    "id": "liquid/d1-ultra",
+    "canonical_slug": "liquid/d1-ultra-20261015",
+    "context_length": 32768,
+    "pricing": {
+      "prompt": "0.000000042",
+      "completion": "0",
+      "input_cache_read": "0.000000042"
+    },
+    "architecture": {
+      "modality": "text+image->decisions",
+      "input_modalities": [
+        "text",
+        "image"
+      ],
+      "output_modalities": [
+        "decisions"
+      ],
+      "tokenizer": "Other",
+      "instruct_type": null
+    },
+    "claim_limit": "public listing, not fresh callability proof"
+  },
+  "budget_usd": {
+    "orientation_d1_per_attempt": "0.001376256",
+    "orientation_sol_per_attempt": "0.04096",
+    "orientation_24_pairs": "1.016070144",
+    "orientation_26_pairs_including_recovery": "1.100742656",
+    "orientation_proposed_cap": "1.25",
+    "storybook_selected_offline_cap": "0",
+    "storybook_future_paid_cap_not_selected": "1.50",
+    "haiku_per_attempt": "0.36096",
+    "haiku_three_attempts": "1.08288"
+  },
+  "validation_limits": [
+    "No new corpus authored or frozen yet",
+    "Current full Storybook runtime replay not performed",
+    "No owner runtime tests executed for this documentation-only preparation",
+    "No credentials inspected or copied"
+  ],
+  "catalog_discovery_note": "Decision models require output_modalities=decisions; absent from ordinary generation listing is not model removal."
+}

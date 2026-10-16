@@ -1,5 +1,71 @@
 # Inbox
 
+- 2026-10-16: Cam requested check-in and push for Scout096 and its linked
+  owner evidence. Completed scoped validation and fast-forward landings in
+  all six owner repos; branch/main refs independently verified. Failed
+  Storybook runtime work is archived, active runtime unchanged, live Story197
+  Blocked. [Landing receipt](docs/scout/evidence/scout096-landing.json).
+  Unrelated primary-checkout dirt and task worktrees remain preserved.
+
+- 2026-10-16: Cam approved the US0 isolated Storybook evidence contract
+  prototype and eight independently reviewed cases. Freeze sources and golds
+  before validator execution; separate mechanical validity from semantic support.
+  No production integration, paid inference, runtime changes, commits or pushes.
+  Completed Attempt188:8/8 structural representation,9 adversarial groups pass;
+  all5 semantically unsupported proposals remain structurally valid by design.
+  Every result is non-executable and semantically unevaluated. Independent
+  final audit passed; prior failures preserved. Final strategic review stops
+  the original model campaign and retains defaults. A connected Story196
+  product-feasibility spike is a separate optional selection; no follow-through
+  or paid calls are selected.
+
+- 2026-10-16: Cam approved the US0 design-only Storybook evidence-binding
+  assessment following Attempt187. Compare a structured clause/role evidence
+  contract with a declared conservative supported-language boundary; recommend
+  one design and its smallest discriminating test. No implementation, paid
+  inference, runtime-default changes, commits or pushes selected.
+  Completed: recommend evidence bindings in the existing interpreter, server
+  mechanical authority, and independent offline semantic qualification before
+  broader auto-apply. No additional runtime semantic call; no implementation.
+  Next recommendation: US0 isolated contract prototype and eight frozen slots.
+
+
+- 2026-10-16: Cam approved the bounded Storybook guard repair and eight fresh
+  independently authored holdouts, US$0 provider spend. Isolated owner branch
+  continues; previous fixtures/golds/results preserved. Holdouts remain hidden
+  from implementation until patch freeze. No provider/model-default change,
+  commit, push or deployment selected.
+  Completed iteration: exposed32/32 pass; first independent primary holdout5/8,
+  with0/3 valid replacements completed.3/3 auxiliary rejects and2/2 direct quote
+  probes safe. No post-holdout code/gold tuning; candidate remains isolated,
+  paid readiness blocked. US0 provider spend. Recommended next scope is a
+  design assessment of evidence binding before more guard implementation.
+
+- 2026-10-16: Cam selected the US$0 Storybook follow-through: author and
+  preflight24 new consumer-valid synthetic correction cases with capture and
+  source-backed alias provenance. Existing isolated owner worktree continues;
+  historical failures remain unchanged. No provider calls, runtime-policy
+  changes, commits or pushes included. See Scout096 qualification follow-through.
+  Completed:24/24 source/candidate preflights;21/24 synthetic-oracle persisted
+  finals,3 valid replacements deferred.8/8 full-path bad drafts safely rejected;
+  2/4 guard-only quote probes unsafe, with no corresponding saved-path mutation.
+  Frozen regressions and first failures preserved; paid readiness remains
+  blocked. Provider spendUS0; no runtime change. OwnerAttempt186 records proof.
+
+- 2026-10-16: Approved d1-ultra qualification-plan preparation completed.
+  [Concrete follow-through plan](docs/scout/scout-096-d1ultra-qualification-plan.md)
+  proposes fresh Board Game Ingester orientation24casesUS1.25 and Storybook
+  offline complete-consumer readiness/repair preparationUS0. Existing seven
+  shared grounding deferrals precede any new Storybook paid comparison.
+  Execution not selected; no new provider calls, owner edits or runtime changes.
+  Subsequent `yes` selected both numbered execution scopes, maximumUS1.25;
+  owner-local execution is underway. Storybook paid comparison remains deferred.
+  Completed: orientation stopped after4pairs at validwrongautomaticdecision
+  (d1correct3/4vsSol2/4);20casesuncalled. StorybookUS0 replay finds capture/
+  retrieval prerequisites; unsafepluralexperimentreverted, no runtimepatch.
+  AddedUSD.008576556, unknown0; temporarykeyremoved, no defaults/landing.
+
+
 - 2026-10-14: Cam requested Jev1.14 evaluation from the TypeSafe release.
   [Selected comparison complete](docs/scout/scout-095-jev114-evaluation-routing.md#completed-owner-outcomes--2026-10-14):
   retain Gemini Echo34/42Jevvs39/42 and Luna Storybook21/24vs23/24.

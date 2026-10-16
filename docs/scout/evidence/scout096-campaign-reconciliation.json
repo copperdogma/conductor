@@ -1,0 +1,183 @@
+{
+  "campaign": "Scout096",
+  "date": "2026-10-16",
+  "selection": "all six, user yes",
+  "status": "complete",
+  "models": [
+    "liquid/d1-ultra-20261015",
+    "respan/span-02-20261015",
+    "nvidia/nemotron-3.5-super-vl-20261015"
+  ],
+  "owners": [
+    {
+      "owner": "echo",
+      "worktree": "/Users/cam/.codex/worktrees/scout096-echo-20261016",
+      "branch": "codex/scout096-echo-20261016",
+      "base_sha": "832cd20ffbfe27565819d7f87f3c1964f39053aa",
+      "cap_usd": 2,
+      "known_usd": "0.055014250",
+      "unknown_max_usd": "0",
+      "exposure_usd": "0.055014250",
+      "attempt": {
+        "path": "/Users/cam/.codex/worktrees/scout096-echo-20261016/docs/evals/attempts/control-intent-v1/20261016-scout096.md",
+        "bytes": 10173,
+        "sha256": "76bde96b73d106d5914963b8a920945880708e04f735ad04fe0082bfe1c07617"
+      },
+      "manifest": {
+        "path": "/Users/cam/.codex/worktrees/scout096-echo-20261016/docs/evals/attempts/control-intent-v1/20261016-scout096.manifest.json",
+        "bytes": 176444,
+        "sha256": "b2d5e090f81b74771e23d770a7893ddd567fe75ce3bcaa486fa518a7d8fc9ce1"
+      },
+      "root_verified_members": 307
+    },
+    {
+      "owner": "docweb",
+      "worktree": "/Users/cam/.codex/worktrees/scout096-docweb-20261016",
+      "branch": "codex/scout096-docweb-20261016",
+      "base_sha": "790da90be047eec66e877de9d558220f08096581",
+      "cap_usd": 15,
+      "known_usd": "0.494054330",
+      "unknown_max_usd": "0.225574912",
+      "exposure_usd": "0.719629242",
+      "attempt": {
+        "path": "/Users/cam/.codex/worktrees/scout096-docweb-20261016/docs/evals/attempts/078-scout096.md",
+        "bytes": 12986,
+        "sha256": "0ec85798c71e588e0c0ae49673bfbb9e42161b4c7135dd48a7679061cf3fb8d8"
+      },
+      "manifest": {
+        "path": "/Users/cam/.codex/worktrees/scout096-docweb-20261016/docs/evals/evidence/078-scout096/manifest.json",
+        "bytes": 24513,
+        "sha256": "41e584c709b912e23c95dff9d8b4049f9f807e94d397704eda770f47ef878903"
+      },
+      "root_verified_members": 155,
+      "additive_manifest": {
+        "path": "/Users/cam/.codex/worktrees/scout096-docweb-20261016/docs/evals/evidence/078-scout096/recovery-epoch1/manifest.json",
+        "bytes": 7286,
+        "sha256": "5a83bd7bf341ee5a9d0d085aeecc53d9f859babdaf2585e131d1f6bb43db2a44"
+      }
+    },
+    {
+      "owner": "bgi",
+      "worktree": "/Users/cam/.codex/worktrees/scout096-bgi-20261016",
+      "branch": "codex/scout096-bgi-20261016",
+      "base_sha": "dd775b6436df4d7600ff4a0931bd3fe7f07d6af6",
+      "cap_usd": 2,
+      "known_usd": "0.008902192",
+      "unknown_max_usd": "0",
+      "exposure_usd": "0.008902192",
+      "attempt": {
+        "path": "/Users/cam/.codex/worktrees/scout096-bgi-20261016/docs/evals/attempts/20261016-scout096-public-orientation.md",
+        "bytes": 6773,
+        "sha256": "3a86ad42d2dc6ab95361593c454a80974858cde4a7a7aea3fd8ff57fbfafcfe3"
+      },
+      "manifest": {
+        "path": "/Users/cam/.codex/worktrees/scout096-bgi-20261016/benchmarks/results/public-orientation-v1/20261016-scout096/artifact-manifest.json",
+        "bytes": 24083,
+        "sha256": "c274bc87131e4e43adab4c948b147744c9fadf2cc8f543c258a62412ac10b994"
+      },
+      "root_verified_members": 110
+    },
+    {
+      "owner": "cine",
+      "worktree": "/Users/cam/.codex/worktrees/scout096-cine-20261016",
+      "branch": "codex/scout096-cine-20261016",
+      "base_sha": "3a029014d252fabfa41d21008cefa471080706be",
+      "cap_usd": 3,
+      "known_usd": "0.219046495",
+      "unknown_max_usd": "0",
+      "exposure_usd": "0.219046495",
+      "attempt": {
+        "path": "/Users/cam/.codex/worktrees/scout096-cine-20261016/docs/evals/attempts/051-nemotron35-ordered-frame-first-case-stop.md",
+        "bytes": 8682,
+        "sha256": "f1d9620093b8d71a6520c3201123b4d917b8a74b2530b7ad44aca8450fd1aef3"
+      },
+      "manifest": {
+        "path": "/Users/cam/.codex/worktrees/scout096-cine-20261016/docs/evals/story-226-nemotron20261016-evidence.json",
+        "bytes": 24799,
+        "sha256": "823d9ebb8b52ab52a57630be0678908453b54d72bac23d9041ed1d158cbd1e7f"
+      },
+      "root_verified_members": 114
+    },
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/scout096-dossier-20261016",
+      "branch": "codex/scout096-dossier-20261016",
+      "base_sha": "f5433ff499a27aa9dab1988090fbccda4e13662c",
+      "cap_usd": 6,
+      "known_usd": "0.753001600",
+      "unknown_max_usd": "0.062180900",
+      "exposure_usd": "0.815182500",
+      "attempt": {
+        "path": "/Users/cam/.codex/worktrees/scout096-dossier-20261016/docs/evals/attempts/033-nemotron35-long-history-20261016.md",
+        "bytes": 8528,
+        "sha256": "4e0c928efa34a13583b14c4fa1bc81cb4db242c700f6e7e401d84a6a7389702a"
+      },
+      "manifest": {
+        "path": "/Users/cam/.codex/worktrees/scout096-dossier-20261016/docs/evals/artifacts/scout096-nemotron-long-history-20261016/evidence-manifest.json",
+        "bytes": 13303,
+        "sha256": "79b9e08435f48fc8370b91fe5e943d120cfddbfa43f1e654cbfedbf2bb642a90"
+      },
+      "root_verified_members": 86
+    },
+    {
+      "owner": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/scout096-storybook-20261016",
+      "branch": "codex/scout096-storybook-20261016",
+      "base_sha": "d806dba9c643bb0120fa039932ca6f4b3e816eb7",
+      "cap_usd": 3,
+      "known_usd": "0.024884934",
+      "unknown_max_usd": "0.040000000",
+      "exposure_usd": "0.064884934",
+      "attempt": {
+        "path": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/attempts/184-scout096-three-models.md",
+        "bytes": 15762,
+        "sha256": "9a67ce79bfbcc97bab9baeffa6a838c0ca87b4dbebada8d70abf4d264f4c87f9"
+      },
+      "manifest": {
+        "path": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-20261016/manifest.json",
+        "bytes": 6047076,
+        "sha256": "f6daaedaffc416755742227698737e2de0a14ef8dde7f3dc07e8d757a2442e86"
+      },
+      "root_verified_members": 356
+    }
+  ],
+  "totals": {
+    "known_usd": "1.554903801",
+    "unknown_max_usd": "0.327755812",
+    "conservative_exposure_usd": "1.882659613",
+    "hard_cap_usd": 31,
+    "known_judges_usd": "0.752503750",
+    "known_other_subjects_and_qualification_usd": "0.802400051",
+    "agent_orchestration_cost": "unmeasured",
+    "invoice_settlement": "unverified"
+  },
+  "coordinator_verification": {
+    "manifest_members": 1128,
+    "mismatches": 0,
+    "sources_visually_checked": [
+      "BGI native/canonical/derived East",
+      "Cine dialogue first and last frames",
+      "Doc bakery and Image001 clipped date"
+    ],
+    "compiler_and_prompt_checked": "Dossier explicit local declarations and undefined entity references",
+    "native_instruction_checked": "Echo Tavern explicit canonical role mapping",
+    "temporary_key_absence_checked": [
+      "bgi OPENROUTER_API_KEY",
+      "storybook OPENROUTER_API_KEY"
+    ],
+    "reviewer_requested": "gpt-6-astra ultra continuing read-only",
+    "reviewer_served_identity": "not independently verified",
+    "verdict": "continue closeout; positive finite results retained; reviewed prose corrections applied"
+  },
+  "boundaries": {
+    "private_payloads": false,
+    "runtime_default_changes": false,
+    "commits": false,
+    "pushes": false,
+    "deployment": false,
+    "worktrees_retained_uncommitted": true,
+    "native_nemotron_regular_medium_equivalence": "unverified",
+    "nemotron_immutable_served_revision": "unattested",
+    "confidence_cascade": "not qualified"
+  }
+}

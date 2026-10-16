@@ -1,0 +1,102 @@
+{
+  "recorded_at_utc": "2026-10-16T17:31:26.992792+00:00",
+  "scope": "24 consumer-valid synthetic fixtures and offline preflight only",
+  "provider_spend_cap_usd": "0",
+  "provider_calls": 0,
+  "provider_spend_usd": "0",
+  "worktree": "/Users/cam/.codex/worktrees/scout096-storybook-20261016",
+  "base": "d806dba9c643bb0120fa039932ca6f4b3e816eb7",
+  "branch": "codex/scout096-storybook-20261016",
+  "owner_attempt": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/attempts/186-scout096-offline-consumer-fixture-preflight.md",
+  "owner_manifest": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-consumer-fixtures-20261016/manifest.json",
+  "manifest_sha256": "11fb5733551538aee81e10421115f833bff065edabbba812e16c20babb617033",
+  "verified_manifest_members": {
+    "new": 22,
+    "historical": 20
+  },
+  "frozen_fixture_sha256": "2a5c24e12bcac20658922f7f1a65993477d8c1ac51c524d1742a66accd8f9db7",
+  "summary": {
+    "status": "offline synthetic oracle preflight; provider-free; paid readiness blocked",
+    "fixtureSha256": "2a5c24e12bcac20658922f7f1a65993477d8c1ac51c524d1742a66accd8f9db7",
+    "providerCalls": 0,
+    "providerSpendUsd": 0,
+    "modelEvidence": false,
+    "primaryCases": 24,
+    "primaryPreflightPass": 24,
+    "primaryExactCandidateSet": 24,
+    "primaryPersistedFinalMatchesReviewedGold": 21,
+    "primaryByMode": {
+      "noop": {
+        "cases": 6,
+        "persistedFinalMatchesReviewedGold": 6
+      },
+      "confirm": {
+        "cases": 8,
+        "persistedFinalMatchesReviewedGold": 8
+      },
+      "remove": {
+        "cases": 5,
+        "persistedFinalMatchesReviewedGold": 5
+      },
+      "replace": {
+        "cases": 5,
+        "persistedFinalMatchesReviewedGold": 2
+      }
+    },
+    "primaryTerminalDecisions": {
+      "None": 5,
+      "needs_confirmation": 11,
+      "applied": 7,
+      "not_a_relationship_correction": 1
+    },
+    "auxiliaryFullPathCases": 8,
+    "auxiliaryFullPathSafeRejects": 8,
+    "directGuardOnlyProbes": 4,
+    "directGuardOnlyUnsafeAccepts": 2,
+    "allVariantRepeatSnapshotsStable": true
+  },
+  "persistence_proof": {
+    "migrations": "passed on disposable loopback DB",
+    "focusedFixtureVitest": "27 passed, 5 failed on reviewed semantic gate",
+    "unchangedOwnerGuardAndRetryVitest": "43/43 passed",
+    "backendTypecheck": "passed",
+    "scopedEslint": "passed",
+    "fullProtectedGraphSupportRowComparisons": "32/32 stable",
+    "fullRepeatSnapshots": "32/32 stable",
+    "jsonAndPythonSyntax": "passed",
+    "gitDiffCheck": "passed",
+    "exactSavedSignalAndOperationCardinality": "32/32 in-database valid",
+    "savedQuestionQueueOperationLinks": "16/16 reviewed confirmations in-database; 19/19 observed clarifications verified offline from saved receipt"
+  },
+  "runtime_source_unchanged": true,
+  "dependency_symlinks_absent": true,
+  "cleanup": {
+    "disposableDatabase": "dropped and absence verified",
+    "taskOwnedDependencySymlinks": "removed"
+  },
+  "paid_readiness": "blocked; 3 correct-oracle replacement deferrals and 2 guard-only negative counterexamples",
+  "review": [
+    "root and independent continuing reviewer approved semantic gold before oracle outputs",
+    "fresh evidence-only auditor independently verified final source, hashes, counts, data assertions and limits"
+  ],
+  "limits": [
+    "synthetic oracle results are not model quality evidence",
+    "source-backed alias generation is a seeded premise, not upstream extraction proof",
+    "guard-only quoted negatives caused no actual saved-path mutation",
+    "all24consumeroutcomes exposed for any subsequent runtime-policy repair",
+    "no private inputs, runtime policy/default changes, commits, pushes or deployment"
+  ],
+  "clarification_link_verification": {
+    "in_database_expected_confirm_assertions": 16,
+    "post_run_all_observed_receipt_checks": 19,
+    "artifact": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-consumer-fixtures-20261016/consumer-receipt-links.json",
+    "sha256": "7532d0af58c4c3556de3f289ef47dc7df4cfce3c8bd95378af240bd999044f28",
+    "receipt_sha256": "b25bade1f4b0d7d777091c97b04df81c7cd281cf252ac123533b3d11ff3ef1fc"
+  },
+  "agent_orchestration_spend": "unmeasured; separate from zero external evaluation-provider calls",
+  "review_configuration": {
+    "continuing_strategy_reviewer_requested": "gpt-6-astra / ultra",
+    "fresh_evidence_reviewer_requested": "gpt-6-sol / high",
+    "served_identity_independently_verified": false
+  }
+}

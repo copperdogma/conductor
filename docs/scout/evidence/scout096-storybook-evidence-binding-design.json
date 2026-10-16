@@ -1,0 +1,32 @@
+{
+  "recorded_at_utc": "2026-10-16T18:16:17.188590+00:00",
+  "scope": "US0 design-only evidence-binding assessment after Attempt187",
+  "owner_memo": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/reports/story196-relationship-evidence-binding-design.md",
+  "owner_memo_sha256": "205b71ba96a61d15132501fe8edf0651a71094f907e48527ef595ad45c872272",
+  "provider_calls": 0,
+  "provider_spend_usd": "0",
+  "runtime_prompt_schema_test_changes": false,
+  "recommendation": "Versioned field-level evidence extension to existing full correction interpreter; no additional runtime semantic call. Current conservative confirmation remains until separately approved empirical qualification.",
+  "semantic_actor": "Existing Story150 full interpreter; semantic claims and spans are inspectable hypotheses, not entailment proof.",
+  "server_authority": [
+    "owner and source eligibility",
+    "immutable saved message ID/digest/exact code-point spans",
+    "current exact candidate/backing set and allowed changed/retained fields",
+    "schema/cardinality/stale-state checks",
+    "transactional audit/question/graph persistence and idempotency"
+  ],
+  "dossier_boundary": "Reuse representation concepts; current slow-lane semantic-memory graph is not a drop-in canonical correction operation. No local text extraction engine proposed.",
+  "observed_validation": {
+    "read_only_span_tabletop": "Four exposed source sets independently round-trip to exact unique spans",
+    "attempt187_manifest": "25/25 retained members unchanged",
+    "runtime_patch": "frozen runtime unchanged",
+    "independent_design_review": "PASS final memo SHA205b71ba96a61d15132501fe8edf0651a71094f907e48527ef595ad45c872272; no remaining must-fix"
+  },
+  "limitations": [
+    "All32 previous primary cases exposed; no fresh validation this scope",
+    "Source pointer validity does not establish intent, attribution, role direction or date entailment",
+    "No model quality, completion improvement, cost or latency measured",
+    "Paid d1 comparison and activation remain deferred"
+  ],
+  "next_recommended_scope": "US0 isolated contract prototype with eight independent reviewed slots:3 positive/wrong-draft pairs plus quoted denial and additive truth. Freeze before validator; test mechanical boundaries and record semantic negatives even with matching spans. No production integration or provider calls."
+}

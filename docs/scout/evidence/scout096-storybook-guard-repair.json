@@ -1,0 +1,114 @@
+{
+  "recorded_at_utc": "2026-10-16T18:11:35.074060+00:00",
+  "status": "repair iteration stopped: exposed regressions pass; fresh replacement generalization failed",
+  "scope": "Story196 bounded source-authority guard repair and eight independent synthetic holdouts",
+  "provider_calls": 0,
+  "provider_spend_usd": "0",
+  "worktree": "/Users/cam/.codex/worktrees/scout096-storybook-20261016",
+  "owner_story": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/stories/story-196-relationship-guard-evidence-authority-repair.md",
+  "base": "d806dba9c643bb0120fa039932ca6f4b3e816eb7",
+  "branch": "codex/scout096-storybook-20261016",
+  "patch_freeze": {
+    "manifest": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-guard-repair-20261016/patch-freeze.json",
+    "manifest_sha256": "e0d7f1d24bdf2d23f8252cfdaf327e64efca2a4f532c4d3f33226cc90c52bed2",
+    "runtime_diff_sha256": "72af97f2c6ebefcff44dcdde1b65dc55739ca3f094a9baa3b1e679cac42666e9",
+    "root_verified_members_at_release": 7,
+    "files": {
+      "docs/evals/artifacts/scout096-guard-repair-20261016/repair-exposed-summary.json": "5fd8fb20b6a4a42079b227057b80631313db11c39dcc953dd093692a0df7a740",
+      "docs/stories/story-196-relationship-guard-evidence-authority-repair.md": "2c617d19db00fe04ab082b000425f12f816af8c936dab7b6f04253460ddcd944",
+      "packages/backend/src/__tests__/knowledge-correction-relationship-guard.test.ts": "62af510af25139646a35f89be30616aed390cbb5d34b6d44b8fa38e77e324632",
+      "packages/backend/src/__tests__/scout096-guard-repair-exposed.test.ts": "34069bcf6e87ce05a8b8a1b886860e624c078f56695313c788a056a1815df582",
+      "packages/backend/src/knowledge-correction-relationship-context.ts": "af26de0f1a5335794d6d55c45475978f11e14dcf7558702a05407c69c6196a6b",
+      "packages/backend/src/knowledge-correction-relationship-guard.ts": "b9770ddc75d7c2c16234ec622b90bd91cd78c4e5764afd1958cd1ac962058294",
+      "scripts/verify-scout096-guard-repair.py": "2317501596c56e7117385e8c3859e1b70308227f046ead9ff0f4b9807973781a"
+    }
+  },
+  "holdout_freeze": {
+    "manifest": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-guard-repair-holdout-20261016/freeze-manifest.json",
+    "manifest_sha256": "50c3d5e78b7ab7cd7158ca6789ead38646cd5efe59e27c4255e7c15e841c2250",
+    "fixture": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-guard-repair-holdout-20261016/frozen-holdout.json",
+    "fixture_sha256": "a878854374e7120cd7a3983f076dbf2f2cb94adb233f3f894f81957f2b1b58c9",
+    "root_payload_equivalence_verified": true,
+    "cases": 8,
+    "semantic_review": "PASS before runtime",
+    "runtime_probes_before_freeze": 0,
+    "authoring_chronology_boundary": "Retained initial and reviewed final drafts; unretained intermediate hashes are self-reported."
+  },
+  "boundaries": [
+    "No model quality or adoption evidence from gold-injected synthetic oracle runs",
+    "All24 prior cases are exposed regression cases",
+    "No paid inference, model-default change, commit, push or deployment",
+    "Any valid first holdout failures remain preserved without runtime retuning"
+  ],
+  "exposed": {
+    "variants": 32,
+    "passed": 32,
+    "primary_final_pass": 24,
+    "primary_cases": 24,
+    "auxiliary_safe_rejects": 8,
+    "direct_guard_controls_safe": 4
+  },
+  "holdout": {
+    "first_receipt": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-guard-repair-20261016/holdout-first-preflight.json",
+    "first_receipt_sha256": "fb40faab4411bf16fdad131c0a35e9b00bb0cdecac4f6e728b2b0c38bb83fae0",
+    "primary_cases": 8,
+    "primary_final_pass": 5,
+    "clear_replacements_completed": 0,
+    "clear_replacement_cases": 3,
+    "auxiliary_safe": 3,
+    "auxiliary_cases": 3,
+    "direct_quote_probes_safe": 2,
+    "all_variant_source_candidate_admission": true,
+    "all_variant_exact_cardinality": true,
+    "all_variant_repeat_stability": true,
+    "all_variant_question_links": true,
+    "observed_clarification_links": 8,
+    "all_variant_protected_rows": true,
+    "misses": [
+      {
+        "slot": "date-bound-exact",
+        "observed": "needs_confirmation",
+        "rationale": "The selected relationship was mentioned without an explicit request to change it."
+      },
+      {
+        "slot": "mentor-direction-reversal",
+        "observed": "needs_confirmation",
+        "rationale": "The replacement direction was not grounded by an affirmative relationship assertion."
+      },
+      {
+        "slot": "type-change-two-backings",
+        "observed": "needs_confirmation",
+        "rationale": "The selected relationship was mentioned without an explicit request to change it."
+      }
+    ],
+    "runtime_retuned_after_first_holdout": false
+  },
+  "verdict": {
+    "model_evidence": false,
+    "full_consumer_readiness": false,
+    "paid_comparison": "deferred",
+    "candidate": "isolated/unlanded",
+    "reviewer": "Stop iteration; transferable quote-safety evidence does not establish replacement generalization.",
+    "next_recommended_scope": "US0 design-only comparison: clause/role evidence contract versus declared conservative supported-language boundary; choose design and smallest discriminating test."
+  },
+  "owner_attempt": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/attempts/187-scout096-guard-evidence-authority-repair.md",
+  "owner_manifest": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-guard-repair-20261016/manifest.json",
+  "owner_manifest_sha256": "7e0b3abab4e0c3eb686c4e501fa77bbb3b7208e09f25cda9402f49aa997e6c02",
+  "root_verified_final_manifest_members": 25,
+  "validation": {
+    "owner_guard_tests": "49/49",
+    "owner_retry_tests": "12/12",
+    "backend_typecheck": "passed",
+    "scoped_lint": "passed",
+    "methodology_compile_check": "passed",
+    "root_json_diff_checks": "passed",
+    "holdout_assertion_suite": "8/11; three semantic misses intentionally remain failing",
+    "fresh_audit": "PASS final delta:25-file final manifest; Attempt184356/356; Attempt185/186 preserved except intentional runtime patch with exact prepatch copies; all receipts/cleanup verified"
+  },
+  "cleanup": {
+    "task_database_absent_root_catalog_count": 0,
+    "four_temporary_dependency_links_absent_root_verified": true,
+    "head_unchanged_root_verified": "d806dba9c643bb0120fa039932ca6f4b3e816eb7",
+    "story196": "open; fresh generalization acceptance unmet"
+  }
+}

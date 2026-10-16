@@ -1,0 +1,593 @@
+{
+  "retrieved_utc": "2026-10-16T15:25:23.242483+00:00",
+  "authenticated": false,
+  "models": [
+    {
+      "id": "nvidia/nemotron-3.5-super-vl",
+      "canonical_slug": "nvidia/nemotron-3.5-super-vl-20261015",
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+      "name": "NVIDIA: Nemotron 3.5 Super VL",
+      "created": 1792076662,
+      "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
+        "input_cache_read": "0.00000002"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1176,
+            "win_rate": 35.1,
+            "rank": 69
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1144,
+            "win_rate": 32.5,
+            "rank": 73
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1180,
+            "win_rate": 35.9,
+            "rank": 73
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 26.5,
+          "coding_index": null,
+          "agentic_index": null
+        }
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
+      "id": "respan/span-02",
+      "canonical_slug": "respan/span-02-20261015",
+      "hugging_face_id": null,
+      "name": "Respan: Span-02",
+      "created": 1792108973,
+      "description": "Span-02 is an open-weight decision model from Respan. It reads a state of text and images and answers the questions you define about it: picking one of several options, a...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text+image->decisions",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "decisions"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000001",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 117964,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/respan/span-02-20261015/endpoints"
+      }
+    },
+    {
+      "id": "liquid/d1-ultra",
+      "canonical_slug": "liquid/d1-ultra-20261015",
+      "hugging_face_id": null,
+      "name": "LiquidAI: d1-ultra",
+      "created": 1792108354,
+      "description": "d1-ultra is Liquid AI's largest decision model, served as a System One endpoint. Send a state of text and images along with typed questions, and it returns a choice, a...",
+      "context_length": 32768,
+      "architecture": {
+        "modality": "text+image->decisions",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "decisions"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000042",
+        "completion": "0",
+        "input_cache_read": "0.000000042"
+      },
+      "top_provider": {
+        "context_length": 32768,
+        "max_completion_tokens": 29491,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/liquid/d1-ultra-20261015/endpoints"
+      }
+    }
+  ],
+  "endpoints": {
+    "nvidia/nemotron-3.5-super-vl-20261015": {
+      "data": {
+        "id": "nvidia/nemotron-3.5-super-vl",
+        "name": "NVIDIA: Nemotron 3.5 Super VL",
+        "created": 1792076662,
+        "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
+        "architecture": {
+          "tokenizer": "Other",
+          "instruct_type": null,
+          "modality": "text+image+video->text",
+          "input_modalities": [
+            "text",
+            "image",
+            "video"
+          ],
+          "output_modalities": [
+            "text"
+          ]
+        },
+        "endpoints": [
+          {
+            "name": "Crusoe | nvidia/nemotron-3.5-super-vl-20261015",
+            "model_id": "nvidia/nemotron-3.5-super-vl",
+            "model_name": "NVIDIA: Nemotron 3.5 Super VL",
+            "context_length": 262144,
+            "pricing": {
+              "prompt": "0.0000001",
+              "completion": "0.0000004",
+              "input_cache_read": "0.00000008",
+              "discount": 0
+            },
+            "provider_name": "Crusoe",
+            "tag": "crusoe/bf16",
+            "service_tier": null,
+            "quantization": "bf16",
+            "max_completion_tokens": 235929,
+            "max_prompt_tokens": null,
+            "supported_parameters": [
+              "reasoning",
+              "include_reasoning",
+              "max_tokens",
+              "temperature",
+              "top_p",
+              "stop",
+              "frequency_penalty",
+              "presence_penalty",
+              "seed",
+              "min_p",
+              "repetition_penalty",
+              "top_k",
+              "logit_bias",
+              "response_format",
+              "structured_outputs",
+              "tools",
+              "tool_choice"
+            ],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": false,
+              "function": false
+            },
+            "status": -2,
+            "uptime_last_30m": 90,
+            "uptime_last_5m": 80,
+            "uptime_last_1d": 95.38977367979882,
+            "supports_implicit_caching": true,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          },
+          {
+            "name": "Together | nvidia/nemotron-3.5-super-vl-20261015",
+            "model_id": "nvidia/nemotron-3.5-super-vl",
+            "model_name": "NVIDIA: Nemotron 3.5 Super VL",
+            "context_length": 262144,
+            "pricing": {
+              "prompt": "0.00000015",
+              "completion": "0.0000005",
+              "input_cache_read": "0.00000002",
+              "discount": 0
+            },
+            "provider_name": "Together",
+            "tag": "together",
+            "service_tier": null,
+            "quantization": "unknown",
+            "max_completion_tokens": 235929,
+            "max_prompt_tokens": null,
+            "supported_parameters": [
+              "reasoning",
+              "include_reasoning",
+              "max_tokens",
+              "temperature",
+              "top_p",
+              "stop",
+              "frequency_penalty",
+              "presence_penalty",
+              "top_k",
+              "repetition_penalty",
+              "logit_bias",
+              "min_p",
+              "response_format",
+              "structured_outputs",
+              "tools",
+              "tool_choice",
+              "logprobs",
+              "top_logprobs"
+            ],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 98.6336464560205,
+            "supports_implicit_caching": true,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          },
+          {
+            "name": "CoreWeave | nvidia/nemotron-3.5-super-vl-20261015",
+            "model_id": "nvidia/nemotron-3.5-super-vl",
+            "model_name": "NVIDIA: Nemotron 3.5 Super VL",
+            "context_length": 1048576,
+            "pricing": {
+              "prompt": "0.00000015",
+              "completion": "0.00000075",
+              "input_cache_read": "0.00000002",
+              "discount": 0
+            },
+            "provider_name": "CoreWeave",
+            "tag": "coreweave/nvfp4",
+            "service_tier": null,
+            "quantization": "nvfp4",
+            "max_completion_tokens": 943718,
+            "max_prompt_tokens": null,
+            "supported_parameters": [
+              "reasoning",
+              "include_reasoning",
+              "max_tokens",
+              "temperature",
+              "top_p",
+              "top_k",
+              "repetition_penalty",
+              "frequency_penalty",
+              "presence_penalty",
+              "stop",
+              "seed",
+              "response_format",
+              "structured_outputs",
+              "tools",
+              "tool_choice",
+              "logprobs",
+              "top_logprobs"
+            ],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 94.72361809045226,
+            "supports_implicit_caching": true,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          },
+          {
+            "name": "DeepInfra | nvidia/nemotron-3.5-super-vl-20261015",
+            "model_id": "nvidia/nemotron-3.5-super-vl",
+            "model_name": "NVIDIA: Nemotron 3.5 Super VL",
+            "context_length": 262144,
+            "pricing": {
+              "prompt": "0.0000002",
+              "completion": "0.000001",
+              "input_cache_read": "0.0000001",
+              "discount": 0
+            },
+            "provider_name": "DeepInfra",
+            "tag": "deepinfra/fp4",
+            "service_tier": null,
+            "quantization": "fp4",
+            "max_completion_tokens": 235929,
+            "max_prompt_tokens": null,
+            "supported_parameters": [
+              "reasoning",
+              "include_reasoning",
+              "max_tokens",
+              "temperature",
+              "top_p",
+              "stop",
+              "frequency_penalty",
+              "presence_penalty",
+              "repetition_penalty",
+              "top_k",
+              "seed",
+              "min_p",
+              "logit_bias",
+              "response_format",
+              "structured_outputs",
+              "tools",
+              "tool_choice"
+            ],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": false,
+              "function": false
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 99.84520123839009,
+            "supports_implicit_caching": true,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          },
+          {
+            "name": "Venice | nvidia/nemotron-3.5-super-vl-20261015",
+            "model_id": "nvidia/nemotron-3.5-super-vl",
+            "model_name": "NVIDIA: Nemotron 3.5 Super VL",
+            "context_length": 262144,
+            "pricing": {
+              "prompt": "0.00000025",
+              "completion": "0.00000125",
+              "input_cache_read": "0.000000125",
+              "discount": 0
+            },
+            "provider_name": "Venice",
+            "tag": "venice/fp4",
+            "service_tier": null,
+            "quantization": "fp4",
+            "max_completion_tokens": 32768,
+            "max_prompt_tokens": null,
+            "supported_parameters": [
+              "reasoning",
+              "include_reasoning",
+              "max_tokens",
+              "temperature",
+              "top_p",
+              "stop",
+              "frequency_penalty",
+              "presence_penalty",
+              "top_k",
+              "response_format",
+              "structured_outputs",
+              "tools",
+              "tool_choice"
+            ],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": false,
+              "function": false
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 100,
+            "supports_implicit_caching": true,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          }
+        ]
+      }
+    },
+    "liquid/d1-ultra-20261015": {
+      "data": {
+        "id": "liquid/d1-ultra",
+        "name": "LiquidAI: d1-ultra",
+        "created": 1792108354,
+        "description": "d1-ultra is Liquid AI's largest decision model, served as a System One endpoint. Send a state of text and images along with typed questions, and it returns a choice, a...",
+        "architecture": {
+          "tokenizer": "Other",
+          "instruct_type": null,
+          "modality": "text+image->decisions",
+          "input_modalities": [
+            "text",
+            "image"
+          ],
+          "output_modalities": [
+            "decisions"
+          ]
+        },
+        "endpoints": [
+          {
+            "name": "Liquid | liquid/d1-ultra-20261015",
+            "model_id": "liquid/d1-ultra",
+            "model_name": "LiquidAI: d1-ultra",
+            "context_length": 32768,
+            "pricing": {
+              "prompt": "0.000000042",
+              "completion": "0",
+              "input_cache_read": "0.000000042",
+              "discount": 0
+            },
+            "provider_name": "Liquid",
+            "tag": "liquid",
+            "service_tier": null,
+            "quantization": "unknown",
+            "max_completion_tokens": 29491,
+            "max_prompt_tokens": null,
+            "supported_parameters": [],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 100,
+            "supports_implicit_caching": true,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          }
+        ]
+      }
+    },
+    "respan/span-02-20261015": {
+      "data": {
+        "id": "respan/span-02",
+        "name": "Respan: Span-02",
+        "created": 1792108973,
+        "description": "Span-02 is an open-weight decision model from Respan. It reads a state of text and images and answers the questions you define about it: picking one of several options, a...",
+        "architecture": {
+          "tokenizer": "Other",
+          "instruct_type": null,
+          "modality": "text+image->decisions",
+          "input_modalities": [
+            "text",
+            "image"
+          ],
+          "output_modalities": [
+            "decisions"
+          ]
+        },
+        "endpoints": [
+          {
+            "name": "Respan | respan/span-02-20261015",
+            "model_id": "respan/span-02",
+            "model_name": "Respan: Span-02",
+            "context_length": 131072,
+            "pricing": {
+              "prompt": "0.00000001",
+              "completion": "0",
+              "discount": 0
+            },
+            "provider_name": "Respan",
+            "tag": "respan",
+            "service_tier": null,
+            "quantization": "unknown",
+            "max_completion_tokens": 117964,
+            "max_prompt_tokens": null,
+            "supported_parameters": [],
+            "supports_tool_choice": {
+              "none": true,
+              "auto": true,
+              "required": true,
+              "function": true
+            },
+            "status": 0,
+            "uptime_last_30m": 100,
+            "uptime_last_5m": 100,
+            "uptime_last_1d": 99.50980392156863,
+            "supports_implicit_caching": false,
+            "native_tools": {},
+            "supports_voice_cloning": false,
+            "supports_multiple_audio_references": false,
+            "supports_image_reference": false,
+            "supports_diarization": false,
+            "latency_last_30m": null,
+            "throughput_last_30m": null
+          }
+        ]
+      }
+    }
+  }
+}

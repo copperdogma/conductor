@@ -1,0 +1,74 @@
+{
+  "recorded_at_utc": "2026-10-16T18:31:53.883335+00:00",
+  "scope": "US0 isolated evidence contract prototype and eight independent reviewed proposals",
+  "status": "complete: structural representation only, semantic and execution gates remain closed",
+  "worktree": "/Users/cam/.codex/worktrees/scout096-storybook-20261016",
+  "provider_calls": 0,
+  "provider_spend_usd": "0",
+  "raw_packet": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/scout096-evidence-contract-packet-20261016/frozen-raw-packet.json",
+  "raw_packet_sha256": "292f792feacec583cc3f03617d34d5cb8efd7a3b26de82d30ae618a0264d6eae",
+  "raw_manifest_sha256": "3e74bba7660b8cd7f0252ea8d187157fcce023217ed770e82a2e24c36003202a",
+  "contract_spec": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/story196-evidence-contract-20261016/contract-v0.md",
+  "contract_spec_sha256": "a57897c5efadc7259a8451590978df709363de4a1fe50d454184802c889e9f71",
+  "independent_prefreeze_semantic_review": "PASS; eight proposals over five synthetic source contexts, three supported and five unsupported; all3 pairs share raw source,candidates and spans. No runtime/model/validator outputs consulted.",
+  "runtime_changes": false,
+  "interpretation": "Structural validity only; semanticStatus not_evaluated; executionEligible false always. Semantically wrong drafts may pass structure deliberately.",
+  "typed_freeze_manifest": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/story196-evidence-contract-20261016/freeze-manifest.json",
+  "typed_freeze_manifest_sha256": "9b151cda23da99f6674d8dd8ab0ac6a53dfb5b08102a90d484d138e8352fb83f",
+  "typed_freeze_files": {
+    "docs/evals/artifacts/story196-evidence-contract-20261016/contract-v0.md": "a57897c5efadc7259a8451590978df709363de4a1fe50d454184802c889e9f71",
+    "docs/evals/artifacts/story196-evidence-contract-20261016/frozen-source-packets.json": "f846bac6a363b74d28e4b5f49038315881914549edf552bf952bed0f785c61ab",
+    "docs/evals/artifacts/story196-evidence-contract-20261016/frozen-semantic-golds.json": "1288795ee89d455ecb14b1dc2ebad7bcdef72e63b98d22a45362dbac091fc301",
+    "docs/evals/artifacts/story196-evidence-contract-20261016/typed-mapping-receipt.json": "777ae7d78a7482fc09386621bf16b640ad2f5502b358050af0cc5a6dcb1757ad",
+    "scripts/encode-story196-frozen-raw-packet.py": "fc3233915bfeed81e04bd8fabe8ff3dbdac5666d7e1d3858955f4ff897da4ba9",
+    "docs/evals/artifacts/scout096-evidence-contract-packet-20261016/frozen-raw-packet.json": "292f792feacec583cc3f03617d34d5cb8efd7a3b26de82d30ae618a0264d6eae",
+    "docs/evals/artifacts/scout096-evidence-contract-packet-20261016/freeze-manifest.json": "3e74bba7660b8cd7f0252ea8d187157fcce023217ed770e82a2e24c36003202a"
+  },
+  "root_typed_projection_verification": "8/8 exact sources/candidates/backings/spans/operations/field effects; no semantic gold in validator packet",
+  "owner_attempt": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/attempts/188-story196-evidence-contract-prototype.md",
+  "owner_final_manifest": "/Users/cam/.codex/worktrees/scout096-storybook-20261016/docs/evals/artifacts/story196-evidence-contract-20261016/final-manifest.json",
+  "owner_final_manifest_sha256": "f879b265d44a0efe1fef68780ad232a2fe97f7a8cd88a520311faffe3cb468c8",
+  "root_final_manifest_members_verified": 24,
+  "root_historical_attempt187_members_verified": 25,
+  "prior_design_memo_sha256_unchanged_root_verified": "205b71ba96a61d15132501fe8edf0651a71094f907e48527ef595ad45c872272",
+  "results": {
+    "frozen_proposals": 8,
+    "distinct_source_contexts": 5,
+    "structurally_valid_first_and_final": 8,
+    "independent_semantic_gold_supported": 3,
+    "independent_semantic_gold_unsupported": 5,
+    "unsupported_yet_structurally_valid": 5,
+    "semantic_status": "not_evaluated",
+    "execution_eligible": false,
+    "adversarial_unit_groups_passed": 9,
+    "db_operations": 0,
+    "first_receipt_sha256": "f20ea5d8bab0ec2ac0c28ab3b3e20571ca3081046c6b7f72361f650122426e6a",
+    "final_receipt_sha256": "b674f6d7bee0d833ea661e0004d1a8a9a82a696773a0cdb151fe2d539d54b467",
+    "gold_comparison_separate_after_first_receipt": true
+  },
+  "preserved_failures_and_limits": [
+    "Initial malformed enum and escaped-surrogate inputs could crash; predeclared strict error handling fixed and covered by tests, with first receipt preserved.",
+    "No contemporaneous original validator source hash was captured; initial source reconstructed from first patch reproduces first receipt output, not independently proven original source byte identity.",
+    "All eight contract proposals now exposed; not semantic/model/full-consumer qualification.",
+    "Snapshot ownership, labels, rank and confidence remain synthetic premises; no live database authority proven."
+  ],
+  "reviews": {
+    "prefreeze": "Root plus independent strongest review passed raw semantics and typed/gold mapping before implementation",
+    "fresh_final_audit": "PASS: hashes, historical preservation, mechanical code/error controls, receipts, separate gold and nonexecution boundary"
+  },
+  "cleanup": {
+    "task_bytecode_absent_root_verified": true,
+    "head_unchanged": "d806dba9c643bb0120fa039932ca6f4b3e816eb7",
+    "provider_credentials_or_db_created": false,
+    "commits_pushes_deployment": false
+  },
+  "next_recommended_scope": "No further original model-campaign work recommended. A connected Story196 product-feasibility spike is a separate optional decision, not selected.",
+  "strategic_review": {
+    "skill": "loop-review",
+    "verdict": "STOP original model-qualification campaign; close approved structural prototype; retain current models/defaults",
+    "rationale": "Cumulative guard repair completed0/3 fresh replacements; the representation accepts5/5 wrong meanings structurally. Additional design/integration is a separate Story196 product-correctness investment, not a new d1/Luna selection result.",
+    "cost_boundary": "Provider spend0 in this phase; orchestration cost and cumulative elapsed effort unmeasured",
+    "optional_separate_product_scope": "Only if separately selected: one connected feasibility decision with mocked evidence-bearing full-interpreter output through actual saved worker/guard/persistence/audit; expose consumer policy/semantic owner and conclude costed semantic experiment feasible OR stop/retain baseline. No standalone adapter-only deliverable or new structural panel.",
+    "automatic_followthrough": false
+  }
+}
