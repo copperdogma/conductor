@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-17",
+  "authorization": "Cam Check in and push for Scout098 paid owner comparisons, promotion plan, offlinePhaseA and linked Conductor records",
+  "status": "all owner refs verified; supervisor closeout included",
+  "no_new_provider_calls": true,
+  "runtime_defaults_changed": false,
+  "unrelated_primary_changes_preserved": true,
+  "worktrees_retained": true,
+  "owners": [
+    {
+      "owner": "echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/scout098-echo-20261017",
+      "branch": "codex/scout098-echo-20261017",
+      "candidate_sha": "493df4d002d74cfd2909ff7985244d6cdaeffc6f",
+      "remote": "https://github.com/copperdogma/echo-forge.git",
+      "destination": "refs/heads/main",
+      "preflight": "all four repos ready before any push; scoped checks passed/reused, no known required CI/review blocker",
+      "status": "landed_main_and_execution_refs_independently_verified",
+      "landed_sha": "493df4d002d74cfd2909ff7985244d6cdaeffc6f",
+      "commit_url": "https://github.com/copperdogma/echo-forge/commit/493df4d002d74cfd2909ff7985244d6cdaeffc6f",
+      "post_closeout_inventories": [
+        {
+          "path": "/Users/cam/.codex/worktrees/scout098-echo-20261017/docs/evals/attempts/control-intent-v1/20261017-scout098.manifest.json",
+          "sha256": "02a74ec6425b0a448235112f9fe3aee4b4988b0b56da2dcf0a1f73e855f8650b",
+          "entries": 302
+        }
+      ],
+      "ci": "No reported external checks/runs; local scoped evidence applies, no external CI pass claimed"
+    },
+    {
+      "owner": "boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/scout098-bgi-20261017",
+      "branch": "codex/scout098-bgi-20261017",
+      "candidate_sha": "b6db83e93766b01d9366be8c37df24cb38903c19",
+      "remote": "https://github.com/copperdogma/boardgame-ingester.git",
+      "destination": "refs/heads/main",
+      "preflight": "all four repos ready before any push; scoped checks passed/reused, no known required CI/review blocker",
+      "status": "landed_main_and_execution_refs_independently_verified",
+      "landed_sha": "b6db83e93766b01d9366be8c37df24cb38903c19",
+      "commit_url": "https://github.com/copperdogma/boardgame-ingester/commit/b6db83e93766b01d9366be8c37df24cb38903c19",
+      "post_closeout_inventories": [
+        {
+          "path": "/Users/cam/.codex/worktrees/scout098-bgi-20261017/benchmarks/results/synthetic-orientation-v1/20261017-scout098/artifact-manifest.json",
+          "sha256": "a0292a562830d0ce4c89f10ea15a878700876c200d7df1deba89498246013149",
+          "entries": 185
+        }
+      ],
+      "ci": "No reported external checks/runs; local scoped evidence applies, no external CI pass claimed"
+    },
+    {
+      "owner": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/scout098-storybook-landing-20261017",
+      "branch": "codex/scout098-storybook-landing-20261017",
+      "candidate_sha": "a30c29ee06bea74299deee481e25b8e8647d616f",
+      "remote": "https://github.com/copperdogma/storybook.git",
+      "destination": "refs/heads/main",
+      "preflight": "all four repos ready before any push; scoped checks passed/reused, no known required CI/review blocker",
+      "status": "landed_main_and_execution_refs_independently_verified",
+      "landed_sha": "a30c29ee06bea74299deee481e25b8e8647d616f",
+      "commit_url": "https://github.com/copperdogma/storybook/commit/a30c29ee06bea74299deee481e25b8e8647d616f",
+      "post_closeout_inventories": [
+        {
+          "path": "/Users/cam/.codex/worktrees/scout098-storybook-landing-20261017/docs/evals/artifacts/scout098-20261017/inventory.json",
+          "sha256": "528f6f21c7710b4f9a51add52e174da2077cca7901364ea3ac0cf1ee677b96dd",
+          "entries": 98
+        },
+        {
+          "path": "/Users/cam/.codex/worktrees/scout098-storybook-landing-20261017/docs/evals/artifacts/scout098-offline-20261017/inventory.json",
+          "sha256": "378bbeadfb6877db088c1577a0a9084a76ebf82ea152a1b76ef6f09b4e76c9e1",
+          "entries": 72
+        }
+      ],
+      "ci": "No reported external checks/runs; local scoped evidence applies, no external CI pass claimed",
+      "source_refs": {
+        "codex/scout098-storybook-20261017": "34a5a49c84f927c42956b9fc555b42ea346ebea2",
+        "codex/scout098-storybook-offline-20261017": "4d4e1a45c5330aecc47890c79499003729464f1d"
+      },
+      "immutable_log_whitespace": "11 whitespace-only findings in 9 exact raw log paths excluded from formatting check; bytes/hashes preserved; no global config or other paths excluded"
+    }
+  ],
+  "archive_closeout": {
+    "appledouble_metadata_removed": true,
+    "bytes": 173325,
+    "safe_members": 304,
+    "sha256": "7ebad2bca85298ce52a81432a084b5cc89a1785738724fc8a5370cb879813e47"
+  },
+  "conductor": {
+    "worktree": "/Users/cam/.codex/worktrees/scout098-conductor-closeout-20261017",
+    "branch": "codex/scout098-closeout-20261017",
+    "base": "a83f7ee",
+    "scope": "only two Scout098docs, three reconciliation/preparationJSONs, thislandingreceipt, twoledgerrows/twoindexentries andreviewedcompletioninboxcapture",
+    "checks": "local links, JSON/schema/counts, all owner final inventories, repo lint/methodology and scoped whitespace; no product test or paid rerun required",
+    "commit_identity_note": "this receipt is part of supervisor commit; final remote identity verified after push outside self-referential file"
+  }
+}

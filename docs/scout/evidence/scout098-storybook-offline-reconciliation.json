@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-17",
+  "scope": "selected Scout098 Storybook PhaseA offlinefeasibility",
+  "worktree": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017",
+  "base": "3add4b753890edf288c04ab099b1fa895456aac4",
+  "branch": "codex/scout098-storybook-offline-20261017",
+  "owner_attempt": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/attempts/191-scout098-offline-consumer-feasibility.md",
+  "artifacts": {
+    "summary.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/summary.json",
+      "sha256": "42555a321278bad164f61823eee1626459f4592a7258ea379d7ba8d0c42173f1"
+    },
+    "manifest.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/manifest.json",
+      "sha256": "a8fa9b041a85fc305e080560869ac91a7731e6a6e30b4fc5f9f3c8c1cbd9cad4"
+    },
+    "inventory.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/inventory.json",
+      "sha256": "378bbeadfb6877db088c1577a0a9084a76ebf82ea152a1b76ef6f09b4e76c9e1"
+    },
+    "consumer.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/consumer.json",
+      "sha256": "a246963c36051f3ba7fdaab6234598c42b9835beeb4b4960770fa6e694e66e71"
+    },
+    "qualified-offline-v2-connected.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/qualified-offline-v2-connected.json",
+      "sha256": "b0a29361cfb4b7c8630ba93062d51d76bd4195d8def9ae0193657c8b57ddba3b"
+    },
+    "qualified-offline-v2-faults.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/qualified-offline-v2-faults.json",
+      "sha256": "d6a15ee654152b6779847be109ee8cc5c5b3ec8b4a9104a5ff6e0e266ece855b"
+    },
+    "qualified-offline-v2-callback-parity.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/qualified-offline-v2-callback-parity.json",
+      "sha256": "417dc79830aa503bbacc334067ff72ade28e9a6dc20d29fb1ada7201df0111a5"
+    },
+    "qualified-offline-v1-sdk-topology.json": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/qualified-offline-v1-sdk-topology.json",
+      "sha256": "3d85433ddd60064322aad0e7eec2426306fd07f3851657a27ffbf79d79099cad"
+    },
+    "network.jsonl": {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-offline-20261017/docs/evals/artifacts/scout098-offline-20261017/network.jsonl",
+      "sha256": "99acb9bc15f28afb3577aeecb9321fdc6a5ca8e514f405307edbf402becd49ab"
+    }
+  },
+  "verdict": "Existing consumer blocks the narrow benefit on these selected literal regression inputs.",
+  "literal_case_arm_runs": 16,
+  "capture_no_signal_runs": 12,
+  "zero_candidate_runs": 4,
+  "selected_router_dispatches": 0,
+  "required_confirmation_paths_reached": 0,
+  "required_confirmation_paths_total": 6,
+  "connected_existing_synthetic_controls": 2,
+  "fault_controls_pass": 20,
+  "callback_controls_pass": 4,
+  "existing_authority_controls_pass": 8,
+  "provider_calls": 0,
+  "provider_spend_usd": 0,
+  "intercepted_http_mocks": 208,
+  "network_denial_controls": 3,
+  "inventory_hashes_independently_verified": 72,
+  "prior_paid_evidence_and_product_bindings_unchanged": 7,
+  "cleanup": {
+    "task_database_live_catalog_count": 0,
+    "dependency_links_and_empty_env_absent": true,
+    "owner_primary_dirty_entries": 0,
+    "owner_credentials_touched": false
+  },
+  "strategic_review": {
+    "verdict": "stop promotion after PhaseAcloseout,retainLuna",
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "independently_served_identity": "unavailable",
+    "disposition": "accepted;no paidPhaseB/guardrepair/freshcorpus"
+  },
+  "provenance_limit": "Initial driver not contemporaneouslysnapshotted; lowerfidelity initialentry retained asdiagnostic. Namedactualcapture/v1/v2sourcefreezes bind authoritative reruns.",
+  "runtime_defaults_changed": false,
+  "commits_pushes": false,
+  "orchestration_spend_elapsed": "unmeasured",
+  "binding_context": "Original pre-closeout evidence observation; report/archive packaging may change at closeout without rerunning or rewriting producing subject outputs. Current landed identities/manifests are in scout098-landing.json.",
+  "closeout_receipt": "scout098-landing.json"
+}

@@ -38,6 +38,10 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-10-17` — [Scout098 Storybook promotion plan](./scout/scout-098-storybook-promotion-plan.md) — PhaseA complete atUS0:16actualcapture armruns never reachrouter; measured27Bgain cannot benefit selected consumer inputs. Stop promotion/retainLuna; no paid extension or guard repair recommended. Task storage cleaned; paid/offline owner evidence landed, [receipt](./scout/evidence/scout098-landing.json). No defaults changed.
+
+- `2026-10-17` — [Scout 098 — Perplexity Decider v1.2 and Flash v1.2](./scout/scout-098-perplexity-decider-v12-evaluation-routing.md) — Completed: retain Gemini/Sol/Luna runtimes; Decider27B wins conditional Storybook mode quality but rate limits defer promotion. Flash loses tested tasks. KnownUSD.05632798+unknown.00210688<=2.50; temporary keys removed; all three owner records landed, [receipt](./scout/evidence/scout098-landing.json). No defaults changed.
+
 - `2026-10-16` — [Scout 096 — d1-ultra, Span-02 and Nemotron 3.5 Super VL](./scout/scout-096-d1ultra-span02-nemotron35-routing.md) — `Closed / retain current models`
   Six owner screens and selected follow-through complete. Fresh d1 orientation
   fails automatic correctness; Storybook guard repair completes0/3 fresh valid

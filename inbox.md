@@ -1,5 +1,18 @@
 # Inbox
 
+- 2026-10-17: Cam evaluated Perplexity Decider v1.2 and Flash v1.2, selected
+  all three Scout098 owner comparisons, then approved the Storybook US0
+  promotion plan and offline PhaseA. Retain Gemini/Sol/Luna; conditional27B
+  mode win preserved but selected literal captures never reach the router.
+  PhaseA complete, stop promotion; no paidPhaseB or guardrepair. KnownUSD.05632798
+  plus unknown.00210688=max.05843486/2.50; offline providerUSD0. Cam requested
+  check-in and push for the scoped campaign and linked owner evidence.
+  All three owner main/execution refs verified; supervisor closeout includes
+  the [landing receipt](docs/scout/evidence/scout098-landing.json). Unrelated
+  primary changes and task worktrees are preserved; no defaults changed.
+  [Scout098](docs/scout/scout-098-perplexity-decider-v12-evaluation-routing.md),
+  [consumer outcome](docs/scout/scout-098-storybook-promotion-plan.md#phase-a-result--2026-10-17).
+
 - 2026-10-17: Cam invoked evaluate-model DeepSeek-V4.1-Flash-1017,
   selected all six Scout097 owner campaigns, then approved finish-and-push
   for the evaluation records. Evaluation complete: retain current providers;

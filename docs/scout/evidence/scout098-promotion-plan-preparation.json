@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-17",
+  "scope": "zero-provider-spend Conductor-only plan preparation; no owner changes or execution",
+  "owner_read_base": "3add4b753890edf288c04ab099b1fa895456aac4",
+  "source_bindings": [
+    {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/docs/evals/attempts/190-scout098-perplexity-v12-mode.md",
+      "sha256": "9923a373ced18fef0e5a48146008752bafd05c7387b3f2f3a67855ef309366dd",
+      "bytes": 13964
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/docs/evals/artifacts/scout098-20261017/verification.json",
+      "sha256": "99344cb809e412abdc2ae88dd0e0ab03a028023333b591b4f82060ba9d2b8772",
+      "bytes": 44668
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/docs/evals/attempts/188-story196-evidence-contract-prototype.md",
+      "sha256": "e4b0c419eb361a3ef0e8a6997ad0d903a596e106aab6be84a1012b0d99257eae",
+      "bytes": 9084
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/docs/stories/story-197-relationship-guard-evidence-authority-repair.md",
+      "sha256": "ef8af0aba6d7c9c790c5c07853bd7d3861e5aa14d55f5b9ca14477faaf8ac868",
+      "bytes": 9424
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/packages/backend/src/ai/decisions-relationship-router.ts",
+      "sha256": "ff0d19af89fd42406a2f7d114f0c939c26a61a3bd5e6268ff47ed031bb63bf82",
+      "bytes": 7793
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/packages/backend/src/ai/relationship-correction-router.ts",
+      "sha256": "3f8734661a152d6c69a49effc75b54be703c35280e3122480dfb1fcc9239ee78",
+      "bytes": 1663
+    },
+    {
+      "path": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/packages/backend/src/ai/prompts/decisions-relationship-routing.ts",
+      "sha256": "5e0e48a0d1cec4fcc39017c0f263d08c83978e19adf3057d189ef344844221d2",
+      "bytes": 1000
+    }
+  ],
+  "local_applicability": {
+    "router_one_fetch_no_retry": true,
+    "deadline_ms": 1800,
+    "noop_confidence": 0.8,
+    "other_choices_call_fallback": true,
+    "confirm_forces_targetless_constraint": true,
+    "existing_first_attempt_replays": 72,
+    "persisted_consumer_measured_in_scout098": false,
+    "relationship_work_current_story": "197",
+    "current_story196_unrelated_paused_reclaim": true
+  },
+  "research": [
+    "https://docs.perplexity.ai/docs/decisions/quickstart",
+    "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/",
+    "https://scikit-learn.org/stable/modules/cross_validation.html"
+  ],
+  "new_provider_calls": 0,
+  "new_provider_spend_usd": 0,
+  "owner_changes": false,
+  "validation": {
+    "source_bindings_verified": 7,
+    "local_links": "pass",
+    "prospective_corpus_counts": "12+12=24,6noop8confirm5remove5replace",
+    "independent_read_only_review": "no must-fix scope/boundary/identity/retry/budget/guard issues",
+    "provider_calls": 0,
+    "provider_spend_usd": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "campaign": "Scout098",
+  "date": "2026-10-17",
+  "selection": "all3,bothnativev1.2modelsperowner",
+  "owners": {
+    "echo": {
+      "worktree": "/Users/cam/.codex/worktrees/scout098-echo-20261017",
+      "base": "3f56adbc9eca0e2e264f273a73b36b790b0e9ce2",
+      "branch": "codex/scout098-echo-20261017",
+      "manifest": "/Users/cam/.codex/worktrees/scout098-echo-20261017/docs/evals/attempts/control-intent-v1/20261017-scout098.manifest.json",
+      "manifest_sha256": "efc9dfe79d4fcf3eb8c76aa47d94df41800b8a2f14289e20c202162f4d5f5552",
+      "files_independently_verified": 302,
+      "known_usd": 0.02975867999999999,
+      "unknown_max_usd": 0.0011468799999999999,
+      "hard_cap_usd": 1
+    },
+    "bgi": {
+      "worktree": "/Users/cam/.codex/worktrees/scout098-bgi-20261017",
+      "base": "5a3257d3fae2fc593389127154c815a64f9a6299",
+      "branch": "codex/scout098-bgi-20261017",
+      "manifest": "/Users/cam/.codex/worktrees/scout098-bgi-20261017/benchmarks/results/synthetic-orientation-v1/20261017-scout098/artifact-manifest.json",
+      "manifest_sha256": "cbae6634cd3f059e3a880329d4e3d0d194f9964b734efc5c7c689a55d3095ff4",
+      "files_independently_verified": 184,
+      "known_usd": 0.023701279999999998,
+      "unknown_max_usd": 0.0,
+      "hard_cap_usd": 1
+    },
+    "storybook": {
+      "worktree": "/Users/cam/.codex/worktrees/scout098-storybook-20261017",
+      "base": "3add4b753890edf288c04ab099b1fa895456aac4",
+      "branch": "codex/scout098-storybook-20261017",
+      "manifest": "/Users/cam/.codex/worktrees/scout098-storybook-20261017/docs/evals/artifacts/scout098-20261017/inventory.json",
+      "manifest_sha256": "528f6f21c7710b4f9a51add52e174da2077cca7901364ea3ac0cf1ee677b96dd",
+      "files_independently_verified": 98,
+      "known_usd": 0.002868019999999999,
+      "unknown_max_usd": 0.00096,
+      "hard_cap_usd": 0.5
+    }
+  },
+  "total_known_usd": 0.05632798,
+  "total_unknown_max_usd": 0.00210688,
+  "total_conservative_usd": 0.05843486,
+  "hard_campaign_cap_usd": 2.5,
+  "paid_posts": 241,
+  "valid_responses": 232,
+  "rate_limit_responses": 9,
+  "subject_usd": 0.05330374,
+  "qualification_usd": 0.00302424,
+  "judge_usd": 0,
+  "root_source_review": [
+    "Storybook c06-two-types confirms requiredambiguity",
+    "Echo operative-intent mismatches adjudicatedagainstcurrentutterance andpolicy",
+    "BGI actual DOCK source/candidate/Sol exports visually inspected"
+  ],
+  "temporary_perplexity_keys": "all3helperremoved,absenceverified;ownerkeysuntouched",
+  "defaults_changes": false,
+  "commits_pushes": false,
+  "final_verdict": "retainruntimes;27BStorybookconditionalcomponentwinner,promotionqualificationlead;Flashrejecttestedtasks",
+  "binding_context": "Original pre-closeout evidence observation; report/archive packaging may change at closeout without rerunning or rewriting producing subject outputs. Current landed identities/manifests are in scout098-landing.json.",
+  "closeout_receipt": "scout098-landing.json"
+}
