@@ -1,5 +1,48 @@
 # Evaluated frontier model ledger
 
+## DeepSeek V4.1 Flash 1017 — Scout097, 2026-10-17
+
+Canonical router checkpoint `deepseek/deepseek-v4.1-flash-20261017`, requested
+`deepseek/deepseek-v4.1-flash-1017`, creator DeepSeek-V4.1-Flash-1017; native
+moving alias `deepseek-flash` is documented but was not called directly.
+Distinct from the owner-closed September10 checkpoint; do not reopen that row.
+
+**Six-owner campaign complete; retain current task choices.** Pinned Cloudflare,
+precision unknown, exact alias/served provider proven; canonical20261017 is
+generation-attested where available, otherwise catalog-mapped. Immutable backend
+weights/level attestation remain unavailable. All six owner records are landed;
+[remote-ref receipt](../scout/evidence/scout097-landing.json) records the verified
+commits. No model defaults or rollout changed.
+Direct owner records, full task/cost/latency table and bases are linked from
+[Scout097 decisions](../scout/scout-097-deepseek-v41-flash-1017-evaluation-routing.md#completed-owner-decisions--2026-10-17)
+and [closed reconciliation](../scout/evidence/scout097-campaign-reconciliation.json).
+
+| Task and setting | Layered result / current action |
+| --- | --- |
+| Dossier high32768 | Complete saved graph diagnostic tie5/5meanings,18supportedrows vs freshSolmedium5/5/20rows, no defects.310.545vs51.422s; native accounting implies267finaltokens for7780bytes,GET404. Preserve clean content, defer parity/economics/adoption; retain Sol. |
+| DocWeb high32768 | Literalbakery22/23vsAstra23/23, Image011sourceclipping despite tolerant scorerpass, Barney.920977<.99: reject tested arms. RequestedGemini3.7served3.8 control quarantined. Safety native616completion/711reasoning and implausible323/311quarantined; savedseal false-safe diagnostic, qualifiedGPT2/2. Retain readers/detector/manualveto. |
+| Echo none-intent / low-scenes |33validmatched candidate28/33vsGemini30/33, falsecontrols3vs2, ambiguity0/2vs2/2 despite94.84%subject-cost saving. FreshGemini42completed; candidate missing9 after persistent429s cannot rescue preservation gates. Retain Gemini. Tavern strict/contentroles pass, ambiguous primary-mood golden hold,119.955s; candidateDungeonunmeasured,Mini0/2, no scene winner. |
+| Cine high32768 | Candidate accounting-quarantined, savedfigure-growth miss diagnostic only. FreshSol/Luna3casesboth0/3, combined.58553/.58860, no new winner or autonomous-QA qualification. Retain research references. |
+| Storybook none4096 | Partial persona5/5vs5/5rubrics but5057ms>5s; photoFS0018/9vs7/9lexical/field-local checks with source caveat,8014vs2165ms. Retain Luna/Gemini. Late stop overrun/unknownfetch preserved, no full persona or FS006 proof. |
+| BGI low32768 | pub001pairedpass; Eastreasoning8239>nativecompletion7947quarantined, savedwrongkeep0vs270diagnostically. Retain Sol/review; symmetry/ambiguity/fullpanel unmeasured. |
+
+Known usage-priced/reportedUSD1.812514357 + unresolvedfullreserves.3664578 =
+standard-price upper2.178972157 /29.50. Original conservative Echo rate margin
+gives guard-accountedupper2.181893257; not invoices. Dossier reportedrouter
+.026647252 remains inside its fullreserves, not additive or a qualified saving.
+All owner caps held. Temporary BGI/Storybook router copies removed; other
+owners used existing credentials. EightEcho429s and operator interruptions,
+Storybook stop overrun and all producing source versions remain preserved.
+
+No within-task effort comparison or semantic rescue selected. Lower/high/max
+alternatives not tested above remain unmeasured. No immediate paid follow-up:
+closed source/quality/latency failures need a new checkpoint or separately
+selected source-backed configuration/contract hypothesis; accounting-blocked
+arms need independently demonstrated consistent exact-route accounting first.
+Repairing telemetry does not authorize rerunning clean or source-bad answers
+unchanged. Normalized generation counters are not a documented native repair.
+Provider-free evaluator/source-golden repair is a separate future choice.
+
 ## Liquid d1-ultra, Respan Span-02, NVIDIA Nemotron 3.5 Super VL — Scout096, 2026-10-16
 
 **Current closeout disposition: campaign stopped; retain current models.**

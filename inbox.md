@@ -1,5 +1,15 @@
 # Inbox
 
+- 2026-10-17: Cam invoked evaluate-model DeepSeek-V4.1-Flash-1017,
+  selected all six Scout097 owner campaigns, then approved finish-and-push
+  for the evaluation records. Evaluation complete: retain current providers;
+  knownUSD1.812514357 + unresolvedfullreserves.3664578 = standardupper
+  2.178972157/29.50 (guardupper2.181893257). All six owner main and execution
+  refs verified; this scoped supervisor closeout includes the
+  [landing receipt](docs/scout/evidence/scout097-landing.json). Unrelated primary
+  work is preserved. No new inference or defaults.
+  See [Scout097](docs/scout/scout-097-deepseek-v41-flash-1017-evaluation-routing.md).
+
 - 2026-10-16: Cam requested check-in and push for Scout096 and its linked
   owner evidence. Completed scoped validation and fast-forward landings in
   all six owner repos; branch/main refs independently verified. Failed

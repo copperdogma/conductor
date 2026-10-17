@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-17",
+  "authorization": "Cam yes to finish and push Scout097 evaluation records, all six owners and Conductor",
+  "status": "owner_remote_refs_verified_supervisor_closeout_included",
+  "no_new_provider_calls": true,
+  "runtime_defaults_changed": false,
+  "worktrees_retained": true,
+  "owners": [
+    {
+      "owner": "doc-web",
+      "worktree": "/Users/cam/.codex/worktrees/scout097-docweb-20261017",
+      "branch": "codex/scout097-deepseek1017-docweb-20261017",
+      "candidate_sha": "1a347f3f5ea13cb672a4e92d040704b99e556118",
+      "remote": "https://github.com/copperdogma/doc-web.git",
+      "destination": "refs/heads/main",
+      "preflight": "ready; owner-scoped validation passed/reused, no known required CI/review blocker",
+      "status": "landed_remote_main_and_execution_verified",
+      "landed_sha": "1a347f3f5ea13cb672a4e92d040704b99e556118",
+      "commit_url": "https://github.com/copperdogma/doc-web/commit/1a347f3f5ea13cb672a4e92d040704b99e556118"
+    },
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/scout097-dossier-20261017",
+      "branch": "codex/scout097-deepseek1017-dossier-20261017",
+      "candidate_sha": "f3597073d5e8bd7269c6bbde3bb6168485136ea5",
+      "remote": "https://github.com/copperdogma/dossier.git",
+      "destination": "refs/heads/main",
+      "preflight": "ready; owner-scoped validation passed/reused, no known required CI/review blocker",
+      "status": "landed_remote_main_and_execution_verified",
+      "landed_sha": "f3597073d5e8bd7269c6bbde3bb6168485136ea5",
+      "commit_url": "https://github.com/copperdogma/dossier/commit/f3597073d5e8bd7269c6bbde3bb6168485136ea5"
+    },
+    {
+      "owner": "echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/scout097-echo-20261017",
+      "branch": "codex/scout097-deepseek1017-echo-20261017",
+      "candidate_sha": "3f56adbc9eca0e2e264f273a73b36b790b0e9ce2",
+      "remote": "https://github.com/copperdogma/echo-forge.git",
+      "destination": "refs/heads/main",
+      "preflight": "ready; owner-scoped validation passed/reused, no known required CI/review blocker",
+      "status": "landed_remote_main_and_execution_verified",
+      "landed_sha": "3f56adbc9eca0e2e264f273a73b36b790b0e9ce2",
+      "commit_url": "https://github.com/copperdogma/echo-forge/commit/3f56adbc9eca0e2e264f273a73b36b790b0e9ce2"
+    },
+    {
+      "owner": "cine-forge",
+      "worktree": "/Users/cam/.codex/worktrees/scout097-cineforge-20261017",
+      "branch": "codex/scout097-deepseek1017-cineforge-20261017",
+      "candidate_sha": "01527226f8047f2af4db231091f690e314e11950",
+      "remote": "https://github.com/copperdogma/cine-forge.git",
+      "destination": "refs/heads/main",
+      "preflight": "ready; owner-scoped validation passed/reused, no known required CI/review blocker",
+      "status": "landed_remote_main_and_execution_verified",
+      "landed_sha": "01527226f8047f2af4db231091f690e314e11950",
+      "commit_url": "https://github.com/copperdogma/cine-forge/commit/01527226f8047f2af4db231091f690e314e11950"
+    },
+    {
+      "owner": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/scout097-deepseek1017-storybook-20261017",
+      "branch": "codex/scout097-deepseek1017-storybook-20261017",
+      "candidate_sha": "3add4b753890edf288c04ab099b1fa895456aac4",
+      "remote": "https://github.com/copperdogma/storybook.git",
+      "destination": "refs/heads/main",
+      "preflight": "ready; owner-scoped validation passed/reused, no known required CI/review blocker",
+      "status": "landed_remote_main_and_execution_verified",
+      "landed_sha": "3add4b753890edf288c04ab099b1fa895456aac4",
+      "commit_url": "https://github.com/copperdogma/storybook/commit/3add4b753890edf288c04ab099b1fa895456aac4"
+    },
+    {
+      "owner": "boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/scout097-bgi-20261017",
+      "branch": "codex/scout097-deepseek1017-bgi-20261017",
+      "candidate_sha": "5a3257d3fae2fc593389127154c815a64f9a6299",
+      "remote": "https://github.com/copperdogma/boardgame-ingester.git",
+      "destination": "refs/heads/main",
+      "preflight": "ready; owner-scoped validation passed/reused, no known required CI/review blocker",
+      "status": "landed_remote_main_and_execution_verified",
+      "landed_sha": "5a3257d3fae2fc593389127154c815a64f9a6299",
+      "commit_url": "https://github.com/copperdogma/boardgame-ingester/commit/5a3257d3fae2fc593389127154c815a64f9a6299"
+    }
+  ],
+  "conductor": {
+    "worktree": "/Users/cam/.codex/worktrees/scout097-conductor-closeout-20261017",
+    "branch": "codex/scout097-evidence-closeout-20261017",
+    "base_sha": "0d5ecbaaf45c0d07425e2c3bec167d1ca9b2fb09",
+    "status": "included_in_supervisor_closeout_commit",
+    "validation": "Scout097-only diff; links/JSON/cost arithmetic/whitespace; remote main unprotected, no Actions workflow; no unrelated primary edits copied",
+    "self_reference_policy": "This receipt is included in the supervisor closeout commit. Its own commit and both remote refs are verified after push and reported in the final handoff; no self-referential hash is embedded."
+  },
+  "verification": "All six owner main and execution refs independently read with git ls-remote and matched candidate_sha before supervisor commit."
+}

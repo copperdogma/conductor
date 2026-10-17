@@ -1,5 +1,14 @@
 # Scout Log
 
+- `2026-10-17` — [Scout 097 — DeepSeek V4.1 Flash 1017](./scout/scout-097-deepseek-v41-flash-1017-evaluation-routing.md) — `Complete; retain current choices`
+  Distinct October17 successor verified from official release and public API
+  metadata; all six selected owner campaigns completed. Dossier clean semantic
+  diagnostic tie is6.04xslower; source/quality/latency failures and accounting
+  quarantine prevent a qualified switch. KnownUSD1.812514357 plus unresolved
+  fullreserves.3664578, standardupper2.178972157/29.50. All six owner evidence
+  records landed; [receipt](./scout/evidence/scout097-landing.json). No defaults changed.
+
+
 - `2026-10-14` — [Scout 093 — Muse Wonder Evaluation Routing](./scout/scout-093-muse-wonder-evaluation-routing.md) — `Do not adopt tested arms`
   All four selected public/synthetic owner comparisons completed at usage-priced
   USD2.1347731/31, unknown0. Retain Sol/Astra/Gemini; no default or landing changes.
