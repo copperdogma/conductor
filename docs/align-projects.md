@@ -11,6 +11,20 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-10-18` — [Alignment 058 — Reusable Setup Package](./alignments/align-058-reusable-setup-package.md)
+  Conductor is a source library with explicit product and supervisor variants.
+  Missing evidence/triage skills and setup assets supplied; safe optional-module
+  copy helper and sparse product tooling tested. 25 repo tests pass; independent
+  review fixes confirmed; fresh-source disposable setup passes. Initial worker
+  source-path mistake recovered and retained as failed evidence. No rollout or landing.
+
+- `2026-10-17` — [Alignment 057 — Ideal Boundaries and Canonical Baseline](./alignments/align-057-ideal-boundary-and-canonical-baseline.md)
+  Local kickoff/setup guidance now requires a concise outcome-only Ideal.
+  Conductor maintains the evolving reusable baseline and reviews generic local
+  improvements for promotion. Read-only audit of 18 distinct project Ideals:
+  five substantial mixing, ten localized leakage, three substantially clean.
+  No target rewrites, registry changes, or rollout.
+
 - `2026-10-08` — [Alignment 056 — Continuing Reviewer and Independent Milestones](./alignments/align-056-continuing-reviewer-and-independent-milestones.md)
   Rolled out to all 13 discovered repos already having loop-review;
   recurring reviews reuse a separate reviewer, with fresh milestone challenges.

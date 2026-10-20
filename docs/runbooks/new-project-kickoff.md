@@ -78,6 +78,32 @@ that means:
 Only after the Ideal/spec are real and reviewed should the agent run or adapt
 the broader `/setup-methodology` package.
 
+## Writing the Ideal
+
+The Ideal answers: **what should be true for the user if technical capability
+were no obstacle?** It is a short north star for the AI building the project.
+Keep the language concrete and grounded in the user's intent. Remove today's
+technical limitations from the desired outcome, without inventing new wishes.
+
+Use the Ideal authoring contract embedded in `/init-project`: zero
+implementation, one readable page by default (usually 200–500 words, shorter
+when sufficient), and no duplicate catalog of the raw intake. Product and
+execution ideals describe outcomes; neither is a place for implementation or
+agent process. Preserve detailed raw intake separately.
+
+| Ideal: desired outcome | Elsewhere: means, constraints, or proof |
+| --- | --- |
+| Relevant past knowledge is available when needed. | Spec/ADR: vector database, embedding model, retrieval pipeline. |
+| My private material remains under my control. | Spec/ADR: local storage, encryption scheme, provider policy. |
+| I can use the project wherever I need it, including without a connection. | Spec/story: service worker, cache schema, synchronization algorithm. |
+| Improving the project requires little supervision and preserves working behavior. | AGENTS/runbook/eval: worktree commands, approval gates, test suite. |
+
+Review every sentence for the outcome/mechanism boundary, then compress repeated
+ideas and check coverage of distinct user needs. Do not use another project's
+Ideal as a content template: it may contain the same implementation leakage.
+During retrofit, infer proposed outcomes from code/docs but keep current
+implementation facts out of the Ideal; confirm uncertain intent with the user.
+
 ## Project Shapes
 
 Use these as starting classifications, not rigid boxes.
@@ -94,6 +120,15 @@ Use these as starting classifications, not rigid boxes.
 
 Hybrids are normal. Pick a primary type, then borrow only the useful pieces from
 secondary types.
+
+## Reusable package source
+
+Conductor maintains the reviewed reusable skills and methodology baseline.
+Select relevant pieces here, keeping the target's product requirements and
+justified adaptations local. Project-local skills may be newer or better for
+that project; generic, non-overfit improvements can be reviewed for promotion
+back into Conductor. New-project setup should benefit from that accumulated
+learning without inheriting unrelated domain machinery.
 
 ## Surface Menu
 

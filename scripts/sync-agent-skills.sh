@@ -17,7 +17,15 @@ ensure_link() {
   local target="$1"
   local link="$2"
   mkdir -p "$(dirname "$link")"
-  rm -rf "$link"
+  if [[ -L "$link" ]]; then
+    if [[ "$(readlink "$link")" == "$target" ]]; then
+      return
+    fi
+    rm "$link"
+  elif [[ -e "$link" ]]; then
+    echo "Refusing to replace existing non-symlink: $link" >&2
+    exit 1
+  fi
   ln -s "$target" "$link"
 }
 
@@ -26,6 +34,10 @@ check_link() {
   local link="$2"
   local actual
 
+  if [[ -L "$(dirname "$link")" ]]; then
+    echo "Refusing symlinked compatibility parent: $(dirname "$link")" >&2
+    exit 1
+  fi
   [[ -L "$link" ]] || { echo "$link missing symlink" >&2; exit 1; }
   actual="$(readlink "$link")"
   if [[ "$actual" != "$target" ]]; then
@@ -124,6 +136,19 @@ fi
 if [[ $# -gt 0 ]]; then
   usage
 fi
+
+# Check all destinations before changing any compatibility surface.
+for skill_link in "$CLAUDE_LINK" "$CURSOR_LINK" "$ROOT_LINK"; do
+  skill_link_parent="$(dirname "$skill_link")"
+  if [[ -L "$skill_link_parent" || ( -e "$skill_link_parent" && ! -d "$skill_link_parent" ) ]]; then
+    echo "Refusing unsafe compatibility parent: $skill_link_parent" >&2
+    exit 1
+  fi
+  if [[ -e "$skill_link" && ! -L "$skill_link" ]]; then
+    echo "Refusing to replace existing non-symlink: $skill_link" >&2
+    exit 1
+  fi
+done
 
 ensure_link "../.agents/skills" "$CLAUDE_LINK"
 ensure_link "../.agents/skills" "$CURSOR_LINK"

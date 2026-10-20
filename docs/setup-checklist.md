@@ -11,6 +11,8 @@
 
 - [x] `AGENTS.md` defines the mission and operating rule
 - [x] `docs/ideal.md` and `docs/spec.md` exist
+- [x] Ideal quality gate: concise desired outcomes, zero implementation;
+      distinct needs preserved and mechanisms retained in Spec/ADRs/runbooks
 - [x] `docs/methodology/state.yaml` exists
 - [x] `projects.yaml` exists as the tracked-project registry
 - [x] `docs/runbooks/setup-methodology.md` exists
@@ -50,3 +52,17 @@
 - [x] Local checks and independent scenario review completed; evidence and
       validator compatibility note recorded in
       [Alignment 053](alignments/align-053-research-before-reinvention.md)
+
+## Reusable source package (Alignment 058)
+
+- [x] Source inventory distinguishes shared guidance and product/supervisor roles
+- [x] Product setup assets and missing evidence/triage skills are available
+- [x] Existing target truths and local files are preserved by copy preflight
+- [x] Core/optional module selection and source receipts are explicit
+- [x] Sparse product compiler/facts reject invalid evidence instead of quiet zeroes
+- [x] Focused tests and independent review completed; findings fixed
+- [x] Disposable product setup exercised from final source with honest deferrals
+- [x] Failed first exercise, recovery, checks and applicability limits retained in
+      [Alignment 058](alignments/align-058-reusable-setup-package.md)
+- [x] Scoped landing authorized on 2026-10-20 and candidate validated; remote
+      identities are verified in the close-out handoff

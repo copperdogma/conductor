@@ -1,5 +1,40 @@
 # Inbox
 
+- 2026-10-20: Cam approved scoped commit/push of the Ideal guidance, canonical
+  source-library ownership, role variants and tested setup package (Align057/058,
+  ADR004). Candidate integrated on current remote main with 25 tests and a fresh
+  setup confirmation; unrelated shared-checkout work preserved. Five target
+  Ideal rewrites remain paused; no target rollout or new provider work.
+
+- 2026-10-18: Cam approved completing/testing Conductor's reusable setup package
+  and clarified that supervisor-tailored skills cannot all be universal.
+  Addressed locally in Alignment058: explicit product variants/shared guidance,
+  conditional modules, recovered source assets, preservation-safe copy helper,
+  sparse tooling, 25 tests, independent review and disposable final-source setup.
+  First exercise had a wrong-directory write/recovery; approved source restored,
+  guard checks pass, failed evidence preserved. Five Ideal proposals remain
+  paused; no project rollout, commit or push.
+
+- 2026-10-17: Cam clarified canonical means the evolving reusable baseline,
+  learning from generic non-overfit project-local improvements, not an absolute
+  newest version of everything; also approved the existing-Ideal leakage review.
+  Completed read-only audit of 18 distinct Ideals in Alignment057 (11 managed,
+  seven additional local repos; duplicate worktrees excluded). Five substantial
+  mixing, ten localized leakage, three substantially clean. Target rewrites and
+  enrollment remain separate; source-role guidance is updated locally.
+
+- 2026-10-17: Cam clarified Conductor's ownership: improve and assess projects,
+  test skills and roll out authorized improvements, evaluate models on their
+  behalf, and maintain canonical reusable skills/methodology for new-project
+  setup. Addressed in Ideal, Spec, AGENTS, setup/kickoff guidance, and ADR-004;
+  ADR-001 is partially superseded. No target-repo rollout or landing performed.
+
+- 2026-10-17: Cam clarified that the Ideal is a concise north star of desired
+  outcomes unconstrained by technical capability, with zero implementation.
+  Addressed locally in kickoff/setup skills, their runbooks, methodology
+  guidance, setup checklist, and Conductor Ideal. Cross-project adoption is
+  separate; no commit or push requested.
+
 - 2026-10-17: Cam evaluated Perplexity Decider v1.2 and Flash v1.2, selected
   all three Scout098 owner comparisons, then approved the Storybook US0
   promotion plan and offline PhaseA. Retain Gemini/Sol/Luna; conditional27B

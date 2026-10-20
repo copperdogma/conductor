@@ -2,7 +2,10 @@
 
 ## Status
 
-Accepted
+Partially superseded by [ADR-004](adr-004-canonical-skills-and-methodology.md)
+on 2026-10-17. Conductor now owns the canonical reusable skills and methodology.
+Project ownership, useful adaptation, and recommendation-first rollout remain.
+The decision below is retained as historical context.
 
 ## Context
 

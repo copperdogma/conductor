@@ -3,6 +3,12 @@
 Conductor uses the same high-level methodology shape as the other projects, but
 its subject is cross-project coordination rather than a product runtime.
 
+Conductor also owns the canonical reusable skills and methodology package.
+Projects adopt relevant guidance while retaining their product contracts,
+harnesses, evidence, and justified adaptations. Model evaluations and skill
+checks serve project improvement. See
+[ADR-004](decisions/adr-004-canonical-skills-and-methodology.md).
+
 ## Artifact stack
 
 1. `docs/ideal.md` — what the supervisor project should be with no unnecessary friction
@@ -31,6 +37,22 @@ The Spec records what structure still exists because the ideal is not yet free:
 - scout logs instead of instant retained insight
 - alignment logs instead of effortless cross-project understanding
 - stories and ADRs instead of fully self-justifying transient reasoning
+
+## Ideal authoring boundary
+
+The Ideal answers **what should be true for the user if technical capability
+were no obstacle?** It is a concise north star with **zero implementation**.
+Aim for one readable page, usually 200–500 words or fewer when sufficient.
+Preserve distinct desired outcomes; keep detailed intake in its source.
+
+Both product and execution ideals describe experiences and outcomes. Neither
+prescribes architecture, technologies, file layouts, agent procedures, or proof steps.
+User-valued properties such as privacy and fidelity belong here; mechanisms,
+current limitations, compromises, delivery phases, and operating rules belong in
+the Spec, ADRs, AGENTS/runbooks, stories, or evals. For each sentence ask whether
+it would survive a completely different implementation delivering the same
+experience. The kickoff skill and runbook supply the authoring contract and
+examples; setup preflight checks this boundary even for an existing Ideal.
 
 ## Operating rule
 

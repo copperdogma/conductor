@@ -2,52 +2,48 @@
 
 ## Product Ideal
 
-Conductor is a quiet supervisor for Cam's active AI-first projects.
+Conductor is a quiet supervisor for Cam's active AI-first projects. It removes
+coordination work so Cam can concentrate on the projects themselves. It also
+maintains the canonical reusable skills and methodology that help projects
+start well and keep improving.
 
 In the ideal state:
 
-- every cross-project note lands in one place and becomes ready work without
-  manual sorting overhead
-- shared methodology and harness improvements are noticed quickly and compared
-  across projects without requiring Cam to stop product work
-- external sources get evaluated once, then mapped cleanly to the projects that
-  could benefit from them
-- project-specific divergence is preserved when it is useful and challenged only
-  when it looks accidental or stale
-- Conductor prepares stories, ADR suggestions, sync recommendations, and scout
-  outputs so target projects can execute them with minimal setup friction; for
-  an explicitly approved cross-project campaign, it can also enter isolated
-  owning-repo worktrees and perform that local execution on their behalf
+- Cam captures a thought once; it reaches the right project as useful, ready
+  work without manual sorting or repeated explanation.
+- Projects receive useful improvements informed by how they are doing and how
+  well their skills work in practice; chosen improvements reach them with
+  little effort from Cam, while their purpose and valuable differences remain
+  intact.
+- New projects can start from Conductor's canonical skills and methodology,
+  taking the relevant guidance without rediscovering it or inheriting
+  unnecessary overhead. That shared guidance improves as projects teach us
+  what works. Generic improvements return from those projects, keeping the
+  reusable baseline wise and current without absorbing project-specific
+  complexity.
+- External ideas are understood once and their relevance to every project is
+  clear, without repeated research.
+- Cross-project work carries its context, evidence, and decisions with it;
+  nothing important gets lost between recommendation and execution.
+- Model evaluation serves project improvement: choices reflect demonstrated
+  value for each project, and comparing and adopting useful alternatives
+  requires little effort from Cam.
 
 ## Execution Ideal
 
-Running Conductor should feel like using the other projects, not a separate
-management system.
+Working with Conductor feels natural and light. Cam can express an intention
+once and trust that useful work proceeds with continuity, clear evidence, and
+respect for each project's ownership.
 
-In the ideal state:
-
-- one inbox captures supervisor work
-- triage converts notes into the right artifact shape
-- alignment and scouting have memory, so the same comparison work is not
-  repeated from scratch
-- a model-only evaluation request becomes one availability/portfolio
-  recommendation, then one simple all-or-subset approval can launch the
-  selected repo-local evaluations without losing owner context; Conductor can
-  supply designated eval-only provider access while the owner retains its
-  harness, fixtures, privacy gates, evidence, and adoption decision
-- the structure stays light enough that it removes busywork instead of adding it
-- human judgment is reserved for real conflicts and prioritization, not routine
-  comparison labor
+Routine coordination needs little supervision. Cam's judgment is reserved for
+meaningful conflicts and priorities. Private material stays under Cam's control,
+and the scope and cost of work remain understandable and intentional.
 
 ## Vision-level preferences
 
-- **I1 — Meaning over text**: preserve the intent of a workflow improvement even
-  when the exact wording differs across projects.
-- **I2 — Distributed ownership**: the tracked projects remain the owners of
-  their own local adaptations.
-- **I3 — Recommendation-first supervision**: Conductor should prepare adoption
-  work before attempting cross-project edits; an explicit all-or-subset choice
-  may then authorize isolated execution under each selected project's rules.
-- **I4 — Honest divergence**: intentional local differences are a feature, not a bug.
-- **I5 — Minimal overhead**: every Conductor artifact must earn its keep by
-  removing future work.
+- **I1 — Meaning over text**: preserve the intent of an improvement across projects.
+- **I2 — Distributed ownership**: projects retain authority over their local choices.
+- **I3 — Recommendation-first supervision**: Cam can judge proposed changes before
+  they affect other projects and can confidently delegate chosen work.
+- **I4 — Honest divergence**: useful local differences are preserved.
+- **I5 — Minimal overhead**: coordination saves more effort than it requires.

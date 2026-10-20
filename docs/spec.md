@@ -22,10 +22,35 @@ They should not require immediate structure to be captured.
 
 ## spec:2 Cross-Project Alignment
 
-### spec:2.1 Distributed harness reality
+### spec:2.1 Canonical reusable package and project ownership
 
-The AI framework remains distributed across the tracked projects. Conductor does
-not own a canonical copy of the skills or methodology artifacts.
+Conductor maintains the canonical reusable skills under `.agents/skills` and
+methodology guidance in its docs and bundled resources. New projects use
+`/init-project` for project-specific Ideal/spec intake, then
+`/setup-methodology` to select and install the relevant package. Existing
+projects can adopt improvements through the alignment lane.
+
+Conductor assesses project health and skill behavior in context, prepares
+improvements, and carries out authorized rollouts. Model evaluation is part of
+this project-improvement role, using each owner's maintained evidence contracts.
+Useful project-local improvements may be reviewed for promotion into the shared
+package when they are generic, supported by evidence, and not overfit to their
+origin. Canonical means the maintained reusable baseline, not a claim that
+Conductor always contains the newest or best version of every local skill.
+Keep the rationale and provenance for promoted improvements, and leave
+project-specific mechanisms local.
+
+The source library distinguishes shared guidance from supervisor and product
+variants. Setup selects relevant modules and role-specific workflows; it does
+not copy Conductor's own portfolio triage, registry, or cross-project authority
+into every target. The bundled product profile is a dependency-checked sparse
+starter, with optional evidence and audit modules and explicit local adaptation
+for existing projects, runtimes, and richer planning schemas.
+
+Each project retains its own product Ideal/spec, runtime harness, fixtures,
+evidence, and justified adaptations. A canonical reusable source does not imply
+forced uniformity, a shared runtime, or automatic cross-repo updates. See
+[ADR-004](decisions/adr-004-canonical-skills-and-methodology.md).
 
 ### spec:2.2 Recommendation-first sync
 

@@ -18,6 +18,12 @@ roots separate:
 - **Conductor source root**: the repo containing this `SKILL.md`.
 - **Target project root**: the new repo being kicked off.
 
+For every target mutation, use an absolute destination or an explicit tool
+working directory at the verified target root. Reading a source skill by path
+never changes the tool's current directory. Do not run relative writes from
+Conductor. If a command touches the wrong checkout, stop and report it; do not
+restore from Git HEAD over possibly uncommitted work.
+
 Always read the companion runbook when it is available. Resolve it relative to
 this file by replacing `.agents/skills/init-project/SKILL.md` with
 `docs/runbooks/new-project-kickoff.md` in the Conductor source root. If the
@@ -26,8 +32,10 @@ runbook is unavailable, continue with this skill's embedded workflow.
 ## Boundaries
 
 - Preserve raw intake such as `docs/initial-concept.md`; do not overwrite it.
-- Do not copy another repo wholesale. Use existing projects as references for
-  patterns, then adapt only the pieces that fit.
+- Conductor maintains the canonical reusable skills and methodology. Select
+  relevant pieces from its source root; use other projects as evidence for
+  adaptations, not as competing master packages. Do not copy any repo wholesale.
+  Keep target-project requirements and justified local differences.
 - Do not create or modify target-repo files until the user approves a named
   setup action. A bare `yes` approves only the plan you just stated, not commit,
   push, or cross-repo rollout.
@@ -35,6 +43,39 @@ runbook is unavailable, continue with this skill's embedded workflow.
 - Do not assume the target repo is a git repo or has package/runtime tooling.
 - If the target is an existing tracked project, use Conductor's normal
   worktree/checkout guardrails before editing it.
+
+## Ideal authoring contract
+
+`docs/ideal.md` is a concise north star: **what should be true for the user if
+technical capability were no obstacle?** "If magic existed" is a useful mental
+shortcut, not a request for fanciful prose. Write concrete desired experiences
+and outcomes, independent of today's implementation or AI limitations.
+
+- **Zero implementation.** No architecture, stack, providers, models, APIs,
+  schemas, file layouts, algorithms, prompts, orchestration, tooling, or build
+  steps. Today's constraints, compromises, MVP cuts, and delivery phases belong
+  in `docs/spec.md`; operating rules belong in `AGENTS.md` or runbooks; proof
+  procedures belong in evals or stories.
+- **Short by default.** Aim for one readable page, usually 200–500 words; small
+  projects can be shorter. This is an editing target, not a quota. Preserve
+  distinct user requirements, merge repetitions, and retain detailed intake in
+  its source rather than expanding the Ideal into an exhaustive catalog.
+- **Separate ends from means.** Preserve the need behind a proposed mechanism.
+  "Use a vector database" becomes "Relevant past knowledge is available when
+  needed." A user-valued property such as privacy, fidelity, accessibility, or
+  offline availability can belong in the Ideal; the mechanism that achieves it
+  cannot. Don't silently promote a suggested technology into a requirement.
+- **Execution ideals are outcomes too.** If product and execution ideals are
+  both useful, keep them brief. Execution describes the desired experience of
+  developing and operating the project, not a checklist of agent workflows,
+  approval gates, tests, or repository conventions. Do not add empty categories
+  just to mirror the Spec or state graph.
+
+Before presenting the Ideal, read it sentence by sentence: does this describe a
+wanted outcome, or prescribe how to achieve it? Would it still be true if an
+entirely different implementation delivered the same experience? Move mechanisms
+to the appropriate artifact and preserve their provenance. Then remove duplicate
+ideas and check that no distinct user outcome disappeared during compression.
 
 ## Interview Workflow
 
@@ -48,7 +89,8 @@ runbook is unavailable, continue with this skill's embedded workflow.
 2. **Extract**
    - Identify durable product ideals, practical constraints, non-goals, open
      questions, first risks, and likely proof points.
-   - Separate raw chronology from durable meaning.
+   - Separate raw chronology from durable meaning, and desired outcomes from
+     proposed mechanisms using the Ideal authoring contract above.
 3. **Classify**
    - Pick a primary project shape, with secondary shapes if needed:
      creative/writing, prototype/hardware, web app/product, AI pipeline,
@@ -71,6 +113,10 @@ runbook is unavailable, continue with this skill's embedded workflow.
    - Ask only the questions needed to resolve material ambiguity.
    - Incorporate the user's corrections before setup.
 6. **Set Up After Approval**
+   - After explicit approval, author the concise, implementation-free Ideal
+     using the contract above; put constraints and implementation choices in
+     the Spec or other owning artifacts. Review the split against raw intake
+     before handing it to `/setup-methodology`.
    - After explicit approval, create the agreed files; create a first story
      only when the approved setup package includes it.
    - Run `/setup-methodology greenfield` only after real, reviewed

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-20",
+  "base": "c695adb35f0abdfd6662520e91b6f1cb688ec1e8",
+  "branch": "codex/conductor-reusable-setup",
+  "worktree": "/Users/cam/.codex/worktrees/conductor-setup-package-landing/conductor",
+  "target": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-integrated-setup-a1qml1kg",
+  "status": "passed",
+  "tested_source_hashes": {
+    ".agents/skills/setup-methodology/SKILL.md": "06215b81ac139126c9fa21158ccf309bee76fe018367b58ed95cebe9c578589e",
+    ".agents/skills/setup-methodology/package.json": "6ad01aee67a468c6e55a623fe57bf7bfa4042b5e2082fba49ec79b674a2779b9",
+    "scripts/sync-agent-skills.sh": "e3328622d31aacfc180adc9d304fbbc583e18158b2b1d838c411eb4b0c18419a",
+    "tests/test_setup_package.py": "152f9d1d69c654172d1ff0247d0cdb79b475e71ce0d76c0de47cfd78c1c2f37b",
+    "tests/test_product_methodology.py": "807d91772e4c0f78af060fa0d3bf099f58802c77d0414d4d08f339cc0899dfc8"
+  },
+  "commands": [
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "/Users/cam/.codex/worktrees/conductor-setup-package-landing/conductor/.agents/skills/setup-methodology/scripts/package.py",
+        "install",
+        "--target",
+        "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-integrated-setup-a1qml1kg",
+        "--modules",
+        "core",
+        "evidence"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"variant\": \"product\",\n  \"modules\": [\n    \"core\",\n    \"evidence\"\n  ],\n  \"create\": [\n    \".agents/skills/setup-methodology/SKILL.md\",\n    \".agents/skills/setup-methodology/assets/evidence/README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/attempt-template.md\",\n    \".agents/skills/setup-methodology/assets/evidence/evals-README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/golden-README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/registry.yaml\",\n    \".agents/skills/setup-methodology/assets/product/AGENTS.md\",\n    \".agents/skills/setup-methodology/assets/product/Makefile\",\n    \".agents/skills/setup-methodology/assets/product/adr.md\",\n    \".agents/skills/setup-methodology/assets/product/final-synthesis.md\",\n    \".agents/skills/setup-methodology/assets/product/inbox.md\",\n    \".agents/skills/setup-methodology/assets/product/methodology.md\",\n    \".agents/skills/setup-methodology/assets/product/research-prompt.md\",\n    \".agents/skills/setup-methodology/assets/product/scripts/methodology_graph.py\",\n    \".agents/skills/setup-methodology/assets/product/scripts/triage_facts.py\",\n    \".agents/skills/setup-methodology/assets/product/setup-runbook.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/build-story.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/create-adr.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/create-story.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/mark-story-done.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/scout.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage-adr.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage-stories.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/validate.md\",\n    \".agents/skills/setup-methodology/assets/product/story.md\",\n    \".agents/skills/setup-methodology/package.json\",\n    \".agents/skills/setup-methodology/references/modes.md\",\n    \".agents/skills/setup-methodology/references/package-installation.md\",\n    \".agents/skills/setup-methodology/references/product-workflow.md\",\n    \".agents/skills/setup-methodology/references/runtime-and-dependencies.md\",\n    \".agents/skills/setup-methodology/scripts/package.py\",\n    \".agents/skills/setup-methodology/templates/setup-checklist.md\",\n    \".agents/skills/init-project/SKILL.md\",\n    \".agents/skills/triage/SKILL.md\",\n    \".agents/skills/triage-stories/SKILL.md\",\n    \".agents/skills/triage-inbox/SKILL.md\",\n    \".agents/skills/triage-health/SKILL.md\",\n    \".agents/skills/create-story/SKILL.md\",\n    \".agents/skills/create-story/scripts/start-story.sh\",\n    \".agents/skills/create-story/templates/story.md\",\n    \".agents/skills/build-story/SKILL.md\",\n    \".agents/skills/validate/SKILL.md\",\n    \".agents/skills/mark-story-done/SKILL.md\",\n    \".agents/skills/create-adr/SKILL.md\",\n    \".agents/skills/create-adr/scripts/start-adr.sh\",\n    \".agents/skills/create-adr/templates/adr.md\",\n    \".agents/skills/create-adr/templates/final-synthesis.md\",\n    \".agents/skills/create-adr/templates/research-prompt.md\",\n    \".agents/skills/triage-adr/SKILL.md\",\n    \".agents/skills/ideation/SKILL.md\",\n    \".agents/skills/ideation/references/open-collider-pattern.md\",\n    \".agents/skills/ideation/templates/ideation-report.md\",\n    \".agents/skills/align/SKILL.md\",\n    \".agents/skills/scout/SKILL.md\",\n    \".agents/skills/scout/templates/scout.md\",\n    \".agents/skills/finish-and-push/SKILL.md\",\n    \".agents/skills/loop-verify/SKILL.md\",\n    \"AGENTS.md\",\n    \"Makefile\",\n    \"docs/methodology-ideal-spec-compromise.md\",\n    \"docs/runbooks/setup-methodology.md\",\n    \"docs/setup-checklist.md\",\n    \"scripts/methodology_graph.py\",\n    \"scripts/triage_facts.py\",\n    \"scripts/sync-agent-skills.sh\",\n    \"docs/inbox.md\",\n    \".agents/skills/create-eval/SKILL.md\",\n    \".agents/skills/improve-eval/SKILL.md\",\n    \".agents/skills/golden-create/SKILL.md\",\n    \".agents/skills/golden-verify/SKILL.md\",\n    \".agents/skills/golden-verify-reset/SKILL.md\",\n    \".agents/skills/triage-evals/SKILL.md\",\n    \"docs/evals/README.md\",\n    \"docs/evals/registry.yaml\",\n    \"docs/evals/attempt-template.md\",\n    \"evals/README.md\",\n    \"tests/fixtures/golden/README.md\"\n  ],\n  \"identical\": [],\n  \"conflicts\": [],\n  \"authored_truth\": \"Ideal/Spec/state are never generated or overwritten\",\n  \"status\": \"copied; setup checklist and project evidence remain to be completed\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "make",
+        "skills-sync"
+      ],
+      "exit_code": 0,
+      "stdout": "bash scripts/sync-agent-skills.sh\nskills-check: OK (23 canonical skills; compatibility links ok; command aliases optional)\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "make",
+        "methodology-compile"
+      ],
+      "exit_code": 0,
+      "stdout": "python3 scripts/methodology_graph.py compile\nWrote docs/methodology/graph.json and docs/stories.md\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "make",
+        "package-check"
+      ],
+      "exit_code": 0,
+      "stdout": "python3 scripts/methodology_graph.py check\nMethodology graph and story index are current\nbash scripts/sync-agent-skills.sh --check\nskills-check: OK (23 canonical skills; compatibility links ok; command aliases optional)\npython3 .agents/skills/setup-methodology/scripts/package.py audit\n{\n  \"status\": \"ok\",\n  \"modules\": [\n    \"core\",\n    \"evidence\"\n  ],\n  \"source_files\": 78\n}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/opt/homebrew/opt/python@3.14/bin/python3.14",
+        "scripts/triage_facts.py",
+        "--json"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"errors\": [],\n  \"evals\": {\n    \"status\": \"present\",\n    \"total\": 0\n  },\n  \"inputs\": {\n    \"eval_registry\": \"present\",\n    \"graph\": \"present\",\n    \"state\": \"present\"\n  },\n  \"lanes\": {\n    \"architecture_audits\": {\n      \"reason\": \"No architecture to audit\",\n      \"status\": \"absent\",\n      \"trigger\": \"\"\n    },\n    \"ui_scout\": {\n      \"reason\": \"No UI exists\",\n      \"status\": \"deferred\",\n      \"trigger\": \"First runnable interface\"\n    }\n  },\n  \"project\": {\n    \"mission\": \"Private low-effort trip preparation\",\n    \"name\": \"Camping checklist integration fixture\"\n  },\n  \"skills\": {\n    \"canonical\": {\n      \"count\": 23,\n      \"status\": \"present\"\n    },\n    \"command_aliases\": {\n      \"count\": 0,\n      \"status\": \"absent\"\n    },\n    \"compatibility_links\": {\n      \"links\": {\n        \".claude/skills\": {\n          \"status\": \"present\",\n          \"target\": \"../.agents/skills\"\n        },\n        \".cursor/skills\": {\n          \"status\": \"present\",\n          \"target\": \"../.agents/skills\"\n        },\n        \"skills\": {\n          \"status\": \"present\",\n          \"target\": \".agents/skills\"\n        }\n      },\n      \"status\": \"present\"\n    }\n  },\n  \"status\": \"valid\",\n  \"stories\": {\n    \"by_status\": {},\n    \"total\": 0\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "facts_status": "valid",
+  "canonical_skills": 23,
+  "intake_preserved": true,
+  "supervisor_registry_absent": true,
+  "root_evidence": "deferred; zero measured eval entries",
+  "limits": "Offline scaffold integration only; not app/UI/runtime/eval/provider or downstream adoption acceptance."
+}

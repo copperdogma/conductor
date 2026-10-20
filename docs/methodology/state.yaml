@@ -1,4 +1,4 @@
-last_updated: 2026-04-10
+last_updated: 2026-10-18
 project:
   name: Conductor
   mission: supervisor project for cross-project alignment, scouting, and work preparation
@@ -32,4 +32,6 @@ tracked_projects:
   source: projects.yaml
 notes:
   - Conductor is intentionally recommendation-first.
+  - Reusable setup library now includes explicit product variants and tested sparse bootstrap; see Alignment 058 for evidence and limits.
+  - Conductor owns canonical reusable skills and methodology; projects own local product contracts, evidence, and justified adaptations (ADR-004).
   - Distributed methodology drift is expected; only unexplained drift is suspicious.

@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "profiles": {
+    "product": [
+      "core",
+      "evidence"
+    ]
+  },
+  "supervisor": "Conductor retains its existing local workflows; do not install product profile into Conductor",
+  "modules": {
+    "core": {
+      "scope": "product",
+      "skills": [
+        "setup-methodology",
+        "init-project",
+        "triage",
+        "triage-stories",
+        "triage-inbox",
+        "triage-health",
+        "create-story",
+        "build-story",
+        "validate",
+        "mark-story-done",
+        "create-adr",
+        "triage-adr",
+        "ideation",
+        "align",
+        "scout",
+        "finish-and-push",
+        "loop-verify"
+      ],
+      "files": {
+        ".agents/skills/setup-methodology/assets/product/AGENTS.md": "AGENTS.md",
+        ".agents/skills/setup-methodology/assets/product/Makefile": "Makefile",
+        ".agents/skills/setup-methodology/assets/product/methodology.md": "docs/methodology-ideal-spec-compromise.md",
+        ".agents/skills/setup-methodology/assets/product/setup-runbook.md": "docs/runbooks/setup-methodology.md",
+        ".agents/skills/setup-methodology/templates/setup-checklist.md": "docs/setup-checklist.md",
+        ".agents/skills/setup-methodology/assets/product/scripts/methodology_graph.py": "scripts/methodology_graph.py",
+        ".agents/skills/setup-methodology/assets/product/scripts/triage_facts.py": "scripts/triage_facts.py",
+        "scripts/sync-agent-skills.sh": "scripts/sync-agent-skills.sh",
+        ".agents/skills/setup-methodology/assets/product/inbox.md": "docs/inbox.md"
+      },
+      "overlays": {
+        ".agents/skills/setup-methodology/assets/product/skills/triage.md": ".agents/skills/triage/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/triage-stories.md": ".agents/skills/triage-stories/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/create-story.md": ".agents/skills/create-story/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/build-story.md": ".agents/skills/build-story/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/validate.md": ".agents/skills/validate/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/mark-story-done.md": ".agents/skills/mark-story-done/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/scout.md": ".agents/skills/scout/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/create-adr.md": ".agents/skills/create-adr/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/skills/triage-adr.md": ".agents/skills/triage-adr/SKILL.md",
+        ".agents/skills/setup-methodology/assets/product/story.md": ".agents/skills/create-story/templates/story.md",
+        ".agents/skills/setup-methodology/assets/product/adr.md": ".agents/skills/create-adr/templates/adr.md",
+        ".agents/skills/setup-methodology/assets/product/research-prompt.md": ".agents/skills/create-adr/templates/research-prompt.md",
+        ".agents/skills/setup-methodology/assets/product/final-synthesis.md": ".agents/skills/create-adr/templates/final-synthesis.md"
+      }
+    },
+    "evidence": {
+      "scope": "shared guidance; product assets",
+      "requires": [
+        "core"
+      ],
+      "skills": [
+        "create-eval",
+        "improve-eval",
+        "golden-create",
+        "golden-verify",
+        "golden-verify-reset",
+        "triage-evals"
+      ],
+      "files": {
+        ".agents/skills/setup-methodology/assets/evidence/README.md": "docs/evals/README.md",
+        ".agents/skills/setup-methodology/assets/evidence/registry.yaml": "docs/evals/registry.yaml",
+        ".agents/skills/setup-methodology/assets/evidence/attempt-template.md": "docs/evals/attempt-template.md",
+        ".agents/skills/setup-methodology/assets/evidence/evals-README.md": "evals/README.md",
+        ".agents/skills/setup-methodology/assets/evidence/golden-README.md": "tests/fixtures/golden/README.md"
+      }
+    },
+    "architecture": {
+      "scope": "optional product lane",
+      "requires": [
+        "core"
+      ],
+      "skills": [
+        "triage-architecture"
+      ]
+    },
+    "codebase": {
+      "scope": "optional product lane",
+      "requires": [
+        "core"
+      ],
+      "skills": [
+        "codebase-improvement-scout"
+      ]
+    },
+    "ui": {
+      "scope": "optional product lane",
+      "requires": [
+        "core"
+      ],
+      "skills": [
+        "ui-scout"
+      ]
+    },
+    "strategic-review": {
+      "scope": "shared optional",
+      "requires": [
+        "core"
+      ],
+      "skills": [
+        "loop-review"
+      ]
+    },
+    "security": {
+      "scope": "shared optional",
+      "requires": [
+        "core"
+      ],
+      "skills": [
+        "security-audit"
+      ]
+    }
+  }
+}

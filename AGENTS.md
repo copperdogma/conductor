@@ -5,16 +5,27 @@ Read this file at the start of every session.
 > **Mission:** Conductor is the supervisor project for Cam's active AI-first
 > projects. It reduces cross-project busywork by routing notes, comparing
 > infrastructure drift, scouting external ideas, and preparing project-specific
-> adoption work.
+> adoption work. It maintains the canonical reusable skills and methodology for
+> new and existing projects; model evaluation serves those projects.
 
 ## Core idea
 
-Conductor is **not** the canonical copy of the harness. The harness remains
-distributed across the tracked projects.
+Conductor owns the **canonical reusable skills and methodology package**.
+Projects adopt the relevant parts and own their local product contracts,
+harnesses, evidence, and justified adaptations. Canonical source ownership does
+not require uniform project implementations. Review useful local improvements
+for promotion back into Conductor when they generalize without project-specific
+overfitting. This is an evolving baseline, not a claim to the absolute latest
+version of every skill.
 
 Conductor exists to:
 
-- compare those distributed surfaces when asked
+- maintain reusable skills and methodology so a new project can start by
+  following Conductor's kickoff/setup guidance
+- assess projects and test their skills in context, then prepare or perform
+  authorized improvements and rollouts
+- evaluate models on behalf of projects to inform useful adoption
+- compare distributed project surfaces when asked
 - explain where they differ and why
 - recommend what should sync, what should stay local, and what needs a human decision
 - turn raw links and notes into ready work
@@ -99,7 +110,8 @@ Specialized loops:
   the owner lacks one
 - `/ideation` for optional divergent option generation before Ideal/spec,
   story, or ADR decisions when option quality is the blocker
-- `/setup-methodology` for refreshing this project's own methodology package
+- `/setup-methodology` for installing or refreshing the relevant canonical
+  package in a project after Ideal/spec intake
 
 ## Working norms
 
@@ -165,7 +177,8 @@ campaign or a runtime change.
 
 - Do not assume the newest project change should propagate everywhere.
 - Do not collapse intentional project-specific differences into fake "drift."
-- Do not create a heavyweight canonical core unless the user explicitly wants one.
+- Keep the canonical skills/methodology package selective and lightweight;
+  preserve project-owned harnesses, product contracts, and justified adaptations.
 - Do not describe sync work as complete until the target projects have their own
   stories, patches, or applied changes.
 - When Conductor needs to modify a tracked project repo directly, do that work

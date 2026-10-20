@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-18",
+  "failed_first_exercise": {
+    "target": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-setup-forward-lxr6m8mk",
+    "status": "failed source-write isolation; coordinator restored approved source; not counted as clean proof"
+  },
+  "independent_confirmation": {
+    "target": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-setup-confirm-5aqyrenb",
+    "status": "setup checks passed; detected loop-verify manifest defect; prior-source snapshot retained",
+    "summary": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-setup-confirm-5aqyrenb/docs/setup-summary.md"
+  },
+  "final_source_confirmation": {
+    "target": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+    "status": "passed",
+    "method": "fresh install from final source; retained independently authored/reviewed intake/state/story and explicitly reviewed local adaptations",
+    "commands": [
+      {
+        "argv": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "/Users/cam/Documents/Projects/conductor/.agents/skills/setup-methodology/scripts/package.py",
+          "plan",
+          "--target",
+          "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+          "--modules",
+          "core",
+          "evidence"
+        ],
+        "cwd": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+        "exit_code": 0,
+        "stdout": "{\n  \"variant\": \"product\",\n  \"modules\": [\n    \"core\",\n    \"evidence\"\n  ],\n  \"create\": [\n    \".agents/skills/setup-methodology/SKILL.md\",\n    \".agents/skills/setup-methodology/assets/evidence/README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/attempt-template.md\",\n    \".agents/skills/setup-methodology/assets/evidence/evals-README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/golden-README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/registry.yaml\",\n    \".agents/skills/setup-methodology/assets/product/AGENTS.md\",\n    \".agents/skills/setup-methodology/assets/product/Makefile\",\n    \".agents/skills/setup-methodology/assets/product/adr.md\",\n    \".agents/skills/setup-methodology/assets/product/final-synthesis.md\",\n    \".agents/skills/setup-methodology/assets/product/inbox.md\",\n    \".agents/skills/setup-methodology/assets/product/methodology.md\",\n    \".agents/skills/setup-methodology/assets/product/research-prompt.md\",\n    \".agents/skills/setup-methodology/assets/product/scripts/methodology_graph.py\",\n    \".agents/skills/setup-methodology/assets/product/scripts/triage_facts.py\",\n    \".agents/skills/setup-methodology/assets/product/setup-runbook.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/build-story.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/create-adr.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/create-story.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/mark-story-done.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/scout.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage-adr.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage-stories.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/validate.md\",\n    \".agents/skills/setup-methodology/assets/product/story.md\",\n    \".agents/skills/setup-methodology/package.json\",\n    \".agents/skills/setup-methodology/references/modes.md\",\n    \".agents/skills/setup-methodology/references/package-installation.md\",\n    \".agents/skills/setup-methodology/references/product-workflow.md\",\n    \".agents/skills/setup-methodology/references/runtime-and-dependencies.md\",\n    \".agents/skills/setup-methodology/scripts/package.py\",\n    \".agents/skills/setup-methodology/templates/setup-checklist.md\",\n    \".agents/skills/init-project/SKILL.md\",\n    \".agents/skills/triage/SKILL.md\",\n    \".agents/skills/triage-stories/SKILL.md\",\n    \".agents/skills/triage-inbox/SKILL.md\",\n    \".agents/skills/triage-health/SKILL.md\",\n    \".agents/skills/create-story/SKILL.md\",\n    \".agents/skills/create-story/scripts/start-story.sh\",\n    \".agents/skills/create-story/templates/story.md\",\n    \".agents/skills/build-story/SKILL.md\",\n    \".agents/skills/validate/SKILL.md\",\n    \".agents/skills/mark-story-done/SKILL.md\",\n    \".agents/skills/create-adr/SKILL.md\",\n    \".agents/skills/create-adr/scripts/start-adr.sh\",\n    \".agents/skills/create-adr/templates/adr.md\",\n    \".agents/skills/create-adr/templates/final-synthesis.md\",\n    \".agents/skills/create-adr/templates/research-prompt.md\",\n    \".agents/skills/triage-adr/SKILL.md\",\n    \".agents/skills/ideation/SKILL.md\",\n    \".agents/skills/ideation/references/open-collider-pattern.md\",\n    \".agents/skills/ideation/templates/ideation-report.md\",\n    \".agents/skills/align/SKILL.md\",\n    \".agents/skills/scout/SKILL.md\",\n    \".agents/skills/scout/templates/scout.md\",\n    \".agents/skills/finish-and-push/SKILL.md\",\n    \".agents/skills/loop-verify/SKILL.md\",\n    \"AGENTS.md\",\n    \"Makefile\",\n    \"docs/methodology-ideal-spec-compromise.md\",\n    \"docs/runbooks/setup-methodology.md\",\n    \"docs/setup-checklist.md\",\n    \"scripts/methodology_graph.py\",\n    \"scripts/triage_facts.py\",\n    \"scripts/sync-agent-skills.sh\",\n    \"docs/inbox.md\",\n    \".agents/skills/create-eval/SKILL.md\",\n    \".agents/skills/improve-eval/SKILL.md\",\n    \".agents/skills/golden-create/SKILL.md\",\n    \".agents/skills/golden-verify/SKILL.md\",\n    \".agents/skills/golden-verify-reset/SKILL.md\",\n    \".agents/skills/triage-evals/SKILL.md\",\n    \"docs/evals/README.md\",\n    \"docs/evals/registry.yaml\",\n    \"docs/evals/attempt-template.md\",\n    \"evals/README.md\",\n    \"tests/fixtures/golden/README.md\"\n  ],\n  \"identical\": [],\n  \"conflicts\": [],\n  \"authored_truth\": \"Ideal/Spec/state are never generated or overwritten\"\n}\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "/opt/homebrew/opt/python@3.14/bin/python3.14",
+          "/Users/cam/Documents/Projects/conductor/.agents/skills/setup-methodology/scripts/package.py",
+          "install",
+          "--target",
+          "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+          "--modules",
+          "core",
+          "evidence"
+        ],
+        "cwd": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+        "exit_code": 0,
+        "stdout": "{\n  \"variant\": \"product\",\n  \"modules\": [\n    \"core\",\n    \"evidence\"\n  ],\n  \"create\": [\n    \".agents/skills/setup-methodology/SKILL.md\",\n    \".agents/skills/setup-methodology/assets/evidence/README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/attempt-template.md\",\n    \".agents/skills/setup-methodology/assets/evidence/evals-README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/golden-README.md\",\n    \".agents/skills/setup-methodology/assets/evidence/registry.yaml\",\n    \".agents/skills/setup-methodology/assets/product/AGENTS.md\",\n    \".agents/skills/setup-methodology/assets/product/Makefile\",\n    \".agents/skills/setup-methodology/assets/product/adr.md\",\n    \".agents/skills/setup-methodology/assets/product/final-synthesis.md\",\n    \".agents/skills/setup-methodology/assets/product/inbox.md\",\n    \".agents/skills/setup-methodology/assets/product/methodology.md\",\n    \".agents/skills/setup-methodology/assets/product/research-prompt.md\",\n    \".agents/skills/setup-methodology/assets/product/scripts/methodology_graph.py\",\n    \".agents/skills/setup-methodology/assets/product/scripts/triage_facts.py\",\n    \".agents/skills/setup-methodology/assets/product/setup-runbook.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/build-story.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/create-adr.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/create-story.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/mark-story-done.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/scout.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage-adr.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage-stories.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/triage.md\",\n    \".agents/skills/setup-methodology/assets/product/skills/validate.md\",\n    \".agents/skills/setup-methodology/assets/product/story.md\",\n    \".agents/skills/setup-methodology/package.json\",\n    \".agents/skills/setup-methodology/references/modes.md\",\n    \".agents/skills/setup-methodology/references/package-installation.md\",\n    \".agents/skills/setup-methodology/references/product-workflow.md\",\n    \".agents/skills/setup-methodology/references/runtime-and-dependencies.md\",\n    \".agents/skills/setup-methodology/scripts/package.py\",\n    \".agents/skills/setup-methodology/templates/setup-checklist.md\",\n    \".agents/skills/init-project/SKILL.md\",\n    \".agents/skills/triage/SKILL.md\",\n    \".agents/skills/triage-stories/SKILL.md\",\n    \".agents/skills/triage-inbox/SKILL.md\",\n    \".agents/skills/triage-health/SKILL.md\",\n    \".agents/skills/create-story/SKILL.md\",\n    \".agents/skills/create-story/scripts/start-story.sh\",\n    \".agents/skills/create-story/templates/story.md\",\n    \".agents/skills/build-story/SKILL.md\",\n    \".agents/skills/validate/SKILL.md\",\n    \".agents/skills/mark-story-done/SKILL.md\",\n    \".agents/skills/create-adr/SKILL.md\",\n    \".agents/skills/create-adr/scripts/start-adr.sh\",\n    \".agents/skills/create-adr/templates/adr.md\",\n    \".agents/skills/create-adr/templates/final-synthesis.md\",\n    \".agents/skills/create-adr/templates/research-prompt.md\",\n    \".agents/skills/triage-adr/SKILL.md\",\n    \".agents/skills/ideation/SKILL.md\",\n    \".agents/skills/ideation/references/open-collider-pattern.md\",\n    \".agents/skills/ideation/templates/ideation-report.md\",\n    \".agents/skills/align/SKILL.md\",\n    \".agents/skills/scout/SKILL.md\",\n    \".agents/skills/scout/templates/scout.md\",\n    \".agents/skills/finish-and-push/SKILL.md\",\n    \".agents/skills/loop-verify/SKILL.md\",\n    \"AGENTS.md\",\n    \"Makefile\",\n    \"docs/methodology-ideal-spec-compromise.md\",\n    \"docs/runbooks/setup-methodology.md\",\n    \"docs/setup-checklist.md\",\n    \"scripts/methodology_graph.py\",\n    \"scripts/triage_facts.py\",\n    \"scripts/sync-agent-skills.sh\",\n    \"docs/inbox.md\",\n    \".agents/skills/create-eval/SKILL.md\",\n    \".agents/skills/improve-eval/SKILL.md\",\n    \".agents/skills/golden-create/SKILL.md\",\n    \".agents/skills/golden-verify/SKILL.md\",\n    \".agents/skills/golden-verify-reset/SKILL.md\",\n    \".agents/skills/triage-evals/SKILL.md\",\n    \"docs/evals/README.md\",\n    \"docs/evals/registry.yaml\",\n    \"docs/evals/attempt-template.md\",\n    \"evals/README.md\",\n    \"tests/fixtures/golden/README.md\"\n  ],\n  \"identical\": [],\n  \"conflicts\": [],\n  \"authored_truth\": \"Ideal/Spec/state are never generated or overwritten\",\n  \"status\": \"copied; setup checklist and project evidence remain to be completed\"\n}\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "make",
+          "skills-sync"
+        ],
+        "cwd": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+        "exit_code": 0,
+        "stdout": "bash scripts/sync-agent-skills.sh\nskills-check: OK (23 canonical skills; compatibility links ok; command aliases optional)\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "make",
+          "methodology-compile"
+        ],
+        "cwd": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+        "exit_code": 0,
+        "stdout": "python3 scripts/methodology_graph.py compile\nWrote docs/methodology/graph.json and docs/stories.md\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "make",
+          "package-check"
+        ],
+        "cwd": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+        "exit_code": 0,
+        "stdout": "python3 scripts/methodology_graph.py check\nMethodology graph and story index are current\nbash scripts/sync-agent-skills.sh --check\nskills-check: OK (23 canonical skills; compatibility links ok; command aliases optional)\npython3 .agents/skills/setup-methodology/scripts/package.py audit\n{\n  \"status\": \"ok\",\n  \"modules\": [\n    \"core\",\n    \"evidence\"\n  ],\n  \"source_files\": 78\n}\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "python3",
+          "scripts/triage_facts.py",
+          "--json"
+        ],
+        "cwd": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y",
+        "exit_code": 0,
+        "stdout": "{\n  \"errors\": [],\n  \"evals\": {\n    \"status\": \"present\",\n    \"total\": 0\n  },\n  \"inputs\": {\n    \"eval_registry\": \"present\",\n    \"graph\": \"present\",\n    \"state\": \"present\"\n  },\n  \"lanes\": {\n    \"architecture_audits\": {\n      \"reason\": \"No architecture has been selected.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"An implemented cross-cutting decision warrants review.\"\n    },\n    \"codebase_improvement\": {\n      \"reason\": \"No product code exists.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"Enough maintained code and observed pain exist for a useful scan.\"\n    },\n    \"dependencies\": {\n      \"reason\": \"Portable setup requires only existing Python 3 and Bash.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"Validation or runtime needs lockfile-managed dependencies; then add and verify a setup hook.\"\n    },\n    \"evals\": {\n      \"reason\": \"No executable capture/correction outcome or agreed output contract.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"Authorize a first executable path with synthetic capture/correction acceptance cases.\"\n    },\n    \"golden\": {\n      \"reason\": \"No project-owned output schema or validator.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"Agree the synthetic first-proof contract and implement a validator for actual outputs.\"\n    },\n    \"runtime\": {\n      \"reason\": \"No runnable product or allocation exists.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"Before the first service launch, obtain Conductor allocation and verify strict binding/checkout identity.\"\n    },\n    \"security\": {\n      \"reason\": \"No implementation or real household data exists.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"Before handling household data or introducing external data transfer, review the concrete privacy boundaries.\"\n    },\n    \"strategic_review\": {\n      \"reason\": \"This is a bounded setup, not a long-running implementation.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"An authorized sustained work loop develops material strategy decisions.\"\n    },\n    \"ui_scout\": {\n      \"reason\": \"No UI exists.\",\n      \"status\": \"deferred\",\n      \"trigger\": \"A phone-facing interface can be run and interacted with.\"\n    }\n  },\n  \"project\": {\n    \"mission\": \"Private faithful trip preparation with little maintenance.\",\n    \"name\": \"Camping checklists\"\n  },\n  \"skills\": {\n    \"canonical\": {\n      \"count\": 23,\n      \"status\": \"present\"\n    },\n    \"command_aliases\": {\n      \"count\": 0,\n      \"status\": \"absent\"\n    },\n    \"compatibility_links\": {\n      \"links\": {\n        \".claude/skills\": {\n          \"status\": \"present\",\n          \"target\": \"../.agents/skills\"\n        },\n        \".cursor/skills\": {\n          \"status\": \"present\",\n          \"target\": \"../.agents/skills\"\n        },\n        \"skills\": {\n          \"status\": \"present\",\n          \"target\": \".agents/skills\"\n        }\n      },\n      \"status\": \"present\"\n    }\n  },\n  \"status\": \"valid\",\n  \"stories\": {\n    \"by_status\": {\n      \"Draft\": 1\n    },\n    \"total\": 1\n  }\n}\n",
+        "stderr": ""
+      }
+    ],
+    "role_variant": "product",
+    "modules": [
+      "core",
+      "evidence"
+    ],
+    "loop_verify_installed": true,
+    "loop_review_absent": true,
+    "intake_unchanged": true,
+    "source_guard_unchanged": true,
+    "canonical_skills": 23,
+    "draft_stories": {
+      "by_status": {
+        "Draft": 1
+      },
+      "total": 1
+    },
+    "evals": {
+      "status": "present",
+      "total": 0
+    },
+    "root_eval": {
+      "status": "deferred",
+      "reason": "No executable capture/correction outcome or agreed output contract.",
+      "trigger": "Authorize a first executable path with synthetic capture/correction acceptance cases."
+    },
+    "adapted_paths": [
+      "AGENTS.md",
+      "docs/setup-checklist.md",
+      "docs/methodology/state.yaml",
+      "docs/stories/story-001-capture-correction-contract.md",
+      "docs/evals/README.md",
+      "docs/evals/registry.yaml",
+      "tests/fixtures/golden/README.md"
+    ],
+    "reviewed_adaptation_update": "AGENTS/checklist updated after copying to reflect core loop-verify and absent optional loop-review; source and earlier exercise untouched.",
+    "summary": "/private/var/folders/8f/3nlcf3sj1s5bbk1g_3dt3djm0000gn/T/conductor-package-final-url1bk4y/docs/setup-summary.md"
+  },
+  "limitations": [
+    "Planning/scaffold exercise only; no product implementation, runtime, provider call, actual golden or product acceptance.",
+    "Tests cover a sparse program project; existing/richer/hardware/creative project adaptations are not proven."
+  ]
+}

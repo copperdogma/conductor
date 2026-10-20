@@ -35,7 +35,13 @@ Use this to compare shared-ish infrastructure surfaces across the tracked projec
    - If the requested alignment is driven by an ADR whose remaining decisions
      are unclear, run `/triage-adr` first so the comparison does not propagate
      an unsettled or stale decision.
-3. Compare the source and target projects.
+3. Compare the source and target projects in both directions. Conductor
+   maintains the reusable skills/methodology baseline, while projects can have
+   newer or better local versions. Look for project-local improvements worth
+   promoting back when they solve a general problem, have supporting local
+   evidence, and do not import overfit domain mechanisms. Preserve provenance,
+   applicability limits, and intentional local adaptations; do not equate
+   "newer" with "canonical" or source changes with downstream adoption.
 4. Classify each important difference:
    - intentional adaptation
    - portable improvement

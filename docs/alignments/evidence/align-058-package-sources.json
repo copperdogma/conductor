@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-18",
+  "kind": "reviewed local source provenance, not verbatim-copy or downstream-adoption claims",
+  "sources": [
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/setup-methodology/templates/setup-checklist.md",
+      "sha256": "b26f83c045a0a2e49a49d0569c672cf6c8ed74fa4f5a52d05973059f2a81b86d",
+      "use": "reviewed/adapted checklist; no forced dual Ideal or unavailable evidence"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/setup-methodology/references/modes.md",
+      "sha256": "f401c6e74957ed960b83ead6e15ddad887e69d682421f60eeb0b9507f07c5ccf",
+      "use": "reviewed modes, intake-first"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/create-eval/SKILL.md",
+      "sha256": "cd56dd75db2bafe241853ee8cb8a5aae842aca6735da7b485f9fa11e110ecfb2",
+      "use": "generic registry-aware scaffolding"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/improve-eval/SKILL.md",
+      "sha256": "e33292895e3ae8b5b6a82cf94b8298a0b4643a61260341e398856081ae069f92",
+      "use": "bounded evidence freshness/experiment gates"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/golden-create/SKILL.md",
+      "sha256": "9f42e754bb014ef04b2e9b35790699530b56c3e5ef721fe0a9c2326879a719ca",
+      "use": "source-grounded fixture workflow, domain schemas omitted"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/golden-verify/SKILL.md",
+      "sha256": "dd7785c24bc66b149857b1758d533451b7ee20150266a205e3659be0953ce79d",
+      "use": "independent semantic vs structural proof"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/golden-verify-reset/SKILL.md",
+      "sha256": "49d989fc5b7ca634e5970d8509805bcfdbf28c9e9039eda55190b4a4da488688",
+      "use": "verification-history preservation"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/scripts/methodology-graph.mjs",
+      "sha256": "eda76770cea2f3d3f50b4dd586978a773f0af23ef534434771481eb7d237fc18",
+      "use": "small product compiler design; reimplemented without domain requirement grammar"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/scripts/triage-facts.mjs",
+      "sha256": "06e16a2c0cf3bd1ea26325700d9912768eebdd2fd919d4b338e2b5dfbcfb372b",
+      "use": "sparse-lane behavior; strengthen malformed-input distinction"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/dossier/.agents/skills/align/SKILL.md",
+      "sha256": "d58fe1988fcdc2065795448729db1eac5a9a9ccb3783b70fc4c40f9403e49e9f",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/dossier/.agents/skills/triage/SKILL.md",
+      "sha256": "5d0725f4808f8dc17010eccaf14eb239d7e9932ee4d7f2339630564c2008f4d2",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/dossier/.agents/skills/triage-health/SKILL.md",
+      "sha256": "d0281a59dedfa2e03d1d60179cadbb2e8d90562b8761e034ca799b78b3a982b9",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/dossier/.agents/skills/triage-inbox/SKILL.md",
+      "sha256": "867f1e5eab56453ad934b7e3f79e87b4eaabf17c5ed4b6734b961ae50c579d9b",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/dossier/.agents/skills/triage-evals/SKILL.md",
+      "sha256": "474499ac6eb3d372d2f49affd5e15df2e90131bbfda1783e99818e4916e54f5b",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/dossier/.agents/skills/triage-stories/SKILL.md",
+      "sha256": "cb029ea8655e69bad55386cf36f0d8420ddb7aad2ac8ac687696bdcbfad08d10",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/dossier/.agents/skills/codebase-improvement-scout/SKILL.md",
+      "sha256": "57c3543bd61e6d355e963cf7eef24b726b1c5b4ef470175db4fd61125833aed4",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/align/SKILL.md",
+      "sha256": "1f1daf68fba883c481dcf56f8adc71624b27ab945b3a497a755698c124c8cb8a",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/triage/SKILL.md",
+      "sha256": "03d27126be8f8c64fc8572c14b921c16f9acc5d13707a3967e4b5eb480a1fe39",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/triage-health/SKILL.md",
+      "sha256": "d7b2924a7d8bb863e7528ca9a640daa449076327adaf60312ac38a59731cee82",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/triage-inbox/SKILL.md",
+      "sha256": "1d0e411b4adff4e2588b836952b0b172842a467950bad347ca4314255048651e",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/triage-evals/SKILL.md",
+      "sha256": "ef840e0eef0dacef7a17af0e1a8e05c7de22faec9c7287ac7c77b8ff79a90790",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/triage-stories/SKILL.md",
+      "sha256": "f744d416125fb5a8e05e6b0a6383e539afb3e768bd60f9206128a33aecdb952d",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/doc-web/.agents/skills/codebase-improvement-scout/SKILL.md",
+      "sha256": "9d8e7ca7f9581c90a8e86b208635bedc83a46398231e146a44220f9df5dd1b85",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/.agents/skills/align/SKILL.md",
+      "sha256": "b7c08f51096503f738271177e628d51564cedeeaf9807ee26a3837a9cc5ddbb2",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/.agents/skills/triage/SKILL.md",
+      "sha256": "1035c40c88f0eb0715b4638b99a15f866be2fde4672aeec99aa670cefa1e7fdd",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/.agents/skills/triage-health/SKILL.md",
+      "sha256": "4ad55dc70de68eb8b768c75639a21f104982778bb077c0a1e836698bf09aec46",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/.agents/skills/triage-inbox/SKILL.md",
+      "sha256": "ccf2fb156b5993b478e2cbc8a97b00057c90c3995ad8adcc2e7541b1a2831957",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/.agents/skills/triage-evals/SKILL.md",
+      "sha256": "5dc8afe6e987a93071531103952cdc778eaec196bdaf326f05a09308e19252a7",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/.agents/skills/triage-stories/SKILL.md",
+      "sha256": "54e8cfb85eb2e0e87c1603ac3d3619d3b23ece2f3cfabb1e8a0bd4053bc0ff4e",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/cine-forge/.agents/skills/codebase-improvement-scout/SKILL.md",
+      "sha256": "1f79004c47bc57ef0b6a86f269cd7ec991b1dd7c5fbc1f913975e8b29c0c4c32",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/.agents/skills/align/SKILL.md",
+      "sha256": "7102d8379c0fd301608e4ce23d5342c906c1d9b16c29b8977c26f0db182a9eda",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/.agents/skills/triage/SKILL.md",
+      "sha256": "f230bc22445268e987201709af679afb17b5920c5aba141ed2f3c880c17a6be8",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/.agents/skills/triage-health/SKILL.md",
+      "sha256": "c79263851d41764d5adec26083596ec143aafbb24cd825fdeffd279c04de243e",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/.agents/skills/triage-inbox/SKILL.md",
+      "sha256": "f63b9963df9a97cae845ef25f1487d534a13629ad125ea189736a030ed71f60a",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/.agents/skills/triage-evals/SKILL.md",
+      "sha256": "0f1f57164e09f0bc01fad748b85ecdc3766c1a76526d6ec169c1f96f3755f1da",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/.agents/skills/triage-stories/SKILL.md",
+      "sha256": "972ea5bd00dc7cabafee5241b61b6ada9b400370009338fe11b21e5db812ef21",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/echo-forge/.agents/skills/codebase-improvement-scout/SKILL.md",
+      "sha256": "4bc4b464270aa227e6c55b11cfe4367c10c09886c1359ff87f6a5117cda4c2dd",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/align/SKILL.md",
+      "sha256": "88653eab8739a61bc6d2f150dcc29d2da8b6e929eefecd733cee1428db0c54c6",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/triage/SKILL.md",
+      "sha256": "20a79e4879a0c41988da5261a71f7eb7e1e33f4c8e0dcdca189605738b2cada8",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/triage-health/SKILL.md",
+      "sha256": "12b0b3b6ebba3c31d962b161a27d0c9258e650edb61f454bff5b5f0d144dea3e",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/triage-inbox/SKILL.md",
+      "sha256": "9228c4e07268207a64b9228c1128bf017ea975f34bde4c16a52de63e9e4b77f2",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/triage-evals/SKILL.md",
+      "sha256": "b724bf5ad9063d761433b7924efc983db918f6c219b7ffd521e49dc402dee463",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/triage-stories/SKILL.md",
+      "sha256": "4e1a95c95d1b5eb662acdb3b5150268b591cce06d20cfcb6e6e85eebaabc7c58",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    },
+    {
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/.agents/skills/codebase-improvement-scout/SKILL.md",
+      "sha256": "3510a85d222b6ece419acfd5ba2e4a98d649d89c525640a8598c002e87c4ff89",
+      "use": "compared common semantics; product-specific lanes and tooling removed"
+    }
+  ]
+}

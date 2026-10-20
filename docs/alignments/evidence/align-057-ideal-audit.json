@@ -1,0 +1,170 @@
+{
+  "review_date": "2026-10-17",
+  "mode": "read-only target review",
+  "word_count_method": "len(text.split()) including headings",
+  "coverage": "11 registry projects plus 7 additional local repos with docs/ideal.md; worktree duplicates excluded by git common directory",
+  "sources": [
+    {
+      "root": "/Users/cam/Documents/Projects/dossier",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/dossier/docs/ideal.md",
+      "words": 1329,
+      "sha256": "aaa6b800e865b47f70eccb768ad001e3041507a5cbfbd010a7614a8154a2018f",
+      "checkout_head": "0f4edc20522fc5e2e958f7831194287ea2cd90b1",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/Storybook/storybook",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/Storybook/storybook/docs/ideal.md",
+      "words": 2082,
+      "sha256": "ed2734e32852dc0426a61e085f0121eda79c4387c65eafd49b60d90a8f177666",
+      "checkout_head": "ca9e21b4e0221c332befe3fe652cd3a47b6531d6",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/doc-web",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/doc-web/docs/ideal.md",
+      "words": 992,
+      "sha256": "0ebdf0bc95db66d57296aa89d10e71317afa339be40b526293ea5aacd139c0d5",
+      "checkout_head": "19b30b1d0db4a7f3b2e31614ba9846dfdb93355c",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/cine-forge",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/cine-forge/docs/ideal.md",
+      "words": 3491,
+      "sha256": "4984a7ae87f619780ff5b4ef723d9e8ec85d2c5da5c3c17aab9ab3c0ab96ed97",
+      "checkout_head": "714802a53275a959ffb250c355ce13ae8e6d85ae",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/boardgame-ingester",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/boardgame-ingester/docs/ideal.md",
+      "words": 827,
+      "sha256": "ef52b05ad7b7da28da23f965ec3cf1007b4abdf5e766030136965ffef0eddfd1",
+      "checkout_head": "ee0af2b362054adf3e309efcdde004566ef12ab2",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/roborally",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/roborally/docs/ideal.md",
+      "words": 1277,
+      "sha256": "f3b4ad287ab3deeb1cd4fc522f4fd8d79e63c9d9d798eb3a893521771240839e",
+      "checkout_head": "42ed0dca68c6ed4dccfb0b32a7967bbc1acfafd2",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/echo-forge",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/echo-forge/docs/ideal.md",
+      "words": 641,
+      "sha256": "4e4f969e5ac3ea82f5bbc89071179d2875230e6edc1b4ff6e974899a18835afd",
+      "checkout_head": "cc3c77798ba3da217f46459b39a9338f8651a288",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/ultima-iv-web",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/ultima-iv-web/docs/ideal.md",
+      "words": 802,
+      "sha256": "47955db4dfbb24b11d92ee2df9f9cb752165113fd556a2954b5b42b4fe0f534e",
+      "checkout_head": "686d285976e409c2c441af1fdbf459cec122872a",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/financial-hub",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/financial-hub/docs/ideal.md",
+      "words": 657,
+      "sha256": "0731d8d8f0dd38daff3bce448802553e6af63c550cd941576b37cae028912b00",
+      "checkout_head": "21e9b0211095f9ddabf31d778d41e8b991faafff",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/financial-monthly-analysis",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/financial-monthly-analysis/docs/ideal.md",
+      "words": 2130,
+      "sha256": "0f5bb5fd71f3044f4264719a8ca3387d53e2066172c70bb98a7622d70aee1d88",
+      "checkout_head": "b2f2a293121d4ba35f9b57082da1861e3b30591c",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/ultima-iv-web/vlc-thumbs",
+      "scope": "managed",
+      "path": "/Users/cam/Documents/Projects/ultima-iv-web/vlc-thumbs/docs/ideal.md",
+      "words": 481,
+      "sha256": "ba44bc2926822aca0933a69910d0e7fa5e963adb712197b2686b4f565374d8dc",
+      "checkout_head": "1bf2374f73ccf126f33a2ba7b71cde61faca89e6",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/alain-lessard-book",
+      "scope": "additional-local",
+      "path": "/Users/cam/Documents/Projects/alain-lessard-book/docs/ideal.md",
+      "words": 547,
+      "sha256": "24d9ffb1541c994806d548827a3d04923bf39e5089c738e6ae5144f1a05ff2a1",
+      "checkout_head": "592d71143025432e9d9424926030c792f62a505a",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/canmore-town-council",
+      "scope": "additional-local",
+      "path": "/Users/cam/Documents/Projects/canmore-town-council/docs/ideal.md",
+      "words": 337,
+      "sha256": "cd89395c8b7073606b9045b4bec407c7d5ca5b12b9ccbee1046a2a577e31ea52",
+      "checkout_head": "a17e92a9ab65fb6011cf92a8294da3c8868ca49b",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/onward-to-the-unknown-website",
+      "scope": "additional-local",
+      "path": "/Users/cam/Documents/Projects/onward-to-the-unknown-website/docs/ideal.md",
+      "words": 591,
+      "sha256": "cd32c0850a80aabba99fef0884dda40eb76981dd5b05378255b43fd75e5c8fad",
+      "checkout_head": "83d8338567a7345be7eab4281a9a5bc1eeb66017",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/ravenloft-cthulhu",
+      "scope": "additional-local",
+      "path": "/Users/cam/Documents/Projects/ravenloft-cthulhu/docs/ideal.md",
+      "words": 252,
+      "sha256": "8e80beaccc1aadcd1d24ed74ab24bb53777019292d828877a77778636d55d6d2",
+      "checkout_head": "4421cdfdcc492907cc119ccd924cd8b937754528",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/roborally-web",
+      "scope": "additional-local",
+      "path": "/Users/cam/Documents/Projects/roborally-web/docs/ideal.md",
+      "words": 481,
+      "sha256": "30c8a5ce0effb4083b55fd99edf485bcc62c34c2b2d3c0e493668ff9712ea11d",
+      "checkout_head": null,
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/rpg-map-projector",
+      "scope": "additional-local",
+      "path": "/Users/cam/Documents/Projects/rpg-map-projector/docs/ideal.md",
+      "words": 406,
+      "sha256": "b54abb9d3b834f9e83517590a58d9fd2874f6e86c9474497b19b10b77b22a9d8",
+      "checkout_head": "7d628dac55d8ccb324c4ecb4a13ac005171a8fe2",
+      "root_agents_present": true
+    },
+    {
+      "root": "/Users/cam/Documents/Projects/wyze-homekit",
+      "scope": "additional-local",
+      "path": "/Users/cam/Documents/Projects/wyze-homekit/docs/ideal.md",
+      "words": 415,
+      "sha256": "fc2f5836ed146d209a76d24e039a27b4a4de7bc36e82bc52a65e98f91441b32c",
+      "checkout_head": "d75408a029931868a6af98b2af419ddd0c79c0bc",
+      "root_agents_present": false
+    }
+  ]
+}

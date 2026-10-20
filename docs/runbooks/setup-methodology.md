@@ -30,6 +30,9 @@ and acceptance criteria.
    plan.
 3. Create real, project-specific `docs/ideal.md` and `docs/spec.md`; review
    them against the seed for coverage, contradictions, and late Ideal material.
+   Apply the skill's Ideal quality gate even to existing files: a concise north
+   star of desired outcomes, zero implementation. Move mechanisms and current
+   constraints to their owning artifacts; preserve distinct user needs.
 4. Create the state file and project registry when the chosen package warrants
    them.
 5. Install inbox, scout, and alignment logs when they fit the project shape.
@@ -65,13 +68,32 @@ and acceptance criteria.
    - `make skills-sync`
    - `make skills-check`
 
+## Source library and role variants
+
+The bundle's [package guide](../../.agents/skills/setup-methodology/references/package-installation.md)
+and manifest distinguish shared practices from product and supervisor workflows.
+The installed product variants do not import Conductor's portfolio authority.
+Use the source audit before copying, review the installation plan, complete the
+checklist after copying, and test the actual project proof shape. The product
+starter uses its own small compiler and sparse facts rather than Conductor's
+registry/log projection. Existing projects preserve their maintained compilers,
+fixtures and local rules through explicit adaptation.
+
 ## Shared Product-Repo Setup Rule
 
-Conductor is not the canonical copy of every product skill, but the tracked
-product repos should keep the portable `/setup-methodology` skill identical.
-When the product setup package changes, upgrade one product worktree, then copy
-the exact skill file into the other product repos and refresh canonical
-`.agents/skills` compatibility links.
+Conductor owns the canonical reusable skills and methodology package. Select
+relevant skills and resources from Conductor for each project; preserve local
+product contracts and justified adaptations. New projects first author their
+Ideal/spec through `/init-project`, then follow `/setup-methodology`.
+
+Improve the shared source in Conductor, then use the alignment lane for
+cross-project adoption under the target repos' worktree and validation rules.
+Keep shared files exact where the package requires it; do not overwrite
+intentional local differences. A useful change discovered in a product repo
+should be reviewed for promotion into Conductor when it is generic, locally
+supported, and not overfit. Conductor need not always hold the newest version of
+every local skill; it maintains the best reviewed reusable baseline. Never
+claim adoption merely because the canonical source changed.
 
 The product setup skill must be sparse-safe for repos with no code yet:
 

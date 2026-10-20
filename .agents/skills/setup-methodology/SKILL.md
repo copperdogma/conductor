@@ -25,6 +25,29 @@ installer/normalizer.
 folder with no real Ideal/spec, stop and route to `/init-project new-idea`;
 do not treat that route as approval to scaffold without the kickoff interview.
 
+## Ideal quality gate
+
+The Ideal is a short north star: **what should be true for the user if technical
+capability were no obstacle?** It contains **zero implementation**. Default to
+one readable page, usually 200–500 words, shorter when sufficient; preserve
+distinct outcomes rather than padding to a quota or turning intake into a catalog.
+
+Check this even when the file already exists and has been reviewed. Reject a
+hybrid Ideal/spec: architecture, stack, models/providers, APIs, schemas, file
+layouts, algorithms, tooling, agent procedures, build steps, current limitations, MVP
+cuts, and delivery phases belong in the Spec, AGENTS/runbooks, or stories/evals.
+Product and execution ideals, when both useful, describe desired experiences
+and outcomes only. Privacy, fidelity, accessibility, or offline availability can
+be user requirements; their implementation mechanisms cannot.
+
+For every sentence ask: would this remain a requirement if a completely different
+implementation delivered the same experience? Preserve the underlying outcome,
+relocate the mechanism with its provenance, and merge repetition. If intended
+outcomes are clear, repair the split within the authorized setup; return to
+intake only when user intent needs clarification. Do not make the user repeat
+an already clear project idea. The `/init-project` skill carries the authoring
+contract and the kickoff runbook gives examples.
+
 ## What This Skill Owns
 
 - `docs/ideal.md` / `docs/spec.md` / `docs/methodology/state.yaml` / `docs/methodology/graph.json` alignment after Ideal/spec intake
@@ -104,11 +127,53 @@ For repos that already have the package but need it re-synced: update AGENTS,
 runbook, checklist structure, eval/golden references, and public-surface docs
 without redoing the whole bootstrap conversation.
 
+## Package inventory and role selection
+
+Conductor is a source library, not a template to copy wholesale. Its own
+supervisor workflows coordinate projects; product workflows work inside one
+project. Shared evidence/review principles can be reused without pretending
+those roles are identical. The bundle's `package.json` declares a product
+profile, optional modules, explicit product skill variants, and their resources.
+It does not replace Conductor's supervisor skills or project-local decisions.
+
+Before choosing files, read `references/package-installation.md` and run the
+bundled helper's `audit`. After reviewed Ideal/spec intake, use its `plan` and
+then `install` for the selected modules in a new target. The helper never
+fabricates Ideal/Spec/state or overwrites existing files; conflicting retrofit
+surfaces require a reviewed adaptation. A successful copy is not completed setup.
+Continue the checklist, author state from real requirements, run applicable
+checks, and record root evidence or an explicit deferral with a trigger.
+
+Optional architecture, codebase, UI, strategy, and security modules are selected
+for actual project needs. No-code/sparse projects do not install them merely
+because they exist. Runtime/dependency setup is a project adaptation using
+`references/runtime-and-dependencies.md`, not an installed generic server.
+Product core variants carry the story/triage workflow; Conductor retains its
+portfolio registry, supervisor triage, and cross-project adoption authority.
+
+## Canonical package source
+
+Conductor maintains the canonical reusable skills and methodology. When setting
+up another project, use its relevant skills, docs, and bundled resources as the
+source; do not search for an arbitrary product repo to serve as the master.
+If this skill was invoked by path from Conductor, keep that source root separate
+from the target project root. Preserve project-specific Ideal/spec, harnesses,
+evidence contracts, and justified adaptations. Report missing source resources
+or required local adaptations explicitly rather than claiming a complete
+package or silently inventing a competing shared standard. Supervisor-only
+skills and lanes belong only where the project's purpose warrants them.
+
+Canonical means the maintained reusable baseline, not an absolute newest version
+of every project-local skill. Review local improvements for evidence-backed,
+generic value before promoting them back to Conductor; leave overfit mechanisms
+local and preserve provenance and justified adaptations.
+
 ## Repo Package Variants
 
-Keep this setup skill text byte-identical across Conductor and the tracked
-product repos. Apply the package according to repo identity rather than
-silently forking the setup contract.
+Use the canonical setup skill unchanged where it fits. Apply the package
+according to repo identity; document any justified local adaptation instead of
+silently forking the shared contract. Feed generic improvements back to
+Conductor for review without treating every local difference as drift.
 
 - **Product repos** use the full product methodology package: Ideal/spec,
   state/graph, eval/golden bootstrap or explicit deferral, story loop, triage,
@@ -127,7 +192,8 @@ silently forking the setup contract.
 
 1. **Ideal/spec preflight is mandatory.** Before installing package surfaces,
    verify `docs/ideal.md` and `docs/spec.md` exist and are project-specific.
-   They may be v0, but they must be real authored artifacts. If either is
+   They may be v0, but they must be real authored artifacts and pass the Ideal
+   quality gate above. If either is
    missing, generic, only a placeholder, or not yet reviewed for cohesion
    against raw intake, stop and route to `/init-project`; do not fabricate them
    from the setup template or skip the user-facing kickoff discussion.
@@ -238,7 +304,9 @@ silently forking the setup contract.
    avoid asking agents to infer runtime truth that cannot exist yet.
 13. **Shared skill surfaces should be copied exactly.** When this setup skill or
    the shared triage/core story-loop/loop-verify package changes, upgrade one
-   source copy and perform a local propagation sweep. Cross-repo propagation is
+   canonical source copy in Conductor and perform a local propagation sweep.
+   Review useful project-local improvements for promotion into that source.
+   Cross-repo propagation is
    separate repo-local adoption work: use dedicated target-repo worktrees or an
    explicit safe execution path, copy exact shared files there, and run that
    repo's skill-surface checks before claiming the target repo is updated. Do
@@ -336,15 +404,17 @@ without spending many rounds proving absent evidence. Do this:
    actually looks like.
 
 2. **Run the Ideal/spec preflight**:
-   - Confirm `docs/ideal.md` exists and is not a blank/template placeholder
+   - Confirm `docs/ideal.md` exists, is project-specific and concise, and passes
+     the Ideal quality gate: desired outcomes only, zero implementation
    - Confirm `docs/spec.md` exists and has real project-specific compromise or
      constraint content
    - For greenfield, confirm the artifacts came from `/init-project` or
      equivalent idea intake
    - Confirm the Ideal/spec were reviewed against raw intake for coverage,
      contradictions, duplicate ideas, and late-arriving Ideal material
-   - If this fails, stop and tell the user to run `/init-project new-idea` or
-     `/init-project from-existing`
+   - If authored intake is missing or intent is unclear, stop and route to
+     `/init-project new-idea` or `/init-project from-existing`. Existing text
+     that only fails the quality gate can be repaired as described above.
 
 3. **Read the canonical references**:
    - `docs/runbooks/setup-methodology.md`
@@ -359,7 +429,8 @@ without spending many rounds proving absent evidence. Do this:
    Never treat the checklist as optional.
 
 5. **Install or refresh the methodology package around the authored Ideal/spec**:
-   - `docs/ideal.md` — product + execution ideal, preserved/refined from intake
+   - `docs/ideal.md` — concise desired outcomes, with zero implementation;
+     product/execution split only when useful, preserved/refined from intake
    - `docs/spec.md` — category-aligned constraint source, preserved/refined from intake
    - `docs/methodology/state.yaml` — central operational state
    - `docs/methodology/graph.json` — compiled methodology joins

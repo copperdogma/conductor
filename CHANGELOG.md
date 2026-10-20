@@ -1,5 +1,18 @@
 # Changelog
 
+## [2026-10-20-setup-package] — Curate the reusable project setup library
+
+### Changed
+- Define a concise outcome-only Ideal and check the boundary during kickoff/setup.
+- Clarify Conductor owns an evolving reusable baseline with explicit product and
+  supervisor variants, preserving project-owned adaptations and evidence.
+- Supply setup/eval/golden/triage resources, optional modules, a preservation-safe
+  copy helper, and dependency-free sparse product planning tools.
+- Record the 18-project Ideal review, independent setup/review findings and
+  recovery, 25 passing tests, and a fresh integrated-source setup confirmation.
+- Preserve upstream staffing/decision-model guidance and unrelated primary work;
+  downstream Ideal rewrites remain paused.
+
 ## [2026-10-14-jev114] — Evaluate Jev 1.14 decision callers
 
 ### Added

@@ -4,7 +4,15 @@ Conductor is the supervisor project for Cam's active AI-first projects.
 
 It exists to reduce cross-project busywork by turning vague notes into ready
 work, comparing shared infrastructure surfaces across projects, and scouting
-external ideas for project-specific adoption.
+external ideas for project-specific adoption. It also maintains the canonical
+reusable skills and methodology for new and existing projects. Model evaluation
+serves those projects by testing whether alternatives are worth adopting.
+
+To start a new project, point its agent at
+[init-project](.agents/skills/init-project/SKILL.md) for Ideal/spec intake, then
+[setup-methodology](.agents/skills/setup-methodology/SKILL.md) to select and
+install the relevant package. Projects retain their own requirements, evidence,
+and justified adaptations.
 
 ## Core loops
 
@@ -27,6 +35,21 @@ external ideas for project-specific adoption.
 - `docs/methodology/graph.json`
 - `docs/align-projects.md`
 - `docs/scout.md`
+
+## Reusable setup package
+
+Conductor is a source library with shared guidance and explicit product variants,
+not a whole-repo template. The [package guide](.agents/skills/setup-methodology/references/package-installation.md)
+explains selection, preservation of local rules, and conditional modules. Audit
+available source resources with:
+
+```bash
+python3 .agents/skills/setup-methodology/scripts/package.py audit
+```
+
+New-project installation requires reviewed Ideal/spec intake and a separate
+explicit target. It preserves existing files and never generates an Ideal,
+Spec, runtime, model call, or product proof.
 
 ## Commands
 
