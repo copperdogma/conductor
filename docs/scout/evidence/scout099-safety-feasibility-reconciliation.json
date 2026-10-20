@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-20",
+  "approval": "yes to prepared US$0 audit, this chat",
+  "status": "complete",
+  "provider_spend_usd": 0,
+  "provider_spend_cap_usd": 0,
+  "worktree": "/Users/cam/.codex/worktrees/scout099-docweb-safety-feasibility-20261020",
+  "branch": "codex/scout099-safety-feasibility-20261020",
+  "base_sha": "1a347f3f5ea13cb672a4e92d040704b99e556118",
+  "closed_source_worktree": "/Users/cam/.codex/worktrees/scout099-docweb-20261020",
+  "root_independent_findings": {
+    "prompt_byte_equal": true,
+    "prompt_sha256": "9931ded6b7e732687b0889e6959ef9a873e6f459a292c132443db0f6bc9a7371",
+    "native_input_dimension_limit": 2048,
+    "over_limit_pairs": 15,
+    "within_limit_pairs": 7,
+    "page018000_blank_lower_band": {
+      "native_crop_dimensions": [
+        2163,
+        5313
+      ],
+      "lower_band_start_y": 3000,
+      "crop_area_fraction": 0.435347261434218,
+      "mean_luminance": 254.998,
+      "fraction_below_luminance200": 8e-06,
+      "meaning": "source-inspected blank paper band exceeds40%; separate flag adjudication, no old verdict/golden rewrite"
+    },
+    "gpt_page012000": "pass with has_page_text=true despite integral-emblem-text reason; new payload contradiction"
+  },
+  "recorded_utc": "2026-10-20T23:21:21.881946+00:00",
+  "decision": "defer adoption and paid qualification; retain current consumer",
+  "provider_dispatches": 0,
+  "judge_dispatches": 0,
+  "historical_verdict_grades": {
+    "minimax": 20,
+    "gpt55": 18,
+    "cases": 22
+  },
+  "manual_full_payload_no_material_issue": {
+    "minimax": 19,
+    "gpt55": 17,
+    "cases": 22,
+    "scope": "exposed-source manual observation, not new maintained score or independent qualification"
+  },
+  "consumer_boundary": {
+    "pairs_built_or_attempted": 22,
+    "over_2048px": 15,
+    "within_2048px_but_different_request": 7,
+    "native_receipts_rejected": 44,
+    "native_proposals_admitted": 0,
+    "full_proposer_finalize_release": "not measured: no eligible native source-row/geometry/operator custody",
+    "human_review_savings": "not measured"
+  },
+  "owner_evidence": {
+    "attempt": "/Users/cam/.codex/worktrees/scout099-docweb-safety-feasibility-20261020/docs/evals/attempts/081-scout099-safety-feasibility.md",
+    "report": "/Users/cam/.codex/worktrees/scout099-docweb-safety-feasibility-20261020/docs/evals/evidence/081-scout099-safety-feasibility/report.md",
+    "manifest": "/Users/cam/.codex/worktrees/scout099-docweb-safety-feasibility-20261020/docs/evals/evidence/081-scout099-safety-feasibility/manifest.json",
+    "manifest_sha256": "89b91539d6b3bffe607d4354d16000b56474b45169288e4cf5ebff545c3243a0",
+    "validation": "/Users/cam/.codex/worktrees/scout099-docweb-safety-feasibility-20261020/docs/evals/evidence/081-scout099-safety-feasibility/validation.json",
+    "root_hash_verified_files": 14
+  },
+  "root_checks": [
+    "10 frozen source/contract hashes verified unchanged",
+    "22 cases/44 payloads and two pre-import EPERM sentinels checked",
+    "historical archive hash independently verified",
+    "all14 owner manifest file sizes and SHA256 verified",
+    "Scout099 local owner links checked",
+    "Conductor touched-file whitespace checked"
+  ],
+  "runtime_changes": false,
+  "commits": false,
+  "pushes": false
+}

@@ -1,5 +1,15 @@
 # Scout Log
 
+- `2026-10-20` — [Scout 099 — MiniMax M3.1 Flash GA](./scout/scout-099-minimax-m31-flash-ga-evaluation-routing.md) — `Complete; defer adoption after US$0 audit`
+  Six selected owners complete: Doc Web safety20/22 versusGPT18/22 with0versus1
+  dangerous false-safe, slower and diagnostic-only; Dossier clean five-meaning
+  tie. Retain current production choices. KnownUS$2.79786269 plus unknown upper
+  .001912125, conservative2.799774815/32.50. Keys removed; [all six owners landed](./scout/evidence/scout099-landing.json),
+  no runtime defaults changed.
+  [Completed US$0 audit](./scout/scout-099-docweb-safety-feasibility-plan.md):
+  full-payload manual observation19/22 versus17/22;15 oversized crops and all44
+  native receipt admissions fail. Retain consumer; no further paid run now.
+
 - `2026-10-17` — [Scout 097 — DeepSeek V4.1 Flash 1017](./scout/scout-097-deepseek-v41-flash-1017-evaluation-routing.md) — `Complete; retain current choices`
   Distinct October17 successor verified from official release and public API
   metadata; all six selected owner campaigns completed. Dossier clean semantic

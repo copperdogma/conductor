@@ -1,5 +1,58 @@
 # Evaluated frontier model ledger
 
+## MiniMax M3.1 Flash GA — Scout099, 2026-10-20
+
+Canonical `minimax/minimax-m3.1-flash-20261019`; requested/served
+`minimax/minimax-m3.1-flash:free`, pinned Minimax. Native `MiniMax-M3.1-Flash`
+API was not called. Preview and anonymous SpaceBunny remain distinct: creator
+says early-version provenance, not served-weight equivalence. Precision and
+immutable backend revision unattested. Public/authored-synthetic fixtures only.
+
+**Defer adoption after completed US$0 audit; retain current runtime choices.**
+All six selected owners reached authenticated exact-GA probes. Router free access
+is callable; strict schema is blocked by parameter admission or nullable dialect
+incompatibility. Faithful prompt-schema diagnostics preserve useful capability
+measurement, not provider strict parity. Storybook actual prompt/validation
+contract qualified. Requested effort high for source/long-history/frame/contour
+work, low for interactive/orientation; enabled reasoning usage varies and exact
+level compliance is not independently attested. No within-task level comparison;
+other levels remain unmeasured.
+
+| Owner/task and tested setting | Completed owner finding / action |
+| --- | --- |
+| Doc Web high32768 |Safety22 fresh pairs20/22 versusGPT18/22; dangerous false-safe0/5 versus1/5, safe accepted15/17 versus14/17. Strongest bounded diagnostic quality lead; mean10.610versus3.950s/p9527.502versus6.224s. Full registry1.0 unmet. Completed US$0 audit: manual full-payload observation19/22versus17/22;15/22crops exceed2048px,7request bodies differ,44/44native identity admissions fail. No full pipeline/review savings measured; defer adoption/paid run. Shipped Solmedium4096 differs from benchmarkGPT5.5none. Literal21/23versusAstra23, crop source clipping despite.9301score, Barney.757773<.99; retain readers/detector/manual veto. Handwriting requested3.7served3.8 quarantined; served-price.016983 accounted. |
+| Dossier high32768 |One321KB synthetic continuation clean5/5 meaning tie, all12 versus19 emitted rows accepted, zero minor/material; documentary basis compressed without separate stamp/artifact rows.40.759versus45.865s,11.13% gain below30% latency target. Retain Solmedium; native strict qualification before new independent subject work, no unchanged clean diagnostic repeat. |
+| Echo low32768 |Matched intent12/15 versusGemini15/15,9/9recall tie,1versus0false controls,0/2versus2/2ambiguity. Candidate full-corpus maximum1/3<control minimum2/3 proves stop;27candidate/26control unmeasured. Complete-body wall p95~3.733versus9.671s caveated, headers quarantined. Tavern3canonical role violations; freshMini also fails golden, no scene winner/Dungeon. Retain Gemini/mapper. |
+| CineForge high32768 |One ordered-JPEG case conditional.6368versusSol.74665/Luna.62285, all0/1dual passes;15.507versus7.661/5.009s. Correct visible growth, ambiguous camera/subjective grades retained. Strict route blocked; retain Sol quality/Luna economy research references. Prop/motion unmeasured, no shipped analyzer/autonomous-QA claim. |
+| Storybook low32768 |Persona11/11narrow rubric each, but explicit forbidden phrase source violation; candidate mean1.977versus1.912s. Photo7/9both exactOCR, candidate empty salientDetails,6.239versus2.100s fails5s. Retain Luna/Gemini. Candidate overrun excluded and interruptedLuna.001912125 full reserve retained; source-stop future regression repaired. FS006/final matched persona unmeasured. |
+| BGI low orientation/high contours32768 |Orientation native nullable schema blocked; only saved typo-normalized uprightB0 succeeds diagnostically, remaining3/control unmeasured. Dense contours0/2versusfreshSol1/2, source0012325materiallost/417BGleak, clean0061380BGleak.20.570versus8.109s. Retain Sol/review, reject tested pristine-contour replacement. Remaining4/hole/source-contact cases unmeasured. |
+
+All candidate requests USD0 on exact promotional route, not durable native-price
+economics. Known controls/qualification1.59164144 plus judges1.20622125 =
+**US$2.79786269 known**, Storybook unresolved upper.001912125, conservative
+**2.799774815/32.50**. All temporary keys removed; no defaults or rollout. Evaluation-phase evidence
+was subsequently selected for scoped commit/push; see the landing receipt.
+
+Authoritative [Scout099 owner evidence](../scout/scout-099-minimax-m31-flash-ga-evaluation-routing.md#completed-owner-decisions--2026-10-20),
+[six exact bases/spend/cleanup receipts](../scout/evidence/scout099-campaign-reconciliation.json),
+[completed US$0 audit](../scout/scout-099-docweb-safety-feasibility-plan.md).
+Root independently read source/outputs and verified six artifact custody manifests.
+[All six owner records landed](../scout/evidence/scout099-landing.json);
+Conductor completion records follow them, with no runtime adoption.
+
+Narrow next triggers: safety feasibility audit is complete and promotion deferred.
+Reopen only when a provider-aware source-bound review role is an active product
+decision with supported route/schema/provenance and eligible native custody;
+independent qualification would need separate selection. No automatic C5
+deletion/promotion or unchanged exposed22 rerun.
+Dossier needs qualified native strict access/contract, not another clean exposed
+continuation. Literal/crop/handwriting, intent ambiguity, persona boundary and
+contour tasks need a materially new checkpoint or source-backed configuration/
+contract hypothesis addressing the observed defect, or explicit fresh intent.
+Orientation requires native nullable strict contract proof before broader quality.
+Cine broader comparison also needs source-valid scorer/consumer qualification.
+Catalog/pricing churn or an untested effort alone does not authorize repeats.
+
 ## DeepSeek V4.1 Flash 1017 — Scout097, 2026-10-17
 
 Canonical router checkpoint `deepseek/deepseek-v4.1-flash-20261017`, requested

@@ -1,5 +1,11 @@
 # Inbox
 
+- 2026-10-20: MiniMax M3.1 Flash GA evaluation and approved US$0 Doc Web
+  feasibility audit completed in Scout099. Retain current models/consumer;
+  defer adoption and further paid qualification. Campaign conservative exposure
+  US$2.799774815/32.50; audit US$0. All six owner records landed; supervisor closeout
+  authorized by Cam. [Landing receipt](docs/scout/evidence/scout099-landing.json). [Report](docs/scout/scout-099-minimax-m31-flash-ga-evaluation-routing.md).
+
 - 2026-10-20: Cam approved scoped commit/push of the Ideal guidance, canonical
   source-library ownership, role variants and tested setup package (Align057/058,
   ADR004). Candidate integrated on current remote main with 25 tests and a fresh

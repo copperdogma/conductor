@@ -1,0 +1,42 @@
+[
+  {
+    "owner": "bgi",
+    "manifest": "benchmarks/results/scout099-minimax-20261020/artifact-manifest.json",
+    "files": 58,
+    "errors": []
+  },
+  {
+    "owner": "cine",
+    "manifest": "docs/evals/story-226-minimax3120261020-evidence.json",
+    "files": 81,
+    "errors": []
+  },
+  {
+    "owner": "storybook",
+    "manifest": "docs/evals/artifacts/scout099-minimax-router-20261020/manifest.json",
+    "files": 108,
+    "errors": []
+  },
+  {
+    "owner": "dossier",
+    "manifest": "docs/evals/artifacts/scout099-minimax-long-history-20261020/evidence-manifest.json",
+    "files": 93,
+    "errors": []
+  },
+  {
+    "owner": "echo",
+    "manifest": "docs/evals/attempts/control-intent-v1/20261020-scout099.manifest.json",
+    "files": 99,
+    "errors": []
+  },
+  {
+    "owner": "docweb",
+    "manifest": "docs/evals/evidence/080-scout099/manifest.json",
+    "archive": "native-evidence-dedup.tar.gz",
+    "archive_bytes": 64316182,
+    "archive_sha256": "a95d8003fef28e323f6c9050f6b23a9dd5e22a396ba010c5beb4cfe142a6a271",
+    "files": 145,
+    "blobs": 43,
+    "errors": []
+  }
+]

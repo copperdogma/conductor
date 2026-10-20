@@ -1,0 +1,83 @@
+{
+  "campaign": "Scout099 MiniMax M3.1 Flash GA plus approved US$0 DocWeb audit",
+  "authorization": "Cam: sounds good. Commit and push, 2026-10-20",
+  "status": "all_six_owners_landed_supervisor_candidate_validated",
+  "validation_policy": "Reuse unchanged focused owner tests; verify changed records, hashes, focused tooling lint/replay, methodology and staged whitespace. No paid reruns or runtime adoption.",
+  "owners": [
+    {
+      "owner": "docweb",
+      "worktree": "/Users/cam/.codex/worktrees/scout099-docweb-20261020",
+      "base_sha": "1a347f3f5ea13cb672a4e92d040704b99e556118",
+      "branch": "codex/scout099-minimax-docweb-20261020",
+      "landing_state": "landed",
+      "destination": "origin/main",
+      "commit": "8dfd934d53e23d5e8ee2e396167d3e2975a3102a",
+      "integration_worktree": "/Users/cam/.codex/worktrees/scout099-docweb-land-20261020",
+      "integration_branch": "codex/scout099-docweb-land-20261020",
+      "integration_receipt": "docs/evals/evidence/scout099-closeout-integration.json",
+      "verification": "root independent git ls-remote: integration branch and main exact8dfd934; owner archive/custody checks pass"
+    },
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/scout099-dossier-20261020",
+      "base_sha": "f3597073d5e8bd7269c6bbde3bb6168485136ea5",
+      "branch": "codex/scout099-minimax-dossier-20261020",
+      "landing_state": "landed",
+      "destination": "origin/main",
+      "commit": "62ba22ba6bdd3e7a81be20cc7e76ec2672faf442",
+      "verification": "owner fresh fetch, ancestry and ls-remote: execution branch and main exact commit; fast-forward, no force"
+    },
+    {
+      "owner": "echo",
+      "worktree": "/Users/cam/.codex/worktrees/scout099-echo-20261020",
+      "base_sha": "493df4d002d74cfd2909ff7985244d6cdaeffc6f",
+      "branch": "codex/scout099-minimax-echo-20261020",
+      "landing_state": "landed",
+      "destination": "origin/main",
+      "commit": "bb91a27bf410375e5bc03b2c7dd30a770a14b217",
+      "verification": "owner fresh fetch, ancestry and ls-remote: execution branch and main exact commit; fast-forward, no force"
+    },
+    {
+      "owner": "cine",
+      "worktree": "/Users/cam/.codex/worktrees/scout099-cine-20261020",
+      "base_sha": "01527226f8047f2af4db231091f690e314e11950",
+      "branch": "codex/scout099-minimax-cine-20261020",
+      "landing_state": "landed",
+      "destination": "origin/main",
+      "commit": "6b014ccb12dc308c2a0c431a8af7a89612c7c69c",
+      "verification": "owner fresh fetch, ancestry and ls-remote: execution branch and main exact commit; fast-forward, no force"
+    },
+    {
+      "owner": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/scout099-storybook-20261020",
+      "base_sha": "a30c29ee06bea74299deee481e25b8e8647d616f",
+      "branch": "codex/scout099-minimax-storybook-20261020",
+      "landing_state": "landed",
+      "destination": "origin/main",
+      "commit": "ae3c0625132545c25ebd2ba4303c106b93990fb7",
+      "verification": "owner fresh fetch, ancestry and ls-remote: execution branch and main exact commit; fast-forward, no force"
+    },
+    {
+      "owner": "bgi",
+      "worktree": "/Users/cam/.codex/worktrees/scout099-bgi-20261020",
+      "base_sha": "3d240208bab0e0c02f6f2d6aa5ca944104d2edbe",
+      "branch": "codex/scout099-minimax-bgi-20261020",
+      "landing_state": "landed",
+      "destination": "origin/main",
+      "commit": "ca418e6a761dd9452086742bcc94136577d7d845",
+      "verification": "owner fresh fetch, ancestry and ls-remote: execution branch and main exact commit; fast-forward, no force"
+    }
+  ],
+  "supervisor": {
+    "worktree": "/private/tmp/conductor-scout099-closeout-20261020",
+    "base_sha": "66e73181be80fddeaf8b1a6b7e413e8f9511499c",
+    "branch": "codex/scout099-closeout-20261020",
+    "destination": "origin/main",
+    "landing_state": "validated_candidate_landing_after_owners",
+    "scope": "Scout099 reports/four receipts, additive index/ledger block, scoped inbox capture and landing receipt",
+    "commit_reference": "commit containing this receipt; self-hash omitted to avoid circular identity"
+  },
+  "preservation": "Unrelated primary checkout changes and existing captures preserved; no cleanup requested",
+  "created_utc": "2026-10-20T23:26:30.234198+00:00",
+  "updated_utc": "2026-10-20T23:30:21.502284+00:00"
+}
