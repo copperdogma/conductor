@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-20",
+  "repository": "https://github.com/copperdogma/conductor",
+  "package_commit": "e64152b77555c4ef2c064fc16959b6b0371e2c3f",
+  "base": "c695adb",
+  "branch": "codex/conductor-reusable-setup",
+  "verified_remote_refs": [
+    "e64152b77555c4ef2c064fc16959b6b0371e2c3f\trefs/heads/codex/conductor-reusable-setup",
+    "e64152b77555c4ef2c064fc16959b6b0371e2c3f\trefs/heads/main"
+  ],
+  "primary_dirty_files_preserved": 214,
+  "primary_checkout_unchanged": true,
+  "integration_worktree": "/Users/cam/.codex/worktrees/conductor-setup-package-landing/conductor",
+  "validation": {
+    "repo_tests": "25 passed on integrated package; unchanged code evidence retained",
+    "fresh_setup": "passed; see align-058-integration-check.json",
+    "independent_integration_review": "no material findings",
+    "inventory": "88 source resources",
+    "final_template_cleanup": "one extra terminal blank line removed after staging exposed it; focused package tests rerun"
+  },
+  "scope": "Conductor Ideal/canonical-source/setup package and evidence only; no downstream rollout or Ideal rewrite",
+  "remaining": "None for the scoped implementation; final receipt/format follow-up remote refs are verified in the handoff."
+}

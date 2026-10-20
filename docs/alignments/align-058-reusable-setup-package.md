@@ -178,3 +178,12 @@ source identities, commands, results and applicability limits.
 The validated candidate is ready for the authorized branch/main push; final
 remote identities are verified and reported in the close-out handoff. This
 close-out does not resume target-project Ideal rewrites or authorize a rollout.
+
+
+The package commit `e64152b77555c4ef2c064fc16959b6b0371e2c3f` was subsequently
+verified on both remote main and the execution branch. All 214 snapshotted dirty
+primary files remain byte-identical. The final staged whitespace check exposed
+one extra terminal blank line in a new template; it is removed in this receipt
+follow-up, with focused package tests rerun. See the
+[landing receipt](evidence/align-058-landing.json). The final follow-up refs are
+verified in the handoff; no force-push or primary-checkout cleanup is used.

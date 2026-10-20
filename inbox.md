@@ -3,8 +3,10 @@
 - 2026-10-20: Cam approved scoped commit/push of the Ideal guidance, canonical
   source-library ownership, role variants and tested setup package (Align057/058,
   ADR004). Candidate integrated on current remote main with 25 tests and a fresh
-  setup confirmation; unrelated shared-checkout work preserved. Five target
-  Ideal rewrites remain paused; no target rollout or new provider work.
+  setup confirmation; package commit e64152b verified on remote main and task
+  branch ([receipt](docs/alignments/evidence/align-058-landing.json)). All 214
+  snapshotted dirty source files preserved. Five target Ideal rewrites remain
+  paused; no target rollout or new provider work.
 
 - 2026-10-18: Cam approved completing/testing Conductor's reusable setup package
   and clarified that supervisor-tailored skills cannot all be universal.
