@@ -1,5 +1,7 @@
 # Inbox
 
+- 2026-10-23: Cam requested Decisions API GA verification, then approved the focused Storybook cache-accounting fix and scoped commit/push. Addressed in [Scout086 follow-through](docs/scout/scout-086-openai-decisions-api-evaluation-routing.md#ga-verification-and-re-evaluation-decision--2026-10-23). Storybook fix verified on remote main at`e93453da`. No paid benchmark or deployment selected.
+
 - 2026-10-20: MiniMax M3.1 Flash GA evaluation and approved US$0 Doc Web
   feasibility audit completed in Scout099. Retain current models/consumer;
   defer adoption and further paid qualification. Campaign conservative exposure

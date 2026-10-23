@@ -481,3 +481,116 @@ the pre-landing snapshot exactly. No primary synchronization or cleanup occurred
 Owner deployment/closure receipts landed on verified branch and remote main at
 `d9cb51527e4e5b16a3e406617da8e72caf1f1ba2`; follow-up commits are documentation
 and sanitized evidence only. The running image source remains9fc5f348.
+
+
+## GA verification and re-evaluation decision — 2026-10-23
+
+Stage 1 only, requested by Cam after Bishop's release summary. No authenticated
+probe, paid call, target change, commit or push. Current first-party sources:
+[October22 announcement](https://openai.com/index/decisions-api/),
+[Decisions guide](https://developers.openai.com/api/docs/guides/decisions),
+[create reference](https://developers.openai.com/api/reference/resources/decisions/methods/create),
+[data controls](https://developers.openai.com/api/docs/guides/your-data).
+The docs connector returned404 for the reference; browser retrieval succeeded.
+
+**GA landed.** Exact documented model remains `gpt-6-luna`, native
+`POST /v1/decisions`, predicate/choice/score answers. Sources do not establish a
+new checkpoint or improved semantic accuracy. New capabilities include JSON
+input, question-specific images, prompt caching,400 questions (previously200),
+hosted images, conversation/tool-history evidence and native GPT-Live integration.
+US/EU regional processing and eligible-customer ZDR are documented. The vendor
+claims up to10x speed versus Luna Responses for bounded answers, not conversation
+or Sol acceleration. Earlier endpoint calls prove historical owner access;
+current account/region callability remains unverified in this pass. No selectable
+reasoning effort is exposed in the create contract; no effort sweep proposed.
+
+Standard uncached input stays USD0.10/M; announcement specifies USD0.01/M cached
+reads, charged writes and no output charge. Regional/long-context premiums apply.
+Implicit caching needs an identical shared-input prefix of at least1024 tokens;
+questions are outside the reusable prefix. Therefore pricing/caching changes are
+not automatic whole-workflow savings. API inputs are not trained on by default;
+standard abuse retention is up to30days, with eligible ZDR and cache/image
+exceptions. GA does not authorize new private payloads or regional assumptions.
+
+**No paid re-evaluation recommended; proposed campaign maximum USD0.** Earlier
+Echo/Doc Web/orientation semantic failures are not repaired by packaging or a
+latency claim. Per-question images/shared-reference caching could support a
+future source-backed changed approach, but do not independently clear those
+retry gates. No unchanged exposed-panel repeat or confidence tuning proposed.
+
+Current owner evidence supersedes historical landing assumptions above:
+[Storybook tech stack](/Users/cam/Documents/Projects/Storybook/storybook/docs/tech-stack.md#decisions-relationship-routing-story-191)
+records hosted default adoption of its narrow saved-signal mode router, retaining
+Haiku fallback and explicit private-content authorization. Its minimized runtime
+projection still lacks fresh semantic parity qualification; Attempt178's24/24
+and12.19% full-task saving are historical, not current production measurements.
+[Dossier ADR026](/Users/cam/Documents/Projects/dossier/docs/decisions/adr-026-system-suggested-possible-identity/adr.md)
+records an October11 measured Decisions fallback and no quality improvement over
+Jev beyond variation. [Ultima Story008](/Users/cam/Documents/Projects/ultima-iv-web/docs/stories/story-008-decisions-playthrough-creator.md)
+is a separately authorized screenshot-to-command experiment added after this
+scout; GA alone does not justify duplicating or broadening it.
+
+### Not recommended now
+
+| Owner | Current disposition and reason |
+| --- | --- |
+| Storybook | **Defer** a fresh benchmark. Already integrated for a narrow task; GA does not repair consumer reachability/parity limits. First review cache usage/accounting and actual prefix reuse without paid calls. |
+| Dossier | **Defer.** October11 benchmark already covers this endpoint as a measured fallback; no new checkpoint/accuracy trigger. New JSON/history forms alone do not justify repeating it. |
+| Doc Web | **Do not evaluate** unchanged lanes. Text false-clean and safety false-reject defects remain; finite answers still do not supply generated rationale, OCR or geometry. |
+| Echo Forge | **Do not evaluate** unchanged control intent:37/48 vs45/48 and7 vs2 false controls. Live integration does not establish an owner GPT-Live decision lane. |
+| Board Game Ingester | **Do not evaluate** unchanged orientation: wrong rotations1/3 vsSol3/3. New image placement/cache support is not a demonstrated accuracy repair; contours need generated geometry. |
+| CineForge | **Defer.** Maintained frame/ScriptBible outputs require open-ended grounded claims; no independently scored finite subtask/payoff established. |
+| Robo Rally | **Do not evaluate.** No maintained decision-model quality lane; deterministic rules/simulation remain authoritative. |
+| Ultima IV Web | **Defer** a separate GA rerun. Story008 already owns the user-authorized experiment; changes to its observation/history method need its own comparison contract. |
+| Financial Hub | **Defer.** Private context and no established eligible synthetic decision benchmark. Residency availability is not owner authorization. |
+| Financial Monthly Analysis | **Defer.** Private source transactions/reconciliation; no eligible maintained finite-choice lane established. |
+| VLC Thumbs | **Do not evaluate.** Deterministic thumbnail/cache/bookmark work has no maintained semantic-decision task. |
+
+Conductor itself: **Defer**; no maintained labeled high-volume runtime decision
+benchmark. Recommendation: a separately scoped Storybook GA compatibility and
+cache-accounting review before new provider spending. Read-only inspection found
+`decisions-relationship-router.ts` usage parsing retains total input/output only,
+`model-pricing.ts` prices the endpoint at `[0.10,0]`, and tech-stack documentation
+still says no cache charges. Cache read/write costs may therefore be misestimated
+when caching occurs; actual occurrence/impact is unmeasured. Do not claim a
+billing incident or repair owner code in Conductor's primary checkout. No target
+changes were made. Local verification was source inspection, not runtime testing.
+
+### Approved GA accounting follow-through — 2026-10-23
+
+Cam selected the focused Storybook review, then separately approved its concrete
+accounting fix. No model benchmark was selected. Isolated owner worktree
+`/Users/cam/.codex/worktrees/decisions-ga-accounting-20261023`, branch
+`codex/decisions-ga-accounting-20261023`, fetched origin/main base
+`ae3c0625132545c25ebd2ba4303c106b93990fb7`.
+[Owner report](/Users/cam/.codex/worktrees/decisions-ga-accounting-20261023/docs/reports/decisions-ga-accounting-2026-10-23.md)
+records source-backed cache read/write accounting, endpoint identity guards,
+unchanged mode decisions for unknown accounting, refreshed operator docs and
+94 passing provider-free tests including real disposable-DB ledger checks.
+Backend typecheck, focused ESLint and privacy coverage pass; existing global
+privacy-review expiry remains disclosed. Fresh task-only database dropped.
+USD0 spent, no provider/credential probes or private fixtures; no ledger
+re-evaluation entry or new quality verdict warranted. Routing prompts/request
+shape and runtime defaults unchanged. Patch remains uncommitted/unlanded;
+no push, deployment or primary-checkout mutation. See owner report for exact
+commands, tested hashes and limits. Next useful action is separately authorized
+finish-and-push of this accounting slice, not a paid GA model rerun.
+
+
+### Verified accounting landing — 2026-10-23
+
+Cam explicitly approved scoped commit/push. Storybook branch
+`codex/decisions-ga-accounting-20261023` and remote main both verified at
+[`e93453dab0f1186b0816dffd0b917e772959793e`](https://github.com/copperdogma/storybook/commit/e93453dab0f1186b0816dffd0b917e772959793e).
+[Committed owner report](https://github.com/copperdogma/storybook/blob/e93453dab0f1186b0816dffd0b917e772959793e/docs/reports/decisions-ga-accounting-2026-10-23.md)
+contains the six tested hashes, all matched before commit:94 provider-free tests,
+backend typecheck/lint and privacy coverage reused on unchanged executables.
+Close-out methodology check passed; Story191 was already Done and no status or
+generated metadata changed. Changelog added. No paid calls or runtime deployment.
+Existing privacy-review expiry remains disclosed, with no new private payloads.
+
+Conductor follow-through prepared from fetched remote main `bba213f`, preserving
+its newer deployment history rather than copying the old shared checkout's
+complete scout document. Only this dated GA section, index and task-specific
+inbox receipt are included. Unrelated primary inbox capture and all other
+shared work remain untouched. Task worktrees retained; no cleanup selected.
