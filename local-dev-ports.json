@@ -133,6 +133,20 @@
       "services": {
         "ui": { "kind": "ui", "offset": 0, "primaryPort": 5178 }
       }
+    },
+    "escape-rooms-calgary": {
+      "name": "Escape Rooms Calgary",
+      "primaryCheckout": "/Users/cam/Documents/Projects/escape-rooms-calgary",
+      "primaryPorts": {
+        "ui": 5180
+      },
+      "ranges": {
+        "ui": { "start": 6100, "end": 6199 },
+        "service": { "start": 4100, "end": 4199 }
+      },
+      "services": {
+        "ui": { "kind": "ui", "offset": 0, "primaryPort": 5180 }
+      }
     }
   }
 }
