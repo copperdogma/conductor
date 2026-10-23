@@ -1,0 +1,364 @@
+{
+  "date": "2026-10-23",
+  "stage": "A",
+  "status": "complete",
+  "python": "3.14.3",
+  "code_sha256": {
+    "scripts/model_watch_collect.py": "3b12e17d0b2fae96037b6cc7a0068beefd4536be321bd5f9be6c44f2760719b9",
+    "tests/test_model_watch_collect.py": "fc4b77f41576b8d38f3f9b151a41ca27f95cc22f1897ab2525aabff05893b0cf",
+    "docs/model-watch/collector-sources.json": "dcd7f94ad597b5a055f1be95573bbd8d5706dfc2ea268c80d025b1e3e016139c"
+  },
+  "raw_state_root": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy",
+  "protected_sha256": {
+    "docs/model-watch/evaluated-models.md": "b3119974897cd65b690d21f279dc16e3f757019b653018d2941119427b5e7c73",
+    "docs/model-watch/candidates.md": "cacff62887453fdd1bc436a0c0f4e65df444512c79f6186c0b25ddaa4a41ba6d",
+    "docs/model-watch/source-scorecard.md": "7bbd4c1860bc0cc9b6d9ac9cf2fa7d0313261140e55d1d9d25193668f4e76379",
+    "docs/model-watch/search-playbook.md": "162badc38105e11229ba6e0b5a9dfd9a2d0be8b5140163bd0ace1562172c7ea5",
+    "docs/model-watch/daily/2026-10-13-catalogs.json": "630e23f70a15139c0a1dddfa3e4c42af18a5414f917bb3337ac6e65312a5b7b5",
+    "docs/model-watch/daily/2026-10-17-catalogs.json": "ca878b8c73b4af1269188571d837e9496c913cb995b4d5cc25eeeb8f2bf88dc6",
+    "docs/model-watch/daily/2026-10-20-catalogs.json": "5058675bd032a416d27232c8c5a1ba59fe0b99db13c7e9170733c2f0c08a2826",
+    "docs/model-watch/daily/2026-10-21-catalogs.json": "84fe161185a8ef9353652afbc70e7c789e4ec32eeaf3231cfbf7a4a1a4e7f329",
+    "docs/model-watch/daily/2026-10-22-catalogs.json": "fa02ef33907d3582bfefe5f4baf34b6b2111985107312b10a174e72aee72eec1",
+    "docs/model-watch/daily/2026-10-23-catalogs.json": "2ec78bb796392a5047347b8a433fbbdb402e2790474eae9bdecb660bffdae076"
+  },
+  "automation_sha256": "47b7faed680ff9ae0a6a3180805f46cad3b78c13c60e63e29edfae03ec0f4b77",
+  "validation": {
+    "focused_tests": 24,
+    "command": "python3 -m unittest discover -s tests -p 'test_model_watch_collect.py'",
+    "result": "pass",
+    "lint": "pass",
+    "methodology_check": "pass",
+    "diff_check": "pass"
+  },
+  "limits": {
+    "live_collection_runs": 1,
+    "model_calls": 0,
+    "dispatches": 0,
+    "schedules_created_or_changed": 0,
+    "measured_token_savings": null
+  },
+  "runs": [
+    {
+      "lane": "collect",
+      "run_id": "20261023T164912Z-e7ba648c990d",
+      "source": null,
+      "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/collect/runs/20261023T164912Z-e7ba648c990d/packet.json",
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 413,
+        "mode": "collect",
+        "model_calls": 0,
+        "packet_bytes": 2990,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/collect/runs/20261023T164912Z-e7ba648c990d/packet.json",
+        "requests": 2,
+        "response_bytes": 818235,
+        "run_id": "20261023T164912Z-e7ba648c990d",
+        "status": "complete",
+        "version": 1
+      },
+      "artifact_sha256": {
+        "snapshot.json": "dce21d62d5de0fb0fb67716f0ca55f0e28d2c27d6e024e0d70dddf1b2b149bd3",
+        "delta.json": "49297c863a4759edf5f573d56d99d432d8edd6c9fcb97a6bad97ed33804edc31",
+        "packet.json": "b84b777d4c26b62614a78cb0252051ef2fc9401f5ea17411a32cea4fd8519bf3",
+        "receipt.json": "435a871a7931caf38bb204f967ca4357b1a5104fc9310a30e271046474acff67"
+      },
+      "feeds": {
+        "decisions": {
+          "coverage": "complete",
+          "rows": 30,
+          "comparison": "baseline",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 0
+        },
+        "general": {
+          "coverage": "complete",
+          "rows": 468,
+          "comparison": "baseline",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 0
+        }
+      }
+    },
+    {
+      "lane": "replay",
+      "run_id": "20261023T164835Z-673024b3ead7",
+      "source": "/Users/cam/Documents/Projects/conductor/docs/model-watch/daily/2026-10-20-catalogs.json",
+      "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-673024b3ead7/packet.json",
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 21,
+        "mode": "replay",
+        "model_calls": 0,
+        "packet_bytes": 2915,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-673024b3ead7/packet.json",
+        "requests": 0,
+        "response_bytes": 0,
+        "run_id": "20261023T164835Z-673024b3ead7",
+        "status": "complete",
+        "version": 1
+      },
+      "artifact_sha256": {
+        "snapshot.json": "89ce21801851786130293227d7fa9b04bb58fc7281f2abcc5551fde62456bc37",
+        "delta.json": "49297c863a4759edf5f573d56d99d432d8edd6c9fcb97a6bad97ed33804edc31",
+        "packet.json": "ceeddb7b736249215ed73b6727689d7de7dd34afba184025c608de49ef240c53",
+        "receipt.json": "df07aec086294ccdb8dd9b6bdef9005ef2ad34232ac3267b48f9cc7f1b5fa256"
+      },
+      "feeds": {
+        "decisions": {
+          "coverage": "complete",
+          "rows": 27,
+          "comparison": "baseline",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 0
+        },
+        "general": {
+          "coverage": "complete",
+          "rows": 468,
+          "comparison": "baseline",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 0
+        }
+      }
+    },
+    {
+      "lane": "replay",
+      "run_id": "20261023T164835Z-208cd24c44ed",
+      "source": "/Users/cam/Documents/Projects/conductor/docs/model-watch/daily/2026-10-21-catalogs.json",
+      "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-208cd24c44ed/packet.json",
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 43,
+        "mode": "replay",
+        "model_calls": 0,
+        "packet_bytes": 2919,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-208cd24c44ed/packet.json",
+        "requests": 0,
+        "response_bytes": 0,
+        "run_id": "20261023T164835Z-208cd24c44ed",
+        "status": "complete",
+        "version": 1
+      },
+      "artifact_sha256": {
+        "snapshot.json": "cd8a0c18a0afed32b99ff19b65f2e4d2ef83be75dae51da5300ec277d02d3945",
+        "delta.json": "0dce1a11b3acf5f2baff971db11f2134463944aa0c4cdab6e9c90fefa8f4e821",
+        "packet.json": "dcfae90891a8743ef249230776c7a50288df2c5be6473f944c6255e4ff38eb6a",
+        "receipt.json": "464b543b3f562d560ec0467e3ffc7c64248aed7b94509dad57055d85b4c69f41"
+      },
+      "feeds": {
+        "decisions": {
+          "coverage": "complete",
+          "rows": 27,
+          "comparison": "compared",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 1
+        },
+        "general": {
+          "coverage": "complete",
+          "rows": 468,
+          "comparison": "compared",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 187
+        }
+      }
+    },
+    {
+      "lane": "replay",
+      "run_id": "20261023T164835Z-4321628cc2c8",
+      "source": "/Users/cam/Documents/Projects/conductor/docs/model-watch/daily/2026-10-22-catalogs.json",
+      "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-4321628cc2c8/packet.json",
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 42,
+        "mode": "replay",
+        "model_calls": 0,
+        "packet_bytes": 2990,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-4321628cc2c8/packet.json",
+        "requests": 0,
+        "response_bytes": 0,
+        "run_id": "20261023T164835Z-4321628cc2c8",
+        "status": "complete",
+        "version": 1
+      },
+      "artifact_sha256": {
+        "snapshot.json": "69ce426f9257bd58dea7e0f3c5f1c81e0fbb5ddf208e5a4bf4d6c521fb54451a",
+        "delta.json": "f02f9de94c6d06ced93bd026e668401371ab2cb9018b4f2bb508d76c6a93a110",
+        "packet.json": "cedb8b70e41beac4211714e87cf1f7f4ab06c7862082641cd23b489479f835be",
+        "receipt.json": "0aae3036a11242e94cdee4baf28b04067ef219e36aeb66d5704b9dd21b226d5f"
+      },
+      "feeds": {
+        "decisions": {
+          "coverage": "complete",
+          "rows": 30,
+          "comparison": "compared",
+          "added": [
+            "baseten/elephant-1:free",
+            "baseten/mammoth-1:free",
+            "nace-ai/drex-max"
+          ],
+          "removed": [],
+          "same_id_changes": 1
+        },
+        "general": {
+          "coverage": "complete",
+          "rows": 468,
+          "comparison": "compared",
+          "added": [
+            "minimax/minimax-m3.1-flash",
+            "recursive/flint-v1.0:free"
+          ],
+          "removed": [
+            "google/gemini-2.5-flash-lite:batch",
+            "minimax/minimax-m3.1-flash:free"
+          ],
+          "same_id_changes": 180
+        }
+      }
+    },
+    {
+      "lane": "replay",
+      "run_id": "20261023T164835Z-4b67c2ae3e36",
+      "source": "/Users/cam/Documents/Projects/conductor/docs/model-watch/daily/2026-10-23-catalogs.json",
+      "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-4b67c2ae3e36/packet.json",
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 41,
+        "mode": "replay",
+        "model_calls": 0,
+        "packet_bytes": 2930,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/replay/runs/20261023T164835Z-4b67c2ae3e36/packet.json",
+        "requests": 0,
+        "response_bytes": 0,
+        "run_id": "20261023T164835Z-4b67c2ae3e36",
+        "status": "complete",
+        "version": 1
+      },
+      "artifact_sha256": {
+        "snapshot.json": "b2cb256365e44996ba32c2a8df07efc4918e4ba94b6fcaab5cf578bfb2bd6e25",
+        "delta.json": "cbd05af6c4a42284565c382457380b0418ce36ff753fd3f38234fc7518c40c64",
+        "packet.json": "979efa67817294c7f297f0c38b77e8106823d87bb8a482710ab6946639788650",
+        "receipt.json": "fb758a78f7aca95f1c0167f4a73dc4205854e1dcd1aa1f023459d6568aff2dba"
+      },
+      "feeds": {
+        "decisions": {
+          "coverage": "complete",
+          "rows": 30,
+          "comparison": "compared",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 1
+        },
+        "general": {
+          "coverage": "complete",
+          "rows": 468,
+          "comparison": "compared",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 153
+        }
+      }
+    },
+    {
+      "lane": "samples",
+      "run_id": "20261023T164835Z-0ef536cbcad5",
+      "source": "/Users/cam/Documents/Projects/conductor/docs/model-watch/daily/2026-10-13-catalogs.json",
+      "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/samples/runs/20261023T164835Z-0ef536cbcad5/packet.json",
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 2,
+        "mode": "replay",
+        "model_calls": 0,
+        "packet_bytes": 2618,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/samples/runs/20261023T164835Z-0ef536cbcad5/packet.json",
+        "requests": 0,
+        "response_bytes": 0,
+        "run_id": "20261023T164835Z-0ef536cbcad5",
+        "status": "partial",
+        "version": 1
+      },
+      "artifact_sha256": {
+        "snapshot.json": "b8f462847543ee439c047867c06f1f2c368946f685eabc4d6b21875ccacf96e1",
+        "delta.json": "0481b695a290accc18a581574df1f3db706264d20bc7c3dd840c541310dff541",
+        "packet.json": "8292d570717da6edba3813a4fedfa506c623386e232bdb0807bc0fbfb3d39fc2",
+        "receipt.json": "b056431a069c74093cf6f5c7dadbf96357218a7ca3bb7cc95c218f1cab616ae0"
+      },
+      "feeds": {
+        "decisions": {
+          "coverage": "complete",
+          "rows": 22,
+          "comparison": "baseline",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 0
+        },
+        "general": {
+          "coverage": "sample",
+          "rows": 35,
+          "comparison": "sample_only",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 0
+        }
+      }
+    },
+    {
+      "lane": "samples",
+      "run_id": "20261023T164835Z-4214aad5cbd1",
+      "source": "/Users/cam/Documents/Projects/conductor/docs/model-watch/daily/2026-10-17-catalogs.json",
+      "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/samples/runs/20261023T164835Z-4214aad5cbd1/packet.json",
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 3,
+        "mode": "replay",
+        "model_calls": 0,
+        "packet_bytes": 2854,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-stage-a-20261023-h9p8ubgy/samples/runs/20261023T164835Z-4214aad5cbd1/packet.json",
+        "requests": 0,
+        "response_bytes": 0,
+        "run_id": "20261023T164835Z-4214aad5cbd1",
+        "status": "partial",
+        "version": 1
+      },
+      "artifact_sha256": {
+        "snapshot.json": "7b69a4860887ece5a3c428f5d02bab651f6f668f615968df5a08163bc3e0f5b0",
+        "delta.json": "cbd98a94b25b6ac942b4b0e0fcadc3a625ccb9853aa4079f4bf244b1e11a15f8",
+        "packet.json": "c9e63c335baade728dbd3662fb99b05371e98c097fe1b90fc65785d1391a2f1d",
+        "receipt.json": "2eff7903f4b6cccd19ff1b8c5571a5da3114f63b38da9888f142ac6074e4b0ea"
+      },
+      "feeds": {
+        "decisions": {
+          "coverage": "complete",
+          "rows": 27,
+          "comparison": "compared",
+          "added": [
+            "liquid/d1-ultra",
+            "perplexity/pplx-decider-flash-v1.2",
+            "perplexity/pplx-decider-v1.2",
+            "respan/span-02",
+            "typesafe/jev-1.14",
+            "~perplexity/pplx-decider-flash-latest",
+            "~perplexity/pplx-decider-latest"
+          ],
+          "removed": [
+            "perplexity/pplx-decider-v1.1-27b",
+            "~perplexity/pplx-decider-27b-latest"
+          ],
+          "same_id_changes": 6
+        },
+        "general": {
+          "coverage": "sample",
+          "rows": 40,
+          "comparison": "sample_only",
+          "added": [],
+          "removed": [],
+          "same_id_changes": 0
+        }
+      }
+    }
+  ]
+}

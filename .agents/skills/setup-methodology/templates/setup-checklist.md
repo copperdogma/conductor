@@ -21,6 +21,10 @@ at handoff.
 - [ ] Only relevant methodology and optional lanes installed; sparse or
       supervisor projects mark product-only lanes not applicable/deferred.
 - [ ] Public skills and setup instructions describe one canonical entrypoint.
+- [ ] Recurring work, if present, selects/adapts `scheduled-work`: deterministic
+      mechanics precede AI; monitor versus periodic synthesis is explicit;
+      privacy, thresholds, state, delivery, budgets and natural-tick proof are
+      local. Otherwise mark this lane not applicable; copying enables no timer.
 
 ## Evidence baseline (product projects only)
 

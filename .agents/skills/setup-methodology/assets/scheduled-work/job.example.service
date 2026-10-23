@@ -1,0 +1,10 @@
+[Unit]
+Description=Deterministic collection and pre-model gate
+
+[Service]
+Type=oneshot
+UMask=0077
+WorkingDirectory=/ABSOLUTE/KIT
+ExecStart=/ABSOLUTE/PYTHON3 /ABSOLUTE/KIT/scheduled_job.py run --config /ABSOLUTE/KIT/job.local.json --state-dir /ABSOLUTE/PRIVATE/STATE/job
+TimeoutStartSec=90
+NoNewPrivileges=true

@@ -1,5 +1,50 @@
 # Inbox
 
+- 2026-10-23: Cam requested validation, issue fixes, check-in and push for the
+  deterministic scheduled-work reference and model-watch pilot. Isolated
+  current-main candidate passes 81 focused tests and applicable static/package
+  checks. Fixed conflicting quota-allow flags and updated the pinned runtime;
+  manual launchd canary passed with no collection/AI. Necessary unchanged public
+  replay fixtures are included. Existing scout/review and unrelated work remain
+  intact. Alignment 059 and `docs/model-watch/evidence/closeout-2026-10-23.json`
+  record the scoped validation; exact remote commit verification is in the handoff.
+
+- 2026-10-23: Cam approved reviewing the shadow after its window. Scheduled
+  `review-model-watch-shadow` in this chat for October 31 at 09:00
+  America/Edmonton; verified nominal readback and finite expiry. Review existing
+  local evidence/reports once, record gaps and an integration recommendation,
+  then pause. No daily AI polling, campaign extension, Stage C, commit or push.
+
+- 2026-10-23: Cam approved the seven-day script-only model-watch shadow and added
+  a deterministic 20% quota floor. Installed finite launchd campaign for
+  October 24–30 at 07:45 America/Edmonton; below 20% or unavailable native quota
+  skips before collection, exactly 20% permits. Durable once-per-date reservation,
+  hash-pinned runtime, expiry/disable and local receipts. 53 focused checks pass
+  across runs; one repeat replay I/O error and its passing rerun are documented;
+  startup canary is outside-window with zero collection/AI. Existing daily scout
+  unchanged. `docs/model-watch/evidence/stage-b-2026-10-23.json`; natural dates,
+  comparison quality and token savings remain unobserved. No commit or push.
+
+- 2026-10-23: Cam approved Stage A of the model-scout efficiency pilot. Completed
+  collector/config/runbook, 24 focused tests, historical full/sample replay and
+  one two-GET public collection (468 general/30 decision rows, 2,990-byte packet).
+  Evidence: `docs/model-watch/evidence/stage-a-2026-10-23.json`. Review fixes are
+  covered; source/automation hashes unchanged. No AI calls, schedules, prompt
+  integration, commit or push. Seven-day scheduled shadow remains optional.
+
+- 2026-10-23: Cam approved preparing the daily model-scout efficiency pilot plan.
+  Prepared `docs/model-watch/deterministic-pilot-plan.md`: two-catalog collector
+  and offline replay first, optional finite shadow period and later normal-scout
+  integration. Existing automation inspected; public metadata/replay feasibility
+  checked. No implementation, scheduler/prompt change, inference, commit or push.
+
+- 2026-10-23: Cam requested a reusable reference for deterministic scheduled
+  work that spends AI tokens only on useful judgment/synthesis. Addressed in
+  Scout101 and Alignment 059: Bishop, Financial Monthly Analysis and AI Health
+  source comparison; optional scheduled-work kit with tested examples, scheduler
+  templates, setup/recovery runbook and token-accounting guidance. Source-library
+  preparation only; no existing automation changed, target rollout or landing.
+
 - 2026-10-23: Cam requested Decisions API GA verification, then approved the focused Storybook cache-accounting fix and scoped commit/push. Addressed in [Scout086 follow-through](docs/scout/scout-086-openai-decisions-api-evaluation-routing.md#ga-verification-and-re-evaluation-decision--2026-10-23). Storybook fix verified on remote main at`e93453da`. No paid benchmark or deployment selected.
 
 - 2026-10-20: MiniMax M3.1 Flash GA evaluation and approved US$0 Doc Web

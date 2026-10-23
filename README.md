@@ -51,6 +51,14 @@ New-project installation requires reviewed Ideal/spec intake and a separate
 explicit target. It preserves existing files and never generates an Ideal,
 Spec, runtime, model call, or product proof.
 
+For recurring collection, monitoring or reports, start with the optional
+[deterministic scheduled-work kit](.agents/skills/setup-methodology/assets/scheduled-work/README.md).
+It includes a runnable collector/gate, scheduler templates, recovery runbook,
+and token-accounting guidance. Select it only when recurring work exists;
+installation does not enable a timer or model transport. The
+[source comparison](docs/scout/scout-101-deterministic-scheduled-work.md)
+records what Bishop, Financial Monthly Analysis and AI Health actually prove.
+
 ## Commands
 
 ```bash

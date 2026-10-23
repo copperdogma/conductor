@@ -83,6 +83,29 @@ class SetupPackageTests(unittest.TestCase):
         receipt = json.loads((self.target / 'docs/methodology/package.json').read_text())
         self.assertEqual(receipt['modules'], ['core', 'ui'])
 
+    def test_scheduled_work_is_optional_and_installed_example_runs_without_source(self):
+        default_plan = self.run_package('plan')
+        self.assertEqual(default_plan.returncode, 0, default_plan.stderr)
+        self.assertNotIn('"tools/scheduled-work/scheduled_job.py"', default_plan.stdout)
+        result = self.run_package('install', '--modules', 'scheduled-work')
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assert_truth()
+        kit = self.target / 'tools/scheduled-work'
+        receipt = json.loads((self.target / 'docs/methodology/package.json').read_text())
+        self.assertEqual(receipt['modules'], ['core', 'scheduled-work'])
+        self.assertFalse((self.target / '.state').exists())
+        config = json.loads((kit / 'job.example.json').read_text())
+        self.assertEqual(config['dispatcher'], [])
+        # Prove config-relative collector resolution from an unrelated cwd.
+        run = subprocess.run([sys.executable, str(kit / 'scheduled_job.py'), 'run',
+                              '--config', str(kit / 'job.example.json'),
+                              '--state-dir', str(self.target / 'private-state')],
+                             cwd=self.target, capture_output=True, text=True)
+        self.assertEqual(run.returncode, 0, run.stderr)
+        self.assertEqual(json.loads(run.stdout)['decision'], 'quiet')
+        self.assertFalse(json.loads(run.stdout)['dispatch_attempted'])
+        self.assertFalse((self.target / 'Library/LaunchAgents').exists())
+
     def test_skill_sync_preserves_existing_real_directory(self):
         self.assertEqual(self.run_package('install', '--modules', 'core').returncode, 0)
         protected = self.target / '.cursor/skills'

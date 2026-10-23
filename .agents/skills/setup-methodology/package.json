@@ -121,6 +121,23 @@
       "skills": [
         "security-audit"
       ]
+    },
+    "scheduled-work": {
+      "scope": "optional shared examples; project-owned scheduler and adapters",
+      "requires": [
+        "core"
+      ],
+      "files": {
+        ".agents/skills/setup-methodology/assets/scheduled-work/README.md": "tools/scheduled-work/README.md",
+        ".agents/skills/setup-methodology/assets/scheduled-work/scheduled_job.py": "tools/scheduled-work/scheduled_job.py",
+        ".agents/skills/setup-methodology/assets/scheduled-work/collect_example.py": "tools/scheduled-work/collect_example.py",
+        ".agents/skills/setup-methodology/assets/scheduled-work/job.example.json": "tools/scheduled-work/job.example.json",
+        ".agents/skills/setup-methodology/assets/scheduled-work/sample-input.json": "tools/scheduled-work/sample-input.json",
+        ".agents/skills/setup-methodology/assets/scheduled-work/.gitignore": "tools/scheduled-work/.gitignore",
+        ".agents/skills/setup-methodology/assets/scheduled-work/job.example.plist": "tools/scheduled-work/job.example.plist",
+        ".agents/skills/setup-methodology/assets/scheduled-work/job.example.service": "tools/scheduled-work/job.example.service",
+        ".agents/skills/setup-methodology/assets/scheduled-work/job.example.timer": "tools/scheduled-work/job.example.timer"
+      }
     }
   }
 }

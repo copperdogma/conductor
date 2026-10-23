@@ -11,6 +11,11 @@ Use this index to track internal cross-project alignment work.
 
 ## Entries
 
+- `2026-10-23` — [Alignment 059 — Deterministic Scheduled Work](./alignments/align-059-deterministic-scheduled-work.md)
+  Optional setup kit promotes deterministic collection/admission before AI,
+  with separate monitoring and periodic synthesis paths. Synthetic examples,
+  scheduler templates and recovery guidance; target projects remain unchanged.
+
 - `2026-10-18` — [Alignment 058 — Reusable Setup Package](./alignments/align-058-reusable-setup-package.md)
   Conductor is a source library with explicit product and supervisor variants.
   Missing evidence/triage skills and setup assets supplied; safe optional-module

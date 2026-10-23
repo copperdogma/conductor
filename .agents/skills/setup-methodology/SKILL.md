@@ -151,6 +151,13 @@ because they exist. Runtime/dependency setup is a project adaptation using
 Product core variants carry the story/triage workflow; Conductor retains its
 portfolio registry, supervisor triage, and cross-project adoption authority.
 
+For recurring collection, exception monitoring or report preparation, consider
+the optional `scheduled-work` module and read
+[its setup and recovery runbook](assets/scheduled-work/README.md). Prefer
+deterministic collection and admission before model invocation. Adapt source,
+threshold, dispatch, privacy and budget contracts locally; copying examples
+does not authorize or enable a live scheduler or model transport.
+
 ## Canonical package source
 
 Conductor maintains the canonical reusable skills and methodology. When setting

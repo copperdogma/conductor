@@ -42,3 +42,16 @@ The automation uses public metadata and documentation only: no credentials,
 account creation, provider settings, paid inference, target-repository changes,
 commits, or deployments. It preserves earlier records and runs `git diff --check`
 after edits.
+
+## Efficiency pilot
+
+[Deterministic preparation pilot](deterministic-pilot-plan.md) now has a tested
+two-catalog collector and exact-diff packet. See the [runbook](collector-runbook.md)
+for offline replay, manual collection and recovery, and the
+[Stage A evidence](evidence/stage-a-2026-10-23.json) for the one manual public check.
+The script-only shadow is installed for October 24–30 at 07:45 America/Edmonton,
+with a deterministic 20% remaining quota floor and automatic expiry. See
+[Stage B evidence](evidence/stage-b-2026-10-23.json). Daily AI announcement research
+and evaluation-ledger checks remain; an unchanged catalog cannot suppress the
+whole scout. The existing AI automation is unchanged. Integration follows a
+separate decision after natural shadow evidence exists.

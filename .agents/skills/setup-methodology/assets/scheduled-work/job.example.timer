@@ -1,0 +1,11 @@
+[Unit]
+Description=Hourly deterministic check
+
+[Timer]
+OnCalendar=*-*-* *:10:00
+Persistent=true
+RandomizedDelaySec=60
+Unit=job.example.service
+
+[Install]
+WantedBy=timers.target

@@ -108,6 +108,18 @@ The product setup skill must be sparse-safe for repos with no code yet:
 - run cheap validation and skill-surface checks rather than long subagent loops
   over evidence that cannot exist yet
 
+## Optional deterministic scheduled work
+
+For recurring collection, monitoring or report preparation, select the optional
+`scheduled-work` module or copy/adapt its
+[standalone kit](../../.agents/skills/setup-methodology/assets/scheduled-work/README.md).
+It separates deterministic mechanics from AI admission and includes examples,
+scheduler templates and recovery guidance. Installation is source preparation;
+live scheduling, privacy boundaries, delivery and budgets remain project-owned.
+Collection-only jobs need no AI; periodic reports may still need synthesis on
+every period. See [Scout 101](../scout/scout-101-deterministic-scheduled-work.md)
+for source evidence and limits.
+
 ## Local Runtime Allocation
 
 When a tracked repo has a local browser UI, API, internal authoring server, or

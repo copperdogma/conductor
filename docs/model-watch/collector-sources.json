@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "sources": {
+    "general": "https://openrouter.ai/api/v1/models",
+    "decisions": "https://openrouter.ai/api/v1/models?output_modalities=decisions"
+  },
+  "limits": {
+    "attempt_seconds": 15,
+    "run_seconds": 90,
+    "feed_bytes": 8388608,
+    "run_bytes": 33554432,
+    "state_bytes": 469762048,
+    "max_pages": 8,
+    "packet_bytes": 8192,
+    "newest_slice": 40
+  }
+}

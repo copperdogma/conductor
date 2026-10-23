@@ -17,3 +17,9 @@ actual root proof or explicit reason/trigger for deferral. Runtime/dependency
 commands, where needed, use the conditional reference in the setup skill bundle.
 Record what was installed, deferred and locally adapted plus applicable checks
 and their limitations. Never call package checks product acceptance.
+
+For real recurring collection/monitoring/reporting, select the optional
+`scheduled-work` module. Its `tools/scheduled-work/README.md` explains setup,
+shadow operation, failure recovery and natural scheduler proof. Adapt mechanics
+before model invocation; a periodic synthesis may still call AI each period.
+No timer or model adapter is enabled by copying the kit.

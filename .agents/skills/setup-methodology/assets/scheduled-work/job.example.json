@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "job": "synthetic-queue",
+  "mode": "monitor",
+  "policy_version": "1",
+  "collector": ["python3", "collect_example.py"],
+  "dispatcher": [],
+  "timeout_seconds": 30,
+  "max_age_seconds": 300,
+  "notify_recovery": true
+}

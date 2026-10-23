@@ -1,5 +1,10 @@
 # Scout Log
 
+- `2026-10-23` — [Scout 101 — Deterministic Scheduled Work](./scout/scout-101-deterministic-scheduled-work.md) — `Adapt into optional setup reference`
+  Bishop, finance and AI Health engineering patterns combined into a runnable
+  collector/gate kit with scheduler templates and recovery/token-accounting
+  runbook. Source evidence limits preserved; no live automation or rollout.
+
 - `2026-10-23` — [Scout086 GA follow-through](./scout/scout-086-openai-decisions-api-evaluation-routing.md#ga-verification-and-re-evaluation-decision--2026-10-23) — Decisions GA verified; no new checkpoint or paid re-evaluation recommended. Approved Storybook cache-accounting fix validated with94 provider-free tests; Storybook fix landed at`e93453da`; no deployment or provider calls.
 
 - `2026-10-20` — [Scout 099 — MiniMax M3.1 Flash GA](./scout/scout-099-minimax-m31-flash-ga-evaluation-routing.md) — `Complete; defer adoption after US$0 audit`

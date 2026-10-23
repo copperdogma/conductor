@@ -1,0 +1,217 @@
+{
+  "campaign_root": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024",
+  "closeout_validation": {
+    "date": "2026-10-23",
+    "details": "closeout-2026-10-23.json",
+    "existing_scout_and_review_unchanged": true,
+    "new_fix": "Explicit ordinaryUsageAllowed false in either supported location denies admission; conflicting/null combinations have regressions",
+    "prior_io_error_reproduced": false,
+    "result": "all focused tests pass on the isolated integrated candidate",
+    "runtime_current_matches_candidate": true,
+    "test_counts": {
+      "collector": 24,
+      "kit": 17,
+      "package": 8,
+      "quota": 21,
+      "shadow": 11,
+      "total": 81
+    }
+  },
+  "commit_or_push": false,
+  "daily_scout": {
+    "automation_sha256": "47b7faed680ff9ae0a6a3180805f46cad3b78c13c60e63e29edfae03ec0f4b77",
+    "next_jittered_local": "2026-10-24T07:57:11-06:00",
+    "next_nominal_local": "2026-10-24T08:00:00-06:00",
+    "prompt_sha256": "2c014dc83963d7f2817df379392962ff44a5b660bc21c02ed29f368de2d3cdbc",
+    "unchanged": true
+  },
+  "date": "2026-10-23",
+  "dispatches": 0,
+  "health_quota_engineering_source_sha256": "8a6155e812ca28d1ded4fda65e831718311a957de93984d17a83769761dc388",
+  "initial_manifest_sha256": "613fb695015a85fd28aecb7655437a7852d2efcfc4170b982494fc4414fccae2",
+  "initial_source_and_test_sha256": {
+    "docs/model-watch/collector-sources.json": "dcd7f94ad597b5a055f1be95573bbd8d5706dfc2ea268c80d025b1e3e016139c",
+    "scripts/codex_quota.py": "091ac7a422824d9c30a2feae234ab80b1990217569ff28d232b790f4df4d1d15",
+    "scripts/model_watch_collect.py": "3b12e17d0b2fae96037b6cc7a0068beefd4536be321bd5f9be6c44f2760719b9",
+    "scripts/model_watch_shadow.py": "8b8b1d4a2e6580007c6af203261985f82a930d0ce16f148295a2d6155867b58f",
+    "tests/test_codex_quota.py": "01b520271889b16b354a7912011ed070fb72f9c4272a4892a05d32eac9bf5463",
+    "tests/test_model_watch_collect.py": "fc4b77f41576b8d38f3f9b151a41ca27f95cc22f1897ab2525aabff05893b0cf",
+    "tests/test_model_watch_shadow.py": "f9be35d7bd4b0e1966d3714240a31ccaa3d2e7c175e18c2447f150378b793c39"
+  },
+  "installation": {
+    "bootstrap_exit": 0,
+    "collector_state_created": false,
+    "date_reserved": false,
+    "last_exit_code": 0,
+    "launchd_stderr_bytes": 0,
+    "loaded_calendar_entries": 8,
+    "natural_collection_ticks": 0,
+    "plist_lint": "pass",
+    "runs": 1,
+    "startup_canary": {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-23",
+      "model_calls": 0,
+      "observed_at": "2026-10-23T17:26:57.844775+00:00",
+      "status": "outside_window",
+      "version": 1
+    }
+  },
+  "launchagent_path": "/Users/cam/Library/LaunchAgents/com.copperdogma.conductor.model-watch-shadow.plist",
+  "limitations": [
+    "No natural scheduled collection yet",
+    "Quota access under launchd not yet observed",
+    "No packet/report comparison yet",
+    "Token savings unmeasured during shadow",
+    "Host is low on free disk; write failures fail the affected attempt; no automatic same-date retry or cleanup"
+  ],
+  "manifest_sha256": "e2142cea58c366dee4c9b10d30a5bd7d71163dd04294de14d053c10b7f09a57f",
+  "model_calls": 0,
+  "native_quota_preflight": {
+    "AI_turns": 0,
+    "assessed_windows": [
+      {
+        "duration_mins": 10080,
+        "remaining_percent": 31.0
+      }
+    ],
+    "bounded_seconds": 12,
+    "date": "2026-10-23",
+    "methods": [
+      "initialize",
+      "initialized",
+      "account/rateLimits/read"
+    ],
+    "status": "eligible"
+  },
+  "plist_sha256": "cea7943494c57feb906b51195c0144083d3d3b0561656a5487b78b9b2f52a318",
+  "post_window_review": {
+    "approved": "2026-10-23: go ahead to review after the window",
+    "config_sha256": "31376fa7de14f58c80273e50d2cfd17fe3ca19a672a80bee84afd7cf88d776e4",
+    "id": "review-model-watch-shadow",
+    "kind": "heartbeat",
+    "latest_eligible_UTC": "2026-10-31T15:30:00+00:00",
+    "next_jittered_local": "2026-10-31T09:03:20-06:00",
+    "nominal_local": "2026-10-31T09:00:00-06:00",
+    "official_reference": "https://learn.chatgpt.com/docs/automations?surface=app#schedule-a-task-inside-a-chat",
+    "prompt_sha256": "c81f41c69d0fe30cc3d8e2585e8e5e00177fb486a42c45af2cd5971289aa993d",
+    "purpose": "One review in the current chat after the finite shadow; no daily AI polling, extension, Stage C, commit or push",
+    "single_selected_date": true,
+    "status": "ACTIVE",
+    "verification_note": "Heartbeat recurrence is evaluated in UTC; nominal schedule was read back as 09:00 America/Edmonton.",
+    "verified_at": "2026-10-23T17:42:24.126989+00:00"
+  },
+  "prepared_at": "2026-10-23T17:29:00.390283+00:00",
+  "protected_sha256": {
+    "docs/model-watch/candidates.md": "cacff62887453fdd1bc436a0c0f4e65df444512c79f6186c0b25ddaa4a41ba6d",
+    "docs/model-watch/daily/2026-10-13-catalogs.json": "630e23f70a15139c0a1dddfa3e4c42af18a5414f917bb3337ac6e65312a5b7b5",
+    "docs/model-watch/daily/2026-10-17-catalogs.json": "ca878b8c73b4af1269188571d837e9496c913cb995b4d5cc25eeeb8f2bf88dc6",
+    "docs/model-watch/daily/2026-10-20-catalogs.json": "5058675bd032a416d27232c8c5a1ba59fe0b99db13c7e9170733c2f0c08a2826",
+    "docs/model-watch/daily/2026-10-21-catalogs.json": "84fe161185a8ef9353652afbc70e7c789e4ec32eeaf3231cfbf7a4a1a4e7f329",
+    "docs/model-watch/daily/2026-10-22-catalogs.json": "fa02ef33907d3582bfefe5f4baf34b6b2111985107312b10a174e72aee72eec1",
+    "docs/model-watch/daily/2026-10-23-catalogs.json": "2ec78bb796392a5047347b8a433fbbdb402e2790474eae9bdecb660bffdae076",
+    "docs/model-watch/evaluated-models.md": "b3119974897cd65b690d21f279dc16e3f757019b653018d2941119427b5e7c73",
+    "docs/model-watch/search-playbook.md": "162badc38105e11229ba6e0b5a9dfd9a2d0be8b5140163bd0ace1562172c7ea5",
+    "docs/model-watch/source-scorecard.md": "7bbd4c1860bc0cc9b6d9ac9cf2fa7d0313261140e55d1d9d25193668f4e76379"
+  },
+  "quota_policy": {
+    "AI_scout_automation_guarded": false,
+    "check_before": "catalog collection",
+    "comparison": "block strictly below minimum",
+    "core_window_duration_mins": [
+      300,
+      10080
+    ],
+    "minimum_remaining_percent": 20,
+    "missing_or_null_optional_slots": "not an asserted additional window",
+    "no_assessable_or_malformed_quota": "skip"
+  },
+  "research_sources": [
+    "https://learn.chatgpt.com/docs/app-server",
+    "https://developer.apple.com/library/archive/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/ScheduledJobs.html",
+    "https://github.com/apple-oss-distributions/launchd/blob/main/man/launchd.plist.5"
+  ],
+  "runtime_updates": [
+    {
+      "at": "2026-10-23T17:48:54.988116+00:00",
+      "backup": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/runtime-updates/20261023T174854Z",
+      "canary": {
+        "campaign": "com.copperdogma.conductor.model-watch-shadow",
+        "dispatches": 0,
+        "local_date": "2026-10-23",
+        "model_calls": 0,
+        "observed_at": "2026-10-23T17:48:55.310981+00:00",
+        "status": "outside_window",
+        "version": 1
+      },
+      "dates_schedule_threshold_unchanged": true,
+      "last_exit_code": 0,
+      "launchd_runs": 2,
+      "manifest_sha256": "e2142cea58c366dee4c9b10d30a5bd7d71163dd04294de14d053c10b7f09a57f",
+      "natural_collection_ticks": 0,
+      "previous_manifest_sha256": "613fb695015a85fd28aecb7655437a7852d2efcfc4170b982494fc4414fccae2",
+      "previous_quota_sha256": "091ac7a422824d9c30a2feae234ab80b1990217569ff28d232b790f4df4d1d15",
+      "quota_sha256": "1e90cdce253df03e774e0ccdcc075b8e64d217582ace089f391385d6677b34fd",
+      "reason": "Honor explicit ordinaryUsageAllowed denial in either supported location"
+    }
+  ],
+  "schedule": {
+    "UTC_slots": [
+      "2026-10-24T13:45:00+00:00",
+      "2026-10-25T13:45:00+00:00",
+      "2026-10-26T13:45:00+00:00",
+      "2026-10-27T13:45:00+00:00",
+      "2026-10-28T13:45:00+00:00",
+      "2026-10-29T13:45:00+00:00",
+      "2026-10-30T13:45:00+00:00"
+    ],
+    "automatic_extension": false,
+    "backfill": false,
+    "calendar_has_year_key": false,
+    "collection_deadline_local": "08:00:00",
+    "expiry_backstop_local": "2026-10-31T00:05:00-06:00",
+    "local_slots": [
+      "2026-10-24T07:45:00-06:00",
+      "2026-10-25T07:45:00-06:00",
+      "2026-10-26T07:45:00-06:00",
+      "2026-10-27T07:45:00-06:00",
+      "2026-10-28T07:45:00-06:00",
+      "2026-10-29T07:45:00-06:00",
+      "2026-10-30T07:45:00-06:00"
+    ],
+    "retry_reserved_dates": false,
+    "timezone": "America/Edmonton"
+  },
+  "source_and_test_sha256": {
+    "docs/model-watch/collector-sources.json": "dcd7f94ad597b5a055f1be95573bbd8d5706dfc2ea268c80d025b1e3e016139c",
+    "scripts/codex_quota.py": "1e90cdce253df03e774e0ccdcc075b8e64d217582ace089f391385d6677b34fd",
+    "scripts/model_watch_collect.py": "3b12e17d0b2fae96037b6cc7a0068beefd4536be321bd5f9be6c44f2760719b9",
+    "scripts/model_watch_shadow.py": "8b8b1d4a2e6580007c6af203261985f82a930d0ce16f148295a2d6155867b58f",
+    "tests/test_codex_quota.py": "065c77f8593564a1f1a9b86181c8cc49910d8fede03570a5c3643ddf461489e6",
+    "tests/test_model_watch_collect.py": "fc4b77f41576b8d38f3f9b151a41ca27f95cc22f1897ab2525aabff05893b0cf",
+    "tests/test_model_watch_shadow.py": "f9be35d7bd4b0e1966d3714240a31ccaa3d2e7c175e18c2447f150378b793c39"
+  },
+  "stage": "B",
+  "status": "installed_awaiting_natural_ticks",
+  "validation": {
+    "checks": [
+      "make lint: pass",
+      "make methodology-check: pass",
+      "plutil -lint: pass",
+      "git diff --check: pass"
+    ],
+    "focused_tests": {
+      "collector": 24,
+      "quota": 18,
+      "results": "pass across focused runs; see repeat limitation",
+      "shadow": 11,
+      "total": 53
+    },
+    "host_free_bytes_at_final_check": 207847424,
+    "independent_review": "Expiry/campaign corruption issue repaired and regression tested. Nullable optional windows retained intentionally; no assessable core window still skips.",
+    "repeat_limitation": "One repeat combined run had OSError in fourth historical replay; the earlier combined run passed. A bounded four-replay diagnostic and the failing CLI test both then passed unchanged. Root cause not established.",
+    "scope": "Initial installation; final candidate validation is in closeout_validation and closeout-2026-10-23.json",
+    "selected_scope": "isolated tooling; native status read; loaded launchd calendar and startup; no provider inference"
+  }
+}

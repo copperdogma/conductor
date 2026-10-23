@@ -66,3 +66,12 @@
       [Alignment 058](alignments/align-058-reusable-setup-package.md)
 - [x] Scoped landing authorized on 2026-10-20 and candidate validated; remote
       identities are verified in the close-out handoff
+
+## Deterministic scheduled work (Alignment 059)
+
+- [x] Optional kit, copy/install exercise, scheduler templates and recovery guide
+- [x] Source comparison preserves local project authority and evidence limits
+- [x] Collector, 20% quota admission and finite shadow have focused fault tests
+- [x] Shadow installation/canaries and post-window review are recorded separately
+- [x] Scoped check-in/push approved October 23; isolated candidate validated
+- [ ] Natural seven-date shadow review; follow-up scheduled for October 31

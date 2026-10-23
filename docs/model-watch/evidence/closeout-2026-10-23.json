@@ -1,0 +1,96 @@
+{
+  "branch": "codex/deterministic-scheduled-work-20261023",
+  "commands": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_scheduled_work.py' -v",
+      "exit": 0,
+      "tests": 17
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_setup_package.py' -v",
+      "exit": 0,
+      "tests": 8
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_model_watch_collect.py' -v",
+      "exit": 0,
+      "tests": 24
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_codex_quota.py' -v",
+      "exit": 0,
+      "tests": 21
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test_model_watch_shadow.py' -v",
+      "exit": 0,
+      "tests": 11
+    }
+  ],
+  "daily_AI_scout_and_review_unchanged": true,
+  "date": "2026-10-23",
+  "fixes": [
+    "Either supported ordinaryUsageAllowed=false denies quota admission, even with conflicting true/null at the other location; malformed non-null values unavailable",
+    "Include unchanged public replay dependencies so a clean checkout can exercise historical tests",
+    "Avoid an unavailable daily report hyperlink in the portable pilot plan"
+  ],
+  "free_disk_bytes": 1987031040,
+  "integration_base": "52c1cdcd034ace14340b912c241b68a8416d0f3a",
+  "integration_worktree": "/Users/cam/.codex/worktrees/scheduled-work-closeout/conductor",
+  "landing_status_at_recording": "validated candidate; final exact remote verification reported in the chat handoff",
+  "limitations": [
+    "Seven natural shadow dates and post-window review are still in the future",
+    "Token savings remain unmeasured",
+    "Prior historical replay OSError not reproduced; no cleanup or causal claim",
+    "Primary checkout has unrelated/stale changes; it was not reset, stashed or advanced"
+  ],
+  "new_live_collection_requests": 0,
+  "new_model_calls": 0,
+  "other_checks": [
+    "make lint: pass",
+    "make methodology-check: pass",
+    "make skills-check: pass (33 skills)",
+    "package.py audit: pass (8 modules,106 source files)",
+    "sample and installed plist lint: pass",
+    "changed Markdown local targets: pass",
+    "git diff --check: pass"
+  ],
+  "primary_preserved": "/Users/cam/Documents/Projects/conductor",
+  "protected_current_main_sha256": {
+    "docs/model-watch/candidates.md": "43f516b0df19f9c99dd5cadadb72fc4a99c1a88d568719cd9c26e33dccb42374",
+    "docs/model-watch/evaluated-models.md": "c695f8fecb11f85c74f8d013f8db0c5db376c53b746a6652ba37651e1b8397d6",
+    "docs/model-watch/search-playbook.md": "6331017ddde14a27caef34bb36494f4142d40edb2745c4274a81e8abeab68e64",
+    "docs/model-watch/source-scorecard.md": "5a3a1ebf04a15491404c1bc09dc79539a78e9f4a9b3bad9aa652627293620365"
+  },
+  "recorded_at": "2026-10-23T17:50:35.949679+00:00",
+  "replay_fixtures": {
+    "docs/model-watch/daily/2026-10-13-catalogs.json": "630e23f70a15139c0a1dddfa3e4c42af18a5414f917bb3337ac6e65312a5b7b5",
+    "docs/model-watch/daily/2026-10-17-catalogs.json": "ca878b8c73b4af1269188571d837e9496c913cb995b4d5cc25eeeb8f2bf88dc6",
+    "docs/model-watch/daily/2026-10-20-catalogs.json": "5058675bd032a416d27232c8c5a1ba59fe0b99db13c7e9170733c2f0c08a2826",
+    "docs/model-watch/daily/2026-10-21-catalogs.json": "84fe161185a8ef9353652afbc70e7c789e4ec32eeaf3231cfbf7a4a1a4e7f329",
+    "docs/model-watch/daily/2026-10-22-catalogs.json": "fa02ef33907d3582bfefe5f4baf34b6b2111985107312b10a174e72aee72eec1",
+    "docs/model-watch/daily/2026-10-23-catalogs.json": "2ec78bb796392a5047347b8a433fbbdb402e2790474eae9bdecb660bffdae076"
+  },
+  "repo": "https://github.com/copperdogma/conductor",
+  "request": "Validate, fix issues, check in and push the deterministic scheduled-work reference and model-watch pilot",
+  "runtime_python": "Python 3.14.3",
+  "runtime_update": "stage-b-2026-10-23.json:runtime_updates",
+  "schedule_and_quota_floor_unchanged": true,
+  "scope": "Only Alignment059/Scout101 and their kit, source-routing hunks, public replay dependencies, collector/quota/shadow, and approved installation/review evidence",
+  "tested_code_and_config_sha256": {
+    ".agents/skills/setup-methodology/assets/scheduled-work/collect_example.py": "ad0d114c0cd40e322a16266a999fffa113825e37ac189c60652c6d616d664d78",
+    ".agents/skills/setup-methodology/assets/scheduled-work/scheduled_job.py": "1dae2bd7cfbbe938ad1422ef5a2505493da20de0c41b1ad8ddae2b035ce4eee6",
+    ".agents/skills/setup-methodology/package.json": "5ec5a53bdd2196e0f57de6b6f51b9be146960b5b87c6fa3ca08fc02f1d77b6af",
+    "docs/model-watch/collector-sources.json": "dcd7f94ad597b5a055f1be95573bbd8d5706dfc2ea268c80d025b1e3e016139c",
+    "scripts/codex_quota.py": "1e90cdce253df03e774e0ccdcc075b8e64d217582ace089f391385d6677b34fd",
+    "scripts/model_watch_collect.py": "3b12e17d0b2fae96037b6cc7a0068beefd4536be321bd5f9be6c44f2760719b9",
+    "scripts/model_watch_shadow.py": "8b8b1d4a2e6580007c6af203261985f82a930d0ce16f148295a2d6155867b58f",
+    "tests/test_codex_quota.py": "065c77f8593564a1f1a9b86181c8cc49910d8fede03570a5c3643ddf461489e6",
+    "tests/test_model_watch_collect.py": "fc4b77f41576b8d38f3f9b151a41ca27f95cc22f1897ab2525aabff05893b0cf",
+    "tests/test_model_watch_shadow.py": "f9be35d7bd4b0e1966d3714240a31ccaa3d2e7c175e18c2447f150378b793c39",
+    "tests/test_scheduled_work.py": "0bb4f90efe0714b8b825e0fa3eb28f7bd5ede36edab19a6918fa4ea3cfd43517",
+    "tests/test_setup_package.py": "0f5c3a0c0688e4e309486205b0717f9d8d6a47dc24f8387a3dd5b808d91746ad"
+  },
+  "total_tests": 81,
+  "validation_selection": "Isolated tooling plus affected setup consumer; offline functional/fault tests and native launchd readback. No product runtime/paid eval/full unrelated suite."
+}

@@ -21,9 +21,17 @@ python3 .agents/skills/setup-methodology/scripts/package.py install --target /ab
 setup checklist, operating guidance, optional-invocation `/loop-verify`, and canonical skill links.
 `evidence` adds eval/golden skills and starter tracking with **deferred**,
 unmeasured root proof. Optional modules: `architecture`, `codebase`, `ui`,
-`strategic-review`, `security`. Dependencies are selected automatically.
+`strategic-review`, `security`, `scheduled-work`. Dependencies are selected automatically.
 Use `core` alone when the project's agreed package has no product evidence lane.
 The installer only copies; it never calls a provider or creates a runtime.
+
+`scheduled-work` copies a self-contained example kit to `tools/scheduled-work/`:
+collector, state-change/report gate, scheduler templates and setup/recovery
+runbook. Select it for actual recurring work; it is not in the default product
+profile. Examples use synthetic data and no dispatcher. For a standalone script
+project that does not need core methodology, copy/adapt just the kit rather than
+installing the product profile. A task queue needs project-owned persistent work
+dispositions; the sample's single pending request is not a workflow engine.
 
 Both Ideal and Spec must already exist, be substantive and be reviewed against
 intake by the agent. The helper checks existence/nonempty content only; it cannot

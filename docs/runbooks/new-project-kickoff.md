@@ -149,6 +149,7 @@ Classify each surface as adopt, adapt, defer, or reject.
 | source-intake/scout logs | Use when external material or references will be repeatedly investigated |
 | ADRs | Use for hard-to-reverse workflow, architecture, canon, or product decisions |
 | Codex environment setup | Use when fresh worktrees need dependency hydration before validation |
+| Deterministic scheduled-work kit | Use when recurring collection, exception monitoring or report preparation should happen before AI; select/adapt the optional `scheduled-work` module, leaving live scheduling and adapters disabled until configured |
 
 ## First Story Rule
 
