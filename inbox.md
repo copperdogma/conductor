@@ -1,5 +1,13 @@
 # Inbox
 
+- 2026-10-23: Cam approved committing and pushing the scoped Doc Web offline
+  reviewed-intent replay. The actual driver preserves five source-exact artwork
+  units and original OCR content; proof-v2 explicitly accounts for schema-added
+  null metadata. No paid calls or runtime-default changes. Story262 closeout and
+  exact owner landing are recorded in
+  `docs/scout/evidence/scout102-offline-replay-landing.json`. Earlier portfolio
+  evaluation work and unrelated capture are preserved separately.
+
 - 2026-10-23: Cam requested validation, issue fixes, check-in and push for the
   deterministic scheduled-work reference and model-watch pilot. Isolated
   current-main candidate passes 81 focused tests and applicable static/package

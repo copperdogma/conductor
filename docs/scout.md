@@ -1,5 +1,7 @@
 # Scout Log
 
+- `2026-10-23` — [Scout102 offline Doc Web closeout](./scout/scout-102-docweb-offline-replay-closeout.md) — Reviewed-intent driver replay preserves five exact source crops and OCR content, USD0. Scoped tooling/Story262 landing; automatic admission and Kimi deployment remain unqualified. Earlier model campaign work remains separate.
+
 - `2026-10-23` — [Scout 101 — Deterministic Scheduled Work](./scout/scout-101-deterministic-scheduled-work.md) — `Adapt into optional setup reference`
   Bishop, finance and AI Health engineering patterns combined into a runnable
   collector/gate kit with scheduler templates and recovery/token-accounting
