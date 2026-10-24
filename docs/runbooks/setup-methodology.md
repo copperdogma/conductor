@@ -22,6 +22,16 @@ check. Record reusable sources, the decision, result, and uncertainty in
 existing notes. Obvious fixes need no ceremony; preserve domain reuse limits
 and acceptance criteria.
 
+## Reference discovery
+
+During kickoff, browse `docs/reference.md` in the Conductor source checkout and
+read matching entries before proposing the first implementation. Discuss useful
+tools and working examples with the user, including reuse/adaptation value,
+limitations, and current alternatives. Treat entries as leads; verify current
+primary sources before recommending adoption. Carry the result into setup notes
+without repeating an applicable review. If access is unavailable or nothing
+fits, state that and continue. The library need not be copied into the target.
+
 ## Greenfield checklist
 
 1. Run `/init-project` against the preserved seed, usually

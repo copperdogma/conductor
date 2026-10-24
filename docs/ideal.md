@@ -22,7 +22,8 @@ In the ideal state:
   reusable baseline wise and current without absorbing project-specific
   complexity.
 - External ideas are understood once and their relevance to every project is
-  clear, without repeated research.
+  clear, without repeated research. Useful capabilities remain easy to find for
+  future projects, even when there is no current adoption decision.
 - Cross-project work carries its context, evidence, and decisions with it;
   nothing important gets lost between recommendation and execution.
 - Model evaluation serves project improvement: choices reflect demonstrated

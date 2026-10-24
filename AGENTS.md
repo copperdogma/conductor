@@ -61,6 +61,7 @@ defines whether the work is alignment, scouting, routing, or memory upkeep.
 - `inbox.md` — raw capture surface
 - `docs/align-projects.md` + `docs/alignments/` — internal cross-project alignment memory
 - `docs/scout.md` + `docs/scout/` — external source scouting memory
+- `docs/reference.md` + `docs/reference/` — source-checked capabilities for future projects
 - `docs/stories/` — supervisor stories
 - `docs/decisions/` — hard-to-reverse workflow or architecture choices
 
@@ -100,6 +101,9 @@ Specialized loops:
   before choosing rollout targets.
 - `/loop-review` for strategic checks of long-running work against user intent,
   applying or handing off a proposed course correction only when authorized
+- For reference-only requests, follow `docs/reference.md`: a bounded primary-source
+  check and searchable entry, without full portfolio scouting or target-repo
+  routing. Revisit adoption when a concrete project need appears.
 - `/scout` for external sources and adoption analysis
 - `/evaluate-model` for current model/API verification, portfolio-fit
   recommendations, reproducibility requests, evidence audits, and approved

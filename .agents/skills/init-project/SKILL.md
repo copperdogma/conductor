@@ -29,6 +29,27 @@ this file by replacing `.agents/skills/init-project/SKILL.md` with
 `docs/runbooks/new-project-kickoff.md` in the Conductor source root. If the
 runbook is unavailable, continue with this skill's embedded workflow.
 
+## Reference library: reuse before building
+
+Before recommending an implementation or first proof, inspect Conductor's
+`docs/reference.md` and read entries matching the project's capabilities and
+use cases. Resolve the library from the **Conductor source root**, not the
+new project's working directory. For an installed copy, locate the Conductor
+checkout from kickoff context; if unavailable, record that gap and continue
+rather than claiming the library was reviewed.
+
+Bring promising references to the user in the kickoff/setup discussion: link
+the tool or working example, explain what it could save or teach this project,
+and state the fit, limitations, and evidence still needed. Consider reuse,
+adaptation, or learning from an implementation even when building locally is
+appropriate. Entries are starting points, not an approved stack or a claim to
+be the best current option. Before recommending adoption, check current primary
+sources and a few relevant alternatives, respecting project reuse, license,
+privacy, cost, and fidelity constraints. Record the recommendation and rationale
+in the kickoff brief or existing setup notes; say when nothing fits. Reuse an
+applicable kickoff review during setup rather than repeating it. Library access
+does not authorize installation, paid calls, or a change to agreed requirements.
+
 ## Boundaries
 
 - Preserve raw intake such as `docs/initial-concept.md`; do not overwrite it.
@@ -149,6 +170,9 @@ ideas and check that no distinct user outcome disappeared during compression.
 - Adapt: {surfaces}
 - Defer: {surfaces}
 - Reject: {surfaces}
+
+### Reuse and Reference Options
+- {relevant library entries, current alternatives, fit and caveats; or no match/gap}
 
 ### First Proof Story
 - {the first story that reduces the largest real risk}

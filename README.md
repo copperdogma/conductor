@@ -25,6 +25,13 @@ and justified adaptations.
   changes from the same request. Use `--audit-only` for a read-only readiness
   review and `--cleanup` to remove eligible task-owned local worktrees and branches.
 
+## Reference library
+
+Save useful tools and techniques in the [reference library](docs/reference.md).
+Each entry gets a small source check, canonical links, use cases, and limitations
+so future projects can find it without repeating discovery. Start with
+[image-blaster](docs/reference/image-blaster.md) for image-to-3D environments.
+
 ## Key surfaces
 
 - `projects.yaml`

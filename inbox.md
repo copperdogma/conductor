@@ -1,5 +1,25 @@
 # Inbox
 
+- 2026-10-24: Cam requested reference-library discovery in the methodology setup
+  skills, followed by check-in and push. Kickoff and setup now browse capability
+  references, discuss promising reuse/examples with the user, and check current
+  sources/alternatives before adoption recommendations. Runbooks and the bundled
+  checklist carry the same guidance. Scope includes this chat's library setup;
+  unrelated checkout changes are excluded from the landing candidate.
+  Validation: methodology-check, skills-check, lint, package source audit, local
+  Markdown links and scoped whitespace checks passed on the isolated candidate.
+  Task worktree: `/Users/cam/.codex/worktrees/reference-library-20261024/conductor`,
+  owner: this reference-library chat; branch: `codex/reference-library-20261024`.
+  Retained as the validated landing checkout; no cleanup requested. Primary
+  checkout and its unrelated index/worktree changes are preserved.
+
+- 2026-10-24: Cam requested a lightweight reference library for future projects.
+  Set up [library and intake guidance](docs/reference.md); processed the supplied
+  [X post](https://x.com/liambraus/status/2106383261089849825) into
+  [image-blaster](docs/reference/image-blaster.md). Official repository, README,
+  example configuration, and license checked; runtime claims untested. Handled
+  as a saved reference, with no target-project adoption task.
+
 - 2026-10-23: Cam approved committing and pushing the scoped Doc Web offline
   reviewed-intent replay. The actual driver preserves five source-exact artwork
   units and original OCR content; proof-v2 explicitly accounts for schema-added

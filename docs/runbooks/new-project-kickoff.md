@@ -23,6 +23,16 @@ and why, discuss alternatives with me, and wait for approval before creating
 files.
 ```
 
+## Reference discovery
+
+During kickoff, browse `docs/reference.md` in the Conductor source checkout and
+read matching entries before proposing the first implementation. Discuss useful
+tools and working examples with the user, including reuse/adaptation value,
+limitations, and current alternatives. Treat entries as leads; verify current
+primary sources before recommending adoption. Carry the result into setup notes
+without repeating an applicable review. If access is unavailable or nothing
+fits, state that and continue. The library need not be copied into the target.
+
 ## Phases
 
 ### 1. Seed

@@ -99,6 +99,19 @@ private-data use, provider account-policy changes, copying the whole credential
 vault, permanent owner provisioning, higher spend, default changes,
 deployment, commit, push, merge, or landing.
 
+### spec:3.4 Reference library
+
+`docs/reference.md` indexes short entries in `docs/reference/` by capability,
+use case, and tags. A reference-only request receives a bounded source check:
+resolve discovery links to primary sources, confirm identity and documented
+capabilities, record requirements and limitations, and distinguish source claims
+from local testing. Keep the discovery link, canonical link, and check date.
+
+Saving a reference does not require a full per-project adoption scout or create
+target-repo inbox pressure. When a concrete need appears, recheck current facts
+and promote into the existing scout/story workflow, linking the reference.
+Raw intake remains `inbox.md`; processed references live in the library.
+
 ## spec:4 Story & Decision Preparation
 
 ### spec:4.1 Same story loop as other projects

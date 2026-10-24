@@ -4,6 +4,12 @@ Use `.agents/skills/setup-methodology/SKILL.md` as the canonical setup entrypoin
 Project-specific Ideal/spec intake comes first through `/init-project` or
 reviewed equivalent. Package installation cannot replace that conversation.
 
+Before choosing an implementation, follow the setup skill's reference-library
+review in the Conductor source checkout (`docs/reference.md`). Discuss relevant
+tools and working examples with the user; check current fit and alternatives
+before recommending adoption. Record the result or access gap in setup notes;
+reuse a completed kickoff review. The library stays in Conductor.
+
 Select the relevant modules, copy package resources using the bundled package
 helper's plan/install commands, and author state from the actual project.
 The helper preserves existing files; a conflicting retrofit needs a reviewed

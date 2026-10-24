@@ -1,5 +1,9 @@
 # Scout Log
 
+For source-checked tools saved for future use, browse the
+[Reference Library](reference.md). Reference-only intake follows its lightweight
+workflow; adoption investigations remain in this log.
+
 - `2026-10-23` — [Scout102 offline Doc Web closeout](./scout/scout-102-docweb-offline-replay-closeout.md) — Reviewed-intent driver replay preserves five exact source crops and OCR content, USD0. Scoped tooling/Story262 landing; automatic admission and Kimi deployment remain unqualified. Earlier model campaign work remains separate.
 
 - `2026-10-23` — [Scout 101 — Deterministic Scheduled Work](./scout/scout-101-deterministic-scheduled-work.md) — `Adapt into optional setup reference`

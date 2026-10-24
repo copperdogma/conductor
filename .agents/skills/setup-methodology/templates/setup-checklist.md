@@ -14,6 +14,14 @@ at handoff.
 - [ ] Current architecture, active constraints, and unresolved choices are
       linked to their proper Spec, decision, runbook, story, or eval surfaces.
 
+## Reuse and reference discovery
+
+- [ ] Conductor reference library reviewed for relevant capabilities, or access
+      gap/no match recorded. Resolve it from the Conductor source checkout.
+- [ ] Useful tools/examples discussed with the user; current sources and
+      alternatives checked before adoption recommendations. Record reuse,
+      adaptation, or build rationale and remaining evidence in setup notes.
+
 ## Package fit
 
 - [ ] Setup mode selected from `.agents/skills/setup-methodology/references/modes.md`.

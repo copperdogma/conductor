@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-24] - Reference library and setup discovery
+
+### Added
+- Capability-indexed reference library with a source-checked image-blaster entry.
+- Kickoff/setup discovery of reusable tools and working examples, user discussion,
+  current-source/alternative checks, and explicit fit or access-gap notes.
+- Matching setup runbook and checklist guidance without automatic adoption.
+
 ## [2026-10-20-setup-package] — Curate the reusable project setup library
 
 ### Changed
