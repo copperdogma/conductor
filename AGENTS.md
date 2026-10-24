@@ -187,6 +187,23 @@ campaign or a runtime change.
 - Treat an active target-project checkout as shared workspace: supervisor
   upgrades should be quiet, isolated, and easy to land or discard without
   polluting the project's live work environment.
+- Temporary worktrees created by Conductor or its delegates must live under
+  `/Users/cam/.codex/worktrees/<task>/<project-key>` (or the managed worktree
+  path returned by the app). Never create sibling worktrees, evaluation copies,
+  scratch outputs, or recovery archives at the top level of
+  `/Users/cam/Documents/Projects`. An exception requires an explicit user request
+  for that location; convenience or an owner worker's default is not an exception.
+  Validate the resolved destination before creating it, include this rule in
+  delegated owner instructions, and verify returned worktree paths. Keep
+  product-owned durable evidence in the owning repo's established evidence
+  surface; keep external recovery archives under `/Users/cam/.codex/archives`.
+- Every task that creates temporary worktrees must account for them at handoff:
+  record path, owner, branch, and whether each was removed or retained and why.
+  When cleanup is authorized, preserve local changes, untracked files, useful
+  ignored evidence, and recovery instructions before removal; verify preservation
+  and use Git/app worktree tools rather than deleting folders manually. A clean
+  Git status alone is not evidence that a worktree is disposable. Retain unfinished
+  work under the approved worktree root, never as a new top-level project folder.
 - An approved cross-project evaluation remains repo-local work: read and obey
   each owning repo's instructions, fixtures, privacy, gates, artifacts, and
   verdict contract rather than running a synthetic substitute in Conductor.
