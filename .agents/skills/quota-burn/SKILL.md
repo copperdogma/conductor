@@ -108,21 +108,27 @@ record; preserve completed records separately before replacing it. Exclude
 private source material and credentials. Keep one writer per repo Git state.
 
 Requested settings are **maximum-strength available model, maximum reasoning,
-and highest available speed**; the verified current target is GPT-6 Astra with
-`ultra` reasoning, and Ultrafast speed if the account/client offers it, otherwise
-Fast. Recheck available choices at launch; disclose any unavailable requested
-setting rather than silently selecting a weaker model or lower reasoning.
-Send `gpt-6-astra` and thinking `ultra` with authorized worker messages. When Cam
-explicitly requests a new chat, `create_thread` also accepts model and thinking;
-this skill alone does not authorize creating extra chats.
+and Fast speed**. The current model/reasoning target is GPT-6 Astra with `ultra`.
+Fast is required for quota-burn launches; do not launch on Standard or substitute
+Ultrafast without Cam requesting it. Recheck available choices and verify the
+actual speed for every selected chat before dispatching its loop goal. A prose
+request to the worker does not configure speed, and selecting Astra/ultra does
+not establish Fast.
 
 Neither `create_thread` nor `send_message_to_thread` currently exposes a speed
-argument. Set speed through a supported UI control when available and verify
-the actual setting before launch; otherwise disclose that it needs Cam's UI
-selection. Do not change global defaults for other work. Ultra reasoning and
-Ultrafast speed are different settings. Never claim speed was set by mentioning
-it in a prompt or modifying hidden databases. Record requested and observed
-settings separately. Availability source: [official Speed documentation](https://learn.chatgpt.com/docs/agent-configuration/speed).
+argument. Use a supported per-chat control if available. If speed cannot be set
+or observed through available tools, tell Cam before launch and wait for Cam to
+set Fast and explicitly confirm it for that chat. Do not silently preserve an
+unverified speed or start first and mention the limitation afterward. Keep the
+model/reasoning/speed choices separate; reverify speed if a settings change can
+reset it. Do not change global defaults or modify hidden application databases.
+Record requested speed `fast`, observed/confirmed speed, and verification source
+separately. Availability source: [official Speed documentation](https://learn.chatgpt.com/docs/agent-configuration/speed).
+
+Send `gpt-6-astra` and thinking `ultra` with authorized worker messages only after
+the launch settings are verified. When Cam explicitly requests a new chat,
+`create_thread` also accepts model and thinking; this skill alone does not
+authorize creating extra chats.
 
 Before launching, install/verify a thread heartbeat using `automation_update`
 with destination `thread` and this chat as target. Start at a two-minute cadence;

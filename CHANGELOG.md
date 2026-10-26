@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-26] - Verify Fast before quota-burn launches
+
+### Changed
+- Require verified Fast speed before starting a participant; model and reasoning
+  selection do not establish speed, and Standard is not an automatic fallback.
+- Record the Storybook pilot's validated voice-action repair, reset-triggered
+  closeout, paused-goal limitation and confirmed shutdown without deployment.
+
 ## [2026-10-25] - Selective quota-burn rounds
 
 ### Added

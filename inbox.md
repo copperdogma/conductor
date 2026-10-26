@@ -1,5 +1,13 @@
 # Inbox
 
+- 2026-10-26: Cam stopped the Storybook-only quota-burn pilot after the reset.
+  Voice-action repair `d32c2dfe` and held-release closeout `eab55d80` are pushed;
+  production stays on release48. Persistent goal creation failed, and Cam found
+  the selected speed was Standard. The skill now requires verified Fast before
+  launch, with a manual setting step if tools cannot set/read it. Monitor deleted;
+  owner confirmed idle, paused goal and no active delegates or temporary servers.
+  See the [round summary](docs/quota-burn/rounds/2026-10-25-storybook-234632-summary.md).
+
 - 2026-10-25: Built and reviewed the quota-burn workflow in this chat. Cam chose
   the reviewed eight projects plus Boardgame Ingester and RoboRally as eligible;
   the rest are parked. Every run first proposes a list for `yes` or refinement,
