@@ -1,5 +1,15 @@
 # Changelog
 
+## [2026-10-25] - Selective quota-burn rounds
+
+### Added
+- Supervisor quota-burn skill with per-round project-list approval, project-owned
+  persistent triage loops, verified model/speed settings, and graceful closeout.
+- Inclusive 20% remaining-quota gate, with unavailable-quota and reset-latch
+  coverage, reusing the existing native quota reader.
+- Eight-project value review and Cam's ten-project eligible pool; other projects
+  are parked. No round or monitor is active until a proposed list is approved.
+
 ## [2026-10-24] - Reference library and setup discovery
 
 ### Added

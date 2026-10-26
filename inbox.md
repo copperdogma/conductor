@@ -1,5 +1,16 @@
 # Inbox
 
+- 2026-10-25: Built and reviewed the quota-burn workflow in this chat. Cam chose
+  the reviewed eight projects plus Boardgame Ingester and RoboRally as eligible;
+  the rest are parked. Every run first proposes a list for `yes` or refinement,
+  then starts each selected project's persistent triage/work/repeat goal. The
+  coordinator watches quota and requests finish/validate/commit/push/summary at
+  20% remaining. Creating/reviewing the skill is not activation; the mistakenly
+  created monitor was deleted, and no round is active. See
+  [project review](docs/quota-burn/2026-10-25-project-review.md) and
+  [confirmed pool](docs/quota-burn/project-pool.json). Scoped closeout is authorized;
+  unrelated primary-checkout changes and prior inbox capture remain preserved.
+
 - 2026-10-24: Cam requested reference-library discovery in the methodology setup
   skills, followed by check-in and push. Kickoff and setup now browse capability
   references, discuss promising reuse/examples with the user, and check current

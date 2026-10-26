@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "purpose": "Confirmed eligible pool for future quota rounds. Eligibility is not per-round launch approval.",
+  "updated_on": "2026-10-25",
+  "selection_status": "confirmed",
+  "default_interest": "parked",
+  "selection_authority": "Cam approved the reviewed eight plus Boardgame Ingester and RoboRally; park all others for now.",
+  "round_approval_policy": "On each burn-quota request, suggest a project slate; wait for yes or an approved refined list before starting any monitor or worker.",
+  "path_resolution": "Resolve repo_directory against the current local app project inventory or the selected Projects root; verify the actual triage path before launch.",
+  "projects": [
+    {
+      "name": "boardgame-ingester",
+      "repo_directory": "boardgame-ingester",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "cine-forge",
+      "repo_directory": "cine-forge",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "doc-web",
+      "repo_directory": "doc-web",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "dossier",
+      "repo_directory": "dossier",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "echo-forge",
+      "repo_directory": "echo-forge",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "Financial Hub",
+      "repo_directory": "financial-hub",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "financial-monthly-analysis",
+      "repo_directory": "financial-monthly-analysis",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "roborally",
+      "repo_directory": "roborally",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "storybook",
+      "repo_directory": "Storybook/storybook",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    },
+    {
+      "name": "Ultima IV Web",
+      "repo_directory": "ultima-iv-web",
+      "interest": "eligible",
+      "triage_skill": ".agents/skills/triage/SKILL.md",
+      "eligible_for_launch": false
+    }
+  ]
+}

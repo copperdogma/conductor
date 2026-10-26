@@ -18,6 +18,9 @@ and justified adaptations.
 
 - `inbox.md` captures cross-project notes, links, and sync requests.
 - `/triage` turns inbox items and backlog pressure into one recommended action.
+- [`/quota-burn`](.agents/skills/quota-burn/SKILL.md) proposes ready projects from
+  Cam's eligible pool, waits for approval, then runs their triage goals and
+  coordinates validation, commit/push and summary at 20% remaining quota.
 - `/align-projects` compares infrastructure drift across tracked projects.
 - `/scout` investigates external sources and recommends which projects should
   adopt what.

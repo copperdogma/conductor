@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "enabled": false,
+  "phase": "inactive",
+  "participants": [],
+  "monitor": {
+    "status": "DELETED"
+  },
+  "authorization": "No burn round is enabled. Each request first proposes a slate and waits for Cam to approve it.",
+  "historical_review": "docs/quota-burn/2026-10-25-project-review.md",
+  "scope_correction": "Creating or reviewing the skill does not authorize monitoring ongoing work."
+}

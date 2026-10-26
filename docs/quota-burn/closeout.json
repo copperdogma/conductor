@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "scope": "Quota-burn skill, native-payload gate, project review, interest pool and inactive round state; no target-repo rollout or active monitoring.",
+  "validation_target": "Per-round slate approval before launch; actual persistent owner triage goals; inclusive 20% finish/validate/commit/push/summary; exactly 10 eligible interests; no round enabled.",
+  "base_commit": "a763e0fd6946a85a595f21f2f7ffc5c2acafc488",
+  "candidate_inputs_sha256": {
+    ".agents/skills/quota-burn/SKILL.md": "31620954dbf7d33d6330429fe33fadce3db13e4d66e91620362d22347e37ba1f",
+    "scripts/quota_burn_gate.py": "b7a4a84eb372eb05c041e5fe720b1115918dd90b59ad0d83ea9c04a852afebc0",
+    "tests/test_quota_burn_gate.py": "8afe220d8afe487eada6c0449a244ba39d5c19cafcdd44f7d89ce1fc7739271a",
+    "docs/quota-burn/2026-10-25-project-review.md": "fed6fa605f8ee59bac4eebd6aa8deface7f0c2ec889015ba09593218ffe2c8e7",
+    "docs/quota-burn/active-round.json": "fda79ca7b3086c36d2eb73baf5fee942bb69c59be2e592142d31d227eb309288",
+    "docs/quota-burn/project-pool.json": "112fc0f538b4f7e528ff3adf77ceb230eac502e978872af0a4c327c45d166629",
+    "README.md": "b5403b7af206be40dcd1d6b5c04c8a737560a1cf460003f01c18c87fcd401314",
+    "CHANGELOG.md": "2c235929fa98076d74340aedf89d62e78349442df63031030ae590a1c64cff90",
+    "inbox.md": "a92f95367bb33cb527e0b150218acb4dd82467d8154be64fac19b3ca397242e8"
+  },
+  "unchanged_dependencies_sha256": {
+    "scripts/codex_quota.py": "1e90cdce253df03e774e0ccdcc075b8e64d217582ace089f391385d6677b34fd",
+    "tests/test_codex_quota.py": "065c77f8593564a1f1a9b86181c8cc49910d8fede03570a5c3643ddf461489e6"
+  },
+  "checks": [
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -p 'test*quota*.py' -v",
+      "result": "29 passed (8 new gate, 21 existing quota-reader)"
+    },
+    {
+      "command": "PYTHONDONTWRITEBYTECODE=1 make lint skills-check methodology-check",
+      "result": "all passed; methodology graph unchanged; 34 canonical skills"
+    },
+    {
+      "command": "skill-creator/scripts/quick_validate.py .agents/skills/quota-burn",
+      "environment": "existing Dossier Python venv supplies PyYAML; no dependency installation",
+      "result": "Skill is valid"
+    },
+    {
+      "command": "JSON pool/state invariants; real CLI stdin scenarios; local Markdown artifact-link validation",
+      "result": "passed"
+    },
+    {
+      "command": "Independent read-only final skill/state/code review",
+      "result": "clean; no actionable findings"
+    },
+    {
+      "command": "Publication configuration invariants and selective privacy review",
+      "result": "10 approved entries, all others parked by default; inactive empty participants; no machine paths or chat/account/project IDs in pool/active configuration"
+    }
+  ],
+  "validation_limits": [
+    "No worker launch, live threshold crossing, Fast/Ultrafast setting mutation, target-repo tests or paid calls performed.",
+    "Historical owner test results are recorded evidence, not rerun by this supervisor.",
+    "Broader unrelated Conductor suites not required for the isolated gate and documentation changes."
+  ],
+  "worktree_custody": [
+    {
+      "path": "/Users/cam/.codex/worktrees/quota-burn-closeout/conductor",
+      "branch": "codex/quota-burn-closeout",
+      "disposition": "retained",
+      "reason": "No cleanup requested; isolated validated landing checkout; source shared checkout left intact.",
+      "owner": "quota-burn closeout chat"
+    }
+  ],
+  "inbox_review": "Added this request summary to current-main inbox; existing captures preserved. Primary inbox-only delta reviewed; unrelated prior capture not imported as new quota-burn work.",
+  "learning_review": {
+    "result": "no-candidate",
+    "reason": "Activation and list-approval corrections are already implemented in this skill; no additional general workflow candidate is needed."
+  },
+  "landing_destination": "origin/main",
+  "landing_verification": "Exact commit and remote branch verification reported in final chat handoff after push.",
+  "publication_review": {
+    "destination": "https://github.com/copperdogma/conductor",
+    "verified_owner": "copperdogma",
+    "viewer_permission": "ADMIN",
+    "visibility": "PUBLIC",
+    "scope": "Public code/methodology and the ten explicitly selected project names only; portable project references; no raw chats/internal account IDs/full parked inventory in configuration. Originals remain in shared checkout.",
+    "authorization": "Cam explicitly requested finish and push for this quota-burn work to the owning repository."
+  }
+}
