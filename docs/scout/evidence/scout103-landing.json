@@ -1,0 +1,112 @@
+{
+  "schema": "scout103_landing_v1",
+  "date": "2026-10-26",
+  "authorization": "Cam: thanks. check in and push",
+  "scope": "Only Scout103 initial six-owner campaign and separately approved Dossier Attempt039; reviewed current-task inbox entry. No unrelated primary changes.",
+  "paid_execution": "closed; no reruns during landing",
+  "runtime_defaults_changed": false,
+  "supervisor": {
+    "worktree": "/Users/cam/.codex/worktrees/scout103-closeout-20261026/conductor",
+    "branch": "codex/scout103-closeout-20261026",
+    "base": "4aeaf11db156932d5a1f20184a5267ea9376d714",
+    "disposition": "retained; cleanup not requested",
+    "landing_state": "Supervisor commit containing this receipt follows all six verified owner landings; exact remote-verified supervisor SHA is supplied in final handoff.",
+    "validation": [
+      "make lint: pass",
+      "make methodology-check: pass",
+      "Scoped new Markdown file targets/JSON checked",
+      "Original paid artifacts independently hash-verified before metadata closeout; paid manifests unchanged, owner landing receipts preserve original metadata snapshots",
+      "Full candidate scope and staged whitespace checked before commit"
+    ],
+    "commit_identity": "Git commit containing this receipt"
+  },
+  "owners": {
+    "doc-web": {
+      "candidate_commit": "90bb5f125ee0b5cce93a7af473cd696867110d94",
+      "remote": "https://github.com/copperdogma/doc-web.git",
+      "branch": "codex/scout103-terra-docweb-20261026",
+      "base": "3a7efec9216c7d784700e464a98fc6de9b8a2e02",
+      "landing_state": "landed and independently remote-verified",
+      "remote_refs": {
+        "refs/heads/codex/scout103-terra-docweb-20261026": "90bb5f125ee0b5cce93a7af473cd696867110d94",
+        "refs/heads/main": "90bb5f125ee0b5cce93a7af473cd696867110d94"
+      },
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/doc-web",
+      "disposition": "retained clean; cleanup not requested",
+      "validation": "Owner focused implementation checks reused; changed closeout records, whitespace and sealed evidence verified. No paid rerun."
+    },
+    "dossier": {
+      "candidate_commit": "66e8301cf7389220ec100abbb24c33e8993c40de",
+      "remote": "https://github.com/copperdogma/dossier.git",
+      "branch": "codex/scout103-terra-dossier-20261026",
+      "base": "9f728daf2996457de254223fee3429ff7f7165f6",
+      "landing_state": "landed and independently remote-verified",
+      "remote_refs": {
+        "refs/heads/codex/scout103-terra-dossier-20261026": "66e8301cf7389220ec100abbb24c33e8993c40de",
+        "refs/heads/main": "66e8301cf7389220ec100abbb24c33e8993c40de"
+      },
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier",
+      "disposition": "retained clean; cleanup not requested",
+      "validation": "Owner focused implementation checks reused; changed closeout records, whitespace and sealed evidence verified. No paid rerun."
+    },
+    "boardgame-ingester": {
+      "candidate_commit": "22701d975a9f0daf2f87c55235040135e9e2bacc",
+      "remote": "https://github.com/copperdogma/boardgame-ingester.git",
+      "branch": "codex/scout103-terra-bgi-20261026",
+      "base": "368794740b47e369e6cf918b3e71db5fef0ce2f6",
+      "landing_state": "landed and independently remote-verified",
+      "remote_refs": {
+        "refs/heads/codex/scout103-terra-bgi-20261026": "22701d975a9f0daf2f87c55235040135e9e2bacc",
+        "refs/heads/main": "22701d975a9f0daf2f87c55235040135e9e2bacc"
+      },
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/boardgame-ingester",
+      "disposition": "retained clean; cleanup not requested",
+      "validation": "Owner focused implementation checks reused; changed closeout records, whitespace and sealed evidence verified. No paid rerun."
+    },
+    "cine-forge": {
+      "candidate_commit": "a66e6834ecb98f2a656e34aa37fde0015d11c3af",
+      "remote": "https://github.com/copperdogma/cine-forge.git",
+      "branch": "codex/scout103-terra-cineforge-20261026",
+      "base": "6e6783e47eec4d053452c83606e18dc6e96df312",
+      "landing_state": "landed and independently remote-verified",
+      "remote_refs": {
+        "refs/heads/codex/scout103-terra-cineforge-20261026": "a66e6834ecb98f2a656e34aa37fde0015d11c3af",
+        "refs/heads/main": "a66e6834ecb98f2a656e34aa37fde0015d11c3af"
+      },
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/cine-forge",
+      "disposition": "retained clean; cleanup not requested",
+      "validation": "Owner focused implementation checks reused; changed closeout records, whitespace and sealed evidence verified. No paid rerun."
+    },
+    "storybook": {
+      "candidate_commit": "e26c70fb98be061ae5d32ac372b1511df7d316e9",
+      "remote": "https://github.com/copperdogma/storybook.git",
+      "branch": "codex/scout103-terra-storybook-20261026",
+      "base": "eab55d80bbe13b48fb8a36631a7948353e48abe5",
+      "landing_state": "landed and independently remote-verified",
+      "remote_refs": {
+        "refs/heads/codex/scout103-terra-storybook-20261026": "e26c70fb98be061ae5d32ac372b1511df7d316e9",
+        "refs/heads/main": "e26c70fb98be061ae5d32ac372b1511df7d316e9"
+      },
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/storybook",
+      "disposition": "retained clean; cleanup not requested",
+      "validation": "Owner focused implementation checks reused; changed closeout records, whitespace and sealed evidence verified. No paid rerun."
+    },
+    "echo-forge": {
+      "candidate_commit": "3fc3cffef6c9b16ddb64d1de13ba120066fd5ee0",
+      "remote": "https://github.com/copperdogma/echo-forge.git",
+      "branch": "codex/scout103-terra-echo-20261026",
+      "base": "e3c071339b8b78281622b2b74f41fd72918ae007",
+      "landing_state": "landed and independently remote-verified",
+      "remote_refs": {
+        "refs/heads/codex/scout103-terra-echo-20261026": "3fc3cffef6c9b16ddb64d1de13ba120066fd5ee0",
+        "refs/heads/main": "3fc3cffef6c9b16ddb64d1de13ba120066fd5ee0"
+      },
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/echo-forge",
+      "disposition": "retained clean; cleanup not requested",
+      "validation": "Owner focused implementation checks reused; changed closeout records, whitespace and sealed evidence verified. No paid rerun."
+    }
+  },
+  "validation_policy": "Reuse unchanged focused implementation/evidence checks; validate changed closeout records and integration only. No product suites for supervisor docs.",
+  "retained_worktrees": "All six Scout103 owner worktrees under /Users/cam/.codex/worktrees/scout103-terra-20261026/ retained. New supervisor worktree retained under approved root. Unrelated dirty primary checkouts preserved.",
+  "historical_reconciliation": "Original campaign reconciliation files preserve pre-landing hashes and uncommitted disposition as dated checkpoints. Owner closeout receipts snapshot original membered metadata and record landing changes; this receipt supersedes disposition only."
+}

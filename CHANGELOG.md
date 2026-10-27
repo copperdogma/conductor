@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-26-scout103] - Close GPT-6.1 Terra evaluations
+
+### Added
+- Preserve six owner-native model screens and the separately approved Dossier
+  qualification, source rejection, control capacity limit and complete spend.
+- Record scoped owner and supervisor landings with unchanged runtime choices,
+  preserved unrelated primary work and retained evaluation evidence/worktrees.
+
 ## [2026-10-26] - Verify Fast before quota-burn launches
 
 ### Changed

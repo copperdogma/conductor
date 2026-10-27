@@ -1,5 +1,14 @@
 # Inbox
 
+- 2026-10-26: Cam requested GPT-6.1 Terra evaluation, approved six owner screens
+  and a separate Dossier qualification, then requested check-in and push.
+  [Scout103](docs/scout/scout-103-gpt61-terra-evaluation-routing.md) records
+  closed owner evidence and required-meaning/source rejection of the broader
+  Dossier candidate; matching Sol life control hit its unchanged output cap.
+  Runtime choices remain unchanged. Scoped owner landings and supervisor
+  closeout are recorded in the [landing receipt](docs/scout/evidence/scout103-landing.json);
+  unrelated captures stay live.
+
 - 2026-10-26: Cam stopped the Storybook-only quota-burn pilot after the reset.
   Voice-action repair `d32c2dfe` and held-release closeout `eab55d80` are pushed;
   production stays on release48. Persistent goal creation failed, and Cam found

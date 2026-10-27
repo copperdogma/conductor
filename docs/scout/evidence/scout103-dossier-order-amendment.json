@@ -1,0 +1,50 @@
+{
+  "problem_class": "dependency-aware admission with earmarked completion commitments",
+  "source": "https://docs.python.org/3/library/graphlib.html",
+  "decision": "Use a valid alternate topological order; fulfill reserved Terra work before releasing only its completed obligations. Do not shrink unfinished reservations.",
+  "order": [
+    "terra/immigration",
+    "sol/immigration",
+    "terra/life",
+    "terra/follow-1",
+    "terra/life-follow-1",
+    "sol/life",
+    "sol/follow-1",
+    "sol/life-follow-1"
+  ],
+  "native_history_dependencies": {
+    "terra/immigration": [],
+    "terra/life": [],
+    "terra/follow-1": [
+      "terra/immigration",
+      "terra/life"
+    ],
+    "terra/life-follow-1": [
+      "terra/follow-1",
+      "terra/immigration",
+      "terra/life"
+    ],
+    "sol/immigration": [],
+    "sol/life": [],
+    "sol/follow-1": [
+      "sol/immigration",
+      "sol/life"
+    ],
+    "sol/life-follow-1": [
+      "sol/follow-1",
+      "sol/immigration",
+      "sol/life"
+    ]
+  },
+  "topological_order_local_check": "pass",
+  "original_protected_slots_usd": {
+    "terra/follow-1": "2.14688",
+    "terra/life-follow-1": "2.14688",
+    "sol/follow-1": "2.23304",
+    "sol/life-follow-1": "2.23304"
+  },
+  "original_total_usd": "8.75984",
+  "remaining_after_both_terra_fully_accepted_usd": "4.46608",
+  "limits": "Dependency/accounting model check only; owner implementation and source binding require independent verification before continuation dispatch. No completed result or runtime parity inferred.",
+  "execution_status": "Approved operational scheduling amendment; no continuation dispatched. Later necessary-meaning source rejection canceled all four continuations before the alternate order could run."
+}

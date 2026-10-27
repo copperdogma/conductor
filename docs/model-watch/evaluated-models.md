@@ -1,5 +1,38 @@
 # Evaluated frontier model ledger
 
+## OpenAI GPT-6.1 Terra — Scout103, 2026-10-26
+
+Canonical provider-qualified **OpenAI `gpt-6.1-terra`**, same public name/current
+snapshot; distinct from GPT-5.6 Terra and GPT-6.1 Sol. Exact direct Responses
+served ID/native contracts qualified in six selected owners; Standard,
+store=false, public/authored synthetic only, existing owner keys. No inferred
+router equivalence, immutable weight attestation or ZDR/account-policy claim.
+[Completed campaign and direct owner evidence](../scout/scout-103-gpt61-terra-evaluation-routing.md#completed-owner-comparisons--2026-10-26).
+
+**Dossier's initial cost lead failed the broader required-meaning gate; retain
+current runtime choices.** No within-task effort comparison or semantic retry.
+Untested levels remain unmeasured, not excluded by another task's setting.
+
+| Owner/task; tested effort | Layered outcome and narrow next trigger |
+| --- | --- |
+| Dossier long history, high65536 | Initial038 fixed authored-reference-history screen preserved5/5 meanings at47.56%lowercost/22.29%higherlatency. Separately approved [broader039 qualification](../scout/scout-103-dossier-qualification-plan.md) source-rejects life fact051: beautiful compared with American funerals loses the required most-beautiful funeral she attended. Raw judge preserved rating retained/source-disputed; full quoted evidence does not restore semantic omission. All short43meanings and immigration78meaning/184rows accepted per Terra arm before stop; no partial-subset qualification. Four native-history continuations canceled. Fresh exact Sol medium16384 life control returned incomplete/max_output_tokens, .177268USD/138.392s, no compiled graph/semantic verdict; no cap increase/retry. Followup9.449088USD/25,107calls(40subjects/67judges),unknown0; minimum2reviewcalls/.320140post-coordinator-stopovershoot included, guard hardened/23checks. [Reconciliation](../scout/evidence/scout103-dossier-qualification-reconciliation.json). RetainSol/defaults; any future prompt/config/checkpoint repair needs separately selected source-backed qualification, not unchanged paid repetition. |
+| DocWeb crops medium16384; tables/OCR high32768 | Crops13/13 tolerantpasses both,.978576923vsGemini.958900;12integral-content-clear+1cloth-extenthold, titlepreservation lead.38.69%costlier51.22%faster; golden-assisted axes and actual consumer/grouping/admission holds prevent runtime proof. No13/13full-sourceacceptance. Table22/23vsAstra23/23 gratuitousclearhold;Barney.965270<.99;requestedGemini3.7served3.8quarantined,relativeOCRunmeasured. Reopen crop promotion only after source/coordinate/consumer policy prerequisite; readers need new checkpoint or source-backed configuration/contract question, not unchanged panel. |
+| BGI orientation low8192/contour high32768 | Both orientation2/4, Terra accepts ambiguoustexture instead of requiredhold;ringgain does not offset policy failure. Contour loss1234vs1682/leak457vs713 but both687outsidecrop and failpristine. RetainSol/review; future separately justified config/newcheckpoint needs preserved hold/material gates, no unchanged repeat. Other effort levels not tested. |
+| CineForge ordered frames high32768 | Native/adapter strictqualified;2primarycases,all0/2qualitypasses,.68810vsSol.702625/Luna.70130. Seesgrowth/colorchange butdeclaredbroken labelmiss. No30%economicsgain; retainreferences. Poststopthirdsubjects/judges.069789425included as avoidableprotocoldeviation,supplementaryonly;hardenedpercaseadmission no rerun. New checkpoint/contract/source-faithfulscoring question or explicitfreshselection before paidrepeat. |
+| Storybook persona none2048/photo low4096 count-only |12pairs rawrubric12vs11,narrowPortlandlabelownershipgain;7.81xcost,mean4.13%fastermedianslower. RetainLuna. ExactTerra nativeinputcounts2010/2103 exceeduncached.001photogate;0inference,photocapabilityunmeasured. RetainFlashLite. Pricing/ownerapprovedcachecontract or materialquality/configquestion beforenewselection;noexistingprivateeligibility or warmedcacheclaim. |
+| Echo intent/scenes low8192 |37freshintentpairs34vs35,recall/FPtie,ambiguity1/3vs2/3makes no-worseimpossible;5remainingunmeasured.32.51%cheaper,p952.261vs7.875s doesnotwaivequality. Scenes1/2vsMini0/2,Tavernpolicywin butDungeonpolicy/towermiss;noqualifiedroutingrule. Retainincumbents;separatelysource-backedconfiguration/newcheckpoint/freshscope,notposthocsubsetorunchangedrepeat. |
+
+All175paid calls settled; usage-priced **US$2.102836440/38**, unknown0:
+Doc.27373875,Dossier1.409895,BGI.03931775,Cine.229264595,
+Story.075331695,Echo.07528865. Native usage accounting, not invoice evidence;
+agent/operator cost unmeasured. Owner records separate subjects, judges,
+qualification and avoidable overhead. No key injection, runtime/default change,
+commit/push/landing. Six isolated worktrees retained uncommitted with bases and
+recovery evidence in Scout103. Source review and fresh strategic review support
+closeout and stop; no additional paid sweep under unused ceilings.
+
+Cam subsequently authorized scoped check-in and push; [owner-first landing receipt](../scout/evidence/scout103-landing.json) records the verified commits. Earlier uncommitted dispositions are historical checkpoints.
+
 ## MiniMax M3.1 Flash GA — Scout099, 2026-10-20
 
 Canonical `minimax/minimax-m3.1-flash-20261019`; requested/served

@@ -1,0 +1,145 @@
+{
+  "schema": "conductor_model_campaign_reconciliation_v1",
+  "date": "2026-10-26",
+  "candidate": "OpenAI gpt-6.1-terra",
+  "campaign": "Scout103",
+  "total_spend_usd": "2.102836440",
+  "total_cap_usd": "38",
+  "unknown_exposure_usd": "0",
+  "paid_calls": 175,
+  "verified_members": 750,
+  "owner_records": [
+    {
+      "owner": "doc-web",
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/doc-web",
+      "branch": "codex/scout103-terra-docweb-20261026",
+      "base": "3a7efec9216c7d784700e464a98fc6de9b8a2e02",
+      "disposition": "retained uncommitted: owner evaluation evidence/tooling not landed",
+      "owner_report": "/Users/cam/.codex/worktrees/scout103-terra-20261026/doc-web/docs/evals/attempts/085-gpt61-terra-source-fidelity.md",
+      "owner_report_sha256": "b37a0939d42c3f44d4f13aa72b5b12ef9fcd7ee99beeb615e70648dcfb67d8b4",
+      "manifest": "/Users/cam/.codex/worktrees/scout103-terra-20261026/doc-web/docs/evals/evidence/085-scout103/manifest.json",
+      "manifest_sha256": "0e7613e9930258b6b65cffa94c12ff2e64bae5cb7fd5ce4a6064abfa29fddf97",
+      "verified_members": 115,
+      "archives": [
+        {
+          "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/doc-web/docs/evals/evidence/085-scout103/native-evidence.tar.gz",
+          "sha256": "dbeb5dc7bf58b75afe1a70c2f0a66e80f33092f25d7322e14b803caab5d1cb6c",
+          "members_verified": 115
+        }
+      ],
+      "spend_usd": "0.27373875",
+      "cap_usd": "12",
+      "paid_calls": 33,
+      "unknown_exposure_usd": "0",
+      "temporary_credential_injection": false
+    },
+    {
+      "owner": "dossier",
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier",
+      "branch": "codex/scout103-terra-dossier-20261026",
+      "base": "9f728daf2996457de254223fee3429ff7f7165f6",
+      "disposition": "retained uncommitted: owner evaluation evidence/tooling not landed",
+      "owner_report": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/attempts/038-gpt61-terra-long-history-20261026.md",
+      "owner_report_sha256": "3d5b093070744a025d99fe7be6fd8a69cae51afe59bb5d2e13e355e0f0683934",
+      "manifest": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/artifacts/scout103-terra-long-history-20261026/manifest.json",
+      "manifest_sha256": "4429720703f80408c6b6c1bf201120d5946c3324380a807531df2c1352f36f59",
+      "verified_members": 75,
+      "archives": [],
+      "spend_usd": "1.409895",
+      "cap_usd": "9",
+      "paid_calls": 6,
+      "unknown_exposure_usd": "0",
+      "temporary_credential_injection": false
+    },
+    {
+      "owner": "boardgame-ingester",
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/boardgame-ingester",
+      "branch": "codex/scout103-terra-bgi-20261026",
+      "base": "368794740b47e369e6cf918b3e71db5fef0ce2f6",
+      "disposition": "retained uncommitted: owner evaluation evidence/tooling not landed",
+      "owner_report": "/Users/cam/.codex/worktrees/scout103-terra-20261026/boardgame-ingester/docs/evals/attempts/20261026-scout103-terra.md",
+      "owner_report_sha256": "439778186d7b0cc77fd85bc611d0ffaaf4c65bb071f2df6eb8ba1ec9afa8b77c",
+      "manifest": "/Users/cam/.codex/worktrees/scout103-terra-20261026/boardgame-ingester/benchmarks/results/scout103-terra-20261026/artifact-manifest.json",
+      "manifest_sha256": "61c615e1649851b1decfafe88191a21d103e747c3f9469b4c819b13b4a76af59",
+      "verified_members": 191,
+      "archives": [
+        {
+          "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/boardgame-ingester/benchmarks/output/scout103-terra-20261026/evidence.tar.gz",
+          "sha256": "d1dc1c9dd4f62148fb37278c3646bddbb688b41fbdb560eb5a9ce0b212c0e040",
+          "members_verified": 191
+        }
+      ],
+      "spend_usd": "0.03931775",
+      "cap_usd": "5",
+      "paid_calls": 11,
+      "unknown_exposure_usd": "0",
+      "temporary_credential_injection": false
+    },
+    {
+      "owner": "cine-forge",
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/cine-forge",
+      "branch": "codex/scout103-terra-cineforge-20261026",
+      "base": "6e6783e47eec4d053452c83606e18dc6e96df312",
+      "disposition": "retained uncommitted: owner evaluation evidence/tooling not landed",
+      "owner_report": "/Users/cam/.codex/worktrees/scout103-terra-20261026/cine-forge/docs/evals/attempts/055-gpt61-terra-ordered-frame-screen.md",
+      "owner_report_sha256": "9e411a914d4ee7a75f212b3f6fdf784b5fb250a99385b29b327e9dd1e69382f0",
+      "manifest": "/Users/cam/.codex/worktrees/scout103-terra-20261026/cine-forge/docs/evals/story-226-terra6120261026-evidence.json",
+      "manifest_sha256": "6c655546d4107ddebca35bbd5a02d19e7c3c62f4c32ffe7ea9e47d0210e90840",
+      "verified_members": 75,
+      "archives": [],
+      "spend_usd": "0.229264595",
+      "cap_usd": "5",
+      "paid_calls": 21,
+      "unknown_exposure_usd": "0",
+      "temporary_credential_injection": false
+    },
+    {
+      "owner": "storybook",
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/storybook",
+      "branch": "codex/scout103-terra-storybook-20261026",
+      "base": "eab55d80bbe13b48fb8a36631a7948353e48abe5",
+      "disposition": "retained uncommitted: owner evaluation evidence/tooling not landed",
+      "owner_report": "/Users/cam/.codex/worktrees/scout103-terra-20261026/storybook/docs/evals/attempts/196-scout103-gpt61-terra-persona-photo.md",
+      "owner_report_sha256": "53c96ef8c690c858604d573c2d500a17aa3b37c31cae757257a774b2e920c07f",
+      "manifest": "/Users/cam/.codex/worktrees/scout103-terra-20261026/storybook/docs/evals/artifacts/scout103-terra-storybook-20261026/manifest.json",
+      "manifest_sha256": "8525db765e0e62f784be186ea672f3723492c23f9b4b5ee1c57dff68d7aa8042",
+      "verified_members": 117,
+      "archives": [],
+      "spend_usd": "0.075331695",
+      "cap_usd": "3",
+      "paid_calls": 26,
+      "unknown_exposure_usd": "0",
+      "temporary_credential_injection": false
+    },
+    {
+      "owner": "echo-forge",
+      "worktree": "/Users/cam/.codex/worktrees/scout103-terra-20261026/echo-forge",
+      "branch": "codex/scout103-terra-echo-20261026",
+      "base": "e3c071339b8b78281622b2b74f41fd72918ae007",
+      "disposition": "retained uncommitted: owner evaluation evidence/tooling not landed",
+      "owner_report": "/Users/cam/.codex/worktrees/scout103-terra-20261026/echo-forge/docs/evals/attempts/control-intent-v1/20261026-scout103.md",
+      "owner_report_sha256": "052390cc490e3c0d8d50a4124513ff62bc750d0d122ad4980001901dd25dc2a8",
+      "manifest": "/Users/cam/.codex/worktrees/scout103-terra-20261026/echo-forge/docs/evals/attempts/control-intent-v1/20261026-scout103.manifest.json",
+      "manifest_sha256": "321382c9165c1f0a8d85a3a366a14206f1a0d952ea4b5a12bcf087a76b4cf33c",
+      "verified_members": 177,
+      "archives": [],
+      "spend_usd": "0.07528865",
+      "cap_usd": "4",
+      "paid_calls": 78,
+      "unknown_exposure_usd": "0",
+      "temporary_credential_injection": false
+    }
+  ],
+  "cost_basis": "native usage and documented token category prices; not invoice or agent/operator cost",
+  "protocol_deviation": {
+    "owner": "cine-forge",
+    "post_stop_spend_usd": "0.069789425",
+    "treatment": "supplementary only; excluded from primary aggregate; producing code preserved and per-case reproducer hardened"
+  },
+  "review": {
+    "source_requested": "gpt-6-astra/high",
+    "strategic_requested": "gpt-6-astra/ultra",
+    "served_identity_independently_attested": false,
+    "strategic_verdict": "continue selected closeout then stop; no adoption or expanded sweep"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "scout103_dossier_qualification_reconciliation_v1",
+  "date": "2026-10-26",
+  "status": "complete; source rejected and paid execution stopped",
+  "candidate": "openai/gpt-6.1-terra",
+  "configuration": {
+    "candidate": "high/65536/direct Responses/Standard/store=false/420s",
+    "control": "gpt-6.1-sol/medium/16384/direct Responses/Standard/store=false/420s",
+    "judge": "claude-opus-4-6/fixed maintained rubric/full obligation-row coverage"
+  },
+  "hard_cap_usd": "25",
+  "settled_spend_usd": "9.449088",
+  "provider_calls": 107,
+  "subject_calls": 40,
+  "judge_calls": 67,
+  "unknown_exposure_usd": "0",
+  "independent_reprice": {
+    "entries": 107,
+    "discrepancies": 0,
+    "sum_usd": "9.449088",
+    "basis": "Saved native usage, exact decimal prices; no invoice or agent/operator cost claim"
+  },
+  "verdict": "reject tested Terra broader qualification; retain runtime choices",
+  "source_failure": {
+    "case": "life-history/complete-transcript",
+    "obligation": "fact-051",
+    "required": "most beautiful funeral she attended",
+    "actual": "beautiful compared with American funerals",
+    "classification": "necessary meaning loss; general severity may be minor, not material false certainty",
+    "raw_judge": "preserved; raw full grade retained and source-disputed",
+    "coverage": "complete 91 obligations and 198 rows; source rejection authoritative"
+  },
+  "control_capacity": {
+    "model": "gpt-6.1-sol",
+    "native_status": "incomplete",
+    "reason": "max_output_tokens",
+    "max_output_tokens": 16384,
+    "usage_input_tokens": 6714,
+    "usage_output_tokens": 16384,
+    "reasoning_within_output": 1034,
+    "cost_usd": "0.177268",
+    "seconds": 138.39157470899954,
+    "compiled_graph": false,
+    "semantic_quality": "unmeasured",
+    "retry": false
+  },
+  "accepted_boundaries": {
+    "short_snapshots_per_arm": 18,
+    "short_meanings_per_arm": 43,
+    "immigration_meanings_per_arm": 78,
+    "immigration_rows": {
+      "terra": 184,
+      "sol": 204
+    },
+    "immigration_subject_usd": {
+      "terra": ".077884",
+      "sol": ".165908"
+    },
+    "immigration_subject_seconds": {
+      "terra": 159.16244158300105,
+      "sol": 139.23065087499708
+    },
+    "qualification_from_accepted_subset": false,
+    "consumer": "Actual frozen core functions with in-memory transaction seam; not DB/UI or complete conflict-question parity"
+  },
+  "cancelled_work": {
+    "followup_subjects": 4,
+    "reason": "terminal necessary-meaning source stop",
+    "fulfilled": false,
+    "dispatched": false,
+    "own_native_history_qualification": "not established"
+  },
+  "protocol_deviation": {
+    "minimum_post_coordinator_stop_review_calls": 2,
+    "cost_included_usd": ".320140",
+    "cause": "loaded loop progressed before worker processed coordinator source stop; later interlock insertion is not confirmation time",
+    "timing": "relative ordering known; exact timestamps unavailable",
+    "repair": "coordinator-writable external stop checked before admission/POST, exact matching-control exception, one fresh review job per invocation",
+    "new_paid_retest": false
+  },
+  "validation": {
+    "focused_guard_tests": 23,
+    "reused_prior_checks": true,
+    "old038_members_independently_verified_unchanged": 75,
+    "old038_manifest_sha256": "4429720703f80408c6b6c1bf201120d5946c3324380a807531df2c1352f36f59",
+    "old038_report_sha256": "3d5b093070744a025d99fe7be6fd8a69cae51afe59bb5d2e13e355e0f0683934",
+    "owner_closeout": "23 focused guards and47 merge checks reused; methodology build/check and scoped whitespace pass; existing metadata warnings retained"
+  },
+  "worktree": {
+    "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier",
+    "branch": "codex/scout103-terra-dossier-20261026",
+    "base": "9f728daf2996457de254223fee3429ff7f7165f6",
+    "disposition": "retained uncommitted; useful owner evidence/tooling not landed",
+    "new_temporary_worktrees": 0
+  },
+  "runtime_defaults_changed": false,
+  "commits_or_pushes": false,
+  "credential_injection": false,
+  "proofs": {
+    "source-stop-proof.json": {
+      "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/artifacts/scout103-terra-broader-20261026/source-stop-proof.json",
+      "sha256": "4038a9f4f5ca605a241196110ee25cfe3c42de86ed7de7a41f0a8ffaa79f5b48"
+    },
+    "control-capacity-proof.json": {
+      "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/artifacts/scout103-terra-broader-20261026/control-capacity-proof.json",
+      "sha256": "f757234342202c9785b004ddccbeddd84518b7f37c92bdb4ecdc061daa4481d0"
+    },
+    "post-source-stop-overshoot.json": {
+      "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/artifacts/scout103-terra-broader-20261026/post-source-stop-overshoot.json",
+      "sha256": "57730afd2db807509d21c18af3de554d03ce9150a164cee42312c4daed626f1b"
+    },
+    "external-source-stop-amendment.json": {
+      "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/artifacts/scout103-terra-broader-20261026/external-source-stop-amendment.json",
+      "sha256": "3daec4823e74f3c61b0f89c65b58409ecea84189b67c0001a12c99d24432dd3d"
+    }
+  },
+  "owner_manifest": {
+    "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/artifacts/scout103-terra-broader-20261026/manifest.json",
+    "sha256": "58100fc38bb0b5d4827503c753fca72c5a2322d92ca6635544a1441b7b46ae79",
+    "verified_artifact_members": 1393,
+    "verified_owner_members": 6,
+    "hash_discrepancies": 0
+  },
+  "owner_report": {
+    "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/attempts/039-gpt61-terra-broader-qualification-20261026.md",
+    "sha256": "7324f0788d3a75fdde07c1e91ce6c7ab6371ab3174388b97645007452b70b739"
+  },
+  "owner_summary": {
+    "path": "/Users/cam/.codex/worktrees/scout103-terra-20261026/dossier/docs/evals/artifacts/scout103-terra-broader-20261026/summary.json",
+    "sha256": "6aa516d892eb371a0604bef0536b9aa44f75b891b32f1a3c4ea2169109feb870"
+  }
+}

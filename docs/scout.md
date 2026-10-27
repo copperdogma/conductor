@@ -4,6 +4,18 @@ For source-checked tools saved for future use, browse the
 [Reference Library](reference.md). Reference-only intake follows its lightweight
 workflow; adoption investigations remain in this log.
 
+- `2026-10-26` — [Scout 103 — GPT-6.1 Terra](./scout/scout-103-gpt61-terra-evaluation-routing.md) — `Complete; retain defaults`
+  Six owner screens closed at US$2.102836440/38, unknown0. Useful bounded
+  crop/geometry/cost gains did not establish a qualified runtime replacement.
+  [Separate Dossier qualification](./scout/scout-103-dossier-qualification-plan.md)
+  closed at US$9.449088/25,107 calls,unknown0: source review rejects a required
+  life-history superlative omitted by Terra; matching Sol medium16384 control
+  hit its output cap, so life-history control quality remains unmeasured.
+  Four continuations canceled; minimum US$.320140 post-stop overhead included.
+  All six owner records landed; [landing receipt](./scout/evidence/scout103-landing.json)
+  records exact commits and checks. Worktrees retained, unrelated primary work
+  preserved, runtime defaults unchanged. No further paid run is authorized.
+
 - `2026-10-23` — [Scout102 offline Doc Web closeout](./scout/scout-102-docweb-offline-replay-closeout.md) — Reviewed-intent driver replay preserves five exact source crops and OCR content, USD0. Scoped tooling/Story262 landing; automatic admission and Kimi deployment remain unqualified. Earlier model campaign work remains separate.
 
 - `2026-10-23` — [Scout 101 — Deterministic Scheduled Work](./scout/scout-101-deterministic-scheduled-work.md) — `Adapt into optional setup reference`
