@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-28] - Shared service setup and private credential access
+
+### Added
+- Central DreamHost, Fly.io, Cloudflare and Google Auth recipes with project examples
+  and new-project discovery guidance.
+- Selected-key credential import/export helper with restricted local storage,
+  source/scope metadata and synthetic boundary tests; secret values stay outside Git.
+
 ## [2026-10-26-scout103] - Close GPT-6.1 Terra evaluations
 
 ### Added

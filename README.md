@@ -37,6 +37,12 @@ so future projects can find it without repeating discovery. Start with
 
 ## Key surfaces
 
+For “host it like our other projects,” start with the
+[shared service catalog](docs/services.md): DreamHost, Fly.io, Cloudflare and
+Google Auth recipes, existing examples and selected private credential access.
+Secret copies stay in the local ignored `.private/` store and are not included
+in Git clones.
+
 - `projects.yaml`
 - `inbox.md`
 - `docs/ideal.md`

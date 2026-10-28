@@ -1,0 +1,100 @@
+{
+  "checked_on": "2026-10-28",
+  "credential_values_included": false,
+  "provider_validation": "Not performed",
+  "profiles": {
+    "dreamhost-onward": {
+      "service": "dreamhost",
+      "source": "/Users/cam/Documents/Projects/onward-to-the-unknown-website/.env",
+      "scope": "Existing SFTP user; allowed directories unverified. Do not inherit source webroot.",
+      "copied_at": "2026-10-28T23:04:25.643347+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "DREAMHOST_SFTP_HOST",
+        "DREAMHOST_SFTP_PASSWORD",
+        "DREAMHOST_SFTP_USERNAME"
+      ]
+    },
+    "dreamhost-copper-dog-dnd": {
+      "service": "dreamhost",
+      "source": "/Users/cam/Documents/Projects/copper-dog-dnd-site/.env",
+      "scope": "Existing SFTP user; allowed directories unverified. Do not inherit source webroot.",
+      "copied_at": "2026-10-28T23:04:25.644512+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "DREAMHOST_SFTP_HOST",
+        "DREAMHOST_SFTP_PASSWORD",
+        "DREAMHOST_SFTP_USERNAME"
+      ]
+    },
+    "dreamhost-alain-book": {
+      "service": "dreamhost",
+      "source": "/Users/cam/Documents/Projects/alain-lessard-book/.env",
+      "scope": "Existing SFTP user; allowed directories unverified. Do not inherit source webroot.",
+      "copied_at": "2026-10-28T23:04:25.645036+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "DREAMHOST_SFTP_HOST",
+        "DREAMHOST_SFTP_PASSWORD",
+        "DREAMHOST_SFTP_USERNAME"
+      ]
+    },
+    "google-storybook": {
+      "service": "google",
+      "source": "/Users/cam/Documents/Projects/Storybook/storybook/.env",
+      "scope": "Storybook web OAuth client. Registered origins/callbacks unverified; not a generic client.",
+      "copied_at": "2026-10-28T23:04:25.645623+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET"
+      ]
+    },
+    "google-next-auth-template": {
+      "service": "google",
+      "source": "/Users/cam/Documents/Projects/next-authjs-psql-base-template/.env.local",
+      "scope": "Template web OAuth client; ownership, callback registration and validity unverified.",
+      "copied_at": "2026-10-28T23:04:25.646196+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET"
+      ]
+    },
+    "google-calendar-production": {
+      "service": "google",
+      "source": "/Users/cam/Documents/Projects/ai-calendar-helper/.env.production",
+      "scope": "Calendar helper production OAuth client; no end-user grants/refresh tokens copied.",
+      "copied_at": "2026-10-28T23:04:25.646719+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET"
+      ]
+    },
+    "google-calendar-local": {
+      "service": "google",
+      "source": "/Users/cam/Documents/Projects/ai-calendar-helper/.env.local",
+      "scope": "Calendar helper local OAuth client; no end-user grants/refresh tokens copied.",
+      "copied_at": "2026-10-28T23:04:25.647218+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "GOOGLE_CLIENT_ID",
+        "GOOGLE_CLIENT_SECRET"
+      ]
+    },
+    "fly-local-cli": {
+      "service": "fly",
+      "source": "/Users/cam/.fly/config.yml",
+      "scope": "Personal local CLI session; potentially account-wide, short-lived. Not a CI/deploy credential.",
+      "copied_at": "2026-10-28T23:04:25.647858+00:00",
+      "validation": "copied-only; provider validity and permissions unverified",
+      "keys": [
+        "FLY_API_TOKEN"
+      ]
+    }
+  },
+  "missing": {
+    "cloudflare": "No token found in bounded local environment/config discovery"
+  }
+}

@@ -62,6 +62,9 @@ defines whether the work is alignment, scouting, routing, or memory upkeep.
 - `docs/align-projects.md` + `docs/alignments/` — internal cross-project alignment memory
 - `docs/scout.md` + `docs/scout/` — external source scouting memory
 - `docs/reference.md` + `docs/reference/` — source-checked capabilities for future projects
+- `docs/services.md` + `docs/services/` — existing hosting, DNS and Google Auth
+  recipes; use `scripts/service_credentials.py list` for private local access
+  metadata. Never print or commit `.private/` credential values.
 - `docs/stories/` — supervisor stories
 - `docs/decisions/` — hard-to-reverse workflow or architecture choices
 

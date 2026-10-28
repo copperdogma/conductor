@@ -1,5 +1,14 @@
 # Inbox
 
+- 2026-10-28: Cam requested centralized DreamHost, Fly.io, Cloudflare and Google
+  Auth setup knowledge plus selected copies of existing credentials for future
+  agents. Added [service catalog](docs/services.md), provider recipes, source
+  inventory and a local ignored credential vault with a selected-key helper.
+  Eight profiles copied; no Cloudflare token found in bounded discovery.
+  Provider validity/permissions remain unverified; no provider changes, target
+  repo edits. Cam authorized check-in and push; scoped close-out validation is in
+  [service checks](docs/services/validation.md).
+
 - 2026-10-26: Cam requested GPT-6.1 Terra evaluation, approved six owner screens
   and a separate Dossier qualification, then requested check-in and push.
   [Scout103](docs/scout/scout-103-gpt61-terra-evaluation-routing.md) records

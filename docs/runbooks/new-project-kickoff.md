@@ -35,6 +35,13 @@ fits, state that and continue. The library need not be copied into the target.
 
 ## Phases
 
+When hosting, DNS or Google sign-in is needed, read the Conductor source
+[shared service catalog](../services.md) before mining another project's
+environment. Choose a compatible recipe and selected credential profile;
+confirm resource scope and use a dedicated new-app credential where appropriate.
+Carry the service choice and public resource identities into the target's setup
+notes. Keep private credential values out of copied methodology, prompts and Git.
+
 ### 1. Seed
 
 The user or agent creates one preserved raw intake file. Prefer:
