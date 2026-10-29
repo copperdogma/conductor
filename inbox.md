@@ -1,5 +1,11 @@
 # Inbox
 
+- 2026-10-29: Liquid LFM3 access review closed as deferred by Cam. No local
+  execution/downloads or evaluation; disk space is constrained. Reconsider only
+  when relevant rankings improve and a usable hosted route exists. Original
+  local comparison proposal withdrawn; omit prices in future local-model
+  proposals. [Scout104](docs/scout/scout-104-liquid-lfm3-evaluation-routing.md).
+
 - 2026-10-28: Cam requested centralized DreamHost, Fly.io, Cloudflare and Google
   Auth setup knowledge plus selected copies of existing credentials for future
   agents. Added [service catalog](docs/services.md), provider recipes, source

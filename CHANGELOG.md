@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-10-29] - Defer Liquid LFM3 evaluation
+
+### Changed
+- Recorded current Liquid LFM3 access evidence and Cam's decision against local
+  evaluation, withdrawing the original proposal without inference or downloads.
+- Preserved the hosted-route/ranking reconsideration trigger and clarified that
+  future local-model proposals should omit prices.
+
 ## [2026-10-28] - Shared service setup and private credential access
 
 ### Added

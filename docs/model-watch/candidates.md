@@ -98,3 +98,16 @@ Current cumulative known **USD2.909662245** + unknown **USD1.474024000** =
 ## 2026-10-12 — decision watch category
 
 Decision models and typed judgment APIs are explicitly in scope, including JEV, OpenAI Decisions, Microsoft Decision, Perplexity Decider and Alibaba/Qwen decision services. Small size, derived weights and non-generative outputs do not exclude them when a maintained owner decision could change. Check the evaluated ledger and available owner evidence before nominating any exact model or endpoint; previously attempted models remain subject to their narrow retry triggers. This scope addition makes no new release, access, evaluation or adoption claim. See the [decision-source daily core](search-playbook.md#2026-10-12--explicit-decision-model-daily-core).
+
+
+## 2026-10-29 — Liquid LFM3 deferred by Cam
+
+[Scout104](../scout/scout-104-liquid-lfm3-evaluation-routing.md) closes the
+access review without evaluation, downloads or provider calls. Cam does not
+want local execution and lacks disk space for it. Reconsider these open-family
+candidates only after meaningful relevant ranking gains and a usable hosted
+route; advertised hosting alone is not proven account callability. No automatic
+paid retry, local setup or new monitor is authorized. The original numbered
+local proposal is withdrawn. Hosted d1.1 remains a distinct checkpoint/route,
+not established equivalent to open d1-2B. Future local-model proposals should
+omit prices; earlier comparison/judge ceilings were not local inference fees.

@@ -1,5 +1,10 @@
 # Scout Log
 
+- `2026-10-29` — [Scout 104 — Liquid LFM3 access and evaluation routing](./scout/scout-104-liquid-lfm3-evaluation-routing.md) — `Deferred by Cam`
+  No evaluation or local downloads. Reconsider only with stronger relevant
+  rankings and a usable hosted route. Original local proposal withdrawn; no
+  spending permission remains. Future local-model proposals should omit prices.
+
 For source-checked tools saved for future use, browse the
 [Reference Library](reference.md). Reference-only intake follows its lightweight
 workflow; adoption investigations remain in this log.
