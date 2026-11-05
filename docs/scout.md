@@ -1,5 +1,11 @@
 # Scout Log
 
+- `2026-11-05` — [Scout 105 — Hy4 and Ripple evaluation campaign](./scout/scout-105-hy4-ripple-evaluation-campaign.md) — `Complete; retain current models`
+  Six isolated owners tested public/synthetic tasks. Hy4 safety has a small
+  reference accuracy lead but repeats a dangerous false-safe; other tested arms
+  fail source, contract or value gates. No defaults or landing. Full accounting
+  and retained worktree inventory are in the campaign record.
+
 - `2026-10-29` — [Scout 104 — Liquid LFM3 access and evaluation routing](./scout/scout-104-liquid-lfm3-evaluation-routing.md) — `Deferred by Cam`
   No evaluation or local downloads. Reconsider only with stronger relevant
   rankings and a usable hosted route. Original local proposal withdrawn; no

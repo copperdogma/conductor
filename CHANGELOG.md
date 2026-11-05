@@ -1,5 +1,13 @@
 # Changelog
 
+## [2026-11-05] - Evaluate Hy4 and Ripple across six projects
+
+### Added
+- Record owner-native public/synthetic task comparisons, retained-model decisions,
+  complete spend/exposure accounting and narrow retry triggers.
+- Preserve source failures, transport limits and the bounded Hy4 safety lead
+  without changing runtime defaults.
+
 ## [2026-10-29] - Defer Liquid LFM3 evaluation
 
 ### Changed
