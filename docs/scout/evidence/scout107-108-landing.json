@@ -1,7 +1,7 @@
 {
   "date": "2026-11-10",
   "scope": "Completed Fable Scout107/108 and Doc Web qualification; no more evaluations",
-  "status": "owners_landed_supervisor_pending",
+  "status": "landed",
   "authorization": "Cam: Okay let\u2019s cut it off. Thanks. Check in and push.",
   "no_provider_calls_during_landing": true,
   "cleanup_requested": false,
@@ -105,7 +105,7 @@
     "base": "cff8ea68be0b6de81d81205478aa452d816e55b1",
     "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/conductor",
     "branch": "codex/fable-finish-20261110-conductor",
-    "state": "prepared_pending_owner_landings",
+    "state": "landed",
     "checks": [
       "docs-only lint",
       "methodology graph check",
@@ -113,9 +113,15 @@
       "file links",
       "credential pattern scan",
       "scoped diff check"
-    ]
+    ],
+    "verified_remote_main": "4b391a04aa9dceadb659256866f99cf10375fa07",
+    "verification": "Coordinator git ls-remote exact SHA after atomic non-force branch/main push; verification receipt follows as documentation-only commit",
+    "destination": "origin/main",
+    "execution_and_integration_branches_pushed": true
   },
   "retention": "All eight evaluation worktrees and seven integration worktrees retained; no cleanup authorized. See owner preflights for original branch/path identities.",
   "all_owner_remotes_independently_verified": true,
-  "validation_policy": "Focused owner checks and original unchanged-input tests reused; producer/raw identities preserved. Integration changes rechecked. No paid reruns, deployment, default changes or cleanup."
+  "validation_policy": "Focused owner checks and original unchanged-input tests reused; producer/raw identities preserved. Integration changes rechecked. No paid reruns, deployment, default changes or cleanup.",
+  "all_seven_repositories_landed": true,
+  "further_evaluation": "stopped by user; no queued HIGH calibration"
 }
