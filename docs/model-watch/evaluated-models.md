@@ -41,9 +41,12 @@ modelVersion/terminal/schema access demonstrated in measured owners; no immutabl
 served-weight/effort-compute attestation. No within-task effort comparison;
 lowerlevels unmeasured, medium used only for workspace. PaidGoogle training
 exclusion does not establish accountZDR; no private/financial/licensed intake.
-No defaults, deletion, deployment, account changes, commit, push or cleanup.
-Six worktrees retaineduncommitted with producing snapshots/raw custody. No
-unchanged paid rerun merely because budget remains.
+No defaults, deletion, deployment or account changes. Cam subsequently
+authorized scoped artifact commits and pushes; see the
+[publication receipt](../scout/evidence/scout109-landing.json) for exact owner
+heads and verification. Six campaign worktrees and the Conductor integration
+worktree are retained, with protected originals and public replay projections.
+No unchanged paid rerun merely because budget remains.
 
 
 ## Anthropic Claude Fable 5.2 — Scout107, 2026-11-09

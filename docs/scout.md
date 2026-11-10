@@ -4,7 +4,9 @@
   Source-coverage/coherent-workspace draft gains, no qualified automatic switch.
   BGI native cutouts lose/leak more than Sol; Robo finalstateexact/traceincomplete.
   KnownUSD10.86099275 +3.129312held =13.99030475/63 across236POSTs. Temporary
-  keys removed; six worktrees retained uncommitted, no defaults/deployment.
+  keys removed; six campaign worktrees retained, no defaults/deployment.
+  [Authorized publication receipt](./scout/evidence/scout109-landing.json) tracks
+  exact owner heads and independent custody review.
 
 
 - `2026-11-05` — [Scout 105 — Hy4 and Ripple evaluation campaign](./scout/scout-105-hy4-ripple-evaluation-campaign.md) — `Complete; retain current models`

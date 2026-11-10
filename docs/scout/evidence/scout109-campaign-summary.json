@@ -301,5 +301,18 @@
   "remaining_user_decision": null,
   "credential_recovery_authorization": "Cam: Yes to temporary use of Storybook working Google key for BGI/Robo within10/3caps, then remove copies.",
   "all_selected_campaigns_closed_per_declared_stop_rules": true,
-  "all_temporary_provider_variables_removed_verified": true
+  "all_temporary_provider_variables_removed_verified": true,
+  "authorization_phase_note": "The prohibited list and no_commits_push_or_deployment describe the completed inference phase. Cam subsequently authorized scoped check-in/push; publication status is recorded separately below and in scout109-landing.json. Original producer bases, epochs, scoring and usage remain unchanged.",
+  "publication": {
+    "authorization": "Cam: yes to scoped check-in and push across six owners and Conductor",
+    "status": "all seven preflight ready; independent final repair/metadata review pending; no pushes",
+    "receipt": "scout109-landing.json",
+    "no_new_provider_calls": true,
+    "runtime_defaults_unchanged": true,
+    "worktrees": "all six original campaign worktrees and Conductor integration worktree retained; primary dirt preserved",
+    "preflight_repairs": {
+      "echo-forge": "Two opaque-state SSE receipts replaced by marked public projections; exact originals protected; unsafe unpublished commit excluded from ancestry",
+      "cine-forge": "Two safe trailing native timeout error objects restored to mixed-stream projections"
+    }
+  }
 }

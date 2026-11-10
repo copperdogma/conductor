@@ -679,7 +679,8 @@ reviewed inbox completion are carried over. Unrelated dirty primary changes
 and older unlanded availability-monitor history are preserved in place.
 
 Preflight identified opaque provider continuation/reasoning state in some raw
-receipts. The owner keeps exact original bytes in protected0700/0600archives
+receipts, including Google thought signatures and OpenAI encrypted reasoning
+content. The owner keeps exact original bytes in protected0700/0600archives
 with original hashes/paths, while only explicitly marked field-redacted public
 projections enter Git. Offline checks compare every semantic/model/usage/finish
 field against originals and replay unchanged saved answers; no provider rerun.
@@ -697,3 +698,14 @@ is outside this scoped change and remains unchanged. Owner unchanged-input
 checks are reused; only custody projection/replay and touched metadata checks
 are rerun. [Landing receipt and retained-tree inventory](evidence/scout109-landing.json)
 records candidate/remote heads and final state.
+
+
+The independent pre-push review found and corrected two publication defects:
+two Echo SSE receipts still held Google thought signatures, and two CineForge
+mixed streams omitted their trailing native timeout error objects. Echo's sole
+unpublished commit was replaced, excluding the unsafe predecessor from the
+published ancestry. Its exact originals remain protected and the marked public
+copies replay identically. CineForge's amended projections retain the original
+error code and message. All measured answers, scores, producer identities,
+terminal states, costs and reservations remain unchanged. The final receipt
+separates inference-era hashes from publication commits and records the review.
