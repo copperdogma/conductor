@@ -2,7 +2,7 @@
   "date": "2026-11-10",
   "campaign": "Scout109 Gemini4Carbon",
   "authorization": "Cam: yes to check in and push scoped evaluation artifacts",
-  "status": "All seven ready; independent final repair/metadata review pending; no pushes",
+  "status": "All six owners landed and independently remote-verified; Conductor final receipt ready for authorized publication",
   "policy": "No provider calls, runtime defaults/deployment/account changes or cleanup; scoped commits+branch/main pushes authorized",
   "owners": {
     "echo-forge": {
@@ -10,14 +10,18 @@
       "branch": "codex/carbon-20261110-echo-forge",
       "owner": "EchoForge",
       "base": "07ac9be7c9ff5447a4bfd667c7926a26f853637a",
-      "status": "ready; independent amended-blob readback pending; no push",
+      "status": "landed and root-verified on remote main and execution branch",
       "validation": "40file allowlist; six guards, replay, custody verification, lint/methodology/whitespace pass. Two exact originals archived0700/0600;123 public SSE/JSON events state-only strip/decode equality for semantic text/model/usage/STOP/responseID/cost/normalized/scorer;30 artifact hashes pass; actual new Git blob opaque-state/key/signed-URL scan clean.",
       "retention": "retained original campaign tree; no integration tree needed",
       "verified_changed_path_count": 40,
       "preflight_parent_verified": true,
       "superseded_unsafe_unpublished_candidate": "9f7360abc2c38a4f86366b761c259d0e32844303",
       "candidate": "552eff7845061788ba7124470f3812a6dd6e132c",
-      "unsafe_unpublished_commit_excluded": true
+      "unsafe_unpublished_commit_excluded": true,
+      "verified_remote_refs": {
+        "refs/heads/codex/carbon-20261110-echo-forge": "552eff7845061788ba7124470f3812a6dd6e132c",
+        "refs/heads/main": "552eff7845061788ba7124470f3812a6dd6e132c"
+      }
     },
     "roborally": {
       "worktree": "/Users/cam/.codex/worktrees/carbon-20261110/roborally",
@@ -25,24 +29,32 @@
       "owner": "RoboRally",
       "base": "f313de551ae814a21930b62a61131e55f7b21fbf",
       "candidate": "a92619b3b00e2c0643c774e123caf6508c895ca2",
-      "status": "ready;no push",
+      "status": "landed and root-verified on remote main and execution branch",
       "validation": "82files; scopedstorylist/generatedrelations repair; 14native/12router/9scorer/20engine proofs reused; original/replay signed-state custody and manifest checks pass",
       "retention": "retained original campaign tree; no integration tree needed",
       "verified_changed_path_count": 82,
-      "preflight_parent_verified": true
+      "preflight_parent_verified": true,
+      "verified_remote_refs": {
+        "refs/heads/codex/carbon-20261110-roborally": "a92619b3b00e2c0643c774e123caf6508c895ca2",
+        "refs/heads/main": "a92619b3b00e2c0643c774e123caf6508c895ca2"
+      }
     },
     "cine-forge": {
       "worktree": "/Users/cam/.codex/worktrees/carbon-20261110/cine-forge",
       "branch": "codex/carbon-20261110-cine-forge",
       "owner": "CineForge",
       "base": "3b44e158a74010a68bf8d2bbe7e7a92991f96a69",
-      "status": "independent review PASS; no push",
+      "status": "landed and root-verified on remote main and execution branch",
       "validation": "913paths, one safe commit; original37checks reused+13affected tests/Ruff/replays/registry/methodology;893committedmanifest records,24protectedoriginals; nestedarchive/state scan clean; amended 2 mixed-SSE projections preserve exact native deadline_exceeded terminal error objects; other3 arrays unchanged, offline workspace replay/Ruff/whitespace pass",
       "retention": "Original campaign tree retained; no integration tree needed",
       "scope": "059/060, benchmark-only code, raw/public projection custody, story/registry/v39/graph/changelog; no primary/inbox changes",
       "superseded_unpublished_candidate": "0c60b003ebe7380bf6becf844b10e026c0f003b2",
       "candidate": "accb76dd6377d1a6a1ce65c2ac04f66e1458eb3e",
-      "preflight_parent_verified": true
+      "preflight_parent_verified": true,
+      "verified_remote_refs": {
+        "refs/heads/codex/carbon-20261110-cine-forge": "accb76dd6377d1a6a1ce65c2ac04f66e1458eb3e",
+        "refs/heads/main": "accb76dd6377d1a6a1ce65c2ac04f66e1458eb3e"
+      }
     },
     "storybook": {
       "worktree": "/Users/cam/.codex/worktrees/carbon-20261110/storybook",
@@ -50,10 +62,14 @@
       "owner": "Storybook",
       "base": "f08050a5ef9f60106954fc6141d79fc43b1e261a",
       "candidate": "e6a560ae73c0b80b80c6a4e9c3c91f7b2072ae8a",
-      "status": "ready;no push",
+      "status": "landed and root-verified on remote main and execution branch",
       "validation": "223fileallowlist/222manifestmembers; oldtypes/lint/offline/sentinel/privacy reused, new original/projection custody verifier33receipts/8scores/24packets/1048rows; nestedscan+methodology/whitespace pass",
       "retention": "Original campaign tree retained, no integration tree needed",
-      "protected_state": "8exact original GoogleSSE/envelopes0700/0600; four public subject projections remove thoughtSignature only; original/projection hashes separate"
+      "protected_state": "8exact original GoogleSSE/envelopes0700/0600; four public subject projections remove thoughtSignature only; original/projection hashes separate",
+      "verified_remote_refs": {
+        "refs/heads/codex/carbon-20261110-storybook": "e6a560ae73c0b80b80c6a4e9c3c91f7b2072ae8a",
+        "refs/heads/main": "e6a560ae73c0b80b80c6a4e9c3c91f7b2072ae8a"
+      }
     },
     "doc-web": {
       "worktree": "/Users/cam/.codex/worktrees/carbon-20261110/doc-web",
@@ -61,10 +77,14 @@
       "owner": "DocWeb",
       "base": "1c3f3e31158ec753e057e79839f438d021500214",
       "candidate": "c65346e4be7d757fa1130cb23fd8efc2fa41a191",
-      "status": "ready;no push",
+      "status": "landed and root-verified on remote main and execution branch",
       "validation": "76fileallowlist;17unchangedchecks reused+4custodytests/24projectionaudit;209memberpublicarchive190unchanged19redacted, exactoriginals external0700/0600; scopedcommitblob/state scan",
       "retention": "Original campaign tree retained; no integration needed",
-      "unsafe_unpublished_commit_excluded": "9cc5551 is not ancestor of final candidate; amended safe publication history"
+      "unsafe_unpublished_commit_excluded": "9cc5551 is not ancestor of final candidate; amended safe publication history",
+      "verified_remote_refs": {
+        "refs/heads/codex/carbon-20261110-doc-web": "c65346e4be7d757fa1130cb23fd8efc2fa41a191",
+        "refs/heads/main": "c65346e4be7d757fa1130cb23fd8efc2fa41a191"
+      }
     },
     "boardgame-ingester": {
       "worktree": "/Users/cam/.codex/worktrees/carbon-20261110/boardgame-ingester",
@@ -72,10 +92,14 @@
       "owner": "BoardGameIngester",
       "base": "41f925388bc1ce0082dba9b0806acf843056c954",
       "candidate": "07a36dbae5a79f9ce5b2936a8d8987ea3c0b7412",
-      "status": "ready;no push",
+      "status": "landed and root-verified on remote main and execution branch",
       "validation": "216allowlistedpaths;41unchangedchecks reused+4affectedroutertests;13safeprojectionssemantic/usage/model/finish equality vsprotectedoriginals;46PNGarchive;code/methodology/whitespace checks",
       "retention": "Original campaign tree retained; no integration tree needed",
-      "protected_state": "13fulloriginalresponses0700/0600,12token-bearingworkingcopies ignored/notstaged; originalproducerhashes preserved"
+      "protected_state": "13fulloriginalresponses0700/0600,12token-bearingworkingcopies ignored/notstaged; originalproducerhashes preserved",
+      "verified_remote_refs": {
+        "refs/heads/codex/carbon-20261110-boardgame-ingester": "07a36dbae5a79f9ce5b2936a8d8987ea3c0b7412",
+        "refs/heads/main": "07a36dbae5a79f9ce5b2936a8d8987ea3c0b7412"
+      }
     }
   },
   "conductor": {
@@ -93,16 +117,18 @@
       "docs/scout/evidence/scout109-campaign-summary.json",
       "docs/scout/evidence/scout109-landing.json"
     ],
-    "status": "ready; owner-first landing pending",
-    "retention": "Retain integration worktree after landing; primary dirt untouched",
-    "candidate_preflight_commit": "f0a737c",
+    "status": "Final docs-only publication candidate; all six owner main/execution refs independently verified",
+    "retention": "Retained Conductor integration worktree, plus all six original owner campaign worktrees; no cleanup requested or performed",
+    "candidate_preflight_commit": "af7f0a0123f41dbd58ede3ac53487aababbcedcd",
     "validation": [
       "docs-only make lint",
       "make methodology-check",
       "scoped links and JSON/cost arithmetic",
       "scoped key/signed-state scan",
       "staged diff check"
-    ]
+    ],
+    "publication_verification_policy": "Final metadata commit is pushed after all six owner refs independently match their reviewed candidates. The receipt records the reviewed Conductor preflight ancestor; exact final Conductor publication SHA is verified from both remote refs and reported in the task handoff, avoiding self-referential commit IDs.",
+    "primary_checkout": "Unrelated dirt preserved; not synchronized or staged"
   },
   "independent_landing_review": {
     "agent": "carbon_landing_review",
@@ -110,25 +136,27 @@
     "requested_effort": "ultra",
     "served_identity": "not independently verified",
     "scope": "seven candidate scopes/history, signed-state custody/projections and provenances, no new scoring/providercalls",
-    "status": "Five owners PASS; Echo amended candidate and final Conductor metadata pending",
+    "status": "PASS",
     "findings": [
       {
         "owner": "echo-forge",
         "issue": "First scan missed two actual commit-blob thoughtSignature fields",
-        "disposition": "Fixed in552eff78; archived exact originals, marked public field-redacted projections, unsafe prior commit excluded from ancestry; final independent readback pending"
+        "disposition": "Fixed and independently verified in552eff78; both exact original archives/projection event equality,30 artifact/11producer hashes and excluded unsafe ancestry pass"
       },
       {
         "owner": "cine-forge",
         "issue": "Two mixed-SSE public projections omitted safe native deadline_exceeded error objects",
-        "disposition": "Fixed in accb76dd; all24 original/projection pairs independently verified, including exact terminal errors"
+        "disposition": "Fixed and independently verified inaccb76dd;24 exact original/projection pairs include both terminal timeout errors"
       }
     ],
     "passed_owners": [
+      "echo-forge",
+      "roborally",
       "cine-forge",
-      "doc-web",
-      "boardgame-ingester",
       "storybook",
-      "roborally"
-    ]
+      "doc-web",
+      "boardgame-ingester"
+    ],
+    "conductor_preflight_commit": "af7f0a0123f41dbd58ede3ac53487aababbcedcd"
   }
 }

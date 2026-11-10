@@ -962,4 +962,6 @@ explicit rejections.
   [Scout109](docs/scout/scout-109-gemini4-carbon-evaluation-routing.md#full-campaign-closeout--2026-11-10)
   records source-coverage/draft leads but no qualified default switch.236POSTs,
   USD10.86099275known+3.129312held=13.99030475/63; temporary keys removed.
-  Cam authorized scoped check-in/push; landing receipt follows owner verification.
+  Cam authorized scoped check-in/push; all six owner main heads verified.
+  [Landing receipt](docs/scout/evidence/scout109-landing.json) records the commits,
+  independent review, retained trees and protected evidence.

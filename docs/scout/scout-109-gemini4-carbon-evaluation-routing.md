@@ -709,3 +709,30 @@ copies replay identically. CineForge's amended projections retain the original
 error code and message. All measured answers, scores, producer identities,
 terminal states, costs and reservations remain unchanged. The final receipt
 separates inference-era hashes from publication commits and records the review.
+
+
+### Verified owner publication
+
+All six execution branches and remote main heads independently match the
+reviewed commits below. They were fast-forwarded without force, after the
+all-seven independent preflight passed. Conductor's final receipt follows
+those owner publications; its exact final remote SHA is reported in the task
+handoff rather than embedded in its own commit.
+
+| Owner | Verified published commit |
+|---|---|
+| echo-forge | `552eff7845061788ba7124470f3812a6dd6e132c` |
+| roborally | `a92619b3b00e2c0643c774e123caf6508c895ca2` |
+| cine-forge | `accb76dd6377d1a6a1ce65c2ac04f66e1458eb3e` |
+| storybook | `e6a560ae73c0b80b80c6a4e9c3c91f7b2072ae8a` |
+| doc-web | `c65346e4be7d757fa1130cb23fd8efc2fa41a191` |
+| boardgame-ingester | `07a36dbae5a79f9ce5b2936a8d8987ea3c0b7412` |
+
+The six original campaign worktrees under
+`/Users/cam/.codex/worktrees/carbon-20261110/` and the Conductor integration
+worktree under `/Users/cam/.codex/worktrees/carbon-finish-20261110/conductor`
+are retained on their recorded branches. Each owning worker preserved primary
+checkout changes and protected originals. No cleanup or additional inference
+occurred. Focused tooling tests and unchanged-input proofs were reused as
+recorded per owner; final Conductor checks cover only changed documentation,
+links, JSON, accounting, metadata and whitespace.

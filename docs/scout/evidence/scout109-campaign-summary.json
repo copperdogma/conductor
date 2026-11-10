@@ -305,7 +305,7 @@
   "authorization_phase_note": "The prohibited list and no_commits_push_or_deployment describe the completed inference phase. Cam subsequently authorized scoped check-in/push; publication status is recorded separately below and in scout109-landing.json. Original producer bases, epochs, scoring and usage remain unchanged.",
   "publication": {
     "authorization": "Cam: yes to scoped check-in and push across six owners and Conductor",
-    "status": "all seven preflight ready; independent final repair/metadata review pending; no pushes",
+    "status": "Six owner commits landed and independently verified on remote main and execution branches; Conductor completion record ready for publication",
     "receipt": "scout109-landing.json",
     "no_new_provider_calls": true,
     "runtime_defaults_unchanged": true,
@@ -313,6 +313,15 @@
     "preflight_repairs": {
       "echo-forge": "Two opaque-state SSE receipts replaced by marked public projections; exact originals protected; unsafe unpublished commit excluded from ancestry",
       "cine-forge": "Two safe trailing native timeout error objects restored to mixed-stream projections"
-    }
+    },
+    "owner_remote_main_commits": {
+      "echo-forge": "552eff7845061788ba7124470f3812a6dd6e132c",
+      "roborally": "a92619b3b00e2c0643c774e123caf6508c895ca2",
+      "cine-forge": "accb76dd6377d1a6a1ce65c2ac04f66e1458eb3e",
+      "storybook": "e6a560ae73c0b80b80c6a4e9c3c91f7b2072ae8a",
+      "doc-web": "c65346e4be7d757fa1130cb23fd8efc2fa41a191",
+      "boardgame-ingester": "07a36dbae5a79f9ce5b2936a8d8987ea3c0b7412"
+    },
+    "independent_preflight_review": "PASS all seven candidates; final metadata-only completion update uses verified owner remote refs"
   }
 }
