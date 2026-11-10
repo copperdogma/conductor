@@ -3,6 +3,26 @@
 This ledger deduplicates material candidates discovered by the watch. It does
 not replace detailed Conductor scouts or owner-repository evidence.
 
+## Gemini 4 Carbon public release and evaluation — 2026-11-10
+
+Google now publicly lists exact native `gemini-4-carbon`; router canonical
+`google/gemini-4-carbon-20261110` is the same dated checkpoint, distinct from
+Argon. The earlier Fairwind-only announcement is historical. Current primary
+model/pricing/thinking/terms and native owner inference receipts establish paid
+API access. No account-policy change, private-source permission or permanent
+credential provisioning is implied.
+
+[Scout109 completed six-owner campaign](../scout/scout-109-gemini4-carbon-evaluation-routing.md#full-campaign-closeout--2026-11-10):
+Carbon has bounded Storybook/CineForge source-coverage/draft leads, but no
+qualified automatic switch. BGI high loses/leaks more pixels than Sol; Robo
+returns exact final state but incomplete trace. Native recovery was explicitly
+authorized; all temporary key copies removed/verified.236POST attempts,
+USD10.86099275known+3.129312held=13.99030475/63. No runtime default/deployment.
+See [evaluated ledger](evaluated-models.md#google-gemini-4-carbon--scout109-2026-11-10)
+for task/configuration outcomes and narrow new-selection triggers. No duplicate
+evaluation nomination or unchanged rerun is warranted.
+
+
 ## Gemini 4 Argon public release — 2026-10-13
 
 Google's [official model entry](https://ai.google.dev/gemini-api/docs/models/gemini-4-argon)

@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-11-10 — Gemini 4 Carbon evaluation
+
+- Complete Scout109 across six owning repositories with exact native identity,
+  frozen public/synthetic sources, source-first independent review and explicit
+  access/transport/quality/economics limits. Retain runtime defaults; Carbon's
+  source-coverage/draft leads require qualification.
+- Account for236inference POST attempts: USD10.86099275usage-estimated plus
+  3.129312held,13.99030475/63conservative. Temporary credentials removed and
+  worktrees/evidence retained. Scoped owner-first landing is authorized; final
+  verified remote receipts are recorded with the campaign.
+
+
 
 ## [2026-11-10] - Close Claude Fable 5.2 evaluations
 

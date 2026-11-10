@@ -1,5 +1,51 @@
 # Evaluated frontier model ledger
 
+## Google Gemini 4 Carbon — Scout109, 2026-11-10
+
+Canonical Google native `gemini-4-carbon`; provider-qualified
+`google/gemini-4-carbon`, router canonical `google/gemini-4-carbon-20261110`.
+Distinct checkpoint from Argon. All six selected owner campaigns complete after explicitly authorized
+temporary native credential recovery; all temporary copies removed/verified.
+[Full results, evidence, caps and retained-worktree inventory](../scout/scout-109-gemini4-carbon-evaluation-routing.md#full-campaign-closeout--2026-11-10).
+
+**Retain runtime defaults/pipelines; prioritize Carbon for source-complete
+qualification in CineForge whole-story drafts and Storybook extraction.**
+Meaningful coverage/coherent-state leads coexist with real grounding/certainty
+errors and original gate failures. No general model ranking or rollout.
+
+| Owner/task / tested setting | Layered outcome and narrow continuation trigger |
+|---|---|
+| Storybook C1/C2 high65536 | Native strict final schema/host valid4/4; Carbon source-coverage preference4/4blind audits, all1048rows reviewed. Both fullgates0/4; Carbon real attribution/uncertainty/representation defects. Subjects1.075436USD/215.7–289.0s vs validOpus.810325/35.1–107.5s; extra truncatedcontrol.321190 retained before16000repair. All-in2.556004unknown0. No prompt/golden tuning. Next independently frozen source-complete qualification, not unchanged sparse-matcher rescue. |
+| CineForge whole workspace medium131072 | Three complete same-logical-generation answers in5physicals; rawhost0/3, LF-only diagnosticloads2/3, bothcandidate/freshpipeline0/3fullsource. Carbon stronger core roles/custody/continuity, certainty/inventory defects remain. LastFerry2gapstrings expose omittedscene-ID convention, not reasoning failure. Subjects1.462812known+1.41472held, mean764.245s vs actual118callpipeline.68503545/163.047smean. No qualified replacement. New heldout source/consumer-complete qualification and source-contract repair before adoption; no unchanged cold replay or max rescue. |
+| CineForge orderedframes high32768/65536 |6freshtriples, all0/6fullpasses; allseecolorswap, onlyCarbon classifiesbroken. Unsupportedcamera/emotion remains. SixvalidCarbon.996038USD/201.419smean plus.342748incomplete002; validSol.059391/6.569smean,Luna.00312755/5.763s.002onlyadequate-outputrepair;001/00332K,004–006first64K.37postsall-in1.75301955unknown0. No causalallowance/effortclaim. Retainrefs; newsource-grounded heldout question required, not exposed-panel effort sweep. |
+| DocWeb safety/tables/crops/OCR high32768 |24/24native terminal contractvalid. Safety6/6vsGPT5.5 4/6,both0false-safe; currentSol22/22/caller remains separate. Tablestie; cropsstrict1/2vs0/2(pixel1vs7/0vs18), not unattendedsafe. OCR.987360vs exactGemini3.8 .983830 both<.99 definiteerrors.1.68741625knownunknown0. Retain defaults; source/consumer/heldout question required; no unchanged readereconomics rerun. Laterconcurrency2 disclosed, no clean serial claim. |
+| Echo scenes high65536 |Native strict raw/normalizedschema2/2; source-requiredsounds2/2both, fullfrozensemantics0/2both. Carbon intensity/musicpolicy misses preserved as ambiguous, not invented source audio; Miniadditionaldefinite metadata/role/instruction errors. Carbon.248426USD/149.5035smean vsMini.013728/11.1505s; all-in.262154unknown0. RetainMini. Newsource-adjudicated music/intensitycontract or checkpoint/task change before separately selected qualification. |
+| Robo whole-race high65536 | Approved temporaryGooglekey native007completed; finalstateexact, only14/38events/causes, malformedinnerJSON+extrafield+placeholder summary. Terminalwithinadequatebudget, no semanticrepair/retry.002/006unmeasured by selectedstop. Statelessmissingid repairedbySAMErawreparse only. .260452known+.760496old402hold=1.020948/3. Temporarykey removed/rootverified;70manifestmembers verified. Retainengine; newcheckpoint or separately selected material contract/capability question before rerun. |
+| BGI contours high65536 | All6freshpairs/12native valid, both1/6exact(clean006). Carbon23223materiallost/26701backgroundleak vsSol3172/713; alltopologycounts correct. Faint004 preservesmorematerial at costbackground; ring~18pxleft localization, not hole-recognition failure. Carbon2.140296USD/404.843smean vsSol.0538035/7.583s,39.78xcost53.39xlatency. All-in2.1940995known+.954096oldrouterhold=3.1481955/10. RetainSol/needs_review; rejecttestedHIGH for unattendedexactcutouts.44focusedchecks/22nativeinverseproofs/147safe+13protectedmanifestverified. Newgeometrymethod/checkpoint or separately selected source/effort question before rerun; no real-game/private-scan/edge-contact qualification. |
+
+Final **236attempted inference POSTs**: **USD10.86099275known +3.129312
+reserved =13.99030475 maximum accounted exposure/63**. Per-owner caps and
+Cine16/11pools respected. Unknowns include2oldrouter402s and2Cine deadline
+holds; provider invoices unverified. No request in flight. Source/mask/raw
+receipt and native execution proofs independently checked; original errors and
+producing epochs preserved. Source omissions/unsupported certainty still matter
+when neighboring prose is accurate.
+
+Cam explicitly authorized temporary StorybookGooglekey use forBGI/Robo within
+existing10/3caps. Root copied only selectedkey directly toignored0600ownerenvs,
+not centrally; sourceunchanged. BothGooglecopies andbothcentralroutercopies
+removed and independently names-verified absent. No persistent provisioning.
+
+Only public/authored synthetic payloads on paidGoogle/router paths. Native exact
+modelVersion/terminal/schema access demonstrated in measured owners; no immutable
+served-weight/effort-compute attestation. No within-task effort comparison;
+lowerlevels unmeasured, medium used only for workspace. PaidGoogle training
+exclusion does not establish accountZDR; no private/financial/licensed intake.
+No defaults, deletion, deployment, account changes, commit, push or cleanup.
+Six worktrees retaineduncommitted with producing snapshots/raw custody. No
+unchanged paid rerun merely because budget remains.
+
+
 ## Anthropic Claude Fable 5.2 — Scout107, 2026-11-09
 
 Canonical native Anthropic `claude-fable-5-2`; router

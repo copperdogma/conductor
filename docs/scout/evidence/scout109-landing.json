@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-10",
+  "campaign": "Scout109 Gemini4Carbon",
+  "authorization": "Cam: yes to check in and push scoped evaluation artifacts",
+  "status": "preflight",
+  "policy": "No provider calls, runtime defaults/deployment/account changes or cleanup; scoped commits+branch/main pushes authorized",
+  "owners": {},
+  "conductor": {
+    "worktree": "/Users/cam/.codex/worktrees/carbon-finish-20261110/conductor",
+    "owner": "Conductor",
+    "branch": "codex/carbon-finish-20261110-conductor",
+    "base": "70e71f0e98a41e6b0592457dc8e59c18310defef",
+    "scope": [
+      "CHANGELOG.md",
+      "inbox.md",
+      "docs/scout.md",
+      "docs/model-watch/candidates.md",
+      "docs/model-watch/evaluated-models.md",
+      "docs/scout/scout-109-gemini4-carbon-evaluation-routing.md",
+      "docs/scout/evidence/scout109-campaign-summary.json",
+      "docs/scout/evidence/scout109-landing.json"
+    ],
+    "status": "preparing",
+    "retention": "Retain integration worktree after landing; primary dirt untouched"
+  }
+}

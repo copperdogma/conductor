@@ -1,5 +1,12 @@
 # Scout Log
 
+- `2026-11-10` — [Scout 109 — Gemini 4 Carbon evaluation](./scout/scout-109-gemini4-carbon-evaluation-routing.md) — `Six owner campaigns complete; retain defaults`
+  Source-coverage/coherent-workspace draft gains, no qualified automatic switch.
+  BGI native cutouts lose/leak more than Sol; Robo finalstateexact/traceincomplete.
+  KnownUSD10.86099275 +3.129312held =13.99030475/63 across236POSTs. Temporary
+  keys removed; six worktrees retained uncommitted, no defaults/deployment.
+
+
 - `2026-11-05` — [Scout 105 — Hy4 and Ripple evaluation campaign](./scout/scout-105-hy4-ripple-evaluation-campaign.md) — `Complete; retain current models`
   Six isolated owners tested public/synthetic tasks. Hy4 safety has a small
   reference accuracy lead but repeats a dangerous false-safe; other tested arms

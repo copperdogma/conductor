@@ -957,3 +957,9 @@ explicit rejections.
   records CineForge3b44e158/DocWeb1c3f3e31/Storybookf08050a5/BGI41f92538/
   Echo07ac9be7/RoboRallyf313de55, scoped validation and preserved evidence.
   No further evaluation, deployment or defaults change; worktrees retained.
+
+- [x] 2026-11-10: Evaluate Gemini 4 Carbon and finish all six selected owners.
+  [Scout109](docs/scout/scout-109-gemini4-carbon-evaluation-routing.md#full-campaign-closeout--2026-11-10)
+  records source-coverage/draft leads but no qualified default switch.236POSTs,
+  USD10.86099275known+3.129312held=13.99030475/63; temporary keys removed.
+  Cam authorized scoped check-in/push; landing receipt follows owner verification.
