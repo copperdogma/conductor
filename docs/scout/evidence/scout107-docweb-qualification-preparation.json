@@ -1,0 +1,738 @@
+{
+  "date": "2026-11-09",
+  "preparation_only": true,
+  "authenticated_calls": 0,
+  "target_writes": 0,
+  "owner_worktree": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web",
+  "owner_base": "5bd3ba777d70347eb8dd84b9aa18a6b3ba025193",
+  "task": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/tasks/safety-repair-048-sol-full-continuation1.yaml",
+  "task_sha256": "72307c1de8c0968f167756f98f023287ca38ecd25669c6153eb60b6eb74153d4",
+  "source_adjudicated_golden": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/golden/crop-page-level-safety-repair-048-source-adjudicated.json",
+  "golden_sha256": "6f32bc513494f1c4454b4c41e74186136212d477ff10c87ccb29244ca21aaa76",
+  "legacy_golden_sha256": "4bcba8f4ab8a742608e7cfc1438464a71cf56aa4cd9cbe9e0a67e4a410ac18a5",
+  "declared_metadata": {
+    "description": "Page-context subset of crop-validation goldens for the C5 deletion-gate overlap corpus",
+    "source_golden": "benchmarks/golden/crop-validation.json",
+    "cases_total": 22,
+    "pass_cases": 18,
+    "fail_cases": 4,
+    "notes": "Campaign-specific source-corrected clone; canonical historical17pass/5fail source preserved. Only page126000 changed fail to pass before any Attempt048 provider call. All22 exact keys/source/crop bytes unchanged.",
+    "source_adjudication": "Separate source-adjudicated truth: original048 pre-call126000 correction retained;012001 corrected after numeric source registration and saved-response review, before fresh. No subject rerun, prompt/scorer/fixture change."
+  },
+  "actual_label_counts": {
+    "pass": 17,
+    "fail": 5
+  },
+  "legacy_label_differences": [
+    {
+      "key": "page-012-001",
+      "legacy": "pass",
+      "source_adjudicated": "fail"
+    },
+    {
+      "key": "page-126-000",
+      "legacy": "fail",
+      "source_adjudicated": "pass"
+    }
+  ],
+  "decoded_bytes": 68105896,
+  "oversize_crop_count": 15,
+  "sol_provider": [
+    {
+      "id": "python:../providers/safety_repair_openai.py",
+      "label": "sol",
+      "config": {
+        "maxRetries": 0,
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "max_output_tokens": 4096,
+        "image_detail": "high",
+        "output_contract": "page_context_validation"
+      }
+    }
+  ],
+  "cases": [
+    {
+      "key": "page-001-000",
+      "verdict": "pass",
+      "prior_six_case": true,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image000.b64.txt",
+          "sha256": "7500762d6e0b9761b49305b28e0c3609d051af1d5f3eac8ce33028b0b439f325",
+          "bytes": 889368,
+          "dimensions": [
+            1505,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-001-000.b64.txt",
+          "sha256": "67accf0bf3854473e557261d179bce8a4c4519de039460e3c797e52f49e1dfaa",
+          "bytes": 5944454,
+          "dimensions": [
+            3786,
+            4479
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-004-000",
+      "verdict": "pass",
+      "prior_six_case": true,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image003.b64.txt",
+          "sha256": "ad1807bfdad56d65becf8011137680496f72d564bfc922a8da7d2c021e3ef266",
+          "bytes": 180512,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-004-000.b64.txt",
+          "sha256": "4cc9a8224d1efbddc1f8f1a5a3f973bb8345f81fe26d03aa3b6d5197ce786209",
+          "bytes": 1009487,
+          "dimensions": [
+            4468,
+            1254
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-009-000",
+      "verdict": "pass",
+      "prior_six_case": true,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image008.b64.txt",
+          "sha256": "da312d69a4c007009c1e696b32e66a3a7a957eac6b9aa3fa67323eeb1c478c31",
+          "bytes": 473427,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-009-000.b64.txt",
+          "sha256": "4413db90068236ede2835ef29c29359137847e51158266af20ef925938fa7bc0",
+          "bytes": 3964307,
+          "dimensions": [
+            3029,
+            2772
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-012-000",
+      "verdict": "pass",
+      "prior_six_case": true,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image011.b64.txt",
+          "sha256": "ae3524cb58ac940c912c7885d65ec9d21221415d97d1ea21d97be9615161a860",
+          "bytes": 232594,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-012-000.b64.txt",
+          "sha256": "3a2a0f5ac2782b10b066bd4ace50d305ce2bbea1c53e27934205b7cf2a8b93ad",
+          "bytes": 176520,
+          "dimensions": [
+            1056,
+            1049
+          ],
+          "within_actual_caller_bound": true
+        }
+      ]
+    },
+    {
+      "key": "page-012-001",
+      "verdict": "fail",
+      "prior_six_case": true,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image011.b64.txt",
+          "sha256": "ae3524cb58ac940c912c7885d65ec9d21221415d97d1ea21d97be9615161a860",
+          "bytes": 232594,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-012-001.b64.txt",
+          "sha256": "da367ed32034c950a729fd32707412d2956f01760e2ced6616f2c7306002d7ec",
+          "bytes": 217999,
+          "dimensions": [
+            1397,
+            1096
+          ],
+          "within_actual_caller_bound": true
+        }
+      ]
+    },
+    {
+      "key": "page-014-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image013.b64.txt",
+          "sha256": "cb53f04abc02441992de4903c079b036c6242a50cd275f696231c89634e6a75b",
+          "bytes": 732237,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-014-000.b64.txt",
+          "sha256": "4f4af349e0fcc4f3e15065dad7fecc68fe1805df524bf2dac94e56a524886693",
+          "bytes": 1833195,
+          "dimensions": [
+            1994,
+            1796
+          ],
+          "within_actual_caller_bound": true
+        }
+      ]
+    },
+    {
+      "key": "page-018-000",
+      "verdict": "fail",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image017.b64.txt",
+          "sha256": "3d069f99adca6caa2039d3a9f4cccc2cb8a44413d5f44023d21baaa42b7ae6d1",
+          "bytes": 511731,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-018-000.b64.txt",
+          "sha256": "b5c9ee922fe3f6468acf31c7dbe842a4bde8918a4f370c67cf36d5b8546edc0b",
+          "bytes": 3023475,
+          "dimensions": [
+            2163,
+            5313
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-021-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image020.b64.txt",
+          "sha256": "5a1f2380a089ff23355ff101b07549bd57abba3a51636a6b58a28a31a4195318",
+          "bytes": 913190,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-021-000.b64.txt",
+          "sha256": "b03c6e1a9b3e3e6842de1760b97fc3e131b91eea3a2e3d11bedafa53a385f426",
+          "bytes": 6433021,
+          "dimensions": [
+            4253,
+            2669
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-021-001",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image020.b64.txt",
+          "sha256": "5a1f2380a089ff23355ff101b07549bd57abba3a51636a6b58a28a31a4195318",
+          "bytes": 913190,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-021-001.b64.txt",
+          "sha256": "7d3af1dc6ffa2a2c731a6f0cdadb791175b25bcb2580c69034dcf2de6c06131e",
+          "bytes": 5213443,
+          "dimensions": [
+            4152,
+            2471
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-022-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image021.b64.txt",
+          "sha256": "2f49d83261e2f40d20b736b602cc4de8c36b48780ab944dc96c8e08f83e34332",
+          "bytes": 722546,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-022-000.b64.txt",
+          "sha256": "c8de7753ebe7d13c9646b62bef02984148f4e9e2260197a56babd46442f61ea9",
+          "bytes": 1425938,
+          "dimensions": [
+            1887,
+            1584
+          ],
+          "within_actual_caller_bound": true
+        }
+      ]
+    },
+    {
+      "key": "page-038-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image037.b64.txt",
+          "sha256": "b836c9c90fc650dd0513299652bf1af41fc577544803d9cea64928c890cdfdbe",
+          "bytes": 730755,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-038-000.b64.txt",
+          "sha256": "09855f57fc1ff367f3174dd0a5bfab433e069195aa1d2596f68212cae163a349",
+          "bytes": 958411,
+          "dimensions": [
+            1372,
+            1706
+          ],
+          "within_actual_caller_bound": true
+        }
+      ]
+    },
+    {
+      "key": "page-038-001",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image037.b64.txt",
+          "sha256": "b836c9c90fc650dd0513299652bf1af41fc577544803d9cea64928c890cdfdbe",
+          "bytes": 730755,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-038-001.b64.txt",
+          "sha256": "4eaee1585bba4a4c6309e5d5bd28a57b4dd8c297a0b8dd0a491c8c60d4e66b89",
+          "bytes": 1707524,
+          "dimensions": [
+            2014,
+            1712
+          ],
+          "within_actual_caller_bound": true
+        }
+      ]
+    },
+    {
+      "key": "page-060-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image059.b64.txt",
+          "sha256": "af4d6f24fc5b026a12697ed4d9da2758257bb8e0ec06c7989a2b2d0625501317",
+          "bytes": 793636,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-060-000.b64.txt",
+          "sha256": "0e7a4ae8f060dcb0588f647c2e7d51abb7251b91ec81feb6d89a9923f0d4e9b3",
+          "bytes": 2338932,
+          "dimensions": [
+            2004,
+            2561
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-060-001",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image059.b64.txt",
+          "sha256": "af4d6f24fc5b026a12697ed4d9da2758257bb8e0ec06c7989a2b2d0625501317",
+          "bytes": 793636,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-060-001.b64.txt",
+          "sha256": "f05b5737e373e2b06f0544bd74c59c9e92b096919fc775cdd9cc0bb4642dade6",
+          "bytes": 1778000,
+          "dimensions": [
+            2015,
+            1743
+          ],
+          "within_actual_caller_bound": true
+        }
+      ]
+    },
+    {
+      "key": "page-092-000",
+      "verdict": "fail",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image091.b64.txt",
+          "sha256": "23540ee8136d29922da3f9284d44ddb46a07390fdd41f79f9afbb39989c9c04c",
+          "bytes": 675402,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-092-000.b64.txt",
+          "sha256": "3d02c44de285d58fd54c3131a5c2c6c13235093c88eef49ac02e2a778b23687c",
+          "bytes": 1234084,
+          "dimensions": [
+            1974,
+            2381
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-122-000",
+      "verdict": "fail",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image121.b64.txt",
+          "sha256": "04731378a1ff37ffb8e26faf005f87fa2383f9ba91e147ce9caa94e8519d086e",
+          "bytes": 849762,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-122-000.b64.txt",
+          "sha256": "5ab45f308ea9d353dae2830a574af026b907fd95f6c50e78d48e8921031f6990",
+          "bytes": 5580411,
+          "dimensions": [
+            4244,
+            2478
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-122-001",
+      "verdict": "fail",
+      "prior_six_case": true,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image121.b64.txt",
+          "sha256": "04731378a1ff37ffb8e26faf005f87fa2383f9ba91e147ce9caa94e8519d086e",
+          "bytes": 849762,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-122-001.b64.txt",
+          "sha256": "7fea918ba336f4cca9bbbb048f97bcc6377febe2afaebd5eddf2eed0c0bfb8d9",
+          "bytes": 5523372,
+          "dimensions": [
+            4244,
+            2958
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-125-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image124.b64.txt",
+          "sha256": "b35e4c1e660a0ed9029ebe555558341a933a5724740964ca6927f94f77ae2944",
+          "bytes": 269225,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-125-000.b64.txt",
+          "sha256": "e371aa234263c051dce440c71d0ec3d5a9ed31bd3b1fc9c4dd4dae475dca57ee",
+          "bytes": 1777768,
+          "dimensions": [
+            4011,
+            3871
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-126-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image125.b64.txt",
+          "sha256": "4f4ac880a5ff48ffa1a6d2a010e763cf022dceb118988b7bf6d0c0a41fab1143",
+          "bytes": 382952,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-126-000.b64.txt",
+          "sha256": "be267fc173fd8ed502bd6ab4d0be57c0d7d5a0c1556fdcc9f8c34d94aa8715d6",
+          "bytes": 1250494,
+          "dimensions": [
+            2933,
+            2116
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-126-001",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image125.b64.txt",
+          "sha256": "4f4ac880a5ff48ffa1a6d2a010e763cf022dceb118988b7bf6d0c0a41fab1143",
+          "bytes": 382952,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-126-001.b64.txt",
+          "sha256": "34ceefa5de85865fd864cb3253a38fa73cf6ab5f13ed56daec60e00de20da908",
+          "bytes": 1314806,
+          "dimensions": [
+            2123,
+            2940
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-127-000",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image126.b64.txt",
+          "sha256": "25042b92e75e09ff2d7aa9330b44b26a092624a9bee19c7f2707a413f6c7f302",
+          "bytes": 292143,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-127-000.b64.txt",
+          "sha256": "6dcf9cad3998eba4ed72d1a79594431f86113a04c58b0452670ede3e3ec13429",
+          "bytes": 1138976,
+          "dimensions": [
+            2924,
+            2081
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    },
+    {
+      "key": "page-127-001",
+      "verdict": "pass",
+      "prior_six_case": false,
+      "images": [
+        {
+          "role": "page_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/source-pages-b64/Image126.b64.txt",
+          "sha256": "25042b92e75e09ff2d7aa9330b44b26a092624a9bee19c7f2707a413f6c7f302",
+          "bytes": 292143,
+          "dimensions": [
+            1545,
+            2000
+          ],
+          "within_actual_caller_bound": true
+        },
+        {
+          "role": "crop_image",
+          "encoded_file": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/benchmarks/input/crop-validation-b64/page-127-001.b64.txt",
+          "sha256": "c98909f5166e46b330e89288f7ed4cd1f4700a98a5b0153996204725cc7ea29e",
+          "bytes": 1416767,
+          "dimensions": [
+            2919,
+            2071
+          ],
+          "within_actual_caller_bound": false
+        }
+      ]
+    }
+  ],
+  "reservation_usd": {
+    "classifier_fable": "45.02784",
+    "classifier_sol": "3.431120",
+    "caller_fable": "4.09344",
+    "caller_sol": "0.311920",
+    "recovery_fable": "4.09344",
+    "recovery_sol": "0.311920"
+  },
+  "total_reserved_usd": "57.269680",
+  "proposed_hard_cap_usd": "60",
+  "primary_relevant_identity": {
+    "modules/common/crop_safety.py": {
+      "sha256": "680faf9674fe2335199a8924b2b2cf552345dc34ae9dac96d7f61a8702c946a6",
+      "matches_primary": true
+    },
+    "modules/transform/propose_crop_safety_v1/main.py": {
+      "sha256": "036b3fc59db195bb981ae8f007144520bfab18b1eb7545580a21ea4ede971d18",
+      "matches_primary": true
+    },
+    "modules/common/crop_safety_custody.py": {
+      "sha256": "81dfe058412fcb47dcfea701af21ce64f5461de9a96d76c1389bf7fe8b4d2128",
+      "matches_primary": true
+    },
+    "modules/common/crop_review_setup.py": {
+      "sha256": "3c1a168af8b055545e706e4b053aa069653f8179fdf91c09da6da19981e4d254",
+      "matches_primary": true
+    },
+    "modules/common/crop_review.py": {
+      "sha256": "085d0e21c67e6def812d6b2ad8eb6d34510069717e86ec4e18d090caf63a512b",
+      "matches_primary": true
+    },
+    "modules/transform/propose_crop_safety_v1/prompt.txt": {
+      "sha256": "9931ded6b7e732687b0889e6959ef9a873e6f459a292c132443db0f6bc9a7371",
+      "matches_primary": true
+    },
+    "benchmarks/golden/crop-page-level-safety-repair-048-source-adjudicated.json": {
+      "sha256": "6f32bc513494f1c4454b4c41e74186136212d477ff10c87ccb29244ca21aaa76",
+      "matches_primary": true
+    }
+  },
+  "primary_head": "3a7efec9216c7d784700e464a98fc6de9b8a2e02",
+  "planned_provider_calls": 48,
+  "maximum_operational_recovery_calls": 4,
+  "new_round_not_remaining_prior_campaign_budget": true
+}

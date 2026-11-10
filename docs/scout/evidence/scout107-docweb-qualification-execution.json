@@ -1,0 +1,69 @@
+{
+  "status": "completed_retain_sol",
+  "owner": "doc-web",
+  "attempt": "088",
+  "worktree": "/Users/cam/.codex/worktrees/fable52-safety-qualification-20261109/doc-web",
+  "branch": "codex/fable52-safety-qualification-20261109-doc-web",
+  "base": "5bd3ba777d70347eb8dd84b9aa18a6b3ba025193",
+  "cap_usd": 60,
+  "classifier": {
+    "fresh_pairs": 22,
+    "fable": {
+      "effort": "xhigh",
+      "max_output_tokens": 32768,
+      "correct": 22,
+      "false_safe": 0,
+      "subject_cost_usd": 1.922544,
+      "mean_latency_ms": 7030.727272727273
+    },
+    "sol": {
+      "effort": "medium",
+      "max_output_tokens": 4096,
+      "correct": 22,
+      "false_safe": 0,
+      "subject_cost_usd": 0.369622,
+      "mean_latency_ms": 4925.136363636364
+    },
+    "root_verified_request_response_hashes": 88,
+    "strict_native_revalidation_count": 44
+  },
+  "known_cost_usd": 2.371752,
+  "unresolved_usd": 0,
+  "calls": 48,
+  "runtime_defaults_changed": false,
+  "committed": false,
+  "pushed": false,
+  "ledger_closed": true,
+  "recovery_calls": 0,
+  "root_verified_request_response_hashes": 96,
+  "caller_model_policy": {
+    "fable": {
+      "S3": "fail_required_uncertainty_hold",
+      "S4": "pass_integral_lettering"
+    },
+    "sol": {
+      "S3": "fail_required_uncertainty_hold",
+      "S4": "pass_integral_lettering"
+    }
+  },
+  "caller_mechanics": {
+    "both_live_driver_chains": "pass_synthetic_operator_only",
+    "saved_live_held_recrop_error_variants": 6,
+    "additional_posts": 0,
+    "root_inspected_generated_html_and_exact_source_assets": true
+  },
+  "tests_passed": 227,
+  "production_qualified": false,
+  "credentials": {
+    "central_injection": false,
+    "owner_key_copied_or_modified": false
+  },
+  "worktree_disposition": "retained_uncommitted_for_review",
+  "owner_attempt": "/Users/cam/.codex/worktrees/fable52-safety-qualification-20261109/doc-web/docs/evals/attempts/088-fable52-safety-qualification.md",
+  "owner_manifest": "/Users/cam/.codex/worktrees/fable52-safety-qualification-20261109/doc-web/docs/evals/evidence/088-fable52-safety/manifest.json",
+  "root_final_manifest_verification": {
+    "files": 657,
+    "bytes": 188299233,
+    "mismatches": []
+  }
+}

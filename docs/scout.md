@@ -84,6 +84,26 @@ Use this index to track external sources investigated for cross-project value.
 
 ## Entries
 
+- `2026-11-09` — [Scout108 — Fable whole-task collapse](./scout/scout-108-fable-whole-task-collapse.md#final-campaign-closeout--2026-11-10) — `Completed bounded study`
+  Test complete outcomes above current decomposition: CineForge full story
+  workspace and RoboRally whole-race adjudication selected within US$28.
+  Robo3singleinference outcomes/113materialevents pass. Cine xhigh reachesnative
+  outputceiling withoutcompletebundle; currentpipeline loadsbutsource-fails.
+  Known9.750610USD+unknown9.933088=19.683698/28;53requestsclosed. No defaults/
+  commits/landing; bothownerworktrees retaineduncommitted. HIGHcalibration11USD
+  is archived after Cam stopped further evaluation; no queued calls.
+
+- `2026-11-09` — [Scout 107 — Claude Fable 5.2 / Mythos 5.2](./scout/scout-107-claude52-capability-revision.md#final-campaign-results--2026-11-09) — `Completed capability study`
+  All five selected panels complete. Native Fable safety6/6 vsGPT3/6 is the
+  strongest qualification lead; Storybook dense-source recall also improves.
+  Other full-task gates remain unmet. KnownUSD11.7359023, conservative33.2579823/108.
+  Direct-native recovery; temporary keys removed, all worktrees uncommitted.
+  Follow-through: [full22/native-caller qualification plan](./scout/scout-107-docweb-safety-qualification-plan.md)
+  selected by Cam within USD60; fresh22-case comparison ties22/22, zero false-safe;
+  Fable costs5.20times Sol with1.43times meanlatency; both miss synthetic uncertaintyhold.
+  Actual-driver mechanics pass; retainSol/defaults, no deletion qualification.
+  New48calls US$2.371752/60, unknown0; isolated worktree retaineduncommitted.
+
 - `2026-10-17` — [Scout098 Storybook promotion plan](./scout/scout-098-storybook-promotion-plan.md) — PhaseA complete atUS0:16actualcapture armruns never reachrouter; measured27Bgain cannot benefit selected consumer inputs. Stop promotion/retainLuna; no paid extension or guard repair recommended. Task storage cleaned; paid/offline owner evidence landed, [receipt](./scout/evidence/scout098-landing.json). No defaults changed.
 
 - `2026-10-17` — [Scout 098 — Perplexity Decider v1.2 and Flash v1.2](./scout/scout-098-perplexity-decider-v12-evaluation-routing.md) — Completed: retain Gemini/Sol/Luna runtimes; Decider27B wins conditional Storybook mode quality but rate limits defer promotion. Flash loses tested tasks. KnownUSD.05632798+unknown.00210688<=2.50; temporary keys removed; all three owner records landed, [receipt](./scout/evidence/scout098-landing.json). No defaults changed.

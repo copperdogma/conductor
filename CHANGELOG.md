@@ -1,5 +1,18 @@
 # Changelog
 
+
+## [2026-11-10] - Close Claude Fable 5.2 evaluations
+
+### Added
+- Record the five-owner capability campaign, Doc Web safety qualification and
+  whole-task CineForge/RoboRally probes with separate costs and uncertainty.
+- Preserve positive bounded race adjudication, source failures, output/transport
+  limits and owner-local reproducibility evidence without changing defaults.
+
+### Changed
+- Stop further evaluation at Cam's request and archive the unselected calibration.
+- Land scoped owner evidence before supervisor closeout; leave unrelated work intact.
+
 ## [2026-11-05] - Evaluate Hy4 and Ripple across six projects
 
 ### Added

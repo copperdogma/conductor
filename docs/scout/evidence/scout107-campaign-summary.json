@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-09",
+  "status": "complete; all five selected panels, validation and root evidence review finished",
+  "selected_campaign_max_usd": "108",
+  "accounting_basis": "API usage-price estimates; unknown failed/interrupted reservations held in full; not reconciled invoices",
+  "owners": [
+    {
+      "owner": "storybook",
+      "status": "complete",
+      "worktree": "/Users/cam/.codex/worktrees/fable52-20261109/storybook",
+      "branch": "codex/fable52-20261109",
+      "base_sha": "bfd37384836c233cd0a21e36d82a7b2d8daa342b",
+      "report": "/Users/cam/.codex/worktrees/fable52-20261109/storybook/docs/evals/attempts/198-fable52-c1-c2-capability.md",
+      "cap_usd": "25",
+      "known_usage_priced_usd": "4.496246",
+      "unknown_max_usd": "8.73232",
+      "conservative_usd": "13.228566",
+      "outcome": "dense-session completeness/identity lead; original full gates0/4 both",
+      "disposition": "retained uncommitted for review; no landing authorized"
+    },
+    {
+      "owner": "doc-web",
+      "status": "complete",
+      "worktree": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web",
+      "branch": "codex/fable52-20261109-doc-web",
+      "base_sha": "5bd3ba777d70347eb8dd84b9aa18a6b3ba025193",
+      "report": "/Users/cam/.codex/worktrees/fable52-20261109/doc-web/docs/evals/attempts/087-fable52-source-fidelity.md",
+      "cap_usd": "30",
+      "known_usage_priced_usd": "1.61832125",
+      "unknown_max_usd": "4.76416",
+      "conservative_usd": "6.38248125",
+      "outcome": "safety6/6 vs3/6; tabletie; readerreplacementunqualified",
+      "disposition": "retained uncommitted for review; no landing authorized"
+    },
+    {
+      "owner": "cine-forge",
+      "status": "complete",
+      "worktree": "/Users/cam/.codex/worktrees/fable52-20261109/cine-forge",
+      "branch": "codex/fable52-video-20261109",
+      "base_sha": "0693227394bd9a63b1df1300070421000e0dd7b6",
+      "report": "/Users/cam/.codex/worktrees/fable52-20261109/cine-forge/docs/evals/attempts/057-fable52-full-six-ordered-frame-capability.md",
+      "cap_usd": "20",
+      "known_usage_priced_usd": "1.00078155",
+      "unknown_max_usd": "2.15872",
+      "conservative_usd": "3.15950155",
+      "outcome": "continuitylabellead onecase; allarms0/6fullquality",
+      "disposition": "retained uncommitted for review; no landing authorized"
+    },
+    {
+      "owner": "echo-forge",
+      "status": "complete",
+      "worktree": "/Users/cam/.codex/worktrees/fable52-20261109/echo-forge",
+      "branch": "codex/fable52-20261109",
+      "base_sha": "7decbc894060ca430e82177ec6e9aa451dee349c",
+      "report": "/Users/cam/.codex/worktrees/fable52-20261109/echo-forge/docs/evals/attempts/scene-to-soundscape-golden/20261109-scout107.md",
+      "cap_usd": "8",
+      "known_usage_priced_usd": "0.455126",
+      "unknown_max_usd": "3.03744",
+      "conservative_usd": "3.492566",
+      "outcome": "fullsemantics1/2 vs0/2; requiredsounds2/2both; diagnosticnotproductionparity",
+      "disposition": "retained uncommitted for review; no landing authorized"
+    },
+    {
+      "owner": "boardgame-ingester",
+      "status": "complete",
+      "worktree": "/Users/cam/.codex/worktrees/fable52-20261109/boardgame-ingester",
+      "branch": "codex/fable52-bgi-20261109",
+      "base_sha": "d4850f5c46770b462d4cf56487e57bb5c6c6ab95",
+      "report": "/Users/cam/.codex/worktrees/fable52-20261109/boardgame-ingester/docs/evals/attempts/20261109-scout107-fable52.md",
+      "cap_usd": "25",
+      "known_usage_priced_usd": "4.1654275",
+      "unknown_max_usd": "2.82944",
+      "conservative_usd": "6.9948675",
+      "outcome": "both1/6exact; Fable lessbackgroundleak/morematerialloss; retain manual boundary verification",
+      "disposition": "retained uncommitted for review; no landing authorized"
+    }
+  ],
+  "totals": {
+    "cap_usd": "108",
+    "known_usage_priced_usd": "11.73590230",
+    "unknown_max_usd": "21.52208",
+    "conservative_usd": "33.25798230"
+  },
+  "cost_breakdown_usd": {
+    "candidate_subjects": "9.517448",
+    "controls_including_quarantined_OCR": "1.5211313",
+    "judges": "0.697323",
+    "known_total": "11.7359023",
+    "unresolved_rejected_requests": "21.02208",
+    "unresolved_interrupted_control": "0.5"
+  },
+  "root_credential_cleanup": "four temporarily injected router variables independently checked absent by variable name only; existing native owner credentials untouched; CineForge no injection",
+  "scope": "public/authored synthetic only; native Anthropic standard recovery; no Mythos calls, defaults, deploy, commit, push, merge or landing",
+  "review": "continuing strategy review plus fresh independent complete-source review; requested gpt-6-astra/ultra, served identity not independently attested",
+  "root_manifest_checks": {
+    "storybook": 151,
+    "doc-web": 169,
+    "boardgame-ingester": 104,
+    "cine-forge": 268,
+    "echo-forge": 35,
+    "total_files": 727
+  }
+}

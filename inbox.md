@@ -889,3 +889,65 @@ explicit rejections.
 - 2026-10-13 — Five-model decision evaluation completed in [Scout091](docs/scout/scout-091-five-decision-models-evaluation-routing.md). All four selected lanes accounted for; Solar remains a conditional batch lead, current runtime choices retained. User requested scoped check-in/push; all three owner remote-main landings verified and supervisor closeout recorded.
 
 - 2026-10-14 — DeepSeek V4.1 Flash fresh retry completed; Cam requested no further testing of this checkpoint and authorized scoped check-in/push. Routed and resolved in [Scout094](docs/scout/scout-094-deepseek-v41-flash-fresh-retry.md).
+
+- 2026-11-09: Evaluate Claude Fable 5.2 / Mythos 5.2; access uncertain.
+  [Scout107](docs/scout/scout-107-claude-fable-mythos52-evaluation-routing.md) verifies
+  public availability and proposes six bounded owner screens, USD53 maximum.
+  Awaiting selection; no authenticated probes or inference.
+
+- 2026-11-09: Cam corrected Scout107: consider potentially frontier intelligence
+  and newly feasible tasks, rather than marginal inexpensive replacements.
+  [Revision2](docs/scout/scout-107-claude52-capability-revision.md) supersedes the
+  old numbered choices: five capability campaigns, USD108 maximum; Dossier C1,
+  full BGI intake and agentic repair challenges need source/benchmark preparation.
+  No execution selected or paid calls.
+
+- 2026-11-09 — Scout107 completed after Cam selected revised allfive capability
+  campaigns. [Finalresults](docs/scout/scout-107-claude52-capability-revision.md#final-campaign-results--2026-11-09):
+  prioritize DocWeb safety qualification (6/6vs3/6); Storybook dense-session
+  source-completeness lead; no broad pipeline/default change. KnownUSD11.7359023,
+  conservative33.2579823/108. Allownerpanels/checks/rootreview complete,
+  temporarykeys removed; five isolated worktrees retaineduncommitted. Prior
+  Stage1 awaiting-selection notes above are historical and superseded.
+
+- 2026-11-09: Cam approved preparation of DocWeb full22 safety/actualcaller
+  qualification. [Planready](docs/scout/scout-107-docweb-safety-qualification-plan.md):
+  Fable vs currentSol, corrected17/5truth, syntheticnativecallermechanics,
+  US$60 proposed newround; no calls/authprobes/targetwrites. Awaitexecutionselection.
+
+- 2026-11-09: Cam selected and completed Scout107 DocWeb US$60 follow-through.
+  [Qualification results](docs/scout/scout-107-docweb-safety-qualification-plan.md#completed-qualification--2026-11-09):
+  Fable/Sol both22/22, zero false-safe/flagerrors; Sol cheaper/faster. Both miss
+  S3 uncertaintyhold, both accept integral S4 lettering; actualdriver mechanics
+  pass with synthetic authority. RetainSol, no production/default/C5deletion
+  change.48calls US$2.371752, unknown0,227checks; isolated worktree retained
+  uncommitted. Prior awaiting-selection notes are superseded.
+
+- 2026-11-09: Cam clarified the apps' AI-first ethos: investigate one level
+  above today's decomposed pipelines, asking whether one Fable call can produce
+  the entire useful outcome. [Scout108](docs/scout/scout-108-fable-whole-task-collapse.md)
+  maps whole-workflow experiments, distinguishes already-single-call paths,
+  and prioritizes CineForge workspace generation and synthetic RoboRally
+  adjudication for bounded execution; chapter reconstruction/full game intake
+  need complete outcome-oracle preparation. No paid calls or target writes.
+
+- 2026-11-09: Cam selected both Scout108 whole-task probes withinUS$28.
+  RoboRally completed3single-inference outcomes, all finalstates and113material
+  events/causes pass; knownUS$1.532560+unknownreservation1.72672/8, closedledger.
+  CineForge fullworkspace call executing within20; no runtime/default/landing
+  change. [Selection and evidence](docs/scout/scout-108-fable-whole-task-collapse.md#selected-execution--2026-11-09).
+
+- 2026-11-10: Scout108 selected whole-task campaign COMPLETE.
+  [Results](docs/scout/scout-108-fable-whole-task-collapse.md#final-campaign-closeout--2026-11-10):
+  Robo2races+1register/113materialevents+causes pass in3singleinferences. Cine
+  no completeone-callworkspace atxhigh65536/128000; finalknownMAXtruncation,
+  sourcequalityunmeasured. Fresh45callpipeline loads butsource-fails (stale
+  night/rainvsoriginalmorning/sun; inventedroles). No qualifiedCinewinner.
+  53endpointrequests; known9.750610+unknown9.933088=19.683698/28, allclosed.
+  Twoisolatedworktrees retaineduncommitted, no defaults/commit/push/deployment.
+  SeparateprospectiveHIGH128000/Cine11USDcalibration is NOTselected.
+
+- 2026-11-10: Cam stopped further Fable evaluation and authorized scoped
+  check-in/push across the completed Scout107/108 owner work and DocWeb
+  qualification. HIGH calibration is not selected or queued. Preserve unrelated
+  primary work, land validated owners before supervisor records, no deployment.

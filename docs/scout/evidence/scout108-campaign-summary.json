@@ -1,0 +1,158 @@
+{
+  "campaign": "scout108-fable-whole-task",
+  "date": "2026-11-09",
+  "status": "complete",
+  "approved_cap_usd": 28,
+  "known_spend_usd": 9.75061,
+  "unresolved_reservations_usd": 9.933088,
+  "owners": {
+    "cine-forge": {
+      "cap_usd": 20,
+      "status": "complete",
+      "worktree": "/Users/cam/.codex/worktrees/fable-whole-task-20261109/cine-forge",
+      "branch": "codex/fable-whole-task-20261109-cine-forge",
+      "base": "0693227394bd9a63b1df1300070421000e0dd7b6",
+      "effort": "xhigh",
+      "max_output_tokens": 128000,
+      "known_spend_usd": 8.21805,
+      "unresolved_reservations_usd": 8.206368,
+      "first_failure": "600s_nonstream_timeout_no_response",
+      "first_valid_transport_result": {
+        "stop_reason": "max_tokens",
+        "output_tokens": 65536,
+        "reported_thinking_tokens": 65536,
+        "text_blocks": 0,
+        "consumer_workspace": false,
+        "latency_ms": 588353
+      },
+      "pending_reservation_usd": 0,
+      "conservative_exposure_including_pending_usd": 16.424418,
+      "configurations": [
+        {
+          "effort": "xhigh",
+          "max_output_tokens": 65536,
+          "result": "nonstream_timeout_then_stream_max_tokens_all_thinking_no_text"
+        },
+        {
+          "effort": "xhigh",
+          "max_output_tokens": 128000,
+          "result": "inflight_same_source_prompt_schema_stream"
+        }
+      ],
+      "physical_calls": 49,
+      "first_maximum_output_arm_result": "premature_SSE_EOF_partial_JSON_no_terminal_or_usage",
+      "control": {
+        "physical_calls": 45,
+        "known_spend_usd": 0.275058,
+        "wall_time_ms": 200684,
+        "loaded_artifact_groups": 82,
+        "scenes": 4,
+        "master_bibles": 25,
+        "continuity_states": 20,
+        "consumer_load": "pass",
+        "source_fidelity": "fail",
+        "decisive_example": "Final studio continuity incorrectly stays night/rain/failing sign vs original morning/sun/steady sign."
+      },
+      "final_replay_request_sha256": "01bd5373650beb7d205d9d8bcb71ba001594a617e99c755cd08c1177bda4f916",
+      "source_quality": "unmeasured_no_complete_candidate",
+      "delivery": "failed_tested_configurations",
+      "final_replay": {
+        "output_tokens": 128000,
+        "thinking_tokens": 68908,
+        "visible_characters": 127005,
+        "stop_reason": "max_tokens",
+        "complete_json": false,
+        "root_verified_verbatim_wire": true,
+        "root_raw_sse_reconstruction": true
+      },
+      "root_receipt_hashes_verified": 96,
+      "root_sse_binding_checks": 2,
+      "root_hash_mismatches": [],
+      "ledger_closed": true,
+      "worktree_disposition": "retained_uncommitted",
+      "owner_attempt": "/Users/cam/.codex/worktrees/fable-whole-task-20261109/cine-forge/docs/evals/attempts/058-fable52-whole-story-workspace.md",
+      "manifest": "/Users/cam/.codex/worktrees/fable-whole-task-20261109/cine-forge/docs/evals/story-237-whole-task20261109-manifest.json",
+      "root_manifest_readback": {
+        "files": 371,
+        "bytes": 9117329,
+        "mismatches": [],
+        "manifest_sha256": "d542ce63bdb5c82221b346c1518244c284faf1810586e8646d6f2443b46be9bc"
+      },
+      "decision": "no_qualified_winner_candidate_delivery_failed_control_source_failed"
+    },
+    "roborally": {
+      "cap_usd": 8,
+      "status": "complete",
+      "worktree": "/Users/cam/.codex/worktrees/fable-whole-task-20261109/roborally",
+      "branch": "codex/fable-whole-task-20261109-roborally",
+      "base": "1f95fdf715451b040fb46e4397876059895e7c40",
+      "effort": "xhigh",
+      "max_output_tokens": 32768,
+      "known_spend_usd": 1.53256,
+      "unresolved_reservations_usd": 1.72672,
+      "attempt_evidence": "/Users/cam/.codex/worktrees/fable-whole-task-20261109/roborally/docs/evals/evidence/001-fable-whole-race",
+      "case007": {
+        "state_exact": true,
+        "ordered_material_events_exact": 38,
+        "independent_explanation_review": "pass",
+        "latency_ms": 145251,
+        "subject_cost_usd": 0.551224,
+        "literal_float_differences": 0
+      },
+      "calls": 4,
+      "valid_subjects": 3,
+      "material_events_passed": 113,
+      "independent_explanation_review": "3/3 pass",
+      "literal_numeric_differences": [
+        {
+          "case": "006",
+          "path": "events[11].data.order[1].clockwiseTieBreaker",
+          "actual": 6.085789747329705,
+          "oracle": 6.085789747329706,
+          "classification": "predeclared_non_game_diagnostic_rounding"
+        }
+      ],
+      "root_original_request_response_hashes_verified": 8,
+      "ledger_closed": true,
+      "owner_attempt": "/Users/cam/.codex/worktrees/fable-whole-task-20261109/roborally/docs/evals/attempts/001-fable-whole-race.md",
+      "manifest": "/Users/cam/.codex/worktrees/fable-whole-task-20261109/roborally/docs/evals/evidence/001-fable-whole-race/manifest.json",
+      "root_manifest_readback": {
+        "files": 47,
+        "bytes": 594138,
+        "mismatches": []
+      },
+      "worktree_disposition": "retained_uncommitted"
+    }
+  },
+  "scope": {
+    "runtime_defaults": false,
+    "deploy": false,
+    "commit": false,
+    "push": false
+  },
+  "credential_custody": {
+    "central_injection": false,
+    "existing_owner_native_access": "CineForge existing wrapper; RoboRally inherited ANTHROPIC_API_KEY presence only"
+  },
+  "pending_reservations_usd": 0,
+  "conservative_exposure_including_pending_usd": 19.683698,
+  "root_primary_runtime_parity": {
+    "cine_recipe_llm_discovery_files": 4,
+    "roborally_engine_scenario_files": 5,
+    "cine_schemas_and_console_files": 41,
+    "differences": [
+      "src/cine_forge/schemas/media_execution_plan.py",
+      "src/cine_forge/schemas/runtime_params.py"
+    ],
+    "difference_classification": "Primary omits film-lane media_execution_plan schema and removes its optional unused RuntimeParams reference; all selected story-lane source/consumer models and control args unchanged. No primary changes copied.",
+    "roborally_all_core_files": 11,
+    "roborally_core_differences": []
+  },
+  "provider_requests": 53,
+  "completed_date": "2026-11-10",
+  "root_worktree_checks": {
+    "both_HEAD_equal_recorded_bases": true,
+    "both_indexes_empty": true,
+    "removed_worktrees": []
+  }
+}

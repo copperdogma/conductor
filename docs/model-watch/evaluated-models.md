@@ -1,5 +1,95 @@
 # Evaluated frontier model ledger
 
+## Anthropic Claude Fable 5.2 — Scout107, 2026-11-09
+
+Canonical native Anthropic `claude-fable-5-2`; router
+`anthropic/claude-fable-5.2`, public canonical dated20261109. Distinct from5.1.
+Mythos5.2 is documented as the same underlying model with different safeguards/
+verified access; exact Mythos ID was not called, entitlement unverified. No
+immutable served-weight/effort-compute attestation from these response IDs.
+[Completed campaign, direct owner records and worktree inventory](../scout/scout-107-claude52-capability-revision.md#final-campaign-results--2026-11-09).
+
+**Retain Sol for Doc Web safety after the full22/native-caller follow-through;
+preserve Storybook dense-session recall/grounded-name lead for owner-led
+qualification. Retain current runtime models/pipelines elsewhere.** All selected panels
+finished; no deployment/default/architecture/commit/push/landing change.
+
+| Owner/task and tested configuration | Layered outcome and narrow continuation trigger |
+|---|---|
+| DocWeb safety/tables/crops/OCR xhigh32768 | Native available; structural schema projection plus original host constraints,12/12 validcandidate. Safety6/6correct/0false-safe vsGPT5.5 3/6/1false-safe; .536464USD/10.077smean vs.350083/3.689s. Highest-value full22+actualcaller qualification, not automaticC5deletion. Tables36cleartie+2holds, Astra cheaper/faster; crop0/2strictvs1/2; OCR.981295<.99, requestedGemini3.7served3.8quarantined. No unchanged reader repeat; new source/config/checkpoint question or separately selected qualification required. Conditionalmax65536 untriggered after tableparity. |
+| Storybook C1/C2 xhigh65536 | Maintained textJSON+fullZod native qualified8/8; optional strict grammar400 separate. Fulloriginalgates0/4both; LC027 semantic.92vsOpus4.7 .82, fuller source detail and no8inventedsurnames, additionalcorrectparentdirectionLC001. Source uncertainty/mention errors remain; raw sparse-reference penalties not pureidentityfailures. Fablesubjects3.362528USDvs.780075,99.5–216.5svs36.7–97.8s. Prioritize source-complete detector/independently frozen ownerqualification, not pipeline deletion. Three repeated sameHaiku reviews/casearm are not independentjudges. No maxtrigger; lower/max remainunmeasured, no unchanged effort escalation to chase matcherprecision. |
+| BGI contours max65536 | Exactoriginal native schema qualified;6freshpairs,both1/6exact andcorrectcomponent/holecounts. Fable9018material/rimlost267leak vsSol3779/713 (rim=materialloss,countonce), mixedcasewise tradeoffs. Subjects4.111704USD/222.395smean vs.0537235/6.589s; reject unattendedexact-cutout adoption, retainmanualverification. New geometrymethod/checkpoint with frozenindependentfixtures or explicitfreshselection, not unchanged paidrepeat. Positiveedgecontact unmeasured. |
+| CineForge orderedJPEGs xhigh32768 | Native projectedstructuralschema+fullhostvalidation,6freshtriples/18blindreviews. All0/6fullpasses; Fablecombined.67375vsSol.66083/Luna.63091 isinterpretation-sensitive. Concretepropcontinuitylabelwin; no clear generalfactualbreakthrough. Fable .099183USD/21.924smean vsSol.009804/6.195 andLuna.000531/4.448. Retainreferences; source-grounded benchmark/heldout qualification before more paid effort arms. Rawjudge-wrong rationales retained, not scorelaundered. |
+| Echo scenes xhigh32768 | Native strict grammar blocked; schema-in-prompt+originallocalvalidator diagnostic2/2valid. Fullsemantics1/2vsMini0/2, requiredsounds2/2both; differencepolicy/metadata not missing-sound recovery. Musicambiguity preserved. Subjects.439616USD/44.414smean vs.01551/11.400. Retainoperationaldefault; adapter/contract and source-adjudicatedpolicy prerequisite for further selectedqualification. No product split established. |
+
+Whole-task follow-through [Scout108](../scout/scout-108-fable-whole-task-collapse.md),
+separately selected2026-11-09: **RoboRally demonstrated bounded whole-outcome
+capability**. NativeFable xhigh32768 adjudicated2closed synthetic races and
+1register fixture in3singleinferences: complete final states and113ordered
+material events/causes pass independent engine/source review.007/002literal
+payloads exact;006one~1e-15angle diagnostic difference, distinguished before
+inference, game order/stateexact. Mean132.944s; subjects1.532560USD vslocal
+engine~.24–1.83ms and0APIcost. Firstnestedstrictschema400 preserved; one
+format-only recovery uses nativeouterJSONstrings+fulloriginalhostvalidation.
+Unknownreservation1.72672 remains; conservative3.259280/8,4POSTsclosed.
+No engine/default adoption; new held-out rules/interactions/source or explicit
+freshselection required, not unchanged repeat.
+[Owner Attempt001](/Users/cam/.codex/worktrees/fable-whole-task-20261109/roborally/docs/evals/attempts/001-fable-whole-race.md).
+CineForge whole-workspace Attempt058 completed2026-11-10. Nativeouterprojection
+plusfullhostschemas ready, but0completeworkspaces onOpenFrequency: xhigh65536
+firsttimeoutunknown thenall65536thinking/noanswer; xhigh128000firstunknownEOF
+thenverbatimreplay knownmax_tokens128000/68908thinking with127005chars of
+incompleteJSON. No source-quality score forpartials. Fresh maintained control
+45calls/.275058/200.684s loads82groups/4scenes but fails originalsource/continuity
+(endsNIGHT/rain/failing sign vsoriginalMORNING/sun/steady; inventedroles and
+danglinggraphrefs). No qualifiedwinner; keepoperationalpathwithsourcechecks.
+[Owner Attempt058](/Users/cam/.codex/worktrees/fable-whole-task-20261109/cine-forge/docs/evals/attempts/058-fable52-whole-story-workspace.md).
+Cineknown8.218050+unknown8.206368=16.424418/20,49requestsclosed; both unused
+variantsunmeasured. xhighremainedconstant; outputallowance repair is not an
+effort sweep. ProspectiveHIGH/128000 one-case11USD calibration was not selected; Cam stopped
+further evaluation2026-11-10. The archived proposal retains
+unchanged fullsource/consumer gates and fingerprinted currentcontrol.
+No unchangedxhighrepeat; neweffort/providerdelivery/config/checkpoint question
+or explicitfreshselection required. Scout108total53requests known9.750610+
+unknown9.933088=19.683698/28; bothnewworktrees retaineduncommitted, allcaps
+respected and no defaults/commit/push/deployment change.
+
+OpenRouter account owner/central keys rejected selected32768/65536 output
+reservations at5785affordable tokens before inference; no router serving
+qualification. Existing owner direct Anthropic standard recovery used same
+selected checkpoint/effort/allowances, USD8/40 rates and30day retention on
+public/authored synthetic only. No account-policy/credit change or secret
+copying; all temporary router vars removed. Native/projection/prompt-only
+contracts remain explicit per owner. No within-task effort comparison occurred:
+BGImax was starting setting; Story/Doc conditionalmax arms untriggered.
+
+Knownusage-price estimate **USD11.73590230**, unresolved reservations21.52208,
+conservative **USD33.25798230/108**; invoices unverified. Known subjects/controls
+11.03857930 andjudges.697323 separate; unresolved includes rejectedrequests
+21.02208 andinterruptedcontrol.50. Allcapsrespected, no transfers. Original
+errors/interruption and exact producer epochs preserved. Root verified727
+manifest files and freshindependent complete-source review. Five isolated
+worktrees retaineduncommitted, no extra paidrun merely to use remainingbudget.
+
+Prepared follow-through: [DocWeb full22/native-caller plan](../scout/scout-107-docweb-safety-qualification-plan.md),
+Cam selected a separate newUSD60 round with fresh actualSol comparator.
+Attempt088 full22 classifier complete: both22/22, zero false-safe/flagerrors;
+Fable1.922544USD/7.031smean vsSol.369622/4.925s. RetainSol on this matched
+panel. Caller modelpolicy1/2 both: S3 uncertainty missed, S4 integral lettering
+correct. Native actual-driver mechanics and saved-live hold/error checks pass
+under synthetic authority only; no production admission. New48calls total
+2.371752USD/60, unknown0/recovery0,227tests pass; default unchanged, isolated
+worktree retaineduncommitted. Original campaign accounting remains separate.
+No unchanged paid repeat; new source/config/checkpoint decision or explicit
+fresh selection required.
+
+Deduplication/retry: this checkpoint is evaluated, not a new nomination. Broader
+selected safety/dense-source qualification may be decision-bearing follow-through;
+exact repeat requires the owner-specific newsource/config/contract/checkpoint
+trigger or explicitfresh intent. Catalog/pricing/docs alone do not prove router
+funding, callability, fidelity or productionqualification. DossierBigFish source
+clearance/fullintake/agentic tasks remain unselected preparation, not model misses.
+
 ## OpenAI GPT-6.1 Terra — Scout103, 2026-10-26
 
 Canonical provider-qualified **OpenAI `gpt-6.1-terra`**, same public name/current
