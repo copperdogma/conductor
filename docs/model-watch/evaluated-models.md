@@ -90,6 +90,12 @@ trigger or explicitfresh intent. Catalog/pricing/docs alone do not prove router
 funding, callability, fidelity or productionqualification. DossierBigFish source
 clearance/fullintake/agentic tasks remain unselected preparation, not model misses.
 
+Cam stopped further evaluation and authorized check-in/push2026-11-10.
+[Owner-first landing receipt](../scout/evidence/scout107-108-landing.json) records
+all six verified owner main commits, validation/custody and retained worktrees.
+Earlier uncommitted dispositions are historical. HIGHcalibration is archived,
+not selected or queued; no new inference/default/deployment change.
+
 ## OpenAI GPT-6.1 Terra — Scout103, 2026-10-26
 
 Canonical provider-qualified **OpenAI `gpt-6.1-terra`**, same public name/current

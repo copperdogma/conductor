@@ -554,3 +554,16 @@ Scoped owner-first landing includes all completed Fable studies and their
 follow-throughs; runtime defaults/deployment remain unchanged. The later
 landing receipt records commits and remote verification. Historical
 uncommitted dispositions above describe the pre-landing evidence checkpoint.
+
+## Authorized landing — 2026-11-10
+
+Cam stopped further evaluation and authorized check-in/push. All six owning
+repositories are now verified on remote main: CineForge`3b44e158`, DocWeb
+`1c3f3e31`, Storybook`f08050a5`, BGI`41f92538`, Echo`07ac9be7`, RoboRally
+`f313de55`. Execution/integration branches were pushed without force; scoped
+checks passed, unchanged-input evidence was reused and exact producing epochs
+were preserved. No new provider calls, deployment or runtime-default changes.
+The HIGH calibration is archived and not queued. Historical uncommitted
+dispositions describe earlier checkpoints; worktrees are retained after landing.
+
+[Full landing receipt and retained-worktree inventory](evidence/scout107-108-landing.json).

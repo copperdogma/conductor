@@ -951,3 +951,9 @@ explicit rejections.
   check-in/push across the completed Scout107/108 owner work and DocWeb
   qualification. HIGH calibration is not selected or queued. Preserve unrelated
   primary work, land validated owners before supervisor records, no deployment.
+
+- [x] 2026-11-10: Fable evaluation stopped; completed owner work checked in and
+  verified on all six remote main branches. [Landing receipt](docs/scout/evidence/scout107-108-landing.json)
+  records CineForge3b44e158/DocWeb1c3f3e31/Storybookf08050a5/BGI41f92538/
+  Echo07ac9be7/RoboRallyf313de55, scoped validation and preserved evidence.
+  No further evaluation, deployment or defaults change; worktrees retained.

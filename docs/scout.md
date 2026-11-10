@@ -92,6 +92,8 @@ Use this index to track external sources investigated for cross-project value.
   Known9.750610USD+unknown9.933088=19.683698/28;53requestsclosed. No defaults/
   commits/landing; bothownerworktrees retaineduncommitted. HIGHcalibration11USD
   is archived after Cam stopped further evaluation; no queued calls.
+  [Owner-first landing receipt](./scout/evidence/scout107-108-landing.json): all six
+  owner mains verified; scoped checks passed, supervisor closeout follows.
 
 - `2026-11-09` — [Scout 107 — Claude Fable 5.2 / Mythos 5.2](./scout/scout-107-claude52-capability-revision.md#final-campaign-results--2026-11-09) — `Completed capability study`
   All five selected panels complete. Native Fable safety6/6 vsGPT3/6 is the

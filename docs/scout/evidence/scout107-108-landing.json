@@ -1,0 +1,121 @@
+{
+  "date": "2026-11-10",
+  "scope": "Completed Fable Scout107/108 and Doc Web qualification; no more evaluations",
+  "status": "owners_landed_supervisor_pending",
+  "authorization": "Cam: Okay let\u2019s cut it off. Thanks. Check in and push.",
+  "no_provider_calls_during_landing": true,
+  "cleanup_requested": false,
+  "owners": {
+    "cine-forge": {
+      "execution_commits": [
+        "7467b802664cef46f730415babb4566c5640adbc",
+        "6c3fc6afb9e247bc0f58caf5f307dec0827026b5"
+      ],
+      "candidate": "3b44e158a74010a68bf8d2bbe7e7a92991f96a69",
+      "base": "0693227394bd9a63b1df1300070421000e0dd7b6",
+      "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/cine-forge",
+      "integration_branch": "codex/fable-finish-20261110-cine-forge",
+      "state": "landed",
+      "verified_remote_main": "3b44e158a74010a68bf8d2bbe7e7a92991f96a69",
+      "verification": "Fresh owner fetch and ancestry check; independent coordinator git ls-remote exact SHA match",
+      "destination": "origin/main",
+      "execution_and_integration_branches_pushed": true
+    },
+    "roborally": {
+      "execution_commits": [
+        "f313de551ae814a21930b62a61131e55f7b21fbf"
+      ],
+      "candidate": "f313de551ae814a21930b62a61131e55f7b21fbf",
+      "base": "1f95fdf715451b040fb46e4397876059895e7c40",
+      "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/roborally",
+      "integration_branch": "codex/fable-finish-20261110-roborally",
+      "state": "landed",
+      "verified_remote_main": "f313de551ae814a21930b62a61131e55f7b21fbf",
+      "verification": "Fresh owner fetch and ancestry check; independent coordinator git ls-remote exact SHA match",
+      "destination": "origin/main",
+      "execution_and_integration_branches_pushed": true
+    },
+    "boardgame-ingester": {
+      "execution_commits": [
+        "bfd75342668ca5dd9d35121353570f6b6f83a0d7"
+      ],
+      "candidate": "41f925388bc1ce0082dba9b0806acf843056c954",
+      "base": "d4850f5c46770b462d4cf56487e57bb5c6c6ab95",
+      "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/boardgame-ingester",
+      "integration_branch": "codex/fable-finish-bgi-20261110",
+      "state": "landed",
+      "verified_remote_main": "41f925388bc1ce0082dba9b0806acf843056c954",
+      "verification": "Fresh owner fetch and ancestry check; independent coordinator git ls-remote exact SHA match",
+      "destination": "origin/main",
+      "execution_and_integration_branches_pushed": true
+    },
+    "echo-forge": {
+      "execution_commits": [
+        "07ac9be7c9ff5447a4bfd667c7926a26f853637a"
+      ],
+      "candidate": "07ac9be7c9ff5447a4bfd667c7926a26f853637a",
+      "base": "7decbc894060ca430e82177ec6e9aa451dee349c",
+      "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/echo-forge",
+      "integration_branch": "codex/fable-finish-20261110-echo-forge",
+      "state": "landed",
+      "verified_remote_main": "07ac9be7c9ff5447a4bfd667c7926a26f853637a",
+      "verification": "Fresh owner fetch and ancestry check; independent coordinator git ls-remote exact SHA match",
+      "destination": "origin/main",
+      "execution_and_integration_branches_pushed": true
+    },
+    "storybook": {
+      "execution_commits": [
+        "f08050a5ef9f60106954fc6141d79fc43b1e261a"
+      ],
+      "candidate": "f08050a5ef9f60106954fc6141d79fc43b1e261a",
+      "base": "bfd37384836c233cd0a21e36d82a7b2d8daa342b",
+      "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/storybook",
+      "integration_branch": "codex/fable-finish-20261110-storybook",
+      "state": "landed",
+      "verified_remote_main": "f08050a5ef9f60106954fc6141d79fc43b1e261a",
+      "verification": "Fresh owner fetch and ancestry check; independent coordinator git ls-remote exact SHA match",
+      "destination": "origin/main",
+      "execution_and_integration_branches_pushed": true
+    },
+    "doc-web": {
+      "execution_commits": [
+        "b384ba8f5a21b5567ca8d61cc058cd2789a89a20",
+        "02d5a46cf69ef1a0923e977478986a06507b3cc9"
+      ],
+      "base": "5bd3ba777d70347eb8dd84b9aa18a6b3ba025193",
+      "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/doc-web",
+      "integration_branch": "codex/fable-finish-20261110-doc-web",
+      "state": "landed",
+      "candidate": "1c3f3e31158ec753e057e79839f438d021500214",
+      "verified_remote_main": "1c3f3e31158ec753e057e79839f438d021500214",
+      "verification": "Fresh owner fetch and ancestry check; independent coordinator git ls-remote exact SHA match",
+      "destination": "origin/main",
+      "execution_and_integration_branches_pushed": true,
+      "protected_archive": {
+        "path": "/Users/cam/.codex/archives/doc-web/fable-finish-20261110/attempt087-account-metadata.tar.gz",
+        "bytes": 855,
+        "mode": "0600",
+        "sha256": "f72cac9cfdffc1ac9a6fd0df038d175d989d592f3ab446f8165bc709fe95c5cf",
+        "tracked_index": "docs/evals/evidence/087-fable52/custody-index.json"
+      }
+    }
+  },
+  "conductor": {
+    "candidate_preflight_commit": "d16c0191c74b7848b5211890f1c712fc07fe3f0c",
+    "base": "cff8ea68be0b6de81d81205478aa452d816e55b1",
+    "integration_worktree": "/Users/cam/.codex/worktrees/fable-finish-20261110/conductor",
+    "branch": "codex/fable-finish-20261110-conductor",
+    "state": "prepared_pending_owner_landings",
+    "checks": [
+      "docs-only lint",
+      "methodology graph check",
+      "task JSON parse/accounting",
+      "file links",
+      "credential pattern scan",
+      "scoped diff check"
+    ]
+  },
+  "retention": "All eight evaluation worktrees and seven integration worktrees retained; no cleanup authorized. See owner preflights for original branch/path identities.",
+  "all_owner_remotes_independently_verified": true,
+  "validation_policy": "Focused owner checks and original unchanged-input tests reused; producer/raw identities preserved. Integration changes rechecked. No paid reruns, deployment, default changes or cleanup."
+}
