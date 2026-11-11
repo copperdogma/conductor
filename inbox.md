@@ -1,5 +1,7 @@
 # Inbox
 
+- 2026-11-11: Corrected evaluate-model campaign completion: selected task and pipeline leads continue through bounded qualification to reviewable replacement decisions; independent opportunities survive a failed follow-up. Updated the canonical skill, owner protocol, spec and portfolio handoff rule. Read-only four-scenario forward test passed; this is not live-campaign proof. Cam approved checking in the correction, then pursuing Ember BGI orientation, Echo planning and DocWeb detection. Follow-ups use new capped owner attempts; prior wallets stay closed.
+
 - 2026-10-29: Liquid LFM3 access review closed as deferred by Cam. No local
   execution/downloads or evaluation; disk space is constrained. Reconsider only
   when relevant rankings improve and a usable hosted route exists. Original

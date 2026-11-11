@@ -87,6 +87,18 @@ gates, privacy constraints, and disclosed spend ceilings. A later `yes` selects
 all positive items; an explicit numbered or named subset selects only those
 items.
 
+The selected campaign answers which existing jobs or groups of calls and code
+the candidate should replace. Normally the proposal includes conditional
+qualification and reviewable adoption changes within finite disclosed limits,
+so a promising screen advances without repeated approvals for the same scope.
+Carry each promising task to an adoption-ready replacement, an evidence-backed
+retain/reject decision, or an explicit deferral with a concrete reason. Unresolved
+qualification remains open work; closing one attempt or failing one task does
+not close independent opportunities. Reconcile the whole campaign after each
+follow-up and end evaluation handoffs with the recommendation across all evaluated
+repos. A required new scope/spend decision leaves the campaign waiting, rather
+than silently complete; a screening-only selection remains screening-only.
+
 Selected evaluations run in isolated worktrees under each owning repository's
 instructions, maintained prompts, fixtures, scorers, thresholds, privacy
 rules, artifact conventions, and adoption authority. Conductor is the local

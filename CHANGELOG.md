@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-11 — Carry model evaluations to replacement decisions
+
+- Preserve each promising task through conditional qualification and a concrete
+  adoption, retention or deferral decision, including replacements for groups of
+  calls and code. Prepare qualified changes for review without activating defaults.
+- Reconcile the whole portfolio after each follow-up; a failed task no longer
+  closes independent opportunities. Plan bounded continuation up front.
+- Validate with four independent read-only behavior scenarios and document checks.
+
 ## 2026-11-10 — Gemini 4 Carbon evaluation
 
 - Complete Scout109 across six owning repositories with exact native identity,

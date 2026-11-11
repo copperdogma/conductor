@@ -11,6 +11,8 @@ Before spending tokens, record:
 
 - candidate, exact provider/access path, and maintained incumbent
 - exact runtime stage or product surface that could change
+- replacement boundary: a specific call/job or several calls plus code, the
+  complete outcome that must be preserved, and the minimum proof for adoption
 - maintained prompt, fixtures, scorer/golden, and current winning evidence
 - quality threshold plus latency, cost, reliability, privacy, and safety limits
 - fixture data class and the resulting provider retention/training boundary;
@@ -23,6 +25,13 @@ Before spending tokens, record:
 - task-specific starting effort and conditional calibration plan under
   [thinking-level calibration](thinking-level-calibration.md); read it when
   effort is selectable, and preserve the selected triggers/variant limits
+
+Carry the coordinator's selected progressive scope through to the replacement
+decision. Record which qualification/consumer checks and adoption-patch preparation
+were selected, their triggers and their share of the hard cap. A winning screen
+advances to that authorized proof; do not return only a recommendation for another
+round when the necessary work is already selected. If the request is explicitly
+screening-only, preserve that narrower scope and identify adoption as unresolved.
 
 If no result can change a maintained decision, stop with an evidence-backed
 defer/no-eval result. For multiple candidates, qualify each independently and
@@ -217,6 +226,19 @@ separate detector task when another qualified model retains safety ownership.
 A skipped surface is never a failed surface, and an unrelated blocker must not
 erase an established task-level win.
 
+When the required evidence passes, stop expanding the benchmark and prepare the
+selected replacement for review: validate the actual consumer interface, include
+the bounded adoption patch and activation/rollback instructions, and preserve the
+baseline. For a proposed pipeline collapse, judge the full candidate path against
+the maintained calls plus code, including retained safety checks and total task
+cost/latency. Keep candidate execution opt-in; do not activate defaults or delete
+the maintained path merely to prove it can be replaced. If patch preparation or
+necessary proof is outside selection, return the exact remaining scope instead.
+
+Return every promising task to the coordinator with a replacement decision or
+its specific unfinished action and boundary. A closed attempt/story is not a
+closed portfolio campaign; an arm's failure cannot cancel independent tasks.
+
 ## 6. Classify and Respond to Failures
 
 Identify the failing stage first: subject request, provider/router, adapter,
@@ -305,7 +327,8 @@ the same as finding no useful winner. Then return a compact evidence record with
 9. **Adoption** — adopt, conditional adopt, do not adopt, or defer for the exact
    owner surface
 10. **Evidence limits and next step** — unmeasured surfaces, remaining proof,
-    and the smallest honest follow-up
+    the smallest necessary action, whether it is already authorized, and a
+    reviewable adoption patch when the qualified replacement's scope includes it
 
 An access or transport block normally means `capability: not measured` and
 `adoption: defer`, unless the missing production feature itself makes the model

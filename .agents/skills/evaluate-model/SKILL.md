@@ -1,6 +1,6 @@
 ---
 name: evaluate-model
-description: Verify a current AI model, map its decision-bearing fit across tracked projects, recommend a numbered evaluation shortlist, and after explicit all-or-subset approval run fair provider-native evaluations inside isolated owning-repo worktrees with centrally custodied eval access when needed. Use for new-model, replacement, comparison, rerun, reproducibility, or evidence-audit requests where API access, structured output, reasoning, reliability, cost, latency, privacy, or quality affect adoption. Use scout only for release research with no evaluation decision.
+description: Evaluate a current AI model across tracked projects and carry promising task or pipeline replacements to adoption decisions. Recommend numbered choices, then execute approved provider-native comparisons and conditional qualification in isolated owning-repo worktrees. Use for model replacement, comparison, rerun, reproducibility, or evidence audits; use scout for release research without an evaluation decision.
 user-invocable: true
 ---
 
@@ -13,7 +13,8 @@ Use one skill for the whole campaign:
 3. recommend the evaluations worth running and explain the deferrals
 4. after the user selects all or a subset, enter each owning repo and run its
    evaluation under its own context
-5. synthesize the repo-local verdicts without centralizing their harnesses
+5. carry promising uses through the necessary proof to replacement decisions,
+   preparing qualified adoption changes for review without centralizing harnesses
 
 The public name remains `evaluate-model`. “Remote model” is an access path, not
 the purpose of the workflow.
@@ -22,6 +23,58 @@ Success means a decision Cam can act on: name the winners, explain the tradeoffs
 and recommend where to use each model. Completing calls or listing blockers is
 not sufficient. A repository may use several models for different tasks; a
 candidate need not replace every model-owned call to be a worthwhile adoption.
+
+## Campaign Outcome and Continuity
+
+The question is **what existing work should this model replace?** Consider both
+specific calls/jobs and a larger model replacing several calls plus intervening
+code. A favorable screen is a lead, not SOTA or an adoption result. For a pipeline
+replacement, compare the complete maintained outcome, including lost safeguards,
+total calls, code/maintenance burden, cost and latency; a good intermediate answer
+does not establish that the surrounding stages can be removed.
+
+Keep a compact task-level decision table in the existing campaign scout, linked
+to owner evidence. For each plausible replacement retain the incumbent, candidate
+configuration, replacement boundary, evidence level, current decision, and next
+necessary action with its authorization/budget status. Use this table to choose
+and execute work, not just to format the final report. Distinguish a screening
+lead, a matched task win and a qualified replacement. Preserve both the original
+result and later evidence rather than overwriting the campaign with its last run.
+
+Carry each promising selected use to one of these dispositions:
+
+- **Adoption-ready:** required owner gates and actual consumer path pass, the
+  practical gain warrants the change, and the exact replacement is reviewable.
+  Prepare the bounded adoption patch in the isolated worktree when it is within
+  the approved scope, with validation and activation/rollback instructions.
+  Recommend the switch explicitly; do not silently activate or land it.
+- **Retain/reject:** decision-bearing evidence rules out this replacement or
+  shows insufficient practical value. Name the failed gate or value tradeoff
+  and scope the decision to the tested task/configuration.
+- **Defer:** Cam defers it, a concrete prerequisite prevents a useful decision,
+  or an evidence-backed payoff assessment makes further work unjustified.
+  Name the prerequisite or reason and what would reopen the decision.
+
+“Needs more qualification” is unfinished work, not a final disposition. Neither
+completing six screens nor closing one owner's story closes the adoption campaign.
+A spent/closed attempt ledger does not decide the status of other task leads and
+does not authorize reopening that wallet. A hard boundary can leave the campaign
+**waiting for a specific decision**, with the remaining leads visible; report
+that honestly instead of declaring it complete. Honor an explicitly screening-only
+request: complete that phase and identify adoption work as unselected.
+
+After every follow-up, reconcile the whole table. A failed follow-up revises the
+claim it actually tested; it cannot erase independent wins, nor preserve an
+earlier claim that it directly disproved. Continue the other authorized promising
+uses within their disclosed limits. When further work needs new scope or spend,
+prepare one bounded portfolio proposal for the remaining worthwhile uses rather
+than repeatedly selecting only one repo and losing the others. An explicit
+single-repo selection still limits execution to that repo.
+
+Stop when the selected replacement decisions are settled or a genuine boundary
+requires Cam's decision, not merely when the latest benchmark ends. Do not
+manufacture extra qualification rounds once the owner's adoption requirements
+are satisfied; move to the concrete replacement recommendation and review patch.
 
 ## Invocation Contract
 
@@ -252,6 +305,12 @@ Apply this balanced selection policy:
   cheaper/faster model could win while a stronger model handles other work.
   Test each proposed boundary; failure on one task does not erase a win on an
   independent task. Do not require a repository-wide replacement decision.
+- **Inspect larger replacement boundaries too.** When capability makes it
+  plausible, identify an existing group of calls and code the candidate could
+  replace, preserving the full output and safety contract. Use the owner's
+  whole-task/deletion eval if maintained; otherwise propose the smallest bounded
+  candidate path and end-to-end comparison. Do not force the model into only
+  the old individual-call slots or remove code on component scores alone.
 
 For every matching task omitted, give a concrete task-specific reason. Prioritize
 larger expected gains when resources are constrained, but do not silently turn
@@ -272,6 +331,8 @@ execution handles for the next user message. For each numbered item include:
 
 - owning repo and exact first eval lane
 - incumbent and decision the evidence can support
+- proposed replacement boundary: a specific job/call subset or a group of calls
+  and code; what evidence would make that replacement adoption-ready
 - why this model could change that decision now
 - progressive stop gate and the most important quality/latency/cost threshold
 - starting thinking setting and rationale; any conditional follow-up levels,
@@ -281,10 +342,18 @@ execution handles for the next user message. For each numbered item include:
 - proposed per-repo provider-spend ceiling, normally lower than the US$5
   fallback when the maintained lane can be bounded more tightly
 
-Size that ceiling for the decision-bearing comparison, independent judging and
-bounded operational recovery and any proposed conditional thinking arms. Check
-reservation feasibility before proposing it; do not offer a budget that cannot
-admit the intended cases, then discover this after approval. Distinguish hard user limits from provisional operator estimates
+Normally propose a bounded path from screening through the proof required for
+that replacement decision, including a reviewable adoption patch if it wins.
+Disclose conditional qualification stages, their triggers, independent fixtures,
+consumer validation and finite stopping conditions up front. A successful screen
+then advances within the selection rather than requiring another ceremonial
+approval. If only screening is feasible or requested, label that narrower scope
+and its unresolved adoption question explicitly.
+
+Size that ceiling for this progressive path, independent judging, bounded
+operational recovery and any proposed conditional thinking arms. Check
+reservation feasibility before proposing it; do not offer a budget that cannot admit the intended cases, then discover this
+after approval. Distinguish hard user limits from provisional operator estimates
 and soft screening thresholds. Avoid blanket zero-retry plans for recoverable
 harness/judge faults unless the user explicitly requires them.
 
@@ -335,6 +404,9 @@ The selection authorizes:
   records needed for the proposed lane
 - its disclosed conditional thinking-level calibration, when the predeclared
   evidence trigger is met within the same owner scope and hard ceiling
+- disclosed conditional qualification and preparation of the winning replacement
+  for review, including a default-off candidate path for a proposed pipeline
+  replacement; keep the maintained baseline available for comparison and rollback
 - spend up to each disclosed per-repo ceiling and no more than the disclosed
   selected-campaign total
 - use of the proposal's clearly public or synthetic fixtures under the
@@ -529,7 +601,29 @@ prevents completion, exhaust useful authorized work, prepare the concrete
 recovery, and ask only for the missing decision; do not close with a shrug or a
 list of stops.
 
-### 4. Synthesize without stealing ownership
+### 4. Advance the portfolio to replacement decisions
+
+Reconcile owner returns against the campaign's task table before choosing the
+next action. Run the smallest missing adoption proof for each promising use
+whose conditional stage was selected; passing it advances to the proposed
+replacement, not automatically to another larger benchmark. Independent selected
+uses remain in play after an early stop elsewhere. Work may be prioritized or
+delegated without discarding lower-priority leads.
+
+For a qualified win, make the owner recommendation concrete: exact calls/code
+replaced, retained safeguards, measured full-path benefit, validated consumer
+integration, and a reviewable patch when authorized. Preparing that patch is
+distinct from activating defaults, committing, deploying or landing it. If a
+required integration change was not selected, prepare its concrete scope for
+approval rather than representing the win as rollout-ready.
+
+If an additional proof is genuinely necessary, name which unresolved owner gate
+it settles and why existing evidence cannot settle it. Do authorized work now.
+If new authority is required, present the prepared remaining portfolio choices
+with finite bounds and stop at that boundary. Do not quietly close the campaign,
+reopen a closed wallet, or stretch an earlier screening-only selection.
+
+### 5. Synthesize without stealing ownership
 
 Lead the user-facing report with **what won and what to do**, not the last error
 or a blanket "no adoption." Give a concise task-level comparison table covering
@@ -539,8 +633,7 @@ reason. Name tested thinking settings and whether levels were compared within
 the task; list omitted or unmeasured levels and their decision-specific reasons.
 Scope rejection to the tested arm unless evidence or a hard route/task boundary
 also excludes the alternatives. State sample size, whether the comparison was
-fresh/matched, and the material uncertainty without burying the recommendation.
-Separate subject cost
+fresh/matched, and the material uncertainty without burying the recommendation. Separate subject cost
 from judge/retry overhead and distinguish quality scores from pass rates.
 
 Make a strong, evidence-proportional call: **adopt for this task**, **prioritize
@@ -560,8 +653,8 @@ which stay, the deterministic routing/escalation condition, combined quality,
 latency and cost, and any untested routing risk. A subset must be identifiable
 at runtime, not a post-hoc selection of cases the candidate happened to pass.
 Do not invent a working fallback or routing policy from a model's self-reported
-confidence. Recommend the split when supported; implementing it still requires
-the user's rollout authorization.
+confidence. Prepare the split for review when selected; activating or landing it
+still requires the user's authorization.
 
 Keep the full evidence in each owner's record, linked from the summary:
 
@@ -581,6 +674,12 @@ rewriting the original recommendation as though it predicted the later choice.
 Do not copy private artifacts or duplicate the owning repo's full benchmark
 record. Leave worktrees and changes uncommitted unless the user separately asks
 for closeout or landing.
+
+End every completed evaluation handoff, including a single-owner follow-up, with
+the refreshed **final recommendation across all evaluated repos**: exact uses to
+adopt, retain or reject, and any still-open replacement decisions. If work remains,
+name the campaign as unfinished/waiting and give its concrete next action. “No
+defaults changed” reports an activation fact, not an adoption recommendation.
 
 Also add or update the candidate in
 `docs/model-watch/evaluated-models.md` before final synthesis. Do this after
