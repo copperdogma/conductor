@@ -1,5 +1,11 @@
 # Scout Log
 
+- `2026-11-16` — [Scout 114 — Qwen4-Max evaluation routing](./scout/scout-114-qwen4-max-evaluation-routing.md) — `Skipped by user; no existing access found`
+  Six owners and broader70env-file/credential-metadata check found no native
+  Alibaba key/workspace. Cam declined evaluation without existing access. USD0,
+  zero calls; quality unmeasured, retain incumbents. No provisioning/further run;
+  six clean evidence worktrees retained after local commits; no push or cleanup.
+
 Use this index to track external sources investigated for cross-project value.
 
 - `2026-09-13` — [Scout 070 — DeepSeek V4.1 Flash Evaluation Routing](./scout/scout-070-deepseek-v41-flash-evaluation-routing.md) — Complete: Doc Web crop rejection, Echo Forge and Storybook operational rejections. Retry automation paused. Reported spend $0.004547568; maximum with unreconciled exposure $0.028540368 / $0.90. No defaults changed.
