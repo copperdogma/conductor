@@ -1,5 +1,37 @@
 # Evaluated frontier model ledger
 
+## OpenAI GPT-6.2 Sol — Scout117, 2026-11-17
+
+Canonical `openai/gpt-6.2-sol`, exact native `gpt-6.2-sol`, public aliases
+GPT-6.2 Sol / gpt6.2-sol. Distinct from Sol6.1, Sol6 and Astra6.2. All five
+owners qualified native Standard Responses with existing owner credentials;
+DocWeb original assisted image admission failed separately. Only eligible
+public/authored synthetic fixtures. [Completed campaign/direct owner records](../scout/scout-117-gpt62-sol-evaluation-routing.md#completed-five-owner-follow-through--2026-11-17).
+67generationPOSTs/66valid; knownUSD3.329990520 plus.0262144 held for rejected
+Googlecontrol, maximumexposure3.356204920/58. Initial evaluation changed no defaults.
+Cam subsequently approved full replacement: Doc Web source-table reader landed
+main `4376bb7eb988eb91a6218ba819e5e99c5c113d6b`; no opt-in/model selector,
+initial OCR retained.269focusedtests+dualSDK canonical driver/negative guards
+pass; no addedcalls/spend. [Landed adoption](../scout/scout-117-gpt62-sol-evaluation-routing.md#full-replacement-landed--2026-11-17).
+All5isolatedownerworktrees retained clean and committed; all5main/execution refs
+verified. [Owner publication](../scout/evidence/scout117-owner-landings.json). No copied
+or injected secrets. No within-task effortcalibration; omittedlevels unmeasured.
+
+| Owner/task and tested effort | Decision-bearing evidence | Recommendation and narrow reopening condition |
+|---|---|---|
+| Dossier namesakes medium8192 |2freshpairs6/6meaningsboth, everyemittedrow accepted. Subject.048384vsAstra.248620/32.034vs37.673s;includingblindreviews.185714vs.387820 |**Prioritize separate ownerqualification**,80.54%cheaper/14.97%aggregatefaster boundedtaskwin. Fullmaintainedcohort,namesakerepeats,independenthistories/consumerunselected; newboundedqualification,notunchangedscreenrerun |
+| Dossier fullhistory medium32768 |1freshpair5/5both, no materialerrors. .182648vsSol6.1.177628/36.016vs27.785s |**Retain Sol6.1.**2.83%costlier/29.62%slower atparity. Newindependentvaluedcase or materiallychangedcheckpoint/economics; no unchanged rerun |
+| Storybook persona medium4096 |4freshturns source3/4vsLuna2/4;blind3/4each. BetterFridaycontinuity but unsupported childhood-memory attribution. Matchedmean.000755825vs.000053021/1.532vs1.239s |**Retain Luna.**14.26xcost andsourcehardfailure;full12/independent/streamingunmeasured. Newcheckpoint/source-backedcontract addressingfidelity; no unchanged rerun |
+| Storybook extraction high65536 |LC026Solstructure.807/semantic.920/linkage.741vsOpus.947/.920/.839;LC001.518/.850vs.639/.920. Subject.194652vs.308645,2.05xslower |**Retain Dossierpipeline/Opusresearchreference.**Recall/uncertaintywins preserved;fullstructure/linkagegatesfail. Newcheckpoint/contractaddressingidentityerrors; independentoracle/consumerrequiredbeforeadoption |
+| DocWeb literaltables medium32768 |4freshpairs includingindependent20cells,56/56clear+2/2holdsboth;actualSDK/PDFpixel/driverexport andnegativeholdpass. .061014vsolderAstra.323170/mean4.337vs9.837s |**Adopted normal source reader**,81.12%readercost/55.91%meanlatency reduction. Landed4376bb7;retiredsame-rolechoices. Astra6.2/Argonsuperiorityunmeasured. No unchangedpaidrerun;futurequalificationonlyfornewvaluedcontract |
+| DocWeb handwriting high32768 |1freshBarney.973439vsHydrogen.989201/Gemini3.8.984881;allbelow.99. Sol.0251535/25.336s |**Reject testedOCRarm**,retainreviewedpaths. Alverson/otherlevels unmeasured. Newcheckpoint or source-backed configuration hypothesis addressingliteralnormalization; no unchangedrerun |
+| DocWeb detector high32768 planned |Nativecount400invalid_value,33120>30000patchesoriginalImage011,0inference |**Defer exactroute**,capability/finalcropunmeasured. Demonstratedoriginal-pixeladmission changebeforepaidcomparison; resize/geometrysubstituteinsufficient |
+| BGI orientation low8192 |1anchor270required, candidateholdvsSol6.1wrong90;candidate0wrongautos butmissedrequiredanchor. .001220/2.555svs.003860/12.087s. GooglecontrolAPI_KEY_INVALID |**Retainreviewedworkflow/qualifiedGoogleoption**. Newcheckpoint/source-backedconfigurationaddressingmissedanchors;freshGoogleaccessrestorationonlyreopenscontrol,notunchangedcandidatearm |
+| BGI contours high65536 |1source64rimlost/0backgroundvsSol6.1 1520/713;correcttopology/contact. .016561/13.538svs.0100335/9.674s |**Rejectautomaticreplacement**,substantialboundedqualityleadpreservedbutzero-lossfails. Newcheckpoint or source-backed geometrycontractchangeaddressingrimloss;nounchangedrerun |
+| CineForge frames medium4096 |1freshthreewaycase .6182/.75/.6841vsSol6.1.75/.72/.735vsLuna.7143/.72/.71715;allfailcombinedfloor. .0106285/5.561svs.0099135/6.713sand.000556675/4.805s |**Retain Sol6.1/Luna references**; no substantive sourcelead,remaining5unmeasured. Newvaluedrepresentativescope or checkpoint/config with source-backed payoff; preservelexical/toneuncertainty |
+
+
+
 ## Google Gemini 4 Carbon — Scout109, 2026-11-10
 
 Canonical Google native `gemini-4-carbon`; provider-qualified

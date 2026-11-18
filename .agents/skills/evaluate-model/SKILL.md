@@ -24,6 +24,35 @@ and recommend where to use each model. Completing calls or listing blockers is
 not sufficient. A repository may use several models for different tasks; a
 candidate need not replace every model-owned call to be a worthwhile adoption.
 
+## Replace clear winners; retire superseded paths
+
+A qualified winner should fully replace the incumbent for its proven task.
+Prepare the normal production path to use the winner and remove superseded
+model-specific code, recipes, selectors, flags, fallback branches, dependencies
+and documentation that no longer serve a supported use. Cam should not have to
+manage competing model paths inside a library or program. A manually selected
+alternative is not the adoption outcome.
+
+Keep comparison paths in the evaluation harness or temporary worktree while
+gathering evidence. Before calling the replacement adoption-ready, validate the
+intended default consumer path and retire temporary comparison scaffolding from
+the production patch. Preserve historical evidence and reproducible benchmarks;
+use version control/revert instructions for rollback rather than retaining the
+losing runtime implementation indefinitely. Include this integration and removal
+work in the proposed scope and budget.
+
+Preparing a default-switch and retirement patch in an isolated worktree is
+distinct from activating it in a shared checkout or deployed service. An
+approval boundary means present the concrete replacement patch for approval;
+it does not mean turn the winner into a permanent opt-in. If qualification or
+scope is insufficient, retain the incumbent and name the missing proof instead.
+Parallel runtime alternatives or staged rollout flags require an explicit user
+request; temporary rollout machinery needs a removal condition.
+
+Mixed models remain valid for distinct, justified tasks or qualified automatic
+routing. Fully replace the superseded implementation within each winning role;
+do not add user-facing model choices or keep the loser as an untested fallback.
+
 ## Campaign Outcome and Continuity
 
 The question is **what existing work should this model replace?** Consider both
@@ -45,8 +74,9 @@ Carry each promising selected use to one of these dispositions:
 
 - **Adoption-ready:** required owner gates and actual consumer path pass, the
   practical gain warrants the change, and the exact replacement is reviewable.
-  Prepare the bounded adoption patch in the isolated worktree when it is within
-  the approved scope, with validation and activation/rollback instructions.
+  Prepare the full replacement and retirement patch in the isolated worktree
+  when it is within the approved scope, with validation and activation/revert
+  instructions under the replacement policy above.
   Recommend the switch explicitly; do not silently activate or land it.
 - **Retain/reject:** decision-bearing evidence rules out this replacement or
   shows insufficient practical value. Name the failed gate or value tradeoff
@@ -405,8 +435,9 @@ The selection authorizes:
 - its disclosed conditional thinking-level calibration, when the predeclared
   evidence trigger is met within the same owner scope and hard ceiling
 - disclosed conditional qualification and preparation of the winning replacement
-  for review, including a default-off candidate path for a proposed pipeline
-  replacement; keep the maintained baseline available for comparison and rollback
+  for review, including the default-switch and removal of superseded paths in
+  the isolated patch; keep comparison baselines in the eval harness or version
+  control rather than as permanent production options
 - spend up to each disclosed per-repo ceiling and no more than the disclosed
   selected-campaign total
 - use of the proposal's clearly public or synthetic fixtures under the
@@ -421,8 +452,8 @@ It does **not** authorize:
   retaining a temporary owner copy after the campaign
 - spend above a disclosed ceiling or an unbounded-price call
 - product prompt/golden/scorer changes that require a new preference decision
-- runtime-default changes, rollout, deployment, destructive operations, commit,
-  push, merge, or landing
+- activation of defaults in shared checkouts or deployed services, rollout,
+  deployment, destructive operations, commit, push, merge, or landing
 
 Source-backed deterministic repair of an eval defect may proceed when the
 owning repo's existing contract clearly requires it. Otherwise pause and ask
@@ -611,9 +642,10 @@ uses remain in play after an early stop elsewhere. Work may be prioritized or
 delegated without discarding lower-priority leads.
 
 For a qualified win, make the owner recommendation concrete: exact calls/code
-replaced, retained safeguards, measured full-path benefit, validated consumer
-integration, and a reviewable patch when authorized. Preparing that patch is
-distinct from activating defaults, committing, deploying or landing it. If a
+replaced and retired, retained safeguards, measured full-path benefit, validated
+default consumer integration, and a reviewable replacement patch when authorized.
+Do not stop at an alternate recipe or selector. Preparing that patch is distinct
+from activating shared defaults, committing, deploying or landing it. If a
 required integration change was not selected, prepare its concrete scope for
 approval rather than representing the win as rollout-ready.
 
@@ -649,12 +681,15 @@ it within scope instead of merely recommending another round.
 Explicitly consider mixed-model adoption: "use Luna for crop detection; retain
 the stronger model for independent page-safety decisions" is a valid conclusion
 when both roles and their interface are qualified. State which calls move,
-which stay, the deterministic routing/escalation condition, combined quality,
-latency and cost, and any untested routing risk. A subset must be identifiable
+which stay, the task/call-site boundary or required automatic routing/escalation
+condition, combined quality, latency and cost, and any untested routing risk.
+Do not add routing machinery when existing call sites already separate roles.
+A subset must be identifiable
 at runtime, not a post-hoc selection of cases the candidate happened to pass.
 Do not invent a working fallback or routing policy from a model's self-reported
 confidence. Prepare the split for review when selected; activating or landing it
-still requires the user's authorization.
+still requires the user's authorization. Each winning role uses its qualified
+replacement automatically; this is not permission to accumulate optional paths.
 
 Keep the full evidence in each owner's record, linked from the summary:
 
@@ -716,5 +751,5 @@ adoption as separate verdict layers.
 - Do not treat possession of a central key as authorization to change an
   account privacy/billing setting or weaken an owner's payload policy.
 - Do not evaluate an unselected or unnumbered repo by implication.
-- Do not commit, push, merge, change defaults, deploy, or broaden rollout
-  without separate explicit authorization.
+- Do not commit, push, merge, activate defaults outside the isolated review
+  patch, deploy, or broaden rollout without separate explicit authorization.

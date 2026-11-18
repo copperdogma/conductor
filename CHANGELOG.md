@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-17 — GPT-6.2 Sol evaluation and full replacement policy
+
+- Complete the five-owner Scout117 campaign and land Sol6.2 as Doc Web's normal
+  literal-table source reader, retiring superseded product choices.
+- Require full default-path replacement and retirement patches for qualified
+  evaluation winners; preserve history and use version control for rollback.
+- Record independent scenario validation, owner evidence and spend, checked
+  storage-preservation receipts, and final branch/main publication identities.
+
 ## 2026-11-11 — Carry model evaluations to replacement decisions
 
 - Preserve each promising task through conditional qualification and a concrete

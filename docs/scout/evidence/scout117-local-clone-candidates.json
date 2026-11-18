@@ -1,0 +1,827 @@
+{
+  "candidate_bytes": 706785280,
+  "candidates": [
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/native-evidence-dedup.tar.gz",
+      "bytes": 64316182,
+      "allocated": 64319488
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/078-scout096/native-evidence.tar.gz",
+      "bytes": 56498729,
+      "allocated": 56500224
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/044-reproducibility.tar.gz.part01",
+      "bytes": 50331648,
+      "allocated": 50331648
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/061-mistral4-receipts.tar.gz",
+      "bytes": 31267544,
+      "allocated": 31268864
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/044-reproducibility.tar.gz.part02",
+      "bytes": 26500540,
+      "allocated": 26501120
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/046-reproducibility.tar.gz.part01",
+      "bytes": 22122209,
+      "allocated": 22122496
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/048-safety-repair-receipts.tar.gz",
+      "bytes": 20882549,
+      "allocated": 20885504
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/073-argon-literal-qualification/evidence.tar.gz",
+      "bytes": 19869585,
+      "allocated": 19869696
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/079-scout097/native-evidence.tar.gz",
+      "bytes": 14570357,
+      "allocated": 14573568
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-185-large-family-openai-20261023/dispatch/ledger.jsonl",
+      "bytes": 11127691,
+      "allocated": 11128832
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/071-argon/native-evidence.tar.gz",
+      "bytes": 10737984,
+      "allocated": 10739712
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/063-gemini4-argon-receipts.tar.gz",
+      "bytes": 8002617,
+      "allocated": 8003584
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/068-haiku55-receipts.tar.gz",
+      "bytes": 7905276,
+      "allocated": 7905280
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/078-scout096/recovery-epoch1/native-evidence.tar.gz",
+      "bytes": 7232240,
+      "allocated": 7233536
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/047-thinking-safety-receipts.tar.gz",
+      "bytes": 6395042,
+      "allocated": 6397952
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/runtime-current-default-reeval-20260710/quick-smoke-timeout180-output.txt",
+      "bytes": 6127202,
+      "allocated": 6127616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/runtime-current-default-reeval-20260710/judge-t1-cross-domain-r2-output.txt",
+      "bytes": 5336831,
+      "allocated": 5337088
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-021-000-review.jpg",
+      "bytes": 5011711,
+      "allocated": 5013504
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout092-argon-long-history-20261013/candidate-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4601684,
+      "allocated": 4603904
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-long-history-20261014/control-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4597430,
+      "allocated": 4599808
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout092-argon-long-history-20261013/control-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4589976,
+      "allocated": 4591616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/control-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4591009,
+      "allocated": 4591616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/high-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4588517,
+      "allocated": 4591616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout096-nemotron-long-history-20261016/control-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4590627,
+      "allocated": 4591616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout097-deepseek1017-long-history-20261017/candidate-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4588768,
+      "allocated": 4591616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout097-deepseek1017-long-history-20261017/control-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4590528,
+      "allocated": 4591616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/control-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4590421,
+      "allocated": 4591616
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-long-history-20261014/candidate-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4585827,
+      "allocated": 4587520
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/medium-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4587501,
+      "allocated": 4587520
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/candidate-reviews/long-history-two-families__r1__follow-1.judge/canonical-request.json",
+      "bytes": 4586167,
+      "allocated": 4587520
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-portraits-review.jpg",
+      "bytes": 4505702,
+      "allocated": 4509696
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout092-argon-long-history-20261013/candidate-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4502651,
+      "allocated": 4505600
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-long-history-20261014/control-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4498362,
+      "allocated": 4501504
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout092-argon-long-history-20261013/control-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4491065,
+      "allocated": 4493312
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/control-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4492050,
+      "allocated": 4493312
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/high-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4489704,
+      "allocated": 4493312
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout096-nemotron-long-history-20261016/control-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4491700,
+      "allocated": 4493312
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout097-deepseek1017-long-history-20261017/candidate-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4489937,
+      "allocated": 4493312
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout097-deepseek1017-long-history-20261017/control-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4491583,
+      "allocated": 4493312
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/control-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4491482,
+      "allocated": 4493312
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-long-history-20261014/candidate-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4487222,
+      "allocated": 4489216
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/medium-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4488766,
+      "allocated": 4489216
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/candidate-reviews/long-history-two-families__r1__follow-1.packet.json",
+      "bytes": 4487582,
+      "allocated": 4489216
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout092-argon-long-history-20261013/candidate/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout092-argon-long-history-20261013/control/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-long-history-20261014/candidate/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-long-history-20261014/control/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/control-pre-dispatch-failure/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/control/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/high/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout093-wonder-thinking-20261014/medium/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout096-nemotron-long-history-20261016/candidate-recovery-epoch2/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout096-nemotron-long-history-20261016/candidate-recovery/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout096-nemotron-long-history-20261016/candidate/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout096-nemotron-long-history-20261016/control/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout097-deepseek1017-long-history-20261017/candidate/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout097-deepseek1017-long-history-20261017/control/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/candidate-context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/candidate/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/control-context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/scout099-minimax-long-history-20261020/control/long-history-two-families__r1__follow-1/context.json",
+      "bytes": 4477790,
+      "allocated": 4481024
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-122-000-review.jpg",
+      "bytes": 4406509,
+      "allocated": 4407296
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-021-001-review.jpg",
+      "bytes": 4379556,
+      "allocated": 4382720
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-001-000-review.jpg",
+      "bytes": 4146994,
+      "allocated": 4149248
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/045-sonnet55-reproducibility.tar.gz",
+      "bytes": 3854792,
+      "allocated": 3858432
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/072-argon-levels/native-evidence.tar.gz",
+      "bytes": 3176030,
+      "allocated": 3178496
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/refresh-model-evals-20260304-1400/promotion-adjudicate-20260409-golden-refresh/benchmark.json",
+      "bytes": 3101884,
+      "allocated": 3104768
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-009-000-review.jpg",
+      "bytes": 3049267,
+      "allocated": 3051520
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/gpt54x-adjudicate-cross-domain-20260318/benchmark.json",
+      "bytes": 2912205,
+      "allocated": 2912256
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/refresh-model-evals-20260304-1400/promotion-judge-20260409-golden-refresh/benchmark.json",
+      "bytes": 2767352,
+      "allocated": 2768896
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-018-000-review.jpg",
+      "bytes": 2395797,
+      "allocated": 2396160
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-060-000-review.jpg",
+      "bytes": 2278225,
+      "allocated": 2281472
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-185-benchmark-jev-vs-openai-decisions-20261011/openai-decisions/requests.jsonl",
+      "bytes": 2221396,
+      "allocated": 2224128
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/refresh-model-evals-20260304-1400/promotion-extract-20260409-golden-refresh/benchmark.json",
+      "bytes": 2098637,
+      "allocated": 2101248
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-185-large-family-openai-20261023/openai-decisions-pairwise.json",
+      "bytes": 2095526,
+      "allocated": 2097152
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-185-benchmark-jev-vs-openai-decisions-20261011/jev/requests.jsonl",
+      "bytes": 2075556,
+      "allocated": 2076672
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/073-argon-literal-qualification/source-panel-r1-rejected.tar.gz",
+      "bytes": 1923392,
+      "allocated": 1925120
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-060-001-review.jpg",
+      "bytes": 1832351,
+      "allocated": 1835008
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-big-fish-gpt-20260310/extract/gpt-5.4/big-fish/repeat-01/baseline-graph.json",
+      "bytes": 1811301,
+      "allocated": 1814528
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-big-fish-gpt-20260310/extract/gpt-5.4/big-fish/repeat-01/final-graph.json",
+      "bytes": 1811301,
+      "allocated": 1814528
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-014-000-review.jpg",
+      "bytes": 1791005,
+      "allocated": 1794048
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-big-fish-gpt-20260310/extract/gpt-5.4/big-fish/repeat-01/raw-mentions.json",
+      "bytes": 1757428,
+      "allocated": 1761280
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-038-001-review.jpg",
+      "bytes": 1760470,
+      "allocated": 1761280
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/a-astra-current-reviews/long-history-158k__r1__follow-2.judge/canonical-request.json",
+      "bytes": 1729626,
+      "allocated": 1732608
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/b-astra-history-once-reviews/long-history-158k__r1__follow-2.judge/canonical-request.json",
+      "bytes": 1724549,
+      "allocated": 1728512
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once-reviews-158k/long-history-158k__r1__follow-2.judge/canonical-request.json",
+      "bytes": 1723474,
+      "allocated": 1724416
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/d-sol-current-reviews/long-history-158k__r1__follow-2.judge/canonical-request.json",
+      "bytes": 1723424,
+      "allocated": 1724416
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/a-astra-current-reviews/long-history-158k__r1__follow-1.judge/canonical-request.json",
+      "bytes": 1714455,
+      "allocated": 1716224
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/b-astra-history-once-reviews/long-history-158k__r1__follow-1.judge/canonical-request.json",
+      "bytes": 1713897,
+      "allocated": 1716224
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once-reviews-158k/long-history-158k__r1__follow-1.judge/canonical-request.json",
+      "bytes": 1713872,
+      "allocated": 1716224
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/d-sol-current-reviews/long-history-158k__r1__follow-1.judge/canonical-request.json",
+      "bytes": 1715607,
+      "allocated": 1716224
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/a-astra-current-reviews/long-history-158k__r1__follow-2.packet.json",
+      "bytes": 1676491,
+      "allocated": 1679360
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/b-astra-history-once-reviews/long-history-158k__r1__follow-2.packet.json",
+      "bytes": 1671395,
+      "allocated": 1675264
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once-reviews-158k/long-history-158k__r1__follow-2.packet.json",
+      "bytes": 1670412,
+      "allocated": 1671168
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once-reviews/long-history-158k__r1__follow-2.packet.json",
+      "bytes": 1670412,
+      "allocated": 1671168
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/d-sol-current-reviews/long-history-158k__r1__follow-2.packet.json",
+      "bytes": 1670362,
+      "allocated": 1671168
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/d-sol-current-reviews/long-history-158k__r1__follow-1.packet.json",
+      "bytes": 1663723,
+      "allocated": 1667072
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/a-astra-current-reviews/long-history-158k__r1__follow-1.packet.json",
+      "bytes": 1662687,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/a-astra-current/long-history-158k__r1__follow-2/context.json",
+      "bytes": 1661389,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/b-astra-history-once-reviews/long-history-158k__r1__follow-1.packet.json",
+      "bytes": 1662163,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/b-astra-history-once/long-history-158k__r1__follow-2/context.json",
+      "bytes": 1661389,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once-reviews-158k/long-history-158k__r1__follow-1.packet.json",
+      "bytes": 1662140,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once-reviews/long-history-158k__r1__follow-1.packet.json",
+      "bytes": 1662140,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once/long-history-158k__r1__follow-2/context.json",
+      "bytes": 1661389,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/d-sol-current/long-history-158k__r1__follow-2/context.json",
+      "bytes": 1661389,
+      "allocated": 1662976
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/a-astra-current/long-history-158k__r1__follow-1/context.json",
+      "bytes": 1649611,
+      "allocated": 1650688
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/b-astra-history-once/long-history-158k__r1__follow-1/context.json",
+      "bytes": 1649611,
+      "allocated": 1650688
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/c-sol-history-once/long-history-158k__r1__follow-1/context.json",
+      "bytes": 1649611,
+      "allocated": 1650688
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage1-20261010/d-sol-current/long-history-158k__r1__follow-1/context.json",
+      "bytes": 1649611,
+      "allocated": 1650688
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story180-live/sol-final-regression-reviews/life-history__r1__complete-transcript.judge/canonical-request.json",
+      "bytes": 1583797,
+      "allocated": 1585152
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story180-live/sol-regression-grammar-reviews/life-history__r1__complete-transcript.judge/canonical-request.json",
+      "bytes": 1584171,
+      "allocated": 1585152
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story180-live/sol-final-regression-reviews/life-history__r1__complete-transcript.packet.json",
+      "bytes": 1548006,
+      "allocated": 1548288
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story180-live/sol-regression-grammar-reviews/life-history__r1__complete-transcript.packet.json",
+      "bytes": 1548006,
+      "allocated": 1548288
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-022-000-review.jpg",
+      "bytes": 1546130,
+      "allocated": 1548288
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story180-live/sol-final-regression/life-history__r1__complete-transcript/graph.json",
+      "bytes": 1514132,
+      "allocated": 1515520
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-big-fish-gpt-20260310/extract/gpt-5.4/big-fish/repeat-01/adjudicated-mentions.json",
+      "bytes": 1501127,
+      "allocated": 1503232
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-137-w8-grounded-roster-name-seed-balanced-20260423/extract/gemini-3.1-flash-lite-preview/david-copperfield-windowed/repeat-01/retrieval-memory-seed-mentions.json",
+      "bytes": 1474439,
+      "allocated": 1474560
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-125-000-review.jpg",
+      "bytes": 1455782,
+      "allocated": 1458176
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-184-long-history-stage2-20261010/chapter-life-history-sol/life-history__r1__complete-transcript/graph.json",
+      "bytes": 1407259,
+      "allocated": 1409024
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story180-live/sol-regression/life-history__r1__complete-transcript/graph.json",
+      "bytes": 1400188,
+      "allocated": 1400832
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/gpt61-sol-medium-broader-20260929/life-history/sol-medium/blind-review/life-history__r1__complete-transcript.packet.json",
+      "bytes": 1362829,
+      "allocated": 1363968
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/gpt61-sol-medium-broader-20260929/life-history/sol-medium/run/life-history__r1__complete-transcript/graph.json",
+      "bytes": 1329554,
+      "allocated": 1331200
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/gpt61-sol-broader-20260929/effective-reviews/life-history/astra-medium/life-history__r1__complete-transcript.packet.json",
+      "bytes": 1306198,
+      "allocated": 1306624
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/gpt61-sol-broader-20260929/life-history/astra-medium/blind-review/life-history__r1__complete-transcript.packet.json",
+      "bytes": 1306198,
+      "allocated": 1306624
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-092-000-review.jpg",
+      "bytes": 1274742,
+      "allocated": 1277952
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/gpt61-sol-broader-20260929/life-history/astra-medium/run/life-history__r1__complete-transcript/graph.json",
+      "bytes": 1272733,
+      "allocated": 1273856
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/080-scout099/safety-page-038-000-review.jpg",
+      "bytes": 1264024,
+      "allocated": 1265664
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-marie-20260310/extract/gpt-5.4/marie-louise-laclare-family-history/repeat-01/baseline-graph.json",
+      "bytes": 1190984,
+      "allocated": 1191936
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-marie-20260310/extract/gpt-5.4/marie-louise-laclare-family-history/repeat-01/final-graph.json",
+      "bytes": 1190984,
+      "allocated": 1191936
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-049-span-alignment-20260304-232419/results.json",
+      "bytes": 1162690,
+      "allocated": 1163264
+    },
+    {
+      "owner": "doc-web",
+      "relative": "docs/evals/evidence/story242-crop-safety/offline-driver-proofs.tar.gz",
+      "bytes": 1145217,
+      "allocated": 1146880
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-arthur-20260310/extract/gpt-5.4/arthur-lheureux-family-history/repeat-01/baseline-graph.json",
+      "bytes": 1131690,
+      "allocated": 1134592
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-arthur-20260310/extract/gpt-5.4/arthur-lheureux-family-history/repeat-01/final-graph.json",
+      "bytes": 1131690,
+      "allocated": 1134592
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-arthur-20260310/extract/gemini-3.1-flash-lite-preview/arthur-lheureux-family-history/repeat-01/baseline-graph.json",
+      "bytes": 1064341,
+      "allocated": 1064960
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-061-adjudication1-arthur-20260310/extract/gemini-3.1-flash-lite-preview/arthur-lheureux-family-history/repeat-01/final-graph.json",
+      "bytes": 1064341,
+      "allocated": 1064960
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-136-w8-baseline-20260423/extract/gemini-3.1-flash-lite-preview/david-copperfield-windowed/repeat-01/baseline-graph.json",
+      "bytes": 1052920,
+      "allocated": 1056768
+    },
+    {
+      "owner": "dossier",
+      "relative": "docs/evals/artifacts/story-136-w8-baseline-20260423/extract/gemini-3.1-flash-lite-preview/david-copperfield-windowed/repeat-01/final-graph.json",
+      "bytes": 1052920,
+      "allocated": 1056768
+    }
+  ]
+}

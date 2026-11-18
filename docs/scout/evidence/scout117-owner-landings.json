@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-17 America/Edmonton",
+  "owners": [
+    {
+      "owner": "dossier",
+      "commit": "12d7bfe3bc4b2c1423bf331aa6c52649efb23c5b",
+      "branch": "codex/gpt62-sol-20261117-dossier",
+      "url": "https://github.com/copperdogma/dossier/commit/12d7bfe3bc4b2c1423bf331aa6c52649efb23c5b",
+      "remote_main": "12d7bfe3bc4b2c1423bf331aa6c52649efb23c5b",
+      "remote_execution_branch": "12d7bfe3bc4b2c1423bf331aa6c52649efb23c5b",
+      "verified_by": "root git ls-remote, exact both refs",
+      "worktree": "/Users/cam/.codex/worktrees/gpt62-sol-20261117/dossier",
+      "custody": "retained clean; protected raw artifacts retained as owner manifest records"
+    },
+    {
+      "owner": "storybook",
+      "commit": "9717bcbbc64a943a5f9d6b9b3db7a3eee0007c3f",
+      "branch": "codex/gpt62-sol-20261117-storybook",
+      "url": "https://github.com/copperdogma/storybook/commit/9717bcbbc64a943a5f9d6b9b3db7a3eee0007c3f",
+      "remote_main": "9717bcbbc64a943a5f9d6b9b3db7a3eee0007c3f",
+      "remote_execution_branch": "9717bcbbc64a943a5f9d6b9b3db7a3eee0007c3f",
+      "verified_by": "root git ls-remote, exact both refs",
+      "worktree": "/Users/cam/.codex/worktrees/gpt62-sol-20261117/storybook",
+      "custody": "retained clean; protected raw artifacts retained as owner manifest records"
+    },
+    {
+      "owner": "doc-web",
+      "commit": "4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+      "branch": "codex/gpt62-sol-20261117",
+      "url": "https://github.com/copperdogma/doc-web/commit/4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+      "remote_main": "4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+      "remote_execution_branch": "4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+      "verified_by": "root git ls-remote, exact both refs",
+      "worktree": "/Users/cam/.codex/worktrees/gpt62-sol-20261117/doc-web",
+      "custody": "retained clean; protected raw artifacts retained as owner manifest records"
+    },
+    {
+      "owner": "boardgame-ingester",
+      "commit": "59949493ce8c33575eb141b8279fe5a667ba01da",
+      "branch": "codex/scout117-sol-bgi-20261117",
+      "url": "https://github.com/copperdogma/boardgame-ingester/commit/59949493ce8c33575eb141b8279fe5a667ba01da",
+      "remote_main": "59949493ce8c33575eb141b8279fe5a667ba01da",
+      "remote_execution_branch": "59949493ce8c33575eb141b8279fe5a667ba01da",
+      "verified_by": "root git ls-remote, exact both refs",
+      "worktree": "/Users/cam/.codex/worktrees/gpt62-sol-20261117/boardgame-ingester",
+      "custody": "retained clean; protected raw artifacts retained as owner manifest records"
+    },
+    {
+      "owner": "cine-forge",
+      "commit": "dd3c5ca27193b601bbff4731932ea52f002e8e86",
+      "branch": "codex/gpt62-sol-20261117-cine",
+      "url": "https://github.com/copperdogma/cine-forge/commit/dd3c5ca27193b601bbff4731932ea52f002e8e86",
+      "remote_main": "dd3c5ca27193b601bbff4731932ea52f002e8e86",
+      "remote_execution_branch": "dd3c5ca27193b601bbff4731932ea52f002e8e86",
+      "verified_by": "root git ls-remote, exact both refs",
+      "worktree": "/Users/cam/.codex/worktrees/gpt62-sol-20261117/cine-forge",
+      "custody": "retained clean; protected raw artifacts retained as owner manifest records"
+    }
+  ],
+  "added_provider_calls": 0,
+  "added_usd": 0,
+  "instruction_policy": "qualified winners replace normal task path and retire superseded runtime options; no permanent opt-ins absent explicit request",
+  "conductor_base": "300ba3612c7cee4ba6c2833dcd0b94644a3ffa2d",
+  "conductor_branch": "codex/gpt62-sol-closeout-20261117"
+}

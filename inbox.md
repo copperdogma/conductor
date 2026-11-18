@@ -1,5 +1,7 @@
 # Inbox
 
+- 2026-11-17: Completed GPT-6.2 Sol evaluations across five owners and landed Doc Web's full literal-table reader replacement4376bb7. Cam rejected permanent opt-ins: qualified winners replace the normal task path and retire superseded runtime choices; rollback uses version control. Canonical skill and owner protocol updated; all five owner records committed and pushed, with protected raw custody preserved. [Campaign and checked-in owner evidence](docs/scout/scout-117-gpt62-sol-evaluation-routing.md).
+
 - 2026-11-11: Corrected evaluate-model campaign completion: selected task and pipeline leads continue through bounded qualification to reviewable replacement decisions; independent opportunities survive a failed follow-up. Updated the canonical skill, owner protocol, spec and portfolio handoff rule. Read-only four-scenario forward test passed; this is not live-campaign proof. Cam approved checking in the correction, then pursuing Ember BGI orientation, Echo planning and DocWeb detection. Follow-ups use new capped owner attempts; prior wallets stay closed.
 
 - 2026-10-29: Liquid LFM3 access review closed as deferred by Cam. No local

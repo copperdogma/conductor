@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-17 America/Edmonton",
+  "owner": "Doc Web",
+  "commit": "4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+  "commit_url": "https://github.com/copperdogma/doc-web/commit/4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+  "base": "0a9dc6055e5ebe8e30f1b8ce3549050251bdb1a1",
+  "branch": "codex/gpt62-sol-20261117",
+  "worktree": "/Users/cam/.codex/worktrees/gpt62-sol-20261117/doc-web",
+  "remote_main": "4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+  "remote_execution_branch": "4376bb7eb988eb91a6218ba819e5e99c5c113d6b",
+  "verified_by": "git ls-remote",
+  "validation": "269 focused tests, dual SDK canonical driver cases,15 independent mutation and uncertainty tests, historical guards, manual source/output inspection,9 committed adoption hashes,methodology/diff checks",
+  "added_provider_calls": 0,
+  "added_usd": 0,
+  "primary_checkout": "untouched",
+  "worktree_custody": "retained clean; ignored raw outputs and evidence retained",
+  "scope": "normal literal-table source reader only; other roles retained"
+}

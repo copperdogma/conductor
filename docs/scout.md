@@ -1,5 +1,15 @@
 # Scout Log
 
+- `2026-11-17` — [Scout 117 — GPT-6.2 Sol evaluation routing](./scout/scout-117-gpt62-sol-evaluation-routing.md) — `Complete; Doc Web full table-reader replacement landed4376bb7`
+  Four fresh table pairs passed56/56cells and both holds, independent actual
+  export/negative checks;81.12% lower reader cost/55.91% lower mean latency
+  versus older Astra. Prioritize separate Dossier namesake qualification;
+  retain full-history and other owners' roles. KnownUSD3.329990520 plus.0262144
+  conservative Google reserve/58cap. Doc Web replacement landed after269tests,
+  dualSDK canonicaldriver/negative checks and independent review; no addedpaid
+  calls. All five owner records pushed to main and execution branches, clean trees retained.
+
+
 - `2026-11-10` — [Scout 109 — Gemini 4 Carbon evaluation](./scout/scout-109-gemini4-carbon-evaluation-routing.md) — `Six owner campaigns complete; retain defaults`
   Source-coverage/coherent-workspace draft gains, no qualified automatic switch.
   BGI native cutouts lose/leak more than Sol; Robo finalstateexact/traceincomplete.

@@ -227,13 +227,18 @@ A skipped surface is never a failed surface, and an unrelated blocker must not
 erase an established task-level win.
 
 When the required evidence passes, stop expanding the benchmark and prepare the
-selected replacement for review: validate the actual consumer interface, include
-the bounded adoption patch and activation/rollback instructions, and preserve the
-baseline. For a proposed pipeline collapse, judge the full candidate path against
-the maintained calls plus code, including retained safety checks and total task
-cost/latency. Keep candidate execution opt-in; do not activate defaults or delete
-the maintained path merely to prove it can be replaced. If patch preparation or
-necessary proof is outside selection, return the exact remaining scope instead.
+selected full replacement for review: switch the normal consumer path in the
+isolated patch, validate that path and remove superseded model-specific runtime
+code, recipes, selectors, flags, fallbacks and unused dependencies. Preserve
+output/safety contracts and historical evidence. Keep comparison baselines in
+the eval harness or version control; rollback uses a documented revert, not an
+indefinitely maintained losing runtime path. Do not deliver an opt-in alternative
+as the qualified adoption outcome. For a proposed pipeline collapse, judge the
+full replacement against the maintained calls plus code, including retained
+safety checks and total task cost/latency. Actual activation in shared/deployed
+environments, commits and landing still require authorization. If the necessary
+proof or replacement/removal work is outside selection, return its exact scope
+and retain the incumbent rather than inventing a permanent optional path.
 
 Return every promising task to the coordinator with a replacement decision or
 its specific unfinished action and boundary. A closed attempt/story is not a
@@ -341,4 +346,9 @@ role, and any escalation/fallback cost and failure risk. Judge the combined
 path if routing is required for the proposed win; do not cherry-pick successful
 examples into a subset that cannot be recognized before inference. Recommend
 adoption for a qualified subset even when other calls should stay on the
-incumbent. A recommendation does not authorize changing runtime defaults.
+incumbent. A recommendation does not authorize activating shared or deployed
+runtime defaults.
+Each winning role must replace its superseded runtime implementation; mixed
+models for distinct tasks do not justify manual model-path management. Validate
+automatic routing where required. Parallel alternatives or staged rollout flags
+need an explicit user request and temporary machinery needs a removal condition.
