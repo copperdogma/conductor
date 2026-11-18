@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-17 — Scribe v3 diarization screening
+
+- Record the public AMI comparison and retain Storybook’s Scribe v2: v3 was
+  faster at equal credit cost but did not improve speaker-attributed accuracy.
+- Preserve source/reference limitations, exact-baseline reuse, spending bounds
+  and owner evidence without changing the production transcription provider.
+
 ## 2026-11-17 — Recover valuable shared-checkout work
 
 - Preserve dated model-evaluation and daily source research, with corrected

@@ -1,5 +1,13 @@
 # Inbox
 
+- 2026-11-17: Cam confirmed renewed ElevenLabs credit and selected Scout115's
+  Scribe v3/v2 public diarization screen, then explicitly approved AMI's
+  published human-reviewed references without a fresh listening audit. Screen
+  complete: retain v2, cpWER19.25% versus v3's19.73% despite faster v3. Reused
+  exact same-day baselines;973 new credits, US$0.336 maximum exposure/US$1,
+  actual USD unreported. [Results](docs/scout/scout-115-scribe3-diarization-evaluation-routing.md#completed-public-screening--2026-11-17).
+  Cam accepted retaining v2 and authorized publication; no runtime/default switch.
+
 - 2026-11-17: Completed Microsoft-Decision-1.1 evaluation and independent Dossier qualification. Keep Luna for identity questions, Liquid for Echo playback intent, and Gemini for reviewed asset orientation. [Scout 118](docs/scout/scout-118-microsoft-decision-11-evaluation-routing.md).
 
 - 2026-11-17: Cam requested review/publication of valuable shared-checkout leftovers. Recovered dated model and source research, corrected superseded states, Fly diagnostics/runbook notes, strategic loop-review guidance, and the prior local-only Qwen commit. Retained newer upstream landings; unpublished raw web captures stay in protected local custody with safe receipts. No evaluation, schedule, provider/account or product rollout is authorized by this recovery.

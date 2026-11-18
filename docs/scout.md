@@ -1,5 +1,11 @@
 # Scout Log
 
+- `2026-11-17` — [Scout 115 — Scribe v3 diarization](./scout/scout-115-scribe3-diarization-evaluation-routing.md) — `Screen complete; retain Scribe v2`
+  Three public AMI clips: v3 cpWER19.73% versus v2's19.25%; faster but no
+  required quality gain. Reused same-day exact v2 baselines to avoid repeat fees.
+  973 new credits, US$0.336 reserved maximum/US$1; actual USD unreported.
+  Owner evidence published; worktrees retained, no runtime/default changes.
+
 - `2026-11-17` — [Scout 118 — Microsoft-Decision-1.1](./scout/scout-118-microsoft-decision-11-evaluation-routing.md) — `Complete, retain all three incumbents`
   Dossier's standing win failed independent fixed-threshold qualification.
   Retain Luna for identity questions, the reviewed Gemini orientation job,
@@ -541,7 +547,7 @@ Use this index to track external sources investigated for cross-project value.
 ## Recovered dated research records
 
 - `2026-11-17` — [Scout 116](./scout/scout-116-gpt62-astra-evaluation-routing.md) — Historical table qualification; superseded by Sol117.
-- `2026-11-16` — [Scout 115](./scout/scout-115-scribe3-diarization-evaluation-routing.md) — Proposal only; quota prerequisite unresolved.
+- `2026-11-17` — [Scout 115](./scout/scout-115-scribe3-diarization-evaluation-routing.md) — Public screen complete; retain Scribe v2. See current entry above.
 - `2026-11-17` — [Scout 113](./scout/scout-113-d12-ultra-evaluation-routing.md) — Echo sole-classifier landed; Dossier tested policy rejected.
 - `2026-11-16` — [Scout 112](./scout/scout-112-gemini-decisions-evaluation-routing.md) — BGI isolated orientation job landed; other roles retained.
 - `2026-11-16` — [Scout 111](./scout/scout-111-gemini4-hydrogen-evaluation-routing.md) — Doc Web handwriting option historically landed; other roles retained.

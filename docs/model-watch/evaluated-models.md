@@ -1,5 +1,29 @@
 # Evaluated frontier model ledger
 
+## ElevenLabs Scribe v3 — Scout115, 2026-11-17
+
+Canonical `elevenlabs/scribe_v3`, native `scribe_v3`; distinct
+`scribe_v3_live` untested. Storybook saved-audio batch screen uses direct native
+multipart audio, automatic speaker count, `diarize=true`, default word timing,
+no hints/add-ons or selectable effort. Access/contract qualified. Three public
+human-reviewed-reference AMI clips,3,309 normalized words: v3 cpWER653/3309
+(19.7341%) versus exact-input same-day reused v2 637/3309(19.2505%); macro
+16.5213% versus14.2614%. No >=10% relative quality win; retain Scribe v2.
+V3 mean6.6967s versus12.5463s, same877 decision credits each. Both silence
+controls clean; no private-family/adoption or pure DER claim. No new listening
+audit; long clip dominates76.6% of words. Frozen source/scorer/inputs unchanged.
+
+973 new campaign credits, US$0.336 reserved unknown exposure/US$1; actual USD
+unreported. Reused v2's877 credits belong to the separate original Story201
+campaign; no duplicate decision controls. No runtime/default switch. Owner evidence publication is separately authorized.
+Owner worktree retained for evidence under
+`/Users/cam/.codex/worktrees/scribe3-20261117/storybook`.
+[Campaign](../scout/scout-115-scribe3-diarization-evaluation-routing.md#completed-public-screening--2026-11-17),
+[owner report](https://github.com/copperdogma/storybook/blob/a1829c7914d6a2ef12d82f79a4987c1e0699e569/docs/reports/story201-scribe3-public-screen-20261117.md).
+Retry only for a material checkpoint/route change addressing observed
+speaker-attribution/word losses, a newly maintained representative task/corpus,
+or explicit fresh selection. No unchanged automatic rerun or live expansion.
+
 ## Microsoft-Decision-1.1 — Scout 118, 2026-11-17
 
 Canonical OpenRouter checkpoint `microsoft/microsoft-decision-1.1-20261117`,
