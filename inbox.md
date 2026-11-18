@@ -1,5 +1,7 @@
 # Inbox
 
+- 2026-11-17: Completed Microsoft-Decision-1.1 evaluation and independent Dossier qualification. Keep Luna for identity questions, Liquid for Echo playback intent, and Gemini for reviewed asset orientation. [Scout 118](docs/scout/scout-118-microsoft-decision-11-evaluation-routing.md).
+
 - 2026-11-17: Cam requested review/publication of valuable shared-checkout leftovers. Recovered dated model and source research, corrected superseded states, Fly diagnostics/runbook notes, strategic loop-review guidance, and the prior local-only Qwen commit. Retained newer upstream landings; unpublished raw web captures stay in protected local custody with safe receipts. No evaluation, schedule, provider/account or product rollout is authorized by this recovery.
 
 - 2026-11-16: Cam requested commit-only closeout for skipped Scout114 Qwen4-Max. Six owner evidence commits record cancellation; clean worktrees retained, no push/cleanup or provider calls. Conductor commits only Qwen-specific records and inbox/ledger/scout sections; unrelated edits preserved. [Commit closeout](docs/scout/scout-114-qwen4-max-evaluation-routing.md#commit-only-closeout--2026-11-16).

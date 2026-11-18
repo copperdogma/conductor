@@ -1,5 +1,37 @@
 # Evaluated frontier model ledger
 
+## Microsoft-Decision-1.1 — Scout 118, 2026-11-17
+
+Canonical OpenRouter checkpoint `microsoft/microsoft-decision-1.1-20261117`,
+provider Azure, public alias `microsoft/microsoft-decision-1.1`. Distinct
+from October Decision-1. Native Decisions Choice qualified in all three
+owners, including matched PNG vision in Board Game Ingester. Model and
+comparators used native default computation. All selected payloads were
+authored synthetic or identified public fixtures. Microsoft metered one
+output unit per Choice at zero completion charge. No effort comparison.
+US$0.222433318 known plus US$0.001307400 for two unresolved Luna development
+calls against a US$5.30 ceiling. [Campaign and direct owner evidence](../scout/scout-118-microsoft-decision-11-evaluation-routing.md#owner-results).
+
+| Owner and task | Decision-bearing evidence | Recommendation and reopening condition |
+| --- | --- | --- |
+| Board Game Ingester asset orientation | Both arms returned valid automatic keep on one hard case requiring 90° clockwise. Microsoft 0.579 s and US$0.000021168. Matched Gemini Decision 1 via OpenRouter 1.248 s and US$0.000140100. Remaining cases unmeasured. | Retain reviewed Gemini job and reject the tested Microsoft arm against the absolute gate. Reopen only for a changed checkpoint or source-backed change addressing the wrong automatic keep. |
+| Echo Forge operative intent | 42 matched cases, Microsoft 36/42 versus Liquid 40/42. False controls 1 versus 0, recall 17/19 versus 19/19, ambiguity preservation 0/3 versus 1/3. p95 399 versus 410 ms, subject US$0.000594006 versus US$0.000632436. | Retain Liquid d1.2-ultra. Reopen for a changed checkpoint or source-backed approach to recall and false controls. Independent confirmation untriggered. |
+| Dossier possible identity | 340 held-out pairs times three repeats, useful 17/18 both and false questions 2 versus 10 each repeat. Development-only thresholds 0.80 versus 0.65. Two missing Luna development cells leave both thresholds and ordering invariant across the 121 reachable scenarios. Matched subject US$0.058067982 versus US$0.162517500, median 277 versus 184 ms. | Prioritize independent fixed-threshold qualification, retain the current policy. Microsoft 0.222 false questions per group exceeds the 0.20 reference bar. Reopen with newly authored synthetic sources in separately selected scope. |
+
+**Independent Dossier qualification complete.** Retain Luna and reject the
+tested Microsoft 0.80 policy as its replacement. On each of three repeats
+with 117 fully matched new pairs, Microsoft versus Luna 0.65 found 11 versus
+12 useful ordinary questions and 4 versus 6 useful challenge questions.
+Total false questions were 13 versus 10. Microsoft reached 53.6% precision
+and 0.8125 false questions per chapter against gates of 75% and 0.20.
+720 attempts, 717 valid, and three preserved first-repeat Luna 503s. All
+eight possible outcomes of the missing raises preserve the quality failure.
+Matched cost US$0.004723866 versus US$0.013930500 and median 305 versus
+237 ms. New wallet exposure US$0.020734182 of US$0.50. All owner
+recommendations now retain the incumbents. A future Dossier test needs a
+materially changed checkpoint or a source-backed change to the tested policy,
+with new independent evidence. [Independent qualification](../scout/scout-118-microsoft-decision-11-evaluation-routing.md#independent-result).
+
 ## OpenAI GPT-6.2 Astra — Scout116, 2026-11-17
 
 Historical qualification: its table option landed at0a9dc60 and was superseded

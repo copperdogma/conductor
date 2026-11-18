@@ -1,4 +1,11 @@
 # Scout Log
+
+- `2026-11-17` — [Scout 118 — Microsoft-Decision-1.1](./scout/scout-118-microsoft-decision-11-evaluation-routing.md) — `Complete, retain all three incumbents`
+  Dossier's standing win failed independent fixed-threshold qualification.
+  Retain Luna for identity questions, the reviewed Gemini orientation job,
+  and Echo's Liquid intent classifier. Across both rounds, US$0.241445800
+  known plus US$0.003029100 unresolved.
+
 - `2026-11-16` — [Scout 114 — Qwen4-Max evaluation routing](./scout/scout-114-qwen4-max-evaluation-routing.md) — `Skipped by user; no existing access found`
   Six owners and broader70env-file/credential-metadata check found no native
   Alibaba key/workspace. Cam declined evaluation without existing access. USD0,
