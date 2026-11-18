@@ -11,6 +11,12 @@ map of existing service setups and local access, not a whole-project template.
 | Domains, DNS, verification records | [Cloudflare](services/cloudflare.md) | `copper-dog.com` subdomains |
 | Google identity or Google API authorization | [Google Auth](services/google-auth.md) | Ultima IV identity; Storybook OAuth |
 
+For Fly.io operations, the [Fly runbook](services/fly.md) now covers the official
+MCP/plugin, verified CPU/RAM diagnostics, permission checks, and when to retain
+the owning project's CLI deployment workflow. See the
+[repo/runbook comparison](alignments/align-060-fly-mcp-operations-runbooks.md)
+before proposing changes across projects.
+
 ## Local credentials
 
 The actual copies live at

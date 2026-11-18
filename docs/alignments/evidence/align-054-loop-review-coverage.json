@@ -1,0 +1,156 @@
+{
+  "date": "2026-10-05",
+  "verification": "fresh origin fetch, remote main file/content checks, primary availability; no owner edits",
+  "projects": [
+    {
+      "key": "dossier",
+      "remote_main": "15ac295ea705a9fdd00590b2e5855b34ee05a256",
+      "remote_skill": true,
+      "remote_skill_sha256": "72e7533fdac714fdac34ebcbf3bdeb631df541aa125616fb92b21300b126b577",
+      "primary_skill": false,
+      "commits_missing_from_primary": 147,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "storybook",
+      "remote_main": "fedc582ee5e8a4dfde1244a372ecdd1aa3dd7dbf",
+      "remote_skill": true,
+      "remote_skill_sha256": "163feeac0d415b3c4791171a697f8d47cccf107d1f5c6c4ab77bbef5c58b5b34",
+      "primary_skill": true,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "doc-web",
+      "remote_main": "3bba309f43cde45eaf0140bab45ecb1966176600",
+      "remote_skill": true,
+      "remote_skill_sha256": "72e7533fdac714fdac34ebcbf3bdeb631df541aa125616fb92b21300b126b577",
+      "primary_skill": false,
+      "commits_missing_from_primary": 40,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "cine-forge",
+      "remote_main": "2e148974583e731bedd32e4896b282a94134aeff",
+      "remote_skill": true,
+      "remote_skill_sha256": "d10dd07c0994a6cfb293ec5d8c0365cd2e0aed624e4e71fd2120cd6d80c58419",
+      "primary_skill": true,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "boardgame-ingester",
+      "remote_main": "de0aa162cde09628e9d0ec1354412fb386dc1c12",
+      "remote_skill": true,
+      "remote_skill_sha256": "f33e6856c58ad1ddfc91d0fbf03ea5bfa24c714d3c23b485bc9150e76eb8ffd4",
+      "primary_skill": true,
+      "commits_missing_from_primary": 50,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "roborally",
+      "remote_main": "475ce183a7aece3c7b3badc68875a45cc140d5d9",
+      "remote_skill": true,
+      "remote_skill_sha256": "163feeac0d415b3c4791171a697f8d47cccf107d1f5c6c4ab77bbef5c58b5b34",
+      "primary_skill": false,
+      "commits_missing_from_primary": 5,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "echo-forge",
+      "remote_main": "95b176e11b7760e7ca2472552a418cd5d413ce27",
+      "remote_skill": true,
+      "remote_skill_sha256": "163feeac0d415b3c4791171a697f8d47cccf107d1f5c6c4ab77bbef5c58b5b34",
+      "primary_skill": false,
+      "commits_missing_from_primary": 31,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "ultima-iv-web",
+      "remote_main": "70a0d14e2fb5ca7bfc36e3730e0adc76b616db7b",
+      "remote_skill": true,
+      "remote_skill_sha256": "56e3a482496e2c36b1fff61d6c7dc3ec94a01eb202b657fb8e3a2e0f36b4cdf7",
+      "primary_skill": false,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "financial-hub",
+      "remote_main": "f6f44b5ea467c336a5e469b4fb9174fd1b029a29",
+      "remote_skill": false,
+      "remote_skill_sha256": null,
+      "primary_skill": false,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "intentional manual checkpoint adaptation"
+    },
+    {
+      "key": "financial-monthly-analysis",
+      "remote_main": "dfa19f563a82b6a0d80cb645cf6469cb1e794e63",
+      "remote_skill": false,
+      "remote_skill_sha256": null,
+      "primary_skill": false,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "intentional manual checkpoint adaptation"
+    },
+    {
+      "key": "vlc-thumbs",
+      "remote_main": "476d7ea8fa963f934cdd23751ec3858bbcca522c",
+      "remote_skill": true,
+      "remote_skill_sha256": "73c90c856d7a971e797c0506c79ed2c1173a5f2977bde2c33db3280e700245fb",
+      "primary_skill": true,
+      "commits_missing_from_primary": 3,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "conductor",
+      "remote_main": "f4203aa86062cdd73baa3d0b461f8ccb8bdd1386",
+      "remote_skill": true,
+      "remote_skill_sha256": "7a06504e656bc71dab3a04ae0e1e35d73816c4b506709986adc8caec14788d0d",
+      "primary_skill": true,
+      "commits_missing_from_primary": 35,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "ravenloft-cthulhu",
+      "remote_main": "f5138b0bf3c7b5f1bbd224fed9ee43343278d162",
+      "remote_skill": true,
+      "remote_skill_sha256": "08fb352dc27e96d81706a1233a0a0de4d8aafcfb5b9e3d3cf572fceced688729",
+      "primary_skill": false,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "rpg-map-projector",
+      "remote_main": "fc90ecbef62f27799dc1c38021596201952869c5",
+      "remote_skill": true,
+      "remote_skill_sha256": "544c8ec6db8aa6d63e3324faf1fcc4b118a461c65ceda0dc95cdefcb76c0da9c",
+      "primary_skill": false,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    },
+    {
+      "key": "canmore-town-council",
+      "remote_main": "e6bf3784f47e35a329de86a007e64a02f3b21a73",
+      "remote_skill": true,
+      "remote_skill_sha256": "544c8ec6db8aa6d63e3324faf1fcc4b118a461c65ceda0dc95cdefcb76c0da9c",
+      "primary_skill": false,
+      "commits_missing_from_primary": 1,
+      "instruction_checks": "passed",
+      "disposition": "already installed"
+    }
+  ]
+}
