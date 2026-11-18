@@ -1,0 +1,772 @@
+{
+  "campaign": "scout111-hydrogen-20261115",
+  "state": "complete; all six selected owner decisions settled",
+  "authorization": "User Yes to all six Stage1 numbered recommendations",
+  "cap_usd": 52,
+  "started_utc": "2026-11-16T05:57:14.760378+00:00",
+  "owners": [
+    {
+      "repo": "storybook",
+      "cap_usd": 10,
+      "worker": "hydrogen_storybook",
+      "worktree": "/Users/cam/.codex/worktrees/hydrogen-20261115/storybook",
+      "state": "decision-complete",
+      "known_usd": 1.55679235,
+      "unknown_reserved_usd": 0,
+      "credentials": "existing owner-native access; no injected key",
+      "branch": "codex/hydrogen-20261115-storybook",
+      "base": "11ec86d864d02a273722fd3f20265cf9216ce453",
+      "retention": "retain uncommitted owner evidence and review patches; cleanup not selected",
+      "photo": "Hydrogen medium16384 FS0019/9 vs FlashLite7/9;6.505s/.0117825 violates5s/.001 gates; cold input alone.0026325 rules out effort-only economic rescue",
+      "extraction_lead": {
+        "case": "LC026",
+        "candidate": "high65536",
+        "structural": 0.936508,
+        "semantic": 0.95,
+        "linkage": 0.913793,
+        "seconds": 55.704,
+        "usd": 0.100992,
+        "control_linkage": 0.785714,
+        "root_review": "Closer-since-birth and weekendvisits present in event/claimdetail; retracted premature omissionfinding; bothroots/wingsjudgments retained. Unsupported eventtones remain. Other3matchedcases proceed; no adoptionyet."
+      },
+      "inference_calls": 40,
+      "decision": "Retain Luna/FlashLite/Opus completejob; preserve Hydrogen LC026 linkage and FS001 photo quality wins, no qualifiedswitch",
+      "attempt": "/Users/cam/.codex/worktrees/hydrogen-20261115/storybook/docs/evals/attempts/201-hydrogen-persona-photo-extraction.md",
+      "summary": "/Users/cam/.codex/worktrees/hydrogen-20261115/storybook/docs/evals/artifacts/hydrogen-20261115/summary.json",
+      "manifest": "/Users/cam/.codex/worktrees/hydrogen-20261115/storybook/docs/evals/artifacts/hydrogen-20261115/manifest.json",
+      "metrics": {
+        "persona": {
+          "candidate": "low8192",
+          "rubricPass": 2,
+          "measuredTurns": 2,
+          "controlRubricPass": 2,
+          "sourceSystemFail": "Case0 uses exact banned It sounds like; stop before other10turns. Original rubrics pass2/2 preserved.",
+          "candidateMeanMs": 3174.5,
+          "controlMeanMs": 2351.5,
+          "candidateSubjectUsd": 0.0128415,
+          "controlSubjectUsd": 0.00036645,
+          "recommendation": "retain Luna; reject tested Hydrogen persona configuration"
+        },
+        "photo": {
+          "candidate": "medium16384",
+          "fixture": "FS001",
+          "candidateChecks": "9/9",
+          "controlChecks": "7/9",
+          "candidateMs": 6505,
+          "controlMs": 1734,
+          "candidateSubjectUsd": 0.0117825,
+          "controlSubjectUsd": 0.0001854,
+          "inputTokens": 1755,
+          "inputCostFloorUsd": 0.0026325,
+          "maxCostUsd": 0.001,
+          "maxMs": 5000,
+          "recommendation": "Preserve source-safe quality lead; retain FlashLite because input-only price floor and observed latency fail operational gates. No useful lower effort can clear input floor. FS006 unmeasured."
+        },
+        "extraction": {
+          "candidate": "high65536",
+          "control": "Opus4.7 max12000/16000 LC027",
+          "cases": [
+            {
+              "fixture": "LC-026-two-sarahs",
+              "candidate": {
+                "structural": 0.9365079365079365,
+                "semantic": 0.9499999999999998,
+                "linkage": 0.9137931034482758,
+                "originalGatePass": true,
+                "latencyMs": 55704,
+                "subjectUsd": 0.100992,
+                "rowCounts": {
+                  "persons": 7,
+                  "organizations": 4,
+                  "locations": 8,
+                  "events": 5,
+                  "stories": 2,
+                  "eras": 3,
+                  "claims": 24,
+                  "relationships": 37,
+                  "mentions": 22,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-candidate-LC-026-two-sarahs.parsed.json"
+              },
+              "opus": {
+                "structural": 0.921479613282892,
+                "semantic": 0.92,
+                "linkage": 0.7857142857142858,
+                "originalGatePass": false,
+                "latencyMs": 69101,
+                "subjectUsd": 0.219925,
+                "rowCounts": {
+                  "persons": 7,
+                  "organizations": 4,
+                  "locations": 8,
+                  "events": 5,
+                  "stories": 1,
+                  "eras": 0,
+                  "claims": 21,
+                  "relationships": 37,
+                  "mentions": 22,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-opus-LC-026-two-sarahs.parsed.json"
+              }
+            },
+            {
+              "fixture": "LC-001-childhood-summer-lake",
+              "candidate": {
+                "structural": 0.7783197831978319,
+                "semantic": 0.9499999999999998,
+                "linkage": null,
+                "originalGatePass": false,
+                "latencyMs": 21646,
+                "subjectUsd": 0.0417195,
+                "rowCounts": {
+                  "persons": 7,
+                  "organizations": 1,
+                  "locations": 3,
+                  "events": 5,
+                  "stories": 1,
+                  "eras": 1,
+                  "claims": 12,
+                  "relationships": 17,
+                  "mentions": 10,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-candidate-LC-001-childhood-summer-lake.parsed.json"
+              },
+              "opus": {
+                "structural": 0.6314009661835749,
+                "semantic": 0.92,
+                "linkage": null,
+                "originalGatePass": false,
+                "latencyMs": 33375,
+                "subjectUsd": 0.09892,
+                "rowCounts": {
+                  "persons": 7,
+                  "organizations": 1,
+                  "locations": 3,
+                  "events": 5,
+                  "stories": 1,
+                  "eras": 1,
+                  "claims": 8,
+                  "relationships": 12,
+                  "mentions": 10,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-opus-LC-001-childhood-summer-lake.parsed.json"
+              }
+            },
+            {
+              "fixture": "LC-016-rambling-afternoon",
+              "candidate": {
+                "structural": 0.6852631578947369,
+                "semantic": 0.9499999999999998,
+                "linkage": null,
+                "originalGatePass": false,
+                "latencyMs": 42737,
+                "subjectUsd": 0.0766965,
+                "rowCounts": {
+                  "persons": 10,
+                  "organizations": 5,
+                  "locations": 10,
+                  "events": 11,
+                  "stories": 5,
+                  "eras": 3,
+                  "claims": 26,
+                  "relationships": 27,
+                  "mentions": 26,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-candidate-LC-016-rambling-afternoon.parsed.json"
+              },
+              "opus": {
+                "structural": 0.7120384624274785,
+                "semantic": 0.92,
+                "linkage": null,
+                "originalGatePass": false,
+                "latencyMs": 63254,
+                "subjectUsd": 0.184715,
+                "rowCounts": {
+                  "persons": 9,
+                  "organizations": 5,
+                  "locations": 8,
+                  "events": 8,
+                  "stories": 4,
+                  "eras": 1,
+                  "claims": 23,
+                  "relationships": 16,
+                  "mentions": 20,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-opus-LC-016-rambling-afternoon.parsed.json"
+              }
+            },
+            {
+              "fixture": "LC-027-extended-session",
+              "candidate": {
+                "structural": 0.586038961038961,
+                "semantic": 0.92,
+                "linkage": null,
+                "originalGatePass": false,
+                "latencyMs": 70478,
+                "subjectUsd": 0.1266315,
+                "rowCounts": {
+                  "persons": 15,
+                  "organizations": 7,
+                  "locations": 21,
+                  "events": 17,
+                  "stories": 5,
+                  "eras": 5,
+                  "claims": 47,
+                  "relationships": 47,
+                  "mentions": 42,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-candidate-LC-027-extended-session.parsed.json"
+              },
+              "opus": {
+                "structural": 0.6085968509337767,
+                "semantic": 0.92,
+                "linkage": null,
+                "originalGatePass": false,
+                "latencyMs": 112392,
+                "subjectUsd": 0.33444,
+                "rowCounts": {
+                  "persons": 15,
+                  "organizations": 7,
+                  "locations": 20,
+                  "events": 17,
+                  "stories": 5,
+                  "eras": 5,
+                  "claims": 43,
+                  "relationships": 25,
+                  "mentions": 36,
+                  "unresolved_identities": 0
+                },
+                "parsedPath": "docs/evals/artifacts/hydrogen-20261115/extraction-opus-LC-027-extended-session.parsed.json"
+              }
+            }
+          ],
+          "candidateOriginalPasses": 1,
+          "controlOriginalPasses": 0,
+          "candidateMeanMs": 47641.25,
+          "controlMeanMs": 69530.5,
+          "candidateSubjectTotalUsd": 0.3460395,
+          "controlSubjectTotalUsd": 0.838,
+          "recommendation": "Hydrogen wins bounded LC026 linkage/coverage/economics comparison; retain complete extraction job and stages due3/4original gates plus genuine source certainty defects. No C2-only runtime consumer established, no posthoc goodcase routing."
+        }
+      },
+      "root_verification": {
+        "manifest_artifacts": 210,
+        "protected_originals": 7,
+        "source_review": "FullLC026source/system/bothoutputs reviewed; field-distributed details present, prematureomissionfindingretracted. Unsupportedtones and othercertainty failures preserved."
+      },
+      "owner": "hydrogen_storybook"
+    },
+    {
+      "repo": "doc-web",
+      "cap_usd": 18,
+      "worker": "hydrogen_docweb",
+      "worktree": "/Users/cam/.codex/worktrees/hydrogen-20261115/doc-web",
+      "state": "decision-complete",
+      "known_usd": 0.26981349999999993,
+      "unknown_reserved_usd": 0.31476,
+      "credentials": "existing owner-native access; no injected key",
+      "branch": "codex/hydrogen-20261115-doc-web",
+      "base": "c65346e4be7d757fa1130cb23fd8efc2fa41a191",
+      "retention": "Retained on pushed taskbranch: trackedtreeclean, committedreviewpatch/evidence, ignoredprotectednativearchive retained; no worktreecleanupauthorized",
+      "safety": "Native HIGH32768 genuine S3 caller confidentlyPASS violatesmandatoryhold; stop safety only, full22/S4unmeasured; fresh currentSol control pending; other tasks continue",
+      "handwriting": "Two realLOC sources H.990641/.991716 vs freshGemini.985632/.984090; explicitnativeHIGH32768optin client+recipes, both actualSDK networkdeniedenvelopereplays exactraw/stampedHTML; no defaults",
+      "detector": "Actualfinalassisted page12 fourcrops lose740 fixedROI sourcepixels and containprintedministercaptions; source-critical fail, stopdetectorfull13; originalbareboxscoresseparate",
+      "root_verification": {
+        "handwriting_sources": "Both originalLOCimages plusfullraw/stampedHTML viewed; imperfectunder.99tolerance, no proveninventedword override",
+        "final_detector": "Viewed actualpage012002crop: printedministercaption, clippedrightsignature/underline andbottomneighbor fragment; matchesnativefinalsourcefail",
+        "original_artifacts": 322,
+        "archive_members": 322,
+        "archive_bytes": 32829908,
+        "code_epoch": "allhashes pass",
+        "optin_review": "normal exactmodelrecipes/client+thinking/cachebilling/sourceHTMLreplay read; no defaults"
+      },
+      "inference_calls": 14,
+      "accounting_correction": "Initial404 original fullcallerreservation .31476, earlier root/ownerprovisional .15596 corrected beforecloseout; no newcall/spend",
+      "decision": "decision-complete; default-off reviewed handwriting job recommended, other tested uses rejected",
+      "summary": "/Users/cam/.codex/worktrees/hydrogen-20261115/doc-web/docs/evals/evidence/094-hydrogen/summary.json",
+      "manifest": "/Users/cam/.codex/worktrees/hydrogen-20261115/doc-web/docs/evals/evidence/094-hydrogen/manifest.json",
+      "attempt": "/Users/cam/.codex/worktrees/hydrogen-20261115/doc-web/docs/evals/attempts/094-hydrogen-source-fidelity.md",
+      "review_patch_runbook": "/Users/cam/.codex/worktrees/hydrogen-20261115/doc-web/docs/runbooks/hydrogen-handwriting-ocr.md",
+      "metrics": {
+        "safety": {
+          "decision": "retain Sol/manual holds; reject tested Hydrogen uncertainty policy",
+          "fresh_matched": "S3 genuine driver proposer both0/1 requiredhold, plausible physical grouping; no downstream operator action",
+          "quality": "candidate PASS and controlPASS; expected mandatoryfail hold",
+          "candidate_usd": 0.006573,
+          "candidate_ms": 11501,
+          "control_usd": 0.006625,
+          "control_ms": 4376,
+          "unmeasured": "S4/six/full22/heldout due declared stop"
+        },
+        "literal": {
+          "decision": "retain Astra, reject tested Hydrogen reader",
+          "quality": "22/23 vs23/23 clearcells; structurepass both; source Il1-O0->Il1-00 with no hold",
+          "candidate_usd": 0.0198315,
+          "candidate_ms": 13827,
+          "control_usd": 0.0801175,
+          "control_ms": 7792,
+          "unmeasured": "other2tables after clearcellstop"
+        },
+        "detector": {
+          "decision": "retain current detector/manual holds; reject tested assisted path",
+          "bare_image011": "tolerant .960 vs .9752; fixedXYXY candidate10darkpixels lost; control axisambiguity explicitly notqualified",
+          "actualconsumer": "native strict currentprompt+genuinecaption+Paddle cleanup final4page12crops;740integralsignature endpointdarkpixelslost, printedcaptioncontamination",
+          "source_review": "docs/evals/evidence/094-hydrogen/final-crop-source-review.json",
+          "unmeasured": "full13, Image001title, heldout after finalhardgatefailure"
+        },
+        "ocr": {
+          "decision": "prefer HydrogenHIGH32768 for bounded reviewed public historicalhandwriting job; optinpatch ready for review, defaultsretained",
+          "fresh_matched_cases": 2,
+          "candidate_ratios": [
+            0.990641,
+            0.991716
+          ],
+          "control_ratios": [
+            0.985632,
+            0.98409
+          ],
+          "candidate_usd": [
+            0.0639975,
+            0.0251835
+          ],
+          "control_usd": [
+            0.011088,
+            0.0062685
+          ],
+          "candidate_ms": [
+            39627,
+            18900
+          ],
+          "control_ms": [
+            21408,
+            10472
+          ],
+          "gate": ">=.99 similarity, source uncertainty preserved; not exacttranscription",
+          "consumer": "normal exactHydrogen recipe and actualSDK networkdenied original-native-envelope replay BOTH raw/stampedHTML exact; no evallabel substitution",
+          "review_patch": [
+            "modules/common/google_client.py",
+            "configs/recipes/hydrogen-ocr-candidate-barney.yaml",
+            "configs/recipes/hydrogen-ocr-candidate-alverson.yaml",
+            "configs/pricing.default.yaml",
+            "docs/runbooks/hydrogen-handwriting-ocr.md"
+          ],
+          "limits": "two publicLOC sources only, imperfections/ambiguousnames remain, highercost/latency; no private or wholebook/default claim"
+        }
+      },
+      "owner": "hydrogen_docweb",
+      "landing": {
+        "commit": "56564d95cd2cf9ce498aaaca84537a64b1e89f31",
+        "remote": "https://github.com/copperdogma/doc-web.git",
+        "branch": "main",
+        "task_branch": "codex/hydrogen-20261115-doc-web",
+        "remote_refs_verified": true,
+        "authorization": "User Yes to checkin/push DocWeb opt-inOCRpatch and evaluationevidence only",
+        "validation": "23focusedtests pass; scopedRuff/methodology/identity/stagedprivacy checks; originalnativeSDKreplay reused against unchangedcode/recipehashes;4visibleHTMLprojectionsadded",
+        "provider_calls": 0,
+        "defaults_changed": false,
+        "primary_checkout": "Preserved original3a7efec9216c7d784700e464a98fc6de9b8a2e02; clean",
+        "scope": "Doc Web only; no Conductor or other owner repo landing"
+      }
+    },
+    {
+      "repo": "boardgame-ingester",
+      "cap_usd": 8,
+      "worker": "hydrogen_bgi",
+      "worktree": "/Users/cam/.codex/worktrees/hydrogen-20261115/boardgame-ingester",
+      "state": "decision-complete",
+      "known_usd": 0.1130515,
+      "unknown_reserved_usd": 0,
+      "credentials": "Explicitly authorized temporary Storybook-source GEMINI_API_KEY; removed and fileabsence verified",
+      "branch": "codex/hydrogen-20261115-boardgame-ingester",
+      "base": "07a36dbae5a79f9ce5b2936a8d8987ea3c0b7412",
+      "retention": "retain uncommitted owner evidence and review patches; cleanup not selected",
+      "inference_calls": 24,
+      "attempt": "/Users/cam/.codex/worktrees/hydrogen-20261115/boardgame-ingester/docs/evals/attempts/20261115-scout111-hydrogen.md",
+      "readiness": "34 frozen payloads,40 original source/truth archive members,21 native/contour tests pass; conservative orientation1.57392/2 andcontour5.70052/6; no pending subprocess",
+      "manifest": "/Users/cam/.codex/worktrees/hydrogen-20261115/boardgame-ingester/benchmarks/results/scout111-hydrogen-20261115/artifact-manifest.json",
+      "root_verification": {
+        "artifact_hashes": 177,
+        "protected_access_receipt": "pointer exists; no inference",
+        "contour_planes": "Independent fullnative PIL/numpy comparison exactH5628loss/0leak/5592rim,Sol1530loss/713leak/1530rim; originalcandidatefailurepreserved",
+        "orientation_source": "Root independentlyviewedpub002sidewaysF; saferabstentionvswrongauto, correct270coverage remainsmiss; no workfloweffortsavingsmeasured",
+        "protected_originals": 61,
+        "protected_mode": "all0600",
+        "key_copy": "absentverified"
+      },
+      "owner": "hydrogen_bgi_resume",
+      "temporary_key_env": "/Users/cam/.codex/worktrees/hydrogen-20261115/boardgame-ingester/.env.hydrogen-eval",
+      "temporary_key_variable": "GEMINI_API_KEY",
+      "resume_worker": "hydrogen_bgi_resume",
+      "preliminary_orientation": "pub001correctboth;pub002Hydrogensafeabstain/coverage miss whileSolwrongautomatic0, truth270; preserve safetyvscoverage tradeoff",
+      "temporary_key_cleanup": "GEMINI_API_KEYremoved viahelper; emptytask-createdenvremoved; fileabsenceverified",
+      "decision": "bounded optional reviewed orientation comparison configuration only; no joint-intake/default switch; contours reject",
+      "summary": "/Users/cam/.codex/worktrees/hydrogen-20261115/boardgame-ingester/benchmarks/results/scout111-hydrogen-20261115/owner-verdict.json",
+      "metrics": {
+        "orientation": {
+          "decision": "prefer Hydrogen as bounded optional reviewed isolated-asset orientation proposal configuration when fewer wrong automatic rotations and lower latency justify extra holds/higher API cost; retain joint intake/defaults",
+          "arms": [
+            {
+              "arm": "hydrogen",
+              "valid": 11,
+              "full_case_passes": 9,
+              "wrong_automatic_angles": 0,
+              "mandatory_holds_pass": 2,
+              "safe_abstentions": 2,
+              "cost_usd": 0.052754999999999996,
+              "mean_seconds": 3.1648743333635965,
+              "confirmation_cases_passed": 2
+            },
+            {
+              "arm": "sol",
+              "valid": 11,
+              "full_case_passes": 10,
+              "wrong_automatic_angles": 1,
+              "mandatory_holds_pass": 2,
+              "safe_abstentions": 0,
+              "cost_usd": 0.029178,
+              "mean_seconds": 7.787914253727257,
+              "confirmation_cases_passed": 2
+            }
+          ],
+          "native_execution": "22 materializations through unchanged orientation_decision_subject +independent ImageMagick pixels/dimensions/inverse verification passed",
+          "correct_automatic": {
+            "hydrogen": 7,
+            "sol": 8
+          },
+          "wrong_automatic": {
+            "hydrogen": 0,
+            "sol": 1
+          },
+          "required_holds": {
+            "hydrogen": "2/2",
+            "sol": "2/2"
+          },
+          "optional_abstentions": {
+            "hydrogen": [
+              "pub-002",
+              "pub-012"
+            ],
+            "sol": []
+          },
+          "confirmation": "pub005/img005 prospectively reserved before inference, bothmodels2/2; no retuning",
+          "consumer_boundary": "actual unchanged isolated-asset recorded-decision executor, not jointcrop/orientation ingest model_proposals, private scans or full-game automation",
+          "held_roles": "sourcehash/crop/pixels/rotation execution and upstreamholds remain deterministic; confidence not fallback routing"
+        },
+        "contour": {
+          "decision": "reject tested HIGH65536 for unattended source-preserving cutouts; retain Sol/manual review; both fail pristine source gate",
+          "cases": 1,
+          "arms": {
+            "hydrogen": {
+              "arm": "hydrogen",
+              "source_id": "source-001",
+              "configuration": "native strict frozen owner schema/source; explicit task setting",
+              "native_rasterizer": "benchmarks/subjects/sol_contour_geometry.py unchanged",
+              "metrics_scope": "direct complete frozen plane arithmetic matching maintained scorer definitions; strict transport recorded in receipt",
+              "components_predicted": 2,
+              "components_expected": 2,
+              "missing_material_pixels": 5628,
+              "definite_background_leak_pixels": 0,
+              "rim_loss_pixels": 5592,
+              "material_outside_crop_envelopes": 3954,
+              "cost_usd": 0.0208425,
+              "latency_seconds": 14.478707665999991,
+              "strict_dense_quality": false,
+              "maintained_scorer": {
+                "status": "fail",
+                "failures": [
+                  "visible_foreground_crop_loss",
+                  "visible_material_alpha_loss"
+                ],
+                "crop_retention_status": "fail",
+                "mask_quality_status": "fail",
+                "route_status": "not_applicable",
+                "source_contact_claim_status": "pass",
+                "crop_count": 2,
+                "expected_count": 2,
+                "matched_crop_union_pixels": 520052,
+                "known_material_fraction_of_matched_crop_union": 0.9176543884073131,
+                "rectangular_crop_exterior_pixels": 42824,
+                "tightness_scope": "diagnostic_material_fraction; rectangular_corner_background_allowed; no_unmeasured_threshold",
+                "material_pixels": 481182,
+                "foreground_pixels_outside_matched_crops": 3954,
+                "material_pixels_with_alpha_loss": 5628,
+                "definite_background_pixels_with_alpha": 0,
+                "mask_scope": "receipt_bound_ai_contour_prediction",
+                "retention_gate": "all_known_visible_material_pixels",
+                "physical_extent": "authored_visible_complete_reference"
+              },
+              "topology_receipt": {
+                "predicted_components": 2,
+                "predicted_holes": 0,
+                "all_predicted_components_single_connected": true,
+                "holes_strict_interior": true,
+                "source_contact_truth": {
+                  "present": false,
+                  "unknown_extent": false,
+                  "contacts": []
+                },
+                "positive_source_contact_coverage": false,
+                "geometry_validator": "unchanged sol_contour_geometry.render rejects overlaps/selfintersection/disconnected material/invalid hole contact"
+              },
+              "provenance_verification": "adapter raw/request/source/decision/mask verifier, exact crop replay by unchanged maintained scorer; strict schema qualification recorded separately in receipt"
+            },
+            "sol": {
+              "arm": "sol",
+              "source_id": "source-001",
+              "configuration": "native strict frozen owner schema/source; explicit task setting",
+              "native_rasterizer": "benchmarks/subjects/sol_contour_geometry.py unchanged",
+              "metrics_scope": "direct complete frozen plane arithmetic matching maintained scorer definitions; strict transport recorded in receipt",
+              "components_predicted": 2,
+              "components_expected": 2,
+              "missing_material_pixels": 1530,
+              "definite_background_leak_pixels": 713,
+              "rim_loss_pixels": 1530,
+              "material_outside_crop_envelopes": 687,
+              "cost_usd": 0.010276,
+              "latency_seconds": 11.430710082999894,
+              "strict_dense_quality": false,
+              "maintained_scorer": {
+                "status": "fail",
+                "failures": [
+                  "definite_exterior_mask_leakage",
+                  "visible_foreground_crop_loss",
+                  "visible_material_alpha_loss"
+                ],
+                "crop_retention_status": "fail",
+                "mask_quality_status": "fail",
+                "route_status": "not_applicable",
+                "source_contact_claim_status": "pass",
+                "crop_count": 2,
+                "expected_count": 2,
+                "matched_crop_union_pixels": 525791,
+                "known_material_fraction_of_matched_crop_union": 0.9138517015315971,
+                "rectangular_crop_exterior_pixels": 45296,
+                "tightness_scope": "diagnostic_material_fraction; rectangular_corner_background_allowed; no_unmeasured_threshold",
+                "material_pixels": 481182,
+                "foreground_pixels_outside_matched_crops": 687,
+                "material_pixels_with_alpha_loss": 1530,
+                "definite_background_pixels_with_alpha": 713,
+                "mask_scope": "receipt_bound_ai_contour_prediction",
+                "retention_gate": "all_known_visible_material_pixels",
+                "physical_extent": "authored_visible_complete_reference"
+              },
+              "topology_receipt": {
+                "predicted_components": 2,
+                "predicted_holes": 0,
+                "all_predicted_components_single_connected": true,
+                "holes_strict_interior": true,
+                "source_contact_truth": {
+                  "present": false,
+                  "unknown_extent": false,
+                  "contacts": []
+                },
+                "positive_source_contact_coverage": false,
+                "geometry_validator": "unchanged sol_contour_geometry.render rejects overlaps/selfintersection/disconnected material/invalid hole contact"
+              },
+              "provenance_verification": "adapter raw/request/source/decision/mask verifier, exact crop replay by unchanged maintained scorer; strict schema qualification recorded separately in receipt"
+            }
+          },
+          "remaining_five": "unmeasured after first valid material/rim-loss failure",
+          "source_topology": "both2components/0holes correct; positivecontact not tested; rimloss subset of materialloss, do not add twice"
+        }
+      },
+      "review_patch_runbook": "/Users/cam/.codex/worktrees/hydrogen-20261115/boardgame-ingester/docs/runbooks/hydrogen-isolated-orientation.md",
+      "initial_access_blocker": "Inherited GOOGLE_API_KEY invalid; preparing offline readiness; user asked about temporary Storybook source"
+    },
+    {
+      "repo": "cine-forge",
+      "cap_usd": 10,
+      "worker": "hydrogen_cineforge",
+      "worktree": "/Users/cam/.codex/worktrees/hydrogen-20261115/cine-forge",
+      "state": "decision-complete",
+      "known_usd": 0.094848175,
+      "unknown_reserved_usd": 0,
+      "credentials": "existing owner-native access; no injected key",
+      "branch": "codex/hydrogen-20261115",
+      "base": "accb76dd6377d1a6a1ce65c2ac04f66e1458eb3e",
+      "retention": "retain uncommitted owner evidence and review patches; cleanup not selected",
+      "preliminary": "Hydrogen high32768 firstframes structural.6899/rubric.55/combined.61995,11.734s/.025701; sees enlargement, unsupported camera and emotion",
+      "inference_calls": 6,
+      "decision": "Retain Sol/Luna; reject tested Hydrogen HIGH32768 for source-unsupported motion; remaining5unmeasured",
+      "attempt": "/Users/cam/.codex/worktrees/hydrogen-20261115/cine-forge/docs/evals/attempts/062-hydrogen-ordered-frame-first-case-stop.md",
+      "summary": "/Users/cam/.codex/worktrees/hydrogen-20261115/cine-forge/benchmarks/results/video-understanding-hydrogen-sol-luna-v4-20261115.json",
+      "manifest": "/Users/cam/.codex/worktrees/hydrogen-20261115/cine-forge/docs/evals/evidence/story-239-hydrogen-20261115/manifest.json",
+      "root_verification": {
+        "manifest_artifacts": 112,
+        "source_review": "Original frame00+04 independently viewed; figuresenlarge/background+propfixed, centerssame; camera mechanismunproven.",
+        "protected_originals": 6
+      },
+      "owner": "hydrogen_cineforge"
+    },
+    {
+      "repo": "echo-forge",
+      "cap_usd": 3,
+      "worker": "hydrogen_echo",
+      "worktree": "/Users/cam/.codex/worktrees/hydrogen-20261115/echo-forge",
+      "state": "decision-complete",
+      "known_usd": 0.0648066,
+      "unknown_reserved_usd": 0,
+      "credentials": "existing owner-native access; no injected key",
+      "branch": "codex/hydrogen-20261115",
+      "base": "552eff7845061788ba7124470f3812a6dd6e132c",
+      "retention": "retain uncommitted owner evidence and review patches; cleanup not selected",
+      "preliminary": "Hydrogen low16384 fullschema2/2; frozen1/2, source cave retrieval unsupported; mean13.2765s/.02387475; no qualified lead",
+      "inference_calls": 6,
+      "decision": "retain reviewed Ember job choice and current Mini default; do not adopt Hydrogen low16384",
+      "attempt": "/Users/cam/.codex/worktrees/hydrogen-20261115/echo-forge/docs/evals/attempts/scene-to-soundscape-golden/20261115-scout111.md",
+      "summary": "/Users/cam/.codex/worktrees/hydrogen-20261115/echo-forge/docs/evals/attempts/scene-to-soundscape-golden/20261115-scout111/summary.json",
+      "manifest": "/Users/cam/.codex/worktrees/hydrogen-20261115/echo-forge/docs/evals/attempts/scene-to-soundscape-golden/20261115-scout111/manifest.json",
+      "root_verification": {
+        "hashes_checked": 46,
+        "source_review": "Full Dungeon original source/prompt/raw answer independently reviewed; cave/beast retrieval unsupported; music policy ambiguity retained separately"
+      },
+      "metrics": {
+        "hydrogen": {
+          "n": 2,
+          "strictSchemaRate": 1.0,
+          "fullFrozenSemanticPasses": 1,
+          "requiredSourceSoundsPasses": 2,
+          "meanLatencyMs": 13276.5,
+          "totalSubjectUsd": 0.0477495,
+          "meanSubjectUsd": 0.02387475,
+          "totalThinkingTokens": 1400,
+          "cachedInputTokens": 0
+        },
+        "mini": {
+          "n": 2,
+          "strictSchemaRate": 1.0,
+          "fullFrozenSemanticPasses": 0,
+          "requiredSourceSoundsPasses": 2,
+          "meanLatencyMs": 9657.5,
+          "totalSubjectUsd": 0.014538,
+          "meanSubjectUsd": 0.007269,
+          "totalThinkingTokens": 0,
+          "cachedInputTokens": 1920
+        },
+        "ember": {
+          "n": 2,
+          "strictSchemaRate": 1.0,
+          "fullFrozenSemanticPasses": 0,
+          "requiredSourceSoundsPasses": 2,
+          "meanLatencyMs": 6681.0,
+          "totalSubjectUsd": 0.0025191,
+          "meanSubjectUsd": 0.00125955,
+          "totalThinkingTokens": 1395,
+          "cachedInputTokens": 0
+        }
+      },
+      "owner": "hydrogen_echo"
+    },
+    {
+      "repo": "roborally",
+      "cap_usd": 3,
+      "worker": "hydrogen_roborally",
+      "worktree": "/Users/cam/.codex/worktrees/hydrogen-20261115/roborally",
+      "state": "decision-complete",
+      "known_usd": 0.117099,
+      "unknown_reserved_usd": 0,
+      "credentials": "Explicitly authorized temporary Storybook-source GEMINI_API_KEY; removed and fileabsence verified",
+      "branch": "codex/hydrogen-20261115-roborally",
+      "base": "a92619b3b00e2c0643c774e123caf6508c895ca2",
+      "retention": "retain uncommitted owner evidence and review patches; cleanup not selected",
+      "attempt": "/Users/cam/.codex/worktrees/hydrogen-20261115/roborally/docs/evals/attempts/003-hydrogen-whole-race.md",
+      "readiness": "Frozen native request schema; fresh113-event oracle;14guards and13engine tests pass; pending explicitly authorized working key source",
+      "manifest": "/Users/cam/.codex/worktrees/hydrogen-20261115/roborally/docs/evals/evidence/003-hydrogen-whole-race/manifest.json",
+      "root_verification": {
+        "artifact_hashes": 43,
+        "protected_access_receipts": 1,
+        "resumed_source_review": "Originalrules requirecompleteinitialState+actualchanges+winnerId; parentindependentlycomparedall expectedstatefields and38literalorderedmaterialeventpayloads exactly; extraactors notstrippedintofinalpass",
+        "protected_native_originals": 2,
+        "local_and_archive_hashes": "allpassed0600",
+        "key_copy": "absentverified"
+      },
+      "inference_calls": 1,
+      "owner": "hydrogen_robo_resume",
+      "temporary_key_env": "/Users/cam/.codex/worktrees/hydrogen-20261115/roborally/.env.hydrogen-eval",
+      "temporary_key_variable": "GEMINI_API_KEY",
+      "resume_worker": "hydrogen_robo_resume",
+      "access_recovery": "Authorized temporary key exactcatalog+threefreecounts passed;3512/3557/3621 inputcounts, same<=26Kreservations",
+      "temporary_key_cleanup": "GEMINI_API_KEY removed through helper; empty task-created env removed; file absence verified",
+      "decision": "retain deterministic engine; reject tested full-contract replacement; bounded causal capability positive",
+      "summary": "/Users/cam/.codex/worktrees/hydrogen-20261115/roborally/docs/evals/evidence/003-hydrogen-whole-race/summary.json",
+      "metrics": {
+        "owner": "roborally",
+        "attempt": "003",
+        "candidate": "gemini-4-hydrogen",
+        "setting": "high65536",
+        "access": "qualified via explicitly authorized temporaryGooglekey, removed by coordinator",
+        "native_outer_transport": "qualified",
+        "full_host_contract": "FAIL extra actors field inside finalState_json",
+        "reliability": "one valid terminal native response; broad reliability unmeasured",
+        "capability": "38/38 ordered event payloads literally exact; defined game fields exact diagnostic; all38 explanations/summary source grounded; original fullhost remains FAIL",
+        "adoption": "retain deterministic engine; reject tested full-contract replacement; bounded causal capability positive",
+        "cases_measured": [
+          "007"
+        ],
+        "cases_unmeasured": [
+          "002",
+          "006"
+        ],
+        "inference_posts": 1,
+        "known_usd": 0.117099,
+        "unknown_reserved_usd": 0,
+        "cap_usd": 3,
+        "latency_ms": 57687,
+        "fresh_local_engine_007_ms": 1.987125,
+        "effort_comparison": "none; low/medium/xhigh unmeasured; no selected semantic rescue",
+        "control": "fresh maintained deterministic engine; historical Fable3/3 is unmatched reference only",
+        "key_cleanup": "Root verified GEMINI_API_KEY removed and .env.hydrogen-eval absent; no calls in flight",
+        "base": "a92619b3b00e2c0643c774e123caf6508c895ca2",
+        "worktree": "/Users/cam/.codex/worktrees/hydrogen-20261115/roborally",
+        "branch": "codex/hydrogen-20261115-roborally",
+        "retention": "retained uncommitted evidence and default-off eval scaffold; cleanup not selected",
+        "runtime_changes": false,
+        "commits": 0,
+        "pushes": 0
+      },
+      "initial_access_blocker": "Inherited GOOGLE_API_KEY invalid; no authorized owner alternate or central Google eval key; no inference"
+    }
+  ],
+  "limits": [
+    "public/owner-authored synthetic only",
+    "native exact Hydrogen; no different-model fallback",
+    "separate owner budgets/no transfers",
+    "no defaults/commits/push/deployment",
+    "temporary worktrees retained with owner evidence"
+  ],
+  "strategy_review": {
+    "reviewer": "/root/hydrogen_strategy_review",
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "served_identity": "not independently verified",
+    "verdict": "continue; finish Doc handwriting nativeconsumeroptin, finalcropjudgment; closeStory matched4 retainboundedLC026linkagelead; retainCine/Echo; BGI/Roboawaitspecificaccesssource",
+    "root_disposition": "accepted; no extraLC041paidpanel or effortsweep; root independentlyviewedbothLOCsources andcandidateHTML, no proveninventedwording; OCR thresholdpassretained"
+  },
+  "pending_access_decision": {
+    "state": "explicitly authorized and completed; both temporary keys removed and absenceverified",
+    "request": "Temporarily use designated Storybook Google key for BGI and Robo within selected pools then remove copies",
+    "source_env": "/Users/cam/Documents/Projects/Storybook/storybook/.env",
+    "source_variable": "STORYBOOK_GEMINI_API_KEY",
+    "scope": "read exactly named variable only after explicit authorization; never copy whole env or overwrite target; ignored0600ownerfiles;cleanupverify names only",
+    "reason": "No centralGoogle eval credential; both inheritedGOOGLE_API_KEY invalid; skill forbids mining productrepos for new source without explicit authorization",
+    "owner_readiness": {
+      "boardgame-ingester": "Frozen34payloads,21tests; direct access only blocker",
+      "roborally": "Frozen113eventoracle,14guards+13enginetests; direct access only blocker"
+    },
+    "source_unchanged": true
+  },
+  "known_usd": 2.216411125,
+  "unknown_reserved_usd": 0.31476,
+  "maximum_accounted_usd": 2.531171125,
+  "inference_posts": 91,
+  "root_validation": "91POST totals and all6caps/states/paths/branches/artifacts verified; bothtemporarykeyfilesabsent; scopedConductorlinks/whitespacepass. Independent raw/custody/sourceverification detailedperowner. No defaults/commits/push/deploy.",
+  "temporary_key_cleanup": "Both ignored .env.hydrogen-eval files absent after helperremoval; original source unchanged atcopy; no otherownercredential mutated",
+  "landing_note": "Only DocWeb opt-inpatch/evidence landed after separate userYes; all otherownerworktrees/Conductor changes remain unlanded. No runtime defaults changed."
+}

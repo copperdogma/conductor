@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "raw_artifacts": [
+    {
+      "path": "docs/model-watch/daily/2026-10-14-catalogs.json",
+      "date": "2026-10-14",
+      "bytes": 117486,
+      "sha256": "ce1413edc7f9f73646c567478703250e5e618361001c47bff11de7eab9558604",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-14-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-15-catalogs.json",
+      "date": "2026-10-15",
+      "bytes": 135462,
+      "sha256": "2f03e96c31eb309b36ac5e4aeeb17e2c13b4ded51a3f56ff8c5471717d2d230c",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-15-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-16-catalogs.json",
+      "date": "2026-10-16",
+      "bytes": 134944,
+      "sha256": "1c0ee2e4d92badc7833c204a51555fd43cf8123c1d7ca930858d0101d8ba2d0b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-16-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-17-endpoints.json",
+      "date": "2026-10-17",
+      "bytes": 23906,
+      "sha256": "a37e6e820a2840420f1bc8027ba1f60b2c64539ab9164caa49dc9644b431f192",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-17-endpoints.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-20-endpoints.json",
+      "date": "2026-10-20",
+      "bytes": 3641,
+      "sha256": "fb0d3758b0b3dff6cac39257b3dd668f12770331755b2ad1b5ed899aa5e3f237",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-20-endpoints.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-22-endpoints.json",
+      "date": "2026-10-22",
+      "bytes": 7138,
+      "sha256": "77d6c92536a6310fc8f4eb678863dd4a3bee38b29d753422a2fb8b12f3ab5fff",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-22-endpoints.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-24-catalogs.json",
+      "date": "2026-10-24",
+      "bytes": 1385031,
+      "sha256": "d043ca0bbe191e6093ef79892a5343d6fe3643890b16144f4626c3df2a2ea504",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-24-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-24-source-checks.json",
+      "date": "2026-10-24",
+      "bytes": 4310,
+      "sha256": "b5da53a4579158e5fdbbfa87e85c3ab2bd0b68f55bd1f8c54b003ed24992fa19",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-24-source-checks.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-25-catalogs.json",
+      "date": "2026-10-25",
+      "bytes": 1383605,
+      "sha256": "b450a1eccbbbd21eb6ac3ea16e9a88dee3d32272f161118afbcb88ca60fa4a96",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-25-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-25-delta.json",
+      "date": "2026-10-25",
+      "bytes": 782620,
+      "sha256": "1deef73d265637d19dc7565432511a5be401797a273465a7da5a7d99e86d07a8",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-25-delta.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-25-source-checks.json",
+      "date": "2026-10-25",
+      "bytes": 2960,
+      "sha256": "8b3606457e857877ace29af882d895042fedf5997257e043187c43f4cbf03b6d",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-25-source-checks.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-26-catalogs.json",
+      "date": "2026-10-26",
+      "bytes": 1381611,
+      "sha256": "edf7ace4b6503e7093c3fdc4977a07c40ddc437f9cbfb4032b59a153141925ee",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-26-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-26-delta.json",
+      "date": "2026-10-26",
+      "bytes": 791092,
+      "sha256": "039715e3421ec0936fe20fde4a5ae5ed23ef9bb256635ddc004e7d707deeee3b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-26-delta.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-27-catalogs.json",
+      "date": "2026-10-27",
+      "bytes": 1372395,
+      "sha256": "a7669f44e97ede9659514804b84e6df38dacd4cbeee13ec86a22fd0977440c5e",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-27-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-27-delta.json",
+      "date": "2026-10-27",
+      "bytes": 32059,
+      "sha256": "5f1a89267386f3df7246b3ecf1c7d8dc5626fd6d87d0398ecc74be03342e65a0",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-27-delta.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-27-source-checks.json",
+      "date": "2026-10-27",
+      "bytes": 1743,
+      "sha256": "556dbe629fc9adadfc0c1d4fe44ccb449ffbb2d28f71ea3eb514f42354d129bd",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-27-source-checks.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-28-catalogs.json",
+      "date": "2026-10-28",
+      "bytes": 1360573,
+      "sha256": "8962b7d271588c3fcaa8bd8450c0aacb30a67e3e2c86b55a6fc0234b8cfbf7d5",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-28-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-28-delta.json",
+      "date": "2026-10-28",
+      "bytes": 311,
+      "sha256": "8bfd5325b292f7eb5fe9cd2cdcd3ea3fec9b162defe4f21cd63cafb588196599",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-28-delta.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-29-catalogs.json",
+      "date": "2026-10-29",
+      "bytes": 1349664,
+      "sha256": "6e96b897708ee41001256fd63e372ce1d0bd07ada528e5f6c41314207ca3c590",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-29-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-30-catalogs.json",
+      "date": "2026-10-30",
+      "bytes": 1354845,
+      "sha256": "1b14950bbbebda7d076c22525145ae0ae7584c896fe3dbb93b8da5bed3240938",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-30-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-31-catalogs.json",
+      "date": "2026-10-31",
+      "bytes": 1415275,
+      "sha256": "e764e5b67cefcca21b22d6cac0f2d39a2ba59d49d7dbb50e56f20642d6ff096b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-31-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-01-catalogs.json",
+      "date": "2026-11-01",
+      "bytes": 1414036,
+      "sha256": "6bd33fc3a6fa36db4cffa3a39de3b14f2b82c58a4060d064ae0355dfc738057d",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-01-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-02-catalogs.json",
+      "date": "2026-11-02",
+      "bytes": 1413755,
+      "sha256": "91f311755b94fd95a41c27a0231774b6b7446f428596d68cb264c6f800398d5b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-02-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-03-catalogs.json",
+      "date": "2026-11-03",
+      "bytes": 1414876,
+      "sha256": "3e3780e3f89f89aac264ee20f5a28126fbd93e9f6ccbd469e51fb65335a2f17c",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-03-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-04-catalogs.json",
+      "date": "2026-11-04",
+      "bytes": 1431136,
+      "sha256": "1d65abc7a91d7837543d44e44a40f50eb88e5fdf13af4ecdae78f6c624cbfeb8",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-04-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-05-catalogs.json",
+      "date": "2026-11-05",
+      "bytes": 1431701,
+      "sha256": "43a1eb00642fbb527bf34fa3841d9218cf0e97cc508b69f516eae9e753a71a25",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-05-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-05-source-checks.json",
+      "date": "2026-11-05",
+      "bytes": 2545394,
+      "sha256": "5fd1dd160d5a5cbf31192feb3760d4470c6b3590b43383cf1205b6345f0e8be5",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-05-source-checks.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-06-catalogs.json",
+      "date": "2026-11-06",
+      "bytes": 1434911,
+      "sha256": "fd4cf28f42bf2a48e7ebe6aadb6cc8cdb4822cdb648fc8bbde67fa7301d5060c",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-06-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-06-source-checks.json",
+      "date": "2026-11-06",
+      "bytes": 6739241,
+      "sha256": "8ee8dc9ae95f57746ba23726d754e8b59cceb152c9cc0f8611782ef25add87b7",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-06-source-checks.json",
+      "status": "quarantined_local_token_shaped_string"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-07-catalogs.json",
+      "date": "2026-11-07",
+      "bytes": 1461233,
+      "sha256": "f2794fb884d516be1aad3b77facfd4563d954f3d49d6683e0b84840a13155c5d",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-07-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-07-source-checks.json",
+      "date": "2026-11-07",
+      "bytes": 210856,
+      "sha256": "a476eb475657c7a6ad23e1a3cd0299c1af6235929d016ffb7abee89ce9a1841c",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-07-source-checks.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-08-catalogs.json",
+      "date": "2026-11-08",
+      "bytes": 1462496,
+      "sha256": "204bfabc872cd382d165e06b4423246139326357aa01777014b26ce455dc33d4",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-08-catalogs.json",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-08-source-checks.json",
+      "date": "2026-11-08",
+      "bytes": 8364063,
+      "sha256": "d0451ef98b7378c4624f54b6cc6e19c2c2da2d3742b616a928b4e53a605fbc5a",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-08-source-checks.json",
+      "status": "quarantined_local_token_shaped_string"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-09-source-checks.json",
+      "date": "2026-11-09",
+      "bytes": 6769378,
+      "sha256": "bebe14b4f0eacd515ef7d174d035cc2060e4b4b0e509d0fc3206a17b270f312b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-09-source-checks.json",
+      "status": "quarantined_local_token_shaped_string"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-10-source-checks.json",
+      "date": "2026-11-10",
+      "bytes": 6967350,
+      "sha256": "fd4e6b2fa8c60961bf0f2260366a4e85c8ad359e05410792d70bb0cb9bc6d372",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-10-source-checks.json",
+      "status": "quarantined_local_token_shaped_string"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-11-qwen4.txt",
+      "date": "2026-11-11",
+      "bytes": 6800,
+      "sha256": "08838883adfdf5be52d93e121dd21ff1ddf8897a89f8995e9073daa6b53c034e",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-11-qwen4.txt",
+      "status": "retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-11-source-checks.json",
+      "date": "2026-11-11",
+      "bytes": 6998432,
+      "sha256": "2edacfb0399afbe681ed6ced4edcc3a89de380c6c27a211cf3ad06fbb8d69a1b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-11-source-checks.json",
+      "status": "quarantined_local_token_shaped_string"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-16-source-checks.json",
+      "date": "2026-11-16",
+      "bytes": 6898830,
+      "sha256": "532c222e0ce70673c80214d5830238e247aa0c1f8133c16d0948bfa6e894dfaf",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-16-source-checks.json",
+      "status": "quarantined_local_token_shaped_string"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-17-source-checks.json",
+      "date": "2026-11-17",
+      "bytes": 6906472,
+      "sha256": "a740ee32c0cf0752e1ce1ed51ccdc9860dcfb286c6f354c6d2471639e45d5825",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-17-source-checks.json",
+      "status": "quarantined_local_token_shaped_string"
+    }
+  ],
+  "original_reports_with_local_evidence_link_projections": [
+    {
+      "path": "docs/model-watch/daily/2026-10-08.md",
+      "date": "2026-10-08",
+      "bytes": 8846,
+      "sha256": "ae4b4add1dbbe0b996f4773b4f0a2d135cb15b1dde33b68682bb1a1b08d5bbcd",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-08.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-14.md",
+      "date": "2026-10-14",
+      "bytes": 11110,
+      "sha256": "6ababe7cca3fa6559e8ff9fd56793eff9e9baf07515b1f2819c16643376e2b5b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-14.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-15.md",
+      "date": "2026-10-15",
+      "bytes": 9786,
+      "sha256": "035313e3b93454738e9a83a91243332375c7df9b4cd0184f426c46320526592a",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-15.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-16.md",
+      "date": "2026-10-16",
+      "bytes": 10118,
+      "sha256": "f806722cfe913d3cebad264612d0015b95794e898b985fd7a22789ae24d92014",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-16.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-17.md",
+      "date": "2026-10-17",
+      "bytes": 13124,
+      "sha256": "08e947033e048d956cf82cb361862dd34957665f39fa0d8308c8bf7796c221f9",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-17.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-20.md",
+      "date": "2026-10-20",
+      "bytes": 11932,
+      "sha256": "eeed7526ca1b3c2936794ef859b4a8c617b299c644fc653472ee549c0917868e",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-20.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-22.md",
+      "date": "2026-10-22",
+      "bytes": 11815,
+      "sha256": "3e4e146b7886e6886164a5820bab7c7124ac57a98e0ba97564b98410bf6e82fd",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-22.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-24.md",
+      "date": "2026-10-24",
+      "bytes": 6390,
+      "sha256": "553f83c958f97c140caa4a40e58696e28064f37c79a0cad2e5933f0915869397",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-24.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-25.md",
+      "date": "2026-10-25",
+      "bytes": 9574,
+      "sha256": "feef188d945ec997c6d30ee86b639123811c27e1805a2b4c73d78e2c17f92d85",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-25.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-26.md",
+      "date": "2026-10-26",
+      "bytes": 9421,
+      "sha256": "0cc78d07c90c6dd38fa02c5b7442f349e50f51372f104629c8542e421f175abc",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-26.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-27.md",
+      "date": "2026-10-27",
+      "bytes": 7009,
+      "sha256": "afd98baf383daa705fe88b7251447027c6c14265f30df0e6da1c51d8ae824650",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-27.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-28.md",
+      "date": "2026-10-28",
+      "bytes": 3097,
+      "sha256": "1709234e9a48293fe6794080336db5823e9fb3ad219eac3aa44a64c0897faea1",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-28.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-29.md",
+      "date": "2026-10-29",
+      "bytes": 2825,
+      "sha256": "55afa6a20fe98d177418fc5d6daa0283978acf10a2b390a6d20d08196170c411",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-29.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-10-31.md",
+      "date": "2026-10-31",
+      "bytes": 3425,
+      "sha256": "91d25530bcf3e4f3ed9695ebc4b84b6b6cdd048b77b155e34a3b40ce4c0efecd",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-10-31.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-01.md",
+      "date": "2026-11-01",
+      "bytes": 2471,
+      "sha256": "742e66f1804fcaac8146fe893ccfeea461f4d9af533a6089307ff8d823815169",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-01.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-02.md",
+      "date": "2026-11-02",
+      "bytes": 2695,
+      "sha256": "13f048d78a2de6996228c28722aa89dd16f4d39c5617920e58d32aed5e701d3d",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-02.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-03.md",
+      "date": "2026-11-03",
+      "bytes": 2354,
+      "sha256": "299f87de9dc3b997ab9449054e16f30510140cda19a928df91b32a5b6ed7521b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-03.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-04.md",
+      "date": "2026-11-04",
+      "bytes": 3735,
+      "sha256": "37394df1c2f839771f654f797a5e47243f28e84baf3a746e85d919f62bbb39f3",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-04.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-05.md",
+      "date": "2026-11-05",
+      "bytes": 4031,
+      "sha256": "314ea7b7140357aaf1b8f873e064eeceba1a423d25616c3e02c5437d1e2dfb0b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-05.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-06.md",
+      "date": "2026-11-06",
+      "bytes": 3033,
+      "sha256": "1079ffe0b61b2eb33be98a72b563d63ad0530af2e84861d0175af3c8a2b42bad",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-06.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-07.md",
+      "date": "2026-11-07",
+      "bytes": 3209,
+      "sha256": "34bdee0d902b03417aee4874bf81881b5258b9d6eee74cdfc5f7c71d84316bf2",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-07.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-08.md",
+      "date": "2026-11-08",
+      "bytes": 3218,
+      "sha256": "424ec82863e213d510bae9bdaff5c104e4ec113c8245c85b9f247b66f8bbeb8b",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-08.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-09.md",
+      "date": "2026-11-09",
+      "bytes": 1994,
+      "sha256": "a4a0b3d2e38702ce290efa50a764a4f164e59a46271910670187ee39e5d311b2",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-09.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-10.md",
+      "date": "2026-11-10",
+      "bytes": 2887,
+      "sha256": "54f8db8e809d510fc54a865056981f53c108db70b76eeaf12f2786b3b58eac3f",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-10.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-11.md",
+      "date": "2026-11-11",
+      "bytes": 3529,
+      "sha256": "5a1780e26c80f1519b6cc33624edcfc52a96b29a83fca6f52a58c36f6f0fa756",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-11.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-16.md",
+      "date": "2026-11-16",
+      "bytes": 4595,
+      "sha256": "54851098ff89ce3e9afb6d8fb872a1ec199763e7d5803a329bf3001b8cab7fd2",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-16.md",
+      "status": "original_report_retained_locally"
+    },
+    {
+      "path": "docs/model-watch/daily/2026-11-17.md",
+      "date": "2026-11-17",
+      "bytes": 4307,
+      "sha256": "af5340711359c52b87786b9cfaca9bcbe19f0fff041020c80face560342e4b86",
+      "local_custody_path": "/Users/cam/.codex/archives/conductor-shared-review-20261117/retained/docs/model-watch/daily/2026-11-17.md",
+      "status": "original_report_retained_locally"
+    }
+  ]
+}

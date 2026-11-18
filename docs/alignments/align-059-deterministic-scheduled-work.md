@@ -216,3 +216,16 @@ unobserved. Dates, 20% floor, schedule, AI scout and October 31 review are uncha
 checks to file identities and the remote integration base. Exact pushed commit
 and remote verification belong to the final handoff. The isolated worktree is
 retained; no cleanup of other worktrees or user files was performed.
+
+## Seven-date review — October 31
+
+[Review](../model-watch/shadow-review-2026-10-31.md): five complete dates, two
+quota-unavailable skips, no absent dates; expired job verified disabled. Exact
+catalog ID sets match all five independent scout snapshots, but general pricing
+and limit metadata changed before the scout. Ten requests, 4,035,529 response
+bytes, zero collector model calls; token savings unmeasured. All 32 quota/shadow
+offline controls pass. Recommendation: preserve safe quota failure diagnostics
+and qualify consumer freshness/fallback before another approved finite test;
+do not integrate Stage C on this incomplete sample. No extension, backfill,
+new collection, AI scout change, commit or push. Completed review follow-up
+removed without replacement.

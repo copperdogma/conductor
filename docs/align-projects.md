@@ -250,3 +250,11 @@ Use this index to track internal cross-project alignment work.
   Landed existing-skill updates on verified main in eight owner repositories,
   with supervisor adaptations and managed-project rollout checks in Conductor.
   Both finance repos lack these skills and remain unchanged.
+
+## Recovered historical receipts
+
+- `2026-11-06` — [Alignment060 — Fly operations/runbooks](alignments/align-060-fly-mcp-operations-runbooks.md): bounded diagnostics and Storybook-only runbook landing; no portfolio-wide rollout or resizing authority.
+- `2026-10-31` — [Alignment059 follow-through](alignments/align-059-deterministic-scheduled-work.md#seven-date-review--october-31): five complete collections, two quota skips, no demonstrated token-saving or Stage C claim.
+- `2026-10-05` — [Alignment054 — loop-review coverage](alignments/align-054-loop-review-coverage.md): historical upstream/primary drift audit; not a current installation claim.
+
+- `2026-11-17` — [Alignment061 — shared checkout recovery](alignments/align-061-shared-checkout-recovery.md): reviewed local/upstream drift, recovered valuable history and kept active/private material local.

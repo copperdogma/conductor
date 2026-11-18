@@ -49,9 +49,18 @@ after edits.
 two-catalog collector and exact-diff packet. See the [runbook](collector-runbook.md)
 for offline replay, manual collection and recovery, and the
 [Stage A evidence](evidence/stage-a-2026-10-23.json) for the one manual public check.
-The script-only shadow is installed for October 24–30 at 07:45 America/Edmonton,
-with a deterministic 20% remaining quota floor and automatic expiry. See
-[Stage B evidence](evidence/stage-b-2026-10-23.json). Daily AI announcement research
-and evaluation-ledger checks remain; an unchanged catalog cannot suppress the
-whole scout. The existing AI automation is unchanged. Integration follows a
-separate decision after natural shadow evidence exists.
+The script-only shadow ran October 24–30 at 07:45 America/Edmonton with a 20%
+remaining quota floor and automatic expiry. [Stage B setup evidence](evidence/stage-b-2026-10-23.json)
+records the installation. The [October 31 review](shadow-review-2026-10-31.md)
+confirmed five complete collections, two fail-closed quota skips, and a disabled
+job. Stage C still needs seven usable scheduled dates and remains on hold.
+The independent daily scout continues to check announcements and evaluation history.
+
+## Reporting clarification — 2026-11-10
+
+Future reports briefly acknowledge major newly announced or newly discovered
+releases already covered by owner evaluations, linking the official announcement
+and dated evaluation outcome. This is news coverage, not permission to repeat
+an evaluation. Do not repeat unchanged releases daily. Include a compact source
+coverage line and material gaps even on no-lead days. Historical reports remain
+unchanged. The automation prompt was updated at Cam's explicit request.

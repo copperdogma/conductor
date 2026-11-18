@@ -1,0 +1,69 @@
+{
+  "checked_at_utc": "2026-10-21T16:51:20.517235+00:00",
+  "checks": {
+    "storybook": {
+      "manifest_entries_verified": 42,
+      "manifest_sha256": "214aa2647a61d2a5b8529ca8365c001ec967b9b476e35831f78ecf132ab4f51a",
+      "manifest": "/Users/cam/.codex/worktrees/scout100-storybook-20261021/docs/evals/artifacts/scout100-mercury3-persona-20261021/manifest.json",
+      "git_diff_check": "pass",
+      "producing_source_hashes_verified": 7
+    },
+    "docweb": {
+      "manifest_entries_verified": 34,
+      "manifest_sha256": "6d7bbc089d06fcf63d2300a13393726d04b1a20067231b5dcfce2dde99e299b6",
+      "manifest": "/Users/cam/.codex/worktrees/scout100-docweb-20261021/docs/evals/evidence/082-scout100/artifact-manifest.json",
+      "git_diff_check": "pass"
+    },
+    "dossier": {
+      "manifest_entries_verified": 94,
+      "manifest_sha256": "87f34dba43de90e8ccf0b882548613837b0a2cd0677f6cd4b407a77a5bce0f81",
+      "manifest": "/Users/cam/.codex/worktrees/scout100-dossier-20261021/docs/evals/artifacts/scout100-mercury3-long-history-20261021/evidence-manifest.json",
+      "git_diff_check": "pass"
+    },
+    "echo": {
+      "manifest_entries_verified": 78,
+      "raw_archive_verified": true,
+      "manifest": "/Users/cam/.codex/worktrees/scout100-echo-20261021/docs/evals/attempts/control-intent-v1/20261021-scout100.manifest.json",
+      "git_diff_check": "pass"
+    },
+    "accounting": {
+      "known_usd": 1.40800617,
+      "unknown_exposure_usd": 0,
+      "campaign_cap_usd": 11.5,
+      "owner_spend": {
+        "echo": {
+          "known": 0.02236485,
+          "cap": 2.5
+        },
+        "storybook": {
+          "known": 0.04716998,
+          "cap": 1.5
+        },
+        "dossier": {
+          "known": 1.30655488,
+          "cap": 6
+        },
+        "docweb": {
+          "known": 0.03191646,
+          "cap": 1.5
+        }
+      },
+      "categories_usd": {
+        "candidate_subjects": 0.02009725,
+        "control_subjects": 0.2251446,
+        "judges": 1.136305,
+        "qualification_recovery": 0.02645932
+      },
+      "categories_disjoint_reconciled": true
+    },
+    "coordinator": {
+      "blind_docweb_source_review": "completed before identity/cost/timing reveal; retained owner record",
+      "dossier": "both saved blind reviews and exact attribution omission source adjudication reviewed",
+      "echo": "source ambiguity/default distinctions and actual raw envelopes reviewed",
+      "storybook": "source-stop/forbidden prompt violation and blind review records reviewed; disjoint accounting fix verified",
+      "central_whitespace": "pass",
+      "scope": "no provider calls by coordinator; no defaults/commits/push/deploy",
+      "validation_selection": "evidence-only central changes; owner focused tests reused where producing inputs unchanged"
+    }
+  }
+}

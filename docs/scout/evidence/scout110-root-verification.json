@@ -1,0 +1,75 @@
+{
+  "scope": "independent root readback; source findings recorded in campaign scout",
+  "manifest_readback": {
+    "doc-web": {
+      "manifest_members": 145,
+      "errors": []
+    },
+    "boardgame-ingester": {
+      "manifest_members": 115,
+      "errors": []
+    },
+    "cine-forge": {
+      "manifest_members": 61,
+      "errors": []
+    },
+    "storybook": {
+      "manifest_members": 164,
+      "errors": []
+    },
+    "echo-forge": {
+      "manifest_members": 35,
+      "errors": []
+    },
+    "roborally": {
+      "manifest_members": 41,
+      "errors": []
+    }
+  },
+  "other_checks": {
+    "roborally_manifest_members": 41,
+    "roborally_manifest_errors": [],
+    "echo_manifest_members": 35,
+    "echo_manifest_errors": [],
+    "bgi_orientation_native_outputs_replayed": 16,
+    "bgi_orientation_pixel_mismatches": 0,
+    "source_inspection": [
+      "Cine frame00/frame04 enlargement",
+      "Storybook FS001 ambiguous central circle",
+      "DocWeb clear table original glyphs",
+      "DocWeb all six safety source pairs",
+      "Storybook full LC026 source vs empty stories/eras and omitted meanings",
+      "Robo original state/event decode and two missed laser hits"
+    ],
+    "storybook_formal_C1": "unmeasured; complete extraction/C2 screen does not establish architectural deletion"
+  },
+  "protected_raw_readback": {
+    "owners": {
+      "echo-forge": 2,
+      "boardgame-ingester": 18,
+      "cine-forge": 2,
+      "roborally": 1,
+      "storybook": 14
+    },
+    "errors": []
+  },
+  "bgi_native_archive_readback": {
+    "members": 49,
+    "expected": 49,
+    "errors": []
+  },
+  "temporary_credential_cleanup": {
+    "storybook": true,
+    "doc-web": true,
+    "boardgame-ingester": true,
+    "roborally": true,
+    "verification": "root names-only absence in exact injected owner environment; existing Echo/Cine owner credentials untouched"
+  },
+  "manifest_readback_member_total": 561,
+  "cine_closure": {
+    "members": 7,
+    "errors": [],
+    "status": "Done"
+  },
+  "validation_selection": "Documentation/evaluation evidence only; owner focused checks reused, root native/source/manifest replay and doc/JSON/link/arithmetic checks. No unrelated product suite or paid rerun."
+}

@@ -1,0 +1,53 @@
+{
+  "date": "2026-11-17",
+  "worktrees": [
+    {
+      "project": "dossier",
+      "path": "/Users/cam/.codex/worktrees/d12-ultra-20261117/dossier",
+      "owner": "dossier",
+      "branch": "codex/d12-ultra-20261117-dossier",
+      "base": "19d772d78372f0da7664ef8db9b05333911ff539",
+      "disposition": "retained",
+      "reason": "Original screen plus completed independent qualification/client and ARM reproduction dependencies retained locally, uncommitted; no runtime adoption."
+    },
+    {
+      "project": "echo-forge",
+      "path": "/Users/cam/.codex/worktrees/d12-ultra-20261117/echo-forge",
+      "owner": "echo-forge",
+      "branch": "codex/d12-ultra-20261117-echo-forge",
+      "base": "552eff7845061788ba7124470f3812a6dd6e132c",
+      "disposition": "retained",
+      "reason": "Story085 sole d1.2 classifier landed on main; clean task worktree retained with current and frozen historical source/evidence. Borrowed dependency link removed; primary unrelated work preserved.",
+      "landed_commit": "62ba420f584040b0869dcaef69500d6a9449144b",
+      "remote_main_verified": true
+    },
+    {
+      "project": "boardgame-ingester",
+      "path": "/Users/cam/.codex/worktrees/d12-ultra-20261117/boardgame-ingester",
+      "owner": "boardgame-ingester",
+      "branch": "codex/d12-ultra-20261117-boardgame-ingester",
+      "base": "95c481c17d91735eb20bf2252989205a5e005a86",
+      "disposition": "retained",
+      "reason": "Uncommitted owner evaluation evidence and any reviewable optional patch; ignored evidence is not disposable from clean status alone."
+    },
+    {
+      "project": "storybook",
+      "path": "/Users/cam/.codex/worktrees/d12-ultra-20261117/storybook",
+      "owner": "storybook",
+      "branch": "codex/d12-ultra-20261117-storybook",
+      "base": "40fef060e6a5de20643e845ca2c61594b7dc7651",
+      "disposition": "retained",
+      "reason": "Uncommitted owner evaluation evidence and any reviewable optional patch; ignored evidence is not disposable from clean status alone."
+    },
+    {
+      "project": "doc-web",
+      "path": "/Users/cam/.codex/worktrees/d12-ultra-20261117/doc-web",
+      "owner": "doc-web",
+      "branch": "codex/d12-ultra-20261117-doc-web",
+      "base": "56564d95cd2cf9ce498aaaca84537a64b1e89f31",
+      "disposition": "retained",
+      "reason": "Uncommitted owner evaluation evidence and any reviewable optional patch; ignored evidence is not disposable from clean status alone."
+    }
+  ],
+  "no_commits_or_pushes": false
+}

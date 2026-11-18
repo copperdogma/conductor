@@ -1,4 +1,335 @@
 # Evaluated frontier model ledger
+
+## OpenAI GPT-6.2 Astra — Scout116, 2026-11-17
+
+Historical qualification: its table option landed at0a9dc60 and was superseded
+by the normal Sol6.2 source reader at4376bb7. Preserve these results as dated
+evidence, not a current alternative runtime path.
+
+Exact native `gpt-6.2-astra`, canonical `openai/gpt-6.2-astra`, public alias
+GPT-6.2 Astra. Distinct from GPT-6 Astra and GPT-6.2 Sol. All five owners
+qualified native Standard Responses with their existing owner credentials.
+[Campaign and direct owner evidence](../scout/scout-116-gpt62-astra-evaluation-routing.md#selected-execution--2026-11-17).
+57 valid generations plus one rejected BGI Google control, USD5.003506925
+known, .0262144 unresolved. Only Doc Web's bounded table role qualified for
+review. All other Astra efforts unmeasured, no within-task effort comparison.
+
+| Owner and task | Tested outcome | Decision and retry trigger |
+|---|---|---|
+| Dossier direct graph | High/8192 namesakes 6/6 tie, 10.69% cheaper and 77.11% slower. High/32768 full history 5/5 tie, 4.17x cost and 1.94x latency vs Sol. Exact strict transport and independent source reviews passed. | Retain both references. Independently frozen task or changed economics with justified preserved quality; no unchanged rerun. |
+| Storybook C1/C2 extraction | High/65536 improved source recall and preserved useful detail, tied .92 blind semantics, failed C1 structure and C2 linkage. Cost 2.0–2.5x and latency 1.7–2.0x Opus. | Retain existing extraction. New checkpoint/contract addressing structure and linkage, independent oracle and connected consumer. |
+| Doc Web literal tables | High/32768 tied 56/56 clear and both holds, 21.37% lower cost/16.56% lower mean latency versus older Astra. Held-out exact driver export, negative blocked. | Bounded reviewed OpenAI source-only option landed with separate approval at Doc Web `0a9dc60`. Argon superiority unmeasured. |
+| Doc Web handwriting and crop | High/32768 Barney .96217 vs Hydrogen .98850 and Gemini3.8 .98241, all below .99. Two crop geometry leads; original assisted payload exceeds 30k patch limit, final crop quality unmeasured. | Retain reviewed Hydrogen and current detector. OCR needs material fidelity change. Crop requires original-input admission and actual final crop proof under preserved contract. |
+| Board Game Ingester | Low/8192 orientation 2/3 tied Sol, wrong automatic rotation both. High/65536 contour 16 material pixels lost and zero leakage vs Sol 1582/713. Both missed the zero-loss gate. | Retain current workflow and optional Google job. New checkpoint or meaningful source-backed condition addressing hard failures; no unchanged rerun. |
+| CineForge ordered frames | High/16384 one fresh matched case .6991 vs Sol .7127/Luna .57645, exceeded cost gate USD.051434, strict transport qualified. Five cases unmeasured. | Retain Sol/Luna benchmark references. New representative scope with concrete payoff or material quality/economics change. |
+
+## Liquid d1.2-ultra — Scout113, 2026-11-17
+
+**Selected campaign complete; Echo direct replacement landed.** Canonical
+`liquid/d1.2-ultra-20261116`, route alias `liquid/d1.2-ultra`, provider Liquid,
+`/api/alpha/decisions`. Distinct from `liquid/d1-ultra-20261015`, d1.1 and open
+checkpoints. Native default computation, no selectable effort arms. Only public,
+authored synthetic or permissively licensed fixtures; private/ZDR eligibility
+unqualified. [Campaign](../scout/scout-113-d12-ultra-evaluation-routing.md).
+No unchanged rerun: use the task-specific continuation triggers below. Cam explicitly accepted the five-owner dispositions on2026-11-17 and selected a separate Dossier qualification; that follow-up uses a new bounded identity/wallet, not the closed screen or its missing503.
+
+| Owner/task | Latest evidence and layered disposition | Continuation / retry boundary |
+|---|---|---|
+| Echo operative intent | Qualified replacement:42screen40/42vsGemini38/42,19/19recallboth,0vs2falsecontrols,1/3ambiguityboth. New12confirm10/12tie;5/5recall and0FPboth,0/2ambiguityboth. Screenp95612vs7763ms,cost.000632436vs.02710125;confirm957vs9270ms/.000187782vs.00705375. ActualHTTP/platform/routing and9fault/manual paths pass, all57native candidate replies decoded; sole-classifier replacement landed. 116POSTs/114valid,knownUSD.037114992+unknown.027648=.064762992/1. [Attempt](/Users/cam/.codex/worktrees/d12-ultra-20261117/echo-forge/docs/evals/attempts/control-intent-v1/20261117-scout113-d12-ultra.md). | Cam superseded optional/off direction: Story085 landed Echo main 62ba420f on2026-11-17. Sole d1.2-ultra classifier; model picker, enable flag and Gemini/Grok paths removed. Liquid-only/no-fallback provider routing; unavailable or unclear results stay for manual review. Focused server, HTTP consumer, App and historical-CLI tests, typecheck, lint, methodology and browser checks pass; no new paid calls. Both remote refs/exact tree and clean retained task worktree verified. Not deployed. Prior adapter fd9cdd9 and optional selector cd358123 remain historical evidence. Candidate57/57first-attempt vscontrol55/57; shared ambiguity limitations retained. No unchanged paid rerun.
+| Dossier identity questions | All7146primary requests attempted,7145valid+1development503;2native probes. Conditional pairedvalid1190pairs calibration.80Liquid/.65Luna; fullyobserved340heldout×3:17correct/1missboth, false5/4/4vs10/10/10. Primarymatchedcost.05719014vs.1626996,median336vs212.5ms,p95728vs413. KnownUSD.220192770+unknown.000271404=.220464174/4. Promising fewer-false/cost screen; fullmatrix gate incomplete, no retry. [Owner verdict](/Users/cam/.codex/worktrees/d12-ultra-20261117/dossier/docs/evals/artifacts/scout113-d12-ultra-20261117/owner-verdict.json). | Retain current policy/runtime hold; no selected runtime/private promotion. Missing-answer sensitivity preserves diagnostic threshold/heldout ordering, but cannot make originalmatrix complete. No unchanged paidrepeat; separately selected qualification/new requirement or changed transport policy required. |
+| Dossier independent supplied-pair qualification (latest) | [Attempt043 report](/Users/cam/.codex/worktrees/d12-ultra-20261117/dossier/docs/evals/artifacts/d12-independent-qualification-20261117/README.md):120newsyntheticpairs x3/subject,720/720valid. FixedD12.80/Luna.65; ordinaryuseful11/10/11vs14each,false0vs1; challenge5/3/4vs5each,false1vs2. Bothprimary/symmetric10-11sensitivity FAIL useful-questionnonregression. D12cost66.41%less,median423.5vs243.5ms;25correctrawasks thresholdheld+3nativeerrors explain28misses. KnownUSD.018613092/newcap.50,unknown0;1458member/720nativeoffline replay passes. | Reject tested model-plus-threshold policy, retainLunaADRjudge and Story186hold. Earlier standing screen remains independently conditional, not erased. No retuning/rerun/private/runtime build selected. New policy hypothesis plus separately selected independent validation required to reopen. |
+| BGI isolated orientation | Exact native candidate qualified; stopped on second primary f24-04 automatic0 vsfrozen90CW, violating zero-wrong-auto gate. TwoPOSTsUSD.00002163/1,unknown0; source/native/inverse replay confirms semantic failure. Fresh Google baseline unmeasured after owner key rejected. [Owner summary](/Users/cam/.codex/worktrees/d12-ultra-20261117/boardgame-ingester/benchmarks/results/scout113-d12-ultra-20261117/summary.json). | Reject tested d1.2 orientation arm; retain previously qualified optional Google role, no fresh relative claim. No extra baseline/key reuse needed; temporary OpenRouter key removed. New8 confirmations frozen/unexposed. Reopen only new checkpoint or source-backed decision change, not unchanged rerun. |
+| Storybook mode routing | Fresh24synthetic:24/24 vsLuna23/24; confirm8/8vs7/8; projectedaccepted14/14vs12/12; dangerousnoop0both. Primarycost.000924588vs.0019403,p95497.71vs342.42ms. Total54POSTsUSD.003099332/.50,unknown0. Component quality/cost lead; retainLuna because improved inputs do not reach real capture consumer. [Attempt200](/Users/cam/.codex/worktrees/d12-ultra-20261117/storybook/docs/evals/attempts/200-scout113-d12-ultra-mode.md). | Screening complete; no unchanged paid repeat. Reachable independent consumer need and separately selected integration required. Temporary central OpenRouter key removed and root absence verified. |
+| DocWeb consistency | Fresh20authoredcases x2:Liquid32/40 F1.7994 vsGoogle36/40 .8984; rawdefect-clean2vs0,uncertainty-clean4vs0. Fixedpolicyaccepted24/24vs22/22,unsafeacceptedclean0both; primarycost.000896532vs.0021828,p95670vs2781ms. Total86validPOSTsUSD.00330602/.50,unknown0. Rawquality Google lead, Liquid policy/economics tradeoff; source-sensitive secondary projections preserved. [Owner verdict](/Users/cam/.codex/worktrees/d12-ultra-20261117/doc-web/docs/evals/evidence/096-d12/owner-verdict.json). | Screening complete; retain stronger raw Google classifier reference and current fullplanner/default-disabled sidecars. No unchanged repeat or validated threshold/adoption claim; useful reachable consumer and separately selected independent qualification required. |
+| DocWeb geometry | OneImage011 boxes qualification HTTP400: router discriminator rejects boxes. No valid model answer; geometry capability/economics unmeasured. KnownUSD0,unknownreservation.000710598/$2. No baseline calls or route substitutions. Protected account-bearing original retained locally, safe projection tracked. [Geometry summary](/Users/cam/.codex/worktrees/d12-ultra-20261117/doc-web/docs/evals/evidence/096-d12/geometry/summary.json). | Stop geometry; retry only a source-backed supported OpenRouter Liquid boxes contract plus newly selected qualification. Public model listing alone is insufficient. |
+
+
+## Google Gemini Decision 1 — Scout112, 2026-11-16
+
+**Complete: five selected owner scopes settled; bounded BGI optional adoption recommended.** Canonical
+`google/gemini-decision-1`, native `gemini-decision-1`; Gemini Decisions API,
+distinct from Gemini4 and other providers' decision models. No thinking controls
+or effort comparison. [Campaign](../scout/scout-112-gemini-decisions-evaluation-routing.md).
+Native response does not echo model by design; exact direct request is bound
+to the documented single-model API, `served_model=null` with independent
+attestation unavailable. No different model/provider fallback.
+
+| Owner/task | Latest evidence and layered disposition | Retry / remaining action |
+|---|---|---|
+| Echo control-intent-v1 | Native transport qualified,90/90 valid POSTs,no retries. Fresh42matched: Decision37/42 vsGemini3.8 low2048 39/42; bothrecall19/19 and2/20 falsecontrols; ambiguity0/3vs2/3. Candidatep95490ms/cost.00154870 vs4258ms/.02664375; totalwithqualificationUSD.03160105/1,unknown0. RetainGemini; rejecttestedDecisionarm forcurrentintenttask. [Owner summary](/Users/cam/.codex/worktrees/gemini-decisions-20261116/echo-forge/docs/evals/evidence/scout112/summary.json). | No unchanged semantic rerun. New checkpoint or source-backed change addressing ambiguity without weakening quality; confirmation/consumerpatch remainunmeasured because screenfailed. |
+| Dossier possible-identity questions | Native contract qualified;7146freshprimary+2native calls,unknown0,USD.3233757/5. Heldout340pairs/9stories x3: Google.60 threshold12correct/2false/6missed vsLuna.65 17/10/1, noflips in3repeats. Candidateprecision.857vs.630 butrecall.667vs.944: maintainedverdicttradeoff, notwinner. Bothmiss original.2false/story bar. Primarycost.1603752vs.1628745;median327msvs197ms. RetaincurrentLuna policy/runtimehold, preserveprecisionlead. [Attempt041](/Users/cam/.codex/worktrees/gemini-decisions-20261116/dossier/docs/evals/attempts/041-gemini-decisions-possible-identity-20261116.md). | Screeningcomplete; no runtime/privateGoogle/batching/newfamilyselected. No unchangedrerun; reconsider only a new task/policy orcheckpoint worth testing under preservedprecision/recallprivacytradeoffs. |
+| BGI isolated orientation | Initialcataloginvalidkey retained, then explicitlyauthorizedtemporaryStorybookkeyqualifiednativeaccess. Fresh14screen+8pre-frozenconfirmationboth22/22,0wrongauto/allholds;44native/inversepixelandseedexportchecks pass. GoogleUSD.0030602vsSol.038744;mean1.002svs5.271s,total.0418042/3,unknown0. Recommendadoptboundedreviewedisolatedorientationoption; genericdefault-offjob/runbookand22savednativeclientreplayspass,21focusedtests. [Attempt](/Users/cam/.codex/worktrees/gemini-decisions-20261116/boardgame-ingester/docs/evals/attempts/20261116-scout112-gemini-decisions.md). | Selectedscopecomplete; BGI-only patchlanded95c481c on main byseparateapproval, no newAPIround. Jointintake/privategame/deskew/contours unqualified; temporaryGooglekeyremoved/rootabsenceverified. |
+| Storybook mode selection | Fresh24synthetic:Google24/24vsLuna23/24,explicitconfirm8/8vs7/8,projectedaccepted14/14vs12/12,0dangerousnoopboth. Googlep95520msvs281.49ms,cost.0021931vs.0019403;total54POSTsUSD.0044699/.50,unknown0. Qualityleadpreservedbutknownconsumerdoesnotdispatchimprovedcase; retainLuna. [Attempt200](/Users/cam/.codex/worktrees/gemini-decisions-20261116/storybook/docs/evals/attempts/200-scout112-gemini-decision-mode.md). | Screeningcomplete,no unchangedpaidrepeat. Reopenonlyreachableindependentconsumerneed; no private/runtimeadoptionclaim. |
+| DocWeb consistency sidecar |20authoredcases/twosources×2:Google36/40,F1.8984vsJev24/.6010/Pplx32/.7962. Fixedpolicyaccepted22/22vs14/17vs22/24;unsafeacceptedclean0/1/0,review18/23/16. Googlep95526msvs271/499,cost.0021828vs.0014196/.00042828. 129POSTstotalUSD.004328574/.50,unknown0. Bestcomponentquality; retainfullplanner/defaultdisabledsidecars. [Attempt095](/Users/cam/.codex/worktrees/gemini-decisions-20261116/doc-web/docs/evals/attempts/095-scout112-gemini-decisions-consistency.md). | Screeningcomplete; no newpaidcomparisonneeded. NativeexactJev1.13/Pplx1.2; legacy1.1aliaschangeexplicit. Newusefulfiniteconsumer/independentqualificationrequiredforadoption; sourceambiguity/sensitivitypreserved. Temporarybaselinekeysremoved/rootabsenceverified. |
+
+Cam explicitlyselectedStorybook/DocWebadditionsandBGItemporarykeyreuse.
+AllfiveproviderknownUSD.405579424/10,unknown0;7465validinferencePOSTs,
+22freeBGISolcountPOSTs,no paidjudges/retries. Allcandidatearmsuse native default
+computation/no selectableeffort. Closedownersnotreopened; no defaults/landing.
+
+## Google Gemini 4 Hydrogen — Scout111, 2026-11-15/16
+
+**Complete: all six selected owner decisions settled; two bounded optional uses recommended.** Exact native `gemini-4-hydrogen`, provider-qualified `google/gemini-4-hydrogen`;
+Google GenerateContent/Interactions; owner credentials and explicitly authorized temporary Storybook-source recovery for BGI/Robo, both copies removed.
+Public/owner-authored synthetic fixtures only, no account/default changes.
+[Campaign](../scout/scout-111-gemini4-hydrogen-evaluation-routing.md) and
+[live accounting](../scout/evidence/scout111-campaign-summary.json).
+
+| Task / configuration | Current evidence and decision |
+|---|---|
+| Story persona low8192 | Rubrics2/2 both; exact banned phrase makes tested candidate unsuitable. RetainLuna, other10unmeasured. |
+| Story photo medium16384 | FS0019/9vsFlashLite7/9; source-safe qualitylead.6.505s/.0117825 vs1.734s/.0001854 fails5s/.001; candidate input-only floor.0026325 rules out effort-only rescue. RetainFlashLite, FS006unmeasured. |
+| Story full extraction high65536 | Four freshpairs, H1/4vsOpus0/4 originalnumericgates. LC026linkage.913793vs.785714, bothSarahs resolved. Mean47.641s vs69.531s; total4subjects.3460395vs.838USD. Broader sourcecoveragelead, genuine certaintyerrors and3structuralfailures; retaincompletejob/stages. Details initially called omitted were present elsewhere and rootretractedfinding. No independent C2-onlyconsumer or posthocgoodcase router; no further paidpanel. |
+| Doc handwriting high32768 | Barney.990641vsGemini.985632; independentAlverson.991716vs.984090. Candidate2/2above maintained.99, control0/2. Rootviewedbothnativeimages/fullHTML; omissions and ambiguous readings retained without inventedzeroerrorveto. Normalnativeoptinclient/recipes qualified with actualSDK/native-envelope replay2/2 and reviewpatch ready; mean29.2635s/.0445905vs15.94s/.00867825, choose bounded reviewedaccuracy gain; no broadOCRdefaultchange. |
+| Doc safety/literal high32768 | GenuineS3candidate/currentSol bothconfidentPASS violate mandatoryuncertaintyhold; safetyarmstopped beforeS4/full22. Literalfirstclear23celltableH22/23vsAstra23/23 (O→0without hold); stopliteralarm. |
+| Doc detection high32768 | Bareboxdiagnostic.960vsGemini.9752 notruntimeproof. Genuine finalassistedpage12 keepslogo/seal but loses740fixedROI signaturepixels and printedministercaptions leak. Rootviewedfinalcrop. Stopdetector/full13; no source-preservingadoption. |
+| Cine orderedframes high32768 | Firstfreshtriplet Hcombined.61995vsSol.7999/Luna.72665, all0/1fullpass. Seesfigureenlargement but inventscameramechanism/lateralmovement.11.734s/.025701vsSol8.989s/.0102135,Luna7.138s/.000578675. Retainrefs, remaining5unmeasured. SixPOSTUSD.094848175/10,unknown0. |
+| Echo outlines low16384 | Twofreshcases Hfrozen1/2vsMini0/2/Ember0/2; requiredsounds2/2all. Unsupportedcave/beast/clawsretrieval; musicpolicyambiguityseparate. Hmean13.2765s/.02387475vsMini9.6575s/.007269andEmber6.681s/.00125955. RetainreviewedEmberjob+Mini/default, no liveplanner claim. SixPOSTUSD.0648066/3,unknown0. |
+| BGI low8192 orientation/high65536 contours | Authorizednativeaccessrecovery. Orientation11freshpairs H0wrongauto/7correctauto/2requiredholds/2optionalabstentions vsSol1/8/2/0; fullcase9/11vs10/11, bothconfirmation2/2. Hmean3.165s/.004796vsSol7.788s/.002653. Prefer optionalreviewedisolatedassetconfig, notjointintake; humanreviewtime unknown. Contourfirstsource H5628materialloss/0leak vsSol1530/713, bothfail;5unmeasured.24POSTUSD.1130515/8,unknown0. |
+| Robo whole-race high65536 | Authorizednativeaccessrecovery.007outerstrictvalid, definedgamefields+38/38literalorderedeventpayloadsexact andgroundedcauses, but extraactors violatesexplicitfullhostschema. Retainengine, rejecttestedcontractreplacement without hidingpositivecausaldiagnostic.57.687s/.117099vsfreshengine1.987ms;002/006unmeasured.1POSTUSD.117099/3,unknown0. |
+
+All matched calls and original failures remain in owner artifacts; no within-task
+thinking calibration. Other efforts are unmeasured, not failed. Storybook40POST
+USD1.55679235/10,unknown0. Doc14POSTUSD.2698135known+.31476original404hold=.5845735maximum/18; allin91POSTUSD2.216411125known+.31476held=2.531171125maximum/52. Allsixownerledgersclosed; no requestinflight; campaigncomplete. No automatic same-checkpoint reruns:
+new selected task/changed source-grounded gate, material model/route change, or
+explicit fresh selection required. Originalaccessfailures preserved, actualselectedrecovery completed. Six owner worktrees retained
+under `/Users/cam/.codex/worktrees/hydrogen-20261115/`, uncommitted, for evidence
+and unlanded review work; both authorizedtemporaryGooglecopiesremoved/rootverifiedabsent, defaults/deploy0. Separately selected DocWeb opt-inOCRpatch/evidence landed at56564d95 on remote main; other owner records remain uncommitted.
+
+
+## Meta Muse Ember — Scout110, 2026-11-11
+
+Historical checkpoint: the later Doc Web actual-consumer qualification remained
+unsettled. This publication does not restart execution or reopen closed budgets.
+
+DocWeb [native qualification](../scout/scout-110-docweb-safety-qualification-plan.md#native-result--2026-11-11)
+complete after selected S3earlystop:2validgenuineproposers, both0/1mandatory
+uncertaintyholds. Emberhigh32768 .0004846/2.730s; freshSolmedium4096 .006576/4.866s.
+Physicallycoherent interpretation plausible, not proven image loss; policy
+failure recorded before any operatoraction. Actualproposer/corevalidation and
+independentnativeanchors pass; downstreamrelease/build notrun. New20wallet
+closedUSD.0070606,unknown0,no retry/counter. S4/full22/heldout/repeatsunmeasured.
+Retainmanualreview/defaults. New uncertainty approach/contract or checkpoint
+before separately selected rerun; unusedbudget/untestedlevel notautomaticretry.
+Original090/091sources/custody preserved; no new credentialcopy or defaults.
+
+Request `meta/muse-ember`, native public `muse-ember-1.0`; catalog canonical
+`meta/muse-ember-20261109`. Responses echo alias/Meta, not dated checkpoint or
+effort. Selected OpenRouter -> Meta only with fallbacks disabled; direct-native
+Meta access remains unmeasured (credential absent). All six selected owners
+complete, **USD0.98255117 known/21, unknown0,90inferencePOSTs**. No defaults,
+commits, pushes or deployment. Temporary keys removed and root-verified absent.
+[Results, source review, owner evidence and retained-worktree inventory](../scout/scout-110-muse-ember-evaluation-routing.md#campaign-result--2026-11-11).
+
+**Current follow-through: BGI orientation, Echo reviewed complete-outline
+generation and DocWeb detection only. Cam selected all three on2026-11-11 after
+skill correction300ba36; newUS$5/owner,US$15total, prior wallets stay closed.
+Do not repeat unchanged DocWeb safety. Retain defaults while these specific
+replacement decisions execute; no whole-repo adoption claim.**
+
+| Owner / task / tested effort | Outcome and narrow continuation trigger |
+|---|---|
+| Storybook persona minimal4096 |12/12tie with freshLuna,1.8055vs1.8376smean. Actualsubject.002529096vs.000890705, cacheimbalanced; coldnormalized.0034338vs.0031345. No useful replacement advantage, minor redundant knowncoworker alternatives. RetainLuna; source-backed new task/value question before rerun. |
+| Storybook photo low8192 | FS0018/9vsFlashLite7/9, unsupported third-person certainty from ambiguouscircle and missingstyle detail. .0004821/2.211s vs.0001854/2.298s. FS006unmeasured. Retaincontrol; newgrounding/checkpoint approach before rerun. |
+| Storybook complete extraction/C2 high65536 | LC026 structural.9454/linkage.9565pass,semantic.85fail vsOpus.9530/.8869/.92, bothfullfail. Both omit source meanings; Opus adds surname/bestfriend certainty. .0030585/8.065s vs.194975/61.576s. Threeothers/formalC1deletionunmeasured. Preserve economics/linkage lead, no pipelinecollapse; newsource-preservation method/heldout question before rerun. |
+| DocWeb high32768 safety/crops | Safety6/6,0false-safe vsGPT5.5 3/6,1false-safe; subject.00661308/6,mean5.674s vs.350143/6,3.827s. Crops2/2strict0lost vsGemini0/2,20/18lost; .0020032/2,mean3.478s vs.012382/2,8.6015s. Prioritize exactcurrentSol/full22/actualcaller/heldout safety proof and wider source detector qualification. Golden-assisted axis oracle disclosed; no integration claim. |
+| DocWeb high32768 tables/OCR | Clearcells22/23with2unsupportedholds vsAstra23/23;2tablesunmeasured. ActualdriverOCR.962697vsGemini.979899,both<.99. Retainreader/OCR. Newmaterialcheckpoint/source-backed method before repeat. |
+| BGI orientation low8192 |8pairs: Ember7/8,0wrongauto,2/2holds vsSol6/8,1wrongauto; safeabstentionpub012coverage miss retained. .002471164/8,2.365smean vs.014348/8,5.245s.16nativepixelproofrootreplayed. Independent broader eligible qualification, no deskew/realgame claim. Oldunsafe metric limitation and routingpub012/pub014label repair recorded; no goldenchange. |
+| BGI contours high65536 |1pair:5089materiallost/186leak vsSol1742/639,both0pristine. .0007893/5.185s vs.009846/10.284s. Fiveunmeasured underdeclaredstop. Rejecttestedarm for unattendedcutouts; newgeometry/checkpoint/source-method question before rerun. |
+| Cine orderedframes high32768 |1/6freshtriples: Emberdeniessourcegrowth,.5368/.45/.4934structural/rubric/combined,2.377s/.0007332; Sol.595/.72/.6575,8.105s/.0101135; Luna.7143/.72/.71715,8.687s/.000568675. Allfullfail; controlsseeactualgrowth. Fiveunmeasured. Retaincontrols; newgrounding method/checkpoint before rerun, no exposed-panel effort rescue. |
+| Echo scenes low16384 |2/2frozen vsMini0/2; requiredsounds2/2both. .0024646/2,4.8555smean vs.01398/2,9.9365s. Cave tag/queryunsupported, Tavern5.904ssoftgate miss. Prioritize broader independent source-grounded qualification; do not pretend source-perfect or auto-adopt. |
+| Robo whole-race high65536 |007strict failure:2state diffs,38events33exact,36groundedcauses,wrongdamage summary;2laserhitsmissed. .0042727/12.978s;002/006unmeasured. Freshengine oracle, Fablehistoricalonly. Rejecttestedarm; separatelyselected materialcheckpoint/task-contract change before repeat. |
+
+All scopes public/authored synthetic. Explicit effort sent/nonzero reasoning
+observed, no within-task level calibration. Untested levels remain unmeasured;
+not an automatic retry trigger. No semantic retries; offline adapter/scorer/
+custody repairs reuse original answers and retain producing epochs. Current
+small exposed gains require owner consumer/independent qualification, not another
+unchanged frontier nomination. Six worktrees retained uncommitted under the
+approved Ember task root; evidence manifests and protected original custody are
+linked in the campaign record. Provider bills unverified.
+
+## Moonshot Kimi K3.1 Pro — Scout102, 2026-10-23
+
+Canonical requested/served router `moonshotai/kimi-k3.1-pro`, standard endpoint
+`moonshotai/mxfp4`, catalog label dated20261023, MXFP4. Documented native alias
+`kimi-k3.1-pro` was not called directly; Code/subscription and highspeed routes
+remain untested. Distinct from evaluated Kimi K3/K2.6. Exact model/provider echo,
+endpoint pin and price ceilings establish requested routing, not immutable served
+weights or independently attested reasoning effort. Public/authored-synthetic
+only; possible retention/training, ZDR unverified.
+
+**Retain runtime choices. Preserve DocWeb's bounded crop source-fidelity lead
+and Echo's single-Tavern semantic win; neither is deployment-qualified.**
+[Completed Scout102 and direct owning evidence](../scout/scout-102-kimi-k31-pro-evaluation-routing.md#completed-owner-comparisons--2026-10-23).
+
+| Owner/task and tested configuration | Layered finding and action |
+| --- | --- |
+| DocWeb high32768 source tasks | Crop13 fresh pairs: both13/13 scorer passes, means.975262 vs.961923 Gemini; Kimi retains complete Image001 lettering that control clips. USD.1436312 vs.0562925, mean8.017 vs8.592s:2.55x cost, no meaningful latency win. Shared physical-cover-margin uncertainty remains. Completed US$0 exact-source parser/request audit:13 saved benchmark outputs yield0 boxes each under actual consumer, whose prompt/schema/provider/provenance differ. That historical audit remains unchanged. Approved Attempt083 follow-through now qualifies native schema and actual full-module parser via an explicit eval-only adapter on original Image001. Both candidate and exact Gemini put date in caption metadata, failing the selected integral-title/date image grouping gate; no factual date error established. Automatic OCR admission still skips this page; no full-pipeline or installed adapter claim. Kimi .032776USD/24.005s vs Gemini .003154/4.917s, n1 each; retain defaults. Table22/23 plus2gratuitous holds vsAstra23/23, handwriting.966583<.99 with source substitutions/normalization; retain readers. Requested exactGemini3.7 OCR served3.8, quarantined, relative OCR unmeasured. |
+| Dossier high65536 long history | One321KB synthetic continuation:both5/5 meanings, all16 vs19 emitted rows preserved, zero minor/material. Compressed documentary basis valid without invented extra-row requirement. Kimi.1907156USD/67.056s vsSol.175818/37.589s:8.47%costlier/78.39%slower. Strict-qualified; bounded meaning tie, economics worse, retainSol medium16384. |
+| BGI low8192 orientation/high32768 contours | Two matched orientation cases:Kimi1/2 incl wrong automaticEast0vs270;Sol1/2 withsafeabstention. Candidate2.243xcost/1.627xlatency. One matched dense contour:4166materiallost/4092rim/430BGleak vsSol2117/2117/628;bothfail, Kimi1.732xcost/1.875xlatency. Strict contracts qualified; retainSol/review, reject tested automatic/pristine arms. Remaining2orientation/5contour candidate cases unmeasured; extraSol006 cleancontrol unpaired. |
+| CineForge high32768 ordered JPEGs | One exposed matched case:strict native+adapter qualified, .70185 combined vsSol.66910/Luna.75595, all0/1 dualpasses. All scoredarms correctlyseeenlargement; subjective/lexical penalties prevent quality ranking. Kimi20.916s/.0153204 vsSol8.541/.0029847/Luna4.948/.00025017; first-stage15s gate unmet. Native qualification misses enlargement, retained variance evidence. Retain research references; prop/tunnel unmeasured, no shipped caller claim. |
+| Storybook low8192 photo/persona | FS0018/9 vsFlashLite7/9 assertions, exactOCRboth; field-placement sensitivity, no semantic superiority. Kimi11.744s/.011486 vs2.137/.0001854 fails5s/.001. Photo inputcostalone.004426 exceeds.001. No-advice1/1both source+fixedrubric, Kimi6.804s/.009096 vsLuna4.215/.00031205 fails5s. Qualified actual prompt-only image/plaintext contracts; retainGemini/Luna. FS006/11persona turns unmeasured. |
+| Echo low8192 intent/scenes | Intent13freshpairs11/13 vsGemini13/13;both8/8recall,0falseactivations,ambiguity0/2vs2/2 makes fullmax1/3<already2/3.29remainingperarm unmeasured. p955.773vs7.758s,USD.025494vs.008715:25.6%faster/2.925xcost. Tavern exact1/1vsMini0/1musicpolicy:bounded semanticwin, but.04246USD>hard.01 and46.604svs10.776/.0080265. Dungeonunmeasured. Both strict contracts qualified; retainGemini and current mapper under economic limits. |
+
+Inclusive usage-priced spend **US$2.205772395/59**, unknown0: Doc.4237484,
+Dossier1.5079566, BGI.0522175, Cine.105109945, Story.03204445, Echo.0846955.
+Subject/control/judge/qualification costs remain separated in linked owner
+ledgers. This is not invoice evidence or total agent/operator cost. Shared
+in-flight402 admission recovered unchanged with documented pre-provider-zero
+settlement, Retry-After and serialized slots; do not score it as model quality.
+Temporary BGI/Story router variables removed/name-only absence verified; other
+owner keys untouched. No defaults, commits, pushes, deployment or landing.
+
+Approved DocWeb production-contract follow-through closed separately at
+**US$0.035930/10**, two native POSTs, unknown0 and no paid repair. Combined
+usage-priced spend across the closed original campaign and this distinct
+follow-through is **US$2.241702395**. Original source bytes matched both arms;
+full-module parser and strict candidate schema passed. Shared date-as-caption
+behavior exposes a source-grouping/caption-policy conflict, not a Kimi factual
+loss. [Follow-through and owner Attempt083](../scout/scout-102-kimi-k31-pro-evaluation-routing.md#production-contract-result--2026-10-23).
+
+Subsequent approved offline planning recommends the existing reviewed-plan
+ownership/wiring route before prompt/schema changes. Four synthetic no-network
+admission checks pass. Approved opt-in implementation then passes a real driver
+replay on five manually reviewed source units: exact source RGB and original
+OCR content retained, with schema-default addition explicitly recorded in
+proof-v2. This bypasses detector/caption inference through existing planner
+ownership; automatic recognition and Kimi qualification remain unmeasured.
+No new inference or checkpoint evaluation.
+
+No within-task effort calibration; other supported levels remain unmeasured,
+not failed. Narrow reopening: Doc crop needs source-grouping authority and
+automatic admission reconciled before downstream replay/unseen promotion;
+conditioned parser/native receipt qualification is now demonstrated, while
+installed provider stamping and full-pipeline behavior remain unmeasured; repeat of the exposed13case benchmark alone is not useful. Readers
+need a material checkpoint/source-faithful configuration trigger. Dossier needs
+an independently justified task/configuration that can improve economics while
+preserving all meanings. BGI needs source-backed orientation/boundary fidelity
+evidence; Cine needs source-aware scoring/contract validity and an eligible
+configuration; Story photo needs a route whose input economics can meet.001,
+persona an evidenced latency improvement; Echo needs a checkpoint or justified
+configuration addressing ambiguity or scene hard economics. Metadata/pricing
+alone does not repair semantic, latency, contract or consumer gaps.
+
+## Inception Mercury 3 — Scout100, 2026-10-21
+
+Canonical router checkpoint `inception/mercury-3-20261019`; requested/served
+`inception/mercury-3`, pinned Inception; native alias `mercury-3` not called.
+Distinct from Mercury2.5 Preview. Exact access and owner contracts qualified;
+immutable backend revision/quantization unattested. Public/authored-synthetic
+only; retention/training possible, ZDR unverified. **Prioritize independent DocWeb
+full-planner qualification; retain runtime choices.**
+[Completed Scout100 and direct owner evidence](../scout/scout-100-mercury3-evaluation-routing.md#completed-owner-comparisons--2026-10-21).
+
+| Owner/task and tested setting | Layered outcome and action |
+| --- | --- |
+| DocWeb medium65536 full planner |One exposed six-chapter aggregate:both6/6 raw/normalized statuses; Mercury coherent policy versus GPT4.1fragmentation/fused-header contradictions, coordinator-blind source confirmed. Minor candidate preview-truncation wording retained. USD.00409646vs.027820 (85.28%less launch;70.55%less regular equivalent),23.937vs10.931s (119%slower). Bounded full-policy/cost winner; prioritize independent qualification, no runtime adoption. GPT5primary unrun. |
+| Dossier high65536 long history |One321KB synthetic continuation4/5preserved+1minor versusSol5/5, zero material. Landing-papers attribution null and no other structured documentary basis; full-source evidence alone does not satisfy exact all5gate.10rows(9preserved/1reasonable)versus19/19preserved. USD.01160811vs.178118,23.901vs51.146s. RetainSol medium; reject tested drop-in arm despite speed/cost gains. high32768parity exhausted reasoning/no final, approved65536repair compiled; retain failure/overhead separately. |
+| Echo low32768 intent/scenes |Intent13freshpairs11/13vsGemini13/13;8/8recalltie,0false controls;ambiguity0/2vs2/2 yields mathematical max1/3<control minimum2/3.29remaining per arm unmeasured. p951.385vs9.974s,USD.00143930vs.01014750. RetainGemini. Tavern0/1both:Mercury fixed intensity default2vs1,Mini music/mood;not numeric source contradiction. USD.00213505vs.008643,10.384vs8.475s. No scene winner;Dungeon unmeasured. No safe mixed route. |
+| Storybook low32768 persona |3freshpairedturns2/3vsLuna3/3;explicit forbidden phrase and inferred emotional meaning violate production Inference Firewall, blindGPT5confirms. Nine/allmulti-turnturns unmeasured under progressive stop. Mean1.386vs2.351s;USD.00081833vs.00041610,96.7%more expensive. RetainLuna none512. |
+
+Inclusive usage-based spend **USD1.40800617/11.50**, unknown0: candidate
+subjects.02009725, comparators.22514460, judges1.136305,qualification/recovery
+.02645932 including Dossier truncation. Native rates/usage are not account
+invoices. Temporary keys removed/name-only absence verified; existing owner keys
+preserved. No defaults, commits, pushes or landing.
+
+Effort was task-specific; no within-task level comparison. Low/medium/high
+requested explicitly with reported reasoning, not independent level attestation.
+Untested efforts remain unmeasured. Do not repeat unchanged exposed arms.
+Narrow retry conditions: DocWeb separately selected independent full-planner
+policy/evidence qualification against the actual intended consumer configuration;
+Dossier a material checkpoint or source-backed attribution-preserving
+configuration hypothesis, with adequate allowance/reliability and no quality
+weakening; Echo/Storybook a material checkpoint, source-backed contract change
+or separately justified bounded effort configuration addressing the specific
+misses. Price/catalog/documentation alone does not repair these quality gates.
+
+## Microsoft-Decision-1 — 2026-10-12
+
+Canonical provider-qualified served/requested checkpoint:
+**OpenRouter `microsoft/microsoft-decision-1-20261009`, provider Azure**.
+Aliases: `microsoft/microsoft-decision-1`, Microsoft-Decision-1,
+Foundry model Microsoft-Decision-1 version1. Live public decision catalog and
+native owner replies establish the alias/canonical mapping; no immutable
+weight hash is inferred. Latest campaign started2026-10-11, closed2026-10-12.
+[Scout090](../scout/scout-090-microsoft-decision-1-evaluation-routing.md#completed-owner-decisions--2026-10-12)
+links direct Storybook Attempt181, Doc Web Attempt069 and Echo control records.
+
+- Access/transport: callable exact native alpha Decisions/Choice in all three
+  selected owners. Text-only; no vision, generative rationale, tools or strict
+  arbitrary schema parity. Storybook uses an eval envelope projection into its
+  current minimized production guard, not a deployed OpenRouter integration.
+  Public alias responses initially quarantined by validators were corrected
+  offline using catalog evidence, retaining original replies/charges.
+- Reliability:282calls, all complete with known usage, no provider faults,
+  retries or unknown exposure. Bounded serial reliability only. Qualified
+  fixture eligibility is synthetic; private/runtime retention/ZDR unmeasured.
+- Capability/economics: Storybook24/24mode/fullpath ties current Decisions,
+  zero unsafe/invented IDs;16vs18actual Haiku fallbacks. Task9.0%cheaper,
+  p9510.6%lower, but median14.8%slower; routep9546.3%lower andmedian61.2%slower.
+  Doc Web cascade32/40vsGPT30/40, same4confirmed-defectfalsecleans, uncertain
+  recall100%vs75%, task55%cheaper/p9525.7%slower.20unique/two sources×2;
+  paired2wins repeat one uncertainty case. Echo36/48vsGemini45/48,
+  falsecontrols3vs1, recall17/20vs20/20, ambiguity0/6vs4/6;82.2%lowerp95 and
+  98.1%lowercost do not clear quality. Preserve independent task outcomes.
+- Adoption: prioritize independent Storybook promotion check; Doc Web second,
+  retain planner until source-aware full-path validation; reject Microsoft for
+  unchanged Echo control. No qualified new confidence routing policy, product
+  default, deployment, commit, push or landing. Inclusive campaignUSD.240360144
+  ofUSD5, unknown0; temporary OpenRouter owner variables removed.
+
+Narrow retry triggers: Storybook/Doc Web need separately selected independent
+representative runtime-shaped/full-path promotion coverage with frozen gates,
+not another unchanged exposed-corpus run. Echo needs a changed checkpoint or
+materially changed contract with independent eligible proof. Catalog/price
+metadata alone and same-case threshold tuning do not justify retry/adoption.
+
+2026-10-12 plan-only follow-through: the historical Storybook benchmark used
+an explicit2048-token direct Haiku request; current production passes no output
+limit and pinned Anthropic SDK resolves64000 plus default2retries. Zero-network
+mock capture verifies that distinction; previous task scores remain scoped to
+their preserved request envelope, not exact SDK transport parity. The
+[prepared independent Storybook validation plan](../scout/scout-090-storybook-promotion-validation-plan.md)
+uses actual SDK dispatch/adapter/eligibility,24new synthetic scenarios×2 and
+a revisedUSD1all-attempt ceiling with rolling per-call admission; originalUSD40proposal withdrawn. Execution selection remains pending; no
+new authenticated model attempt or provider spend occurred during preparation.
+
+Selected independent Storybook follow-through completed2026-10-12:
+[Attempt182](/Users/cam/.codex/worktrees/microsoft-storybook-promotion-20261012/docs/evals/attempts/182-story150-microsoft-independent-promotion.md)
+qualifies the actual dormant native Microsoft adapter/outer eligibility and
+real Haiku SDK fallback, preserving64000output/default retries.24new independently
+authored/reviewed synthetic scenarios: native23/24vs21/24, full23/24vs22/24;
+18vs21actual Haiku fallbacks. Cost10.1%lower/fullp9512.7%lower, conventional
+median3.4%worse;20/24paired paths slower, aggregatebenefit depends on avoided
+noops/outliers. Both native models miss overlapping-period ambiguity; shared
+Haiku targeted-confirmation result violates the source-valid targetless-clarify
+contract, without autoapply/inventedIDs. Repeat2not admitted by declared quality
+prerequisite. Retain runtime; no promotion or robust economy claim.
+89inferenceHTTPresponses,0retries, all-in knownUSD.188736872/1, unknown0.
+Temporary key and task-owned synthetic DB cleaned. Combined known campaign+
+follow-throughUSD.429097016, independently authorized capsUSD5+1. Next justified
+work is offline ambiguity/confirmation contract investigation; no same-case
+threshold tuning, unchanged repeat or automatic private/default activation.
+This exercises and closes the prior Storybook independent-validation retry
+trigger. Another unchanged nomination is not justified; a further candidate
+comparison requires a separately selected source-backed contract repair plus
+new independent validation, or a materially changed checkpoint. Doc Web's own
+independent source-aware trigger remains separate and unexercised here.
+
+Offline consumer-boundary correction2026-10-12:
+[investigation](../scout/scout-090-storybook-clarification-investigation.md)
+shows the paid23/24vs22/24Storybook outcome scored interpreter composition,
+omitting the actual downstream operation guard. Existing guard clears both
+c07drafts to targetless clarification. Separate saved-output projection through
+that guard scores17/24vs16/24, exposing7shared linguistic-grounding deferrals;
+controln06unnecessary confirmation remains. No originalgold/response/paidscore
+rewritten. Zero new provider/DBcalls or spend. Runtime adoption still not
+qualified; repair benchmark boundary fidelity before another comparison.
+Do not implement a duplicate ambiguity heuristic or erase valid targeted
+confirmations: three provider-free negative controls prove those are legitimate.
+
 ## Alibaba Qwen4-Max — Scout114, 2026-11-16
 
 **Skipped by Cam after no existing native access was found; no further evaluation planned.** Canonical
@@ -891,7 +1222,7 @@ trigger.
 | OpenRouter `xiaomi/mimo-v2.6-flash` | MiMo V2.6 Flash; catalog `xiaomi/mimo-v2.6-flash-20260921`; no inferred equivalence to separately named open weights | 2026-09-22 | [Scout074 completed attempt](../scout/scout-074-mimo-v26-evaluation-routing.md#owner-results--2026-09-22), five direct owner attempts/base identities/manifests | Flash callable on DeepInfra in two limited responses: Doc Web strict synthetic output but reasoning not disabled; Echo one strict reasoning-off case805ms. Both then capacity-limited; Pro also429. CineForge both rejected5images>4, with raw-error custody loss. Storybook/Dossier native429. No completed benchmark, controls, judges, relative quality or adoption; all defer. Doc Web extra capacity requests, generic-DeepInfra rather than FP8 pin in3owners, and Storybook invalid original reservation explicitly retained. Campaign known USD.00014672; conservative exposureUSD1.435527145/5, with Storybook bound.6036866 exceeding its.25owner cap; not billed cost. All temporary keys removed, no defaults/commits. | Explicit fresh selection or decision-bearing changed route evidence addressing shared capacity; first fix exact-route/reservation/retry/custody preflight. CineForge needs a route accepting maintained5images, with separately approved route change if needed. Metadata alone is not callability or quality proof; no unchanged automatic retries. |
 | OpenRouter `xiaomi/mimo-v2.6-pro` | MiMo V2.6 Pro; catalog `xiaomi/mimo-v2.6-pro-20260921`; excludes UltraSpeed/open-weight substitutions | 2026-09-22 | [Scout074 completed attempt](../scout/scout-074-mimo-v26-evaluation-routing.md#owner-results--2026-09-22), five authoritative owner attempts | No terminal Pro response: four owner capacity429 stops and CineForge5images>4 rejection. Callability unverified, required transport blocked, capability/comparative economics unmeasured, adoption deferred. Shared campaign cost/deviations/cleanup recorded in Flash row and Scout074; no provider failure scored as semantic loss. | Explicit fresh selection or evidenced route change addressing capacity/required image cardinality; corrected exact-route/reservation/retry/raw-custody preflight before any new call. No unchanged automatic retry, metadata-only quality claim, or UltraSpeed substitution. |
 | xAI `grok-4.7` | Grok 4.7; exact direct unversioned ID, no inferred dated direct alias | 2026-10-02 | [Scout083 fresh reasoning follow-through](../scout/scout-083-grok47-reasoning-follow-through.md), direct owner Attempt023/053/047; historical [Scout073 completed campaign](../scout/scout-073-grok47-evaluation-campaign.md), with direct owner attempts/manifests/base identities | October2: Dossier low2/2 source-clean tie vs fresh Astra,63.632% cheaper/37.690% slower; medium1/2 only, high2/2 faithful diagnostics but second reports24382 output against8192 requested/echoed. New xAI dispatch stopped; no enforceable cost bound. Doc Web all efforts miss required title art; medium photo improvement insufficient. CineForge current v4 low/medium/high .50987/.54853/.49648,0/3 rubric passes each, temporal errors persist; no expansions/comparators. New accountedUSD.871834/USD15 including judge estimates, unknown0; retain defaults. September22 historical: Echo: corrected96valid calls; Grok46/48 vs fresh Gemini45/48,0vs1false activations,median3105vs1240ms; retain Gemini interactive default. Original9calls512token mismatch diagnostic only; fresh Grok4.6control deferred on reasoning-budget contract. Doc Web:11/13,.745785 fails detector,17calls incl duplicate probe. CineForge frames:.4816 fails quality; ScriptBibleUSD.015042 exceedsUSD.01, scorer-quality ambiguity retained. Storybook:11.737s/USD.008706 native stop, full quality unmeasured; raw receipt intact but exact call-time runner reconstruction unavailable. Dossier:one acceptable snapshot then30s HTTP timeout; full screen/comparison unmeasured. ConservativeUSD1.388118/USD4.80 includes judge estimates/reservations; all temporary keys removed; scoped owner evidence/repairs landed, no runtime defaults changed. | Current: qualify provider total-output/spend contract before any new Grok generation; then source-distinct Dossier confirmation only if justified. Image/frame retries require material source-grounding/checkpoint improvement; higher effort alone did not qualify. Historical retry rationale: Echo: representative fresh confirmation and runtime parity, not exposed-corpus repeats; fresh Grok4.6 requires bounded eligible contract/new scope. Doc Web/CineForge: material checkpoint or source-backed grounding/value change; ScriptBible offline adjudication found faithful paraphrases plus interpretive ambiguity; no safe general lexical repair, original score retained and cost stop decisive. Storybook: materially faster/cheaper configuration/checkpoint or explicit new contract. Dossier: offline synchronous timeout-policy repair completed with27 focused tests; explicit fresh selection still required, no automatic retry or erased historical timeout. |
-| Google direct `gemini-2.5-flash-lite` | Exact served `gemini-2.5-flash-lite`; Story061 full proposal and completion roles | 2026-09-21 | [Storybook Attempt164](/Users/cam/.codex/worktrees/jev-artifact-link-full-20260921/docs/evals/attempts/164-story061-jev-full-artifact-link-workflow.md) | Full artifact-link follow-up: seven complete pairs, incumbent15/17 vs JEV+Gemini14/17; incumbent$0.001983 vs cascade$0.002174906 (+9.68%), medians1763ms vs1663ms. Case8 completion added JEV-rejected candidate;24calls total$0.004911288,23qualified/1composition-invalid. Native transport worked; keep incumbent. Shared source-wording/provenance defects recorded, four cases unmeasured, maintained synthetic sample not held-out. | Materially different structurally enforced completion mechanism with plausible full-workflow benefit; no unchanged rerun. |
+| Google direct `gemini-2.5-flash-lite` | Exact served `gemini-2.5-flash-lite`; Story061 full proposal and completion roles | 2026-09-21 | [Storybook Attempt164](https://github.com/copperdogma/storybook/blob/9717bcbbc64a943a5f9d6b9b3db7a3eee0007c3f/docs/evals/attempts/164-story061-jev-full-artifact-link-workflow.md) | Full artifact-link follow-up: seven complete pairs, incumbent15/17 vs JEV+Gemini14/17; incumbent$0.001983 vs cascade$0.002174906 (+9.68%), medians1763ms vs1663ms. Case8 completion added JEV-rejected candidate;24calls total$0.004911288,23qualified/1composition-invalid. Native transport worked; keep incumbent. Shared source-wording/provenance defects recorded, four cases unmeasured, maintained synthetic sample not held-out. | Materially different structurally enforced completion mechanism with plausible full-workflow benefit; no unchanged rerun. |
 | OpenRouter `openai/gpt-5.4` | Catalog canonical `openai/gpt-5.4-20260305`; served response retained alias, provider `OpenAI` | 2026-09-21 | [Scout072 focused assertion-review comparison](../scout/scout-072-jev-classification-opportunities.md#focused-comparison-completed--2026-09-21); Storybook Attempt162 | Reasoning none, strict JSON, standard OpenAI route,13/13 successful calls. Observed2/2 defects flagged with0/5 false alarms; planted6/6 flagged,3/6 exact combined labels. US$0.040515, median1301ms. Focused JEV matched detection/false alarms at lower cost and latency; no runtime adoption. | Source-disjoint Attempt163 completed:0/1 prelabelled chronology flags,5/16 healthy falsealarms versus JEV0/16; sixcallsUS$0.04678, median1437ms. Farmhouse gold is interpretation-sensitive as documented in Scout072; preserve the frozen result without claiming general chronology accuracy. No relative advisory advantage. Different maintained role/configuration with explicit selection; no unchanged repeat or blanket fallback recommendation. |
 | TypeSafe `jev-1.13.0` | `jev-latest`, `jev-preview` moving aliases; evaluated pinned checkpoint | 2026-09-30 | [Scout072 relative rerun](../scout/scout-072-jev-classification-opportunities.md#completed-relative-storybook-rerun--2026-09-21), owner raw evidence linked there | Storybook: fresh 12 cases × 2, JEV and narrow Haiku 24/24 mode+target; JEV 20/24 accepted projections. JEV routing 89.5% cheaper/4.6x faster median. Full Haiku and measured serial cascade 22/24; cascade 20.6% cheaper/slightly slower. 75 calls US$0.119062142/$1; temporary key removed. Relative recommendation supports bounded JEV routing; Story167 integration and Attempt159 evidence landed at 67e8e44; hosted activation approved with a new owner key. Actual deployed-router synthetic smoke passed in 284 ms/$0.000035658, without fallback; no production quality claim. Echo Gemini/Grok runtime landed 518046e. Remaining four-lane campaign completed: Doc Web cascade33/40 vsGPT29/40; Dossier JEV/GPT15/15; Storybook links JEV25/30 vsGemini23/30; Scrypted diagnosis16/16, next-step15/16. 172 calls/$0.089721794 total including corrected runs; see [portfolio results](../scout/scout-072-jev-classification-opportunities.md#remaining-portfolio-campaign-results--2026-09-21). Follow-through complete: Doc Web Story234 shadow hook and Dossier Story171 advisory API implemented and independently validated in isolated worktrees; landed Doc Web81d4cfa9/Dossier9fc49b17; Storybook link evalb619d007 and Scrypted evalb2198f3d also landed. Integrations remain opt-in with no live enablement and zero additional provider spend.  Additional approved Echo scene-intent lane: component32/32 clear vs rules14/32,25/25accepted at.95;57callsUSD.002316762. Fresh full-proposal16callsUSD.000966504,cumulativeUSD.003283266: original10/16complete,post-code11/16,positive2/7,14review. Deterministic repair improves local7→9/16complete,3→4/7positive; Jevunchanged. NO-GO normal/default use; diagnostic prototype defaultoff. [Scout081](../scout/scout-081-jev-additional-decision-seams.md). | Doc Web dedicated key provisioned and one synthetic native runtime observation passed (303ms/$0.000044268, low-confidence planner fallback); six anonymized structural cases then completed for$0.03386839: planner5/5 visible vsJEV4/5, with contradictory planner conventions causing the mismatch and deterministic guard preventing false clean; separate compaction probe failed both. Boundary fixes plus frozen-input recheck completed: planner6/6, rawJEV3correct/2wrong/1skip, safe guarded routing at$0.030029128; generation still produced one detected/bypassed convention contradiction. Keep JEVdefaultoff in DocWeb; source-disjoint workload evidence needed before expansion; Storybook confirmed as sealed semantic consumer; [consumer advisory run](../scout/scout-072-jev-classification-opportunities.md#dossier-consumer-frozen-live-experiment--2026-09-21) completed13calls/US$0.000514458: observed0/2defects flagged with0/5falsealarms, planted6/6correct, diagnostics unscored, median239ms; keep current generic reviewer out of production, focused comparison subsequently completed26calls/US$0.04153161: JEV and GPT-5.4 each2/2 observed detections,0/5 false alarms,6/6 planted flags; focused JEV preferred at39.85x lower cost/5.38x lower median duration, planted label5/6 vs3/6. See [focused comparison](../scout/scout-072-jev-classification-opportunities.md#focused-comparison-completed--2026-09-21). Targeted known-error reformulation, not held-out; source-disjoint Attempt163 then completed12calls/US$0.047810302: both0/1 prelabelled chronology flags, JEV0/16 healthy falsealarms versusGPT5/16; JEV45.40x cheaper/4.96x faster median. Three sourcefamilies with clustered rescue rows; farmhouse gold is interpretation-sensitive (Scout072), not a general chronology metric. Focused advisory integration landed: Dossier Story172 at7fa90aea; Storybook Story168 at01c8e74 with that exact installed pin and frozen Attempts161–163 at eb6384e. Mocked installed-API, custody/UI and packaging checks passed; Subsequent hosted pilot completed on2026-09-22: deployed runtimec55dc39, receiptfa55e6a, eight synthetic assertions/two batches for$0.000300762; source-support advisory turned back off after74.6seconds, graph unchanged. Relationship routing remains enabled. Earlier Google readiness probe failed HTTP400 invalid key; replacement owner key subsequently validated, preserving the original failure record. Prefer focused JEV for bounded opt-in advisory use; longchronology remains unvalidated and no measured blanketGPTfallback benefit; Storybook complete-link Attempt164 now measured: seven paired cases Gemini15/17 vs cascade14/17, cascade9.68% more expensive/5.69% lower median latency, then Gemini completion added a rejected candidate on case8. Total24calls/$0.004911288; retain Gemini, no unchanged rerun. Scrypted read-only adjunct lower priority. New representative traffic or owner-approved integration validation; no arbitrary perfection/50%-savings rejection. Preserve full-contract and routing distinctions, original failures and synthetic-sample limits. New2026-09-22 Echo metadata ranking: current matcher13/21 top1 versusJEV21/21, exact-title7/7 tied, seven reused synthetic pools/four eligible candidates;28qualified calls/$0.00187047, median182ms versuslocal0.152ms. Optional reranker follow-up supported, absolute cutoff not validated (one valid result rejected). [Ranking evidence](../scout/scout-072-jev-classification-opportunities.md#echo-forge-sound-ranking-result--2026-09-22); no runtime adoption. Storybook passage ranking Attempt165:24queries/48calls/$0.003214544, rawtop5 useful71→92/nDCG.846→.957, but actual exact-rescued top4 useful64→65/nDCG.804→.810 and only2/24surfaces changed; addedmedian195ms. Retain current pipeline despite ranking capability gain. [Passage evidence](../scout/scout-072-jev-classification-opportunities.md#storybook-passage-ranking-result--2026-09-22). Bothlanes76calls/$0.005085014; no production changes. Subsequent Echo built-in catalog Attempt002: real416-candidate pool, local target sound top1 10/16 versusJEV15/16, five wins/zero losses, one local-retrieval miss;18/18calls/$0.003426696, JEV median221ms beyond local matcher median46.8ms. [Catalog evidence](../scout/scout-072-jev-classification-opportunities.md#echo-forge-built-in-catalog-reranking-follow-through--2026-09-22). Later final-panel and playable-action checks below park the Search use case; no default adoption.  Scene-intent lane complete; no same-corpus cutoff/prompt tuning or automatic paid repeats. Keep localSearch; fresh representative proof needed before revisiting this Jev route. |
 | Alibaba Model Studio `qwen3.8-omni-flash` | Qwen3.8-Omni-Flash; direct service, no immutable dated checkpoint established; distinct from ordinary Qwen3.8 Flash/Max | 2026-09-19 | [Scout071 selected campaign](../scout/scout-071-qwen38-omni-flash-evaluation-routing.md); CineForge Attempt037, Doc Web Attempt038, Storybook Attempt157 (isolated owner worktrees linked in scout) | All three selected owners stopped at absent configured direct Alibaba credentials before any authenticated request or inference. No supported central Alibaba credential mapping; no exact public OpenRouter route. Spend US$0/$1.35. Callability unverified; transport, reliability, capability and inference economics unmeasured; adoption deferred, no defaults changed | Authorized direct Alibaba access plus its region/workspace endpoint configured; resume access/native-contract qualification within the selected caps. A different exact-model route requires a new scoped proposal. Catalog or pricing changes alone do not resolve credential absence |

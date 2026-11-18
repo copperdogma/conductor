@@ -1,0 +1,1288 @@
+{
+  "campaign": "Scout110 DocWeb safety qualification preparation",
+  "authorization": "Cam Go for it after recommended safety/caller qualification; this stage is the explicitly scoped offline packet in prior recommendation",
+  "provider_calls_authorized": false,
+  "known_usd": 0,
+  "new_worktrees": [],
+  "reused_worktree": "/Users/cam/.codex/worktrees/ember-20261111/doc-web",
+  "branch": "codex/ember-20261111-doc-web",
+  "base": "c65346e4be7d757fa1130cb23fd8efc2fa41a191",
+  "parent_attempt": "docs/evals/attempts/090-ember-source-fidelity.md",
+  "parent_record_files": [
+    {
+      "path": "docs/evals/attempts/090-ember-source-fidelity.md",
+      "sha256": "33d75cf254f2f19ebbf81fe9cbaf6f34c88cc6134c15ea3ebf10b36025ffc009",
+      "bytes": 8849
+    },
+    {
+      "path": "docs/evals/evidence/090-ember/manifest.json",
+      "sha256": "f1a5266765205716595340022c45deb8fdc965874af24f533d95e2da5e1d5881",
+      "bytes": 77844
+    },
+    {
+      "path": "docs/evals/evidence/090-ember/summary.json",
+      "sha256": "eaccbae8d363d90b675df03156b38a260dcd06f6e506e4c06e241e70ee53cdc5",
+      "bytes": 4003
+    },
+    {
+      "path": "docs/evals/evidence/090-ember/ledger.json",
+      "sha256": "d4732fbf03c6935aec75c4847eb2c33d26b888d9949d6b0a484b6f9ee8cd2c19",
+      "bytes": 28503
+    }
+  ],
+  "prior_custody_manifest": {
+    "archive": "/Users/cam/.codex/archives/ember-20261111/doc-web",
+    "mode": "directory0700/files0600",
+    "members": [
+      {
+        "path": "benchmarks/results/ember-20261111/ember-ocr-barney-candidate-20261111.log",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/ember-ocr-barney-candidate-20261111.log",
+        "bytes": 947,
+        "sha256": "de8aa9b154db045528fde17daa4e7372dd249db1307e1c2bb25a409077ccd45f",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/ember-ocr-barney-control-20261111.log",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/ember-ocr-barney-control-20261111.log",
+        "bytes": 942,
+        "sha256": "43343ffeec10588881839194c2f6d833cb2140a0f4ddb9b93c72bae405c2a7fa",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/ledger.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/ledger.json",
+        "bytes": 28503,
+        "sha256": "d4732fbf03c6935aec75c4847eb2c33d26b888d9949d6b0a484b6f9ee8cd2c19",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/panel.log",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/panel.log",
+        "bytes": 9306,
+        "sha256": "10a2a4cfdf38b859b61fffaec5c5b6289dd42bd7dcc70537735c2546e189d3e1",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-001.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-001.json",
+        "bytes": 104020,
+        "sha256": "6a12e8d49a1c45908bba1aaa77c5748d632c51a416d76c8ac8643765dda396b6",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-002.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-002.json",
+        "bytes": 103822,
+        "sha256": "a3f7e7b0c98c08aad517b00d6467a7ff6ed6802e6031feb50eee974deef04e8c",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-003.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-003.json",
+        "bytes": 9116323,
+        "sha256": "d52d2d851d17f364a422d8d4f9579b62f40666e2991657b40656417ebb3f84fd",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-004.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-004.json",
+        "bytes": 9116242,
+        "sha256": "93e1cb9ea3cfa6c80f1e02f459178827ad1524d84044b5021e8900b26fcc0e51",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-005.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-005.json",
+        "bytes": 1591227,
+        "sha256": "a4fb5fb88b4835ebb94e179d1e5a019ce4973f2e9eecee8d2c2df439aaa74493",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-006.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-006.json",
+        "bytes": 1591146,
+        "sha256": "910fcb1d7a251ee49d26ad04a3b961066279f148a05367889198c31b913bba77",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-007.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-007.json",
+        "bytes": 5921539,
+        "sha256": "622aca5f4d44941ca3f14f73b44e19d4c7adc5c2562ae43f450c381843d28813",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-008.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-008.json",
+        "bytes": 5921458,
+        "sha256": "6e7b3f7ec4c7403cf0d32744c56e954359f686484c16ff224e3ee12d6e56bd79",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-009.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-009.json",
+        "bytes": 550047,
+        "sha256": "26c2de1208cf11b050a3f263cc2cee258d8f589511d828842af0cc59da193393",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-010.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-010.json",
+        "bytes": 549966,
+        "sha256": "386f4674e8da078618fff1e80ac5841e8466280de0b1ce9af72d3f1609bf812c",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-011.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-011.json",
+        "bytes": 8502071,
+        "sha256": "d4d70e1818fe86bf02230da6d42ac9a39fecca8483c8fe4b0252e938aac103de",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-012.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-012.json",
+        "bytes": 8501990,
+        "sha256": "e4e7e01e5927355f4d949b473885406ae43d555c11cd2b135b80462741160f46",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-013.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-013.json",
+        "bytes": 605355,
+        "sha256": "a6c454075363f3f465480c763443f721de0909856d6054398a76a7d9c130b510",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-014.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-014.json",
+        "bytes": 605274,
+        "sha256": "8b750600aed0267a4fe765ee1ec71cbeafc01f5aa5d657302024b2daa4215620",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-015.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-015.json",
+        "bytes": 311992,
+        "sha256": "b151eb7d06145864f9ab87d5c1c8d0a9f8c95cadaa5fa5e7435544c0630b664f",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-016.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-016.json",
+        "bytes": 311335,
+        "sha256": "b51d8425e881aa5871b0968b208e7e86aed01d7aaad3f574b169ccec0f78c078",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-017.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-017.json",
+        "bytes": 108124,
+        "sha256": "7b41412a7e61ae2ca7bdb4ace5d62a84b2c0bd95e037456359d44a42a2a05853",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-018.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-018.json",
+        "bytes": 107467,
+        "sha256": "ed7492690b74bba7302fecb3f17a87aeb48b985a9659fcc3f0474a4d0fcd22b7",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-019.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-019.json",
+        "bytes": 204754,
+        "sha256": "6489e95f6b7e3ca4f96288df88662ace96ba35e259ba32906509d5397e6505c8",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/request-020.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/request-020.json",
+        "bytes": 204582,
+        "sha256": "f74e87ca5be38aa66841dbdfcdeedc3618c7e7ce2ebeb7b9d2c65717ee81b40b",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-001.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-001.json",
+        "bytes": 25061,
+        "sha256": "dd9800e2848e7baf06325fe60392d64a844b194c4d82f976c7b92312ec68693f",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-002.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-002.json",
+        "bytes": 9226,
+        "sha256": "10dc4316bdf041323bd3dad45c6cf26c2c318e2fd57af34fe46780cb0e5578eb",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-003.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-003.json",
+        "bytes": 12903,
+        "sha256": "6d483b9d555dc16b8c306dc17850a83e8e72078f4edaf74653af4b22c1f6a16c",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-004.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-004.json",
+        "bytes": 3116,
+        "sha256": "a70cd139d942b07979e52507fa4cb19703afbbd3db6a504398f67d6f09e2bb65",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-005.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-005.json",
+        "bytes": 4102,
+        "sha256": "6e39dd7c14e9fa610f6eef2cb523c4082bb99ce3e5dba36e4572ca53ae72874d",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-006.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-006.json",
+        "bytes": 3149,
+        "sha256": "4cff49c0164eb722c1983d571b1495710fb5a5287f11f1522b66ec70e6dc939a",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-007.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-007.json",
+        "bytes": 4073,
+        "sha256": "b7c0c847e1abe45c5a8e1634dba15380033ceb2759240a8d7e43df60c206ac36",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-008.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-008.json",
+        "bytes": 3092,
+        "sha256": "25981a12b10b9fdd9ca328bf00b8cddc66cda214c8cbe4c99dd07cbb4fb72e70",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-009.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-009.json",
+        "bytes": 4166,
+        "sha256": "6584c83def719c259ae1a4e3199bd3e7f31ecf906d1d796568b00b060e45183f",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-010.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-010.json",
+        "bytes": 3037,
+        "sha256": "a37a08cf3d430070a56025122c08f24d8e008d57786d1e0424ab9d86093a630d",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-011.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-011.json",
+        "bytes": 12671,
+        "sha256": "a21492a7963236eb6477730fe368f67614d08f53a01596c246febffec88ec3a2",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-012.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-012.json",
+        "bytes": 3061,
+        "sha256": "df9abc486b0ef0eaa5ef67e5d5b20aaf2bd01383c0437f95c86b84f408f2af88",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-013.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-013.json",
+        "bytes": 12858,
+        "sha256": "263c5ba8d97f389f890afd883f895a4ba00cbbbf0fae438d5edfbd89c5287989",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-014.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-014.json",
+        "bytes": 3083,
+        "sha256": "15989f1f891474756a8cfaab5f5cd189930fa27b0b94568e7cf4aed4f94e96b5",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-015.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-015.json",
+        "bytes": 7178,
+        "sha256": "fdd11b344f5c8c23e587b9a1f93563a0766e183d472e59b464a665f426829c18",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-016.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-016.json",
+        "bytes": 10666,
+        "sha256": "2fd8158199d68cee36f982934779e092cb9dd81f8e24e056d359c6460f6fea1a",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-017.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-017.json",
+        "bytes": 12707,
+        "sha256": "0856ab064429caf5bbde370e8d3b65b3f8d605cec92ff37949c844d64297a25e",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-018.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-018.json",
+        "bytes": 4098,
+        "sha256": "6d71fa70e564e6a51897208bcd69f429b5ec2db6abdce45125bdb3d26053cda0",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-019.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-019.json",
+        "bytes": 25334,
+        "sha256": "168473485ab6cfb052100b9ad92f4d68a1c0dfe2308776f7f0454fffb00623f2",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/response-020.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/response-020.json",
+        "bytes": 15182,
+        "sha256": "d049aef59421790441a66e11d7fa3a38b0c5d4145cffbb13881b098fbe7d3e59",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/startup/sitecustomize.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/startup/sitecustomize.py",
+        "bytes": 156,
+        "sha256": "d2e3b16215b8b2943e66f4e6ab7be82e7dc55f319195167ebf5a465f1f105895",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/table-image-positive-candidate.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/table-image-positive-candidate.jsonl",
+        "bytes": 2522,
+        "sha256": "61ee5e2946b71473326f5613f19e46d3bf2318f8e98f0aff9b54f6ca2ff58e05",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/table-image-positive-candidate_reports/row-00000-page-00001-original-00001.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/table-image-positive-candidate_reports/row-00000-page-00001-original-00001.json",
+        "bytes": 4593,
+        "sha256": "60d3483adf1aeab68946593ea4e5b53f2907c125e215c8d086f2de61b42f97cf",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/table-image-positive-control.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/table-image-positive-control.jsonl",
+        "bytes": 2514,
+        "sha256": "1804a6ade35a7c0cf3e844a0281a90c1e1c0f7515a47b6714265d76350c1ddde",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "benchmarks/results/ember-20261111/table-image-positive-control_reports/row-00000-page-00001-original-00001.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/benchmarks/results/ember-20261111/table-image-positive-control_reports/row-00000-page-00001-original-00001.json",
+        "bytes": 13862,
+        "sha256": "5cd4a678babb1caf6fce2dd5a88354bf9da394d3441064c403cdc1ffdb09661d",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/crop-screen-Image001-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/crop-screen-Image001-candidate.json",
+        "bytes": 108812,
+        "sha256": "76c4af0d91f8c25b9781a52aa2ea5268117012f5a27ce18a9c30cc61ec738726",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/crop-screen-Image001-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/crop-screen-Image001-control.json",
+        "bytes": 107609,
+        "sha256": "1b6738e4a868b08b66426fe4f4c39d2b69c6d8a80e1d98bcd061d17567a32cc0",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/crop-screen-Image011-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/crop-screen-Image011-candidate.json",
+        "bytes": 312680,
+        "sha256": "8b1e3e6bb1e5dea9d83adcfeff8787e23c88aea1a8fe051639647f6091982ca4",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/crop-screen-Image011-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/crop-screen-Image011-control.json",
+        "bytes": 311477,
+        "sha256": "f9d7ab0bd3c2614d787f0997c389d8ccfb7791283ff3185a98dc24cc635b74b8",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/ocr-barney-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/ocr-barney-candidate.json",
+        "bytes": 204978,
+        "sha256": "71c2bc4e00d9f0c586b41a700edbc8c7bb23c2611ff86bc7d89b72213a7f28de",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/ocr-barney-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/ocr-barney-control.json",
+        "bytes": 204762,
+        "sha256": "f4482092b0954d423a511c1e929d3ab4fc29cde2ea058a37ffc39454b4fdd1ea",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-001-000-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-001-000-candidate.json",
+        "bytes": 9116918,
+        "sha256": "c0ba379594f38008b46b52acb2aa4ab98ec3748df3a8f13013be9010e9e0b8c8",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-001-000-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-001-000-control.json",
+        "bytes": 9116763,
+        "sha256": "1817b0ff96fa032f8275e27de9807ab9bd60e9c683002eaa991bc05ec038327c",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-004-000-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-004-000-candidate.json",
+        "bytes": 1591822,
+        "sha256": "fd7f0444a8ca79fea988d6d3edd32689fd1edd12336437369724dfe7148fff21",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-004-000-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-004-000-control.json",
+        "bytes": 1591667,
+        "sha256": "76f9da85ec005c71f1179e0a96b4dddf420b95f89712e9f728d9ab31797a191f",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-009-000-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-009-000-candidate.json",
+        "bytes": 5922134,
+        "sha256": "5695f106ff7f520518e5295d3a81eebde7efa4d9eb564e9bb187b43a4e3e1bb7",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-009-000-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-009-000-control.json",
+        "bytes": 5921979,
+        "sha256": "aa2ddb7c536bac296c83f2023e635439e67d29c1aa1158567bca1b8f97422cfb",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-012-000-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-012-000-candidate.json",
+        "bytes": 550642,
+        "sha256": "5528bbe9f959c59262458a6e7d288347c20ff2c07b33b2017c68957e3794a75a",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-012-000-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-012-000-control.json",
+        "bytes": 550487,
+        "sha256": "871ef6f5e6d023bd091f8b25401c0e8e4ed41bcc5addb71219458616698d637d",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-012-001-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-012-001-candidate.json",
+        "bytes": 605950,
+        "sha256": "9d5fbb8dc9de9d81e315c28cf7e5d3681783a2f3d354f2ac63bff474a4db63b4",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-012-001-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-012-001-control.json",
+        "bytes": 605795,
+        "sha256": "96b8166ea0946846bfdcc272b856e319bedc24bb70cbc4bc3d5d2d739161be9d",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-122-001-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-122-001-candidate.json",
+        "bytes": 8502666,
+        "sha256": "157dda7a22a75cd05f979d94e84cf1ac76e590c6ad573c5f49c6d086fbb77254",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/safety-page-122-001-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/safety-page-122-001-control.json",
+        "bytes": 8502511,
+        "sha256": "46f6db05f8c511ec6b0624c84473cbffca6478e3a68b4e0ea6680e48c58b3ef3",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/table-ambiguity-negative-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/table-ambiguity-negative-candidate.json",
+        "bytes": 67567,
+        "sha256": "e2a04f1aea3a37bc59139bd4189993375003ad3ddb26ce93cb0ce60a7021a300",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/table-ambiguity-negative-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/table-ambiguity-negative-control.json",
+        "bytes": 67500,
+        "sha256": "594fce2b949624e6aad8feba05df2d9d402f2f3b14a7c4d4f6d55bb6a1f5455d",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/table-image-positive-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/table-image-positive-candidate.json",
+        "bytes": 105523,
+        "sha256": "8915a7d897bd772de198dc2646d63a073061a8e0c4b55203bd64019ee5eed7bb",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/table-image-positive-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/table-image-positive-control.json",
+        "bytes": 105456,
+        "sha256": "2cfeaf2a6606e194667a524e2e8e97083cf4a3f710f59c06e01138f90a6a654c",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/table-native-positive-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/table-native-positive-candidate.json",
+        "bytes": 86687,
+        "sha256": "7aaa14833f04e1605504ab8b307ae3633b63bab0e4282c274bfe2297fb331119",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/rendered/table-native-positive-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/rendered/table-native-positive-control.json",
+        "bytes": 86620,
+        "sha256": "2768b95091342db6ce86fc03e415e913b8008e6af973d6fc86d707906c9f5888",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/22467b26d59f99b8c9669049be17f8aaefe004baa3a5e13191327a8dafb0df3a-ember_preflight.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/22467b26d59f99b8c9669049be17f8aaefe004baa3a5e13191327a8dafb0df3a-ember_preflight.py",
+        "bytes": 6704,
+        "sha256": "22467b26d59f99b8c9669049be17f8aaefe004baa3a5e13191327a8dafb0df3a",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/2b5a088f1cd6954085df978a56ddd137203f75888004f2f0d68221db81ac4176-ember_native.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/2b5a088f1cd6954085df978a56ddd137203f75888004f2f0d68221db81ac4176-ember_native.py",
+        "bytes": 3759,
+        "sha256": "2b5a088f1cd6954085df978a56ddd137203f75888004f2f0d68221db81ac4176",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/319245778bd765d0943653224f551de94274a50394f53155583a1826ba9ddda1-ember_overlay.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/319245778bd765d0943653224f551de94274a50394f53155583a1826ba9ddda1-ember_overlay.py",
+        "bytes": 1869,
+        "sha256": "319245778bd765d0943653224f551de94274a50394f53155583a1826ba9ddda1",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/4c9f606bbfe0f35367ad7b224772eea815f2cb4b8ad3d34a96d321a5e2754398-ember_reading.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/4c9f606bbfe0f35367ad7b224772eea815f2cb4b8ad3d34a96d321a5e2754398-ember_reading.py",
+        "bytes": 12688,
+        "sha256": "4c9f606bbfe0f35367ad7b224772eea815f2cb4b8ad3d34a96d321a5e2754398",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/56f603ea93714334719d17e8ba0ee624a6b3e54ed0da82d6eb053906baa1c754-ember_guard.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/56f603ea93714334719d17e8ba0ee624a6b3e54ed0da82d6eb053906baa1c754-ember_guard.py",
+        "bytes": 5771,
+        "sha256": "56f603ea93714334719d17e8ba0ee624a6b3e54ed0da82d6eb053906baa1c754",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/5917b676d58a65a6f51a765145357f9feec28f9aeaa96a3d86380f99ca0dd850-ember_panel.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/5917b676d58a65a6f51a765145357f9feec28f9aeaa96a3d86380f99ca0dd850-ember_panel.py",
+        "bytes": 1324,
+        "sha256": "5917b676d58a65a6f51a765145357f9feec28f9aeaa96a3d86380f99ca0dd850",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/78df4fbdb1f0668df390510ec69a31504dcb74abd0c0ebd6b603688d12621e05-ember_source_pixels.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/78df4fbdb1f0668df390510ec69a31504dcb74abd0c0ebd6b603688d12621e05-ember_source_pixels.py",
+        "bytes": 2667,
+        "sha256": "78df4fbdb1f0668df390510ec69a31504dcb74abd0c0ebd6b603688d12621e05",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/92a50f0fe97405a38fe6cec00d465caaca2209a17464589348f02da111861407-usage-projection-native.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/92a50f0fe97405a38fe6cec00d465caaca2209a17464589348f02da111861407-usage-projection-native.py",
+        "bytes": 3359,
+        "sha256": "92a50f0fe97405a38fe6cec00d465caaca2209a17464589348f02da111861407",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/a5a2d612f8a47566355e7033807f5191c2b011b99fd385cc6efc66c4a19e0fa6-ember_safety.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/a5a2d612f8a47566355e7033807f5191c2b011b99fd385cc6efc66c4a19e0fa6-ember_safety.py",
+        "bytes": 2877,
+        "sha256": "a5a2d612f8a47566355e7033807f5191c2b011b99fd385cc6efc66c4a19e0fa6",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/c4cfcf82e264c04b0709877c5e7ae90960bfad1b1f91f82ebe97a689941a811d-ember_guard.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/c4cfcf82e264c04b0709877c5e7ae90960bfad1b1f91f82ebe97a689941a811d-ember_guard.py",
+        "bytes": 5755,
+        "sha256": "c4cfcf82e264c04b0709877c5e7ae90960bfad1b1f91f82ebe97a689941a811d",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/dispatch-code/fd5b685f948101d257de634ac51eaa957fed8ae445af57479629976c1330479a-original-native.py",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/dispatch-code/fd5b685f948101d257de634ac51eaa957fed8ae445af57479629976c1330479a-original-native.py",
+        "bytes": 3233,
+        "sha256": "fd5b685f948101d257de634ac51eaa957fed8ae445af57479629976c1330479a",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/01_images_dir_to_manifest_v1/pages_images_manifest.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/01_images_dir_to_manifest_v1/pages_images_manifest.jsonl",
+        "bytes": 488,
+        "sha256": "414fda31faadfa893c1471d5070fdced975a68f11a38a96572190e680d0406cc",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/02_ocr_ai_gpt51_v1/pages_html.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/02_ocr_ai_gpt51_v1/pages_html.jsonl",
+        "bytes": 3662,
+        "sha256": "dfc58c49062d0a05d7cb2483e77aa3c2cfa4e00cea1ff4a9452ca8e5f1d83ea9",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/instrumentation.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/instrumentation.json",
+        "bytes": 3639,
+        "sha256": "4810e93d4a787c664978320d8c9aae4339d919e20d54fbf8071ff99cd35e61ee",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/instrumentation.md",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/instrumentation.md",
+        "bytes": 814,
+        "sha256": "e5a38077ef50765daeded1c354d0a1d3529fe92c8da83841ff606f943d5fded5",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/pipeline_events.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/pipeline_events.jsonl",
+        "bytes": 4675,
+        "sha256": "de68bd061b0e94e407bc210c3ef6be47dbebd91bdcff7e378e1be9a179437590",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/pipeline_state.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/pipeline_state.json",
+        "bytes": 1406,
+        "sha256": "78c861c05a93f310b9e3a1a29541f4ae3fd153014113b04feb6ef92a7361ea5c",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/snapshots/plan.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/snapshots/plan.json",
+        "bytes": 2104,
+        "sha256": "df55f7ed75dd91cf539582ef24dbf9c7257b1dac68454a59bd6b3b8213405f4b",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/snapshots/pricing.yaml",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/snapshots/pricing.yaml",
+        "bytes": 381,
+        "sha256": "5b480d2aba569392a1f4e538bf67e28685bc91e8eced00d4737b0ff30c38bffd",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/snapshots/recipe.yaml",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/snapshots/recipe.yaml",
+        "bytes": 1075,
+        "sha256": "46d5b40f3a80b3738ff86ba3b11d3328ee4b37cfc27f4eabe171355fd4835f97",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/snapshots/registry.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/snapshots/registry.json",
+        "bytes": 4243,
+        "sha256": "83daf66bc2a0ad36ec360d9d63b0cd5ff55e30b9506961dafe1cae6f148e5247",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-candidate-20261111/timing_summary.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-candidate-20261111/timing_summary.json",
+        "bytes": 427,
+        "sha256": "59fc042c7c1de5c15688f635e5ce1aba51e48bf0ef35e73c788991d9cc700b54",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/01_images_dir_to_manifest_v1/pages_images_manifest.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/01_images_dir_to_manifest_v1/pages_images_manifest.jsonl",
+        "bytes": 486,
+        "sha256": "809d6eb38ba0b445ff84b1c62500ce379841de0137c35fba021ece38bfe5a7c3",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/02_ocr_ai_gpt51_v1/pages_html.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/02_ocr_ai_gpt51_v1/pages_html.jsonl",
+        "bytes": 3683,
+        "sha256": "3874b76eda56940a12e7af77019cd5effd5c0e6f4480990c5bb17ef254c49a07",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/instrumentation.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/instrumentation.json",
+        "bytes": 3633,
+        "sha256": "f27c572b8d3d086cfe991af3fc1a6d4b1e61939acb2df56e7454aee4e8796929",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/instrumentation.md",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/instrumentation.md",
+        "bytes": 814,
+        "sha256": "a2ea31cd3f3481aa63a100943eba196f134b32b7d6f66a9d8e61ea53f5b50018",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/pipeline_events.jsonl",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/pipeline_events.jsonl",
+        "bytes": 4641,
+        "sha256": "2b016390662961682e4f3648009d2c57aecabf9b0cf1646a0234e8de65aee5e1",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/pipeline_state.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/pipeline_state.json",
+        "bytes": 1400,
+        "sha256": "dbffdaf97e15936e157f967679c1a3e69be8dbe0e08f7661e42c157efd52a302",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/snapshots/plan.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/snapshots/plan.json",
+        "bytes": 2104,
+        "sha256": "f38101df8ef3444339cde31717313223cf6510dd174b9135c5ab9b4940827062",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/snapshots/pricing.yaml",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/snapshots/pricing.yaml",
+        "bytes": 381,
+        "sha256": "5b480d2aba569392a1f4e538bf67e28685bc91e8eced00d4737b0ff30c38bffd",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/snapshots/recipe.yaml",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/snapshots/recipe.yaml",
+        "bytes": 1073,
+        "sha256": "8af7363abe5c21938482bd4054e142b33bae6432eaf9d9b63b3653edc00c95c9",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/snapshots/registry.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/snapshots/registry.json",
+        "bytes": 4243,
+        "sha256": "83daf66bc2a0ad36ec360d9d63b0cd5ff55e30b9506961dafe1cae6f148e5247",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "output/runs/ember-ocr-barney-control-20261111/timing_summary.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/output/runs/ember-ocr-barney-control-20261111/timing_summary.json",
+        "bytes": 428,
+        "sha256": "34b0beba34bedf12574d1dd5e645cb1fdb41a603b8a5194615db689074b74362",
+        "custody": "hardlink, immutable completed artifact; identical bytes verified",
+        "privacy": "public/synthetic payload; complete provider-state/raw envelopes protected, never public excerpts"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-page-009-000.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-page-009-000.json",
+        "bytes": 1691,
+        "sha256": "7db7430cf0038cea0ac378479e87b38cc869a46dd7bc94f38d1d02fcaf2f43d0",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-page-122-001.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-page-122-001.json",
+        "bytes": 1803,
+        "sha256": "34a2cd862e6753bc7ae232d27cebbca5816be3c3dbd52b1299921765cec3b122",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/summary.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/summary.json",
+        "bytes": 4003,
+        "sha256": "eaccbae8d363d90b675df03156b38a260dcd06f6e506e4c06e241e70ee53cdc5",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/source-pixels-Image001.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/source-pixels-Image001.json",
+        "bytes": 3916,
+        "sha256": "7d03c07b0e302f5a3e6bd76fcd7218570184b217e5f45cc24c9dde5ec8d0df2b",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/initial-native-positive.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/initial-native-positive.json",
+        "bytes": 1717,
+        "sha256": "541f3d8c0590164e9c7bdf5c573f10bf00cf746cc09c67226903c9aafb966727",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/audit.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/audit.json",
+        "bytes": 6017,
+        "sha256": "917b40ebbdfb7d7e0707c55b700f01eedad35db1fd243f70e793d951f7ee9f12",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/table-results.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/table-results.json",
+        "bytes": 2987,
+        "sha256": "053f7c9f201f98f5fcfef39783084c82c16d86ae9a646e9a84837f96d5493c7b",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/crop-screen-Image011-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/crop-screen-Image011-candidate.json",
+        "bytes": 589,
+        "sha256": "ff31bf237e0a0d6d8371eed97aa935521617a8234f96fd0a979dad64cab04d05",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-page-012-000.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-page-012-000.json",
+        "bytes": 1784,
+        "sha256": "9e9ef5f49a6e203db299fc5c11c5f2d9644c1e413d2c3fbf11d21062ab7bc4e3",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/producer-epochs.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/producer-epochs.json",
+        "bytes": 454,
+        "sha256": "120365ef940c3b3646a57e92f1b6e922b9c84bfc0dc382c9ddd70d06ca541817",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/source-pixels-Image011.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/source-pixels-Image011.json",
+        "bytes": 8820,
+        "sha256": "01c8dbf18a8fd2fddbab5bec9bc942826ba6ab5a6209f85588c64f2b3e0c686b",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/crop-screen-Image011-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/crop-screen-Image011-control.json",
+        "bytes": 504,
+        "sha256": "2c06ab12bab0f3cc33d77c1dceb89e1cbf332cefa0e9c48be0652e1768f939d5",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/credential-cleanup.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/credential-cleanup.json",
+        "bytes": 211,
+        "sha256": "6695c1fc2dcfe7d5d0c852e3aed5a330145ccc59faf73b673f4347dd204ee1ff",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-page-012-001.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-page-012-001.json",
+        "bytes": 1938,
+        "sha256": "bee8544273a2fc5d7f47475a4ea11a7a50fbca57dd412272dcbfbb37f7c4bee3",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-page-004-000.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-page-004-000.json",
+        "bytes": 1857,
+        "sha256": "8a9c6f5fdc3dca8b6fa8f9c78863fda1852b5881965d41f3c0a575c917d1b070",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/crop-screen-Image001-candidate.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/crop-screen-Image001-candidate.json",
+        "bytes": 409,
+        "sha256": "19889dfbe4ec850734cc0dbee778abd077a56dc79739672a752a161d97ef4ce9",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/ocr-results.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/ocr-results.json",
+        "bytes": 2738,
+        "sha256": "2aab835c7d43c56f4519918af2ccf7cb2026e36d8c5712fabe5a0642b59ba37e",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/crop-screen-Image001-control.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/crop-screen-Image001-control.json",
+        "bytes": 412,
+        "sha256": "81506b08bfda11add2c4efd58f4948bade3ea179245aee4945a5a60ac40682f2",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/control-count-binding.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/control-count-binding.json",
+        "bytes": 4657,
+        "sha256": "a0e75b582409abe6c112d73721d3e7dae85fd93b07855adc86dd15ee8f2a8530",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/source-review.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/source-review.json",
+        "bytes": 2392,
+        "sha256": "c51b64d06b2e15cb6d35de3f8ae20aba658be7979d957632f12913f05b41d52c",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-page-001-000.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-page-001-000.json",
+        "bytes": 1948,
+        "sha256": "0f3d984125f13802ced9c72e1cd2083125f47c9fe556cab37ee1b40d43331963",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/validation.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/validation.json",
+        "bytes": 1716,
+        "sha256": "463deb44ac79e67c7677cc32b06c7fc19a1bf5584e6ddd0f4e49c758a28d0819",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/reservation-matrix.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/reservation-matrix.json",
+        "bytes": 1384,
+        "sha256": "7083df49527fe67ead597c47a4cd3c7189c7a045653da0cf83b356d779a0b4e2",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/initial-ambiguity-negative.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/initial-ambiguity-negative.json",
+        "bytes": 1443,
+        "sha256": "66362bd4c686282825386655a60e7aa76424765d4f205c26ceb0d28cbd1afe89",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/crop-screen-results.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/crop-screen-results.json",
+        "bytes": 237,
+        "sha256": "3d58b5ce6c43f0cc74c4be00740c13b9a014742905bdea260f949e4eaede57f4",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/preflight.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/preflight.json",
+        "bytes": 13388,
+        "sha256": "1020bf8d510e91290d962fb43d6cd546a2e2426f145498b2758ccf4c340ce739",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/ledger.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/ledger.json",
+        "bytes": 28503,
+        "sha256": "d4732fbf03c6935aec75c4847eb2c33d26b888d9949d6b0a484b6f9ee8cd2c19",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/initial-image-positive.json",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/initial-image-positive.json",
+        "bytes": 1959,
+        "sha256": "0da06b37d5d00e38d438f26066b08d5748cd8afc926d405cf3e358e8122450d3",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/README.md",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/README.md",
+        "bytes": 881,
+        "sha256": "5625f22a65dbdab68cd2d1365d73df06de1d4fcdc9e9dce23b9ec460b2df607e",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/research.md",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/research.md",
+        "bytes": 2077,
+        "sha256": "f18a0b444f1497973947fb603238c8b4bcac78723f3975094d7a715ff4165bb4",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-lowerseal-source.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-lowerseal-source.png",
+        "bytes": 325415,
+        "sha256": "5bfe5116d5065cc9e7ac0e787a8c2a1731df2142dd818c7d62597603a7fa0d37",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/Image001-candidate-source-crop-0.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/Image001-candidate-source-crop-0.png",
+        "bytes": 133250,
+        "sha256": "5a55afeb558a6561e6812f13e0731fdf35b336f1219556d72fd92e06a55fd13f",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-lowerseal-crop.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-lowerseal-crop.png",
+        "bytes": 390432,
+        "sha256": "9cc98f77b1351702ea97c57cfd7a71ef1132088003b7fd9612cb70f0b2ec4e08",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/Image001-control-source-crop-0.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/Image001-control-source-crop-0.png",
+        "bytes": 132745,
+        "sha256": "9ada4eb9ffab1d43ed3263ea4181006806a735599fe533f0dd979e4213040125",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/Image011-candidate-source-crop-0.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/Image011-candidate-source-crop-0.png",
+        "bytes": 71345,
+        "sha256": "0bd458fbaa13e0222df80ae972e6252100b4ea6dbb31b751335ed2f794bfcb1d",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/Image011-candidate-source-crop-1.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/Image011-candidate-source-crop-1.png",
+        "bytes": 225792,
+        "sha256": "47fdf1e7daf4bce749f4499a762d8d5b38f0a1247d63bd4ab2c994aabb915748",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/Image011-control-source-crop-0.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/Image011-control-source-crop-0.png",
+        "bytes": 70634,
+        "sha256": "fadf68ad86c7a074006f0d8ea5c1745fd3aa3cbbbd1b872c88549d804509a810",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/Image011-control-source-crop-1.png",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/Image011-control-source-crop-1.png",
+        "bytes": 224442,
+        "sha256": "a7f29f6b7557eeebca88d8ed5ce7b1c50a15471823d5f9bf69431401eaf7847d",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      },
+      {
+        "path": "docs/evals/evidence/090-ember/safety-source-contact-sheet.jpg",
+        "protected_path": "/Users/cam/.codex/archives/ember-20261111/doc-web/docs/evals/evidence/090-ember/safety-source-contact-sheet.jpg",
+        "bytes": 109473,
+        "sha256": "d1003a91ef859a01748c551dda71927c8aff5682233d547f0480f76d53b6c0b3",
+        "custody": "hardlink, immutable final record; identical bytes verified",
+        "privacy": "public/synthetic source or compact output metadata"
+      }
+    ],
+    "member_count": 145,
+    "logical_bytes": 110501616,
+    "extra_payload_disk_bytes": 0,
+    "worktree_retained": "/Users/cam/.codex/worktrees/ember-20261111/doc-web",
+    "recovery": "For any manifest member, verify protected_path sha256/size then restore original path via copy or hard link; original fixtures/code base c65346e4 and producing snapshots retained. Never load provider-state artifacts into public tracked outputs. No credential/env file included."
+  },
+  "critical_known_boundaries": [
+    "classifier22 vs actualcallerS3/S4 differ",
+    "15classifiercrops exceed livecaller bound",
+    "priorSol/FableS3certainty violatesdeclaredhold",
+    "exposedfixtures notunseenholdout",
+    "offline replay notfresh genuine native Ember caller evidence"
+  ],
+  "status": "offline preparation complete; selected paid followup executing",
+  "precharge_admission_research": {
+    "problem_class": "precharge budget admission versus postresponse validation",
+    "finding": "A parser usage<=46000 check does not impose a provider precharge token limit. It cannot certify new image payload reservations.",
+    "primary_sources": [
+      "https://developers.openai.com/api/docs/guides/token-counting",
+      "https://developers.openai.com/api/docs/guides/images-vision",
+      "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "https://developers.openai.com/api/docs/pricing",
+      "https://dev.meta.ai/docs/pricing-rate-limits"
+    ],
+    "decision": "For future selected execution bind exact Sol input-count evidence before dispatching any new unbound case; unchanged old native exact-request counts may be reused with documented margin. No authenticated counting in offline preparation. Meta unknown image counts use conservative full-context/long-tier reservation.",
+    "local_proof": "14 focused packet tests pass after model/route binding correction; seven missing native-count certificates rejected before any paid admission",
+    "remaining_uncertainty": "Future exact Sol counts and genuine native Meta caller receipts not yet measured; guide has no explicit gpt-6.1-sol image token formula."
+  },
+  "heldout_root_review": "docs/scout/evidence/scout110-docweb-qualification-root-review.json",
+  "parent_preservation_root_verified": {
+    "record_files": 4,
+    "custody_members": 145,
+    "errors": []
+  },
+  "strategic_review": {
+    "skill": ".agents/skills/loop-review/SKILL.md",
+    "checkpoint": "first cumulative review across original model campaign and selected continuation",
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "selection_basis": "current runtime frontier demanding-reasoning option; maximum supported tool effort",
+    "independently_verified_served_identity": "unavailable",
+    "verdict": "change paid execution order; finish offline packet now",
+    "adopted": "genuine caller S3 first then S4 for both arms, stop failing qualification arm; survivors earn broader frozen matrix and repeats under same futurecap",
+    "mechanism_alternative": "early end-to-end discriminating consumer/policy probe before broad classifier replay",
+    "source_basis": [
+      "owner Attempt088 currentSol22/22 but S3policyfail",
+      "15oldclassifier crops exceed actualcaller bounds",
+      "official native token-counting precharge mechanism"
+    ],
+    "previous_checkpoint": "none; first strategiccheckpoint",
+    "next_observable_outcome": "final immutable offline packet and concrete new20USD/80maxselection, then at most4initial caller subjects if selected",
+    "stop_condition": "no more offline expansion; no paid work until new ceiling selected",
+    "provider_spend_for_review": 0,
+    "agent_quota_usage_attribution": "unavailable; no claim internalreview inference is free"
+  },
+  "provider_calls": 0,
+  "authenticated_token_count_calls": 0,
+  "owner_attempt": "/Users/cam/.codex/worktrees/ember-20261111/doc-web/docs/evals/attempts/091-ember-safety-preparation.md",
+  "owner_story": "/Users/cam/.codex/worktrees/ember-20261111/doc-web/docs/stories/story-269-ember-safety-offline-preparation.md",
+  "owner_manifest": "/Users/cam/.codex/worktrees/ember-20261111/doc-web/docs/evals/evidence/091-ember-safety-preparation/manifest.json",
+  "owner_manifest_sha256": "041d770c34fe8c9cdeca0ee24101ccf28c15cdf224f034b68e8faa911a1612c6",
+  "protected_custody_root": "/Users/cam/.codex/archives/ember-safety-091/doc-web",
+  "root_final_readback": {
+    "artifact_members": 846,
+    "source_references": 50,
+    "errors": [],
+    "wire_render_requests": 62,
+    "native_crops_replayed": 7,
+    "current_authorized_spend": 0
+  },
+  "proposed_execution": {
+    "handle": 1,
+    "ceiling_usd": 20,
+    "inference_post_max": 80,
+    "conditional_max_reservation_usd": 16.3466253,
+    "pending_new_Sol_count_certificates": 7,
+    "first_gate": "genuine caller S3 then S4 per arm; stop failed qualification arm before expansion"
+  },
+  "validation": "newselection,exactnativeStage0Solcounts,genuineMetacaller/receipt/independentanchor,freshsource/policyquality,adoptionseparate",
+  "final_root_document_checks": "local links/JSON/whitespace/arithmetic/source and custody PASS",
+  "future_paid_selection": "approved by explicit user yes:20USDceiling,80inferencePOSTmax",
+  "selected_execution": {
+    "authority": "user yes after completedpacket/new20USDproposal",
+    "cap_usd": 20,
+    "inference_post_max": 80,
+    "caller_first": true,
+    "worktree": "/Users/cam/.codex/worktrees/ember-20261111/doc-web",
+    "worker": "/root/ember_docweb",
+    "original_preparation_spend_usd": 0
+  }
+}

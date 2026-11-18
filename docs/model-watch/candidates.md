@@ -1,5 +1,15 @@
 # Candidate ledger
 
+## Recovered-record status — 2026-11-17
+
+Newly published dated daily reports and Scout087/090/100/102/110–116 preserve
+previously local observations. Their proposals are historical; use the current
+[evaluated-model ledger](evaluated-models.md) before nominating an apparent new
+candidate. In particular, Qwen4-Max is skipped, d1.2's Echo role landed, Hydrogen
+has a historical Doc Web handwriting option, and Sol6.2 supersedes Astra's table
+option. This recovery starts no evaluation, watch or schedule.
+
+
 This ledger deduplicates material candidates discovered by the watch. It does
 not replace detailed Conductor scouts or owner-repository evidence.
 

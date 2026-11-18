@@ -1,0 +1,77 @@
+{
+  "campaign": "scout110-ember-adoption-followthrough-20261111",
+  "state": "executing",
+  "authorization": "User: Good. Check in those skill changes, then go ahead with your recommendations.",
+  "skill_commit": "300ba3612c7cee4ba6c2833dcd0b94644a3ffa2d",
+  "campaign_cap_usd": 15,
+  "previous_wallets": "closed; no reuse",
+  "owners": [
+    {
+      "repo": "boardgame-ingester",
+      "task": "orientation",
+      "cap_usd": 5,
+      "state": "decision-complete",
+      "worker": "ember_adopt_bgi",
+      "prior_worktree": "/Users/cam/.codex/worktrees/ember-20261111/boardgame-ingester",
+      "decision": "retain Sol; reject Ember low8192 orientation replacement",
+      "inference_calls": 2,
+      "free_counter_requests": 28,
+      "known_usd": 0.0038858,
+      "unknown_reserved_usd": 0,
+      "owner_verdict": "/Users/cam/.codex/worktrees/ember-20261111/boardgame-ingester/benchmarks/results/ember-orientation-adoption-20261111/owner-verdict.json",
+      "root_verification": "Native source/output visual review, both decisions, 68 artifact hashes/sizes and two protected original receipts verified; wrong0auto not safeabstention; temporary key removed."
+    },
+    {
+      "repo": "echo-forge",
+      "task": "complete scene planning",
+      "cap_usd": 5,
+      "state": "decision-complete",
+      "worker": "ember_adopt_echo",
+      "prior_worktree": "/Users/cam/.codex/worktrees/ember-20261111/echo-forge",
+      "decision": "prefer Ember low16384 for reviewed fixed-fixture outline generation job; no live planner/product runtime switch exists",
+      "inference_calls": 4,
+      "known_usd": 0.0165551,
+      "unknown_reserved_usd": 0,
+      "owner_attempt": "/Users/cam/.codex/worktrees/ember-20261111/echo-forge/docs/evals/attempts/scene-to-soundscape-golden/20261111-ember-adoption.md",
+      "review_patch": "/Users/cam/.codex/worktrees/ember-20261111/echo-forge/docs/runbooks/scene-outline-ember.md",
+      "root_verification": "Two complete synthetic sources/criteria reviewed before outputs; full candidate/control outputs and actual matcher projection reviewed; four gate/alias tests +offline replay pass; 49 artifact hashes and four protected native originals verified.",
+      "product_runtime_switches": 0
+    },
+    {
+      "repo": "doc-web",
+      "task": "crop detection only",
+      "cap_usd": 5,
+      "state": "actual-consumer-adjudication",
+      "worker": "ember_adopt_docweb",
+      "prior_worktree": "/Users/cam/.codex/worktrees/ember-20261111/doc-web",
+      "unassisted_inference_calls": 20,
+      "unassisted_known_usd": 0.04735334,
+      "unassisted_unknown_reserved_usd": 0,
+      "unassisted_result": "Image037 unassisted box clips1057 portraitpixels in18rows; positive maintained IoU is not source preservation.",
+      "remaining_owner_max_usd": 4.95264666
+    }
+  ],
+  "limits": [
+    "eligible public/synthetic sources",
+    "default-off review patches only",
+    "no runtime activation/deploy/product commits or push"
+  ],
+  "conductor_worktree": {
+    "path": "/Users/cam/.codex/worktrees/ember-adoption-20261111/conductor",
+    "owner": "root",
+    "branch": "codex/eval-replacement-followthrough-20261111",
+    "base": "1cfb390df8585c3250366dda5044b5ba03441c92",
+    "retention": "retained; scoped skill commit landed, primary unrelated changes preserved"
+  },
+  "strategy_review": {
+    "reviewer": "/root/ember_adoption_strategy_review",
+    "requested_model": "gpt-6-astra",
+    "requested_effort": "ultra",
+    "served_identity": "not independently verified",
+    "continuity": "prior-campaign reviewer unavailable in current native tree; fresh compact packet, not inherited full history",
+    "disposition": "change order to targeted actual-consumer adjudication before rejecting enriched detector use",
+    "evidence": "Real crop._apply_caption_box may expand y1 toward a caption below existingbox; Story271 exempts repairable intermediate proposals. Preserve bare-armfailure, retain zero final-source-loss gate, no retuning. Actualpage038 enriched candidate/control or genuine existing nativecaptionreceipt is discriminating.",
+    "observable_next_outcome": "Actual assisted final crop preserves all observed oval ink and excludes caption, or a valid finalsourcefailure rejects fixed enrichedarm. Positive result then earns alreadyselected independentrecipeconfirmation; no new broad stage.",
+    "research_basis": "Reuse owner documented native-vs-harness/currentconsumer research and direct maintained crop consumer implementation; no invented new padding mechanism or metadata oracle."
+  }
+}

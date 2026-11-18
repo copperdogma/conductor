@@ -1,0 +1,50 @@
+{
+  "checked": "2026-11-11",
+  "source": "https://openrouter.ai/api/v1/models/meta/muse-ember/endpoints",
+  "provider": "Meta",
+  "tag": "meta",
+  "pricing": {
+    "prompt": "0.0000001",
+    "completion": "0.0000005",
+    "web_search": "0.0025",
+    "input_cache_read": "0.000000004",
+    "input_cache_write": "0.000000125",
+    "discount": 0
+  },
+  "context_length": 1048576,
+  "router_max_completion_tokens": 943718,
+  "native_official_max_output": 524288,
+  "supported_parameters": [
+    "reasoning",
+    "include_reasoning",
+    "max_tokens",
+    "repetition_penalty",
+    "top_k",
+    "temperature",
+    "top_p",
+    "tools",
+    "tool_choice",
+    "structured_outputs",
+    "response_format",
+    "reasoning_effort"
+  ],
+  "documented_sources": {
+    "meta": "https://dev.meta.ai/docs/pricing-rate-limits",
+    "sol_model": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+    "sol_pricing": "https://developers.openai.com/api/docs/pricing"
+  },
+  "sol_standard_rates_per_M": {
+    "input": 2,
+    "cached_input": 0.1,
+    "cache_write_30m": 2.5,
+    "output": 10
+  },
+  "meta_native_rates_per_M": {
+    "input_under_200k": 0.1,
+    "cached_under_200k": 0.004,
+    "output_under_200k": 0.5,
+    "input_over_200k": 0.3,
+    "output_over_200k": 1.5
+  },
+  "scope": "public/offline preparation, no authenticated provider probe"
+}

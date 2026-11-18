@@ -530,3 +530,17 @@ Use this index to track external sources investigated for cross-project value.
   Exact Alibaba/OpenRouter strict vision qualified, but the frozen low-reasoning
   arm repeated the Image011 seal/signature grouping failure (0.6001, 3 boxes
   versus 2). Stopped at US$0.013964 before the full detector and safety suites.
+
+## Recovered dated research records
+
+- `2026-11-17` — [Scout 116](./scout/scout-116-gpt62-astra-evaluation-routing.md) — Historical table qualification; superseded by Sol117.
+- `2026-11-16` — [Scout 115](./scout/scout-115-scribe3-diarization-evaluation-routing.md) — Proposal only; quota prerequisite unresolved.
+- `2026-11-17` — [Scout 113](./scout/scout-113-d12-ultra-evaluation-routing.md) — Echo sole-classifier landed; Dossier tested policy rejected.
+- `2026-11-16` — [Scout 112](./scout/scout-112-gemini-decisions-evaluation-routing.md) — BGI isolated orientation job landed; other roles retained.
+- `2026-11-16` — [Scout 111](./scout/scout-111-gemini4-hydrogen-evaluation-routing.md) — Doc Web handwriting option historically landed; other roles retained.
+- `2026-11-11` — [Scout 110](./scout/scout-110-muse-ember-evaluation-routing.md) — Recorded screen and follow-through; Doc Web consumer unresolved.
+- `2026-11-06` — [Scout 106](./scout/scout-106-fly-mcp-and-cost-opportunities.md) — Bounded diagnostics verified; no downsizing decision.
+- `2026-10-23` — [Scout 102](./scout/scout-102-kimi-k31-pro-evaluation-routing.md) — Retain models; distinct offline replay landing linked.
+- `2026-10-21` — [Scout 100](./scout/scout-100-mercury3-evaluation-routing.md) — Screening leads preserved; no qualified replacement.
+- `2026-10-12` — [Scout 090](./scout/scout-090-microsoft-decision-1-evaluation-routing.md) — Corrected source and consumer adjudication preserved.
+- `2026-09-30` — [Scout 087](./scout/scout-087-embeddinggemma2-nano-banana21.md) — CineForge image adoption recorded; embedding deferred.

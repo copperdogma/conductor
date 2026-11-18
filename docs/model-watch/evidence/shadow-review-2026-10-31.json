@@ -1,0 +1,845 @@
+{
+  "all_same_day_catalog_id_sets_match": true,
+  "campaign_root": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024",
+  "date": "2026-10-31",
+  "days": [
+    {
+      "date": "2026-10-24",
+      "reserved_at": "2026-10-24T13:45:28.858127+00:00",
+      "status": "quota_unavailable"
+    },
+    {
+      "date": "2026-10-25",
+      "reserved_at": "2026-10-25T13:45:02.883221+00:00",
+      "status": "collected_complete"
+    },
+    {
+      "date": "2026-10-26",
+      "reserved_at": "2026-10-26T13:45:33.565536+00:00",
+      "status": "quota_unavailable"
+    },
+    {
+      "date": "2026-10-27",
+      "reserved_at": "2026-10-27T13:45:06.093961+00:00",
+      "status": "collected_complete"
+    },
+    {
+      "date": "2026-10-28",
+      "reserved_at": "2026-10-28T13:45:04.718731+00:00",
+      "status": "collected_complete"
+    },
+    {
+      "date": "2026-10-29",
+      "reserved_at": "2026-10-29T13:45:07.615750+00:00",
+      "status": "collected_complete"
+    },
+    {
+      "date": "2026-10-30",
+      "reserved_at": "2026-10-30T13:45:06.335146+00:00",
+      "status": "collected_complete"
+    }
+  ],
+  "full_deltas_recompute_exactly": true,
+  "input_sha256": {
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/campaign.json": "e2142cea58c366dee4c9b10d30a5bd7d71163dd04294de14d053c10b7f09a57f",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/decisions-page-000.json": "703d10c26f84100153eb527e1d44d95857fdaa6b2d9697c9f61fb3d3fa07719d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/delta.json": "49297c863a4759edf5f573d56d99d432d8edd6c9fcb97a6bad97ed33804edc31",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/general-page-000.json": "ab34191a8a8511e25300d3bc73a92fec3e7b717cb37b533b73adc035539cca90",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/packet.json": "ec039aa57f701da1c5f563114a5653d94c77610b98ae855d5eceea4ef6a5c04e",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/receipt.json": "ad7c811adcbc0c72de9374f512fa081efdf5fced6732be2295787b692dfccc81",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/snapshot.json": "e674a7a3cf8640bbb52fb087cdd94bbb10118de7a9707f31e2b6fcc141d21473",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/decisions-page-000.json": "5b74d08bf8a0bd41353cbab9f80d00b1eeb51d8a59d991969919b9bc87e1f740",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/delta.json": "5d3b63a52f7238bcc5585532ced991164e32f4fb989a12f9a0ab0bfeeb160707",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/general-page-000.json": "a2c5c2299996f14fdeccfa66329b3b8fec7f1394ce9f2f756adf604941ff54a6",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/packet.json": "c28eb6f0f56f18d2cc6195a6d07666599ac113866278e44f914c8ed2ee89924b",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/receipt.json": "7790e50e5e5c26a63569009890efc15f167ba500eb78f193fa148501e8d381f8",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/snapshot.json": "322107b9ccfb2c3f1a2b2368485f66109dff96669666d392159cbad9aa7e169d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/decisions-page-000.json": "2ede6b559c44c331be5a05732caa1ed601ecfc7bd06103b54b86d37ea17bfa0d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/delta.json": "bb3b3efa1d928647ec08310bd5f1287f184c10da6a808c3e15c7828be88db759",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/general-page-000.json": "9f5a7c574209f087b92ff6feade6d0ad4a05870517468e6ff1a63f3adc2601ad",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/packet.json": "a125ee2e941c74173fa1e98de2de71f311c02e60185b6a1453dcc96435541e7b",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/receipt.json": "cffbf9b16b89763a48b068d4081db887d88abaf2c0d1a29d7f160033ab0f1771",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/snapshot.json": "c9414d12261677eb365e49405f40382cba140c7ed3f1944588c245a6760c891f",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/decisions-page-000.json": "800d60633b17ff6510beb296933e475b060edb33774c69a197618869c9b71f47",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/delta.json": "36c72291c57553a06c1ad30baaad82155ae5fcadcff870dd979799b50799f49b",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/general-page-000.json": "8430e9361d8eac59e29da8700f2bd836cc1760ecc7794e9db892bd2a204b13ef",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/packet.json": "6e4e73bf3aec7b4a1007bd151e93d693235867940a5c595bfe8011b609e01ab9",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/receipt.json": "1aafacff7da8aada30475e883548c2d31c05a6d997fe1cb55ffcad59ba9d86be",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/snapshot.json": "065c867fa8c621d0e8747a23d0ec1c3e4bab0eb5bad5519c858fda19f8e9543c",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/decisions-page-000.json": "7c4f4c11e5dc36ca3939c7eb7456bced05124bf28378a233839e28942e3cd7c3",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/delta.json": "b1a48bbc30c8b0df014edd09fe570ef42ffee59bc56818c69579ac582db3fed2",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/general-page-000.json": "b342691799cbe489c7b7a881e5a4af84017f3d0d865af2cb96a622244bc041bc",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/packet.json": "cdb00a546569e025764db6180cf680bdeba3c8b6bc9f9029fbf1604cb422d9e5",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/receipt.json": "5874b2a315b76c9a2352158eb3da48d0fffbcc63443748ee5212fab07f37eeb7",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/snapshot.json": "e7efc43b9b1a3cf21fa7a68fa71702d2e36a5bc0c9ff0bccc7d2d49f45f0ef5a",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/state.json": "8a0c58283b5840588cfb26d9e57befa4bcdb667e074f1a3b52c4608dbdb2c8cc",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/days.json": "ef7b38c43308c7c63e891da792aaa745a07b75d9a2865d8a5f11e01126a80dcb",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/last-tick.json": "ec93f794b094f9c41a702c19978f0332c471e6871496505160563d2ec668578d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/00c6f8d1a8ce4f0490e24a1c0184ae85.json": "233fe7b5b07da2d2b26462673946622626623b6850862c075bf981eb06eac2a3",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/04acbed0e3a3424a8a2279c9c691630e.json": "f7d5877849bcee0dd48e64c17fc3dde4c2c8016484f9b2cecbe834015a73c2a1",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/0594229962d44a3e98321ca0784421ad.json": "ec93f794b094f9c41a702c19978f0332c471e6871496505160563d2ec668578d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/09a72833fa304b96a66ec3680198db5c.json": "8cfd8d9e9e4ae2b4aac8ae3d015ddde0ad8046e7716c04a2041c0cefdd07a6e0",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/129c74d7408f442e9637d120aef714e9.json": "3f7f2418bdb1a54364393283f66a1e41812d1b998ca0900fbd0be3fc3dca1b56",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/166072cf4f0742658ffdea107ec9ce43.json": "3a2a81ce20167cfd331d95e491c02f2a1ecfd64b8ede15e4d2c6dddbfa043dc6",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/21f7cb34aa674304b3cd218cd812ea43.json": "f7e91c4bf9feedc8c56260878df1f9910fbb64bac20707b5feb2a08b60989395",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/3eb19dd18d4e4253b0fd5a8f29f3b215.json": "f31b9184eb0d6ee51eb68d9a00569e668eea722b4f3f96a7a82de5110c7c4e3d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/5d342137e1ef4c9d8d198a2fa6e8a9eb.json": "7e3fed64ec6798a9efc266c29c5a4b0ba98a1d1d7bf0d63c318e3f7583affcf9",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/6d563af31078442fb8bc04fb2ad63dd7.json": "5048b6ad4ce0f6212b48d3a19ef49c8f127ea319cff137a81e46598a0a973e10",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/88167dfca4e0418f9be827a639b34599.json": "dec9c1bdd2462d66ad54a79cc90d3adcdc83d0b009e4097edc6ac4d2cb18e411",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/885aed2e7bbb4c16b11493f1bc68866d.json": "56f4c9b96b98591d3d68efdf6c897ca82e19b339da0904828ce5fbc05234d42d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/96fda46fef8641e7a25cf95a8b99c7bb.json": "abee4eee4ba305e10b350d7ac96eb678d4fe30822dfdcfb7097d6661581d513e",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/a711189e66004899938a58f8dd8b46c8.json": "2cf50c8be031fdbf7ec8f2d61c452f873d66d259cc37897272ab430f4cea9f0d",
+    "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/ticks/b8d74a431f4b4d9680aae28f1b995812.json": "19d51ffb87023b94a9342c3d83863567a3c5d84f5b88a41405a07a4f024abffa",
+    "docs/model-watch/daily/2026-10-25-catalogs.json": "b450a1eccbbbd21eb6ac3ea16e9a88dee3d32272f161118afbcb88ca60fa4a96",
+    "docs/model-watch/daily/2026-10-25.md": "feef188d945ec997c6d30ee86b639123811c27e1805a2b4c73d78e2c17f92d85",
+    "docs/model-watch/daily/2026-10-27-catalogs.json": "a7669f44e97ede9659514804b84e6df38dacd4cbeee13ec86a22fd0977440c5e",
+    "docs/model-watch/daily/2026-10-27.md": "afd98baf383daa705fe88b7251447027c6c14265f30df0e6da1c51d8ae824650",
+    "docs/model-watch/daily/2026-10-28-catalogs.json": "8962b7d271588c3fcaa8bd8450c0aacb30a67e3e2c86b55a6fc0234b8cfbf7d5",
+    "docs/model-watch/daily/2026-10-28.md": "1709234e9a48293fe6794080336db5823e9fb3ad219eac3aa44a64c0897faea1",
+    "docs/model-watch/daily/2026-10-29-catalogs.json": "6e96b897708ee41001256fd63e372ce1d0bd07ada528e5f6c41314207ca3c590",
+    "docs/model-watch/daily/2026-10-29.md": "55afa6a20fe98d177418fc5d6daa0283978acf10a2b390a6d20d08196170c411",
+    "docs/model-watch/daily/2026-10-30-catalogs.json": "1b14950bbbebda7d076c22525145ae0ae7584c896fe3dbb93b8da5bed3240938",
+    "docs/model-watch/daily/2026-10-30.md": "d0b540094df20a69d5c08e592526b45a4544e45ad0870f073555ab27849be26c"
+  },
+  "job_disabled_readback": true,
+  "job_running": false,
+  "limitations": [
+    "No live below20 or exactly20 observation; offline controls tested separately",
+    "Quota unavailable reason discarded by wrapper, not reconstructable",
+    "Same-day price and limit differences require freshness handling; IDs equal is not row equivalence",
+    "Seven complete natural dates not achieved; no extension or replay",
+    "Token savings unmeasured; daily AI scout independently fetched throughout",
+    "Receipts have no trigger provenance field; near-slot ticks are consistent with natural schedule, not independently attested by persisted launchd trigger IDs",
+    "No historical disk-free telemetry; no scheduled I/O errors recorded"
+  ],
+  "offline_controls": {
+    "below20_blocks_exact20_allows_unknown_skips": true,
+    "network_or_native_account_calls": false,
+    "quota_tests": 21,
+    "result": "pass",
+    "shadow_tests": 11
+  },
+  "protected_after_sha256": {
+    "/Users/cam/.codex/automations/daily-sota-model-scout/automation.toml": "47b7faed680ff9ae0a6a3180805f46cad3b78c13c60e63e29edfae03ec0f4b77",
+    "docs/model-watch/evaluated-models.md": "61bf521daa6a67c9e45289e7f9a38c436cd733b41850c353608c3a35903a2b88"
+  },
+  "protected_before_sha256": {
+    "/Users/cam/.codex/automations/daily-sota-model-scout/automation.toml": "47b7faed680ff9ae0a6a3180805f46cad3b78c13c60e63e29edfae03ec0f4b77",
+    "docs/model-watch/evaluated-models.md": "61bf521daa6a67c9e45289e7f9a38c436cd733b41850c353608c3a35903a2b88"
+  },
+  "recommendation": "Fix quota diagnostic retention and consumer freshness/fallback contract before requesting a new bounded qualification; do not integrate Stage C now.",
+  "review_followup_deleted": true,
+  "review_validation": {
+    "local_report_evidence_links_exist": true,
+    "quota_shadow_controls": 32,
+    "source_and_protected_hashes_unchanged": true
+  },
+  "runs": [
+    {
+      "comparison": {
+        "decisions": {
+          "changed_rows_at_scout": [],
+          "collector_delta_added": [],
+          "collector_delta_changed_count": 0,
+          "collector_delta_removed": [],
+          "freshness_at_report_seconds": 897.444,
+          "id_sets_equal": true,
+          "omitted_rows": 0,
+          "rows": 30
+        },
+        "general": {
+          "changed_rows_at_scout": [
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "~moonshotai/kimi-latest",
+              "new_canonical_slug": "~moonshotai/kimi-latest",
+              "old_canonical_slug": "~moonshotai/kimi-latest"
+            }
+          ],
+          "collector_delta_added": [],
+          "collector_delta_changed_count": 0,
+          "collector_delta_removed": [],
+          "freshness_at_report_seconds": 897.774,
+          "id_sets_equal": true,
+          "omitted_rows": 427,
+          "rows": 467
+        }
+      },
+      "date": "2026-10-25",
+      "omitted_delta_details": 0,
+      "quota_remaining": [
+        100.0
+      ],
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 1047,
+        "mode": "collect",
+        "model_calls": 0,
+        "packet_bytes": 2972,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/packet.json",
+        "requests": 2,
+        "response_bytes": 818913,
+        "run_id": "20261025T134505Z-ad8f024a9097",
+        "status": "complete",
+        "version": 1
+      },
+      "review_backlog_count": 1,
+      "run_id": "20261025T134505Z-ad8f024a9097"
+    },
+    {
+      "comparison": {
+        "decisions": {
+          "changed_rows_at_scout": [],
+          "collector_delta_added": [],
+          "collector_delta_changed_count": 1,
+          "collector_delta_removed": [
+            "inception/mercury-decide:free"
+          ],
+          "freshness_at_report_seconds": 1221.015,
+          "id_sets_equal": true,
+          "omitted_rows": 0,
+          "rows": 29
+        },
+        "general": {
+          "changed_rows_at_scout": [
+            {
+              "fields": [
+                "/pricing/completion",
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "deepseek/deepseek-v4-pro",
+              "new_canonical_slug": "deepseek/deepseek-v4-pro-20260423",
+              "old_canonical_slug": "deepseek/deepseek-v4-pro-20260423"
+            },
+            {
+              "fields": [
+                "/pricing/prompt"
+              ],
+              "id": "moonshotai/kimi-k2.7-code",
+              "new_canonical_slug": "moonshotai/kimi-k2.7-code-20260612",
+              "old_canonical_slug": "moonshotai/kimi-k2.7-code-20260612"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "moonshotai/kimi-k3",
+              "new_canonical_slug": "moonshotai/kimi-k3-20260715",
+              "old_canonical_slug": "moonshotai/kimi-k3-20260715"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read"
+              ],
+              "id": "nousresearch/hermes-4-405b",
+              "new_canonical_slug": "nousresearch/hermes-4-405b",
+              "old_canonical_slug": "nousresearch/hermes-4-405b"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read"
+              ],
+              "id": "nvidia/nemotron-3-nano-30b-a3b",
+              "new_canonical_slug": "nvidia/nemotron-3-nano-30b-a3b",
+              "old_canonical_slug": "nvidia/nemotron-3-nano-30b-a3b"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read"
+              ],
+              "id": "qwen/qwen3-30b-a3b-instruct-2507",
+              "new_canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+              "old_canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "~deepseek/deepseek-pro-latest",
+              "new_canonical_slug": "~deepseek/deepseek-pro-latest",
+              "old_canonical_slug": "~deepseek/deepseek-pro-latest"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "~moonshotai/kimi-latest",
+              "new_canonical_slug": "~moonshotai/kimi-latest",
+              "old_canonical_slug": "~moonshotai/kimi-latest"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "~z-ai/glm-flash-latest",
+              "new_canonical_slug": "~z-ai/glm-flash-latest",
+              "old_canonical_slug": "~z-ai/glm-flash-latest"
+            }
+          ],
+          "collector_delta_added": [
+            "openai/gpt-6.1-terra",
+            "openai/gpt-6.1-terra-pro",
+            "openai/gpt-6.1-terra-pro:batch",
+            "openai/gpt-6.1-terra:batch"
+          ],
+          "collector_delta_changed_count": 194,
+          "collector_delta_removed": [
+            "arcee-ai/trinity-large-thinking",
+            "ibm-granite/granite-4.0-h-micro",
+            "mistralai/codestral-2508:batch",
+            "mistralai/ministral-8b-2512:batch",
+            "mistralai/mistral-large-2512:batch",
+            "mistralai/mistral-medium-3.1:batch",
+            "mistralai/mistral-small-2603:batch",
+            "nvidia/nemotron-3-super-120b-a12b:free"
+          ],
+          "freshness_at_report_seconds": 1221.266,
+          "id_sets_equal": true,
+          "omitted_rows": 423,
+          "rows": 463
+        }
+      },
+      "date": "2026-10-27",
+      "omitted_delta_details": 208,
+      "quota_remaining": [
+        55.0
+      ],
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 668,
+        "mode": "collect",
+        "model_calls": 0,
+        "packet_bytes": 2964,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/packet.json",
+        "requests": 2,
+        "response_bytes": 812078,
+        "run_id": "20261027T134507Z-b5fd3f2076bd",
+        "status": "complete",
+        "version": 1
+      },
+      "review_backlog_count": 2,
+      "run_id": "20261027T134507Z-b5fd3f2076bd"
+    },
+    {
+      "comparison": {
+        "decisions": {
+          "changed_rows_at_scout": [],
+          "collector_delta_added": [
+            "liquid/d1.1",
+            "~liquid/d1-latest",
+            "~liquid/d1-ultra-latest"
+          ],
+          "collector_delta_changed_count": 3,
+          "collector_delta_removed": [
+            "baseten/elephant-1:free",
+            "baseten/mammoth-1:free"
+          ],
+          "freshness_at_report_seconds": 966.45,
+          "id_sets_equal": true,
+          "omitted_rows": 0,
+          "rows": 30
+        },
+        "general": {
+          "changed_rows_at_scout": [
+            {
+              "fields": [
+                "/pricing/completion",
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "deepseek/deepseek-v4-pro",
+              "new_canonical_slug": "deepseek/deepseek-v4-pro-20260423",
+              "old_canonical_slug": "deepseek/deepseek-v4-pro-20260423"
+            },
+            {
+              "fields": [
+                "/pricing/prompt"
+              ],
+              "id": "moonshotai/kimi-k2.7-code",
+              "new_canonical_slug": "moonshotai/kimi-k2.7-code-20260612",
+              "old_canonical_slug": "moonshotai/kimi-k2.7-code-20260612"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "moonshotai/kimi-k3",
+              "new_canonical_slug": "moonshotai/kimi-k3-20260715",
+              "old_canonical_slug": "moonshotai/kimi-k3-20260715"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "~deepseek/deepseek-pro-latest",
+              "new_canonical_slug": "~deepseek/deepseek-pro-latest",
+              "old_canonical_slug": "~deepseek/deepseek-pro-latest"
+            },
+            {
+              "fields": [
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "~moonshotai/kimi-latest",
+              "new_canonical_slug": "~moonshotai/kimi-latest",
+              "old_canonical_slug": "~moonshotai/kimi-latest"
+            }
+          ],
+          "collector_delta_added": [
+            "prism-ml/ternary-bonsai-2-9b"
+          ],
+          "collector_delta_changed_count": 298,
+          "collector_delta_removed": [],
+          "freshness_at_report_seconds": 966.658,
+          "id_sets_equal": true,
+          "omitted_rows": 424,
+          "rows": 464
+        }
+      },
+      "date": "2026-10-28",
+      "omitted_delta_details": 307,
+      "quota_remaining": [
+        100.0
+      ],
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 669,
+        "mode": "collect",
+        "model_calls": 0,
+        "packet_bytes": 2974,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/packet.json",
+        "requests": 2,
+        "response_bytes": 805423,
+        "run_id": "20261028T134506Z-4e9571933c13",
+        "status": "complete",
+        "version": 1
+      },
+      "review_backlog_count": 3,
+      "run_id": "20261028T134506Z-4e9571933c13"
+    },
+    {
+      "comparison": {
+        "decisions": {
+          "changed_rows_at_scout": [],
+          "collector_delta_added": [
+            "baseten/elephant-1",
+            "baseten/mammoth-1"
+          ],
+          "collector_delta_changed_count": 1,
+          "collector_delta_removed": [],
+          "freshness_at_report_seconds": 1096.651,
+          "id_sets_equal": true,
+          "omitted_rows": 0,
+          "rows": 32
+        },
+        "general": {
+          "changed_rows_at_scout": [
+            {
+              "fields": [
+                "/pricing/completion",
+                "/pricing/input_cache_read",
+                "/pricing/prompt",
+                "/top_provider/max_completion_tokens"
+              ],
+              "id": "~deepseek/deepseek-v4-flash-latest",
+              "new_canonical_slug": "~deepseek/deepseek-v4-flash-latest",
+              "old_canonical_slug": "~deepseek/deepseek-v4-flash-latest"
+            }
+          ],
+          "collector_delta_added": [
+            "particle-ai/particle-1"
+          ],
+          "collector_delta_changed_count": 172,
+          "collector_delta_removed": [
+            "openai/gpt-4-turbo",
+            "openai/o1",
+            "openai/o1-pro",
+            "openai/o3-mini",
+            "openai/o3-mini-high",
+            "openai/o4-mini",
+            "openai/o4-mini-high",
+            "qwen/qwen3-next-80b-a3b-thinking"
+          ],
+          "freshness_at_report_seconds": 1097.195,
+          "id_sets_equal": true,
+          "omitted_rows": 417,
+          "rows": 457
+        }
+      },
+      "date": "2026-10-29",
+      "omitted_delta_details": 184,
+      "quota_remaining": [
+        78.0
+      ],
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 1381,
+        "mode": "collect",
+        "model_calls": 0,
+        "packet_bytes": 3018,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/packet.json",
+        "requests": 2,
+        "response_bytes": 798396,
+        "run_id": "20261029T134517Z-4983e5a8e129",
+        "status": "complete",
+        "version": 1
+      },
+      "review_backlog_count": 4,
+      "run_id": "20261029T134517Z-4983e5a8e129"
+    },
+    {
+      "comparison": {
+        "decisions": {
+          "changed_rows_at_scout": [],
+          "collector_delta_added": [
+            "baseten/joey-1",
+            "cloudflare/clairic"
+          ],
+          "collector_delta_changed_count": 2,
+          "collector_delta_removed": [],
+          "freshness_at_report_seconds": 1191.537,
+          "id_sets_equal": true,
+          "omitted_rows": 0,
+          "rows": 34
+        },
+        "general": {
+          "changed_rows_at_scout": [
+            {
+              "fields": [
+                "/pricing/prompt"
+              ],
+              "id": "particle-ai/particle-1",
+              "new_canonical_slug": "particle-ai/particle-1-20261027",
+              "old_canonical_slug": "particle-ai/particle-1-20261027"
+            },
+            {
+              "fields": [
+                "/pricing/completion",
+                "/pricing/input_cache_read",
+                "/pricing/prompt",
+                "/top_provider/max_completion_tokens"
+              ],
+              "id": "z-ai/glm-5.3-flash",
+              "new_canonical_slug": "z-ai/glm-5.3-flash-20260826",
+              "old_canonical_slug": "z-ai/glm-5.3-flash-20260826"
+            },
+            {
+              "fields": [
+                "/pricing/completion",
+                "/pricing/input_cache_read",
+                "/pricing/prompt"
+              ],
+              "id": "~deepseek/deepseek-v4-flash-latest",
+              "new_canonical_slug": "~deepseek/deepseek-v4-flash-latest",
+              "old_canonical_slug": "~deepseek/deepseek-v4-flash-latest"
+            },
+            {
+              "fields": [
+                "/pricing/completion"
+              ],
+              "id": "~moonshotai/kimi-latest",
+              "new_canonical_slug": "~moonshotai/kimi-latest",
+              "old_canonical_slug": "~moonshotai/kimi-latest"
+            },
+            {
+              "fields": [
+                "/pricing/completion",
+                "/pricing/input_cache_read",
+                "/pricing/prompt",
+                "/top_provider/max_completion_tokens"
+              ],
+              "id": "~z-ai/glm-flash-latest",
+              "new_canonical_slug": "~z-ai/glm-flash-latest",
+              "old_canonical_slug": "~z-ai/glm-flash-latest"
+            }
+          ],
+          "collector_delta_added": [],
+          "collector_delta_changed_count": 142,
+          "collector_delta_removed": [
+            "upstage/solar-pro-3"
+          ],
+          "freshness_at_report_seconds": 1191.804,
+          "id_sets_equal": true,
+          "omitted_rows": 416,
+          "rows": 456
+        }
+      },
+      "date": "2026-10-30",
+      "omitted_delta_details": 147,
+      "quota_remaining": [
+        69.0
+      ],
+      "receipt": {
+        "dispatches": 0,
+        "elapsed_ms": 1058,
+        "mode": "collect",
+        "model_calls": 0,
+        "packet_bytes": 3056,
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/packet.json",
+        "requests": 2,
+        "response_bytes": 800719,
+        "run_id": "20261030T134507Z-acab669bc010",
+        "status": "complete",
+        "version": 1
+      },
+      "review_backlog_count": 5,
+      "run_id": "20261030T134507Z-acab669bc010"
+    }
+  ],
+  "runtime_hashes_match": true,
+  "status": "review_complete_defer_integration",
+  "stderr_bytes": 0,
+  "tick_history": [
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-23",
+      "model_calls": 0,
+      "observed_at": "2026-10-23T17:26:57.844775+00:00",
+      "status": "outside_window",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-23",
+      "model_calls": 0,
+      "observed_at": "2026-10-23T17:48:55.310981+00:00",
+      "status": "outside_window",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-23",
+      "model_calls": 0,
+      "observed_at": "2026-10-24T05:16:25.893454+00:00",
+      "status": "outside_window",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-24",
+      "model_calls": 0,
+      "observed_at": "2026-10-24T13:45:28.858127+00:00",
+      "quota": {
+        "assessed_windows": [],
+        "status": "unavailable"
+      },
+      "status": "quota_unavailable",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "collection": {
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261025T134505Z-ad8f024a9097/packet.json",
+        "requests": 2,
+        "response_bytes": 818913,
+        "run_id": "20261025T134505Z-ad8f024a9097",
+        "status": "complete"
+      },
+      "dispatches": 0,
+      "local_date": "2026-10-25",
+      "model_calls": 0,
+      "observed_at": "2026-10-25T13:45:02.883221+00:00",
+      "quota": {
+        "assessed_windows": [
+          {
+            "duration_mins": 10080,
+            "remaining_percent": 100.0
+          }
+        ],
+        "status": "eligible"
+      },
+      "status": "collected_complete",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-26",
+      "model_calls": 0,
+      "observed_at": "2026-10-26T13:45:33.565536+00:00",
+      "quota": {
+        "assessed_windows": [],
+        "status": "unavailable"
+      },
+      "status": "quota_unavailable",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-26",
+      "model_calls": 0,
+      "observed_at": "2026-10-27T04:19:10.022533+00:00",
+      "status": "missed_window",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "collection": {
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261027T134507Z-b5fd3f2076bd/packet.json",
+        "requests": 2,
+        "response_bytes": 812078,
+        "run_id": "20261027T134507Z-b5fd3f2076bd",
+        "status": "complete"
+      },
+      "dispatches": 0,
+      "local_date": "2026-10-27",
+      "model_calls": 0,
+      "observed_at": "2026-10-27T13:45:06.093961+00:00",
+      "quota": {
+        "assessed_windows": [
+          {
+            "duration_mins": 10080,
+            "remaining_percent": 55.0
+          }
+        ],
+        "status": "eligible"
+      },
+      "status": "collected_complete",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-27",
+      "model_calls": 0,
+      "observed_at": "2026-10-28T01:20:05.219007+00:00",
+      "status": "missed_window",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "collection": {
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261028T134506Z-4e9571933c13/packet.json",
+        "requests": 2,
+        "response_bytes": 805423,
+        "run_id": "20261028T134506Z-4e9571933c13",
+        "status": "complete"
+      },
+      "dispatches": 0,
+      "local_date": "2026-10-28",
+      "model_calls": 0,
+      "observed_at": "2026-10-28T13:45:04.718731+00:00",
+      "quota": {
+        "assessed_windows": [
+          {
+            "duration_mins": 10080,
+            "remaining_percent": 100.0
+          }
+        ],
+        "status": "eligible"
+      },
+      "status": "collected_complete",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-28",
+      "model_calls": 0,
+      "observed_at": "2026-10-28T22:58:55.768357+00:00",
+      "status": "missed_window",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "dispatches": 0,
+      "local_date": "2026-10-28",
+      "model_calls": 0,
+      "observed_at": "2026-10-29T01:49:23.682811+00:00",
+      "status": "missed_window",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "collection": {
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261029T134517Z-4983e5a8e129/packet.json",
+        "requests": 2,
+        "response_bytes": 798396,
+        "run_id": "20261029T134517Z-4983e5a8e129",
+        "status": "complete"
+      },
+      "dispatches": 0,
+      "local_date": "2026-10-29",
+      "model_calls": 0,
+      "observed_at": "2026-10-29T13:45:07.615750+00:00",
+      "quota": {
+        "assessed_windows": [
+          {
+            "duration_mins": 10080,
+            "remaining_percent": 78.0
+          }
+        ],
+        "status": "eligible"
+      },
+      "status": "collected_complete",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "collection": {
+        "packet_ref": "/Users/cam/.local/state/conductor/model-watch-shadow-20261024/collector/runs/20261030T134507Z-acab669bc010/packet.json",
+        "requests": 2,
+        "response_bytes": 800719,
+        "run_id": "20261030T134507Z-acab669bc010",
+        "status": "complete"
+      },
+      "disabled": true,
+      "dispatches": 0,
+      "local_date": "2026-10-30",
+      "model_calls": 0,
+      "observed_at": "2026-10-30T13:45:06.335146+00:00",
+      "quota": {
+        "assessed_windows": [
+          {
+            "duration_mins": 10080,
+            "remaining_percent": 69.0
+          }
+        ],
+        "status": "eligible"
+      },
+      "status": "collected_complete",
+      "version": 1
+    },
+    {
+      "campaign": "com.copperdogma.conductor.model-watch-shadow",
+      "disabled": true,
+      "dispatches": 0,
+      "local_date": "2026-10-31",
+      "model_calls": 0,
+      "observed_at": "2026-10-31T06:05:04.657427+00:00",
+      "status": "expired",
+      "version": 1
+    }
+  ],
+  "totals": {
+    "complete_dates": 5,
+    "dispatches": 0,
+    "model_calls": 0,
+    "packet_bytes": [
+      2972,
+      2964,
+      2974,
+      3018,
+      3056
+    ],
+    "preparation_ms": 4823,
+    "quota_unavailable_dates": 2,
+    "requests": 10,
+    "response_bytes": 4035529
+  }
+}

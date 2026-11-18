@@ -1,0 +1,38 @@
+[
+  {
+    "owner": "docweb",
+    "worktree": "/Users/cam/.codex/worktrees/scout102-docweb-20261023",
+    "branch": "codex/scout102-kimi-docweb-20261023",
+    "base": "ec0043b0a7785719ad900852b076d812775e49cd"
+  },
+  {
+    "owner": "dossier",
+    "worktree": "/Users/cam/.codex/worktrees/scout102-dossier-20261023",
+    "branch": "codex/scout102-kimi-dossier-20261023",
+    "base": "c10156c599735855f25473f3fd7cc33133f12def"
+  },
+  {
+    "owner": "bgi",
+    "worktree": "/Users/cam/.codex/worktrees/scout102-bgi-20261023",
+    "branch": "codex/scout102-kimi-bgi-20261023",
+    "base": "8131438336ed08bfb033db338c39da8d9a9efc3f"
+  },
+  {
+    "owner": "cine",
+    "worktree": "/Users/cam/.codex/worktrees/scout102-cine-20261023",
+    "branch": "codex/scout102-kimi-cine-20261023",
+    "base": "b6fe8319a8944027f8b4b988dc0caec4b980e228"
+  },
+  {
+    "owner": "storybook",
+    "worktree": "/Users/cam/.codex/worktrees/scout102-storybook-20261023",
+    "branch": "codex/scout102-kimi-storybook-20261023",
+    "base": "044f3a9af8201929a5c0d9716556de55a53cd49a"
+  },
+  {
+    "owner": "echo",
+    "worktree": "/Users/cam/.codex/worktrees/scout102-echo-20261023",
+    "branch": "codex/scout102-kimi-echo-20261023",
+    "base": "bb91a27bf410375e5bc03b2c7dd30a770a14b217"
+  }
+]

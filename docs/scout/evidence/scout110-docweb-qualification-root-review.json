@@ -1,0 +1,116 @@
+{
+  "scope": "Independent root source review and exact native crop verification before any subject outputs",
+  "cases": [
+    {
+      "case": "H01",
+      "source_sha256": "24de631679437eaef2f8a5f10bbc884a7f1e98b4e5e00b2d097d08bd5770df51",
+      "crop_sha256": "f692c4e7e62e7323c7187a2f07f9d2b8e1f739ed265cf44b00c29885f5671187",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "crop_dimensions": [
+        480,
+        480
+      ],
+      "exact_native_crop_replay": true,
+      "source_review": "accepted physical source/glyph/ownership truth"
+    },
+    {
+      "case": "H02",
+      "source_sha256": "24de631679437eaef2f8a5f10bbc884a7f1e98b4e5e00b2d097d08bd5770df51",
+      "crop_sha256": "71929b40f40dfe1cec40a5dca6874b34d8e35c62efd50bba579527b1fbd3e000",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "crop_dimensions": [
+        480,
+        395
+      ],
+      "exact_native_crop_replay": true,
+      "source_review": "accepted physical source/glyph/ownership truth"
+    },
+    {
+      "case": "H03",
+      "source_sha256": "195a12ed9f13638d8d224f80f35a9c0e1526fb872ddd030f97ef0049f26ac7b4",
+      "crop_sha256": "0a06e3546db806fc4ebb7f3356498978eb31ee0f3155e9153d4b783ebe1fbf8b",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "crop_dimensions": [
+        710,
+        370
+      ],
+      "exact_native_crop_replay": true,
+      "source_review": "accepted physical source/glyph/ownership truth"
+    },
+    {
+      "case": "H04",
+      "source_sha256": "9fd10bfe844e7a437d2651ddaa234ccc6801438ede13cccbe283bca4bef4ecb9",
+      "crop_sha256": "a5b469d1c1b0339c7dbbc4ecf85745b53d05126ecfe1d757ff74074c8fc671ca",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "crop_dimensions": [
+        660,
+        340
+      ],
+      "exact_native_crop_replay": true,
+      "source_review": "accepted physical source/glyph/ownership truth"
+    },
+    {
+      "case": "H05",
+      "source_sha256": "8bdb9f868e9846b30ec83c6b9fc2899adc13fadf3353415924b7ec85f7bd699b",
+      "crop_sha256": "761340c636e2d5d167f0d9e5a55f1a45114462c283b3ec725ff82f9c235fb48e",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "crop_dimensions": [
+        660,
+        340
+      ],
+      "exact_native_crop_replay": true,
+      "source_review": "accepted as policy-only ambiguity contrast"
+    },
+    {
+      "case": "H06",
+      "source_sha256": "121495f69a3d6efa59d5ee2e0c929e4d7dacc6c80a75a47285d0b1236f845894",
+      "crop_sha256": "59a2db6e33041bc1b29d828014aec5d1264648a18cc1df59381baf99a82bce32",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "crop_dimensions": [
+        520,
+        495
+      ],
+      "exact_native_crop_replay": true,
+      "source_review": "accepted physical source/glyph/ownership truth"
+    },
+    {
+      "case": "H07",
+      "source_sha256": "570252968cff32880bd0004ce93861aea409c6d91d14396a0636d6209fa9c5cb",
+      "crop_sha256": "20cb3a4670e52839d92ffdcbb3860cbb6a4d15a53615e69cc3fcff8faed1e5f2",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "crop_dimensions": [
+        700,
+        640
+      ],
+      "exact_native_crop_replay": true,
+      "source_review": "accepted physical source/glyph/ownership truth"
+    }
+  ],
+  "limitations": [
+    "H05 is unresolved grouping policy, not proven physical clipping/leakage",
+    "new synthetic renderer family is prospective confirmation, not realistic scan/population proof",
+    "existing22 classifier cases and previousS3/S4 are exposed",
+    "offline mock/replay caller mechanics cannot establish genuine Meta receipt or live policy"
+  ]
+}

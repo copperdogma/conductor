@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-11-17 — Recover valuable shared-checkout work
+
+- Preserve dated model-evaluation and daily source research, with corrected
+  historical/current status and token-bearing raw captures kept local.
+- Recover Fly diagnostics/runbook notes and the prior coverage audit, preserving
+  actual owner landings and uncertainty rather than reviving stale proposals.
+- Strengthen strategic loop review around cumulative investment and real
+  downstream outcomes; retain current staffing and spend controls.
+
+
 ## 2026-11-17 — GPT-6.2 Sol evaluation and full replacement policy
 
 - Complete the five-owner Scout117 campaign and land Sol6.2 as Doc Web's normal

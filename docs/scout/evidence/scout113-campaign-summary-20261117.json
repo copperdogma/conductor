@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-17",
+  "model": "liquid/d1.2-ultra-20261116",
+  "route_alias": "liquid/d1.2-ultra",
+  "provider": "OpenRouter/Liquid",
+  "automation_id": "check-d1-2-ultra-on-openrouter",
+  "automation_disposition": "deleted after exact availability trigger",
+  "known_usd": "0.263734744",
+  "unknown_upper_usd": "0.028630002",
+  "conservative_total_usd": "0.292364746",
+  "cap_usd": "9",
+  "owners": [
+    {
+      "project": "dossier",
+      "known_usd": "0.220192770",
+      "unknown_upper_usd": "0.000271404",
+      "cap_usd": "4",
+      "verdict": "Promising conditional screen; retain current runtime/policy.",
+      "evidence": "/Users/cam/.codex/worktrees/d12-ultra-20261117/dossier/docs/evals/artifacts/scout113-d12-ultra-20261117/owner-verdict.json"
+    },
+    {
+      "project": "echo-forge",
+      "known_usd": "0.037114992",
+      "unknown_upper_usd": "0.027648",
+      "cap_usd": "1",
+      "verdict": "Qualified optional classifier replacement; default-off patch ready for separate landing.",
+      "evidence": "/Users/cam/.codex/worktrees/d12-ultra-20261117/echo-forge/docs/evals/evidence/scout113/owner-verdict.json"
+    },
+    {
+      "project": "boardgame-ingester",
+      "known_usd": "0.00002163",
+      "unknown_upper_usd": "0",
+      "cap_usd": "1",
+      "verdict": "Reject tested orientation arm; retain previously qualified Google option and Sol/joint defaults.",
+      "evidence": "/Users/cam/.codex/worktrees/d12-ultra-20261117/boardgame-ingester/benchmarks/results/scout113-d12-ultra-20261117/summary.json"
+    },
+    {
+      "project": "storybook",
+      "known_usd": "0.003099332",
+      "unknown_upper_usd": "0",
+      "cap_usd": ".5",
+      "verdict": "Retain Luna; component quality/cost lead lacks reachable consumer payoff.",
+      "evidence": "/Users/cam/.codex/worktrees/d12-ultra-20261117/storybook/docs/evals/artifacts/scout113-20261117/summary.json"
+    },
+    {
+      "project": "doc-web",
+      "known_usd": "0.003306020",
+      "unknown_upper_usd": "0.000710598",
+      "cap_usd": "2.5",
+      "verdict": "Retain Google raw-quality reference/current planner; geometry transport unsupported and capability unmeasured.",
+      "evidence": "/Users/cam/.codex/worktrees/d12-ultra-20261117/doc-web/docs/evals/evidence/096-d12/owner-verdict.json"
+    }
+  ],
+  "keys": {
+    "temporary_central_openrouter": [
+      "boardgame-ingester",
+      "storybook"
+    ],
+    "cleanup": "helper-removed; task env absence independently verified",
+    "cross_owner_google_reuse": "not performed; request became unnecessary after absolute quality failure"
+  },
+  "worktree_accounting": "scout113-worktrees-20261117.json",
+  "no_defaults_commits_pushes_or_deployment": false,
+  "provider_posts": 7407,
+  "valid_responses": 7403,
+  "nonsemantic_failures": 4,
+  "root_offline_verification": {
+    "dossier": "14304 files,7148 calls, exact native/scorer/accounting replay; primary matrix incomplete explicitly",
+    "echo-forge": "289 hashes,116 receipts/114 valid, native/ledger/consumer gates",
+    "boardgame-ingester": "112 manifest hashes; source/canonical output inspected",
+    "storybook": "62 source/raw hashes; source adjudication inspected",
+    "doc-web": "198 safe plus1 protected hash;86 native choices plus1 schema error; exact scorer/accounting"
+  },
+  "echo_landing": {
+    "commit": "fd9cdd9dccfc9ddc57feb15dcbf51227428d39ae",
+    "remote_main_verified": true,
+    "remote_task_branch_verified": true,
+    "activation": false,
+    "deployment": false,
+    "provider_calls": 0,
+    "validation": "unchanged focused evidence reused; native/ledger verifier, required local deploy:preflight, methodology and whitespace passed"
+  },
+  "activation_or_deployment": false,
+  "scope_note": "Only Echo commit/push separately approved after evaluation; no other owner landed.",
+  "dossier_independent_qualification": {
+    "known_usd": "0.018613092",
+    "unknown_upper_usd": "0",
+    "cap_usd": ".50",
+    "requests": 720,
+    "valid": 720,
+    "status": "closed; reject tested D12/.80, retain Luna/.65 and Story186 hold",
+    "scope": "future supplied-pair component, no src/runtime/private/default change",
+    "report": "/Users/cam/.codex/worktrees/d12-ultra-20261117/dossier/docs/evals/artifacts/d12-independent-qualification-20261117/README.md"
+  },
+  "echo_ui_landing": {
+    "commit": "cd358123addef127f3fa9d5ed2df32253813fad7",
+    "tree": "90db2ab28f4ee67f435e1c9ac7e84dd1fc6fee0a",
+    "remote_main_verified": true,
+    "remote_task_branch_verified": true,
+    "local_head_matches_clean": true,
+    "files": 17,
+    "method": "existing GitHub connector GitDataAPI, exact staged tree equality, expected-head nonforce updates",
+    "default": "Gemini",
+    "server_flag": "off",
+    "deployed": false
+  },
+  "cumulative_known_usd": "0.282347836",
+  "cumulative_conservative_usd": "0.310977838",
+  "echo_direct_adoption_correction": {
+    "instruction": "Use the clearly better Echo classifier directly, no flags or alternate-model fallbacks.",
+    "status": "landed on main, not deployed",
+    "scope": "operative intent only",
+    "runtime_provider": "Liquid/OpenRouter liquid/d1.2-ultra-20261116",
+    "model_selector": "removed",
+    "server_feature_flag": "removed",
+    "failure_behavior": "manual review, no alternative AI model",
+    "normal_echo_input_authority": "Current user correction supersedes earlier optional/off direction after named payload/recipient disclosure.",
+    "deploy_selected": false,
+    "other_owner_decisions_unchanged": true,
+    "commit": "62ba420f584040b0869dcaef69500d6a9449144b",
+    "tree": "5043afc6255ac85074cf028b7427e791fddb249b",
+    "remote_main_verified": true,
+    "remote_task_branch_verified": true,
+    "local_head_matches_clean": true,
+    "provider_calls": 0,
+    "validation": "10 server/native, 32 consumer/HTTP, 4 App, 1 historical CLI; typecheck, lint, methodology, browser reload and whitespace pass",
+    "method": "GitHub connector GitDataAPI, all blob hashes and exact staged tree verified, expected-head nonforce ref updates",
+    "worktree_disposition": "retained clean for source and evidence"
+  }
+}
