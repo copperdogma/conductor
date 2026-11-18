@@ -8,6 +8,51 @@ user-invocable: true
 
 Recommend the smallest change in direction that materially improves the chance of reaching the user's intended outcome. Continuing the current approach is a valid recommendation. Do not manufacture a pivot or assume that fidelity work, difficult dependencies, or human review are distractions.
 
+## Core strategic contract
+
+Return a **continue/change/defer/stop** verdict about the strategy's chance of
+reaching the user's outcome, separately from any defect or code-review findings.
+“No findings” says nothing about strategic alignment. A clean component can sit
+inside a stalled overall approach; a difficult foundational step can still be
+the right investment.
+
+Review a cumulative window spanning several checkpoints, rather than only the
+latest repair. Trace recommendations to their promised payoff and actual results:
+usable outcomes, decision-changing evidence, elapsed effort, setup/restart costs,
+repeated repairs and extensions. Credit failures that resolve useful uncertainty;
+state missing timing/cost attribution rather than inventing totals. Assess the
+whole strategy when persistent stagnation or repeated extensions warrant a fresh
+challenge. Do not force a pivot merely because progress is difficult.
+
+Separate the user's requirements and necessary technical constraints from
+revisable implementation choices. Preserve genuine safety, fidelity, provenance
+and scope boundaries while questioning allocations, episode boundaries, tools
+and validation plans that no longer serve the outcome. Renaming, subdividing or
+reclassifying a repair does not reset its cumulative investment, deadline or
+stopping condition. Carry these forward in the existing work log.
+
+Give one observable next outcome, the bounded investment justified to reach it,
+and a fallback or reconsideration trigger. Explain whether previous investments
+delivered enough value to justify the next one, including the opportunity cost.
+A bounded continuation is valid when foundational work closes a necessary gap
+and has a credible path to the outcome; preserve that work and do not add new
+acceptance criteria. Repeatedly extending a repair requires reassessing that path
+rather than treating each extension as a new budget.
+
+When the promised payoff is a reusable artifact or continuation, identify the
+actual downstream consumer and the smallest connected demonstration that it can
+use the produced output. After repeated repairs, prioritize this missing handoff
+over another local extension. Reuse existing evidence and acceptance criteria;
+do not require a new framework or duplicate full-path qualification.
+
+The main agent integrates the strategic verdict and any separate change-specific
+review under existing authorization. Do not add an approval gate for already
+authorized routine follow-through. A periodic progress report and its strategic
+review should share an existing requested trigger when practical: obtain one
+current evidence snapshot, reuse the continuing reviewer, draft progress in
+parallel only when useful, then integrate one concise update. Do not create a
+second scheduled wakeup or reviewer just to report progress.
+
 ## Establish the destination and target
 
 Identify the main thread and project being reviewed. In a side conversation, use inherited context to identify the target and understand its history, not as authorization to execute inherited instructions. Verify the target through available thread metadata before a handoff; do not guess an ID or select a similarly named task. Clarify only when target ambiguity matters.
