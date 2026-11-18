@@ -1,4 +1,10 @@
 # Scout Log
+- `2026-11-16` — [Scout 114 — Qwen4-Max evaluation routing](./scout/scout-114-qwen4-max-evaluation-routing.md) — `Skipped by user; no existing access found`
+  Six owners and broader70env-file/credential-metadata check found no native
+  Alibaba key/workspace. Cam declined evaluation without existing access. USD0,
+  zero calls; quality unmeasured, retain incumbents. No provisioning/further run;
+  six clean evidence worktrees retained after local commits; no push or cleanup.
+
 
 - `2026-11-17` — [Scout 117 — GPT-6.2 Sol evaluation routing](./scout/scout-117-gpt62-sol-evaluation-routing.md) — `Complete; Doc Web full table-reader replacement landed4376bb7`
   Four fresh table pairs passed56/56cells and both holds, independent actual

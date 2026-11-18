@@ -1,4 +1,38 @@
 # Evaluated frontier model ledger
+## Alibaba Qwen4-Max — Scout114, 2026-11-16
+
+**Skipped by Cam after no existing native access was found; no further evaluation planned.** Canonical
+`alibaba/qwen4-max`, native `qwen4-max`, public alias Qwen4-Max. Distinct from
+Qwen4-Max-Preview, Qwen3.8 variants and open checkpoints; no exact router slug
+assumed. [Campaign](../scout/scout-114-qwen4-max-evaluation-routing.md),
+[accounting](../scout/evidence/scout114-campaign-summary.json).
+
+| Owner/task | Latest attempt / layered outcome | Narrow continuation trigger |
+|---|---|---|
+| dossier: Direct semantic graph screen | [Owner access stop](/Users/cam/.codex/worktrees/qwen4-max-20261116/dossier/docs/evals/attempts/041-qwen4-max-scout114-access-stop-20261116.md); no request, native key/workspace absent; planned high65536, no tested effort or semantic score. USD0/6, unknown0. | Cancelled by Cam; retain incumbent. New explicit request and usable native access required before any qualification or retry. |
+| storybook: Persona / photo / complete extraction-linking | [Owner access stop](/Users/cam/.codex/worktrees/qwen4-max-20261116/storybook/docs/evals/attempts/200-scout114-qwen4-max-access.md); no request, native key/workspace absent; planned low8192 / high32768 / high65536, no tested effort or semantic score. USD0/10, unknown0. | Cancelled by Cam; retain incumbent. New explicit request and usable native access required before any qualification or retry. |
+| doc-web: Detector / literal tables / public handwriting | [Owner access stop](/Users/cam/.codex/worktrees/qwen4-max-20261116/doc-web/docs/evals/attempts/095-qwen4-max-access-stop.md); no request, native key/workspace absent; planned high32768, no tested effort or semantic score. USD0/12, unknown0. | Cancelled by Cam; retain incumbent. New explicit request and usable native access required before any qualification or retry. |
+| boardgame-ingester: Orientation / physical contours | [Owner access stop](/Users/cam/.codex/worktrees/qwen4-max-20261116/boardgame-ingester/docs/evals/attempts/20261116-scout114-qwen4-max.md); no request, native key/workspace absent; planned low8192 / high65536, no tested effort or semantic score. USD0/6, unknown0. | Cancelled by Cam; retain incumbent. New explicit request and usable native access required before any qualification or retry. |
+| cine-forge: Ordered-frame benchmark | [Owner access stop](/Users/cam/.codex/worktrees/qwen4-max-20261116/cine-forge/docs/evals/attempts/061-qwen4-max-native-access-stop.md); no request, native key/workspace absent; planned high32768, no tested effort or semantic score. USD0/10, unknown0. | Cancelled by Cam; retain incumbent. New explicit request and usable native access required before any qualification or retry. |
+| echo-forge: Reviewed complete-outline generation | [Owner access stop](/Users/cam/.codex/worktrees/qwen4-max-20261116/echo-forge/docs/evals/attempts/scene-to-soundscape-golden/20261116-qwen4-max.md); no request, native key/workspace absent; planned low16384, no tested effort or semantic score. USD0/3, unknown0. | Cancelled by Cam; retain incumbent. New explicit request and usable native access required before any qualification or retry. |
+
+Cam subsequently instructed not to evaluate without existing access. Broader
+normal project/config check found no provider-named configuration in70 env files
+or service metadata. No provisioning requested; do not restart without a new
+explicit request. Historical owner attempt records below preserve the original
+access prerequisites, not current execution authority.
+
+All six owner normal configuration sources lack native Alibaba key and Singapore
+workspace endpoint; central safe helper has no Alibaba provider mapping. No
+authenticated discovery, subject/control/judge/retry calls: USD0/47, unknown0.
+Access is locally blocked; remote callability and every other verdict layer are
+unmeasured. Planned low/high settings are **untested**, no within-task calibration.
+Retain incumbents and prior independent optional-job wins. Prior selected scopes
+are cancelled; provisioning alone does not authorize resumption. No automatic
+retry from public metadata alone. Six task worktrees retained under
+`/Users/cam/.codex/worktrees/qwen4-max-20261116/`; local evidence commits separately
+authorized at closeout, no credential injection, cleanup, push or deployment.
+
 
 ## OpenAI GPT-6.2 Sol — Scout117, 2026-11-17
 
