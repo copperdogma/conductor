@@ -1,5 +1,31 @@
 # Evaluated frontier model ledger
 
+## Google Gemini 4 Neon — Scout119, 2026-11-18
+
+Canonical `google/gemini-4-neon`, native `gemini-4-neon`, Google paid Standard
+foreground GenerateContent. November 18 GA, distinct from Hydrogen, Carbon
+and Argon. Exact access and transport qualified in six owners. Fixtures were
+public or authored synthetic. BGI recovered its original `API_KEY_INVALID`
+stop with separately authorized temporary paid Google access. Cleanup verified.
+
+| Owner/task | Tested arm and current decision |
+|---|---|
+| Doc Web handwriting | HIGH/32768, Barney .988125 vs Hydrogen .987415, both below .99. Retain reviewed Hydrogen. |
+| Doc Web assisted crops | HIGH/32768, exact original Image011. Shared signature loss and caption inclusion; keep the incumbent and manual gate. |
+| Dossier namesakes | MEDIUM/8192, both arms reliable on the two snapshots. Neon 3.10× Sol6.2 cost and 2.85× latency. Retain Sol qualification lead. |
+| Storybook extraction | HIGH/65536, LC026 linkage .875 vs Opus4.7 .890, both below .90. Retain production Dossier. |
+| CineForge ordered frames | MEDIUM/4096, first five-frame combined .61095 vs .74575 Sol6.1 and .70785 Luna. Retain references. |
+| Echo Forge outline | LOW/8192, Tavern frozen pass vs both controls' misses. $0.044061/22.257 s versus $0.01/5 s targets. Retain Mini and reviewed Ember. |
+| BGI orientation and contours | LOW/8192 2/3 vs 1/3 for both controls, shared wrong auto-keep on rotated download icon. HIGH/32768 lost 5,132 material pixels vs Sol6.1 1,550, zero leak vs 713. Retain both existing workflows. |
+
+41 physical inference calls, $1.884956775 known plus $0 held against $50.
+One effort per measured task, with no within-task effort calibration. Further
+fixtures and adoption progression stopped at the declared gates. Retry only on a
+material checkpoint, exact-route or owner-contract change that addresses its
+recorded failure or an explicitly selected fresh comparison. New catalog
+metadata alone establishes no new measured trigger.
+[Campaign and owner records](../scout/scout-119-gemini4-neon-evaluation-routing.md#owner-results)
+
 ## ElevenLabs Scribe v3 — Scout115, 2026-11-17
 
 Canonical `elevenlabs/scribe_v3`, native `scribe_v3`; distinct

@@ -1,5 +1,10 @@
 # Scout Log
 
+- `2026-11-18` — [Scout 119 — Gemini 4 Neon evaluation](./scout/scout-119-gemini4-neon-evaluation-routing.md) — `Complete, retain current choices in all six owners`
+  BGI failed the automatic rotation and zero-loss contour gates. 41 inference
+  calls accounted for $1.884956775 with zero held against the USD 50 ceiling.
+  Temporary BGI credential removal verified.
+
 - `2026-11-17` — [Scout 115 — Scribe v3 diarization](./scout/scout-115-scribe3-diarization-evaluation-routing.md) — `Screen complete; retain Scribe v2`
   Three public AMI clips: v3 cpWER19.73% versus v2's19.25%; faster but no
   required quality gain. Reused same-day exact v2 baselines to avoid repeat fees.

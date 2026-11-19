@@ -1,5 +1,7 @@
 # Inbox
 
+- 2026-11-18: Completed the six-owner Gemini 4 Neon evaluation. Keep the current choices in all six projects. The campaign accounted for $1.884956775 across 41 inference calls with no unresolved exposure. Temporary Board Game Ingester credential removal verified. [Scout 119](docs/scout/scout-119-gemini4-neon-evaluation-routing.md).
+
 - 2026-11-17: Cam confirmed renewed ElevenLabs credit and selected Scout115's
   Scribe v3/v2 public diarization screen, then explicitly approved AMI's
   published human-reviewed references without a fresh listening audit. Screen
