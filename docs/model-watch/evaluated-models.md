@@ -1,5 +1,46 @@
 # Evaluated frontier model ledger
 
+## Baseten bison-1 and groundhog-1 — Scout 120, 2026-11-21
+
+Exact served OpenRouter checkpoints `baseten/bison-1-20261120` and
+`baseten/groundhog-1-20261120`. Public aliases `baseten/bison-1` and
+`baseten/groundhog-1`. Direct System One aliases
+`decision-models/baseten-bison-latest` and
+`decision-models/baseten-groundhog-latest` were documented and untested.
+Both dated models qualified on OpenRouter's Decisions API pinned to BaseTen.
+Native default Choice in all owners, with one image in Board Game Ingester
+and synthetic text in Echo Forge and Dossier. No selectable effort or
+within-task effort comparison. One metered output unit at zero output charge.
+[Campaign and direct owner evidence](../scout/scout-120-baseten-bison-groundhog-evaluation-routing.md#approved-execution--november-21-2026).
+
+| Owner and task | bison-1 | groundhog-1 | Decision and reopening condition |
+| --- | --- | --- | --- |
+| Board Game Ingester reviewed orientation | Requested review on the hard image requiring 90° clockwise. | Incorrect automatic keep, as with Gemini. | Both miss the determinate-case gate. Retain reviewed Gemini. Reopen for an exact route or checkpoint change plausibly addressing source-grounded hard rotations. One valid image per arm. Wider quality and production economics unmeasured. |
+| Echo Forge playback intent | 5/8 versus Liquid 6/8, with one false control versus zero. | 12/15 versus Liquid 13/15, with one false control versus zero. | Retain Liquid. Reopen for a change that addresses hypothetical intent and new-sound corrections while preserving recall. Full screen and confirmation unmeasured. |
+| Dossier possible identity | One matched repeat, 17/18 useful for both Bison and Luna with 3 versus 10 false questions. Higher median and p95. | Passed diagnostic and access, with no complete standing repeat. | Retain Luna. Resume the frozen selected scope when the exact OpenRouter route has funded authorized access. Three-repeat, confirmation and deployment fitness unmeasured. Four credit rejections were excluded from quality scoring. |
+
+Campaign known US$0.226954929 plus US$0.001252885 unresolved against
+US$9.45. Dossier confirmation was frozen and independently reviewed before
+first inference. Future work on an unchanged checkpoint should finish the
+funding-blocked Dossier experiment or follow an explicit fresh selection.
+
+**Dossier funded continuation, 2026-11-21.** Groundhog completed the fresh
+three-repeat standing matrix at default native Choice. It found 18/18 useful
+questions versus Luna's 17/18 and raised 23 false questions versus ten, per
+340-pair held-out repeat. Reject it for the tested Dossier policy. Bison matched
+Luna's 17/18 and raised three versus ten false questions in two complete repeats
+but repeatedly hit HTTP 429 on the third repeat, including at one in-flight
+request. Its independent confirmation and full standing gate remain unmeasured.
+Retain Luna and reopen Bison only on stable availability of the same pinned
+checkpoint for the saved remaining matrix. Board Game Ingester and Echo Forge
+decisions hold. Cumulative known US$0.352148429 plus US$0.007805700 held.
+[Continuation and owner evidence](../scout/scout-120-baseten-bison-groundhog-evaluation-routing.md#dossier-continuation--november-21-2026).
+
+**Operator disposition, 2026-11-21.** Cam declined further Bison qualification.
+Retain Luna. The same-checkpoint Dossier wallet is closed. Any future work needs
+explicit fresh selection and sufficient task value to justify the remaining
+proof. The third repeat and independent confirmation remain unmeasured.
+
 ## Google Gemini 4 Neon — Scout119, 2026-11-18
 
 Canonical `google/gemini-4-neon`, native `gemini-4-neon`, Google paid Standard

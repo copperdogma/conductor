@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-21 — Baseten decision model evaluation
+
+- Retain the reviewed Gemini orientation job, Liquid playback intent and
+  Luna possible-identity decisions after comparing bison-1 and groundhog-1.
+- Record the bounded Dossier continuation, Bison's two-repeat result and
+  unmeasured confirmation, and the decision to close the follow-up.
+
 ## 2026-11-17 — Scribe v3 diarization screening
 
 - Record the public AMI comparison and retain Storybook’s Scribe v2: v3 was

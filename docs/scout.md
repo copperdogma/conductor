@@ -1,5 +1,11 @@
 # Scout Log
 
+- `2026-11-21` — [Scout 120 — Baseten bison-1 and groundhog-1](./scout/scout-120-baseten-bison-groundhog-evaluation-routing.md) — `Closed; retain all three incumbents`
+  Groundhog failed Dossier's false-question gate. Bison matched Luna recall
+  with three versus ten false questions in two repeats before rate limits.
+  Cam declined further qualification. US$0.352148429 known plus
+  US$0.007805700 unresolved against US$9.45.
+
 - `2026-11-18` — [Scout 119 — Gemini 4 Neon evaluation](./scout/scout-119-gemini4-neon-evaluation-routing.md) — `Complete, retain current choices in all six owners`
   BGI failed the automatic rotation and zero-loss contour gates. 41 inference
   calls accounted for $1.884956775 with zero held against the USD 50 ceiling.
