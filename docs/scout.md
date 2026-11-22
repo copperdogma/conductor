@@ -1,5 +1,10 @@
 # Scout Log
 
+- `2026-11-22` — [Scout 121 — Perplexity Decider v1.3 and Flash v1.3](./scout/scout-121-perplexity-decider-v13-evaluation-routing.md) — `Complete, retain all three incumbents`
+  Both challengers failed hard cases in orientation and playback intent.
+  Decider won Dossier's standing comparison and failed independent qualification.
+  US$0.220009756 metered, zero unresolved, against US$5.75.
+
 - `2026-11-21` — [Scout 120 — Baseten bison-1 and groundhog-1](./scout/scout-120-baseten-bison-groundhog-evaluation-routing.md) — `Closed; retain all three incumbents`
   Groundhog failed Dossier's false-question gate. Bison matched Luna recall
   with three versus ten false questions in two repeats before rate limits.

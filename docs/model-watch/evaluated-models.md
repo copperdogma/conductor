@@ -1,5 +1,28 @@
 # Evaluated frontier model ledger
 
+## Perplexity Decider v1.3 and Flash v1.3 — Scout 121, 2026-11-22
+
+Canonical native selectors `pplx-decider-v1.3` (27B, alias
+`pplx-decider-latest`) and `pplx-decider-flash-v1.3` (4B, alias
+`pplx-decider-flash-latest`). These are distinct checkpoints and distinct
+from v1.2. Requests pinned the exact selectors on the native Decisions API.
+The response selector is an echo. Immutable served weights remain unverified.
+Both qualified on owner text and image inputs using standard-mode, default
+native Choice. No selectable effort or effort comparison. Production-scale
+availability outside the measured calls remains unmeasured.
+[Campaign and direct owner evidence](../scout/scout-121-perplexity-decider-v13-evaluation-routing.md#approved-execution--november-22-2026).
+
+| Owner and task | Decider v1.3 | Flash v1.3 | Disposition and reopening condition |
+| --- | --- | --- | --- |
+| Board Game Ingester reviewed orientation | 0/1, wrong automatic keep where 90° clockwise was source-required. 404 ms including preprocessing. | Same wrong keep, 470 ms. | Gemini also kept incorrectly in 1,241 ms. Retain the reviewed Gemini job with operator inspection. Remaining images, holds and wider economics unmeasured. Reopen on a new checkpoint or source-backed change that plausibly fixes hard rotations. |
+| Echo Forge playback intent | 3/6 exact, one false control, 480 ms p95. | 4/6 exact, one false control, 250 ms p95. | Liquid 4/6, zero false controls, 434 ms p95. Retain Liquid. Full screen, confirmation and candidate consumer unmeasured. Reopen for a change that addresses hypothetical and discussed actions while preserving operative recall. |
+| Dossier possible identity | Standing 17–18/18 useful, two false per repeat vs Luna 17/18 and ten. p95 650 vs 331 ms. Independent 14–15/19 useful, six false per repeat, precision below 0.75 and 0.375 false per group. | Standing 15/18 useful and three false per repeat. One raw same-person assertion contradicted an explicit spousal relationship, below the operational threshold. p95 354 ms. | Retain Luna. One complete matched independent Luna repeat gave 19/19 useful and four false. Decider failed independent qualification and Flash failed standing recall and source safety. Reopen on a change addressing explicit-denial contrasts and bare-name false questions with independent fixed-threshold verification. |
+
+Campaign completed 11,379 first-attempt valid inference responses for
+US$0.220009756 metered and zero unresolved against US$5.75. Exact scope was
+public or authored synthetic. Real-recipient eligibility is unqualified
+and Story 186 stays held. No unchanged exposed-panel reruns indicated.
+
 ## Baseten bison-1 and groundhog-1 — Scout 120, 2026-11-21
 
 Exact served OpenRouter checkpoints `baseten/bison-1-20261120` and
